@@ -8,3 +8,9 @@ https://www.youtube.com/watch?v=Ayp3UmU0UoU
 
 Regards,
 Mattias Vinberg
+
+Extra! Opensuse Tumbelweed Gnome install via Windows 11
+
+https://www.youtube.com/watch?v=hQ0eIMMUVO8
+
+Instructions - Just Download and follow: 
