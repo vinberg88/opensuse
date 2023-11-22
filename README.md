@@ -2,6 +2,8 @@
 
 How to install KDE plasma Opensuse Tumbelweed - Windows 11 - WSL2
 
+How to install: https://github.com/vinberg88/opensuse/blob/main/Tumbelweed%20installation.txt
+
 ![Tumbelweed Plasma 2](https://github.com/vinberg88/opensuse/assets/94398623/280f0f6f-6083-4a28-bb6a-5b56b11d80dd)
 
 https://www.youtube.com/watch?v=Ayp3UmU0UoU
