@@ -13,4 +13,4 @@ Extra! Opensuse Tumbelweed Gnome install via Windows 11
 
 https://www.youtube.com/watch?v=hQ0eIMMUVO8
 
-Instructions - Just Download and follow: 
+Instructions - Just Download and follow: https://github.com/vinberg88/opensuse/blob/main/Opensuse%20Tumbelweed%20-%20Gnome%20install.txt
