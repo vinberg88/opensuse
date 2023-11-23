@@ -16,5 +16,13 @@ https://www.youtube.com/watch?v=hQ0eIMMUVO8
 
 Instructions - Just Download and follow: https://github.com/vinberg88/opensuse/blob/main/Opensuse%20Tumbelweed%20-%20Gnome%20install.txt
 
+More Candy folks...
+
+How to install Ubuntu 22.04 on Windows 11 WSL
+
+![Ubuntu](https://github.com/vinberg88/opensuse/assets/94398623/3e0a918d-944c-463b-9dbf-3f45b742bb7a)
+
+Instructions: https://github.com/vinberg88/opensuse/blob/main/Ubuntu.txt
+
 Regards,
 Mattias Vinberg
