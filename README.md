@@ -8,7 +8,7 @@ How to install: https://github.com/vinberg88/opensuse/blob/main/Tumbelweed%20ins
 
 https://www.youtube.com/watch?v=Ayp3UmU0UoU
 
-Extra! Opensuse Tumbelweed Gnome install via Windows 11
+#Extra! Opensuse Tumbelweed Gnome install via Windows 11
 
 ![Skärmbild 2023-11-22 165623](https://github.com/vinberg88/opensuse/assets/94398623/5b5a5510-f01b-4016-b7b5-4ef999aaf4b3)
 
@@ -18,7 +18,7 @@ Instructions - Just Download and follow: https://github.com/vinberg88/opensuse/b
 
 More Candy folks...
 
-How to install Ubuntu 22.04 on Windows 11 WSL
+#How to install Ubuntu 22.04 on Windows 11 WSL
 
 ![Ubuntu](https://github.com/vinberg88/opensuse/assets/94398623/3e0a918d-944c-463b-9dbf-3f45b742bb7a)
 
