@@ -22,6 +22,8 @@ How to install Ubuntu 22.04 on Windows 11 WSL
 
 ![Ubuntu](https://github.com/vinberg88/opensuse/assets/94398623/3e0a918d-944c-463b-9dbf-3f45b742bb7a)
 
+Movie: https://www.youtube.com/watch?v=fc8Kl98KXNo
+
 Instructions: https://github.com/vinberg88/opensuse/blob/main/Ubuntu.txt
 
 Regards,
