@@ -1,0 +1,154 @@
+Lets install Rocky Linux 9 via Windows 11 - Pro
+
+1. Paste in terminal: sudo nano /etc/wsl.conf
+
+[boot]
+systemd=true
+
+2. Paste all in terminal
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+3. Reboot and Update: sudo dnf update
+
+4. Log in as root user and paste in terminal. Not all - no stress...
+
+dnf install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm
+rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-9
+dnf install -y https://dl.fedoraproject.org/pub/epel/epel-next-release-latest-9.noarch.rpm
+
+/usr/bin/crb enable
+
+dnf install -y --nogpgcheck https://mirrors.rpmfusion.org/free/el/rpmfusion-free-release-9.noarch.rpm https://mirrors.rpmfusion.org/nonfree/el/rpmfusion-nonfree-release-9.noarch.rpm
+rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-free-el-9
+rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-nonfree-el-9
+
+dnf check-update -y
+
+dnf install git wget curl nano bash pipx sudo dracut dmraid
+dnf install git wget curl nano bash pipx sudo dracut net-tools dbus-x11
+
+dnf upgrade -y
+dnf install -y systemd dbus-x11 procps bind-utils iproute iputils nmap-ncat
+dnf swap -y curl-minimal curl
+dnf swap -y coreutils-single coreutils
+dnf groupinstall -y "Server with GUI"
+
+yum install gnome*
+yum install xorg*
+yum install gdm*
+
+dnf install -y gnome-extensions-app gnome-shell-extension-dash-to-dock
+dnf install -y gnome-shell-extension-window-list dconf-editor
+
+dnf check-update -y
+dnf install -y ffmpeg
+
+mkdir -p /etc/polkit-1/localauthority/50-local.d/
+cat >/etc/polkit-1/localauthority/50-local.d/color.pkla <<'EOF'
+[Allow colord for all users]
+Identity=unix-user:*
+Action=org.freedesktop.color-manager.create-device;org.freedesktop.color-manager.create-profile;org.freedesktop.color-manager.delete-device;org.freedesktop.color-manager.delete-profile;org.freedesktop.color-manager.modify-device; org.freedesktop.color-manager.org.freedesktop.color-manager.modify-profile
+ResultAny=yes
+ResultInactive=yes
+ResultActive=yes
+EOF
+
+systemctl set-default multi-user.target
+
+mkdir -p /etc/systemd/system/ModemManager.service.d
+
+echo -e "[Unit]\nConditionVirtualization=\n" > /etc/systemd/system/ModemManager.service.d/override.conf
+
+mkdir -p /etc/systemd/system/fwupd.service.d
+
+echo -e "[Unit]\nConditionVirtualization=\n" > /etc/systemd/system/fwupd.service.d/override.conf
+
+echo -e "[Install]\nWantedBy=multi-user.target\n" >> /etc/systemd/system/fwupd.service.d/override.conf
+
+systemctl enable ModemManager.service
+systemctl enable fwupd.service
+
+usermod -a -G wheel hitler
+usermod -a -G rtkit hitler
+usermod -a -G pipewire hitler
+
+mkdir -p /home/hitler/.config/systemd/user/default.target.wants
+ln -s /usr/lib/systemd/user/pipewire.service /home/hitler/.config/systemd/user/default.target.wants/pipewire.service
+
+mkdir -p /home/hitler/.config/systemd/user/sockets.target.wants
+ln -s /usr/lib/systemd/user/pipewire.socket /home/hitler/.config/systemd/user/sockets.target.wants/pipewire.socket
+
+systemctl enable rtkit-daemon.service
+
+mkdir -p /etc/security/limits.d
+echo -e "@pipewire - rtprio 95\n@pipewire - nice -19\n" > /etc/security/limits.d/95-pipewire.conf
+
+echo "/bin/mount -o remount,rw /tmp/.X11-unix" >> /etc/rc.d/rc.local
+chmod 700 /etc/rc.d/rc.local
+
+mkdir -p /home/hitler/bin
+
+cat >/home/hitler/bin/start-gnome <<'EOF'
+#!/bin/bash
+
+nohup Xwayland -br -ac :1 >/dev/null 2>&1 &
+env DISPLAY=:1 WAYLAND_DISPLAY= XDG_SESSION_TYPE=x11 gnome-session --disable-acceleration-check
+pkill -9 Xwayland >/dev/null 2>&1
+EOF
+
+chown -R hitler:hitler /home/hitler
+chmod +x /home/hitler/bin/start-gnome
+
+
+11.5 Log out from root and reboot. Login as user....
+
+11. Paste in terminal: xdg-user-dirs-update
+
+12. Paste in terminal: sudo systemctl set-default multi-user.target
+
+13. Paste in terminal: sudo systemctl set-default graphical.target
+
+14. Paste in terminal : sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+16. Type this in terminal and put your user there - loginctl enable-linger user
+
+17. In terminal type: sudo nano ~/.bash_ubuntu_desktop
+
+Paste this in terminal and save and quit.
+
+# Vinberg - Fyren 1488
+# Start to flight adolf!
+# --------------------
+# Setting up essential environment variables
+# --------------------
+
+export XDG_CURRENT_DESKTOP=ubuntu:GNOME
+export XDG_SESSION_DESKTOP=ubuntu
+export DESKTOP_SESSION=ubuntu
+export GNOME_SHELL_SESSION_MODE=ubuntu
+
+# Commonly referenced environment variables for X11 sessions
+# https://specifications.freedesktop.org/basedir-spec/latest/
+
+export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+export XDG_MENU_PREFIX=gnome-
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+# Disables using Direct3D in Mesa 3D graphics library
+export LIBGL_ALWAYS_SOFTWARE=1
+
+18. Reboot
+
+19. Paste in terminal: . ~/.bash_ubuntu_desktop
+
+20. Type in terminal: gnome-session
