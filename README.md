@@ -26,5 +26,13 @@ Movie: https://www.youtube.com/watch?v=fc8Kl98KXNo
 
 Instructions: https://github.com/vinberg88/opensuse/blob/main/Ubuntu.txt
 
+Extra Stuff: Fedora 39 whit Gnome and Windows 11
+
+![Fedora-39](https://github.com/vinberg88/opensuse/assets/94398623/0b1f2e2e-b58e-4071-a87e-6b60ebc7ec8c)
+
+Movie: https://www.youtube.com/watch?v=6fVqRCn03Q8
+
+How to install: Instructions here: https://github.com/vinberg88/opensuse/blob/main/Fedora.txt
+
 Regards,
 Mattias Vinberg
