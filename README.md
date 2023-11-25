@@ -1,5 +1,11 @@
 # How to install Opensuse - Tumbelweed - KDE - Plasma via Windows11! and some more stuff - WSL 
 
+What you need.. Basic stuff
+
+Windows 11
+GWSL - https://apps.microsoft.com/detail/gwsl/9NL6KD1H33V3?hl=en-US&gl=US <-- Best tool for Xserver - Support Sound.
+Raft WSL https://www.whitewaterfoundry.com/raft-wsl <-- change fast from ubuntu to debian.
+
 EXTRA: How to install Ubuntu Nobel =) latest whit Gnome - Windows WSL!
 
 ![Ubuntu Noble](https://github.com/vinberg88/opensuse/assets/94398623/c3902adc-c120-428f-b817-64ba45ad45d0)
