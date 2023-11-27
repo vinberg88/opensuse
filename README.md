@@ -1,4 +1,4 @@
-# How to install Opensuse - Tumbelweed - KDE - Plasma via Windows11! and some more stuff - WSL 
+# How to install Opensuse - Tumbelweed - KDE - Plasma via Windows11! and some more stuff - WSL as a hobby =) 
 
 What you need.. Basic stuff
 
