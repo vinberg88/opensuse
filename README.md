@@ -60,5 +60,17 @@ Movie: https://www.youtube.com/watch?v=6fVqRCn03Q8
 
 How to install and Instructions here: https://github.com/vinberg88/opensuse/blob/main/Fedora.txt
 
+----------------------------------------------
+
+Arch Gnome Windows 11 - WSL
+
+![Arch](https://github.com/vinberg88/opensuse/assets/94398623/a6dc45a9-cca3-4388-aeab-fe181d821539)
+
+How to install: https://github.com/vinberg88/opensuse/blob/main/Arch%20KDE%20Plasma.txt
+
+Movie from Youtube 2023 - https://www.youtube.com/watch?v=PyIos7l4ofY
+
+----------------------------------------------
+
 Regards,
 Mattias Vinberg
