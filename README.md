@@ -8,7 +8,7 @@ GWSL - https://apps.microsoft.com/detail/gwsl/9NL6KD1H33V3?hl=en-US&gl=US <-- Be
 
 Raft WSL https://www.whitewaterfoundry.com/raft-wsl <-- change fast from ubuntu, debian or any distro you like.
 
-Have alot of time - This is just for fun! WSL is a great tool to lurn Linux!
+Have alot of time - This is just for fun! WSL is an excellent tool to learn Linux!
 
 ----------------------------------------------
 
