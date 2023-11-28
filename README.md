@@ -54,7 +54,7 @@ Instructions - Just Download and follow: https://github.com/vinberg88/opensuse/b
 
 More Candy folks...
 
-#How to install Ubuntu 22.04 on Windows 11 WSL
+#How to install Ubuntu 22.04 "Gnome" on Windows 11 WSL
 
 ![Ubuntu](https://github.com/vinberg88/opensuse/assets/94398623/3e0a918d-944c-463b-9dbf-3f45b742bb7a)
 
