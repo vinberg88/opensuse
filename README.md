@@ -12,6 +12,16 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+Extra - To my viewers on youtube - I do everything for them =] - How to install KDE PLasma on Ubuntu 22.04 via Windows 11 - WSL
+
+![Ubuntu 22 04 Kde Plasma](https://github.com/vinberg88/opensuse/assets/94398623/6f4798e9-ff30-4b7c-9a8a-8e2cac115b35)
+
+Movie: https://www.youtube.com/watch?v=o3KgfrzZgr4
+
+How to install: https://github.com/vinberg88/opensuse/blob/main/Ubuntu%20KDE%20plasma.txt
+
+----------------------------------------------
+
 EXTRA: How to install Ubuntu Nobel =) latest whit Gnome - Windows WSL!
 
 ![Ubuntu Noble](https://github.com/vinberg88/opensuse/assets/94398623/c3902adc-c120-428f-b817-64ba45ad45d0)
