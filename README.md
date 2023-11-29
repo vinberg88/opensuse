@@ -6,6 +6,8 @@ Windows 11
 
 GWSL - https://apps.microsoft.com/detail/gwsl/9NL6KD1H33V3?hl=en-US&gl=US <-- Best tool for Xserver.
 
+Movie how to setup GWSL after install: https://www.youtube.com/watch?v=O5qgeTXArxQ
+
 Raft WSL https://www.whitewaterfoundry.com/raft-wsl <-- change fast from ubuntu, debian or any distro you like.
 
 Have alot of time - This is just for fun! WSL is an excellent tool to learn Linux!
