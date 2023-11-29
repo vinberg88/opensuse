@@ -14,6 +14,16 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+WSL - ParrotSec or ParrotOs - How to install Gnome Desktop - 2023
+
+![ParrotOS](https://github.com/vinberg88/opensuse/assets/94398623/c2007bdb-69ad-42d3-859f-d862884aadcf)
+
+How to install: https://github.com/vinberg88/opensuse/blob/main/ParrotOS.txt
+
+Movie: https://www.youtube.com/watch?v=Xn7GAnRjYMc
+
+----------------------------------------------
+
 Extra - To my viewers on youtube - I do everything for them =] - How to install KDE PLasma on Ubuntu 22.04 via Windows 11 - WSL
 
 ![Ubuntu 22 04 Kde Plasma](https://github.com/vinberg88/opensuse/assets/94398623/6f4798e9-ff30-4b7c-9a8a-8e2cac115b35)
