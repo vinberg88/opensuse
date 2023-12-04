@@ -14,6 +14,12 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+Next project =) - Redhat 9 - Video is cooming sone...
+
+![centos 9](https://github.com/vinberg88/opensuse/assets/94398623/71c1286f-a997-4fa3-b8ae-324c9250df8e)
+
+----------------------------------------------
+
 WSL - ParrotSec or ParrotOs - How to install Gnome Desktop - 2023
 
 ![ParrotOS](https://github.com/vinberg88/opensuse/assets/94398623/c2007bdb-69ad-42d3-859f-d862884aadcf)
