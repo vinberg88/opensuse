@@ -14,7 +14,7 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
-Next project =) - Redhat 9 - Video is cooming sone...
+Next project =) - Redhat 9 - Video is coming sone...
 
 ![centos 9](https://github.com/vinberg88/opensuse/assets/94398623/71c1286f-a997-4fa3-b8ae-324c9250df8e)
 
