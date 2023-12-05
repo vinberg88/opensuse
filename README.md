@@ -1,3 +1,5 @@
+![wsl](https://github.com/vinberg88/opensuse/assets/94398623/3106559c-86f7-4dce-85cf-4551c4d39975)
+
 # How to install Opensuse - Tumbelweed - KDE - Plasma via Windows 11! and some more stuff - WSL as a hobby.
 
 What you need.. Basic stuff
