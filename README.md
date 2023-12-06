@@ -1,6 +1,8 @@
 ![wsl](https://github.com/vinberg88/opensuse/assets/94398623/3106559c-86f7-4dce-85cf-4551c4d39975)
 
-# How to install Opensuse - Tumbelweed - KDE - Plasma via Windows 11! and some more stuff - WSL as a hobby.
+# How to install WSL GUI desktop on Opensuse - Arch - Ubuntu - Fedora - KDE - Plasma via Windows 11! and some more stuff - WSL as a hobby.
+
+----------------------------------------------
 
 What you need.. Basic stuff
 
@@ -16,9 +18,13 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
-Next project =) - Redhat 9 - Video is coming sone...
+How to install Redhat 9.3 Gui Desktop - WSL - Will install Gnome - 2023
 
 ![centos 9](https://github.com/vinberg88/opensuse/assets/94398623/71c1286f-a997-4fa3-b8ae-324c9250df8e)
+
+How to install gnome dekstop via WSL on Redhat 9.3 - Movie: https://www.youtube.com/watch?v=hs9tGnh1w5U
+
+How to install: https://github.com/vinberg88/opensuse/blob/main/Redhat.txt
 
 ----------------------------------------------
 
