@@ -17,6 +17,11 @@ Raft WSL https://www.whitewaterfoundry.com/raft-wsl <-- change fast from ubuntu,
 Have alot of time - This is just for fun! WSL is an excellent tool to learn Linux!
 
 ----------------------------------------------
+Next project kali Linux - Install Gnome - Coming soon!
+
+![Skärmbild 2023-12-06 190700](https://github.com/vinberg88/opensuse/assets/94398623/321a797f-5bc6-44b4-b0a6-9c2951086025)
+
+----------------------------------------------
 
 How to install Redhat 9.3 Gui Desktop - WSL - Will install Gnome - 2023
 
