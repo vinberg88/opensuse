@@ -24,7 +24,7 @@ How to install Gnome on kali Linux via WSL - WINDOWS 11 - 2023
 
 Hov to install - Movie: https://www.youtube.com/watch?v=iqExYWF-bVs
 
-How to via text: https://github.com/vinberg88/opensuse/blob/main/Kalilinux.txt
+How to install via text: https://github.com/vinberg88/opensuse/blob/main/Kalilinux.txt
 
 ----------------------------------------------
 
