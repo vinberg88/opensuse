@@ -1,6 +1,9 @@
 ![wsl](https://github.com/vinberg88/opensuse/assets/94398623/3106559c-86f7-4dce-85cf-4551c4d39975)
 
-# How to install WSL GUI desktop on Opensuse - Arch - Ubuntu - Fedora - KDE - Plasma via Windows 11! and some more stuff - WSL as a hobby.
+# How to install WSL GUI desktop on Opensuse - Arch - Ubuntu - Fedora - Debian and some more distros.... KDE - Plasma via Windows 11!
+
+Here you will find your guide to WSL and how to install GUI desktops via Windows 11 - Windows 11 love Linux =]
+Have WSL / WSLg as a hobby. And its really a god way to lern Linux!
 
 ----------------------------------------------
 
