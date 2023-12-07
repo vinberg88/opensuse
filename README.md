@@ -17,9 +17,14 @@ Raft WSL https://www.whitewaterfoundry.com/raft-wsl <-- change fast from ubuntu,
 Have alot of time - This is just for fun! WSL is an excellent tool to learn Linux!
 
 ----------------------------------------------
-Next project kali Linux - Install Gnome - Coming soon! WSL - WINDOWS 11
+
+How to install Gnome on kali Linux via WSL - WINDOWS 11 - 2023
 
 ![Skärmbild 2023-12-06 190700](https://github.com/vinberg88/opensuse/assets/94398623/321a797f-5bc6-44b4-b0a6-9c2951086025)
+
+Hov to install - Movie: https://www.youtube.com/watch?v=iqExYWF-bVs
+
+How to via text: https://github.com/vinberg88/opensuse/blob/main/Kalilinux.txt
 
 ----------------------------------------------
 
@@ -73,7 +78,7 @@ Movie how to: https://www.youtube.com/watch?v=Ayp3UmU0UoU
 
 ----------------------------------------------
 
-#Extra! Opensuse Tumbelweed Gnome install via Windows 11
+Extra! Opensuse Tumbelweed Gnome install via Windows 11
 
 ![Skärmbild 2023-11-22 165623](https://github.com/vinberg88/opensuse/assets/94398623/5b5a5510-f01b-4016-b7b5-4ef999aaf4b3)
 
