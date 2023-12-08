@@ -1,4 +1,8 @@
-Install Gnome on Debian 12 via Windows 11 - How to install.
+------------------------------------------------
+
+Install Gnome on Debian 12 via Windows 11 WSL - How to install.
+
+------------------------------------------------
 
 1. Paste in terminal
 
@@ -31,11 +35,13 @@ sudo systemctl set-default graphical
 
 6. Install this small program..
 
-sudo pipx install hyfetch 
-pipx ensurepath
-
 pipx install hyfetch
 pipx ensurepath
+
+6.3 Install Chrome Browser
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
 
 6.5: Reboot Linux...
 
@@ -56,7 +62,7 @@ Then add this script to terminal
 # Setting up essential environment variables for Debian desktop
 # --------------------
 
-# Ubuntu default desktop (GNOME Shell variant)
+# (GNOME Shell variant)
 # https://wiki.gnome.org/Projects/GnomeShell
 
 export XDG_CURRENT_DESKTOP=ubuntu:GNOME
@@ -86,12 +92,13 @@ git clone https://github.com/DamionGans/ubuntu-wsl2-systemd-script.git
 cd ubuntu-wsl2-systemd-script/
 bash ubuntu-wsl2-systemd-script.sh
 
-10.5. Please Reboot.
+10.5. Reboot.
 
 11. Paste in terminal: . ~/.bash_ubuntu_desktop
 
 12. Type in terminal: dbus-launch gnome-session
 
-Warm Regards, 
-Mattias Vinberg
+13. Type in terminal Gnome after start: sudo apt purge modemmanager
 
+Warm Regards, 
+Vinberg - Sweden 14-88
