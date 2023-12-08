@@ -7,7 +7,7 @@ Have WSL / WSLg as a hobby. And its really a god way to lern Linux!
 
 ----------------------------------------------
 
-What you need.. Basic stuff
+What you need for WSL.. Basic stuff
 
 Windows 11
 
@@ -18,6 +18,16 @@ Movie: how to setup GWSL after install: https://www.youtube.com/watch?v=O5qgeTXA
 Raft WSL https://www.whitewaterfoundry.com/raft-wsl <-- change fast from ubuntu, debian or any distro you like.
 
 Have alot of time - This is just for fun! WSL is an excellent tool to learn Linux!
+
+----------------------------------------------
+
+WSL - How to Install Gnome on Debian 12 via Windows 11 - GUI
+
+![Debian-Gnome](https://github.com/vinberg88/opensuse/assets/94398623/758f802c-3644-45dd-8bf2-5c205260ba83)
+
+How to install - Movie: https://www.youtube.com/watch?v=r2tkgw93NJM
+
+how to install. Description text: https://github.com/vinberg88/opensuse/blob/main/Debian.txt
 
 ----------------------------------------------
 
