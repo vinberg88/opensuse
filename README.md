@@ -21,6 +21,16 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+How you can install Gnome and Manjaro via Windows 11 - Full install - WSL - Windows 11
+
+![Manjaro](https://github.com/vinberg88/opensuse/assets/94398623/f2c5e361-8d4f-4891-bcc1-997124cefe5a)
+
+See a movie how to install: https://www.youtube.com/watch?v=H1dyhqXvNbI
+
+Installation: https://github.com/vinberg88/opensuse/blob/main/Manjaro.txt
+
+----------------------------------------------
+
 WSL - How to Install Gnome on Debian 12 via Windows 11 - GUI
 
 ![Debian-Gnome](https://github.com/vinberg88/opensuse/assets/94398623/758f802c-3644-45dd-8bf2-5c205260ba83)
