@@ -1,8 +1,21 @@
 ------------------------------------------------------------
 
-Gnome Desktop on Manjaro - Windows 11 - Gnome - GWSL
+Gnome Desktop on Manjaro - Windows 11 - Gnome - GWSL - GUI
 
-1. Paste this in terminal... all - you wont get symbolic link error.
+------------------------------------------------------------
+
+This is not needed - Manjaro!
+
+sudo nano /etc/wsl.conf 
+
+and add
+
+[boot]
+systemd=true
+
+-----------------------------------------------------------
+
+1. Paste this in terminal... all - you wont get symbolink error.
 
 ln -s libcuda.so.1.1 libcuda.so.1
 ln -s libcuda.so.1.1 libcuda.so
@@ -11,6 +24,7 @@ sudo mkdir /usr/lib/wsl/lib2
 sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
 echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
 
+1.5: Reboot and update: sudo pacman -Syu
 
 2. Install one by one...
 
@@ -22,6 +36,14 @@ sudo systemctl enable gdm
 sudo systemctl set-default graphical
 
 sudo pacman -S gnome gnome-extra
+
+Extra install: yay -S google-chrome
+
+---------------------------------------------------------
+
+Reboot and Fire UP GWSL and CONFIG - Start Shell from GWSL
+
+---------------------------------------------------------
 
 Paste in terminal: xdg-user-dirs-update
 
@@ -36,6 +58,8 @@ Type this in terminal and put your user there - loginctl enable-linger user
 Type in terminal: sudo nano ~/.bash_ubuntu_desktop
 
 Paste this in terminal and save:
+
+------------------------------------------------------
 
 # Vinberg - Fyren 1488
 # Start to flight adolf!
@@ -62,12 +86,14 @@ export GDK_BACKEND=x11
 # Disables using Direct3D in Mesa 3D graphics library
 export LIBGL_ALWAYS_SOFTWARE=1
 
-Reboot
+------------------------------------------------------
+
+Reboot - Reboot - Reboot - Reboot - Reboot - Reboot
+
+------------------------------------------------------
 
 Paste in terminal: . ~/.bash_ubuntu_desktop
 
 Type in terminal: dbus-launch gnome-session
-
-Extra install: yay -S google-chrome
 
 ------------------------------------------------------------
