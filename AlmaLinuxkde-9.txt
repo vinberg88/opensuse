@@ -1,0 +1,103 @@
+------------------------------------------------------
+
+Kde Plasma Desktop Install - GUI - AlmaLinux 9 via Windows 11 - WSL - 2023
+
+------------------------------------------------------
+
+1. Paste in terminal: sudo nano /etc/wsl.conf
+
+[boot]
+systemd=true
+
+2. Paste all in terminal
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+3. Reboot and Update: sudo dnf update
+
+4. sudo dnf install \
+    https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm \
+    https://dl.fedoraproject.org/pub/epel/epel-next-release-latest-9.noarch.rpm
+
+4.5 Run this after: sudo /usr/bin/crb enable
+
+5. sudo dnf upgrade --refresh
+
+6. sudo dnf install git wget curl nano bash pipx sudo dracut net-tools dbus-x11
+
+7. sudo dnf --enablerepo=epel,epel-next,crb group -y install "KDE Plasma Workspaces"
+
+7.5 Install Google-Chrome - paste all under this paragraph:
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm
+sudo yum update google-chrome-stable
+
+8. Reboot
+
+-------------------------------------------------------------
+
+11.5 Login with GWSL and Config all. Then start Linux-shell from GWSL
+
+-------------------------------------------------------------
+
+1.7 Reboot and start GWSL shell.....
+
+11. Paste in terminal: xdg-user-dirs-update
+
+12. Paste all in terminal: 
+
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+16. Type this in terminal and put your user-name there: loginctl enable-linger user
+   
+   If you get an error just move to next, sometimes it doesn't work. It's like life =]
+
+17. In terminal type: sudo nano ~/.bash_ubuntu_desktop
+
+Paste this small script in terminal and save and quit.
+
+-------------------------------------------
+
+# Vinberg - Fyren 1488
+# Start to flight adolf!
+# --------------------
+# Setting up essential environment variables
+# --------------------
+
+export XDG_CURRENT_DESKTOP=ubuntu:GNOME
+export XDG_SESSION_DESKTOP=ubuntu
+export DESKTOP_SESSION=ubuntu
+export GNOME_SHELL_SESSION_MODE=ubuntu
+
+export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+export XDG_MENU_PREFIX=gnome-
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+# Disables using Direct3D in Mesa 3D graphics library
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-------------------------------------------
+
+18. Reboot
+
+19. Paste in terminal: . ~/.bash_ubuntu_desktop
+
+20. Type in terminal: dbus-launch startplasma-x11
+
+It takes a little time to start at the beginning so leave it for a minute if nothing happens.
+
+Warm Regards,
+Mattias Vinberg
+
