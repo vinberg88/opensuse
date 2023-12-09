@@ -21,6 +21,16 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+Alma Linux 9 and KDE plasma install via WSL windows 11 - Full install.
+
+How to install - Movie: https://www.youtube.com/watch?v=vEM9HAUhR-s
+
+Here you have a protocol to read and follow: https://github.com/vinberg88/opensuse/blob/main/AlmaLinuxkde-9.txt
+
+![AlmaLinux](https://github.com/vinberg88/opensuse/assets/94398623/ebc5c008-bec5-4635-8588-51541fa20b13)
+
+----------------------------------------------
+
 How you can install Gnome and Manjaro via Windows 11 - Full install - WSL - Windows 11
 
 ![Manjaro](https://github.com/vinberg88/opensuse/assets/94398623/f2c5e361-8d4f-4891-bcc1-997124cefe5a)
