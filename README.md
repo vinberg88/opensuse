@@ -27,7 +27,7 @@ How to install - Movie: https://www.youtube.com/watch?v=vEM9HAUhR-s
 
 Here you have a protocol to read and follow: https://github.com/vinberg88/opensuse/blob/main/AlmaLinuxkde-9.txt
 
-![AlmaLinux](https://github.com/vinberg88/opensuse/assets/94398623/ebc5c008-bec5-4635-8588-51541fa20b13)
+![00](https://github.com/vinberg88/opensuse/assets/94398623/959e8e5e-4d6e-4a68-96f3-e896a7f5fb55)
 
 ----------------------------------------------
 
