@@ -21,6 +21,17 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+How to install fedora 39 kde plasma desktop via windows 11 - WSL : https://github.com/vinberg88/opensuse/blob/main/Fedora39plasma.txt
+
+Movie - how to install: https://www.youtube.com/watch?v=KsjmMcTt09U
+
+![fedora39](https://github.com/vinberg88/opensuse/assets/94398623/812e78ee-4f3d-4f6a-a14a-bbcee6d452b5)
+
+Enjoy,
+Mattias Vinberg
+
+---------------------------------------------
+
 Alma Linux 9 and KDE plasma install via WSL windows 11 - Full install.
 
 How to install - Movie: https://www.youtube.com/watch?v=vEM9HAUhR-s
