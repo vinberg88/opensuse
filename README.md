@@ -21,6 +21,19 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+Oracle 9.3 - How to install KDE plasma via Windows 11 - WSL - Oracle 9.3 - GUI
+
+Movie for free - how to install: https://www.youtube.com/watch?v=vVqbTst77lk
+
+Description: https://github.com/vinberg88/opensuse/blob/main/Oracle9.txt
+
+![Oracle](https://github.com/vinberg88/opensuse/assets/94398623/27283f90-602f-4dac-8de6-6f9688c2a4cb)
+
+Regards,
+Vinberg
+
+----------------------------------------------
+
 How to install fedora 39 kde plasma desktop via windows 11 - WSL : https://github.com/vinberg88/opensuse/blob/main/Fedora39plasma.txt
 
 Movie - how to install: https://www.youtube.com/watch?v=KsjmMcTt09U
