@@ -21,6 +21,19 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+How to install Debian 12 KDE plasma via Windows 11. Full installation - Kde plasma via WSLg or WSL
+
+How to install - movie: https://www.youtube.com/watch?v=VFBuHc9pkkM
+
+Tutorial: https://github.com/vinberg88/opensuse/blob/main/Debian12plasma.txt
+
+![debian_12_bookworm](https://github.com/vinberg88/opensuse/assets/94398623/7b5b3b2a-3cc8-40da-bb6a-2ebab7fff535)
+
+Regards,
+Vinberg - 2023
+
+----------------------------------------------
+
 Oracle 9.3 - How to install KDE plasma via Windows 11 - WSL - Oracle 9.3 - GUI
 
 Movie for free - how to install: https://www.youtube.com/watch?v=vVqbTst77lk
