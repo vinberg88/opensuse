@@ -21,6 +21,16 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+Install Gnome on PengWin via Windows 11 WSL - How to install Gnome - WSL - Windows Subsystem for Linux - 2023
+
+![pengWin2](https://github.com/vinberg88/opensuse/assets/94398623/bb7a3117-1d97-40f7-950e-835c74f5cc5a)
+
+Movie - how to install Gnome via Pengwin - WSL - Windows 11: https://www.youtube.com/watch?v=G3heC2a59AI
+
+Tutorial in text to follow - Pengwin - Windows 11 - WSL: https://github.com/vinberg88/opensuse/blob/main/PengWin-Gnome.txt
+
+----------------------------------------------
+
 How to install Debian 12 KDE plasma via Windows 11. Full installation - Kde plasma via WSLg or WSL
 
 How to install - movie: https://www.youtube.com/watch?v=VFBuHc9pkkM
