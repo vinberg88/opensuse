@@ -21,6 +21,19 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+Kde PlasmA installation via WSL windows 11 on Ubuntu Noble Numbat 24.04
+
+How to install Ubuntu 24.04 via WSL: https://github.com/vinberg88/opensuse/blob/main/Ubuntu24.04-kde-plasma.txt  
+
+Movie - installation Ubuntu 24.04 - WSL: https://www.youtube.com/watch?v=gi6XQo_YZPM
+
+![ubuntu 24 04](https://github.com/vinberg88/opensuse/assets/94398623/3c8c4ada-8812-4002-b7b0-5b5a095a4913)
+
+Thanks for Watching,
+Mattias Vinberg
+
+----------------------------------------------
+
 Install Gnome on PengWin via Windows 11 WSL - How to install Gnome - WSL - Windows Subsystem for Linux - 2023
 
 ![pengWin2](https://github.com/vinberg88/opensuse/assets/94398623/bb7a3117-1d97-40f7-950e-835c74f5cc5a)
