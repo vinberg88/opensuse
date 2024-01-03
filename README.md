@@ -21,6 +21,19 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+Kali Linux WSL KDE PLASMA installation Via Windows 11.
+
+Movie: https://www.youtube.com/watch?v=Q1JSyQTls5E
+
+How to install Kali Linux KDE plasma Via Windows 11: https://github.com/vinberg88/opensuse/blob/main/Kalikde.txt
+
+![kalilinux](https://github.com/vinberg88/opensuse/assets/94398623/c2ece5d9-d58a-464c-a760-cbdaa8bc7b71)
+
+Regards,
+Mattias Vinberg
+
+----------------------------------------------
+
 Kde PlasmA installation via WSL windows 11 on Ubuntu Noble Numbat 24.04
 
 How to install Ubuntu 24.04 via WSL: https://github.com/vinberg88/opensuse/blob/main/Ubuntu24.04-kde-plasma.txt  
