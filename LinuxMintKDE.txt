@@ -1,0 +1,96 @@
+--------------------------------------------
+Install KDE PLasma on Linux Mint via Windows 11 - WSL - How to install.
+--------------------------------------------
+
+1. Paste in terminal
+
+sudo nano /etc/wsl.conf 
+
+and add
+
+[boot]
+systemd=true
+
+2. Paste all to terminal and klick enter... Remove errors..
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+3. Reboot
+
+4. Update: sudo apt update && sudo apt upgrade -y
+
+5. Install programs:
+
+sudo apt install bash git npm wget curl nano sudo pipx dracut -y
+sudo apt install sddm* -y
+sudo systemctl set-default graphical
+
+6 install Chrome
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+6.5: Reboot Linux...
+
+7. Config GWSL and start from there - Linux Shell
+
+10. Time to install Gnome: sudo apt install kde-plasma-desktop kde-standard
+
+11. Paste in terminal: xdg-user-dirs-update
+
+12. Paste in terminal: sudo systemctl set-default multi-user.target
+
+13. Paste in terminal: sudo systemctl set-default graphical.target
+
+14. Paste in terminal : sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+16. Type this in terminal and put your user there - loginctl enable-linger user
+
+11. Copy this and paste in terminal: sudo nano ~/.bash_ubuntu_desktop
+
+Then add this script to terminal
+
+----------------------------------------------------------
+
+# Fyren - Vinberg - 2023 - SS script!
+# --------------------
+# Setting up essential environment variables for Mint desktop
+# --------------------
+
+# Ubuntu default desktop (GNOME Shell variant)
+# https://wiki.gnome.org/Projects/GnomeShell
+
+export XDG_CURRENT_DESKTOP=ubuntu:GNOME
+export XDG_SESSION_DESKTOP=ubuntu
+export DESKTOP_SESSION=ubuntu
+export GNOME_SHELL_SESSION_MODE=ubuntu
+
+# Commonly referenced environment variables for X11 sessions
+# https://specifications.freedesktop.org/basedir-spec/latest/
+
+export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+export XDG_MENU_PREFIX=gnome-
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+# Disables using Direct3D in Mesa 3D graphics library
+export LIBGL_ALWAYS_SOFTWARE=1
+
+---------------------------------------------------------
+
+10.5. Reboot...
+
+11. Paste in terminal: . ~/.bash_ubuntu_desktop
+
+12. Type in terminal and start plasma: startplasma-x11
+
+Warm Regards, 
+Mattias Vinberg
