@@ -23,11 +23,11 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 How to install Linux Mint Kde Plasma via Windows 11 - WSL - 2024
 
-Movie how to setup Linux Mint KDE Plamsa: https://www.youtube.com/watch?v=XEsgpfrXim0
+Movie how to setup Linux Mint KDE Plasma: https://www.youtube.com/watch?v=XEsgpfrXim0
 
 Where do i find Linux Mint for WSL: https://github.com/sileshn/LinuxmintWSL2
 
-Description how you can install Linux Mint KDE plasma: https://github.com/vinberg88/opensuse/blob/main/LinuxMintKDE.txt
+Description how you can install Linux Mint KDE Plasma: https://github.com/vinberg88/opensuse/blob/main/LinuxMintKDE.txt
 
 ![LinuxMintkdePlasma](https://github.com/vinberg88/opensuse/assets/94398623/485b755c-3cd6-4001-bb88-aaf84bb7ebd6)
 
