@@ -21,6 +21,19 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+How to install Arch with Gnome Desktop - Windows 11 - WSL
+
+Here comes the description: https://github.com/vinberg88/opensuse/blob/main/ArchGnome.txt
+
+Movie to watch: https://www.youtube.com/watch?v=SLbmLqRtCzg
+
+![ArchGnome](https://github.com/vinberg88/opensuse/assets/94398623/227b6197-f36c-4d54-a4e5-b2fd7b6b7ca9)
+
+Thanks for watching,
+Mattias Vinberg
+
+----------------------------------------------
+
 How to install Linux Mint Kde Plasma via Windows 11 - WSL - 2024
 
 Movie how to setup Linux Mint KDE Plasma: https://www.youtube.com/watch?v=XEsgpfrXim0
