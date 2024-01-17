@@ -25,7 +25,7 @@ How to install Arch with Gnome Desktop - Windows 11 - WSL
 
 Here comes the description: https://github.com/vinberg88/opensuse/blob/main/ArchGnome.txt
 
-Movie to watch: https://www.youtube.com/watch?v=SLbmLqRtCzg
+Movie to watch: https://www.youtube.com/watch?v=H3KZCrR0eOY
 
 ![ArchGnome](https://github.com/vinberg88/opensuse/assets/94398623/227b6197-f36c-4d54-a4e5-b2fd7b6b7ca9)
 
