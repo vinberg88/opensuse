@@ -1,6 +1,6 @@
 ![wsl](https://github.com/vinberg88/opensuse/assets/94398623/3106559c-86f7-4dce-85cf-4551c4d39975)
 
-# How to install WSL GUI desktop on Opensuse - Arch - Ubuntu - Fedora - Debian and some more distros.... KDE - Plasma via Windows 11!
+# How to install WSL GUI desktop on Opensuse - Arch - Ubuntu - Fedora - Debian and some more distros.... KDE - Plasma - Gnome via Windows 11!
 
 Here you will find your guide to WSL and how to install GUI desktops via Windows 11 - Windows 11 love Linux =]
 Have WSL / WSLg as a hobby. And its really a god way to lern Linux!
@@ -18,6 +18,19 @@ Movie: how to setup GWSL after install: https://www.youtube.com/watch?v=O5qgeTXA
 Raft WSL https://www.whitewaterfoundry.com/raft-wsl <-- change fast from ubuntu, debian or any distro you like.
 
 Have alot of time - This is just for fun! WSL is an excellent tool to learn Linux!
+
+----------------------------------------------
+
+How to install Parrot Security 6 (lory) kde plasma via windows 11 - WSL - 6.0
+
+Here you have Video: https://www.youtube.com/watch?v=76Rqfe3T8wY
+
+Tutorial for Parrot OS version 6 via Windows 11: https://github.com/vinberg88/opensuse/blob/main/parrot6kde.txt
+
+![ParrotKDE](https://github.com/vinberg88/opensuse/assets/94398623/94adea27-ee9f-4752-80f9-9167950be188)
+
+Thank you for Watching,
+Mattias Vinberg
 
 ----------------------------------------------
 
