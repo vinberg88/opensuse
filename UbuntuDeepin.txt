@@ -1,0 +1,62 @@
+-------------------------------
+
+How to install Deepin Desktop on Ubuntu 22.04 - WSL
+
+-------------------------------
+
+1. After install update all =]
+
+sudo apt update
+sudo apt upgrade
+
+-------------------------------
+
+2. Paste in terminal - all
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+-------------------------------
+
+3. Reboot and Setup GWSL and START from there.... Linux Shell
+
+-------------------------------
+
+4. Install Chrome
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+-------------------------------
+
+5. Paste all in terminal
+
+sudo add-apt-repository ppa:ubuntudde-dev/stable
+sudo apt update
+sudo apt upgrade
+sudo apt install ubuntudde-dde
+sudo service dbus start
+
+-------------------------------
+
+6. Paste all in terminal and wait!
+
+git clone https://github.com/DamionGans/ubuntu-wsl2-systemd-script.git
+cd ubuntu-wsl2-systemd-script/
+bash ubuntu-wsl2-systemd-script.sh
+
+-------------------------------
+
+Reboot Reboot Reboot Reboot Reboot
+
+-------------------------------
+
+Start Deepin
+
+exec dbus-run-session /usr/bin/startdde
+
+-------------------------------
