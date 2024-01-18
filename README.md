@@ -21,6 +21,19 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+How to install Deepin Desktop with Ubuntu 22.04 via windows 11 - WSL - Easy setup!
+
+Tutorial: https://github.com/vinberg88/opensuse/blob/main/UbuntuDeepin.txt
+
+New Video: https://www.youtube.com/watch?v=DH74PSH-4AU
+
+![Deepin](https://github.com/vinberg88/opensuse/assets/94398623/5c68bbbf-df7f-4e22-8d03-08ae6f58d998)
+
+Thank you for looking,
+Mattias Vinberg
+
+----------------------------------------------
+
 How to install Parrot Security 6 (lory) kde plasma via windows 11 - WSL - 6.0
 
 Here you have Video: https://www.youtube.com/watch?v=76Rqfe3T8wY
