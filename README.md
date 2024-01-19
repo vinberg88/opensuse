@@ -21,6 +21,19 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+How to setup EndeavourOS via Windwos 11 whit KDE Desktop - WSL - KDE PLasmA
+
+Tutorial: https://github.com/vinberg88/opensuse/blob/main/EndeavourOS.txt
+
+Movie - How to install kde plasma on EndeavourOS : https://www.youtube.com/watch?v=qackVXfqpTU
+
+![EndeavourOS](https://github.com/vinberg88/opensuse/assets/94398623/ad38bab6-3f43-4d65-9286-8d8414e37471)
+
+Thank you for Watching,
+Mattias Vinberg
+
+----------------------------------------------
+
 How to install Deepin Desktop with Ubuntu 22.04 via windows 11 - WSL - Easy setup!
 
 Tutorial: https://github.com/vinberg88/opensuse/blob/main/UbuntuDeepin.txt
