@@ -1,0 +1,107 @@
+--------------------------------------------------------------------------
+
+BlackArch - WSL - Windows 11 - xfce4
+
+How to install Xfce4 Desktop on BlackArch - WSL - Windows 11
+
+You can find Blackarch for wsl here: https://github.com/Rishu20/Blackarchwsl
+
+--------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+
+Extra Installation if you want after installation Black Arch!
+
+yay installation
+
+sudo pacman -S --needed git base-devel
+mkdir opt
+cd opt
+git clone https://aur.archlinux.org/yay.git 
+cd yay
+makepkg -si
+
+yay -S google-chrome
+
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+
+0. Dont forgett to update Black-Arch 
+
+sudo pacman -Syu
+
+---------------------------------------------------------------------------
+
+1. Install this in terminal - paste all!
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+---------------------------------------------------------------------------
+
+2. Reboot 
+
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+
+Install Xorg. Approx install size is 80 MB.
+
+3. Paste in terminal: sudo pacman -S --needed xorg xorg-server networkmanager
+
+---------------------------------------------------------------------------
+
+Install display manager, and Xfce4 desktop components. Approx install size is 250 MB.
+
+4. Paste in terminal: sudo pacman -S xfce4
+
+---------------------------------------------------------------------------
+
+5. Type in terminal: sudo nano ~/.bash_arch_desktop
+
+Paste this script in terminal and save.
+
+# Fyren 1488 - Mate Desktop
+# --------------------
+# Setting up essential environment variables
+# --------------------
+# Commonly referenced environment variables for X11 sessions
+# https://specifications.freedesktop.org/basedir-spec/latest/
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+# Disables using Direct3D in Mesa 3D graphics library
+export LIBGL_ALWAYS_SOFTWARE=1
+
+---------------------------------------------------------------------------
+
+6. Reboot Reboot Reboot Reboot Reboot
+
+---------------------------------------------------------------------------
+
+Setup GWSL and Config. Start shell from there...
+
+---------------------------------------------------------------------------
+
+7. Reboot Reboot Reboot Reboot Reboot
+
+---------------------------------------------------------------------------
+
+8. Time to start Xfce4 Desktop.... Just wait  =]
+
+. ~/.bash_arch_desktop
+dbus-launch xfce4-session
+
+---------------------------------------------------------------------------
+
+Thansk For Watching,
+Mattias Vinberg
+
+
