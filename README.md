@@ -21,6 +21,19 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+Black Arch - How to install Xfce4 desktop on BlackArch via Windows 11 - WSL
+
+How to install on Black Arch - TUTORIAL - : https://github.com/vinberg88/opensuse/blob/main/xfce4-BlackArch.txt
+
+Video - How to install Xfce4 desktop on Black Arch - WSL and Windows 11: https://www.youtube.com/watch?v=RsFZQ6i0-5I
+
+![Blackarch-Xfce](https://github.com/vinberg88/opensuse/assets/94398623/d5ca267d-a529-4357-87a9-b2da2bbb052f)
+
+Thank you for Watching,
+Mattias Vinberg
+
+----------------------------------------------
+
 How to setup EndeavourOS via Windwos 11 whit KDE Desktop - WSL - KDE PLasmA
 
 Tutorial: https://github.com/vinberg88/opensuse/blob/main/EndeavourOS.txt
