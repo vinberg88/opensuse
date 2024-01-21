@@ -21,6 +21,21 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+----------------------------------------------
+
+Arch - How to install Cinnamon Desktop via WSL - Windows 11
+
+Description how to install Cinnamon on Arch WSL: https://github.com/vinberg88/opensuse/blob/main/Cinnamon-Arch.txt
+
+Movie: https://www.youtube.com/watch?v=ocBee2ld03w
+
+![Cinnamon](https://github.com/vinberg88/opensuse/assets/94398623/c2f18046-84f2-485e-96a0-59f2a0860b48)
+
+Thank you for Watching,
+Mattias Vinberg
+
+----------------------------------------------
+
 Black Arch - How to install Xfce4 desktop on BlackArch via Windows 11 - WSL
 
 How to install on Black Arch - TUTORIAL - : https://github.com/vinberg88/opensuse/blob/main/xfce4-BlackArch.txt
