@@ -1,0 +1,139 @@
+--------------------------------------------------------------------------
+
+Arch - WSL - Windows 11 - Cinnamon
+
+How to install Cinnamon Desktop on Arch - WSL - Windows 11
+
+You can find Blackarch for wsl here: https://github.com/Rishu20/Blackarchwsl
+
+Or go to Microsoft Store and find: Arch
+
+--------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+
+Extra Installation if you want after installation Arch!
+
+yay installation
+
+sudo pacman -S --needed git base-devel
+mkdir opt
+cd opt
+git clone https://aur.archlinux.org/yay.git 
+cd yay
+makepkg -si
+
+yay -S google-chrome
+
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+
+0. Dont forgett to update Arch 
+
+sudo pacman -Syu
+
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+
+1. Install this in terminal - paste all!
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+
+2. Reboot 
+
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+
+Install Xorg and some tools. Approx install size is 100 MB.
+
+3. Paste in terminal: sudo pacman -S --needed xorg xorg-server networkmanager lightdm lightdm-gtk-greeter
+
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+
+Install display manager, and Cinnamon desktop components.
+
+Total Download Size:   110 MiB
+Approx install size:   500 MiB
+
+4. Paste in terminal: sudo pacman -S cinnamon gnome-terminal
+
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+
+6. Paste in terminal - All:
+
+sudo systemctl enable lightdm
+sudo systemctl enable NetworkManager
+
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+
+7. Type in terminal: sudo nano ~/.bash_arch_desktop
+
+Paste this script in terminal and save.
+
+# Fyren 1488
+# --------------------
+# Setting up essential environment variables
+# --------------------
+# Commonly referenced environment variables for X11 sessions
+# https://specifications.freedesktop.org/basedir-spec/latest/
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+# Disables using Direct3D in Mesa 3D graphics library
+export LIBGL_ALWAYS_SOFTWARE=1
+
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+
+8. Reboot Reboot Reboot Reboot Reboot
+
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+
+9. Setup GWSL and Config. Start shell from there...
+
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+
+10. Reboot Reboot Reboot Reboot Reboot
+
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+
+11. Time to start Cinnamon Desktop.... Just wait  =]
+
+. ~/.bash_arch_desktop
+dbus-launch cinnamon-session
+
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+
+Thansk For Watching,
+Mattias Vinberg
+
+
