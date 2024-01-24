@@ -21,6 +21,17 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+LXDE - Debian 12 - This tutorial explains how to install LXDE on Debian 12 via WSL. 
+
+Tutorial in text: https://github.com/vinberg88/opensuse/blob/main/LXDE-Debian.txt
+
+Movie: https://www.youtube.com/watch?v=rzjUN991_ZA
+
+![LXDE](https://github.com/vinberg88/opensuse/assets/94398623/17cb52e5-25fd-46d0-a503-ca047a184e54)
+
+Thank you for Watching,
+Mattias Vinberg
+
 ----------------------------------------------
 
 Arch - How to install Cinnamon Desktop via WSL - Windows 11
