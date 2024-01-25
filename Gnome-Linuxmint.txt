@@ -1,0 +1,119 @@
+
+-------------------------------------
+
+How to install Gnome Desktop on Linux Mint via WSL - Windows 11 Pro
+
+WSL Linux Mint you will find here: https://github.com/sileshn/LinuxmintWSL2
+
+-------------------------------------
+
+1. Paste all to terminal and klick enter...
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+-------------------------------------
+
+2. Reboot
+
+-------------------------------------
+
+3. Setup GWSL and start from there - SHELL 
+
+-------------------------------------
+
+4. Reboot
+
+-------------------------------------
+
+5. Paste all in terminal
+
+sudo apt update
+sudo apt upgrade
+
+-------------------------------------
+
+6. Paste in terminal: sudo apt install gnome
+
+-------------------------------------
+
+7. Paste all in terminal
+
+sudo apt install gdm3* -y
+sudo apt install gdm* -y
+sudo systemctl set-default graphical
+
+-------------------------------------
+
+8. Paste all in terminal
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+
+-------------------------------------
+
+10. Paste in terminal : sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-------------------------------------
+
+11. Copy this and paste in terminal: sudo nano ~/.bash_ubuntu_desktop
+
+Then add this script to terminal
+
+# Fyren - Vinberg - 2023 - SS script!
+# --------------------
+# Setting up essential environment variables for Ubuntu desktop
+# --------------------
+
+# Ubuntu default desktop (GNOME Shell variant)
+# https://wiki.gnome.org/Projects/GnomeShell
+
+export XDG_CURRENT_DESKTOP=ubuntu:GNOME
+export XDG_SESSION_DESKTOP=ubuntu
+export DESKTOP_SESSION=ubuntu
+export GNOME_SHELL_SESSION_MODE=ubuntu
+
+# Commonly referenced environment variables for X11 sessions
+# https://specifications.freedesktop.org/basedir-spec/latest/
+
+export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+export XDG_MENU_PREFIX=gnome-
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+# Disables using Direct3D in Mesa 3D graphics library
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-------------------------------------
+
+12. Paste all in terminal and follow instruction or wait 1 min..
+
+git clone https://github.com/DamionGans/ubuntu-wsl2-systemd-script.git
+cd ubuntu-wsl2-systemd-script/
+bash ubuntu-wsl2-systemd-script.sh
+
+-------------------------------------
+
+13. Reboot
+
+-------------------------------------
+
+14. Paste in terminal: . ~/.bash_ubuntu_desktop
+
+15. Time to start Gnome: gnome-session
+
+You always need to type . ~/.bash_ubuntu_desktop and then gnome-session to start gnome.
+
+-------------------------------------
+
+Kind Regards,
+Vinberg Mattias
+ 
