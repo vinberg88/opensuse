@@ -21,6 +21,19 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+Linux Mint - How to install gnome desktop via WSL on Linux Mint - Windows 11 - 2024
+
+Description how to install Gnome desktop on Linux Mint: https://github.com/vinberg88/opensuse/blob/main/Gnome-Linuxmint.txt
+
+Movie: https://www.youtube.com/watch?v=Nh5QsWxL7Io
+
+![LinuxMintGnome](https://github.com/vinberg88/opensuse/assets/94398623/8396f040-15f5-41cc-84fc-3e88fa26333c)
+
+Thank you for Watching,
+Mattias Vinberg
+
+----------------------------------------------
+
 LXDE - Debian 12 - This tutorial explains how to install LXDE on Debian 12 via WSL. 
 
 Tutorial in text: https://github.com/vinberg88/opensuse/blob/main/LXDE-Debian.txt
