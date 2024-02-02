@@ -21,6 +21,23 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+CutefishOS or just Cutefish - ARCH Linux - How to install Cutefisk via Windows 11 - WSL - GWSL - 2024
+
+How to install CutefishOS via Arch: https://github.com/vinberg88/opensuse/blob/main/Cutefish-Arch.txt
+
+Video - How to install Cutefish on Arch - WSL: https://www.youtube.com/watch?v=WW6km_-Tt00
+
+![Cutefish](https://github.com/vinberg88/opensuse/assets/94398623/a4d2d1b1-0e17-41c1-9b0c-f2b803d8df50)
+
+About Cutefish: CutefishOS is an elegant, beautiful and easy-to-use Linux desktop operating system. It runs Cutefish Desktop has a 
+modern style design. Our goal is to provide users with a comfortable interface design, better user experience and a better choice. 
+Find More Here: https://cutefish-ubuntu.github.io
+
+Thanks for watching,
+Mattias Vinberg
+
+----------------------------------------------
+
 Linux Mint - How to install gnome desktop via WSL on Linux Mint - Windows 11 - 2024
 
 Description how to install Gnome desktop on Linux Mint: https://github.com/vinberg88/opensuse/blob/main/Gnome-Linuxmint.txt
