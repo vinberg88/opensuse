@@ -1,0 +1,84 @@
+------------------------------------------------------------
+
+BETA BETA BETA - CutefishOS is not working well via WSL - BETA BETA BETA 
+
+Install Cutefish Desktop on Arch Linux via Windows 11 - WSL - GWSL
+
+------------------------------------------------------------
+
+1. Paste this in terminal... all - you wont get symbolic link error.
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+-------------------------------------------------------------
+
+2. Reboot Linux - - Reboot Linux - - Reboot Linux - - Reboot Linux
+
+-------------------------------------------------------------
+
+3. Config and start from GWSL - Shell. After setup please Reboot Linux
+
+-------------------------------------------------------------
+
+4. Start from GWSL shell
+
+-------------------------------------------------------------
+
+5. Install one by one...
+
+sudo pacman -S xorg xorg-server xorg-xinit mesa xterm xorg-twm xorg-xrandr
+sudo pacman -S xorg-twm xterm xorg-xclock sddm bluedevil libqtxdg
+sudo pacman -S xorg-server xorg-xinit xorg-xrandr xorg-xfontsel xorg-xlsfonts xorg-xkill xorg-xinput xorg-xwininfo
+
+sudo systemctl enable sddm
+sudo systemctl set-default graphical
+
+sudo pacman -S cutefish
+
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-------------------------------------------------------
+
+6. Type this in terminal and put your user there - loginctl enable-linger user
+
+-------------------------------------------------------
+
+7. Type in terminal: sudo nano ~/.bash_ubuntu_desktop
+
+Paste this in terminal and save:
+
+export XDG_CURRENT_DESKTOP=ubuntu:GNOME
+export XDG_SESSION_DESKTOP=ubuntu
+export DESKTOP_SESSION=ubuntu
+export GNOME_SHELL_SESSION_MODE=ubuntu
+
+export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+export XDG_MENU_PREFIX=gnome-
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-----------------------------------------------------------
+
+8. Reboot - start from GWSL Shell.. Just saying.
+
+-----------------------------------------------------------
+
+
+9. Paste in terminal "All" and start Cutefish Desktop - Take some time..
+
+. ~/.bash_ubuntu_desktop
+cutefish-session
+
+------------------------------------------------------------
