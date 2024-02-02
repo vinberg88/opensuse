@@ -21,7 +21,7 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
-CutefishOS or just Cutefish - ARCH Linux - How to install Cutefisk via Windows 11 - WSL - GWSL - 2024
+Beta - CutefishOS or just Cutefish - ARCH Linux - How to install Cutefish via Windows 11 - WSL - GWSL - 2024
 
 How to install CutefishOS via Arch: https://github.com/vinberg88/opensuse/blob/main/Cutefish-Arch.txt
 
