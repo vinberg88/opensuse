@@ -1,0 +1,90 @@
+-----------------------------------
+
+How to install Deepin desktop on Windows 11 - WSL - OpenEuler 23.09
+
+OpenEuler har sitt ursprung i Kina och du hittar den via Micorsoft Store: https://apps.microsoft.com/detail/9N8XNFG3J1HT?hl=sv-se&gl=VN
+
+-----------------------------------
+
+1. Paste all in terminal
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+-----------------------------------
+
+2. Reboot Reboot Reboot Reboot Reboot Reboot 
+
+-----------------------------------
+
+3. Update System
+
+sudo dnf update
+
+-----------------------------------
+
+3.5 Install some programs!
+
+sudo dnf install wget git nano bash sudo curl npm
+
+-----------------------------------
+
+4. Time to install Deepin Desktop.
+
+sudo dnf install dde
+sudo dnf install dde*
+
+-----------------------------------
+
+5. Paste in terminal
+
+sudo systemctl set-default graphical.target
+
+-----------------------------------
+
+6. Reboot Reboot Reboot Reboot Reboot Linux
+
+-----------------------------------
+
+7. Start GWSL and Config - Reboot after please and start from GWSL SHELL.
+
+-----------------------------------
+
+7. Type in terminal: sudo nano ~/.bash_ubuntu_desktop
+
+Paste this in terminal and save:
+
+export XDG_CURRENT_DESKTOP=ubuntu:GNOME
+export XDG_SESSION_DESKTOP=ubuntu
+export DESKTOP_SESSION=ubuntu
+export GNOME_SHELL_SESSION_MODE=ubuntu
+
+export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+export XDG_MENU_PREFIX=gnome-
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-----------------------------------
+
+8. Reboot Reboot Reboot Reboot Reboot Reboot
+
+-----------------------------------
+
+9. Done - Time to start from terminal. Paste all in console and Deepin will start!
+
+. ~/.bash_ubuntu_desktop
+startdde
+
+--------------------------------------------------------------
+
+Kind Regards,
+Mattias Vinberg
