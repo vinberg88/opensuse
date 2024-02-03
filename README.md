@@ -21,6 +21,21 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+How to install Deepin desktop on Windows 11 - WSL - OpenEuler 23.09 : https://github.com/vinberg88/opensuse/blob/main/Deepin%20-%20OpenEuler.txt
+
+Movie for Installation - WSL - OpenEuler - Deepin : https://www.youtube.com/watch?v=rt7jiyLMp5Q
+
+![openEuler](https://github.com/vinberg88/opensuse/assets/94398623/2d4e1503-6a6c-43dc-a17f-066e0d0039af)
+
+
+OpenEuler has its heart in China and you can tell. They are good at packing packages for Dnf or Yum. EulerOS is a commercial Linux
+distribution developed by Huawei based on Red Hat Enterprise Linux to provide an operating system for server and cloud environments.
+
+Kind Regards,
+Mattias Vinberg
+
+----------------------------------------------
+
 Beta - CutefishOS or just Cutefish - ARCH Linux - How to install Cutefish via Windows 11 - WSL - GWSL - 2024
 
 How to install CutefishOS via Arch: https://github.com/vinberg88/opensuse/blob/main/Cutefish-Arch.txt
