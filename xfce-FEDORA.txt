@@ -4,9 +4,9 @@ Fedora 39 - XFCE4 - Windows 11 - GWSL
 
 Fedora 39 - How to install XFCE4 desktop via Fedora 39 - WSL - windows 11 - GWSL
 
-How to install XFCE desktop on Fedora - WSL = 
+How to install XFCE desktop on Fedora - WSL = https://github.com/vinberg88/opensuse/blob/main/xfce-FEDORA.txt
 
-Movie - How to install Fedora 39 via windows 11 WsL = 
+Movie - How to install Fedora 39 via windows 11 WsL = https://www.youtube.com/watch?v=mGQAdpFVh1U
 
 About Fedora: Fedora is developed by the Fedora Project and sponsored by Red Hat. 
 It follows its own release schedule, with a new version approximately
