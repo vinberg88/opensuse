@@ -21,6 +21,22 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+Manjaro - UkUI Desktop - How to install UkUI via Manjaro - WSL - GWSL - Windows 11
+
+Text how to do this - install: https://github.com/vinberg88/opensuse/blob/main/Ukui%20-%20Manjaro.txt
+
+Video how to install: https://www.youtube.com/watch?v=qYGwjY-RO90
+
+![UKUI-Desktop](https://github.com/vinberg88/opensuse/assets/94398623/ad04be28-1d47-4cef-9686-57bb22a213ad)
+
+Manjaro Linux Open Source operating system is and always will be provided for you to download
+use or modify free of charge and completely open source. The Manjaro project is backed up by 
+Manjaro Gmbh & Co, KG an Open Source driven company - manjaro.org
+
+Have a god day,
+Mattias Vinberg
+----------------------------------------------
+
 How to install Deepin desktop on Windows 11 - WSL - OpenEuler 23.09 : https://github.com/vinberg88/opensuse/blob/main/Deepin%20-%20OpenEuler.txt
 
 Movie for Installation - WSL - OpenEuler - Deepin : https://www.youtube.com/watch?v=rt7jiyLMp5Q
