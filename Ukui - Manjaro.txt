@@ -1,0 +1,82 @@
+----------------------------------------------------------------
+
+Manjaro - UkUI Desktop - How to install UkUI via Manjaro - WSL - GWSL - Windows 11
+
+More About UKUI desktop for WsL, look here: https://www.ukui.org - https://github.com/ukui/ukui-desktop-environment
+
+You can find Manjaro Linux here for WSL - https://github.com/sileshn/ManjaroWSL2
+
+Manjaro Linux Open Source operating system is and always will be provided for you to download
+use or modify free of charge and completely open source. The Manjaro project is backed up by 
+Manjaro Gmbh & Co, KG an Open Source driven company - manjaro.org
+
+----------------------------------------------------------------
+
+1. Paste all in terminal - One by One!
+
+sudo pacman -S xorg xorg-server xorg-xinit mesa xterm xorg-twm xorg-xrandr
+
+sudo pacman -S xorg-twm xterm xorg-xclock lightdm bluedevil libqtxdg
+
+sudo pacman -S xorg-xfontsel xorg-xlsfonts xorg-xkill xorg-xinput xorg-xwininfo
+
+yay -S google-chrome hyfetch
+
+----------------------------------------------------------------
+
+2. Time to install UKUI Desktop.
+
+sudo pacman -S ukui
+
+yay -S ukui-panel
+
+----------------------------------------------------------------
+
+3. Paste in terminal
+
+sudo systemctl enable lightdm
+
+----------------------------------------------------------------
+
+4. Reboot Linux - Reboot Linux - Reboot Linux - Reboot Linux
+
+----------------------------------------------------------------
+
+5. Start from GWSL and config - Then Reboot and start from GWSL SHELL.
+
+----------------------------------------------------------------
+
+Type in terminal: sudo nano ~/.bash_ubuntu_desktop
+
+Paste this in terminal and save:
+
+export XDG_CURRENT_DESKTOP=ubuntu:GNOME
+export XDG_SESSION_DESKTOP=ubuntu
+export DESKTOP_SESSION=ubuntu
+export GNOME_SHELL_SESSION_MODE=ubuntu
+
+export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+export XDG_MENU_PREFIX=gnome-
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------------------------
+
+Reboot Linux - Reboot Linux - Reboot Linux - Reboot Linux
+
+----------------------------------------------------------------
+
+Time to start UkUI desktop. Done =]
+
+. ~/.bash_ubuntu_desktop
+ukui-session
+
+----------------------------------------------------------------
+
+Kind Regards,
+Mattias Vinberg - 2024
