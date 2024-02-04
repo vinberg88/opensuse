@@ -1,0 +1,127 @@
+---------------------------------------------------------------
+
+Centos 9 - How to install KDE plasma desktop via Windows 11 - WSL - 2024
+
+How to install KDE plasma/WSL via Windows 11 - TEXT: 
+
+About Centos - CentOS Stream 9 is the next major release of the CentOS Stream distribution. 
+CentOS Stream is developed in collaboration with the Red Hat Enterprise Linux (RHEL) engineering
+team, and with you, the CentOS community.
+
+You will find Centos 9 here for WSL - https://github.com/mishamosher/CentOS-WSL/releases
+
+How to install KDE plasma Centos 9 via WSL - Video: 
+
+Find more stuff here for WSL, Linux and Windows: https://github.com/vinberg88/opensuse
+
+Have installed repos/mirror and some program and updated Centos 9..
+
+---------------------------------------------------------------
+
+1. Copy and Paste slowly. Not all at once. Maybe three to five lines =]
+
+sudo dnf update
+sudo dnf upgrade --refresh
+
+sudo dnf upgrade -y
+sudo dnf install -y systemd dbus-x11 procps bind-utils iproute iputils nmap-ncat
+sudo dnf swap -y curl-minimal curl
+sudo dnf swap -y coreutils-single coreutils
+sudo dnf --enablerepo=epel,epel-next,crb group -y install "KDE Plasma Workspaces"
+
+sudo dnf install -y dconf-editor
+
+sudo systemctl enable sddm.service
+sudo systemctl enable NetworkManager.service
+
+sudo dnf check-update -y
+sudo dnf install -y ffmpeg
+
+--------------------------------------------------------------
+
+2. Login as root user and paste all in terminal, no stress... 
+
+Change master to your user.. master is my name.
+
+--------------------------------------------------------------
+
+mkdir -p /etc/polkit-1/localauthority/50-local.d/
+cat >/etc/polkit-1/localauthority/50-local.d/color.pkla <<'EOF'
+[Allow colord for all users]
+Identity=unix-user:*
+Action=org.freedesktop.color-manager.create-device;org.freedesktop.color-manager.create-profile;org.freedesktop.color-manager.delete-device;org.freedesktop.color-manager.delete-profile;org.freedesktop.color-manager.modify-device; org.freedesktop.color-manager.org.freedesktop.color-manager.modify-profile
+ResultAny=yes
+ResultInactive=yes
+ResultActive=yes
+EOF
+
+systemctl set-default multi-user.target
+
+mkdir -p /etc/systemd/system/ModemManager.service.d
+
+echo -e "[Unit]\nConditionVirtualization=\n" > /etc/systemd/system/ModemManager.service.d/override.conf
+
+mkdir -p /etc/systemd/system/fwupd.service.d
+
+echo -e "[Unit]\nConditionVirtualization=\n" > /etc/systemd/system/fwupd.service.d/override.conf
+
+echo -e "[Install]\nWantedBy=multi-user.target\n" >> /etc/systemd/system/fwupd.service.d/override.conf
+
+systemctl enable ModemManager.service
+systemctl enable fwupd.service
+
+usermod -a -G wheel master
+usermod -a -G rtkit master
+usermod -a -G pipewire master
+
+mkdir -p /home/master/.config/systemd/user/default.target.wants
+ln -s /usr/lib/systemd/user/pipewire.service /home/master/.config/systemd/user/default.target.wants/pipewire.service
+
+mkdir -p /home/master/.config/systemd/user/sockets.target.wants
+ln -s /usr/lib/systemd/user/pipewire.socket /home/master/.config/systemd/user/sockets.target.wants/pipewire.socket
+
+systemctl enable rtkit-daemon.service
+
+mkdir -p /etc/security/limits.d
+echo -e "@pipewire - rtprio 95\n@pipewire - nice -19\n" > /etc/security/limits.d/95-pipewire.conf
+
+echo "/bin/mount -o remount,rw /tmp/.X11-unix" >> /etc/rc.d/rc.local
+chmod 700 /etc/rc.d/rc.local
+
+systemctl enable rtkit-daemon.service
+
+mkdir -p /etc/security/limits.d
+echo -e "@pipewire - rtprio 95\n@pipewire - nice -19\n" > /etc/security/limits.d/95-pipewire.conf
+
+echo "/bin/mount -o remount,rw /tmp/.X11-unix" >> /etc/rc.d/rc.local
+chmod 700 /etc/rc.d/rc.local
+
+mkdir -p /home/master/bin
+
+cat >/home/master/bin/start-gnome <<'EOF'
+#!/bin/bash
+
+nohup Xwayland -br -ac :1 >/dev/null 2>&1 &
+env DISPLAY=:1 WAYLAND_DISPLAY= XDG_SESSION_TYPE=x11 startplasma-x11 --disable-acceleration-check
+pkill -9 Xwayland >/dev/null 2>&1
+EOF
+
+chown -R master:master /home/master
+chmod +x /home/master/bin/start-gnome
+
+-----------------------------------------------
+
+Logout and reboot - Centos 9 Stream
+
+Setup GWSL and Config and after that Reboot.
+
+-----------------------------------------------
+
+Time to start KDE plasma via Centos 9. 
+
+Start shell from GWSL and type: startplasma-x11
+
+----------------------------------------------
+
+Kind Regards,
+Mattias Vinberg
