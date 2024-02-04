@@ -21,6 +21,25 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+Fedora 39 - How to install XFCE4 desktop via Fedora 39 - WSL - windows 11 - GWSL
+
+How to install XFCE desktop on Fedora - WSL = https://github.com/vinberg88/opensuse/blob/main/xfce-FEDORA.txt
+
+Movie - How to install Fedora 39 via windows 11 WsL = https://www.youtube.com/watch?v=mGQAdpFVh1U
+
+![xcfe4fedora](https://github.com/vinberg88/opensuse/assets/94398623/b4c7ec48-48c5-447c-9699-be7393968e9e)
+
+About Fedora: Fedora is developed by the Fedora Project and sponsored by Red Hat. 
+It follows its own release schedule, with a new version approximately
+every six months. Fedora provides a modern Linux operating system utilizing
+many of the latest technologies. It is free for all users and
+supported via the Fedora community 2024. 
+
+Kind Regards,
+Mattias Vinberg
+
+----------------------------------------------
+
 Centos 9 - How to install KDE plasma desktop via Windows 11 - WSL - 2024
 
 How to install KDE plasma/WSL via Windows 11 - TEXT: https://github.com/vinberg88/opensuse/blob/main/KDE-Centos9.txt
