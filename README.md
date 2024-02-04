@@ -21,6 +21,22 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+Centos 9 - How to install KDE plasma desktop via Windows 11 - WSL - 2024
+
+How to install KDE plasma/WSL via Windows 11 - TEXT: https://github.com/vinberg88/opensuse/blob/main/KDE-Centos9.txt
+
+How to install KDE plasma Centos 9 via WSL - Video: https://www.youtube.com/watch?v=kH8shJjSpIk
+
+About Centos - CentOS Stream 9 is the next major release of the CentOS Stream distribution. CentOS Stream is developed
+in collaboration with the Red Hat Enterprise Linux (RHEL) engineering team, and with you, the CentOS community.
+
+![Centos9StreamKDE](https://github.com/vinberg88/opensuse/assets/94398623/0d25194f-7a01-4fc4-8e6e-6356e61ed106)
+
+Kind Regards,
+Mattias vinberg
+
+----------------------------------------------
+
 Manjaro - UkUI Desktop - How to install UkUI via Manjaro - WSL - GWSL - Windows 11
 
 Text how to do this - install: https://github.com/vinberg88/opensuse/blob/main/Ukui%20-%20Manjaro.txt
@@ -35,6 +51,7 @@ Manjaro Gmbh & Co, KG an Open Source driven company - manjaro.org
 
 Have a god day,
 Mattias Vinberg
+
 ----------------------------------------------
 
 How to install Deepin desktop on Windows 11 - WSL - OpenEuler 23.09 : https://github.com/vinberg88/opensuse/blob/main/Deepin%20-%20OpenEuler.txt
