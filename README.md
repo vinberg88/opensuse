@@ -21,6 +21,28 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+Fedora 39 - How to set up Cinnamon desktop via windows 11 - WSL - GWSL - Linux - 2024
+
+How to install Cinnamon Desktop for fedora 39 (Text) = https://github.com/vinberg88/opensuse/blob/main/Cinnamon-Fedora39.txt
+
+Movie - how to do it - WSL - Fedora 39 - Cinnamon desktop = https://www.youtube.com/watch?v=I0TeGXqnX2c
+
+![cinnamon-fedora](https://github.com/vinberg88/opensuse/assets/94398623/9a0a126c-bf57-4ee6-a7d5-4160b6fd1b7a)
+
+About Cinnamon = Cinnamon is a free and open-source desktop environment for Linux and other Unix-like 
+operating systems, which was originally based on GNOME 3, but follows traditional desktop
+metaphor conventions. Cinnamon desktop is fast and light!
+
+What is Fedora 39 = Fedora 39 is built from open source components, many of which are shared with other
+Fedora Editions and Spins. Key components include the Linux kernel, systemd, DNF, the Wayland display
+server, the Pipewire multimedia server, NetworkManager, the GNOME Desktop, and the Firefox browser. 
+Each of these components are carefully integrated and tested, to work together as part of a seamless experience..
+
+Kind Regards,
+Mattias Vinberg
+
+----------------------------------------------
+
 Fedora 39 - How to install XFCE4 desktop via Fedora 39 - WSL - windows 11 - GWSL
 
 How to install XFCE desktop on Fedora - WSL = https://github.com/vinberg88/opensuse/blob/main/xfce-FEDORA.txt
