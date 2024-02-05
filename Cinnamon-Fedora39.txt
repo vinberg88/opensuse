@@ -2,9 +2,9 @@
 
 Fedora 39 - How to set up Cinnamon desktop via windows 11 - WSL - GWSL - Linux - 2024
 
-How to install Cinnamon Desktop for fedora 39 (Text) = 
+How to install Cinnamon Desktop for fedora 39 (Text) = https://github.com/vinberg88/opensuse/blob/main/Cinnamon-Fedora39.txt
 
-Movie - how to do it - WSL - Fedora 39 - Cinnamon desktop =
+Movie - how to do it - WSL - Fedora 39 - Cinnamon desktop = https://www.youtube.com/watch?v=I0TeGXqnX2c
 
 About Cinnamon = Cinnamon is a free and open-source desktop environment for Linux and other Unix-like 
 operating systems, which was originally based on GNOME 3, but follows traditional desktop
