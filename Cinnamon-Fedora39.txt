@@ -1,0 +1,64 @@
+------------------------------------------------------------------------------
+
+Fedora 39 - How to set up Cinnamon desktop via windows 11 - WSL - GWSL - Linux - 2024
+
+How to install Cinnamon Desktop for fedora 39 (Text) = 
+
+Movie - how to do it - WSL - Fedora 39 - Cinnamon desktop =
+
+About Cinnamon = Cinnamon is a free and open-source desktop environment for Linux and other Unix-like 
+operating systems, which was originally based on GNOME 3, but follows traditional desktop
+metaphor conventions.
+
+What is Fedora 39 = Fedora 39 is built from open source components, many of which are shared with other
+Fedora Editions and Spins. Key components include the Linux kernel, systemd, DNF, the Wayland display
+server, the Pipewire multimedia server, NetworkManager, the GNOME Desktop, and the Firefox browser. 
+Each of these components are carefully integrated and tested, to work together as part of a seamless experience..
+
+-------------------------------------------------------------------------------
+
+Copy and paste one by one - No stress
+
+1. sudo dnf upgrade --refresh
+
+2. sudo dnf group install "Cinnamon Desktop"
+
+3. sudo dnf install cinnamon*
+
+4. Reboot Linux Reboot Linux Reboot Linux
+
+4. sudo systemctl set-default graphical.target
+
+5. sudo systemctl set-default multi-user.target
+
+6. Reboot Linux Reboot Linux Reboot Linux
+
+7. Start GWSL och kör config. Starta sedan från Shell i GWSL
+
+10. Reboot Reboot Linux Reboot Reboot
+
+11. Type in terminal: sudo nano ~/.bash_ubuntu_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------
+
+Reboot Linux Reboot Linux Reboot Linux Reboot Linux
+ 
+----------------------------------------------
+
+And we are done - Time to start Cinnamon Desktop - Fedora 39
+
+. ~/.bash_ubuntu_desktop
+cinnamon-session
+
+----------------------------------------------
+
+Warm Regards,
+Mattias Vinberg
