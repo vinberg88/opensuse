@@ -21,6 +21,31 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+Fedora 39 - Install LXDE desktop via Fedora 39 - WSL - Windows 11 - 2024
+
+Description - how to install LXDE with Fedora 39 via Windows: https://github.com/vinberg88/opensuse/edit/main/LXDE-Fedora.txt
+
+Video - how to install LXDE via Fedora and Windows: https://www.youtube.com/watch?v=nGpyZMWATDg
+
+![lxde-fedora2](https://github.com/vinberg88/opensuse/assets/94398623/57a488f8-42a5-4412-8bab-c982b3e5f8ef)
+
+Fedora 39 WSL you will find in Mcrosoft Store - https://apps.microsoft.com/detail/9NPCP8DRCHSN?hl=en-US&gl=US
+
+About LXDE - LXDE stands for Lightweight X11 Desktop Environment. The "Lightweight X11 Desktop Environment" is an extremely
+fast-performing and energy-saving desktop environment. Maintained by an international community of developers, it comes with a
+beautiful interface, multi-language support, standard keyboard short cuts and additional features like tabbed file browsing.
+LXDE uses less CPU and less RAM than other environments. It is especially designed for cloud computers with low hardware
+specifications, such as, netbooks, mobile devices (e.g. MIDs) or older computers.
+
+About FEDORA - Fedora Linux is a Linux distribution developed by the Fedora Project. It was originally developed in 2003 as a continuation
+of the Red Hat Linux project. It contains software distributed under various free and open-source licenses and aims to be on the leading edge
+of open-source technologies. It is now the upstream source for CentOS Stream and Red Hat Enterprise Linux.
+
+Kind Regards,
+Mattias Vinberg
+
+----------------------------------------------
+
 Fedora 39 - How to set up Cinnamon desktop via windows 11 - WSL - GWSL - Linux - 2024
 
 How to install Cinnamon Desktop for fedora 39 (Text) = https://github.com/vinberg88/opensuse/blob/main/Cinnamon-Fedora39.txt
