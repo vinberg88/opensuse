@@ -1,0 +1,105 @@
+                   -`
+                  .o+`
+                 `ooo/
+                `+oooo:
+               `+oooooo:
+               -+oooooo+:
+             `/:-:++oooo+:
+            `/++++/+++++++:
+           `/++++++++++++++:
+          `/+++ooooooooooooo/`
+         ./ooosssso++osssssso+`
+        .oossssso-````/ossssss+`
+       -osssssso.      :ssssssso.
+      :osssssss/        osssso+++.
+     /ossssssss/        +ssssooo/-
+   `/ossssso+/:-        -:/+osssso+-
+  `+sso+:-`                 `.-/+oso:
+ `++:.                           `-/+/
+ .`                                 
+
+------------------------------------------------------------
+
+ARCH Linux - Mate desktop via Windows 11 - WSL - Arch - GWSL - Youtube 2024
+
+Text - how to install Mate desktop on Arch and Windows 11:
+
+Video - how to install Arch and Mate desktop via Windows 11 - WSL: 
+
+About Arch: You've reached the website for Arch Linux, a lightweight and flexible Linux® distribution
+that tries to Keep It Simple.Our strong community is diverse and helpful, and we pride ourselves on
+the range of skillsets and uses for Arch that stem from it - https://archlinux.org/
+
+The MATE Desktop Environment is the continuation of GNOME 2. It provides an intuitive and attractive desktop
+environment using traditional metaphors for Linux and other Unix-like operating systems.
+
+Find More stuff about WSL and other Linux desktops look here: https://github.com/vinberg88/opensuse
+
+WSL Arch: https://apps.microsoft.com/detail/9MZNMNKSM73X?hl=en-US&gl=US
+
+------------------------------------------------------------
+
+1. Paste this in terminal and update system - ARCH 2024
+
+sudo pacman -Syu
+
+------------------------------------------------------------
+
+2. Install one by one... Xorg is a popular X windows system or display system
+
+sudo pacman -S xorg xorg-server xorg-xinit mesa xterm xorg-twm xorg-xrandr -y
+sudo pacman -S xorg-twm xterm xorg-xclock lightdm bluedevil libqtxdg -y
+sudo pacman -S xorg-server xorg-xinit xorg-xrandr xorg-xfontsel xorg-xlsfonts xorg-xkill xorg-xinput xorg-xwininfo -y
+sudo pacman -S lightdm-gtk-greeter -y
+
+sudo systemctl enable lightdm
+sudo systemctl set-default graphical
+
+------------------------------------------------------------
+
+Time to installing MATE Desktop Environment in Arch Linux - WSL
+
+sudo pacman -S mate mate-extra
+
+------------------------------------------------------------
+
+Paste in terminal - All
+
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+------------------------------------------------------------
+
+Type this in terminal and put your user there - loginctl enable-linger user
+
+------------------------------------------------------------
+
+Type in terminal: sudo nano ~/.bash_arch_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+------------------------------------------------------------
+
+Time to Reboot and start upp GWSL and Config - Reboot after that.
+
+------------------------------------------------------------
+
+Time to start Mate Desktop - WSL - Windows 11 - Arch 
+
+Paste all in terminal
+
+. ~/.bash_arch_desktop
+mate-session
+
+------------------------------------------------------------
+
+Extra install: yay -S google-chrome hyfetch
+
+------------------------------------------------------------
