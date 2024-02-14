@@ -24,6 +24,36 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+Opensuse Tumbelweed - how to install mate desktop on WSL - GUI - GWSL - Youtube 2024
+
+Here you can find video, how to install Mate desktop via Opensuse.
+https://www.youtube.com/watch?v=9OuOtihmDks
+
+Text - How to install Mate desktop via Opensúse Tumbelweed. 
+https://github.com/vinberg88/opensuse/blob/main/Mate-Opensuse.txt
+
+![Mate-Opensuse](https://github.com/vinberg88/opensuse/assets/94398623/7e780219-987c-4261-8a25-1702fd453845)
+
+About Opensuse Tumbelweed: State-of-the-art desktop and server operating system.
+With Tumbleweed you don't have to take difficult decisions about things you value, 
+either freedom or safety, either control or security, technology or stability
+Tumbleweed lets you have your cake and eat it too! https://get.opensuse.org/tumbleweed/
+
+About Mate Desktop: The MATE Desktop Environment is the continuation of GNOME 2.
+It provides an intuitive and attractive desktop environment using traditional metaphors
+for Linux and other Unix-like operating systems. MATE is under active development
+to add support for new technologies while preserving a traditional desktop experience
+https://mate-desktop.org/
+
+Tumbelweed WSL for windows 11: https://apps.microsoft.com/detail/9MSSK2ZXXN11?hl=sv-se&gl=US
+
+Do you want more WSL stuff go here: https://github.com/vinberg88/opensuse
+
+Kind Regards,
+Mattias Vinberg - Sweden
+
+----------------------------------------------
+
 ARCH Linux - Mate desktop via Windows 11 - WSL - Arch - GWSL - Youtube 2024
 
 Text - how to install Mate desktop on Arch and Windows 11: https://github.com/vinberg88/opensuse/blob/main/Mate-Arch.txt
