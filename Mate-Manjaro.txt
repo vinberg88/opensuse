@@ -4,7 +4,7 @@ Mate desktop via Windows 11 - WSL - Manjaro - GWSL - Youtube 2024
 
 Text - how to install Mate desktop whit Manjaro: https://www.youtube.com/watch?v=Bfk_F2lrQxQ
 
-Video - how to install Manjaro whit Mate desktop - WSL: 
+Video - how to install Manjaro whit Mate desktop - WSL: https://www.youtube.com/watch?v=Bfk_F2lrQxQ
 
 Manjaro is a versatile, free, and open-source Linux operating system designed with a strong focus on safeguarding
 user privacy and offering extensive control over hardware. This user-friendly OS is an excellent choice for those
