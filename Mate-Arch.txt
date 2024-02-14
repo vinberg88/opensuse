@@ -22,9 +22,9 @@
 
 ARCH Linux - Mate desktop via Windows 11 - WSL - Arch - GWSL - Youtube 2024
 
-Text - how to install Mate desktop on Arch and Windows 11:
+Text - how to install Mate desktop on Arch and Windows 11: https://github.com/vinberg88/opensuse/blob/main/Mate-Arch.txt
 
-Video - how to install Arch and Mate desktop via Windows 11 - WSL: 
+Video - how to install Arch and Mate desktop via Windows 11 - WSL: https://www.youtube.com/watch?v=k5B8-Sk4B-c
 
 About Arch: You've reached the website for Arch Linux, a lightweight and flexible Linux® distribution
 that tries to Keep It Simple.Our strong community is diverse and helpful, and we pride ourselves on
