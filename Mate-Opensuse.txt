@@ -16,9 +16,11 @@ OpenSuse TumbelWeed - Mate Desktop - 2024 - Sweden Made InC
 
 Opensuse Tumbelweed - how to install mate desktop on WSL - GUI - GWSL - Youtube 2024
 
-Here you can find video, how to install Mate desktop via Opensuse: https://www.youtube.com/watch?v=9OuOtihmDks
+Here you can find video, how to install Mate desktop via Opensuse.
+https://www.youtube.com/watch?v=9OuOtihmDks
 
-Text - How to install Mate desktop via Opensúse Tumbelweed: Comming..
+Text - How to install Mate desktop via Opensúse Tumbelweed.
+https://github.com/vinberg88/opensuse/blob/main/Mate-Opensuse.txt
 
 About Opensuse Tumbelweed: State-of-the-art desktop and server operating system.
 With Tumbleweed you don't have to take difficult decisions about things you value, 
