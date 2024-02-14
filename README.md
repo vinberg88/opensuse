@@ -21,6 +21,30 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+Mate desktop via Windows 11 - WSL - Manjaro - GWSL - Youtube 2024
+
+Text - how to install Mate desktop whit Manjaro: https://github.com/vinberg88/opensuse/blob/main/Mate-Manjaro.txt
+
+Video - how to install Manjaro whit Mate desktop - WSL: https://www.youtube.com/watch?v=Bfk_F2lrQxQ
+
+![Manjaro-Mate](https://github.com/vinberg88/opensuse/assets/94398623/7c13e5b3-cac8-450c-a303-6cb8e4018c2f)
+
+Manjaro is a versatile, free, and open-source Linux operating system designed with a strong focus on safeguarding
+user privacy and offering extensive control over hardware. This user-friendly OS is an excellent choice for those
+who seek a fresh computing experience, as it can be seamlessly installed on a diverse array of devices.
+
+The MATE Desktop Environment is the continuation of GNOME 2. It provides an intuitive and attractive desktop
+environment using traditional metaphors for Linux and other Unix-like operating systems.
+
+Find More stuff about WSL and other Linux desktops here: https://github.com/vinberg88/opensuse
+
+WSL Manjaro: https://github.com/sileshn/ManjaroWSL2
+
+Kind Regards,
+Mattias Vinberg
+
+----------------------------------------------
+
 OpenEuler 23.09 - How to install Gnome desktop via Windows 11 - WSL - YouTube 2024
 
 How to install Gnome desktop: https://github.com/vinberg88/opensuse/blob/main/OpenEuler-Gnome.txt
