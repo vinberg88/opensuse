@@ -1,0 +1,122 @@
+OpenSuse TumbelWeed - Mate Desktop - 2024 - Sweden Made InC
+                                     ......       
+     .,cdxxxoc,.               .:kKMMMNWMMMNk:.    
+    cKMMN0OOOKWMMXo. A        ;0MWk:'      ':OMMk. 
+  ;WMK;'       'lKMMNM,     :NMK'             'OMW; 
+ cMW;             WMMMN   ,XMK'                 oMM. 
+.MMc             ''^*~l. xMN:                    KM0 
+'MM.                   .NMO                      oMM 
+.MM,                 .kMMl                       xMN 
+ KM0               .kMM0' .dl>~,.               .WMd 
+ 'XM0.           ,OMMK'    OMMM7'              .XMK  
+   *WMO:.    .;xNMMk'       NNNMKl.          .xWMx   
+     ^ONMMNXMMMKx;          V  'xNMWKkxllox0NMWk' 
+         '''''                    ':dOOXXKOxl'  
+
+
+Opensuse Tumbelweed - how to install mate desktop on WSL - GUI - GWSL - Youtube 2024
+
+Here you can find video, how to install Mate desktop via Opensuse: https://www.youtube.com/watch?v=9OuOtihmDks
+
+Text - How to install Mate desktop via Opensúse Tumbelweed: Comming..
+
+About Opensuse Tumbelweed: State-of-the-art desktop and server operating system.
+With Tumbleweed you don't have to take difficult decisions about things you value, 
+either freedom or safety, either control or security, technology or stability
+Tumbleweed lets you have your cake and eat it too! https://get.opensuse.org/tumbleweed/
+
+About Mate Desktop: The MATE Desktop Environment is the continuation of GNOME 2.
+It provides an intuitive and attractive desktop environment using traditional metaphors
+for Linux and other Unix-like operating systems. MATE is under active development
+to add support for new technologies while preserving a traditional desktop experience
+https://mate-desktop.org/
+
+Tumbelweed WSL for windows 11: https://apps.microsoft.com/detail/9MSSK2ZXXN11?hl=sv-se&gl=US
+
+Do you want more WSL stuff go here: https://github.com/vinberg88/opensuse
+
+-------------------------------------------------------------
+
+-------------------------------------------------------------
+
+LOOK VIDEO....
+
+Go to yast and install mate desktop and mate.. look in menu dont install all for mate. Mate desktop
+in serche is ok. You can install all.....
+
+Type: sudo yast and update all and install from yast: mate desktop and mate
+
+-------------------------------------------------------------
+
+-------------------------------------------------------------
+
+Config GWSL and start shell from there... Reboot please after config =]
+
+-------------------------------------------------------------
+
+-------------------------------------------------------------
+
+sudo zypper in -t pattern wsl_gui wsl_base wsl_systemd
+
+-------------------------------------------------------------
+
+-------------------------------------------------------------
+
+sudo zypper in patterns-mate-mate  <-- You dont need to do that if
+you installd all via yast. 
+
+-------------------------------------------------------------
+
+-------------------------------------------------------------
+
+sudo zypper install bash git npm wget curl nano sudo dialog go dracut opi
+
+-------------------------------------------------------------
+
+-------------------------------------------------------------
+
+opi google-chrome
+
+-------------------------------------------------------------
+
+-------------------------------------------------------------
+
+Paste one by one. No stress =]
+
+sudo systemctl set-default graphical
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-------------------------------------------------------------
+
+-------------------------------------------------------------
+
+Type in terminal: sudo nano ~/.bash_opensuse_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-------------------------------------------------------------
+
+-------------------------------------------------------------
+
+Reboot - Linux - Reboot - Linux - Reboot
+
+-------------------------------------------------------------
+
+-------------------------------------------------------------
+
+Time to start Mate desktop - Tumbelweed.
+
+. ~/.bash_opensuse_desktop
+mate-session
+
+-------------------------------------------------------------
+
+-------------------------------------------------------------
