@@ -1,0 +1,136 @@
+----------------------------------------------------------
+
+OpenEuler 23.09 - How to install Gnome desktop via Windows 11 - WSL - YouTube 2024
+
+About openEuler: EulerOS is a commercial Linux distribution developed by Huawei based on Red Hat Enterprise Linux.
+To provide an operating system for server and cloud environments. Its open-source community version
+is known as openEuler, of which source code was released by Huawei at Gitee on December 31, 2019.
+OpenEuler became an open-source project operated by OpenAtom Foundation after Huawei donated
+the source code of openEuler to the foundation on November. 
+
+OpenEuler - You can find OpenEuler in Microsoft Store for WSL: https://www.openeuler.org/en/ 
+
+Gnome is a god desktop - Read More here: https://www.gnome.org/getting-gnome
+
+-----------------------------------------------------------
+
+1. Paste in terminal - Update
+
+sudo dnf update
+
+-----------------------------------------------------------
+
+2. Install dbus - Paste in terminal
+
+sudo dnf install dbus*
+
+-----------------------------------------------------------
+
+3. Fonts to install - Copy and Paste in terminal
+
+sudo dnf install dejavu-fonts liberation-fonts gnu-*-fonts google-*-fonts
+
+-----------------------------------------------------------
+
+4. Install Xorg - Copy and paste in terminal
+
+sudo dnf install xorg-*
+
+-----------------------------------------------------------
+
+5. Extra xorg package to install. Copy and Paste in Console
+
+sudo dnf install xorg-x11-apps xorg-x11-drivers xorg-x11-drv-ati -y
+sudo dnf install xorg-x11-drv-dummy xorg-x11-drv-evdev xorg-x11-drv-fbdev xorg-x11-drv-intel -y
+sudo dnf install xorg-x11-drv-libinput xorg-x11-drv-nouveau xorg-x11-drv-qxl -y
+sudo dnf install xorg-x11-drv-synaptics-legacy xorg-x11-drv-v4l xorg-x11-drv-vesa -y
+sudo dnf install xorg-x11-drv-vmware xorg-x11-drv-wacom xorg-x11-fonts xorg-x11-fonts-others -y
+sudo dnf install xorg-x11-font-utils xorg-x11-server xorg-x11-server-utils xorg-x11-server-Xephyr -y
+sudo dnf install xorg-x11-server-Xspice xorg-x11-util-macros xorg-x11-utils xorg-x11-xauth -y
+sudo dnf install xorg-x11-xbitmaps xorg-x11-xinit xorg-x11-xkb-utils -y
+
+-----------------------------------------------------------
+
+6. Time to install Gnome - Paste all in terminal and Press Enter to install.
+
+sudo dnf install adwaita-icon-theme atk atkmm at-spi2-atk at-spi2-core baobab -y
+sudo dnf install abattis-cantarell-fonts cheese clutter clutter-gst3 clutter-gtk cogl dconf -y
+sudo dnf install dconf-editor devhelp eog epiphany evince evolution-data-server file-roller folks -y
+sudo dnf install gcab gcr gdk-pixbuf2 gdm gedit geocode-glib gfbgraph gjs glib2 glibmm24 -y
+sudo dnf install glib-networking gmime30 gnome-autoar gnome-backgrounds gnome-bluetooth -y
+sudo dnf install gnome-builder gnome-calculator gnome-calendar gnome-characters -y
+sudo dnf install gnome-clocks gnome-color-manager gnome-contacts gnome-control-center -y
+sudo dnf install gnome-desktop3 gnome-disk-utility gnome-font-viewer gnome-getting-started-docs -y
+sudo dnf install gnome-initial-setup gnome-keyring gnome-logs gnome-menus gnome-music -y
+sudo dnf install gnome-online-accounts gnome-online-miners gnome-photos gnome-remote-desktop -y
+sudo dnf install gnome-screenshot gnome-session gnome-settings-daemon gnome-shell -y
+sudo dnf install gnome-shell-extensions gnome-software gnome-system-monitor gnome-terminal -y
+sudo dnf install gnome-tour gnome-user-docs gnome-user-share gnome-video-effects -y
+sudo dnf install gnome-weather gobject-introspection gom grilo grilo-plugins -y
+sudo dnf install gsettings-desktop-schemas gsound gspell gssdp gtk3 gtk4 gtk-doc gtkmm30 -y
+sudo dnf install gtksourceview4 gtk-vnc2 gupnp gupnp-av gupnp-dlna gvfs json-glib libchamplain -y
+sudo dnf install libdazzle libgdata libgee libgnomekbd libgsf libgtop2 libgweather libgxps libhandy -y
+sudo dnf install libmediaart libnma libnotify libpeas librsvg2 libsecret libsigc++20 libsoup -y
+sudo dnf install mm-common mutter nautilus orca pango pangomm libphodav python3-pyatspi -y
+sudo dnf install python3-gobject rest rygel simple-scan sushi sysprof tepl totem totem-pl-parser -y
+sudo dnf install tracker3 tracker3-miners vala vte291 yelp yelp-tools -y
+sudo dnf install yelp-xsl zenity -y
+
+-----------------------------------------------------------
+
+7. Install Graphics - Copy and Paste in terminal - SHELL
+
+sudo dnf install gdm*
+
+----------------------------------------------------------------
+
+8. Last files to copy to terminal - GNOME - full installation
+
+sudo dnf install gnome*
+
+----------------------------------------------------------------
+
+10. Reboot Linux - Reboot Linux - Reboot Linux - Reboot Linux
+
+----------------------------------------------------------------
+
+8.5. Start from GWSL and config - Then Reboot and start from GWSL SHELL.
+
+----------------------------------------------------------------
+
+9. Type in terminal: sudo nano ~/.bash_ubuntu_desktop
+
+Paste this in terminal and save:
+
+export XDG_CURRENT_DESKTOP=ubuntu:GNOME
+export XDG_SESSION_DESKTOP=ubuntu
+export DESKTOP_SESSION=ubuntu
+export GNOME_SHELL_SESSION_MODE=ubuntu
+
+export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+export XDG_MENU_PREFIX=gnome-
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------------------------
+
+10. Reboot Linux - Reboot Linux - Reboot Linux - Reboot Linux
+
+Start Shell from GWSL...
+
+----------------------------------------------------------------
+
+11. Time to start Gnome - Done - Paste all in terminal
+
+. ~/.bash_ubuntu_desktop
+gnome-session
+
+----------------------------------------------------------------
+
+Kind Regards,
+Mattias Vinberg
