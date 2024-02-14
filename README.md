@@ -3,7 +3,10 @@
 # How to install WSL GUI desktop on Opensuse - Arch - Ubuntu - Fedora - Debian and some more distros.... KDE - Plasma - Gnome via Windows 11!
 
 Here you will find your guide to WSL and how to install GUI desktops via Windows 11 - Windows 11 love Linux =]
-Have WSL / WSLg as a hobby. And its really a god way to lern Linux!
+Have WSL / WSLg as a hobby. And its really a god way to lern Linux! Windows Subsystem for Linux (WSL) is a feature
+of Windows that allows you to run a Linux environment on your Windows machine, without the need for a separate
+virtual machine or dual booting. WSL is designed to provide a seamless and productive experience for developers who
+want to use both Windows and Linux at the same time.
 
 ----------------------------------------------
 
