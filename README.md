@@ -21,6 +21,26 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+OpenEuler 23.09 - How to install Gnome desktop via Windows 11 - WSL - YouTube 2024
+
+How to install Gnome desktop: https://github.com/vinberg88/opensuse/blob/main/OpenEuler-Gnome.txt
+
+Video - how to install Gnome desktop via OpenEuler: https://www.youtube.com/watch?v=wfkPJQslg5k
+
+![OpenEuler](https://github.com/vinberg88/opensuse/assets/94398623/72a9f009-4b55-4985-9c2b-d8f3aadf0e9f)
+
+About openEuler: EulerOS is a commercial Linux distribution developed by Huawei based on Red Hat Enterprise Linux.
+To provide an operating system for server and cloud environments. Its open-source community version
+is known as openEuler, of which source code was released by Huawei at Gitee on December 31, 2019.
+OpenEuler became an open-source project operated by OpenAtom Foundation after Huawei donated
+the source code of openEuler to the foundation on November. 
+
+OpenEuler - You can find OpenEuler in Microsoft Store for WSL: https://www.openeuler.org/en/ 
+
+Gnome is a god desktop - Read More here: https://www.gnome.org/getting-gnome
+
+----------------------------------------------
+
 Fedora 39 - Install LXDE desktop via Fedora 39 - WSL - Windows 11 - 2024
 
 Description - how to install LXDE with Fedora 39 via Windows: https://github.com/vinberg88/opensuse/edit/main/LXDE-Fedora.txt
