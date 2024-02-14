@@ -2,6 +2,10 @@
 
 OpenEuler 23.09 - How to install Gnome desktop via Windows 11 - WSL - YouTube 2024
 
+How to install Gnome desktop: https://github.com/vinberg88/opensuse/blob/main/OpenEuler-Gnome.txt
+
+Video - how to install Gnome desktop via OpenEuler: https://www.youtube.com/watch?v=wfkPJQslg5k
+
 About openEuler: EulerOS is a commercial Linux distribution developed by Huawei based on Red Hat Enterprise Linux.
 To provide an operating system for server and cloud environments. Its open-source community version
 is known as openEuler, of which source code was released by Huawei at Gitee on December 31, 2019.
