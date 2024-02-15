@@ -24,6 +24,46 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+How to install Cinnamon Desktop on Debian 12 - WSL - WGSL - Windows 11 Pr0
+
+Text - How to install Cinnamon desktop via GWSL and Debian 12 and 
+Windows 11: https://github.com/vinberg88/opensuse/blob/main/Cinnamon-Debian12.txt
+
+Movie from Youtube how to install Cinnamon desktop on Debian via WSL and 
+Windows: https://www.youtube.com/watch?v=-vnX2yJNlGA
+
+About Debian: Debian is a free operating system (OS) for your computer. 
+An operating system is the set of basic programs and utilities that make 
+your computer run. Debian uses the kernel Linux (the kernel is the core of an OS),
+but most of the basic OS tools come from the GNU project. Thus we refer
+to Debian as a Debian GNU/Linux operating system, giving credit to all its main
+originators. Debian GNU/Linux provides much more than just the OS---a 
+wide range of application software is included too. It comes with a total of 
+over 118000 packages, precompiled software bundled up in a nice format 
+for easy installation on your machine. https://www.debian.org
+
+![Cinnamon-Debian12](https://github.com/vinberg88/opensuse/assets/94398623/0bd06dc4-8b43-4f1b-95b9-c12fcddb4518)
+
+About Cinnamon desktop - Cinnamon is a free and open-source desktop
+environment for Linux and other Unix-like operating systems, which was
+originally based on GNOME 3, but follows traditional desktop metaphor 
+conventions. Cinnamon is a Linux desktop that provides advanced innovative
+features and a traditional user experience. The desktop layout is similar
+to Gnome 2 with underlying technology forked from Gnome Shell. Cinnamon
+makes users feel at home with an easy-to-use and comfortable desktop 
+experience. https://www.opensourcefeed.org/desktop/cinnamon
+
+You can find debian 12 here
+https://apps.microsoft.com/detail/9MSVKQC78PK6?hl=sv-SE&gl=US
+
+Want more stuff about WSL and other distros for WSL and GWSL
+you can look here: https://github.com/vinberg88/opensuse
+
+Kind Regards,
+Mattias Vinberg
+
+----------------------------------------------
+
 How to install xfce4 desktop on Windows 11 - WSL - Ubuntu 24.04 "Nobel"
 
 Text - Look here for description how to install Xubuntu-desktop.
