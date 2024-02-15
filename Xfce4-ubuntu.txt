@@ -28,7 +28,7 @@ Nobel Numbat Ubuntu 24.04 - Xubuntu-desktop - Sweden Dev-Ops - 2024
 How to install xfce4 desktop on Windows 11 - WSL - Ubuntu 24.04 "Nobel"
 
 Text - Look here for description how to install Xubuntu-desktop.
-
+https://github.com/vinberg88/opensuse/blob/main/Xfce4-ubuntu.txt
 
 Movie - YouTube video how to install Xubuntu-desktop.
 https://www.youtube.com/watch?v=KwfuiGr3d6k
