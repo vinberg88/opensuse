@@ -26,7 +26,7 @@ How to install Cinnamon Desktop on Debian 12 - WSL - WGSL - Windows 11 Pr0
 Debian 12 and Cinnamon desktop WSL - GWSL - Windows 11 - 2024 YouTube
 
 Text - How to install Cinnamon desktop via GWSL and Debian 12 and 
-Windows 11: Comming
+Windows 11: https://github.com/vinberg88/opensuse/blob/main/Cinnamon-Debian12.txt
 
 Movie from Youtube how to install Cinnamon desktop on Debian via WSL and 
 Windows: https://www.youtube.com/watch?v=-vnX2yJNlGA
