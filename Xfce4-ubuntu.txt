@@ -1,0 +1,142 @@
+--------------------------------------
+
+Nobel Numbat Ubuntu 24.04 - Xubuntu-desktop - Sweden Dev-Ops - 2024
+
+                             ....           
+              .',:clooo:  .:looooo:.
+           .;looooooooc  .oooooooooo'
+        .;looooool:,''.  :ooooooooooc
+       ;looool;.         'oooooooooo, 
+      ;clool'             .cooooooc.  ,,
+         ...                ......  .:oo,
+  .;clol:,.                        .loooo'
+ :ooooooooo,                        'ooool
+'ooooooooooo.                        loooo.
+'ooooooooool                         coooo.
+ ,loooooooc.                        .loooo.
+   .,;;;'.                          ;ooooc
+       ...                         ,ooool.
+    .cooooc.              ..',,'.  .cooo.
+      ;ooooo:.           ;oooooooc.  :l.
+       .coooooc,..      coooooooooo.
+         .:ooooooolc:. .ooooooooooo'
+           .':loooooo;  ,oooooooooc
+               ..';::c'  .;loooo:'
+                             .
+
+
+How to install xfce4 desktop on Windows 11 - WSL - Ubuntu 24.04 "Nobel"
+
+Text - Look here for description how to install Xubuntu-desktop.
+
+
+Movie - YouTube video how to install Xubuntu-desktop.
+https://www.youtube.com/watch?v=KwfuiGr3d6k
+
+About Ubuntu 24.04 Nobel Numbat - Ubuntu 24.04 is a long-term support release
+(LTS) and last year's Linux kernel 6.6 is also a LTS release — ergo, there's a
+clear synergy there that should mean the latter ships in the former. But Ubuntu
+developers are feeling much bolder! Their plan is to ship the Linux 6.8 kernel in Ubuntu 24.04.
+Ubuntu is a complete Linux-based operating system, freely available with both community
+and professional support. https://ubuntu.com
+
+About Xubuntu Desktop - Xubuntu is an elegant and easy to use operating system. Xubuntu comes with
+Xfce, which is a stable, light and configurable desktop environment. Xubuntu is perfect for those
+who want the most out of their desktops, laptops and netbooks with a modern look and enough
+features for efficient, daily usage. It works well on older hardware too. https://xubuntu.org
+
+Want more WSL stuff - look here: https://github.com/vinberg88/opensuse
+
+You can find Ubuntu 24.04 for WSL here: https://apps.microsoft.com/detail/9P7BDVKVNXZ6?hl=en-US&gl=US
+
+-----------------------------------
+
+1. Paste all in terminal
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+-----------------------------------
+
+2. Reboot Reboot Reboot Reboot Reboot Reboot
+
+-----------------------------------
+
+Update System
+
+4. sudo apt update && sudo apt upgrade
+
+-----------------------------------
+
+5. Install all - one by one =]
+
+sudo apt install xubuntu-desktop
+
+-----------------------------------
+
+6. Start GWSL and Config - Reboot after please and start from GWSL SHELL.
+
+-----------------------------------
+
+7. Type in terminal: sudo nano ~/.bash_ubuntu_desktop
+
+Paste this in terminal and save:
+
+export XDG_CURRENT_DESKTOP=ubuntu:GNOME
+export XDG_SESSION_DESKTOP=ubuntu
+export DESKTOP_SESSION=ubuntu
+export GNOME_SHELL_SESSION_MODE=ubuntu
+
+export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+export XDG_MENU_PREFIX=gnome-
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-----------------------------------
+
+8. Reboot Reboot Reboot Reboot Reboot Reboot
+
+-----------------------------------
+
+9. Done - Time to start from terminal. Paste all in console and xfce4 will start!
+
+. ~/.bash_ubuntu_desktop
+xfce4-session
+
+--------------------------------------------------------------
+
+Extra! Extra! Extra! Extra! Extra! Extra! Extra! Extra! Extra!
+
+Like neofetch - more gay =)
+
+sudo apt install hyfetch
+
+sudo pipx install hyfetch 
+pipx ensurepath
+
+pipx install hyfetch
+pipx ensurepath
+
+Start from terminal: hyfetch
+
+Install Blanket
+wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+
+Install Chrome 
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+
+Debian-Xfce4-Minimal-Install
+https://github.com/coonrad/Debian-Xfce4-Minimal-Install
+
+--------------------------------------------------------------
