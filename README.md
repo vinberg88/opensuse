@@ -24,6 +24,37 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+How to install xfce4 desktop on Windows 11 - WSL - Ubuntu 24.04 "Nobel"
+
+Text - Look here for description how to install Xubuntu-desktop.
+https://github.com/vinberg88/opensuse/blob/main/Xfce4-ubuntu.txt
+
+Movie - YouTube video how to install Xubuntu-desktop.
+https://www.youtube.com/watch?v=KwfuiGr3d6k
+
+![Nobel-Ubuntu](https://github.com/vinberg88/opensuse/assets/94398623/e83667d8-ea91-45cc-8ef4-44bb349d5fdc)
+
+About Ubuntu 24.04 Nobel Numbat - Ubuntu 24.04 is a long-term support release
+(LTS) and last year's Linux kernel 6.6 is also a LTS release — ergo, there's a
+clear synergy there that should mean the latter ships in the former. But Ubuntu
+developers are feeling much bolder! Their plan is to ship the Linux 6.8 kernel in Ubuntu 24.04.
+Ubuntu is a complete Linux-based operating system, freely available with both community
+and professional support. https://ubuntu.com
+
+About Xubuntu Desktop - Xubuntu is an elegant and easy to use operating system. Xubuntu comes with
+Xfce, which is a stable, light and configurable desktop environment. Xubuntu is perfect for those
+who want the most out of their desktops, laptops and netbooks with a modern look and enough
+features for efficient, daily usage. It works well on older hardware too. https://xubuntu.org
+
+Want more WSL stuff - look here: https://github.com/vinberg88/opensuse
+
+You can find Ubuntu 24.04 for WSL here: https://apps.microsoft.com/detail/9P7BDVKVNXZ6?hl=en-US&gl=US
+
+Kind Regards,
+Mattias Vinberg
+
+----------------------------------------------
+
 Opensuse Tumbelweed - how to install mate desktop on WSL - GUI - GWSL - Youtube 2024
 
 Here you can find video, how to install Mate desktop via Opensuse.
