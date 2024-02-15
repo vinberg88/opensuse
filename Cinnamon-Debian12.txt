@@ -1,0 +1,199 @@
+---------------------------------------------------------------------
+ 
+How to install Cinnamon Desktop on Debian 12 - WSL - WGSL - Windows 11 Pr0
+
+
+       _,met$$$$$gg.    
+    ,g$$$$$$$$$$$$$$$P.
+  ,g$$P"     """Y$$.".        
+ ,$$P'              `$$$.
+',$$P       ,ggs.     `$$b:
+`d$$'     ,$P"'   .    $$$    
+ $$P      d$'     ,    $$P    
+ $$:      $$.   -    ,d$$'    
+ $$;      Y$b._   _,d$P'      
+ Y$$.    `.`"Y$$$$P"'         
+ `$$b      "-.__  
+  `Y$$
+   `Y$$.
+     `$$b.
+       `Y$$b.
+          `"Y$b._
+              `"""
+
+--------------------------------------------------------------------
+
+Debian 12 and Cinnamon desktop WSL - GWSL - Windows 11 - 2024 YouTube
+
+Text - How to install Cinnamon desktop via GWSL and Debian 12 and 
+Windows 11: Comming
+
+Movie from Youtube how to install Cinnamon desktop on Debian via WSL and 
+Windows: https://www.youtube.com/watch?v=-vnX2yJNlGA
+
+About Debian: Debian is a free operating system (OS) for your computer. 
+An operating system is the set of basic programs and utilities that make 
+your computer run. Debian uses the kernel Linux (the kernel is the core of an OS),
+but most of the basic OS tools come from the GNU project. Thus we refer
+to Debian as a Debian GNU/Linux operating system, giving credit to all its main
+originators. Debian GNU/Linux provides much more than just the OS---a 
+wide range of application software is included too. It comes with a total of 
+over 118000 packages, precompiled software bundled up in a nice format 
+for easy installation on your machine. https://www.debian.org
+
+About Cinnamon desktop - Cinnamon is a free and open-source desktop
+environment for Linux and other Unix-like operating systems, which was
+originally based on GNOME 3, but follows traditional desktop metaphor 
+conventions. Cinnamon is a Linux desktop that provides advanced innovative
+features and a traditional user experience. The desktop layout is similar
+to Gnome 2 with underlying technology forked from Gnome Shell. Cinnamon
+makes users feel at home with an easy-to-use and comfortable desktop 
+experience. https://www.opensourcefeed.org/desktop/cinnamon
+
+You can find debian 12 here
+https://apps.microsoft.com/detail/9MSVKQC78PK6?hl=sv-SE&gl=US
+
+Want more stuff about WSL and other distros for WSL and GWSL
+you can look here: https://github.com/vinberg88/opensuse
+
+-----------------------------------
+
+-----------------------------------
+
+1. Open this file.
+
+sudo nano /etc/wsl.conf 
+
+and add this to the file
+
+[boot]
+systemd=true
+
+-----------------------------------
+
+-----------------------------------
+
+1. Paste all in terminal
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+-----------------------------------
+
+-----------------------------------
+
+1.5 Reboot Linux - Reboot Linux - Reboot Linux - Reboot Linux
+
+-----------------------------------
+
+-----------------------------------
+
+2. sudo apt update && sudo apt upgrade
+
+-----------------------------------
+
+-----------------------------------
+
+2.5 Install some programs.
+
+sudo apt install bash git npm wget curl nano sudo pipx dracut -y
+sudo apt install gdm3* -y
+sudo systemctl set-default graphical
+sudo apt install dbus*
+
+-----------------------------------
+
+-----------------------------------
+
+2.7 Reboot Linux Reboot Linux Reboot Linux
+
+-----------------------------------
+
+-----------------------------------
+
+3. Setup GWSL and config then start Shell from there after reboot!
+
+Start shell agian from GWSL =]
+
+-----------------------------------
+
+-----------------------------------
+
+4. Time to install Cinnamon desktop
+
+sudo apt update && sudo apt install tasksel
+
+After that paste this in console
+
+>> sudo tasksel << 
+
+and install Cinnamon
+
+-----------------------------------
+
+-----------------------------------
+
+5. The terminal will launch Tasksel. Using the Arrow keys, choose “Cinnamon”
+and space bar to highlight. Once selected, click ENTER to start the installation.
+
+-----------------------------------
+
+-----------------------------------
+
+6. Linux reboot Linux reboot Linux reboot Linux reboot
+
+-----------------------------------
+
+-----------------------------------
+
+6. Normal install if you don want to use Tasksel
+
+sudo apt -y install task-cinnamon-desktop
+
+-----------------------------------
+
+-----------------------------------
+
+6. Linux reboot Linux reboot Linux reboot Linux reboot
+
+-----------------------------------
+
+-----------------------------------
+
+11. Copy this and paste in terminal: sudo nano ~/.bash_debian_desktop
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-----------------------------------
+
+-----------------------------------
+
+6. Linux reboot Linux reboot Linux reboot Linux reboot
+
+-----------------------------------
+
+-----------------------------------
+
+12. Time to start. Paste this in terminal.
+
+. ~/.bash_debian_desktop
+cinnamon-session
+
+-----------------------------------
+
+-----------------------------------
+
+Kind Regards,
+Mattias Vinberg - Sweden!
+
+-----------------------------------
+
+-----------------------------------
