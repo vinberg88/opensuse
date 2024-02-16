@@ -24,6 +24,46 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+How to install UKUI desktop on OpenEuler via Windows 11 - WSL a - 2024
+
+Description "text" how to install UKUI desktop via OpenEuler - Comming!
+https://github.com/vinberg88/opensuse/blob/main/UKUI-OpenEuler.txt
+
+Movie from Youtube how to install UKUI with WSL and Windows 11 - Comming!
+https://www.youtube.com/watch?v=zZi_fCLCwIU
+
+![UKUI-OpenEuler](https://github.com/vinberg88/opensuse/assets/94398623/3b78e89a-f099-4c4f-972d-6437193864d3)
+
+About OpenEuler - openEuler is an open-source operating system. The current
+openEuler kernel is based on Linux and supports server, cloud computing, edge
+computing, embedded, and other application scenarios. openEuler is committed
+to providing a secure, stable, and easy-to-use operating system. As an 
+efficient, stable, and secure open-source OS built by global open-source 
+contributors, openEuler applies to database, big data, cloud computing, and 
+artificial intelligence (AI) scenarios. In addition, openEuler community is 
+an open-source community for global OSs. Through community cooperation, openEuler 
+builds an innovative platform, builds a unified and open OS that supports multiple 
+processor architectures, and promotes the prosperity of the software and 
+hardware application ecosystem. https://www.openeuler.org/en/
+
+About UKUI desktop - UKUI is a Linux desktop built by the KylinSoft software
+team over the years, primarily based on GTK and QT. Compared with other UIs, UKUI
+is easy to use. The components of UKUI are lightweight and can run independently
+without relying on other suites. It can provide user a friendly and
+efficient experience. UKUI supports both x86_64 and aarch64 architectures.
+https://github.com/ukui/ukui-desktop-environment
+
+Want more stuff with WSL and Linux in Windows 11 and GWSL.
+Look here: https://github.com/vinberg88/opensuse
+
+You can find OpenEuler 23.09 here. God shit from china. 
+https://apps.microsoft.com/detail/9N8XNFG3J1HT?hl=en-US&gl=US
+
+Warm Regard,
+Mattias Vinberg
+
+-------------------------------------------
+
 How to install Cinnamon Desktop on Debian 12 - WSL - WGSL - Windows 11 Pr0
 
 Text - How to install Cinnamon desktop via GWSL and Debian 12 and 
