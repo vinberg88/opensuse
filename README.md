@@ -24,7 +24,7 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
-How to install UKUI desktop on OpenEuler via Windows 11 - WSL a - 2024
+How to install UKUI desktop on OpenEuler via Windows 11 - WSL - 2024
 
 Description "text" how to install UKUI desktop via OpenEuler - Comming!
 https://github.com/vinberg88/opensuse/blob/main/UKUI-OpenEuler.txt
