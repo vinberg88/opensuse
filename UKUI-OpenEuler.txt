@@ -29,9 +29,11 @@ OpenEuler 23.09 whit UKUI desktop - Sweden Inc TEST - 2024
 How to install UKUI desktop on OpenEuler via Windows 11 - WSL - OpenEuler 23.09 - 2024
 
 Description "text" how to install UKUI desktop via OpenEuler - Comming!
+https://github.com/vinberg88/opensuse/blob/main/UKUI-OpenEuler.txt
 
 Movie from Youtube how to install UKUI with WSL and Windows 11 - Comming!
- 
+https://www.youtube.com/watch?v=zZi_fCLCwIU
+
 About OpenEuler - openEuler is an open-source operating system. The current
 openEuler kernel is based on Linux and supports server, cloud computing, edge
 computing, embedded, and other application scenarios. openEuler is committed
