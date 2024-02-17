@@ -25,6 +25,7 @@ Version 2 - CutefishOS - They no longer work with Cutefish - BETA BETA - 2024
 Version 2 -  How Install Cutefish Desktop on Arch via WSL and Windows 11 - Youtube 2024
 
 Text: How to install Cutefish Desktop via Windows 11 - WSL: comming
+https://github.com/vinberg88/opensuse/blob/main/Cutefish-Arch.txt
 
 Movie from youtube how to do this - CuteFisk, Linux and Windows 11: comming
 https://www.youtube.com/watch?v=_kP0AUQEMjc
