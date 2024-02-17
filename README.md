@@ -24,6 +24,42 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+Version 2 -  How Install Cutefish Desktop on Arch via WSL and Windows 11
+
+Text: How to install Cutefish Desktop via Windows 11 - WSL
+https://github.com/vinberg88/opensuse/blob/main/Cutefish-Arch.txt
+
+Movie from youtube how to do this - CuteFisk, Linux and Windows 11
+https://www.youtube.com/watch?v=_kP0AUQEMjc
+
+About Arch: Arch Linux Open Source operating system is and
+always will be provided for you to download use or modify free of
+charge and completely open source. Choose your favorite desktop
+environment from a range of popular options, including Plasma, Gnome
+and XFCE. Additionally explore various community editions like
+Cinnamon, Mate and more to customize your desktop experience further.
+https://archlinux.org
+
+![Cutefish-Manjaro](https://github.com/vinberg88/opensuse/assets/94398623/7a7d28b4-6602-46de-871f-20e38284f027)
+
+About Cutefish: CutefishOS is an elegant, beautiful and easy-to-use
+Linux desktop operating system. It runs Cutefish Desktop has a modern
+style design. Our goal is to provide users with a comfortable interface
+design, better user experience and a better choice. 
+You can builde your own version of Cutefish but that is
+hard to get to work. https://cutefish-ubuntu.github.io
+
+You can find Arch here for WSL. Perfekt Dist för Wsl and Windows 11.
+https://apps.microsoft.com/detail/9MZNMNKSM73X?hl=en-US&gl=US
+
+Want More Stuff About WSL for Microsoft and Linux - Look here.
+https://github.com/vinberg88/opensuse
+
+Kind Regards,
+Mattias Vinberg
+
+-------------------------------------------
+
 How to install UKUI desktop on OpenEuler via Windows 11 - WSL - 2024
 
 Description "text" how to install UKUI desktop via OpenEuler
