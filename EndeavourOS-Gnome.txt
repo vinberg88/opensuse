@@ -4,7 +4,9 @@ You can find EndeavourOS here for WSL: https://github.com/sileshn/EndeavourOSWSL
 
 Find more stuff for WSL here: https://github.com/vinberg88/opensuse
 
-How to install text: 
+How to install text: https://github.com/vinberg88/opensuse/blob/main/EndeavourOS-Gnome.txt
+
+Movie - how to install EndeavourOS: https://www.youtube.com/watch?v=dYxH8lsOI1o
 
                                    (                       
                                  #///#                     
