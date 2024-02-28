@@ -24,6 +24,21 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+EndeavourOS - Linux - WSL - Gnome - 2024 - Windows Subsystem For Linux - 2024
+
+You can find EndeavourOS here for WSL: https://github.com/sileshn/EndeavourOSWSL2
+
+How to install text: https://github.com/vinberg88/opensuse/blob/main/EndeavourOS-Gnome.txt
+
+Movie - how to install EndeavourOS via WSL: https://www.youtube.com/watch?v=dYxH8lsOI1o
+
+![EndeavourOS](https://github.com/vinberg88/opensuse/assets/94398623/b90894e8-b886-4e89-9e15-95352ba0b03b)
+
+Warm Regards,
+Mattias Vinberg
+
+----------------------------------------------
+
 Version 2 -  How Install Cutefish Desktop on Arch via WSL and Windows 11
 
 Text: How to install Cutefish Desktop via Windows 11 - WSL
