@@ -24,6 +24,19 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+How to install KDE plasma on Void Linux. WSL - GWSL - GUI - 2024
+
+How to install text: https://github.com/vinberg88/opensuse/blob/main/KDE-VoidLinux.txt
+
+Movie - how to install KDE on Void Linux: https://www.youtube.com/watch?v=9DIzAmpy87o
+
+![Void-Linux](https://github.com/vinberg88/opensuse/assets/94398623/40713785-8de5-412c-919f-bf5c0ec76221)
+
+Thank you for watching,
+Mattias Vinberg
+
+----------------------------------------------
+
 EndeavourOS - Linux - WSL - Gnome - 2024 - Windows Subsystem For Linux - 2024
 
 You can find EndeavourOS here for WSL: https://github.com/sileshn/EndeavourOSWSL2
