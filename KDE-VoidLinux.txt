@@ -1,0 +1,165 @@
+How to install KDE plasma on Void Linux. WSL - GWSL - 2024
+
+How to install text: comming
+
+Movie - how to install KDE on Void Linux: comming
+
+                  __.;=====;.__
+              _.=+==++=++=+=+===;.
+               -=+++=+===+=+=+++++=_
+          .     -=:``     `--==+=++==.
+         _vi,    `            --+=++++:
+        .uvnvi.       _._       -==+==+.
+       .vvnvnI`    .;==|==;.     :|=||=|.
+  +QmQQmpvvnv; _yYsyQQWUUQQQm #QmQ#:QQQWUV$QQm.
+   -QQWQWpvvowZ?.wQQQE==<QWWQ/QWQW.QQWW(: jQWQE
+    -$QQQQmmU\'  jQQQ\@+=<QWQQ)mQQQ.mQQQC+;jWQQ\@'
+     -$WQ8YnI:   QWQQwgQQWV`mWQQ.jQWQQgyyWW\@!
+       -1vvnvv.     `~+++`        ++|+++
+        +vnvnnv,                 `-|===
+         +vnvnvns.           .      :=-
+          -Invnvvnsi..___..=sv=.     `
+            +Invnvnvnnnnnnnnvvnn;.
+              ~|Invnvnvvnvvvnnv}+`
+                  -~|{*l}*|~
+
+You will find Void Linux here for WSL - https://github.com/am11/VoidWSL/releases/tag/23080500
+
+You can find more stuff here about WSL - https://github.com/vinberg88/opensuse
+
+About Void Linux - Void is a general purpose operating system, based
+on the monolithic Linux kernel. Its package system allows you to quickly
+install, update and remove software; software is provided in binary
+packages or can be built directly from sources with the help of the XBPS source
+packages collection. https://voidlinux.org
+
+About KDE plasma: The Plasma Launcher lets you quickly and easily launch
+applications, but it can do much more -- convenient tasks like bookmarking
+applications, searching for documents as you type, or navigating to common
+places help you get straight to the point. With a history of recently started
+programs and opened files, you can return to where you left off. 
+It even remembers previously entered search terms so you don't have to.
+https://kde.org
+
+-------------------------------------------
+
+1. optional - update xbps mirrors
+cp /usr/share/xbps.d/*-repository-*.conf /etc/xbps.d/
+
+-------------------------------------------
+
+2. Install this one by one
+
+xbps-install -Su xbps
+xbps-install -u
+xbps-install base-system
+xbps-remove base-voidstrap
+xbps-reconfigure -fa
+
+-------------------------------------------
+
+3. install some programs: xbps-install sudo nano bash git wget curl
+
+-------------------------------------------
+
+4. Setup User
+
+useradd -m -G wheel -s /bin/bash olle
+passwd olle
+
+-------------------------------------------
+
+5. Default user - Paste this under
+
+echo -e "[user]\ndefault=olle" > /etc/wsl.conf
+
+Check name on more time: sudo nano /etc/wsl.conf
+
+Look like this
+
+[user]
+default=olle
+
+-------------------------------------------
+
+6. Grant sudo
+
+sed -i 's/# %wheel ALL=(ALL:ALL) ALL/%wheel ALL=(ALL:ALL) ALL/' /etc/sudoers
+
+-------------------------------------------
+
+Reboot
+
+------------------------------------------
+
+Update repos
+
+7. sudo xbps-install -Suv
+
+------------------------------------------
+
+8. Time to install KDE - PLASMA
+
+Make a directory for your git source:
+mkdir -p ~/.local/src
+
+cd to said directory and clone:
+
+cd ~/.local/src
+git clone https://gitlab.com/Matthew-Tate-Scarbrough/void-script-for-plasma.git
+
+cd to the local repository, give the script execution permissions, and execute it:
+
+cd void-script-for-plasma
+chmod +x kde_full_apps.sh
+./kde_full_apps.sh
+
+After this you should enable bluetoothd, NetworkManager, and sddm and you may wish to manually
+reboot. You may want to remove dhcpcd. If you get an error move one......
+
+sudo sv down dhcpcd && sudo rm -f /var/service/dhcpcd
+sudo ln -s /etc/sv/{bluetoothd,NetworkManager,sddm} /var/service/
+
+------------------------------------------
+
+9. Copy this and paste in terminal: sudo nano ~/.bash_void_desktop
+
+Then add this script to terminal
+
+----------------------------------------------------------
+
+export XDG_CURRENT_DESKTOP=ubuntu:GNOME
+export XDG_SESSION_DESKTOP=ubuntu
+export DESKTOP_SESSION=ubuntu
+export GNOME_SHELL_SESSION_MODE=ubuntu
+
+export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+export XDG_MENU_PREFIX=gnome-
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+---------------------------------------------------------
+
+10. Reboot...
+
+---------------------------------------------------------
+
+11. Start up GWSL and Config and Reboot - start then from GWSL SHELL
+
+---------------------------------------------------------
+
+12. Time to start KDE plasma via Void-Linux
+
+Paste in terminal: . ~/.bash_void_desktop
+
+Type in terminal and start plasma: startplasma-x11
+
+---------------------------------------------------------
+
+Regards, 
+Mattias Vinberg - 2024 - bash <(curl -sL nf.hydev.org) - Sweden SS
