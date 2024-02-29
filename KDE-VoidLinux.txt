@@ -1,8 +1,8 @@
 How to install KDE plasma on Void Linux. WSL - GWSL - 2024
 
-How to install text: comming
+How to install text: https://github.com/vinberg88/opensuse/blob/main/KDE-VoidLinux.txt
 
-Movie - how to install KDE on Void Linux: comming
+Movie - how to install KDE on Void Linux: https://www.youtube.com/watch?v=9DIzAmpy87o
 
                   __.;=====;.__
               _.=+==++=++=+=+===;.
