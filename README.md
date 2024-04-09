@@ -24,6 +24,19 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+Manjaro KDE plasma - How to install via Windows 11 - WSL - GWSL
+
+How to install text: https://github.com/vinberg88/opensuse/blob/main/ManjaroKDE.txt
+
+Movie - how to install KDE on Manjaro: https://www.youtube.com/watch?v=84dJIrW7DUY
+
+![Manjarokde](https://github.com/vinberg88/opensuse/assets/94398623/34d7b8e3-edc7-415d-9ca3-4a4cb5872400)
+
+Thank you for watching,
+Mattias Vinberg
+
+----------------------------------------------
+
 How to install KDE plasma on Void Linux. WSL - GWSL - GUI - 2024
 
 How to install text: https://github.com/vinberg88/opensuse/blob/main/KDE-VoidLinux.txt
