@@ -2,9 +2,11 @@ KDE Desktop (Plasma) on Manjaro - Windows 11 - WSL - GWSL
 
 You will find manjaro for WSL here: https://github.com/sileshn/ManjaroWSL2
 
-How to install Manjaro KDE Text:
+How to install Manjaro KDE Text
+https://github.com/vinberg88/opensuse/blob/main/ManjaroKDE.txt
 
-How to install Video for kde Manjaro:
+How to install Video for kde Manjaro
+https://www.youtube.com/watch?v=84dJIrW7DUY
 
 About Manjaro: Manjaro Linux Open Source operating system is
 and always will be provided for you to download use or 
