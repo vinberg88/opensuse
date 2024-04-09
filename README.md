@@ -24,7 +24,7 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
-Manjaro KDE plasma - How to install via Windows 11 - WSL - GWSL
+Manjaro KDE plasma - How to install via Windows 11 - WSL - GWSL - 2024
 
 How to install text: https://github.com/vinberg88/opensuse/blob/main/ManjaroKDE.txt
 
