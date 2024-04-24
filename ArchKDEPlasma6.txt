@@ -24,10 +24,10 @@ so its time to install and test =]
 
 
 How to install Plasma KDE 6 on Arch - TEXT
-Comming....
+https://github.com/vinberg88/opensuse/blob/main/ArchKDEPlasma6.txt
 
 How to install Plasma KDE 6 on Arch - Movie
-Comming....
+https://www.youtube.com/watch?v=Z8nuWSZTlmg
 
 About KDE plasma 6: Plasma is a Desktop - Use Plasma to surf the
 web; keep in touch with colleagues, friends and family; manage your
