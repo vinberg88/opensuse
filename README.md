@@ -24,6 +24,21 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+KDE 6 (Plasma) on Arch - Windows 11 - WSL - GWSL - 2024
+
+How to install Plasma KDE 6 on Arch - TEXT
+https://github.com/vinberg88/opensuse/blob/main/ArchKDEPlasma6.txt
+
+How to install Plasma KDE 6 on Arch - Movie
+https://www.youtube.com/watch?v=Z8nuWSZTlmg
+
+![Archkde6](https://github.com/vinberg88/opensuse/assets/94398623/a1128e84-f191-4026-94f7-e65c90c25875)
+
+Thank you for watching,
+Mattias Vinberg
+
+----------------------------------------------
+
 Manjaro KDE plasma - How to install via Windows 11 - WSL - GWSL - 2024
 
 How to install text: https://github.com/vinberg88/opensuse/blob/main/ManjaroKDE.txt
