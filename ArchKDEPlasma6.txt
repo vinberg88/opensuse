@@ -1,0 +1,134 @@
+KDE 6 (Plasma) on Arch - Windows 11 - WSL - GWSL - 2024
+
+You can find Arch in microsoft store.
+https://apps.microsoft.com/detail/9mznmnksm73x?hl=sv-SE&gl=US
+
+kde plasma 6 on Arch. Plasma 6 has arrived in stable repositories
+so its time to install and test =]
+
+                    -@                
+                   .##@               
+                  .####@              
+                  @#####@             
+                . *######@            
+               .##@o@#####@           
+              /############@          
+             /##############@         
+            @######@**%######@        
+           @######`     %#####o       
+          @######@       ######%      
+        -@#######h       ######@.`    
+       /#####h**``       `**%@####@   
+      @H@*`                    `*%#@  
+     *`                            `* 
+
+
+How to install Plasma KDE 6 on Arch - TEXT
+Comming....
+
+How to install Plasma KDE 6 on Arch - Movie
+Comming....
+
+About KDE plasma 6: Plasma is a Desktop - Use Plasma to surf the
+web; keep in touch with colleagues, friends and family; manage your
+files, enjoy music and videos; and get creative and productive at work.
+Do it all in a beautiful environment that adapts to your needs, and
+with the safety, privacy-protection and peace of mind that the best
+Free Open Source Software has to offer.
+
+About Arch: Arch Linux, a lightweight and flexible Linux® distribution
+that tries to Keep It Simple. Arch Linux is an independently 
+developed, x86-64 general-purpose GNU/Linux distribution that strives
+to provide the latest stable versions of most software by following
+a rolling-release model. The default installation is a minimal
+base system, configured by the user to only add what is purposely required.
+
+You will find more stuff here for WSL: https://github.com/vinberg88/opensuse
+
+------------------------------------------------------------
+
+0. Enable repos
+
+Paste in terminal: sudo nano /etc/pacman.conf
+
+Uncomment the section of the repositorie to switch your install to
+the Testing repositories, which has the Plasma 6 packages
+
+[testing]
+Include = /etc/pacman.d/mirrorlist
+
+------------------------------------------------------------
+
+1. Paste this in terminal... all - you wont get symbolic link error.
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+------------------------------------------------------------
+
+2. Update and Reboot - sudo pacman -Syu
+
+------------------------------------------------------------
+
+3. Install this tools
+
+sudo pacman -S xorg xorg-server xorg-xinit mesa xterm xorg-twm xorg-xrandr xterm xorg-xclock sddm bluedevil libqtxdg
+xorg-server xorg-xinit xorg-xrandr xorg-xfontsel xorg-xlsfonts xorg-xkill xorg-xinput xorg-xwininfo
+
+------------------------------------------------------------
+
+4. Time To install KDE plasma 6 =]
+
+sudo pacman -S plasma-meta kde-applications-meta
+
+------------------------------------------------------------
+
+5. Paste in terminal - all
+
+sudo systemctl enable sddm.service
+sudo systemctl enable NetworkManager.service
+sudo systemctl set-default graphical
+
+------------------------------------------------------------
+
+6. Type this in terminal and put your user there: loginctl enable-linger user
+
+----------------------------------------------------------------
+
+Start GWSL and Config and Start Arch from GWSL - SHELL
+
+----------------------------------------------------------------
+
+Type in terminal: sudo nano ~/.bash_Arch_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------------------------
+
+Reboot Arch - Reboot Arch - Start Arch From GWSL and start Shell.
+
+----------------------------------------------------------------
+
+Time to start KDE Plasma 6 on Arch.
+
+Paste in terminal: . ~/.bash_Arch_desktop
+
+Paste in terminal: startplasma-x11
+
+----------------------------------------------------------------
+
+Warm Regards,
+Matias Vinberg 2024 - Arch
+
+----------------------------------------------------------------
+
