@@ -24,6 +24,20 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+Oracle - Gnome Desktop Install - GWSL - Oracle 9 via Windows 11 - WSL
+
+How to install Gnome on Oracle 9 "text"
+https://github.com/vinberg88/opensuse/blob/main/Oracle9-Gnome.txt
+
+Video how to install Gnome via Oracle
+https://www.youtube.com/watch?v=sABnBSrCUWE
+
+![Oracle](https://github.com/vinberg88/opensuse/assets/94398623/8058c978-4ce4-4cfc-993a-d0d13cd089d3)
+
+Thank you for watching - Mattias Vinberg
+
+----------------------------------------------
+
 KDE 6 (Plasma) on Arch - Windows 11 - WSL - GWSL - 2024
 
 How to install Plasma KDE 6 on Arch - TEXT
