@@ -3,7 +3,7 @@
 Oracle - Gnome Desktop Install - GUI - GWSL - Oracle 9 via Windows 11 - WSL - 2024
 
 How to install Gnome on Oracle 9 "text"
-
+https://github.com/vinberg88/opensuse/blob/main/Oracle9-Gnome.txt
 
 Video how to install Gnome via Oracle
 https://www.youtube.com/watch?v=sABnBSrCUWE
