@@ -1,0 +1,161 @@
+------------------------------------------------------
+
+Oracle - Gnome Desktop Install - GUI - GWSL - Oracle 9 via Windows 11 - WSL - 2024
+
+How to install Gnome on Oracle 9 "text"
+
+
+Video how to install Gnome via Oracle
+https://www.youtube.com/watch?v=sABnBSrCUWE
+
+You will find Oracle 9 in Microsoft store
+https://apps.microsoft.com/detail/9mxq65hlmc27?hl=en-us&gl=US
+
+        o   ^__^
+         o  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+About Oracle - Oracle Corporation is an integrated technology company based
+in Austin, Texas. Oracle offers a collection of cloud technologies, applications,
+databases, storage and servers to empower modern business. 
+Oracle was founded by Larry Ellison in 1977. The workforce is becoming
+increasingly mobile. Flexibility is critical for companies to meet
+shifting market demands. For more than four decades, businesses of all
+sizes have trusted Oracle to provide modern, comprehensive, and scalable
+technology solutions that enable technical agility and sharpen competitive edge. 
+https://www.oracle.com/corporate
+
+About Gnome Desktop: GNOME provides a focused working environment
+that helps you get things done. It is packed with features that will
+make you more productive: a powerful search feature that helps you
+access all your work from one place; side-by-side windows that make it
+easy to view several documents at the same time; seamless integration
+with online accounts which allows you to access all your data in one place; and
+a messaging system that comfortably deals with notifications, letting
+you quickly respond in place or return to them in a convenient time.
+https://www.gnome.org
+
+Find more stuff here about WSL and other 
+distros: https://github.com/vinberg88/opensuse
+
+------------------------------------------------------
+
+1. First thing install nano: sudo dnf install nano
+
+------------------------------------------------------
+
+2. Paste in terminal: sudo nano /etc/wsl.conf
+
+[boot]
+systemd=true
+
+------------------------------------------------------
+
+3. Paste all in terminal
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+------------------------------------------------------
+
+4. Reboot Reboot Reboot Linux
+
+------------------------------------------------------
+
+5. Reboot and Update: sudo dnf update
+
+------------------------------------------------------
+
+6. Paste this in terminal
+
+sudo dnf install \
+    https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm \
+    https://dl.fedoraproject.org/pub/epel/epel-next-release-latest-9.noarch.rpm
+
+------------------------------------------------------
+
+7. Run this after: sudo /usr/bin/crb enable
+
+------------------------------------------------------
+
+8. Paste in terminal: sudo dnf upgrade --refresh
+
+------------------------------------------------------
+
+9. Install some programs
+
+sudo dnf install git wget curl bash dracut net-tools dbus-x11
+
+------------------------------------------------------
+
+10. Time to install Gnome Desktop
+
+sudo yum groupinstall "Server with GUI"
+
+------------------------------------------------------
+
+11 Install Google-Chrome - Paste all. (iF you WANT =) 
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm
+sudo yum update google-chrome-stable
+
+------------------------------------------------------
+
+12. Reboot
+
+------------------------------------------------------
+
+13 Login with GWSL and Config all. Then start Linux-shell from GWSL
+
+------------------------------------------------------
+
+14. Reboot and start GWSL shell.....
+
+------------------------------------------------------
+
+15. Paste ALL in terminal: 
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+------------------------------------------------------
+
+16. Type this in terminal and put your user-name there: loginctl enable-linger user
+
+------------------------------------------------------
+
+17. In terminal type: sudo nano ~/.bash_linux_desktop
+
+and Paste this small script in terminal and save and quit.
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-------------------------------------------
+
+18. Reboot Reboot Reboot Reboot Reboot Reboot Reboot
+
+-------------------------------------------
+
+19. Paste in terminal: . ~/.bash_linux_desktop
+
+20. Type in terminal: gnome-session
+
+-------------------------------------------
+
+It takes a little time to start at the beginning so leave it for a minute if nothing happens.
+
+Warm Regards,
+Mattias Vinberg
