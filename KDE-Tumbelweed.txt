@@ -8,7 +8,7 @@ Opensuse Tumbelweed And KDE plasma 6
 
 
 TEXT - How to install KDE 6 Plasma va Tumbelweed:
-https://github.com/vinberg88/opensuse/blob/main/Opensuse%20Tumbelweed%20-%20Gnome%20install.txt
+https://github.com/vinberg88/opensuse/blob/main/KDE-Tumbelweed.txt
 
 Movie - Have to install KDE 6 Plasma via Tumbelweed:
 https://www.youtube.com/watch?v=TvA6UKrbbOQ
