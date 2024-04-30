@@ -1,0 +1,151 @@
+Opensuse Tumbelweed And KDE plasma 6
+
+   |\_
+  /o \\
+ (_. ||  Made by Sweden - Mattias Vinberg - 2024 - WSL - GWSL
+  /__\\
+  )___(  
+
+
+TEXT - How to install KDE 6 Plasma va Tumbelweed:
+
+
+Movie - Have to install KDE 6 Plasma via Tumbelweed:
+
+
+About Tumbelweed os - Linux
+Tumbleweed builds on decades of usage, testing and debugging by
+hundreds of power-users, developers, system administrators and demanding
+doers that cannot afford to jeopardize their workflow. 
+Tumbleweed's solidity is embodied in many core packages whose DNA
+stems from the venerable SUSE Linux Enterprise Server.
+TumbelWeed are State-of-the-art desktop and server operating system.
+
+About KDE PLASMA 6
+KDE Plasma is a modern, feature-rich desktop environment
+for Linux-based operating systems. Known for its sleek
+design, customizable interface, and extensive set of applications, it
+is also open source, devoid of ads, and makes protecting
+your privacy and personal data a priority.
+
+You can find more stuff here about WSL and other distros.
+https://github.com/vinberg88/opensuse
+
+---------------------------------------------------------------------
+
+1. Add systemd (if nano not works. Install it: sudo zypper in nano)
+
+Type in terminal: sudo nano /etc/wsl.conf
+
+Copy to terminal and save:
+
+[boot]
+systemd=true
+
+----------------------------------------------------------------------
+
+2. Paste All in terminal
+
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+----------------------------------------------------------------------
+
+3. Reboot
+
+----------------------------------------------------------------------
+
+4. Update Tumbelweed in terminal: sudo zypper ref -b && sudo zypper dup
+
+----------------------------------------------------------------------
+
+5. Install this programs
+
+sudo zypper install bash git npm wget curl nano dialog go dracut opi sddm
+
+----------------------------------------------------------------------
+
+6. Install this - one by one.
+
+sudo zypper ar -cfp 90 https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumbleweed/ packman
+
+sudo zypper dup --from packman --allow-vendor-change
+
+opi codecs
+
+----------------------------------------------------------------------
+
+7. Install this: sudo zypper in -t pattern wsl_gui wsl_base wsl_systemd
+
+----------------------------------------------------------------------
+
+7.5 Type in terminal
+
+sudo yast and go to onlien update and install all
+Look under Dependencies and use: install recommende packages for already install..
+
+Look Video if you dont understand! =)
+
+----------------------------------------------------------------------
+
+8. Time to install KDE plasma 6 via opensuse: sudo zypper install -t pattern kde kde_plasma  
+
+----------------------------------------------------------------------
+
+8.5 Paste in terminal: sudo zypper install plasma6-session-x11
+
+----------------------------------------------------------------------
+
+10. Extra om du vill installera Chrome - skriv: opi google-chrome
+
+----------------------------------------------------------------------
+
+11. Config GWSL and reboot - start Linux shell from GWSL
+
+----------------------------------------------------------------------
+
+12. paste in terminal  one by one.
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+sudo systemctl set-default graphical
+
+----------------------------------------------------------------------
+
+14. In terminal type: sudo nano ~/.bash_opensuse_desktop
+
+Paste this in terminal and save:
+
+export XDG_CURRENT_DESKTOP=ubuntu:GNOME
+export XDG_SESSION_DESKTOP=ubuntu
+export DESKTOP_SESSION=ubuntu
+export GNOME_SHELL_SESSION_MODE=ubuntu
+
+export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+export XDG_MENU_PREFIX=gnome-
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------------------------------
+
+15. Reboot
+
+----------------------------------------------------------------------
+
+19. Paste in terminal: . ~/.bash_opensuse_desktop
+
+20. Type in terminal: dbus-launch startplasma-x11
+
+Kind Regards, Mattias Vinberg
