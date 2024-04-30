@@ -8,10 +8,10 @@ Opensuse Tumbelweed And KDE plasma 6
 
 
 TEXT - How to install KDE 6 Plasma va Tumbelweed:
-
+https://github.com/vinberg88/opensuse/blob/main/Opensuse%20Tumbelweed%20-%20Gnome%20install.txt
 
 Movie - Have to install KDE 6 Plasma via Tumbelweed:
-
+https://www.youtube.com/watch?v=TvA6UKrbbOQ
 
 About Tumbelweed os - Linux
 Tumbleweed builds on decades of usage, testing and debugging by
@@ -45,7 +45,6 @@ systemd=true
 ----------------------------------------------------------------------
 
 2. Paste All in terminal
-
 
 ln -s libcuda.so.1.1 libcuda.so.1
 ln -s libcuda.so.1.1 libcuda.so
