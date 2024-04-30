@@ -22,6 +22,40 @@ Raft WSL https://www.whitewaterfoundry.com/raft-wsl <-- change fast from ubuntu,
 
 Have alot of time - This is just for fun! WSL is an excellent tool to learn Linux!
 
+
+----------------------------------------------
+
+Opensuse Tumbelweed - How to install KDE plasma 6 via Windows 11 - WSL - GWSL
+
+TEXT - How to install KDE 6 Plasma va Tumbelweed:
+https://github.com/vinberg88/opensuse/blob/main/KDE-Tumbelweed.txt
+
+Movie - Have to install KDE 6 Plasma via Tumbelweed:
+https://www.youtube.com/watch?v=TvA6UKrbbOQ
+
+About Tumbelweed os - Linux
+Tumbleweed builds on decades of usage, testing and debugging by
+hundreds of power-users, developers, system administrators and demanding
+doers that cannot afford to jeopardize their workflow. 
+Tumbleweed's solidity is embodied in many core packages whose DNA
+stems from the venerable SUSE Linux Enterprise Server.
+TumbelWeed are State-of-the-art desktop and server operating system.
+
+![Opensuse-KDE-6](https://github.com/vinberg88/opensuse/assets/94398623/ea7f7d9d-d6e3-45f9-96df-33d1c029d220)
+
+About KDE PLASMA 6
+KDE Plasma is a modern, feature-rich desktop environment
+for Linux-based operating systems. Known for its sleek
+design, customizable interface, and extensive set of applications, it
+is also open source, devoid of ads, and makes protecting
+your privacy and personal data a priority.
+
+You can find more stuff here about WSL and other distros.
+https://github.com/vinberg88/opensuse
+
+Thanks For Watching,
+Mattias Vinberg
+
 ----------------------------------------------
 
 Oracle - Gnome Desktop Install - GWSL - Oracle 9 via Windows 11 - WSL
