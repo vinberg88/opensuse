@@ -24,6 +24,70 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+Manjaro - KDE PLASMA 6 - How to install KDE 6 on Manjaro - WSL - GWSL - 2024 GITHUB
+
+Here you find Manjaro for WSL - GWSL - Windows 11
+https://github.com/sileshn/ManjaroWSL2
+
+How to install KDE 6 via Manjaro and Windows 11 - TEXT
+https://github.com/vinberg88/opensuse/blob/main/Manjaro-KDE6.txt
+
+How to install KDE 6 via Manjaro and Windows 11 - Movie
+https://www.youtube.com/watch?v=sDYYCW2Meac
+
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⣿⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣷⣤⣙⢻⣿⣿⣿⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡄⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⡿⠛⠛⠿⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⠏⠀⠀⠀⠀⠙⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⣰⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⠿⣆⠀⠀⠀⠀
+⠀⠀⠀⣴⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣷⣦⡀⠀⠀⠀
+⠀⢀⣾⣿⣿⠿⠟⠛⠋⠉⠉⠀⠀⠀⠀⠀⠀⠉⠉⠙⠛⠻⠿⣿⣿⣷⡀⠀
+⣠⠟⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠻⣄ Manjaro 2024 - Vinberg SwE - WSL
+
+![Manjaro-KDE6](https://github.com/vinberg88/opensuse/assets/94398623/5696103b-ff35-49ad-a9ee-b02f2638c489)
+
+About Manjaro
+
+Manjaro is a versatile open-source Linux operating system designed
+with a strong focus on safeguarding user privacy and offering
+extensive control over hardware. This user-friendly OS is an
+excellent choice for those who seek a fresh computing experience, as
+it can be seamlessly installed on a diverse array of devices.
+With support for both x86-64 and ARM architectures, Manjaro
+stands as an ideal option for any device or computing environment.
+Furthermore, Manjaro provides an array of customization options
+and a rich selection of applications, all while prioritizing
+security and privacy features. To cater to a wide audience.
+
+About KDE plasma
+
+The Plasma Launcher lets you quickly and easily launch 
+applications, but it can do much more -- convenient tasks
+like bookmarking applications, searching for documents as
+you type, or navigating to common places help you get
+straight to the point. With a history of recently started 
+programs and opened files, you can return to where you left off. 
+It even remembers previously entered search terms so you don't have to.
+Use KDE Plasma to surf the web; keep in touch with 
+colleagues, friends and family; manage your files, enjoy
+music and videos; and get creative and productive at work.
+Do it all in a beautiful environment that adapts to your
+needs, and with the safety, privacy-protection and peace of
+mind that the best Free Open Source Software has to offer.
+
+Here you find more about WSL for windows..
+https://github.com/vinberg88/opensuse
+
+Thanks For Watching,
+Mattias Vinberg
+
+----------------------------------------------
+
 Fedora 40 - KDE Plasma Desktop 6 - GWSL - Fedora 40 via Windows 11 - WSL - 2024
 
 Find Fedora 40 for WSL here...
