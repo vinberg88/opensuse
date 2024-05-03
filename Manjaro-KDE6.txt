@@ -1,0 +1,159 @@
+---------------------------------
+
+Manjaro - KDE PLASMA 6 - How to install KDE 6 on Manjaro - WSL - GWSL - 2024 YouTube
+
+Here you find Manjaro for WSL - GWSL - Windows 11
+https://github.com/sileshn/ManjaroWSL2
+
+How to install KDE 6 via Manjaro and Windows 11 - TEXT
+Comming Zone...
+
+How to install KDE 6 via Manjaro and Windows 11 - Movie
+https://www.youtube.com/watch?v=sDYYCW2Meac
+
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⣿⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣷⣤⣙⢻⣿⣿⣿⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡄⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⡿⠛⠛⠿⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⠏⠀⠀⠀⠀⠙⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⣰⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⠿⣆⠀⠀⠀⠀
+⠀⠀⠀⣴⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣷⣦⡀⠀⠀⠀
+⠀⢀⣾⣿⣿⠿⠟⠛⠋⠉⠉⠀⠀⠀⠀⠀⠀⠉⠉⠙⠛⠻⠿⣿⣿⣷⡀⠀
+⣠⠟⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠻⣄ Manjaro 2024 - Vinberg SwE - WSL
+
+
+About Manjaro
+
+Manjaro is a versatile open-source Linux operating system designed
+with a strong focus on safeguarding user privacy and offering
+extensive control over hardware. This user-friendly OS is an
+excellent choice for those who seek a fresh computing experience, as
+it can be seamlessly installed on a diverse array of devices.
+With support for both x86-64 and ARM architectures, Manjaro
+stands as an ideal option for any device or computing environment.
+Furthermore, Manjaro provides an array of customization options
+and a rich selection of applications, all while prioritizing
+security and privacy features. To cater to a wide audience.
+
+About KDE plasma
+
+The Plasma Launcher lets you quickly and easily launch 
+applications, but it can do much more -- convenient tasks
+like bookmarking applications, searching for documents as
+you type, or navigating to common places help you get
+straight to the point. With a history of recently started 
+programs and opened files, you can return to where you left off. 
+It even remembers previously entered search terms so you don't have to.
+Use KDE Plasma to surf the web; keep in touch with 
+colleagues, friends and family; manage your files, enjoy
+music and videos; and get creative and productive at work.
+Do it all in a beautiful environment that adapts to your
+needs, and with the safety, privacy-protection and peace of
+mind that the best Free Open Source Software has to offer.
+
+Here you find more about WSL for windows..
+https://github.com/vinberg88/opensuse
+
+---------------------------------
+
+1. Paste this in terminal... all - you wont get symbolic link error.
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+---------------------------------
+
+2. sudo nano /etc/pacman.conf and change to...
+
+# Misc options
+#UseSyslog
+Color
+ParallelDownloads = 8
+ILoveCandy
+#TotalDownload
+#CheckSpace
+VerbosePkgLists
+
+---------------------------------
+
+3. Paste in terminal..
+
+sudo pacman-mirrors --api --set-branch unstable
+
+---------------------------------
+
+4. Paste in terminal..
+
+sudo pacman-mirrors --fasttrack 5 && sudo pacman -Syu
+
+------------------------------------------------------------
+
+5. Update and Reboot - sudo pacman -Syu
+
+------------------------------------------------------------
+
+6. Install this tools
+
+sudo pacman -S xorg xorg-server xorg-xinit mesa xterm xorg-twm xorg-xrandr xterm xorg-xclock sddm bluedevil libqtxdg
+xorg-server xorg-xinit xorg-xrandr xorg-xfontsel xorg-xlsfonts xorg-xkill xorg-xinput xorg-xwininfo
+
+------------------------------------------------------------
+
+7. Time To install KDE plasma 6 =]
+
+sudo pacman -S plasma-meta kde-applications-meta
+
+------------------------------------------------------------
+
+5. Paste in terminal - all
+
+sudo systemctl enable sddm.service
+sudo systemctl enable NetworkManager.service
+sudo systemctl set-default graphical
+
+------------------------------------------------------------
+
+6. Type this in terminal and put your user there: loginctl enable-linger user
+
+----------------------------------------------------------------
+
+Start GWSL and Config and Start Manjaro from GWSL - SHELL
+
+----------------------------------------------------------------
+
+Type in terminal: sudo nano ~/.bash_Man_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------------------------
+
+Reboot Manjaro - Reboot manjaro - Start Manjaro From GWSL and start Shell.
+
+----------------------------------------------------------------
+
+Time to start KDE Plasma 6 on Manjaro.
+
+Paste in terminal: . ~/.bash_Man_desktop
+
+Paste in terminal: startplasma-x11
+
+----------------------------------------------------------------
+
+Warm Regards,
+Matias Vinberg 2024 - Manjaro - SWedeN
+
+----------------------------------------------------------------
