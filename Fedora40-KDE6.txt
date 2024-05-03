@@ -6,7 +6,7 @@ Find Fedora 40 for WSL here...
 https://apps.microsoft.com/detail/9n6gdm4k2hnc?hl=sv-se&gl=US
 
 How to install KDE plasma 6 via Fedora 40 - text
-Comming Zone....
+https://github.com/vinberg88/opensuse/edit/main/Fedora40-KDE6.txt
 
 Movie - How to install KDE plasma 6 via Fedora 40
 https://www.youtube.com/watch?v=PbHgMkDot_Y
