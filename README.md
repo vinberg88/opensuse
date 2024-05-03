@@ -22,6 +22,46 @@ Raft WSL https://www.whitewaterfoundry.com/raft-wsl <-- change fast from ubuntu,
 
 Have alot of time - This is just for fun! WSL is an excellent tool to learn Linux!
 
+----------------------------------------------
+
+Fedora 40 - KDE Plasma Desktop 6 - GWSL - Fedora 40 via Windows 11 - WSL - 2024
+
+Find Fedora 40 for WSL here...
+https://apps.microsoft.com/detail/9n6gdm4k2hnc?hl=sv-se&gl=US
+
+How to install KDE plasma 6 via Fedora 40 - text
+https://github.com/vinberg88/opensuse/blob/main/Fedora40-KDE6.txt
+
+Movie - How to install KDE plasma 6 via Fedora 40
+https://www.youtube.com/watch?v=PbHgMkDot_Y
+
+![Fedora40-kde6](https://github.com/vinberg88/opensuse/assets/94398623/4093a71c-91da-480d-82d0-0465ced3bdea)
+
+What is Fedora?
+
+Fedora, also known as Fedora Linux, is a popular Open Source Linux-based
+operating system (OS). Designed as a secure, general-purpose OS, Fedora
+is developed on a six-month to eight-month release cycle under the Fedora
+Project. Both the OS and the Fedora Project are financially sponsored
+and supported by Red Hat. Fedora is a free and open source OS platform
+for hardware, clouds and containers. Based on the Linux OS kernel
+architecture, Fedora Linux is a user-friendly OS that enables users to
+perform their tasks easily and efficiently with minimal friction. The name
+Fedora refers to the characteristic fedora hat in Red Hat's Shadowman logo.
+
+What is KDE plasma 6..
+
+Use Plasma to surf the web; keep in touch with colleagues, friends
+and family; manage your files, enjoy music and videos; and get
+creative and productive at work. Do it all in a beautiful environment
+that adapts to your needs, and with the safety, privacy-protection and
+peace of mind that the best Free Open Source Software has to offer.
+Plasma is a Desktop =)
+
+Here you have more stuff about WSL: https://github.com/vinberg88/opensuse
+
+Thanks For Watching,
+Mattias Vinberg
 
 ----------------------------------------------
 
