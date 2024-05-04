@@ -1,0 +1,180 @@
+--------------------------------------------
+
+Install KDE Neon 6 via Ubuntu 22.04 via Windows 11 - WSL - GWSL - Windows 11 - 2024 
+
+How to install and get kde plasma 6 from Ubuntu 22.04. Testing and experimentation facility....
+This is just because you can... Should not be used as regular KDE plasma 6...
+
+How to install kde plasma 6 via Ubuntu 22.04 and KdeNeon - TEXT
+Comming Zone
+
+How to install kde plasma 6 via Ubuntu 22.04 and KdeNeon - Movie
+https://www.youtube.com/watch?v=RJF1oDiCRSA
+
+              .-. 
+        .-'``(|||) 
+     ,`\ \    `-`.                 88                         88 
+    /   \ '``-.   `                88                         88 
+  .-.  ,       `___:      88   88  88,888,  88   88  ,88888, 88888  88   88 
+ (:::) :        ___       88   88  88   88  88   88  88   88  88    88   88 
+  `-`  `       ,   :      88   88  88   88  88   88  88   88  88    88   88 
+    \   / ,..-`   ,       88   88  88   88  88   88  88   88  88    88   88 
+     `./ /    .-.`        '88888'  '88888'  '88888'  88   88  '8888 '88888' 
+        `-..-(   ) 
+              `-` 
+
+
+About KDE Neon 6
+
+KDE neon is a Linux distribution built on top of the latest
+Ubuntu LTS release (22.04 at the moment) that showcases KDE
+software exactly as the KDE developers intended it, with
+no patches and no changes to default settings. Adventurous
+users are encouraged to try out User Edition. KDE testers
+can try out unreleased KDE software using the Testing and 
+Unstable Editions. You should use KDE neon if you are an
+adventurous KDE enthusiast who wants the latest and greatest from
+the KDE community as soon as it's available, with
+no delays, opinionated patches, or UX changes. 
+This is KDE software the way KDE designed it!
+KDE neon delivers this by packaging the hottest
+software fresh from the KDE Community ovens, the
+moment it's released.
+
+About KDE 6 Plasma
+
+KDE Plasma is a modern, feature-rich desktop environment
+for Linux-based operating systems. Known for its sleek
+design, customizable interface, and extensive set of
+applications, it is also open source, devoid
+of ads, and makes protecting your privacy and
+personal data a priority.
+
+You cane find more Stuff for WSL here
+https://github.com/vinberg88/opensuse
+
+--------------------------------------------
+
+--------------------------------------------
+
+1. Paste all to terminal and klick enter... Remove errors..
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+--------------------------------------------
+
+2. Install firefox
+
+sudo snap install firefox
+
+--------------------------------------------
+
+3. Paste in Console
+
+sudo ln -s /dev/null /etc/systemd/system/acpid.service
+sudo ln -s /dev/null /etc/systemd/system/acpid.path
+
+--------------------------------------------
+
+4. Reboot Reboot Reboot Reboot Reboot
+
+--------------------------------------------
+
+5. Take one by one...
+
+sudo apt-add-repository 'deb http://archive.neon.kde.org/user jammy main'
+
+wget -qO - 'http://archive.neon.kde.org/public.key' | sudo apt-key add -
+
+sudo apt update
+sudo apt install neon-desktop
+
+--------------------------------------------
+
+5. Install programs:
+
+sudo apt install bash git npm wget curl nano sudo pipx dracut -y
+sudo apt install sddm* -y
+sudo systemctl set-default graphical
+
+--------------------------------------------
+
+6. Install this small program..
+
+wget https://github.com/fastfetch-cli/fastfetch/releases/download/2.1.2/fastfetch-2.1.2-Linux.deb
+sudo apt install ./fastfetch-2.1.2-Linux.deb
+
+--------------------------------------------
+
+7. install Chrome
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+--------------------------------------------
+
+8. Reboot Linux... Reboot Linux... Reboot Linux...
+
+--------------------------------------------
+
+9. Config GWSL and start from there - Linux Shell - take an extra reboot!
+
+--------------------------------------------
+
+10. Paste in terminal: 
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+--------------------------------------------
+
+11. Type this in terminal and put your user there - loginctl enable-linger user
+
+--------------------------------------------
+
+12. Copy this and paste in terminal: sudo nano ~/.bash_ubuntu_desktop
+
+Then add this script to terminal
+
+export XDG_CURRENT_DESKTOP=ubuntu:GNOME
+export XDG_SESSION_DESKTOP=ubuntu
+export DESKTOP_SESSION=ubuntu
+export GNOME_SHELL_SESSION_MODE=ubuntu
+
+export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+export XDG_MENU_PREFIX=gnome-
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+--------------------------------------------
+
+13. Reboot... Reboot... Reboot... Reboot...
+
+--------------------------------------------
+
+14. Paste in terminal: . ~/.bash_ubuntu_desktop
+
+Type in terminal and start plasma: dbus-launch startplasma-x11
+
+--------------------------------------------
+
+Start Console in KDE plasma 6 and type: sudo apt dist-upgrade
+
+--------------------------------------------
+
+Warm Regards, 
+Mattias Vinberg - SWE - 2024
+
+--------------------------------------------
