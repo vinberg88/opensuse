@@ -6,7 +6,7 @@ How to install and get kde plasma 6 from Ubuntu 22.04. Testing and experimentati
 This is just because you can... Should not be used as regular KDE plasma 6...
 
 How to install kde plasma 6 via Ubuntu 22.04 and KdeNeon - TEXT
-Comming Zone
+https://github.com/vinberg88/opensuse/blob/main/KDEplasmaNeon6.txt
 
 How to install kde plasma 6 via Ubuntu 22.04 and KdeNeon - Movie
 https://www.youtube.com/watch?v=RJF1oDiCRSA
