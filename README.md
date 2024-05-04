@@ -24,6 +24,66 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+Install KDE Neon 6 via Ubuntu 22.04 via Windows 11 - WSL - GWSL - Windows 11 - 2024 
+
+How to install and get kde plasma 6 from Ubuntu 22.04. Testing and experimentation facility....
+This is just because you can... Should not be used as regular KDE plasma 6...
+
+How to install kde plasma 6 via Ubuntu 22.04 and KdeNeon - TEXT
+https://github.com/vinberg88/opensuse/blob/main/KDEplasmaNeon6.txt
+
+How to install kde plasma 6 via Ubuntu 22.04 and KdeNeon - Movie
+https://www.youtube.com/watch?v=RJF1oDiCRSA
+
+              .-. 
+        .-'``(|||) 
+     ,`\ \    `-`.                 88                         88 
+    /   \ '``-.   `                88                         88 
+  .-.  ,       `___:      88   88  88,888,  88   88  ,88888, 88888  88   88 
+ (:::) :        ___       88   88  88   88  88   88  88   88  88    88   88 
+  `-`  `       ,   :      88   88  88   88  88   88  88   88  88    88   88 
+    \   / ,..-`   ,       88   88  88   88  88   88  88   88  88    88   88 
+     `./ /    .-.`        '88888'  '88888'  '88888'  88   88  '8888 '88888' 
+        `-..-(   ) 
+              `-` 
+
+
+About KDE Neon 6
+
+KDE neon is a Linux distribution built on top of the latest
+Ubuntu LTS release (22.04 at the moment) that showcases KDE
+software exactly as the KDE developers intended it, with
+no patches and no changes to default settings. Adventurous
+users are encouraged to try out User Edition. KDE testers
+can try out unreleased KDE software using the Testing and 
+Unstable Editions. You should use KDE neon if you are an
+adventurous KDE enthusiast who wants the latest and greatest from
+the KDE community as soon as it's available, with
+no delays, opinionated patches, or UX changes. 
+This is KDE software the way KDE designed it!
+KDE neon delivers this by packaging the hottest
+software fresh from the KDE Community ovens, the
+moment it's released.
+
+![KDEplasmaNeon6](https://github.com/vinberg88/opensuse/assets/94398623/e2bc0c37-7c6f-43ab-bdb4-49b0cb00ee56)
+
+About KDE 6 Plasma
+
+KDE Plasma is a modern, feature-rich desktop environment
+for Linux-based operating systems. Known for its sleek
+design, customizable interface, and extensive set of
+applications, it is also open source, devoid
+of ads, and makes protecting your privacy and
+personal data a priority.
+
+You cane find more Stuff for WSL here
+https://github.com/vinberg88/opensuse
+
+Thanks For Watching,
+Mattias Vinberg
+
+----------------------------------------------
+
 Manjaro - KDE PLASMA 6 - How to install KDE 6 on Manjaro - WSL - GWSL - 2024 GITHUB
 
 Here you find Manjaro for WSL - GWSL - Windows 11
