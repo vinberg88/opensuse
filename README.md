@@ -35,19 +35,6 @@ https://github.com/vinberg88/opensuse/blob/main/KDEplasmaNeon6.txt
 How to install kde plasma 6 via Ubuntu 22.04 and KdeNeon - Movie
 https://www.youtube.com/watch?v=RJF1oDiCRSA
 
-              .-. 
-        .-'``(|||) 
-     ,`\ \    `-`.                 88                         88 
-    /   \ '``-.   `                88                         88 
-  .-.  ,       `___:      88   88  88,888,  88   88  ,88888, 88888  88   88 
- (:::) :        ___       88   88  88   88  88   88  88   88  88    88   88 
-  `-`  `       ,   :      88   88  88   88  88   88  88   88  88    88   88 
-    \   / ,..-`   ,       88   88  88   88  88   88  88   88  88    88   88 
-     `./ /    .-.`        '88888'  '88888'  '88888'  88   88  '8888 '88888' 
-        `-..-(   ) 
-              `-` 
-
-
 About KDE Neon 6
 
 KDE neon is a Linux distribution built on top of the latest
