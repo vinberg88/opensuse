@@ -24,6 +24,47 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+CentOS 9 - Gnome Desktop - GWSL - CentOS 9 Stream via Windows 11 - WSL - 2024
+
+You cane find CentOS 9 Stream here for WSL.
+https://github.com/mishamosher/CentOS-WSL/releases/tag/9-stream-20230626
+                                     
+![Centos9-Gnome](https://github.com/vinberg88/opensuse/assets/94398623/7e2622ff-5494-473d-8de9-adcebc97d18a)
+                                 
+How to install Gnome via CentOS 9 - TEXT
+https://github.com/vinberg88/opensuse/edit/main/Centos9-Gnome.txt
+
+MOVIE - How to install Gnome via CentOS 9
+https://www.youtube.com/watch?v=u7eiJso8ydo
+
+What is Centos 9 Stream..
+
+Continuously delivered distro that tracks just ahead
+of Red Hat Enterprise Linux (RHEL) development, positioned
+as a midstream between Fedora Linux and RHEL. 
+For anyone interested in participating and collaborating 
+in the RHEL ecosystem, CentOS Stream is your reliable
+platform for innovation. https://www.centos.org
+
+What is Gnome Desktop..
+
+Every part of GNOME has been designed to make it simple
+and easy to use. The Activities Overview is a simple
+way to access all your basic tasks. A press of a
+button is all it takes to view your open windows, launch
+applications, or check if you have new messages. Having
+everything in one convenient place means you don’t
+have to learn your way around a maze of different technologies.
+https://www.gnome.org
+
+You can finde more Stuff here About WSL.
+https://github.com/vinberg88/opensuse
+
+Thanks For Watching,
+Mattias Vinberg
+
+------------------------------------------------------
+
 KDE 6 (Plasma) on Black Arch - Windows 11 - WSL - GWSL - 2024
 
 You can find Arch in microsoft store - Orginal Arch
