@@ -24,6 +24,64 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+KDE 6 (Plasma) on Black Arch - Windows 11 - WSL - GWSL - 2024
+
+You can find Arch in microsoft store - Orginal Arch
+https://apps.microsoft.com/detail/9mznmnksm73x?hl=sv-SE&gl=US
+
+Read About BlackARch here: https://blackarch.org
+
+KDE plasma 6 on Black Arch - Windows 11 - GWSL - WSL - BlackArch
+
+                    -@                
+                   .##@               
+                  .####@              
+                  @#####@             
+                . *######@            
+               .##@o@#####@           
+              /############@          
+             /##############@         
+            @######@**%######@        
+           @######`     %#####o       
+          @######@       ######%      
+        -@#######h       ######@.`    
+       /#####h**``       `**%@####@   
+      @H@*`                    `*%#@  
+     *`                            `* - BlachArch WSL - GWSL - 2024
+
+
+How to install Plasma KDE 6 on Black Arch - TEXT
+https://github.com/vinberg88/opensuse/blob/main/BlackArch-KDE6.txt
+
+How to install Plasma KDE 6 on Black Arch - Movie
+https://www.youtube.com/watch?v=WCxSou_Wwpo
+
+![BlackArch-KDE6](https://github.com/vinberg88/opensuse/assets/94398623/a9fe502d-0cf4-4c69-8263-9a7f7f80ebc0)
+
+About KDE plasma 6: Plasma is a Desktop - Use Plasma to surf the
+web; keep in touch with colleagues, friends and family; manage your
+files, enjoy music and videos; and get creative and productive at work.
+Do it all in a beautiful environment that adapts to your needs, and
+with the safety, privacy-protection and peace of mind that the best
+Free Open Source Software has to offer.
+
+About Black Arch - BlackArch Linux is an Arch Linux-based penetration testing distribution
+for penetration testers and security researchers. The repository
+contains 2902 tools. You can install tools individually or in groups.
+BlackArch Linux is compatible with existing Arch installs.
+For more information, see the installation instructions.
+The BlackArch Full ISO contains multiple window managers.
+The BlackArch Slim ISO features the XFCE Desktop Environment.
+Below you will find screenshots of a few of them.
+
+You will find more stuff here for WSL: https://github.com/vinberg88/opensuse
+
+Thanks For Watching,
+Mattias Vinberg
+
+----------------------------------------------
+
+
 Install KDE Neon 6 via Ubuntu 22.04 via Windows 11 - WSL - GWSL - Windows 11 - 2024 
 
 How to install and get kde plasma 6 from Ubuntu 22.04. Testing and experimentation facility....
