@@ -14,7 +14,7 @@ https://github.com/mishamosher/CentOS-WSL/releases/tag/9-stream-20230626
                                      
                                  
 How to install Gnome via CentOS 9 - TEXT
-Comming Zone....
+https://github.com/vinberg88/opensuse/edit/main/Centos9-Gnome.txt
 
 MOVIE - How to install Gnome via CentOS 9
 https://www.youtube.com/watch?v=u7eiJso8ydo
