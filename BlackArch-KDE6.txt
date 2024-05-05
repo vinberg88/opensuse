@@ -25,10 +25,10 @@ KDE plasma 6 on Black Arch - Windows 11 - GWSL - WSL - BlackArch
 
 
 How to install Plasma KDE 6 on Black Arch - TEXT
-Comming Zone.....
+https://github.com/vinberg88/opensuse/blob/main/BlackArch-KDE6.txt
 
 How to install Plasma KDE 6 on Black Arch - Movie
-Comming Zone.....
+https://www.youtube.com/watch?v=WCxSou_Wwpo
 
 About KDE plasma 6: Plasma is a Desktop - Use Plasma to surf the
 web; keep in touch with colleagues, friends and family; manage your
