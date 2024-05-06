@@ -1,0 +1,162 @@
+------------------------------------------------------
+
+Rockylinux 9 - KDE Plasma Desktop 5 - GWSL - Rockylinux 9 via Windows 11 - WSL - 2024
+
+Find Rockylinux 9.3 for WSL here and Download and install...
+https://drive.proton.me/urls/M5JJ0ZWVWM#wr3VtIKeDTqG 
+
+Or download from docker and install https://hub.docker.com/_/rockylinux
+
+How to install KDE plasma 5 via Rockylinux9 - TEXT
+Comming Zone...
+
+MOVIE - How to install KDE plasma 5 via Rockylinux9
+https://www.youtube.com/watch?v=4EhrlF2YvJw
+
+What is Rocky Linux ?
+
+Rocky Linux is an open-source enterprise operating
+system designed to be 100% bug-for-bug compatible with
+Red Hat Enterprise Linux®. It is under intensive 
+development by the community. https://rockylinux.org
+
+What is KDE plasma 5 ?
+
+Use Plasma to surf the web; keep in touch with colleagues, friends
+and family; manage your files, enjoy music and videos; and get
+creative and productive at work. Do it all in a beautiful environment
+that adapts to your needs, and with the safety, privacy-protection and
+peace of mind that the best Free Open Source Software has to offer.
+Plasma is a Desktop =) https://kde.org/plasma-desktop
+
+Here you have more stuff about WSL: https://github.com/vinberg88/opensuse
+
+------------------------------------------------------
+
+0. Login as root and install: yum install sudo git nano wget bash
+
+   Log Out as root and login as user
+
+------------------------------------------------------
+
+0.5. Install fastmirrors or repos for Rockylinux 9
+
+Run this first
+
+sudo dnf check-update
+sudo dnf install dnf-utils
+
+Then do this..
+
+sudo nano /etc/dnf/dnf.conf
+
+Add the following line: max_parallel_downloads=10 and fastestmirror=True
+
+Like That..
+
+max_parallel_downloads=10
+fastestmirror=True
+
+------------------------------------------------------
+
+1. Paste in terminal: sudo nano /etc/wsl.conf
+
+[boot]
+systemd=true
+
+------------------------------------------------------
+
+2. Paste all in terminal
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+------------------------------------------------------
+
+3. Reboot and Update: sudo dnf update
+
+------------------------------------------------------
+
+4. Paste all in terminal... Install extra Repos for Rockylinux 9
+
+sudo dnf -y install epel-release
+sudo /usr/bin/crb enable
+
+------------------------------------------------------
+
+5. sudo dnf upgrade --refresh
+
+------------------------------------------------------
+
+6. sudo dnf install git wget curl nano bash pipx sudo dracut net-tools dbus-x11 --skip-broken --nobest
+
+------------------------------------------------------
+
+Time to install KDE Plasma on Rockylinux 9...
+
+7. sudo dnf group -y install "KDE Plasma Workspaces" --skip-broken --nobest
+
+sudo systemctl enable sddm
+
+------------------------------------------------------
+
+7.5 Install Google-Chrome - paste all under this paragraph:
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm
+sudo yum update google-chrome-stable
+
+------------------------------------------------------
+
+8. Reboot Reboot Reboot Reboot
+
+-------------------------------------------------------------
+
+11.5 Login with GWSL and Config all. Then start Linux-shell from GWSL....
+
+-------------------------------------------------------------
+
+12. Paste all in terminal: 
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-------------------------------------------------------------
+
+16. Type this in terminal and put your user-name there: loginctl enable-linger user
+
+-------------------------------------------------------------
+
+17. In terminal type: sudo nano ~/.bash_RockyLinux_desktop
+
+Paste this small script in terminal and save and quit nano.
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-------------------------------------------
+
+18. Reboot RockyLinux 9 and start GWSL Shell.
+
+-------------------------------------------
+
+19. Paste in terminal: . ~/.bash_RockyLinux_desktop
+    
+Type in terminal: dbus-launch startplasma-x11
+
+-------------------------------------------
+
+It takes a little time to start at the beginning so leave it for a minute if nothing happens.
+
+Warm Regards,
+Mattias Vinberg
+
