@@ -24,6 +24,44 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+Rockylinux 9 - KDE Plasma Desktop 5 - GWSL - Rockylinux 9 via Windows 11 - WSL - 2024
+
+Find Rockylinux 9.3 for WSL here and Download and install...
+https://drive.proton.me/urls/M5JJ0ZWVWM#wr3VtIKeDTqG 
+
+Or download from docker and install https://hub.docker.com/_/rockylinux
+
+How to install KDE plasma 5 via Rockylinux9 - TEXT
+https://github.com/vinberg88/opensuse/blob/main/Rockylinux9-KDE.txt
+
+MOVIE - How to install KDE plasma 5 via Rockylinux9
+https://www.youtube.com/watch?v=4EhrlF2YvJw
+
+![Rockylinux9-KDE](https://github.com/vinberg88/opensuse/assets/94398623/24ffd4dc-5af3-400c-8329-67cfc6dc3ce4)
+
+What is Rocky Linux ?
+
+Rocky Linux is an open-source enterprise operating
+system designed to be 100% bug-for-bug compatible with
+Red Hat Enterprise Linux®. It is under intensive 
+development by the community. https://rockylinux.org
+
+What is KDE plasma 5 ?
+
+Use Plasma to surf the web; keep in touch with colleagues, friends
+and family; manage your files, enjoy music and videos; and get
+creative and productive at work. Do it all in a beautiful environment
+that adapts to your needs, and with the safety, privacy-protection and
+peace of mind that the best Free Open Source Software has to offer.
+Plasma is a Desktop =) https://kde.org/plasma-desktop
+
+Here you have more stuff about WSL: https://github.com/vinberg88/opensuse
+
+Thanks For Watching,
+Mattias Vinberg
+
+----------------------------------------------
+
 CentOS 9 - Gnome Desktop - GWSL - CentOS 9 Stream via Windows 11 - WSL - 2024
 
 You cane find CentOS 9 Stream here for WSL.
