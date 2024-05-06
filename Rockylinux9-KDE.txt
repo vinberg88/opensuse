@@ -8,7 +8,7 @@ https://drive.proton.me/urls/M5JJ0ZWVWM#wr3VtIKeDTqG
 Or download from docker and install https://hub.docker.com/_/rockylinux
 
 How to install KDE plasma 5 via Rockylinux9 - TEXT
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/Rockylinux9-KDE.txt
 
 MOVIE - How to install KDE plasma 5 via Rockylinux9
 https://www.youtube.com/watch?v=4EhrlF2YvJw
