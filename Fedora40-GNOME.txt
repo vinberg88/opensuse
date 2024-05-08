@@ -1,0 +1,174 @@
+==========Fedora 40 and Gnome 46==========
+
+Lets install Fedora 40 and Gnome Desktop 46 via Windows 11 - WSL - GWSL - Windows 11 - 2024
+
+Find Fedora 40 for WSL here or use Fedora 39 and update to 40 - Use Google for that.
+https://apps.microsoft.com/detail/9n6gdm4k2hnc?hl=sv-se&gl=US
+
+https://apps.microsoft.com/detail/9npcp8drchsn?hl=sv-se&gl=SE
+Fedora 40 for WSL here - No pay and updated to 40 =]
+
+How to install Gnome Desktop 46 via Fedora 40 - text
+Comming Zone!
+
+How to install Gnome Desktop 46 via Fedora 40 - Movie
+https://www.youtube.com/watch?v=KKAQdt4HytU
+
+
+             .',;::::;,'.                            .',;::::;,'.                            .',;::::;,'.
+         .';:cccccccccccc:;,.                    .';:cccccccccccc:;,.                    .';:cccccccccccc:;,.
+      .;cccccccccccccccccccccc;.              .;cccccccccccccccccccccc;.              .;cccccccccccccccccccccc;.
+    .:cccccccccccccccccccccccccc:.          .:cccccccccccccccccccccccccc:.          .:cccccccccccccccccccccccccc:.
+  .;ccccccccccccc;.:dddl:.;ccccccc;.      .;ccccccccccccc;.:dddl:.;ccccccc;.      .;ccccccccccccc;.:dddl:.;ccccccc;.
+ .:ccccccccccccc;OWMKOOXMWd;ccccccc:.    .:ccccccccccccc;OWMKOOXMWd;ccccccc:.    .:ccccccccccccc;OWMKOOXMWd;ccccccc:.
+.:ccccccccccccc;KMMc;cc;xMMc;ccccccc:.  .:ccccccccccccc;KMMc;cc;xMMc;ccccccc:.  .:ccccccccccccc;KMMc;cc;xMMc;ccccccc:.
+,cccccccccccccc;MMM.;cc;;WW:;cccccccc,  ,cccccccccccccc;MMM.;cc;;WW:;cccccccc,  ,cccccccccccccc;MMM.;cc;;WW:;cccccccc,
+:cccccccccccccc;MMM.;cccccccccccccccc:  :cccccccccccccc;MMM.;cccccccccccccccc:  :cccccccccccccc;MMM.;cccccccccccccccc:
+:ccccccc;oxOOOo;MMM0OOk.;cccccccccccc:  :ccccccc;oxOOOo;MMM0OOk.;cccccccccccc:  :ccccccc;oxOOOo;MMM0OOk.;cccccccccccc:
+cccccc;0MMKxdd:;MMMkddc.;cccccccccccc;  cccccc;0MMKxdd:;MMMkddc.;cccccccccccc;  cccccc;0MMKxdd:;MMMkddc.;cccccccccccc;
+ccccc;XM0';cccc;MMM.;cccccccccccccccc'  ccccc;XM0';cccc;MMM.;cccccccccccccccc'  ccccc;XM0';cccc;MMM.;cccccccccccccccc'
+ccccc;MMo;ccccc;MMW.;ccccccccccccccc;   ccccc;MMo;ccccc;MMW.;ccccccccccccccc;   ccccc;MMo;ccccc;MMW.;ccccccccccccccc;
+ccccc;0MNc.ccc.xMMd;ccccccccccccccc;    ccccc;0MNc.ccc.xMMd;ccccccccccccccc;    ccccc;0MNc.ccc.xMMd;ccccccccccccccc;
+cccccc;dNMWXXXWM0:;cccccccccccccc:,     cccccc;dNMWXXXWM0:;cccccccccccccc:,     cccccc;dNMWXXXWM0:;cccccccccccccc:,
+cccccccc;.:odl:.;cccccccccccccc:,.      cccccccc;.:odl:.;cccccccccccccc:,.      cccccccc;.:odl:.;cccccccccccccc:,.
+:cccccccccccccccccccccccccccc:'.        :cccccccccccccccccccccccccccc:'.        :cccccccccccccccccccccccccccc:'.
+.:cccccccccccccccccccccc:;,..           .:cccccccccccccccccccccc:;,..           .:cccccccccccccccccccccc:;,..
+  '::cccccccccccccc::;,.                  '::cccccccccccccc::;,.                  '::cccccccccccccc::;,.
+
+
+==========What is Fedora==========
+
+Fedora, also known as Fedora Linux, is a popular Open Source Linux-based
+operating system (OS). Designed as a secure, general-purpose OS, Fedora
+is developed on a six-month to eight-month release cycle under the Fedora
+Project. Both the OS and the Fedora Project are financially sponsored
+and supported by Red Hat. Fedora is a free and open source OS platform
+for hardware, clouds and containers. Based on the Linux OS kernel
+architecture, Fedora Linux is a user-friendly OS that enables users to
+perform their tasks easily and efficiently with minimal friction. The name
+Fedora refers to the characteristic fedora hat in Red Hat's Shadowman logo.
+https://fedoraproject.org
+
+
+==========What is Gnome 46==========
+
+Every part of GNOME has been designed to make it simple 
+and easy to use. The Activities Overview is a simple way 
+to access all your basic tasks. A press of a button is
+all it takes to view your open windows, launch applications, or 
+check if you have new messages. Having everything in 
+one convenient place means you don’t have to learn your way 
+around a maze of different technologies. 
+https://www.gnome.org
+
+==========More stuff about WSL==========
+
+Here you have more stuff about WSL: https://github.com/vinberg88/opensuse
+
+-----------------------------------
+
+Kind Regards,
+Mattias Vinberg
+
+-----------------------------------
+
+Paste in terminal: sudo nano /etc/wsl.conf
+
+[boot]
+systemd=true
+
+-----------------------------------
+
+Paste all in terminal and Reboot.
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+-----------------------------------
+
+Add Repos to Fedora 40.
+
+sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+
+-----------------------------------
+
+Reboot and Update: sudo dnf update
+
+-----------------------------------
+
+Install some basic programs.
+
+sudo dnf install git wget curl bash pipx dracut dmraid net-tools dbus-x11
+
+-----------------------------------
+
+Install Hyfetch - like Neofetch but more gay =)
+
+pipx install hyfetch
+pipx ensurepath
+
+Put this in terminal to Test: hyfetch
+
+-----------------------------------
+
+Install Google-Chrome - paste all under this paragraph in terminal.
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm
+sudo yum update google-chrome-stable
+
+-----------------------------------
+
+sudo dnf install gdm*
+
+-----------------------------------
+
+Time to install Gnome Desktop 46
+
+sudo dnf group install -y "GNOME Desktop Environment"
+
+-----------------------------------
+
+Paste in terminal: 
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-----------------------------------
+
+Type this in terminal and put your user there - loginctl enable-linger user
+
+-----------------------------------
+
+Setup GWSL and reboot and start from GWSL Shell.
+
+-----------------------------------
+
+In terminal type: sudo nano ~/.bash_fedora_desktop
+
+Paste this in terminal and save and quit.
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-----------------------------------
+
+Reboot
+
+-----------------------------------
+
+Paste in terminal: . ~/.bash_fedora_desktop
+
+Type in terminal: gnome-session
+
+-----------------------------------
