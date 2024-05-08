@@ -24,6 +24,52 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+Lets install Fedora 40 and Gnome Desktop 46 via Windows 11 - WSL - GWSL - Windows 11 - 2024
+
+Find Fedora 40 for WSL here or use Fedora 39 and update to 40 - Use Google for that.
+https://apps.microsoft.com/detail/9n6gdm4k2hnc?hl=sv-se&gl=US
+
+Fedora 40 for WSL here - No pay and updated to 40 =]
+https://apps.microsoft.com/detail/9npcp8drchsn?hl=sv-se&gl=SE
+
+How to install Gnome Desktop 46 via Fedora 40 - text
+https://github.com/vinberg88/opensuse/blob/main/Fedora40-GNOME.txt
+
+How to install Gnome Desktop 46 via Fedora 40 - Movie
+https://www.youtube.com/watch?v=KKAQdt4HytU
+
+![Fedora40-GNOME](https://github.com/vinberg88/opensuse/assets/94398623/6f11bda6-09e2-411c-b5f2-d58facdb34d2)
+
+==========What is Fedora==========
+
+Fedora, also known as Fedora Linux, is a popular Open Source Linux-based
+operating system (OS). Designed as a secure, general-purpose OS, Fedora
+is developed on a six-month to eight-month release cycle under the Fedora
+Project. Both the OS and the Fedora Project are financially sponsored
+and supported by Red Hat. Fedora is a free and open source OS platform
+for hardware, clouds and containers. Based on the Linux OS kernel
+architecture, Fedora Linux is a user-friendly OS that enables users to
+perform their tasks easily and efficiently with minimal friction. The name
+Fedora refers to the characteristic fedora hat in Red Hat's Shadowman logo.
+https://fedoraproject.org
+
+
+==========What is Gnome 46==========
+
+Every part of GNOME has been designed to make it simple 
+and easy to use. The Activities Overview is a simple way 
+to access all your basic tasks. A press of a button is
+all it takes to view your open windows, launch applications, or 
+check if you have new messages. Having everything in 
+one convenient place means you don’t have to learn your way 
+around a maze of different technologies. 
+https://www.gnome.org
+
+Kind Regards,
+Mattias Vinberg
+
+----------------------------------------------
+
 Rockylinux 9 - KDE Plasma Desktop 5 - GWSL - Rockylinux 9 via Windows 11 - WSL - 2024
 
 Find Rockylinux 9.3 for WSL here and Download and install...
