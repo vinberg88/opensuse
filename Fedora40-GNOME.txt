@@ -5,11 +5,11 @@ Lets install Fedora 40 and Gnome Desktop 46 via Windows 11 - WSL - GWSL - Window
 Find Fedora 40 for WSL here or use Fedora 39 and update to 40 - Use Google for that.
 https://apps.microsoft.com/detail/9n6gdm4k2hnc?hl=sv-se&gl=US
 
-https://apps.microsoft.com/detail/9npcp8drchsn?hl=sv-se&gl=SE
 Fedora 40 for WSL here - No pay and updated to 40 =]
+https://apps.microsoft.com/detail/9npcp8drchsn?hl=sv-se&gl=SE
 
 How to install Gnome Desktop 46 via Fedora 40 - text
-Comming Zone!
+https://github.com/vinberg88/opensuse/blob/main/Fedora40-GNOME.txt
 
 How to install Gnome Desktop 46 via Fedora 40 - Movie
 https://www.youtube.com/watch?v=KKAQdt4HytU
