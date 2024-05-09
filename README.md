@@ -24,6 +24,46 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+ParrotSeC 6 or ParrotOS 6 - How to install Gnome Desktop via Windows 11 - WSL - GWSL
+
+This is my favorite =] ParrotSEC 6 or ParrotOS 6 - RedShift Software!
+
+You can find ParrotOS 6 WSL here: https://www.parrotsec.org/download/
+
+How to install Gnome via ParrotOS 6 and Windows 11 - TEXT
+https://github.com/vinberg88/opensuse/edit/main/Parrot6-Gnome.txt
+
+How to install Gnome via ParrotOS 6 and Windows 11 - MOVIE
+https://www.youtube.com/watch?v=NuBVZhuyiMQ
+
+![ParrotOS6-Gnome](https://github.com/vinberg88/opensuse/assets/94398623/9de9d384-7666-4cc0-b8cc-55713f7c9441)
+
+About ParrotSEC or ParrosOS for WsL
+
+The ultimate framework for your Cyber Security operations.
+Parrot Security (ParrotOS, Parrot) is a Free and Open source
+GNU/Linux distribution based on Debian Stable designed for
+security experts, developers and privacy aware people.
+It includes a full portable arsenal for IT security and
+digital forensics operations. It also includes everything
+you need to develop your own programs or protect your privacy
+while surfing the net.
+
+About Gnome
+
+Every part of GNOME has been designed to make it simple 
+and easy to use. The Activities Overview is a simple way 
+to access all your basic tasks. A press of a button is
+all it takes to view your open windows, launch applications, or 
+check if you have new messages. Having everything in 
+one convenient place means you don’t have to learn your way 
+around a maze of different technologies. 
+
+Kind Regards,
+Mattias Vinberg
+
+----------------------------------------------
+
 Ubuntu 24.04 - Gnome 46 on Ubuntu 24.04 via Windows 11 - GWSL - WSL - How to install...
 
 Here you can find Ubuntu 24.04 for WSL - GWSL
