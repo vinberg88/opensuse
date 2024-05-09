@@ -5,7 +5,7 @@ Here you can find Ubuntu 24.04 for WSL - GWSL
 https://apps.microsoft.com/detail/9p7bdvkvnxz6?hl=en-us&gl=US
 
 How to install Gnome 46 via Ubuntu 24.04 and Windows 11 - TEXT
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu24.04-GNOME.txt
 
 How to install Gnome 46 via Ubuntu 24.04 and Windows 11 - MOVIE
 https://www.youtube.com/watch?v=t6U4g-e_q0E
