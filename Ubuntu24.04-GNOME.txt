@@ -1,0 +1,169 @@
+----------------------------------------------
+Ubuntu 24.04 - Gnome 46 on Ubuntu 24.04 via Windows 11 - GWSL - WSL - How to install.
+
+Here you can find Ubuntu 24.04 for WSL - GWSL
+https://apps.microsoft.com/detail/9p7bdvkvnxz6?hl=en-us&gl=US
+
+How to install Gnome 46 via Ubuntu 24.04 and Windows 11 - TEXT
+Comming Zone...
+
+How to install Gnome 46 via Ubuntu 24.04 and Windows 11 - MOVIE
+https://www.youtube.com/watch?v=t6U4g-e_q0E
+
+                             ....                                         ....
+              .',:clooo:  .:looooo:.                       .',:clooo:  .:looooo:.
+           .;looooooooc  .oooooooooo'                   .;looooooooc  .oooooooooo'
+        .;looooool:,''.  :ooooooooooc                .;looooool:,''.  :ooooooooooc
+       ;looool;.         'oooooooooo,               ;looool;.         'oooooooooo,
+      ;clool'             .cooooooc.  ,,           ;clool'             .cooooooc.  ,,
+         ...                ......  .:oo,             ...                ......  .:oo,
+  .;clol:,.                        .loooo'     .;clol:,.                        .loooo'
+ :ooooooooo,                        'ooool    :ooooooooo,                        'ooool
+'ooooooooooo.                        loooo.  'ooooooooooo.                        loooo.
+'ooooooooool                         coooo.  'ooooooooool                         coooo.
+ ,loooooooc.                        .loooo.   ,loooooooc.                        .loooo.
+   .,;;;'.                          ;ooooc      .,;;;'.                          ;ooooc
+       ...                         ,ooool.          ...                         ,ooool.
+    .cooooc.              ..',,'.  .cooo.        .cooooc.              ..',,'.  .cooo.
+      ;ooooo:.           ;oooooooc.  :l.           ;ooooo:.           ;oooooooc.  :l.
+       .coooooc,..      coooooooooo.                .coooooc,..      coooooooooo.
+         .:ooooooolc:. .ooooooooooo'                  .:ooooooolc:. .ooooooooooo'
+           .':loooooo;  ,oooooooooc                     .':loooooo;  ,oooooooooc
+               ..';::c'  .;loooo:'                          ..';::c'  .;loooo:'
+                             .                                            .
+
+
+About Ubuntu 24.04
+
+Run your choice of Linux text editors, including vim, emacs, and nano.
+Install applications, compilers and libraries from the Ubuntu 
+repository, securely maintained by Canonical. Ubuntu is a
+Linux distribution derived from Debian and composed mostly
+of free and open-source software. Ubuntu is officially
+released in multiple editions: Desktop, Server, and Core
+for Internet of things devices and robots.
+
+About Gnome 46
+
+Every part of GNOME has been designed to make it simple 
+and easy to use. The Activities Overview is a simple way 
+to access all your basic tasks. A press of a button is
+all it takes to view your open windows, launch applications, or 
+check if you have new messages. Having everything in 
+one convenient place means you don’t have to learn your way 
+around a maze of different technologies. 
+
+You Can Find More Stuff here About WSL
+https://github.com/vinberg88/opensuse
+
+----------------------------------------------
+
+2. Paste all to terminal and klick Enter.
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+----------------------------------------------
+
+Please Reboot Reboot Reboot Ubuntu
+
+----------------------------------------------
+
+Update All: sudo apt update && sudo apt upgrade
+
+----------------------------------------------
+
+Install programs:
+
+sudo apt install bash git npm wget curl pipx dracut -y
+sudo apt install gdm3* -y
+sudo systemctl set-default graphical
+
+----------------------------------------------
+
+Install this small program for hyfetch.
+
+sudo apt install hyfetch
+
+To test type: hyfetch
+
+Like Noefetch but more gay =]
+
+----------------------------------------------
+
+Please Reboot Linux...
+
+----------------------------------------------
+
+Config GWSL and Reboot start from there - GWSL Shell
+
+----------------------------------------------
+
+Paste in Terminal: 
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+
+----------------------------------------------
+
+Install FireFox before Gnome. Faster install. Gnome will take alot of time....
+
+sudo snap install firefox
+
+----------------------------------
+
+Install Chrome if you want...
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+----------------------------------
+
+10. Time to install Gnome: sudo apt install ubuntu-desktop
+
+----------------------------------------------
+
+11. Copy this and paste in terminal: sudo nano ~/.bash_ubuntu_desktop
+
+Then add this script to terminal
+
+export XDG_CURRENT_DESKTOP=ubuntu:GNOME
+export XDG_SESSION_DESKTOP=ubuntu
+export DESKTOP_SESSION=ubuntu
+export GNOME_SHELL_SESSION_MODE=ubuntu
+
+export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+export XDG_MENU_PREFIX=gnome-
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------
+
+9. Please Reboot
+
+----------------------------------------------
+
+11. Paste in terminal: . ~/.bash_ubuntu_desktop
+Paste in terminal: dbus-launch gnome-session
+
+It take some time to start all in beginning... Just Wait!
+
+----------------------------------------------
+
+After install do this in ubuntu terminal: sudo apt purge modemmanager <-- windows not supporting..
+
+----------------------------------------------
+
+Warm Regards, 
+Mattias Vinberg - SwE - 2024
+
+----------------------------------------------
