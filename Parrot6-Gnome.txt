@@ -1,0 +1,173 @@
+----------------------------------------------
+
+ParrotSeC 6 or ParrotOS 6 - How to install Gnome Desktop via Windows 11 - WSL - GWSL
+
+This is my favorite =] ParrotSEC 6 or ParrotOS 6 - RedShift Software!
+
+You can find ParrotOS 6 WSL here: https://www.parrotsec.org/download/
+
+How to install Gnome via ParrotOS 6 and Windows 11 - TEXT
+Comming Zone...
+
+How to install Gnome via ParrotOS 6 and Windows 11 - MOVIE
+https://www.youtube.com/watch?v=NuBVZhuyiMQ
+
+       _------. 
+      /  ,     \_
+    /   /  /{}\ |o\_
+   /    \  `--' /-' \
+  |      \      \    |
+ |              |`-, |
+ /              /__/)/
+|              |
+
+
+About ParrotSEC
+
+The ultimate framework for your Cyber Security operations.
+Parrot Security (ParrotOS, Parrot) is a Free and Open source
+GNU/Linux distribution based on Debian Stable designed for
+security experts, developers and privacy aware people.
+It includes a full portable arsenal for IT security and
+digital forensics operations. It also includes everything
+you need to develop your own programs or protect your privacy
+while surfing the net.
+
+About Gnome
+
+Every part of GNOME has been designed to make it simple 
+and easy to use. The Activities Overview is a simple way 
+to access all your basic tasks. A press of a button is
+all it takes to view your open windows, launch applications, or 
+check if you have new messages. Having everything in 
+one convenient place means you don’t have to learn your way 
+around a maze of different technologies. 
+
+You Can Find More Stuff here About WSL
+https://github.com/vinberg88/opensuse
+
+----------------------------------------------
+
+Paste all to terminal and klicK Enter. Remove Errors.
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+----------------------------------------------
+
+Reboot 
+
+----------------------------------------------
+
+Update all.
+
+sudo apt update && sudo apt upgrade
+
+----------------------------------------------
+
+Setup Lang for me Swedish
+
+sudo apt install locales
+sudo localectl set-locale LANG=sv_SE.UTF-8
+
+sudo locale-gen sv_SE sv_SE.UTF-8
+sudo dpkg-reconfigure locales
+
+export LC_ALL="sv_SE.UTF-8" <-- paste this in buttom on file. Paste this in terminal to get file --> sudo nano .bashrc
+
+----------------------------------------------
+
+Reboot 
+
+----------------------------------------------
+
+Install some Programs...
+
+sudo apt install bash git npm wget curl nano sudo pipx dracut -y
+sudo apt install gdm3* -y
+
+sudo apt install gnome
+
+sudo apt install systemctl gnome-session*
+sudo apt install gnome-console*
+
+----------------------------------------------
+
+Install Chrome if you want =]
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+----------------------------------------------
+
+Paste in Terminal: 
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical
+
+----------------------------------------------
+
+Reboot
+
+----------------------------------------------
+
+Config GWSL and start from there - GWSL Shell
+
+----------------------------------------------
+
+Copy this and paste in terminal: sudo nano ~/.bash_parrot_desktop 
+
+Then add this script to terminal
+
+export XDG_CURRENT_DESKTOP=ubuntu:GNOME
+export XDG_SESSION_DESKTOP=ubuntu
+export DESKTOP_SESSION=ubuntu
+export GNOME_SHELL_SESSION_MODE=ubuntu
+
+export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+export XDG_MENU_PREFIX=gnome-
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------
+
+Please Reboot and start from GWSL - SHELL
+
+----------------------------------------------
+
+Type this in terminal
+
+sudo nano /etc/wsl.conf 
+
+and add
+
+[boot]
+systemd=true
+
+----------------------------------------------
+
+Please Reboot and start from GWSL - SHELL
+
+----------------------------------------------
+
+Time To Start Gnome
+
+Paste in terminal: . ~/.bash_parrot_desktop
+Paste in terminal: dbus-launch gnome-session
+
+----------------------------------------------
+
+Kind Regards,
+Mattias Vinberg . 2024 . SwE
+
+----------------------------------------------
