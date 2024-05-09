@@ -24,6 +24,47 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ----------------------------------------------
 
+Ubuntu 24.04 - Gnome 46 on Ubuntu 24.04 via Windows 11 - GWSL - WSL - How to install...
+
+Here you can find Ubuntu 24.04 for WSL - GWSL
+https://apps.microsoft.com/detail/9p7bdvkvnxz6?hl=en-us&gl=US
+
+How to install Gnome 46 via Ubuntu 24.04 and Windows 11 - TEXT
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu24.04-GNOME.txt
+
+How to install Gnome 46 via Ubuntu 24.04 and Windows 11 - MOVIE
+https://www.youtube.com/watch?v=t6U4g-e_q0E
+
+![Ubuntu24 04-GNOME](https://github.com/vinberg88/opensuse/assets/94398623/7d34d043-8201-4b45-8fc9-aaac21c48e96)
+
+About Ubuntu 24.04
+
+Run your choice of Linux text editors, including vim, emacs, and nano.
+Install applications, compilers and libraries from the Ubuntu 
+repository, securely maintained by Canonical. Ubuntu is a
+Linux distribution derived from Debian and composed mostly
+of free and open-source software. Ubuntu is officially
+released in multiple editions: Desktop, Server, and Core
+for Internet of things devices and robots.
+
+About Gnome 46
+
+Every part of GNOME has been designed to make it simple 
+and easy to use. The Activities Overview is a simple way 
+to access all your basic tasks. A press of a button is
+all it takes to view your open windows, launch applications, or 
+check if you have new messages. Having everything in 
+one convenient place means you don’t have to learn your way 
+around a maze of different technologies. 
+
+You Can Find More Stuff here About WSL
+https://github.com/vinberg88/opensuse
+
+Kind Regards,
+Mattias Vinberg
+
+----------------------------------------------
+
 Lets install Fedora 40 and Gnome Desktop 46 via Windows 11 - WSL - GWSL - Windows 11 - 2024
 
 Find Fedora 40 for WSL here or use Fedora 39 and update to 40 - Use Google for that.
