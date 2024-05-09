@@ -31,7 +31,7 @@ This is my favorite =] ParrotSEC 6 or ParrotOS 6 - RedShift Software!
 You can find ParrotOS 6 WSL here: https://www.parrotsec.org/download/
 
 How to install Gnome via ParrotOS 6 and Windows 11 - TEXT
-https://github.com/vinberg88/opensuse/edit/main/Parrot6-Gnome.txt
+https://github.com/vinberg88/opensuse/blob/main/Parrot6-Gnome.txt
 
 How to install Gnome via ParrotOS 6 and Windows 11 - MOVIE
 https://www.youtube.com/watch?v=NuBVZhuyiMQ
