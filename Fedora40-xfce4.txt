@@ -1,0 +1,155 @@
+Fedora 40 - XFCE4 - Windows 11 - WSL - GWSL
+
+--------------------------------------------------------
+
+Fedora 40 - How to install XFCE4 desktop via Fedora 40 - WSL - windows 11 - GWSL
+
+How to install XFCE4 desktop on Fedora - TEXT
+Comming Zone...
+
+Movie - How to install Fedora 39 via windows 11 WsL
+https://www.youtube.com/watch?v=FiOZHdvUhbE
+
+Here you will find fedora 40 for WSL here or in Microsoft Store
+https://apps.microsoft.com/detail/9npcp8drchsn?hl=en-US&gl=US
+
+About Fedora
+
+Fedora is developed by the Fedora Project and sponsored by Red Hat. 
+It follows its own release schedule, with a new version approximately
+every six months. Fedora provides a modern Linux operating system utilizing
+many of the latest technologies. It is free for all users and
+supported via the Fedora community 2024. 
+
+About XFCE
+
+Xfce or XFCE (pronounced as four individual letters) is
+a free and open-source desktop environment for Linux and
+other Unix-like operating systems. Linux, FreeBSD, NetBSD,
+OpenBSD and GNU/Hurd. Xfce aims to be fast and 
+lightweight while still being visually appealing 
+and easy to use.
+
+You cand find more about WSL desktops here - Linux and Windows
+https://github.com/vinberg88/opensuse
+
+-----------------------------------
+
+0.0 Paste in terminal: sudo nano /etc/wsl.conf
+
+And add this small line to terminal. Save and Quit.
+
+[boot]
+systemd=true
+
+-----------------------------------
+
+0.1 Paste all in terminal
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+-----------------------------------
+
+0.3 Reboot
+
+-----------------------------------
+
+0.5 Install Repos if you dont have that...
+
+sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+
+--------------------------------------------------------
+
+Copy and paste one by one in terminal - No stress!
+
+1. sudo dnf -y upgrade --refresh
+
+--------------------------------------------------------
+
+Install some program.
+
+sudo dnf install bash wget curl git pipx
+
+--------------------------------------------------------
+
+2. sudo dnf install @xfce-desktop-environment
+
+--------------------------------------------------------
+
+2.5 sudo dnf install xfce*
+
+--------------------------------------------------------
+
+2.7 Install Google-Chrome - paste all under this paragraph in terminal.
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm
+sudo yum update google-chrome-stable
+
+--------------------------------------------------------
+
+2.8 Install jgmenu
+
+sudo dnf install jgmenu
+
+--------------------------------------------------------
+
+3. Reboot
+
+--------------------------------------------------------
+
+4. sudo systemctl set-default graphical.target
+
+--------------------------------------------------------
+
+5. sudo systemctl set-default multi-user.target
+
+--------------------------------------------------------
+
+6. sudo systemctl enable lightdm
+
+--------------------------------------------------------
+
+8. Reboot
+
+--------------------------------------------------------
+
+9. Start GWSL and run config. Start later from Shell in GWSL.
+
+--------------------------------------------------------
+
+10. Reboot
+
+--------------------------------------------------------
+
+11. Type in terminal: sudo nano ~/.bash_ubuntu_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+--------------------------------------------------------
+
+12. Reboot
+
+--------------------------------------------------------
+
+13. Paste all in Shell. Done =]
+
+. ~/.bash_ubuntu_desktop
+startxfce4
+
+----------------------------------------------
+
+Kind Regards,
+Mattias Vinberg - 2024 - WSL/Windows 11 - SwE
