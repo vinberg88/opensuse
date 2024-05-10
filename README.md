@@ -22,7 +22,42 @@ Raft WSL https://www.whitewaterfoundry.com/raft-wsl <-- change fast from ubuntu,
 
 Have alot of time - This is just for fun! WSL is an excellent tool to learn Linux!
 
-----------------------------------------------
+--------------------------------------------------------
+
+Fedora 40 - How to install XFCE4 desktop via Fedora 40 - WSL - windows 11 - GWSL
+
+How to install XFCE4 desktop on Fedora - TEXT
+https://github.com/vinberg88/opensuse/blob/main/Fedora40-xfce4.txt
+
+Movie - How to install Fedora 40 via windows 11 WsL
+https://www.youtube.com/watch?v=FiOZHdvUhbE
+
+Here you will find fedora 40 for WSL here or in Microsoft Store
+https://apps.microsoft.com/detail/9npcp8drchsn?hl=en-US&gl=US
+
+![Fedora40-xfce4](https://github.com/vinberg88/opensuse/assets/94398623/743e9ab6-9c98-4fdd-af4b-009fa8f723e4)
+
+About Fedora
+
+Fedora is developed by the Fedora Project and sponsored by Red Hat. 
+It follows its own release schedule, with a new version approximately
+every six months. Fedora provides a modern Linux operating system utilizing
+many of the latest technologies. It is free for all users and
+supported via the Fedora community 2024. 
+
+About XFCE
+
+Xfce or XFCE (pronounced as four individual letters) is
+a free and open-source desktop environment for Linux and
+other Unix-like operating systems. Linux, FreeBSD, NetBSD,
+OpenBSD and GNU/Hurd. Xfce aims to be fast and 
+lightweight while still being visually appealing 
+and easy to use.
+
+Kind Regards,
+Mattias Vinberg
+
+-----------------------------------
 
 ParrotSeC 6 or ParrotOS 6 - How to install Gnome Desktop via Windows 11 - WSL - GWSL
 
