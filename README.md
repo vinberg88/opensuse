@@ -24,6 +24,47 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 --------------------------------------------------------
 
+Fedora 40 - How to install Deepin Desktop via Fedora 40 and Windows 11 - WSL - GWSL - 2024
+
+NOTE: It take some time for all to start - Just Wait...
+
+How to install DEEPIN desktop via Fedora 40 - TEXT
+https://github.com/vinberg88/opensuse/blob/main/Fedora40-Deepin.txt
+
+How to install Fedora 40 and Deepin Desktop via windows 11 WSL - MOVIE
+https://www.youtube.com/watch?v=txoDzUQNVSs
+
+Here you will find fedora 40 for WSL here or in Microsoft Store
+https://apps.microsoft.com/detail/9npcp8drchsn?hl=en-US&gl=US
+
+![Fedora40-Deepin](https://github.com/vinberg88/opensuse/assets/94398623/63912309-5210-4411-b23c-59873bd22e59)
+
+About Fedora
+
+Fedora is developed by the Fedora Project and sponsored by Red Hat. 
+It follows its own release schedule, with a new version approximately
+every six months. Fedora provides a modern Linux operating system utilizing
+many of the latest technologies. It is free for all users and
+supported via the Fedora community 2024. 
+
+About DEEPIN Desktop
+
+Deepin is an elegant, easy to use and reliable desktop
+operating system released by Deepin Technology Co., Ltd.
+Featured applications are preinstalled in deepin. 
+It caters to a variety of recreational activities while
+also fulfilling your daily needs. With continually
+improved and perfected functions, we believe deepin
+will be loved and used by more and more users.
+
+You cand find more about WSL desktops here - Linux and Windows - WSL - GWSL
+https://github.com/vinberg88/opensuse
+
+Regards,
+Mattias Vinberg
+
+--------------------------------------------------------
+
 Fedora 40 - How to install XFCE4 desktop via Fedora 40 - WSL - windows 11 - GWSL
 
 How to install XFCE4 desktop on Fedora - TEXT
