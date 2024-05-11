@@ -3,7 +3,7 @@ Fedora 40 - How to install Deepin Desktop via Fedora 40 and Windows 11 - WSL - G
 NOTE: It take some time for all to start - Just Wait...
 
 How to install DEEPIN desktop via Fedora 40 - TEXT
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/Fedora40-Deepin.txt
 
 How to install Fedora 40 and Deepin Desktop via windows 11 WSL - MOVIE
 https://www.youtube.com/watch?v=txoDzUQNVSs
