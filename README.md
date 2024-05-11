@@ -26,8 +26,6 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 Fedora 40 - How to install Deepin Desktop via Fedora 40 and Windows 11 - WSL - GWSL - 2024
 
-NOTE: It take some time for all to start - Just Wait...
-
 How to install DEEPIN desktop via Fedora 40 - TEXT
 https://github.com/vinberg88/opensuse/blob/main/Fedora40-Deepin.txt
 
