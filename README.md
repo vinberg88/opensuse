@@ -24,6 +24,45 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 --------------------------------------------------------
 
+RockyLinux 9.4 - Have to install MATE desktop - WSL - GWSL - Windows 11 - 2024
+
+How to install MATE via RockyLinux - TEXT
+https://github.com/vinberg88/opensuse/blob/main/RockyLinux-MATE.txt
+
+How to install MATE via RockyLinux - Movie
+https://www.youtube.com/watch?v=b1FHuJX-QCU
+
+You Can Find Rockylinux Here or in Microsoft Store.
+https://apps.microsoft.com/detail/9nq0dqkjg91n?hl=sv-se&gl=SE
+
+![RockyLinux-MATE](https://github.com/vinberg88/opensuse/assets/94398623/39a31a8d-790d-45b8-b005-ad2ead7cd5d9)
+
+About RockyLinux 9...
+
+Rocky Linux is an open-source enterprise operating system
+designed to be 100% bug-for-bug compatible with Red
+Hat Enterprise Linux®. It is under intensive development
+by the community. Rocky Linux rebuilds sources directly
+from RHEL®, so you can bet your best dollar that you'll
+have a super stable experience, no matter the use-case.
+
+About MATE Desktop...
+
+The MATE Desktop Environment is the continuation of GNOME 2
+It provides an intuitive and attractive desktop
+environment using traditional metaphors for Linux
+and other Unix-like operating systems. MATE is under
+active development to add support for new technologies
+while preserving a traditional desktop experience
+
+Find More Stuff here About WSL - Windows and Linux
+https://github.com/vinberg88/opensuse
+
+Regards,
+Mattias Vinberg
+
+--------------------------------------------------------
+
 Fedora 40 - How to install Deepin Desktop via Fedora 40 and Windows 11 - WSL - GWSL - 2024
 
 How to install DEEPIN desktop via Fedora 40 - TEXT
