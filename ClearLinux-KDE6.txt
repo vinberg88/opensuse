@@ -1,10 +1,10 @@
 Clear Linux OS - How to install KDE plasma 6 via ClearLinux - WSL - GWSL - Windows 11 - 2024
 
 How to install KDE 6 via ClearLinux - TEXT
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/ClearLinux-KDE6.txt
 
 How to install KDE 6 via ClearLinux - MOVIE
-Comming Zone...
+https://www.youtube.com/watch?v=U989ORpVMA8
 
 Find ClearLinux for WSL here - Install Instructions.
 https://github.com/gh0st-work/clear-linux-wsl
