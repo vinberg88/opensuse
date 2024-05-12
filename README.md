@@ -24,6 +24,52 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 --------------------------------------------------------
 
+
+Clear Linux OS - How to install KDE plasma 6 via ClearLinux - WSL - GWSL - Windows 11 - 2024
+
+How to install KDE 6 via ClearLinux - TEXT
+https://github.com/vinberg88/opensuse/blob/main/ClearLinux-KDE6.txt
+
+How to install KDE 6 via ClearLinux - MOVIE
+https://www.youtube.com/watch?v=U989ORpVMA8
+
+Find ClearLinux for WSL here - Install Instructions.
+https://github.com/gh0st-work/clear-linux-wsl
+
+![ClearLinux-KDE6](https://github.com/vinberg88/opensuse/assets/94398623/c60b2016-e560-4b96-835f-cde22121d234)
+
+About ClearLinux
+
+Clear Linux OS is an open source, rolling release Linux
+distribution optimized for performance and 
+security, from the Cloud to the Edge, designed
+for customization, and manageability. Start using
+Clear Linux OS now & enjoy the benefits of a
+Linux OS designed with the developer in mind
+
+About KDE 6 PLASMA - Desktop
+
+The next generation desktop for Linux. Plasma is 
+KDE's flagship product, offering the most customizable
+desktop environment available. The KDE community has
+the driving goal of making it simple by default, and
+powerful when needed. Use Plasma to surf the 
+web; keep in touch with colleagues, friends
+and family; manage your files, enjoy music and
+videos; and get creative and productive at work.
+Do it all in a beautiful environment that 
+adapts to your needs, and with the safety, 
+privacy-protection and peace of mind that the
+best Free Open Source Software has to offer.
+
+More About WSL and Windows 11 for Linux here
+https://github.com/vinberg88/opensuse/
+
+Regards,
+Mattias Vinberg - Swe - END of LIFE - KDE 6
+
+--------------------------------------------------------
+
 RockyLinux 9.4 - Have to install MATE desktop - WSL - GWSL - Windows 11 - 2024
 
 How to install MATE via RockyLinux - TEXT
