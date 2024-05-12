@@ -1,0 +1,179 @@
+Clear Linux OS - How to install KDE plasma 6 via ClearLinux - WSL - GWSL - Windows 11 - 2024
+
+How to install KDE 6 via ClearLinux - TEXT
+Comming Zone...
+
+How to install KDE 6 via ClearLinux - MOVIE
+Comming Zone...
+
+Find ClearLinux for WSL here - Install Instructions.
+https://github.com/gh0st-work/clear-linux-wsl
+
+
+  / __\ | ___ _ __ __ _  / /   \_   \_ __  _   ___  __
+ / /  | |/ _ \ '__/ _` |/ /     / /\/ '_ \| | | \ \/ /
+/ /___| |  __/ | | (_| / /___/\/ /_ | | | | |_| |>  < 
+\____/|_|\___|_|  \__,_\____/\____/ |_| |_|\__,_/_/\_\ - KDE 6 - 2024
+
+
+About ClearLinux
+
+Clear Linux OS is an open source, rolling release Linux
+distribution optimized for performance and 
+security, from the Cloud to the Edge, designed
+for customization, and manageability. Start using
+Clear Linux OS now & enjoy the benefits of a
+Linux OS designed with the developer in mind
+
+About KDE 6 PLASMA - Desktop
+
+The next generation desktop for Linux. Plasma is 
+KDE's flagship product, offering the most customizable
+desktop environment available. The KDE community has
+the driving goal of making it simple by default, and
+powerful when needed. Use Plasma to surf the 
+web; keep in touch with colleagues, friends
+and family; manage your files, enjoy music and
+videos; and get creative and productive at work.
+Do it all in a beautiful environment that 
+adapts to your needs, and with the safety, 
+privacy-protection and peace of mind that the
+best Free Open Source Software has to offer.
+
+More About WSL and Windows 11 for Linux here
+https://github.com/vinberg88/opensuse/
+
+---------------------------------------------
+
+# Update Clera Linux 
+
+swupd update
+
+sudo swupd check-update
+
+# Diagnose system
+
+sudo swupd diagnose
+
+# disable automatic updates
+
+sudo swupd autoupdate --disable
+
+---------------------------------------------
+
+1. Download the latest Clear Linux server rootfs tarball (main purpose of this repo is maintaing of this tarball)
+
+https://github.com/gh0st-work/clear-linux-wsl/releases/latest/download/clear_linux_rootfs.tar.xz
+
+---------------------------------------------
+
+2. Install Clera Linux and Update
+
+This Take some Time to Install - Wait! - Big File...
+
+Paste In Terminal: swupd update
+
+---------------------------------------------
+
+3. Create a new user in terminal (change USERNAME to your username):
+
+useradd -m -s /bin/bash USERNAME
+
+Set Password: passwd USERNAME
+
+---------------------------------------------
+
+4. Add basic bundles - Maybe not needed
+
+swupd bundle-add sysadmin-basic sudo
+
+---------------------------------------------
+
+5. Add user to sudoers (change USERNAME to your username):
+
+usermod -aG wheel USERNAME
+
+---------------------------------------------
+
+Write default wsl.conf config: sudo or just nano /etc/wsl.conf
+
+[automount]
+enabled = true
+options = "metadata,uid=1000,gid=1000,umask=22,fmask=11,case=off"
+mountFsTab = true
+crossDistro = true
+
+[network]
+generateHosts = true
+generateResolvConf = true
+
+[interop]
+enabled = true
+appendWindowsPath = true
+
+[boot]
+systemd=true
+
+[user]
+default = USERNAME
+
+Don't forget to change USERNAME to your username
+
+---------------------------------------------
+
+Reboot and User is added and Sudo works.... Clera Linux 2024 - KDE 6
+
+---------------------------------------------
+
+Install Google Chrome
+
+Login as root: sudo -i
+
+swupd bundle-add package-utils cpio wget curl git
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+
+rpm2cpio google-chrome*.rpm | ( cd /; cpio -idv)
+
+rm -f google-chrome*.rpm
+
+f=/etc/environment; s='export FONTCONFIG_PATH=/usr/share/defaults/fonts'; touch $f; if ! grep -q "$s" $f ; then echo $s >> $f; fi
+
+reboot
+
+---------------------------------------------
+
+Install KDE desktop - Take Some Time - Just Wait! Have a Coffee =]
+
+sudo swupd bundle-add desktop-kde
+
+---------------------------------------------
+
+Install some extra programs.
+
+sudo swupd bundle-add -y zsh nfs-utils ark okular keepassxc clr-network-troubleshooter network-basic
+
+---------------------------------------------
+
+Add Flatpak
+
+sudo swupd bundle-add flatpak
+
+sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+----------------------------------------------
+
+Shutdown/Reboot Linux and SetUP GWSL and start From GWSL SHELL.
+
+----------------------------------------------
+
+Time to start KDE plasma 6 via ClearLinux. 
+
+Start shell from GWSL and type: startplasma-x11
+
+----------------------------------------------
+
+Kind Regards,
+Mattias Vinberg - SwE - END of LIFE 2024
+
+----------------------------------------------
