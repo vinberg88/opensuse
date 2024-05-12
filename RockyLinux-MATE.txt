@@ -1,0 +1,191 @@
+RockyLinux 9.4 - Have to install MATE desktop - WSL - GWSL - Windows 11 - 2024
+
+How to install MATE via RockyLinux - TEXT
+Comming Zone..
+
+How to install MATE via RockyLinux - Movie
+https://www.youtube.com/watch?v=b1FHuJX-QCU
+
+You Can Find Rockylinux Here or in Microsoft Store.
+https://apps.microsoft.com/detail/9nq0dqkjg91n?hl=sv-se&gl=SE
+
+Rocky Linux 9
+          __wgliliiligw_,
+       _williiiiiiliilililw,
+     _%iiiiiilililiiiiiiiiiii_
+   .Qliiiililiiiiiiililililiilm.
+  _iiiiiliiiiiililiiiiiiiiiiliil,
+ .lililiiilililiiiilililililiiiii,
+_liiiiiiliiiiiiiliiiiiF{iiiiiilili,
+jliililiiilililiiili@`  ~ililiiiiiL
+iiiliiiiliiiiiiili>`      ~liililii
+liliiiliiilililii`         -9liiiil
+iiiiiliiliiiiii~             "4lili
+4ililiiiiilil~|      -w,       )4lf
+-liiiiililiF'       _liig,       )'
+ )iiiliii@`       _QIililig,
+  )iiii>`       .Qliliiiililw
+   )<>~       .mliiiiiliiiiiil,
+            _gllilililiililii~
+           giliiiiiiiiiiiiT`
+          -^~$ililili@~~'
+
+
+
+About RockyLinux 9...
+
+Rocky Linux is an open-source enterprise operating system
+designed to be 100% bug-for-bug compatible with Red
+Hat Enterprise Linux®. It is under intensive development
+by the community. Rocky Linux rebuilds sources directly
+from RHEL®, so you can bet your best dollar that you'll
+have a super stable experience, no matter the use-case.
+
+About MATE Desktop...
+
+The MATE Desktop Environment is the continuation of GNOME 2
+It provides an intuitive and attractive desktop
+environment using traditional metaphors for Linux
+and other Unix-like operating systems. MATE is under
+active development to add support for new technologies
+while preserving a traditional desktop experience
+
+Find More Stuff here About WSL - Windows and Linux
+https://github.com/vinberg88/opensuse
+
+------------------------------------------------------
+
+0.1 Install Nano
+
+sudo dnf install nano
+
+------------------------------------------------------
+
+0.5. Install fastmirrors or repos for Rockylinux 9
+
+Run this first
+
+sudo dnf check-update
+sudo dnf install dnf-utils
+
+Then do this..
+
+sudo nano /etc/dnf/dnf.conf
+
+Add the following line: max_parallel_downloads=10 and fastestmirror=True
+
+Like That..
+
+max_parallel_downloads=10
+fastestmirror=True
+
+------------------------------------------------------
+
+1. Paste in terminal: sudo nano /etc/wsl.conf
+
+[boot]
+systemd=true
+
+------------------------------------------------------
+
+1. Paste all in terminal
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+-----------------------------------
+
+2. Reboot Reboot Reboot Reboot Reboot Reboot
+
+-----------------------------------
+
+4. Paste all in terminal... Install extra Repos for Rockylinux 9
+
+sudo dnf -y install epel-release
+sudo /usr/bin/crb enable
+sudo dnf install -y https://repo.almalinux.org/almalinux/almalinux-release-synergy-latest-$(rpm -E %rhel).noarch.rpm
+
+------------------------------------------------------
+
+5. sudo dnf upgrade --refresh
+
+------------------------------------------------------
+
+6. sudo dnf install git wget curl nano bash pipx dracut net-tools dbus-x11 --skip-broken --nobest
+
+------------------------------------------------------
+
+Time to install MATE on Rockylinux 9...
+
+sudo dnf install NetworkManager-adsl NetworkManager-bluetooth NetworkManager-libreswan-gnome NetworkManager-openvpn-gnome NetworkManager-ovs NetworkManager-ppp NetworkManager-team NetworkManager-wifi NetworkManager-wwan adwaita-gtk2-theme alsa-plugins-pulseaudio atril atril-caja atril-thumbnailer caja caja-actions caja-image-converter caja-open-terminal caja-sendto caja-wallpaper caja-xattr-tags dconf-editor engrampa eom firewall-config gnome-disk-utility gnome-epub-thumbnailer gstreamer1-plugins-ugly-free gtk2-engines gucharmap gvfs-fuse gvfs-gphoto2 gvfs-mtp gvfs-smb initial-setup-gui libmatekbd libmatemixer libmateweather libsecret lm_sensors marco mate-applets mate-backgrounds mate-calc mate-control-center mate-desktop mate-dictionary mate-disk-usage-analyzer mate-icon-theme mate-media mate-menus mate-menus-preferences-category-menu mate-notification-daemon mate-panel mate-polkit mate-power-manager mate-screensaver mate-screenshot mate-search-tool mate-session-manager mate-settings-daemon mate-system-log mate-system-monitor mate-terminal mate-themes mate-user-admin mate-user-guide mozo network-manager-applet nm-connection-editor p7zip p7zip-plugins pluma seahorse seahorse-caja xdg-user-dirs-gtk --skip-broken --nobest
+
+------------------------------------------------------
+
+Take this to - Extra Programs..
+
+sudo dnf install mate* --skip-broken --nobest 
+
+------------------------------------------------------
+
+sudo dnf install lightdm-settings lightdm
+
+------------------------------------------------------
+
+7.5 Install Google-Chrome - paste all under this paragraph:
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm
+sudo yum update google-chrome-stable
+
+--------------------------------------------------------
+
+8. Reboot Reboot Reboot Reboot
+
+-------------------------------------------------------------
+
+11.5 Login with GWSL and Config all. Then start Linux-shell from GWSL....
+
+-------------------------------------------------------------
+
+12. Paste all in terminal: 
+
+sudo systemctl set-default graphical.target
+sudo systemctl set-default multi-user.target
+
+-------------------------------------------------------------
+
+16. Type this in terminal and put your user-name there: loginctl enable-linger USER
+
+-------------------------------------------------------------
+
+17. In terminal type: sudo nano ~/.bash_RockyLinux_desktop
+
+Paste this small script in terminal and save and quit nano.
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-------------------------------------------
+
+18. Reboot RockyLinux 9 and start GWSL Shell.
+
+-------------------------------------------
+Time to start Mate desktop and Rocky Linux.
+
+19. Paste in terminal: . ~/.bash_RockyLinux_desktop
+    
+Type in terminal: mate-session
+
+-------------------------------------------
+
+Regards,
+Mattias Vinberg 2024 - Sweden - Dev-Ops.
+
+-------------------------------------------
