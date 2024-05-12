@@ -1,7 +1,7 @@
 RockyLinux 9.4 - Have to install MATE desktop - WSL - GWSL - Windows 11 - 2024
 
 How to install MATE via RockyLinux - TEXT
-Comming Zone..
+https://github.com/vinberg88/opensuse/blob/main/RockyLinux-MATE.txt
 
 How to install MATE via RockyLinux - Movie
 https://www.youtube.com/watch?v=b1FHuJX-QCU
