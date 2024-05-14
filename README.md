@@ -81,12 +81,6 @@ https://github.com/vinberg88/opensuse
 Warm Regards, 
 Mattias Vinberg - Debian 13 - SwE - 2024
 
-⢀⣴⠾⠻⢶⣦⠀
-⣾⠁⢠⠒⠀⣿⡁ Debian - The universal operating system
-⢿⡄⠘⠷⠚⠋⠀ https://www.debian.org/
-⠈⠳⣄⠀⠀
-
-
 --------------------------------------------------------
 
 Clear Linux OS - How to install KDE plasma 6 via ClearLinux - WSL - GWSL - Windows 11 - 2024
