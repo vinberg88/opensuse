@@ -1,0 +1,188 @@
+Debian 13 - How To Install KDE plasma via Windows 11 - WSL - GWSL - 2024
+
+KDE 6 is not Possible yet - So KDE 5 is Installed on Debian 13.
+
+How to install KDE on Debian 13 - TEXT
+Comming Zone..
+
+How to install KDE on Debian 13 - Movie
+https://www.youtube.com/watch?v=hJXd0byZgmI
+
+You can find Debian here or in Microsoft Store
+https://apps.microsoft.com/detail/9msvkqc78pk6?hl=en-US&gl=US
+
+8888b.  888888 88""Yb 88    db    88b 88
+ 8I  Yb 88__   88__dP 88   dPYb   88Yb88
+ 8I  dY 88""   88""Yb 88  dP__Yb  88 Y88
+8888Y"  888888 88oodP 88 dP""""Yb 88  Y8 - Trixie 13 - KDE - 2024
+
+About Debian
+
+Debian is a popular and freely available computer 
+operating system (OS) that uses a Unix-like 
+kernel typically Linux alongside other program 
+components, many of which come from GNU Project. 
+Debian can be downloaded over the internet 
+or, for a small charge, obtained on CD, DVD, Blu-ray
+disc or USB flash drive. As Open Source 
+software, Debian is developed by nearly 1,000 active
+programmers from around the world who collectively
+form Debian Project. he name Debian -- pronounced
+deb-EE-uhn -- is a portmanteau that blends the
+creator's first name, Ian, with that of his 
+wife, Debra.
+
+About KDE Desktop
+
+KDE is an international team co-operating on 
+development and distribution of Free, Open
+Source Software for desktop and portable
+computing. Our community has developed a
+wide variety of applications for communication, 
+work, education and entertainment. We have a
+strong focus on finding innovative solutions to
+old and new problems, creating a vibrant, open
+atmosphere for experimentation. KDE is The 
+next generation desktop for Linux. Use KDE
+software to surf the web, keep in touch with
+colleagues, friends and family, manage your
+files, enjoy music and videos; and get creative
+and productive at work. The KDE community develops
+and maintains more than 200 applications
+which run on any Linux desktop, and often
+other platforms too.
+
+Find More Here About WSL and Linux for Windows 11..
+https://github.com/vinberg88/opensuse
+
+-------------------------------
+
+To upgrade Debian 12 (Bookworm) to Debian 13 (Trixie)
+
+Type in Terminal....
+
+sudo apt update
+sudo apt full-upgrade
+
+Then change Modify your /etc/apt/sources.list file
+to point to the Debian 13 repositories. Replace all instances of "bookworm" with "trixie"
+
+sudo nano /etc/apt/sources.list
+
+Replace all instances of "bookworm" with "trixie"
+
+sudo apt update
+sudo apt full-upgrade
+
+-------------------------------
+
+Paste in terminal
+
+sudo nano /etc/wsl.conf 
+
+and add
+
+[boot]
+systemd=true
+
+-------------------------------
+
+Paste in terminal - all
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+-------------------------------
+
+sudo apt install hyfetch
+
+Type in terminal: hyfetch
+
+And we are on Debian 13 - Trixie
+
+-------------------------------
+
+Reboot Reboot Reboot 
+
+-------------------------------
+
+Config GWSL and Start from there - Linux Shell from GWSL!
+
+-------------------------------
+
+Install programs:
+
+sudo apt install bash git npm wget curl dracut dbus -y
+sudo apt install sddm* -y
+sudo systemctl set-default graphical
+sudo systemctl enable sddm.service
+
+-------------------------------
+
+Install Google-Chrome
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+Install Blanket if you Want! - Listen to Sound =]
+
+wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+
+-------------------------------
+
+Paste all in terminal for install KDE Desktop.
+
+sudo apt install kde-plasma-desktop
+
+-------------------------------
+
+Paste In Terminal - All
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+
+-------------------------------
+
+Type this in terminal and put your user there - loginctl enable-linger user
+
+-------------------------------
+
+Copy this and paste in terminal: sudo nano ~/.bash_debian_desktop
+
+Then add this script to terminal
+
+----------------------------------------------------
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-------------------------------
+
+Reboot Reboot Reboot Debian 13
+
+-------------------------------
+
+Paste in terminal: . ~/.bash_debian_desktop
+
+Type in terminal and start plasma: dbus-launch startplasma-x11
+
+-------------------------------
+
+Warm Regards, 
+Mattias Vinberg - Debian 13 - SwE - 2024
+
+⢀⣴⠾⠻⢶⣦⠀
+⣾⠁⢠⠒⠀⣿⡁ Debian - The universal operating system
+⢿⡄⠘⠷⠚⠋⠀ https://www.debian.org/
+⠈⠳⣄⠀⠀
+
+-------------------------------
