@@ -3,7 +3,7 @@ Debian 13 - How To Install KDE plasma via Windows 11 - WSL - GWSL - 2024
 KDE 6 is not Possible yet - So KDE 5 is Installed on Debian 13.
 
 How to install KDE on Debian 13 - TEXT
-Comming Zone..
+https://github.com/vinberg88/opensuse/blob/main/Debian13-KDE.txt
 
 How to install KDE on Debian 13 - Movie
 https://www.youtube.com/watch?v=hJXd0byZgmI
