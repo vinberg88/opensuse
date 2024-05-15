@@ -157,9 +157,10 @@ Paste in terminal: dbus-launch gnome-session
 
 It take some time to start all in beginning... Just Wait!
 
-----------------------------------------------
+Always start Gnome like this...
 
-After install do this in ubuntu terminal: sudo apt purge modemmanager <-- windows not supporting..
+. ~/.bash_ubuntu_desktop
+dbus-launch gnome-session
 
 ----------------------------------------------
 
