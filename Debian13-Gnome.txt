@@ -1,7 +1,7 @@
 Debian 13 And Gnome 46 Desktop - How to install via Windows 11 - WSL - GWSL - 2024
 
 How to install Gnome 46 on Debian 13 - TEXT
-Comming...
+https://github.com/vinberg88/opensuse/blob/main/Debian13-Gnome.txt
 
 How to install Gnome 46 on Debian 13 - Movie
 https://www.youtube.com/watch?v=2up5k3N4kpw
