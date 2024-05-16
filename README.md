@@ -24,6 +24,48 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 --------------------------------------------------------
 
+Debian 13 - How To Install LXQt Desktop via Windows 11 - WSL - GWSL - 2024
+
+How to install LXQt on Debian 13 - TEXT
+https://github.com/vinberg88/opensuse/blob/main/Debian13-LXQt.txt
+
+How to install LXQt on Debian 13 - Movie
+https://www.youtube.com/watch?v=tz6aFRV6kWA
+
+You can find Debian here or in Microsoft Store
+https://apps.microsoft.com/detail/9msvkqc78pk6?hl=en-US&gl=US
+
+![Debian13-LXQt](https://github.com/vinberg88/opensuse/assets/94398623/9bb7a016-9f5d-421b-bce7-e2d4b37d1b8d)
+
+About Debian - 2024
+
+Debian is a popular and freely available computer
+operating system (OS) that uses a Unix-like
+kernel-- typically Linux -- alongside other program
+components, many of which come from GNU Project. 
+Debian can be downloaded over the internet or, for
+a small charge, obtained on CD, DVD, Blu-ray disc or
+USB flash drive.
+
+About LXQt Desktop
+
+LXQt is a desktop environment that is designed to
+be especially energy-efficient and suitable for 
+older systems. It is based on the widget toolkit Qt
+and uses SDDM as its recommended/standard display
+manager. LXQt is available in Debian stable
+since Stretch (Debian 9).
+
+Find More Here About WSL and Linux for Windows 11..
+https://github.com/vinberg88/opensuse
+
+⢀⣴⠾⠻⢶⣦⠀
+⣾⠁⢠⠒⠀⣿⡁ Debian - The universal operating system
+⢿⡄⠘⠷⠚⠋⠀ https://www.debian.org/
+⠈⠳⣄⠀⠀ Regards - Mattias Vinberg
+
+--------------------------------------------------------
+
 Debian 13 - How To Install KDE plasma via Windows 11 - WSL - GWSL - 2024
 
 KDE 6 is not Possible yet - So KDE 5 is Installed on Debian 13.
