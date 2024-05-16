@@ -59,10 +59,7 @@ since Stretch (Debian 9).
 Find More Here About WSL and Linux for Windows 11..
 https://github.com/vinberg88/opensuse
 
-⢀⣴⠾⠻⢶⣦⠀
-⣾⠁⢠⠒⠀⣿⡁ Debian - The universal operating system
-⢿⡄⠘⠷⠚⠋⠀ https://www.debian.org/
-⠈⠳⣄⠀⠀ Regards - Mattias Vinberg
+Regards - Mattias Vinberg
 
 --------------------------------------------------------
 
