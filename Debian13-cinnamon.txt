@@ -1,0 +1,169 @@
+Debian13 And Cinnamon Desktop - How to install via Windows 11 - WSL - GWSL - 2024
+
+How to install Cinnamon on Debian 13 - TEXT
+Comming...
+
+How to install Cinnamon on Debian 13 - Movie
+https://www.youtube.com/watch?v=Y6cLo80aby8
+
+You can find Debian here or in Microsoft Store
+https://apps.microsoft.com/detail/9msvkqc78pk6?hl=en-US&gl=US
+
+8888b.  888888 88""Yb 88    db    88b 88
+ 8I  Yb 88__   88__dP 88   dPYb   88Yb88
+ 8I  dY 88""   88""Yb 88  dP__Yb  88 Y88
+8888Y"  888888 88oodP 88 dP""""Yb 88  Y8 - Trixie 13 - Cinnamon - 2024
+
+About Debian - 2024
+
+Debian is a popular and freely available computer
+operating system (OS) that uses a Unix-like
+kernel-- typically Linux -- alongside other program
+components, many of which come from GNU Project. 
+Debian can be downloaded over the internet or, for
+a small charge, obtained on CD, DVD, Blu-ray disc or
+USB flash drive.
+
+About Cinnamon Desktop
+
+Cinnamon, forked from GNOME Shell, is the "shell" of
+Cinnamon. It provides the user interface such as 
+panels, hot corners, menus etc. The ui is
+written in JavaScript, while its core libraries
+are written in C. 
+
+Find More Here About WSL and Linux for Windows 11..
+https://github.com/vinberg88/opensuse
+
+⢀⣴⠾⠻⢶⣦⠀
+⣾⠁⢠⠒⠀⣿⡁ Debian - The universal operating system
+⢿⡄⠘⠷⠚⠋⠀ https://www.debian.org/
+⠈⠳⣄⠀⠀    Mattias Viberg - SWEDEN 2024
+
+-------------------------------
+
+To upgrade Debian 12 (Bookworm) to Debian 13 (Trixie)
+
+Type in Terminal....
+
+sudo apt update
+sudo apt full-upgrade
+
+Then change Modify your /etc/apt/sources.list file
+to point to the Debian 13 repositories. Replace all instances of "bookworm" with "trixie"
+
+sudo nano /etc/apt/sources.list
+
+deb http://deb.debian.org/debian trixie main
+deb http://deb.debian.org/debian trixie-updates main
+deb http://security.debian.org/debian-security trixie-security main
+deb http://ftp.debian.org/debian trixie-backports main
+
+Replace all instances of "bookworm" with "trixie"
+
+sudo apt update
+sudo apt full-upgrade
+
+-------------------------------
+
+Paste in terminal
+
+sudo nano /etc/wsl.conf 
+
+and add
+
+[boot]
+systemd=true
+
+-------------------------------
+
+Paste in terminal - all
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+-------------------------------
+
+In terminal type: sudo nano ~/.bash_debian_desktop
+
+Paste this in terminal and save and quit.
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-------------------------------
+
+Config GWSL and Start from there - Linux Shell from GWSL!
+
+-------------------------------
+
+sudo apt install hyfetch
+
+Type in terminal: hyfetch
+
+And we are on Debian 13 - Trixie
+
+-------------------------------
+
+sudo apt -y install cinnamon
+
+-------------------------------
+
+Install some basic programs:
+
+sudo apt install bash git npm wget curl dracut dbus* -y
+sudo apt install gdm3* -y
+sudo systemctl set-default graphical
+
+Always use gdm...
+
+-------------------------------
+
+Paste In Terminal - All
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+
+-------------------------------
+
+Install Google-Chrome
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+Install Blanket if you Want! - Listen to Sound =]
+
+wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+
+-------------------------------
+
+Type this in terminal and put your user there - loginctl enable-linger user
+
+-------------------------------
+
+Reboot Reboot Reboot Debian 13
+
+-------------------------------
+
+Time to start Terminal
+
+Paste in terminal: . ~/.bash_debian_desktop
+
+Start Desktop: cinnamon-session
+
+-------------------------------
+
+Regards,
+Mattias Viberg - SWEDEN 2024
+
+-------------------------------
+
