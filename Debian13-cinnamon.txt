@@ -1,7 +1,7 @@
 Debian13 And Cinnamon Desktop - How to install via Windows 11 - WSL - GWSL - 2024
 
 How to install Cinnamon on Debian 13 - TEXT
-Comming...
+https://github.com/vinberg88/opensuse/blob/main/Debian13-cinnamon.txt
 
 How to install Cinnamon on Debian 13 - Movie
 https://www.youtube.com/watch?v=Y6cLo80aby8
