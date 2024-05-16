@@ -24,6 +24,53 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 --------------------------------------------------------
 
+
+Debian 13 And Gnome 46 Desktop - How to install via Windows 11 - WSL - GWSL - 2024
+
+How to install Gnome 46 on Debian 13 - TEXT
+https://github.com/vinberg88/opensuse/blob/main/Debian13-Gnome.txt
+
+How to install Gnome 46 on Debian 13 - Movie
+https://www.youtube.com/watch?v=2up5k3N4kpw
+
+You can find Debian here or in Microsoft Store
+https://apps.microsoft.com/detail/9msvkqc78pk6?hl=en-US&gl=US
+
+![Debian13-Gnome](https://github.com/vinberg88/opensuse/assets/94398623/10897cc8-45c6-4b6b-a2b0-cc971072e967)
+
+About Debian - 2024
+
+Debian is a popular and freely available computer
+operating system (OS) that uses a Unix-like
+kernel-- typically Linux -- alongside other program
+components, many of which come from GNU Project. 
+Debian can be downloaded over the internet or, for
+a small charge, obtained on CD, DVD, Blu-ray disc or
+USB flash drive.
+
+About Gnome Desktop - 2024
+
+Get things done with ease, comfort, and control.
+An easy and elegant way to use your 
+computer, GNOME is designed to help you 
+have the best possible computing experience. 
+Every aspect of GNOME has been crafted to fit 
+together as a harmonious whole, providing a 
+consistent and integrated experience. 
+Our attention to detail means a smooth and 
+polished product that lets you do the things you 
+want without getting in the way. 
+GNOME is satisfying to use and beautiful 
+to behold.
+
+Find More Here About WSL and Linux for Windows 11..
+https://github.com/vinberg88/opensuse
+
+
+Regards Mattias Viberg - SWEDEN 2024
+
+--------------------------------------------------------
+
 Debian 13 - How To Install LXQt Desktop via Windows 11 - WSL - GWSL - 2024
 
 How to install LXQt on Debian 13 - TEXT
