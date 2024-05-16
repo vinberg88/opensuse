@@ -1,10 +1,10 @@
 Debian 13 - How To Install LXQt Desktop via Windows 11 - WSL - GWSL - 2024
 
 How to install LXQt on Debian 13 - TEXT
-Updating...
+https://github.com/vinberg88/opensuse/blob/main/Debian13-LXQt.txt...
 
 How to install LXQt on Debian 13 - Movie
-Updating...
+https://www.youtube.com/watch?v=tz6aFRV6kWA
 
 You can find Debian here or in Microsoft Store
 https://apps.microsoft.com/detail/9msvkqc78pk6?hl=en-US&gl=US
