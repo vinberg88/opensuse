@@ -1,11 +1,12 @@
 --------------------------------------------
 
 Install KDE PLasma on Ubuntu 24.04 - Ubuntu Noble Numbat - via Windows 11 - WSL.
-How to install KDE plasma.
+
+How to install KDE plasma via windows 11 - Linux
 
 --------------------------------------------
 
-1. Paste in terminal
+1. Paste in terminal <-- not needed any more....
 
 sudo nano /etc/wsl.conf 
 
@@ -13,6 +14,8 @@ and add
 
 [boot]
 systemd=true
+
+--------------------------------------------
 
 2. Paste all to terminal and klick enter... Remove errors..
 
@@ -23,9 +26,15 @@ sudo mkdir /usr/lib/wsl/lib2
 sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
 echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
 
+--------------------------------------------
+
 3. Reboot
 
+--------------------------------------------
+
 4. Update: sudo apt update && sudo apt upgrade
+
+--------------------------------------------
 
 5. Install programs:
 
@@ -33,19 +42,30 @@ sudo apt install bash git npm wget curl nano sudo pipx dracut -y
 sudo apt install sddm* -y
 sudo systemctl set-default graphical
 
+--------------------------------------------
+
 6. Install this small program..
 
-wget https://github.com/fastfetch-cli/fastfetch/releases/download/2.1.2/fastfetch-2.1.2-Linux.deb
-sudo apt install ./fastfetch-2.1.2-Linux.deb
+sudo apt install hyfetch
+
+To test type: hyfetch
+
+--------------------------------------------
 
 6.4 install Chrome
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb -y
 
+--------------------------------------------
+
 6.5: Reboot Linux...
 
+--------------------------------------------
+
 7. Config GWSL and start from there - Linux Shell from
+
+--------------------------------------------
 
 10. Time to install Gnome: sudo apt install kde-standard <-- standard 
 
@@ -55,6 +75,8 @@ sudo apt install kde-plasma-desktop
 sudo apt install kde-standard 
 sudo apt install kde-full 
 
+--------------------------------------------
+
 11. Paste in terminal: 
 
 xdg-user-dirs-update
@@ -62,7 +84,11 @@ sudo systemctl set-default multi-user.target
 sudo systemctl set-default graphical.target
 sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
 
+--------------------------------------------
+
 12. Type this in terminal and put your user there - loginctl enable-linger user
+
+--------------------------------------------
 
 13. Copy this and paste in terminal: sudo nano ~/.bash_ubuntu_desktop
 
@@ -94,17 +120,13 @@ export LIBGL_ALWAYS_SOFTWARE=1
 
 14. Reboot...
 
-15. Paste in terminal and follow instruction!
+------------------------------------------------------
 
-git clone https://github.com/DamionGans/ubuntu-wsl2-systemd-script.git
-cd ubuntu-wsl2-systemd-script/
-bash ubuntu-wsl2-systemd-script.sh
+15. Paste in terminal: . ~/.bash_ubuntu_desktop
 
-16. Reboot...
+Type in terminal and start plasma: dbus-launch startplasma-x11
 
-11. Paste in terminal: . ~/.bash_ubuntu_desktop
-
-12. Type in terminal and start plasma: dbus-launch startplasma-x11
+------------------------------------------------------
 
 Warm Regards, 
 Mattias Vinberg
