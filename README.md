@@ -61,7 +61,7 @@ Plasma is a Desktop =)
 Find More Here About WSL and Linux for Windows 11..
 https://github.com/vinberg88/opensuse
 
-Regards Mattias Viberg - SWEDEN 2024
+Regards Mattias Vinberg - SWEDEN 2024
 
 --------------------------------------------------------
 
@@ -107,7 +107,7 @@ Find More Here About WSL and Linux for Windows 11..
 https://github.com/vinberg88/opensuse
 
 
-Regards Mattias Viberg - SWEDEN 2024
+Regards Mattias Vinberg - SWEDEN 2024
 
 --------------------------------------------------------
 
