@@ -1,0 +1,174 @@
+------------------------------------------------------
+
+UltramarinE - KDE Plasma Desktop - GWSL - Ultramarine via Windows 11 - WSL - 2024
+
+You cane find UltraMarine here: https://ultramarine-linux.org/
+
+Fedora 40 you will find in store or here
+https://apps.microsoft.com/detail/9npcp8drchsn?hl=sv-se&gl=SE
+
+------------------------------------------------------
+
+How to install KDE plasma via UltraMarine - text
+Comming Zone....
+
+Movie - How to install KDE plasma via UltraMarine
+https://www.youtube.com/watch?v=8Okls1ShM00
+
+
+         _nnnn_                      
+        dGGGGMMb     ,"""""""""""""".
+       @p~qp~~qMb    | Ultramarine 40!
+       M|@||@) M|   _;..............'
+       @,----.JM| -'
+      JS^\__/  qKL
+     dZP        qKRb
+    dZP          qKKb
+   fZP            SMMb
+   HZM            MMMM
+   FqM            MMMM
+ __| ".        |\dS"qML
+ |    `.       | `' \Zq
+_)      \.___.,|     .'
+\____   )MMMMMM|   .'
+     `-'       `--' 
+
+
+What is Ultramarine..
+
+Ultramarine Linux is a Linux-based operating system designed
+for your own personal workstation (or battlestation). 
+It is designed to be as easy to use as possible, and stays 
+out of your way. Ultramarine Linux keeps up with the latest and 
+greatest software in the open-source community, while trying
+to be stable and secure. Ultramarine is for everyone, from
+the beginner to the tech enthusiast, and even Windows dropouts!
+
+What is KDE plasma..
+
+Use Plasma to surf the web; keep in touch with colleagues, friends
+and family; manage your files, enjoy music and videos; and get
+creative and productive at work. Do it all in a beautiful environment
+that adapts to your needs, and with the safety, privacy-protection and
+peace of mind that the best Free Open Source Software has to offer.
+Plasma is a Desktop =)
+
+------------------------------------------------------
+
+0.0 Update to Ultramarine 40.
+
+Paste in terminal after Fedora 40 install.
+
+bash <(curl -s https://ultramarine-linux.org/migrate.sh)
+
+------------------------------------------------------
+
+1. Paste in terminal: sudo nano /etc/wsl.conf
+
+[boot]
+systemd=true
+
+------------------------------------------------------
+
+2. Paste all in terminal
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+------------------------------------------------------
+
+2.5. Reboot Reboot Reboot Reboot...
+
+------------------------------------------------------
+
+3. Update: sudo dnf update
+
+------------------------------------------------------
+
+4. Paste all in terminal...
+
+sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+
+------------------------------------------------------
+
+5. sudo dnf upgrade --refresh
+
+------------------------------------------------------
+
+6. sudo dnf install git wget curl nano bash pipx sudo dracut net-tools dbus-x11
+
+------------------------------------------------------
+
+Time to install KDE Plasma...
+
+7. sudo dnf -y group install "KDE Plasma Workspaces"
+
+------------------------------------------------------
+
+7.5 Install Google-Chrome - paste all under this paragraph:
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm
+sudo yum update google-chrome-stable
+
+------------------------------------------------------
+
+8. Reboot
+
+-------------------------------------------------------------
+
+11.5 Login with GWSL and Config all. Then start Linux-shell from GWSL....
+
+-------------------------------------------------------------
+
+12. Paste all in terminal: 
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-------------------------------------------------------------
+
+16. Type this in terminal and put your user-name there: loginctl enable-linger user
+
+-------------------------------------------------------------
+
+17. In terminal type: sudo nano ~/.bash_Marine_desktop
+
+Paste this small script in terminal and save and quit nano.
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-------------------------------------------
+
+18. Reboot Reboot Reboot Reboot
+
+-------------------------------------------
+
+Install this small packages...
+
+sudo yum install plasma-workspace-x11
+
+-------------------------------------------
+
+19. Paste in terminal: . ~/.bash_Marine_desktop
+    
+Type in terminal: startplasma-x11
+
+-------------------------------------------
+
+It takes a little time to start at the beginning so leave it for a minute if nothing happens.
+
+Warm Regards,
+Mattias Vinberg
+
