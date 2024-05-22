@@ -10,7 +10,7 @@ https://apps.microsoft.com/detail/9npcp8drchsn?hl=sv-se&gl=SE
 ------------------------------------------------------
 
 How to install KDE plasma via UltraMarine - text
-Comming Zone....
+https://github.com/vinberg88/opensuse/blob/main/Ultramarine-KDE.txt
 
 Movie - How to install KDE plasma via UltraMarine
 https://www.youtube.com/watch?v=8Okls1ShM00
