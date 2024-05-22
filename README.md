@@ -24,6 +24,46 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 --------------------------------------------------------
 
+UltramarinE - KDE Plasma Desktop - GWSL - Ultramarine via Windows 11 - WSL - 2024
+
+You cane find UltraMarine here: https://ultramarine-linux.org/
+
+Fedora 40 you will find in store or here
+https://apps.microsoft.com/detail/9npcp8drchsn?hl=sv-se&gl=SE
+
+How to install KDE plasma via UltraMarine - text
+https://github.com/vinberg88/opensuse/blob/main/Ultramarine-KDE.txt
+
+Movie - How to install KDE plasma via UltraMarine
+https://www.youtube.com/watch?v=8Okls1ShM00
+
+![Ultramarine-KDE](https://github.com/vinberg88/opensuse/assets/94398623/4cd2febd-f560-4184-92a9-60762b595335)
+
+What is Ultramarine..
+
+Ultramarine Linux is a Linux-based operating system designed
+for your own personal workstation (or battlestation). 
+It is designed to be as easy to use as possible, and stays 
+out of your way. Ultramarine Linux keeps up with the latest and 
+greatest software in the open-source community, while trying
+to be stable and secure. Ultramarine is for everyone, from
+the beginner to the tech enthusiast, and even Windows dropouts!
+
+What is KDE plasma..
+
+Use Plasma to surf the web; keep in touch with colleagues, friends
+and family; manage your files, enjoy music and videos; and get
+creative and productive at work. Do it all in a beautiful environment
+that adapts to your needs, and with the safety, privacy-protection and
+peace of mind that the best Free Open Source Software has to offer.
+Plasma is a Desktop =)
+
+Find More Here About WSL and Linux for Windows 11..
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Viberg - SWEDEN 2024
+
+--------------------------------------------------------
 
 Debian 13 And Gnome 46 Desktop - How to install via Windows 11 - WSL - GWSL - 2024
 
