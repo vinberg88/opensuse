@@ -24,7 +24,59 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 --------------------------------------------------------
 
-How to install KDE plasma 6 on Solus via WSL and Windows 11 - GWSL - Linux - 2024
+How to install Gnome 46 on Solus OS via WSL and Windows 11 - GWSL - Linux - 2024
+
+You can find Solus OS for WSL here: https://drive.proton.me/urls/RAS0CNYVB8#medZDqcWjby2
+
+How to install Gnome 46 via Solus and Windows 11 - TEXT
+https://github.com/vinberg88/opensuse/blob/main/Solus-GNOME.txt
+
+How to install Gnome 46 via Solus and Windows 11 - MOVIE
+https://www.youtube.com/watch?v=LBMEXvmnCxo
+
+------------------------------------
+
+![Solus-GNOME](https://github.com/vinberg88/opensuse/assets/94398623/858244ac-9da7-4f6a-857a-687614112f57)
+
+------------------------------------
+ 
+About Solus
+
+Solus is an operating system that is designed for
+home computing. Every tweak enables us to deliver
+a cohesive computing experience. Solus provides a
+multitude of experiences that enable you to get
+the most out of your hardware. From our flagship
+Budgie experience for modern devices to the more
+traditional XFCE experience for lower-end devices, 
+Solus aims to provide the best experience
+for your device. 
+
+About GNOME 46
+
+GNOME is led by the non-profit GNOME Foundation.
+Our board is democratically elected, and technical
+decisions are made by the engineers doing the
+work. We are supported by many 
+organizations; employees from over a hundred
+companies have contributed since the project began.
+Every part of GNOME has been designed to make it simple
+and easy to use. The Activities Overview is a 
+simple way to access all your basic tasks. A press
+of a button is all it takes to view your open 
+windows, launch applications, or check if you 
+have new messages. Having everything in one 
+convenient place means you don’t have to learn 
+your way around a maze of different technologies.
+
+You Cane Find More Stuff for WSL and Linux for Windows 11 here
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - SWEDEN 2024
+
+--------------------------------------------------------
+
+How to install KDE plasma 6 on Solus OS via WSL and Windows 11 - GWSL - Linux - 2024
 
 You can find Solus for WSL here https://drive.proton.me/urls/RAS0CNYVB8#medZDqcWjby2
 
