@@ -3,7 +3,7 @@ How to install KDE plasma 6 on Solus via WSL and Windows 11 - GWSL - Linux - 202
 You can find Solus for WSL here https://drive.proton.me/urls/RAS0CNYVB8#medZDqcWjby2
 
 How to install KDE 6 via Solus and Windows 11 - TEXT
-Comming Zone.....
+https://github.com/vinberg88/opensuse/blob/main/Solus-KDE6.txt
 
 How to install KDE 6 via Solus and Windows 11 - MOVIE
 https://www.youtube.com/watch?v=2DpA6m-DM00
