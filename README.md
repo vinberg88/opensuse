@@ -24,6 +24,46 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 --------------------------------------------------------
 
+How to install KDE plasma 6 on Solus via WSL and Windows 11 - GWSL - Linux - 2024
+
+You can find Solus for WSL here https://drive.proton.me/urls/RAS0CNYVB8#medZDqcWjby2
+
+How to install KDE 6 via Solus and Windows 11 - TEXT
+https://github.com/vinberg88/opensuse/blob/main/Solus-KDE6.txt
+
+How to install KDE 6 via Solus and Windows 11 - MOVIE
+https://www.youtube.com/watch?v=2DpA6m-DM00
+
+![Solos-KDE6](https://github.com/vinberg88/opensuse/assets/94398623/ebcb2442-aaaa-46f4-93ae-892fe6be16bb)
+
+About Solus
+
+Solus is an operating system that is designed for
+home computing. Every tweak enables us to deliver
+a cohesive computing experience. Solus provides a
+multitude of experiences that enable you to get
+the most out of your hardware. From our flagship
+Budgie experience for modern devices to the more
+traditional XFCE experience for lower-end devices, 
+Solus aims to provide the best experience
+for your device. 
+
+About KDE Plasma 6
+
+KDE Plasma is a modern, feature-rich desktop
+environment for Linux-based operating systems.
+Known for its sleek design, customizable 
+interface, and extensive set of applications, it
+is also open source, devoid of ads, and makes
+protecting your privacy and personal data a priority.
+
+You Cane Find More Stuff for WSL and Linux for Windows 11 here
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - SWEDEN 2024
+
+--------------------------------------------------------
+
 UltramarinE - KDE Plasma Desktop - GWSL - Ultramarine via Windows 11 - WSL - 2024
 
 You cane find UltraMarine here: https://ultramarine-linux.org/
