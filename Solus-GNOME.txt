@@ -3,7 +3,7 @@ How to install Gnome 46 on Solus OS via WSL and Windows 11 - GWSL - Linux - 2024
 You can find Solus OS for WSL here: https://drive.proton.me/urls/RAS0CNYVB8#medZDqcWjby2
 
 How to install Gnome 46 via Solus and Windows 11 - TEXT
-Comming..
+https://github.com/vinberg88/opensuse/blob/main/Solus-GNOME.txt
 
 How to install Gnome 46 via Solus and Windows 11 - MOVIE
 https://www.youtube.com/watch?v=LBMEXvmnCxo
