@@ -24,6 +24,45 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 --------------------------------------------------------
 
+How to install XFCE Desktop on Solus OS via WSL and Windows 11 - GWSL - Linux - 2024
+
+You can find Solus OS for WSL here: https://drive.proton.me/urls/RAS0CNYVB8#medZDqcWjby2
+
+How to install XFCE Desktop via Solus OS and Windows 11 - TEXT
+https://github.com/vinberg88/opensuse/blob/main/Solus-XFCE.txt
+
+How to install XFCE Desktop via Solus OS and Windows 11 - MOVIE
+https://www.youtube.com/watch?v=pNDOIy6Mb4U
+
+![Solus-XFCE](https://github.com/vinberg88/opensuse/assets/94398623/2b4f6445-1d55-4d41-b25f-0fcdd5ad958e)
+
+About Solus
+
+Solus is an operating system that is designed for
+home computing. Every tweak enables us to deliver
+a cohesive computing experience. Solus provides a
+multitude of experiences that enable you to get
+the most out of your hardware. From our flagship
+Budgie experience for modern devices to the more
+traditional XFCE experience for lower-end devices, 
+Solus aims to provide the best experience
+for your device. 
+
+About XFCE Desktop
+
+Xfce is a lightweight desktop environment for
+UNIX-like operating systems. It aims to
+be fast and low on system resources, while
+still being visually appealing and 
+user friendly.
+
+You Cane Find More Stuff for WSL and Linux for Windows 11 here
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - SWEDEN 2024 - Solus OS Team!
+
+--------------------------------------------------------
+
 How to install MATE Desktop on Solus OS via WSL and Windows 11 - GWSL - Linux - 2024
 
 You can find Solus OS for WSL here: https://drive.proton.me/urls/RAS0CNYVB8#medZDqcWjby2
