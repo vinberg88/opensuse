@@ -24,6 +24,48 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 --------------------------------------------------------
 
+How to install MATE Desktop on Solus OS via WSL and Windows 11 - GWSL - Linux - 2024
+
+You can find Solus OS for WSL here: https://drive.proton.me/urls/RAS0CNYVB8#medZDqcWjby2
+
+How to install MATE Desktop via Solus OS and Windows 11 - TEXT
+https://github.com/vinberg88/opensuse/blob/main/Solus-MATE.txt
+
+How to install MATE Desktop via Solus OS and Windows 11 - MOVIE
+https://www.youtube.com/watch?v=NDj5iQ2o5c8
+
+![Solus-MATE](https://github.com/vinberg88/opensuse/assets/94398623/938448c8-4434-46c8-bc5c-09bab9b2ef5f)
+
+About Solus
+
+Solus is an operating system that is designed for
+home computing. Every tweak enables us to deliver
+a cohesive computing experience. Solus provides a
+multitude of experiences that enable you to get
+the most out of your hardware. From our flagship
+Budgie experience for modern devices to the more
+traditional XFCE experience for lower-end devices, 
+Solus aims to provide the best experience
+for your device. 
+
+About MATE Desktop
+
+The MATE Desktop Environment is the continuation
+of GNOME 2. It provides an intuitive and 
+attractive desktop environment using traditional
+metaphors for Linux and other Unix-like 
+operating systems. MATE is under active 
+development to add support for new 
+technologies while preserving a traditional
+desktop experience.
+
+You Cane Find More Stuff for WSL and Linux for Windows 11 here
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - SWEDEN 2024
+
+--------------------------------------------------------
+
 How to install Gnome 46 on Solus OS via WSL and Windows 11 - GWSL - Linux - 2024
 
 You can find Solus OS for WSL here: https://drive.proton.me/urls/RAS0CNYVB8#medZDqcWjby2
