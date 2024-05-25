@@ -3,7 +3,7 @@ How to install MATE Desktop on Solus OS via WSL and Windows 11 - GWSL - Linux - 
 You can find Solus OS for WSL here: https://drive.proton.me/urls/RAS0CNYVB8#medZDqcWjby2
 
 How to install MATE Desktop via Solus OS and Windows 11 - TEXT
-Comming Zone..
+https://github.com/vinberg88/opensuse/blob/main/Solus-MATE.txt
 
 How to install MATE Desktop via Solus OS and Windows 11 - MOVIE
 https://www.youtube.com/watch?v=NDj5iQ2o5c8
