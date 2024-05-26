@@ -1,0 +1,204 @@
+ OpenSuse TumbelWeed - DEEPIN - 2024 - Sweden AB - WSL
+
+                                     ......       
+     .,cdxxxoc,.               .:kKMMMNWMMMNk:.    
+    cKMMN0OOOKWMMXo. A        ;0MWk:'      ':OMMk. 
+  ;WMK;'       'lKMMNM,     :NMK'             'OMW; 
+ cMW;             WMMMN   ,XMK'                 oMM. 
+.MMc             ''^*~l. xMN:                    KM0 
+'MM.                   .NMO                      oMM 
+.MM,                 .kMMl                       xMN
+ KM0               .kMM0' .dl>~,.               .WMd 
+ 'XM0.           ,OMMK'    OMMM7'              .XMK  
+   *WMO:.    .;xNMMk'       NNNMKl.          .xWMx   
+     ^ONMMNXMMMKx;          V  'xNMWKkxllox0NMWk' 
+         '''''                    ':dOOXXKOxl'  
+
+
+Opensuse Tumbelweed - how to install Deepin desktop on WSL - GUI - GWSL - 2024
+
+Here you can find video, how to install DEEPIN desktop via Opensuse.
+https://www.youtube.com/watch?v=S1nU6tN3We0
+
+Text - How to install DEEPIN via Opensúse Tumbelweed. 
+Comming Zone...
+
+About Opensuse Tumbelweed: State-of-the-art desktop
+and server operating system. With Tumbleweed you
+don't have to take difficult decisions about things
+you value, either freedom or safety, either control
+or security, technology or stability. Tumbleweed
+lets you have your cake and eat it too! 
+https://get.opensuse.org/tumbleweed/
+
+About Deepin Desktop: deepin is an elegant, easy to use and
+reliable desktop operating system released by Deepin
+Technology Co., Ltd. Featured applications are 
+preinstalled in deepin. It caters to a variety of 
+recreational activities while also fulfilling your
+daily needs. With continually improved and perfected
+functions, we believe deepin will be loved and
+used by more and more users. https://www.deepin.org
+
+Do you want more WSL stuff go here - Windows and Linux
+https://github.com/vinberg88/opensuse
+
+------------------------
+
+Install OpenSuse Tumbelweed via Microsoft Store or this adress for Windows 11 - WSL
+
+https://apps.microsoft.com/detail/9MSSK2ZXXN11?hl=sv-se&gl=US
+
+------------------------
+
+Config GWSL - start Linux shell from GWSL - Always start from GWSL Bash.
+
+------------------------
+
+Add systemd (if nano not works. Install it: sudo zypper in nano)
+
+Type in terminal: sudo nano /etc/wsl.conf
+
+Copy to terminal and save:
+
+[boot]
+systemd=true
+
+------------------------
+
+Remove errors from Bash.. Paste one by one in console.
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+------------------------
+
+Reboot
+
+------------------------
+
+Update Tumbelweed via Bash: sudo zypper ref -b && sudo zypper dup
+
+------------------------
+
+Install this programs
+
+sudo zypper install bash git npm wget curl dialog go dracut opi
+
+------------------------
+
+Install this repos and press a in terminal
+
+sudo zypper ar -cfp 90 https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumbleweed/ packman
+
+sudo zypper dup --from packman --allow-vendor-change
+
+------------------------
+
+Install some codecs... EXTRA
+
+Paste in Terminal: opi codecs
+
+------------------------
+
+Install this: sudo zypper in -t pattern wsl_gui wsl_base wsl_systemd
+
+------------------------
+
+Time to install Deepin - install all one by one. Tumbelweed OpenSuse Deepin.
+
+sudo zypper ar -f https://download.opensuse.org/repositories/X11:/Deepin:/Factory/openSUSE_Tumbleweed/X11:Deepin:Factory.repo
+
+sudo zypper in -t pattern deepin deepin*
+
+sudo zypper in deepin-feature-enable
+
+sudo deepin-daemon-dbus-installer
+
+sudo deepin-daemon-polkit-installer
+
+------------------------
+
+Extra install Chrome Browser via Bash: opi google-chrome
+
+------------------------
+
+Type this in Bash: sudo yast and update all and install from yast: xorg and all deepin packages..
+
+Take long Time........ Sorry....		
+
+------------------------
+
+After this type: opi deepin in Bash and select number: 24
+
+or just type this in Bash: zypper install deepin-launcher-6.0.19-66.7.x86_64
+
+Select number 1 and install.
+
+One last thing to install: sudo zypper install kwin6-x11
+
+------------------------
+
+Paste in terminal: 
+
+Paste one by one. No stress =]
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+------------------------
+
+Install Display Manager..
+
+sudo zypper in gdm
+
+Look for right Display Manager
+
+https://en.opensuse.org/SDB:Change_Display_Manager
+
+Select GDM from list: /usr/lib/X11/displaymanagers/gdm
+
+sudo update-alternatives --config default-displaymanager
+
+------------------------
+
+Type this in terminal and put your user there - loginctl enable-linger user
+
+------------------------
+
+In terminal type: sudo nano ~/.bash_suse_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+------------------------
+
+Start up bash from GWSL and run: kwin6-x11 
+
+Wait 5 sec and reboot and start Bash.
+
+------------------------
+
+Time to start DEEPIN desktop via OpenSuse Tumbelweed!
+
+Paste in terminal: . ~/.bash_suse_desktop
+
+Type in terminal: dde-session
+
+------------------------
+
+Regards,
+Mattias Vinberg - OpenSUSE TumbelWeed - Deepin Desktop - 2024
+
+------------------------
