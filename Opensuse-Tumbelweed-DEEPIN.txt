@@ -21,7 +21,7 @@ Here you can find video, how to install DEEPIN desktop via Opensuse.
 https://www.youtube.com/watch?v=S1nU6tN3We0
 
 Text - How to install DEEPIN via Opensúse Tumbelweed. 
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/Opensuse-Tumbelweed-DEEPIN.txt
 
 About Opensuse Tumbelweed: State-of-the-art desktop
 and server operating system. With Tumbleweed you
