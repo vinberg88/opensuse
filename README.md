@@ -24,6 +24,44 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 --------------------------------------------------------
 
+OpenSuse TumbelWeed - DEEPIN - 2024 - Sweden AB - WSL
+
+![Opensuse Tumbelweed-DEEPIN](https://github.com/vinberg88/opensuse/assets/94398623/7dec41b1-28c7-448b-b641-261a8b78a3e7)
+
+Opensuse Tumbelweed - how to install Deepin desktop on WSL - GUI - GWSL - 2024
+
+Here you can find video, how to install DEEPIN desktop via Opensuse.
+
+https://www.youtube.com/watch?v=S1nU6tN3We0
+
+Text - How to install DEEPIN via Opensúse Tumbelweed.
+ 
+https://github.com/vinberg88/opensuse/blob/main/Opensuse-Tumbelweed-DEEPIN.txt
+
+About Opensuse Tumbelweed: State-of-the-art desktop
+and server operating system. With Tumbleweed you
+don't have to take difficult decisions about things
+you value, either freedom or safety, either control
+or security, technology or stability. Tumbleweed
+lets you have your cake and eat it too! 
+https://get.opensuse.org/tumbleweed/
+
+About Deepin Desktop: deepin is an elegant, easy to use and
+reliable desktop operating system released by Deepin
+Technology Co., Ltd. Featured applications are 
+preinstalled in deepin. It caters to a variety of 
+recreational activities while also fulfilling your
+daily needs. With continually improved and perfected
+functions, we believe deepin will be loved and
+used by more and more users. https://www.deepin.org
+
+Do you want more WSL stuff go here - Windows and Linux
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - SWEDEN 2024 - OpenSuse DevOps
+
+--------------------------------------------------------
+
 How to install XFCE Desktop on Solus OS via WSL and Windows 11 - GWSL - Linux - 2024
 
 You can find Solus OS for WSL here: https://drive.proton.me/urls/RAS0CNYVB8#medZDqcWjby2
