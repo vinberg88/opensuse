@@ -1,7 +1,7 @@
 Alpine and KDE 6 - Install KDE 6 plasma via Alpine Linux on Windows 11 - WSL - GWSL - Linux
 
 How to install KDE 6 - TEXT
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/AlpineLinux-KDE6.txt
 
 How to install KDE 6 - MOVIE
 https://www.youtube.com/watch?v=ZPPZiecEfAQ
