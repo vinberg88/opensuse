@@ -1,0 +1,131 @@
+Alpine and KDE 6 - Install KDE 6 plasma via Alpine Linux on Windows 11 - WSL - GWSL - Linux
+
+How to install KDE 6 - TEXT
+Comming Zone...
+
+How to install KDE 6 - MOVIE
+https://www.youtube.com/watch?v=ZPPZiecEfAQ
+
+About Alpine Linux
+Alpine Linux is an independent, non-commercial, general purpose
+Linux distribution designed for power users who appreciate
+security, simplicity and resource efficiency. Alpine Linux 
+is a very simple distribution that will try to stay out of your
+way. It uses its own package manager called apk, the OpenRC
+init system, script driven set-ups and that’s it! This provides
+you with a simple, crystal-clear Linux environment without all
+the noise. You can then add on top of that just the packages
+you need for your project, so whether it’s building a home
+PVR, or an iSCSI storage controller, a wafer-thin mail server
+container, or a rock-solid embedded switch, nothing else will
+get in the way. https://www.alpinelinux.org
+
+About KDE 6
+
+KDE Plasma is a modern, feature-rich desktop environment
+for Linux-based operating systems. Known for its sleek
+design, customizable interface, and extensive set of
+applications, it is also open source, devoid of 
+ads, and makes protecting your privacy and 
+personal data a priority. 
+https://kde.org/announcements/megarelease/6/
+
+
+Find more stuff here for WSL and Linux and Windows 11 - WSL - GWSL
+https://github.com/vinberg88/opensuse
+
+-------------------------------------
+
+Install Alpine from Microsoft store and start up and follow Instructions...
+
+-------------------------------------
+
+Login as root and do this. Change malle to your user
+
+apk add bash bash-completion sudo shadow git nano wget curl
+echo '%wheel ALL=(ALL) ALL' > /etc/sudoers.d/wheel
+adduser malle wheel
+usermod -s /bin/bash malle
+
+set passwd in console for root and user
+
+passwd malle
+passwd - for root
+
+Logout and back in to be normal user.
+
+------------------------------------
+
+sudo apk update
+sudo apk upgrade
+
+sudo nano /etc/apk/repositories
+
+Delete old and copy/paste this save go back to console.
+
+https://dl-cdn.alpinelinux.org/alpine/v3.20/main
+https://dl-cdn.alpinelinux.org/alpine/v3.20/community
+
+sudo apk update
+
+sudo apk upgrade --available && sync
+
+After this reboot Alpine Linux.
+
+------------------------------------
+
+Type in Console/Bash
+
+sudo setup-xorg-base
+
+------------------------------------
+
+Time to install KDE 6 type this Console/Bash
+
+sudo apk add plasma elogind polkit-elogind
+
+sudo apk add kde-applications
+
+sudo apk add font-inconsolata font-dejavu font-noto font-noto-cjk font-awesome font-noto-extra font-liberation
+
+sudo apk add chromium
+
+Finally, set the SDDM display manager automatically to start on boot and reboot the system.
+
+sudo rc-update add sddm
+
+reboot
+
+------------------------------------
+
+Login with GWSL and Config all. Then start Linux-shell/Bash from GWSL.
+
+------------------------------------
+
+In terminal type: sudo nano ~/.bash_Alpine_desktop
+
+Paste this small script in terminal and save and quit nano.
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-------------------------------------------
+
+18. Reboot and start from GWSL - SHELL
+
+-------------------------------------------
+
+19. Paste in terminal: . ~/.bash_Alpine_desktop
+    
+Type in terminal: startplasma-x11
+
+-------------------------------------------
+
+Regards,
+Mattias Vinberg - Alpine Linux - KDE plasma 6 - Sweden 2024.
+
+-------------------------------------------
+
