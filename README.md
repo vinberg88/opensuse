@@ -24,6 +24,51 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 --------------------------------------------------------
 
+Alpine and KDE 6 - Install KDE 6 plasma via Alpine Linux on Windows 11 - WSL - GWSL - Linux
+
+How to install KDE 6 - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/AlpineLinux-KDE6.txt
+
+How to install KDE 6 - MOVIE
+
+https://www.youtube.com/watch?v=ZPPZiecEfAQ
+
+![AlpineLinux-KDE6](https://github.com/vinberg88/opensuse/assets/94398623/272ba58c-80c0-4af2-8614-8650aef8ac9f)
+
+About Alpine Linux
+
+Alpine Linux is an independent, non-commercial, general purpose
+Linux distribution designed for power users who appreciate
+security, simplicity and resource efficiency. Alpine Linux 
+is a very simple distribution that will try to stay out of your
+way. It uses its own package manager called apk, the OpenRC
+init system, script driven set-ups and that’s it! This provides
+you with a simple, crystal-clear Linux environment without all
+the noise. You can then add on top of that just the packages
+you need for your project, so whether it’s building a home
+PVR, or an iSCSI storage controller, a wafer-thin mail server
+container, or a rock-solid embedded switch, nothing else will
+get in the way. https://www.alpinelinux.org
+
+About KDE 6
+
+KDE Plasma is a modern, feature-rich desktop environment
+for Linux-based operating systems. Known for its sleek
+design, customizable interface, and extensive set of
+applications, it is also open source, devoid of 
+ads, and makes protecting your privacy and 
+personal data a priority. 
+https://kde.org/announcements/megarelease/6/
+
+Find more stuff here for WSL and Linux and Windows 11 - WSL - GWSL
+https://github.com/vinberg88/opensuse
+
+Regards,
+Mattias Vinberg - Alpine Linux - KDE plasma 6 - Sweden =]
+
+--------------------------------------------------------
+
 OpenSuse TumbelWeed - DEEPIN - 2024 - Sweden AB - WSL
 
 ![Opensuse Tumbelweed-DEEPIN](https://github.com/vinberg88/opensuse/assets/94398623/7dec41b1-28c7-448b-b641-261a8b78a3e7)
