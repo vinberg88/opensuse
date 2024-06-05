@@ -18,10 +18,10 @@ OpenSuse TumbelWeed - Cinnamon - 2024 - Sweden AB - WSL - Linux - Windows 11
 Opensuse Tumbelweed - How to install Cinnamon desktop on Windows 11 - WSL - GWSL - 2024
 
 Here you can find video, how to install Cinnamon desktop via Opensuse.
-Commming Zone....
+https://www.youtube.com/watch?v=LO4W4bmhDxI
 
 Text - How to install Cinnamon via Opensúse Tumbelweed. 
-Commming Zone....
+https://github.com/vinberg88/opensuse/blob/main/Opensuse-Tumbelweed-Cinnamon.txt
 
 About Opensuse Tumbelweed: State-of-the-art desktop
 and server operating system. With Tumbleweed you
