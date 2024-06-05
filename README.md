@@ -24,6 +24,51 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+AOSC OS - Install KDE plasma on AOSC OS via Windows 11 - GWSL - WSL
+
+Here you can find AOSC OS for WSL - GWSL - WSL
+https://wiki.aosc.io/aosc-os/installation/wsl/
+
+How to install KDE plasma via AOSC OS and Windows 11 - TEXT
+https://github.com/vinberg88/opensuse/blob/main/AOSCOS-KDE-PLASMA.txt
+
+How to install KDE plasma via AOSC OS and Windows 11 - MOVIE
+https://www.youtube.com/watch?v=RVGPbOCB8bw
+
+
+![AOSCOS-KDE-PLASMA](https://github.com/vinberg88/opensuse/assets/94398623/954d8e44-a9d5-4632-8146-881677fbbba4)
+
+
+About AOSC OS - https://aosc.io
+
+AOSC OS is a general purpose Linux distribution that
+strives to simplify user experience and improve free 
+and open source software for day-to-day productivity.
+AOSC OS is an independently maintained operating system
+based on the Linux kernel and various software 
+components, using APT and dpkg for package management. 
+AOSC OS is targeted at experienced Linux users 
+and optimised for use on personal devices. 
+Moreover, AOSC OS aims to provide good out-of-the-box 
+experience, simplified system administration, and 
+a reliable work environment.
+
+About KDE plasma - https://kde.org/plasma-desktop
+
+KDE Plasma is a modern, feature-rich desktop environment 
+for Linux-based operating systems. Known for its 
+sleek design, customizable interface, and extensive 
+set of applications, it is also open source, devoid of ads, and
+makes protecting your privacy and personal data a priority.
+
+You Can Find More Stuff here About WSL
+https://github.com/vinberg88/opensuse
+
+Kind Regards,
+Mattias Vinberg
+
+---------------------------------------------
+
 Opensuse Tumbelweed - How to install Cinnamon desktop on Windows 11 - WSL - GWSL - 2024
 
 Here you can find video, how to install Cinnamon desktop via Opensuse.
