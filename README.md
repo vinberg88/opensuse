@@ -22,6 +22,42 @@ Raft WSL https://www.whitewaterfoundry.com/raft-wsl <-- change fast from ubuntu,
 
 Have alot of time - This is just for fun! WSL is an excellent tool to learn Linux!
 
+---------------------------------------------
+
+Opensuse Tumbelweed - How to install Cinnamon desktop on Windows 11 - WSL - GWSL - 2024
+
+Here you can find video, how to install Cinnamon desktop via Opensuse.
+https://www.youtube.com/watch?v=LO4W4bmhDxI
+
+Text - How to install Cinnamon via Opensúse Tumbelweed. 
+https://github.com/vinberg88/opensuse/blob/main/Opensuse-Tumbelweed-Cinnamon.txt
+
+![Opensuse-Tumbelweed-Cinnamon](https://github.com/vinberg88/opensuse/assets/94398623/8fd3b6cf-69f1-4492-84df-7251db611833)
+
+About Opensuse Tumbelweed: State-of-the-art desktop
+and server operating system. With Tumbleweed you
+don't have to take difficult decisions about things
+you value, either freedom or safety, either control
+or security, technology or stability. Tumbleweed
+lets you have your cake and eat it too!
+
+About Cinnamon Desktop: Cinnamon is a 
+Linux desktop that provides advanced 
+innovative features and a traditional 
+user experience. The desktop layout is 
+similar to Gnome 2 with underlying technology
+forked from Gnome Shell. Cinnamon makes users
+feel at home with an easy-to-use and comfortable
+desktop experience.
+
+Find Themes and other stuff for Cinnamon Desktop
+https://cinnamon-spices.linuxmint.com
+
+Do you want more WSL stuff go here - Windows and Linux
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - SWEDEN - 2024
+
 --------------------------------------------------------
 
 Alpine and KDE 6 - Install KDE 6 plasma via Alpine Linux on Windows 11 - WSL - GWSL - Linux
