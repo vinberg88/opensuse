@@ -1,0 +1,192 @@
+OpenSuse TumbelWeed - Cinnamon - 2024 - Sweden AB - WSL - Linux - Windows 11
+
+                                     ......       
+     .,cdxxxoc,.               .:kKMMMNWMMMNk:.    
+    cKMMN0OOOKWMMXo. A        ;0MWk:'      ':OMMk. 
+  ;WMK;'       'lKMMNM,     :NMK'             'OMW; 
+ cMW;             WMMMN   ,XMK'                 oMM. 
+.MMc             ''^*~l. xMN:                    KM0 
+'MM.                   .NMO                      oMM 
+.MM,                 .kMMl                       xMN
+ KM0               .kMM0' .dl>~,.               .WMd 
+ 'XM0.           ,OMMK'    OMMM7'              .XMK  
+   *WMO:.    .;xNMMk'       NNNMKl.          .xWMx   
+     ^ONMMNXMMMKx;          V  'xNMWKkxllox0NMWk' 
+         '''''                    ':dOOXXKOxl'  
+
+
+Opensuse Tumbelweed - How to install Cinnamon desktop on Windows 11 - WSL - GWSL - 2024
+
+Here you can find video, how to install Cinnamon desktop via Opensuse.
+Commming Zone....
+
+Text - How to install Cinnamon via Opensúse Tumbelweed. 
+Commming Zone....
+
+About Opensuse Tumbelweed: State-of-the-art desktop
+and server operating system. With Tumbleweed you
+don't have to take difficult decisions about things
+you value, either freedom or safety, either control
+or security, technology or stability. Tumbleweed
+lets you have your cake and eat it too!
+
+About Cinnamon Desktop: Cinnamon is a 
+Linux desktop that provides advanced 
+innovative features and a traditional 
+user experience. The desktop layout is 
+similar to Gnome 2 with underlying technology
+forked from Gnome Shell. Cinnamon makes users
+feel at home with an easy-to-use and comfortable
+desktop experience.
+
+Find Themes and other stuff for Cinnamon Desktop
+https://cinnamon-spices.linuxmint.com
+
+Do you want more WSL stuff go here - Windows and Linux
+https://github.com/vinberg88/opensuse
+
+------------------------
+
+Install OpenSuse Tumbelweed via Microsoft Store or this adress for Windows 11 - WSL
+
+https://apps.microsoft.com/detail/9MSSK2ZXXN11?hl=sv-se&gl=US
+
+------------------------
+
+Config GWSL - start Linux shell/bash from GWSL - Always start from GWSL Bash.
+
+------------------------
+
+Add systemd (if nano not works. Install it: sudo zypper in nano)
+
+Type in terminal: sudo nano /etc/wsl.conf
+
+Copy to terminal and save:
+
+[boot]
+systemd=true
+
+------------------------
+
+Remove errors from Bash.. Paste one by one in console.
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+------------------------
+
+Reboot Reboot Reboot Reboot - Always start from GWSL Bash/Shell.
+
+------------------------
+
+Update Tumbelweed via Bash: sudo zypper ref -b && sudo zypper dup
+
+------------------------
+
+Install this programs
+
+sudo zypper install bash git npm wget curl dialog go dracut opi
+
+------------------------
+
+Install this repos and press a in terminal
+
+sudo zypper ar -cfp 90 https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumbleweed/ packman
+
+sudo zypper dup --from packman --allow-vendor-change
+
+------------------------
+
+Install some codecs... EXTRA
+
+Paste in Terminal: opi codecs
+
+------------------------
+
+Install this: sudo zypper in -t pattern wsl_gui wsl_base wsl_systemd
+
+------------------------
+
+Time to install Cinnamon - install all one by one. Tumbelweed OpenSuse Cinnamon.
+
+sudo zypper ref && sudo zypper in -y cinnamon cinnamon-screensaver
+
+and then
+
+sudo zypper in cinnamon*   <-- press 2 and enter.
+
+------------------------
+
+Extra install Chrome Browser via Bash: opi google-chrome
+
+------------------------
+
+Type this in Bash: sudo yast and update all and install from yast: xorg packages..	
+
+------------------------
+
+One last thing to install: sudo zypper install kwin6-x11
+
+------------------------
+
+Paste in terminal: 
+
+Paste one by one. No stress =]
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+------------------------
+
+Install Display Manager..
+
+sudo zypper in gdm
+
+Look for right Display Manager
+
+https://en.opensuse.org/SDB:Change_Display_Manager
+
+Select GDM from list: /usr/lib/X11/displaymanagers/gdm
+
+sudo update-alternatives --config default-displaymanager
+
+------------------------
+
+Type this in terminal and put your user there - loginctl enable-linger user
+
+------------------------
+
+In terminal type: sudo nano ~/.bash_suse_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+------------------------
+
+Reboot Reboot Reboot and start from GWSL Bash/Shell
+
+------------------------
+
+Time to start Cinnamon desktop via OpenSuse Tumbelweed!
+
+Paste in terminal: . ~/.bash_suse_desktop
+
+Type in terminal: cinnamon-session
+
+------------------------
+
+Regards,
+Mattias Vinberg - OpenSUSE TumbelWeed - Cinnamon Desktop - 2024
+
+------------------------
