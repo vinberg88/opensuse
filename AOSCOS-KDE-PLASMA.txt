@@ -1,0 +1,196 @@
+AOSC OS - Install KDE plasma on AOSC OS via Windows 11 - GWSL - WSL
+
+Here you can find AOSC OS for WSL - GWSL - WSL
+https://wiki.aosc.io/aosc-os/installation/wsl/
+
+How to install KDE plasma via AOSC OS and Windows 11 - TEXT
+Comming Zone
+
+How to install KDE plasma via AOSC OS and Windows 11 - MOVIE
+https://www.youtube.com/watch?v=RVGPbOCB8bw
+
+                  __                                          __                      
+               gpBBBBBBBBBP                                gpBBBBBBBBBP               
+           _gBBBBBBBBBRP                               _gBBBBBBBBBRP                  
+         4BBBBBBBBRP  ,_____                         4BBBBBBBBRP  ,_____              
+              `"" _g@@@@@@@@@@@@@%g>                      `"" _g@@@@@@@@@@@@@%g>      
+              __@@@@@@@@@@@@@@@@P"  ___                   __@@@@@@@@@@@@@@@@P"  ___   
+           _g@@@@@@@@@@@@@@@N"` _gN@@@@@N^             _g@@@@@@@@@@@@@@@N"` _gN@@@@@N^
+       _w@@@@@@@@@@@@@@@@P" _g@@@@@@@P"            _w@@@@@@@@@@@@@@@@P" _g@@@@@@@P"   
+    _g@@@@@@@@@@@@@@@N"`  VMNN@NNNM^`           _g@@@@@@@@@@@@@@@N"`  VMNN@NNNM^`     
+  ^MMM@@@@@@@@@@@MP" ,ggppww__                ^MMM@@@@@@@@@@@MP" ,ggppww__            
+          `"\"\"\"" _wNNNNNNNNNNNNNNNNNNN             `"\"\"\"" _wNNNNNNNNNNNNNNNNNNN 
+              _gBNNNNNNNNNNNNNNNNNP"                      _gBNNNNNNNNNNNNNNNNNP"      
+          _wNNNNNNNNNNNNNNNNNNMP`                     _wNNNNNNNNNNNNNNNNNNMP`         
+       _gBNNNNNNNNNNNNNNNNNP"                      _gBNNNNNNNNNNNNNNNNNP"             
+   _wNNNNNNNNNNNNNNNNNNNM^                     _wNNNNNNNNNNNNNNNNNNNM^                
+   ""Y^^MNNNNNNNNNNNNP`                        ""Y^^MNNNNNNNNNNNNP`                   
+           `"\"\""\"\""                                `"\"\""\"\""                   
+                                                                   
+
+About AOSC OS - https://aosc.io
+
+AOSC OS is a general purpose Linux distribution that
+strives to simplify user experience and improve free 
+and open source software for day-to-day productivity.
+AOSC OS is an independently maintained operating system
+based on the Linux kernel and various software 
+components, using APT and dpkg for package management. 
+AOSC OS is targeted at experienced Linux users 
+and optimised for use on personal devices. 
+Moreover, AOSC OS aims to provide good out-of-the-box 
+experience, simplified system administration, and 
+a reliable work environment.
+
+About KDE plasma - https://kde.org/plasma-desktop
+
+KDE Plasma is a modern, feature-rich desktop environment 
+for Linux-based operating systems. Known for its 
+sleek design, customizable interface, and extensive 
+set of applications, it is also open source, devoid of ads, and
+makes protecting your privacy and personal data a priority.
+
+
+You Can Find More Stuff here About WSL
+https://github.com/vinberg88/opensuse
+
+----------------------------------------------
+
+Update all after install - First step.
+
+sudo apt update
+sudo apt dist-upgrade
+
+----------------------------------------------
+
+Paste all to terminal and klick Enter.
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+----------------------------------------------
+
+Please Reboot Reboot Reboot Linux - AOSC OS
+
+----------------------------------------------
+
+Install programs:
+
+sudo apt install bash git wget curl dracut
+sudo apt install sddm
+sudo systemctl set-default graphical
+
+----------------------------------------------
+
+sudo apt install desktop-base
+
+----------------------------------------------
+
+Install this small program for hyfetch.
+
+pip install hyfetch
+
+To test type: hyfetch
+
+Like Noefetch but more gay =]
+
+----------------------------------------------
+
+Please Reboot Linux...
+
+----------------------------------------------
+
+Config GWSL and Reboot start from there - GWSL Shell/Bash
+
+----------------------------------------------
+
+Install Chrome
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+----------------------------------
+
+10. Time to install KDE plasma
+
+sudo apt install kdeplasma*
+
+----------------------------------
+
+Login as root and run this commands. More stuff for kde plasma - sudo -i
+
+oma install plasma-workspace kwin kscreen sddm
+oma install plasma-desktop plasma-nm sddm-theme-breeze
+oma install kde-baseapps
+
+Extra to install
+
+oma install discover
+oma install konsole dolphin dolphin-plugins gwenview ark kwrite okular okular-extra-backends spectacle filelight ffmpegthumbs kdegraphics-thumbnailers svgpart
+oma install systemsettings
+oma install gnome-terminal
+
+After this login as normal user - type exit in Console/bash
+
+----------------------------------------------
+
+Paste all in Console/Bash
+
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+----------------------------------------------
+
+12. Type this in terminal and put your user there - loginctl enable-linger user
+
+----------------------------------------------
+
+11. Copy this and paste in terminal: sudo nano ~/.bash_deepin_desktop
+
+Then add this script to terminal
+
+export XDG_CURRENT_DESKTOP=ubuntu:GNOME
+export XDG_SESSION_DESKTOP=ubuntu
+export DESKTOP_SESSION=ubuntu
+export GNOME_SHELL_SESSION_MODE=ubuntu
+
+export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+export XDG_MENU_PREFIX=gnome-
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------
+
+Please Reboot Linux - AOSC OS
+
+----------------------------------------------
+
+Paste in terminal: . ~/.bash_deepin_desktop
+Paste in terminal: dbus-launch startplasma-x11
+
+It take some time to start... Just Wait!
+
+----------------------------------------------
+
+Extra to install in Bash for AOSC OS - Wallpapers
+
+Login as root - sudo -i
+
+oma install aosc-community-wallpapers-extras-2024
+
+----------------------------------------------
+
+Regards, 
+Mattias Vinberg - SwEdeN - 2024 - AOSC OS
+
+----------------------------------------------
