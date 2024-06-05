@@ -4,7 +4,7 @@ Here you can find AOSC OS for WSL - GWSL - WSL
 https://wiki.aosc.io/aosc-os/installation/wsl/
 
 How to install KDE plasma via AOSC OS and Windows 11 - TEXT
-Comming Zone
+https://github.com/vinberg88/opensuse/blob/main/AOSCOS-KDE-PLASMA.txt
 
 How to install KDE plasma via AOSC OS and Windows 11 - MOVIE
 https://www.youtube.com/watch?v=RVGPbOCB8bw
