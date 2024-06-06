@@ -24,6 +24,51 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+AOSC OS - How to install MATE Desktop on AOSC OS via Windows 11 - GWSL - WSL
+
+Here you can find AOSC OS for WSL - GWSL - Windows 11
+https://wiki.aosc.io/aosc-os/installation/wsl/
+
+How to install MATE Desktop via AOSC OS and Windows 11 - WSL - TEXT
+https://github.com/vinberg88/opensuse/blob/main/AOSCOS-MATE.txt
+
+How to install MATE Desktop via AOSC OS and Windows 11 - GWSL - MOVIE
+https://www.youtube.com/watch?v=nlAh-unzHyg
+
+![AOSCOS-MATE](https://github.com/vinberg88/opensuse/assets/94398623/f2e9fc73-f9f0-4e1b-a53c-2cc8a49a55bf)
+
+About AOSC OS - https://aosc.io
+
+AOSC OS is a general purpose Linux distribution that
+strives to simplify user experience and improve free 
+and open source software for day-to-day productivity.
+AOSC OS is an independently maintained operating system
+based on the Linux kernel and various software 
+components, using APT and dpkg for package management. 
+AOSC OS is targeted at experienced Linux users 
+and optimised for use on personal devices. 
+Moreover, AOSC OS aims to provide good out-of-the-box 
+experience, simplified system administration, and 
+a reliable work environment.
+
+About MATE - https://mate-desktop.org
+
+The MATE Desktop Environment is the continuation
+of GNOME 2. It provides an intuitive and 
+attractive desktop environment using traditional
+metaphors for Linux and other Unix-like
+operating systems. MATE is composed of a number of
+applications. The renaming is necessary to avoid
+conflicts with GNOME components.
+
+You Can Find More Stuff here About WSL
+https://github.com/vinberg88/opensuse
+
+Regards,
+Mattias Vinberg . SweDen - 2024
+
+---------------------------------------------
+
 AOSC OS - Install Gnome Desktop on AOSC OS via Windows 11 - GWSL - WSL
 
 Here you can find AOSC OS for WSL - GWSL - Windows 11
