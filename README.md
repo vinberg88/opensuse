@@ -24,6 +24,56 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+AOSC OS - Install Gnome Desktop on AOSC OS via Windows 11 - GWSL - WSL
+
+Here you can find AOSC OS for WSL - GWSL - Windows 11
+https://wiki.aosc.io/aosc-os/installation/wsl/
+
+How to install Gnome via AOSC OS and Windows 11 - WSL - TEXT
+https://github.com/vinberg88/opensuse/blob/main/AOSCOS-GNOME.txt
+
+How to install Gnome via AOSC OS and Windows 11 - GWSL - MOVIE
+https://www.youtube.com/watch?v=50kRKEZguhM
+
+![AOSCOS-GNOME](https://github.com/vinberg88/opensuse/assets/94398623/bc3ac42f-f167-48d5-bae5-44b3413f1911)
+
+About AOSC OS - https://aosc.io
+
+AOSC OS is a general purpose Linux distribution that
+strives to simplify user experience and improve free 
+and open source software for day-to-day productivity.
+AOSC OS is an independently maintained operating system
+based on the Linux kernel and various software 
+components, using APT and dpkg for package management. 
+AOSC OS is targeted at experienced Linux users 
+and optimised for use on personal devices. 
+Moreover, AOSC OS aims to provide good out-of-the-box 
+experience, simplified system administration, and 
+a reliable work environment.
+
+About Gnome - https://www.gnome.org
+
+An easy and elegant way to use your 
+computer, GNOME is designed to help you
+have the best possible computing experience.
+Every part of GNOME has been designed to make it
+simple and easy to use. The Activities Overview
+is a simple way to access all your basic tasks.
+A press of a button is all it takes to view your
+open windows, launch applications, or check if 
+you have new messages. Having everything in one 
+convenient place means you don’t have to 
+learn your way around a maze of 
+different technologies. I love Gnome Desktop.
+
+You Can Find More Stuff here About WSL
+https://github.com/vinberg88/opensuse
+
+Regards,
+Mattias Vinberg . SweDen - 2024
+
+---------------------------------------------
+
 AOSC OS - Install KDE plasma on AOSC OS via Windows 11 - GWSL - WSL
 
 Here you can find AOSC OS for WSL - GWSL - WSL
