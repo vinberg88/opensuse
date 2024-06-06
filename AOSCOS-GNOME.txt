@@ -1,0 +1,205 @@
+AOSC OS - Install Gnome Desktop on AOSC OS via Windows 11 - GWSL - WSL
+
+Here you can find AOSC OS for WSL - GWSL - Windows 11
+https://wiki.aosc.io/aosc-os/installation/wsl/
+
+How to install Gnome via AOSC OS and Windows 11 - WSL - TEXT
+Comming Zone....
+
+How to install Gnome via AOSC OS and Windows 11 - GWSL - MOVIE
+https://www.youtube.com/watch?v=50kRKEZguhM
+
+                  __                                          __                      
+               gpBBBBBBBBBP                                gpBBBBBBBBBP               
+           _gBBBBBBBBBRP                               _gBBBBBBBBBRP                  
+         4BBBBBBBBRP  ,_____                         4BBBBBBBBRP  ,_____              
+              `"" _g@@@@@@@@@@@@@%g>                      `"" _g@@@@@@@@@@@@@%g>      
+              __@@@@@@@@@@@@@@@@P"  ___                   __@@@@@@@@@@@@@@@@P"  ___   
+           _g@@@@@@@@@@@@@@@N"` _gN@@@@@N^             _g@@@@@@@@@@@@@@@N"` _gN@@@@@N^
+       _w@@@@@@@@@@@@@@@@P" _g@@@@@@@P"            _w@@@@@@@@@@@@@@@@P" _g@@@@@@@P"   
+    _g@@@@@@@@@@@@@@@N"`  VMNN@NNNM^`           _g@@@@@@@@@@@@@@@N"`  VMNN@NNNM^`     
+  ^MMM@@@@@@@@@@@MP" ,ggppww__                ^MMM@@@@@@@@@@@MP" ,ggppww__            
+          `"\"\"\"" _wNNNNNNNNNNNNNNNNNNN             `"\"\"\"" _wNNNNNNNNNNNNNNNNNNN 
+              _gBNNNNNNNNNNNNNNNNNP"                      _gBNNNNNNNNNNNNNNNNNP"      
+          _wNNNNNNNNNNNNNNNNNNMP`                     _wNNNNNNNNNNNNNNNNNNMP`         
+       _gBNNNNNNNNNNNNNNNNNP"                      _gBNNNNNNNNNNNNNNNNNP"             
+   _wNNNNNNNNNNNNNNNNNNNM^                     _wNNNNNNNNNNNNNNNNNNNM^                
+   ""Y^^MNNNNNNNNNNNNP`                        ""Y^^MNNNNNNNNNNNNP`                   
+           `"\"\""\"\""                                `"\"\""\"\""                   
+                                                                   
+
+About AOSC OS - https://aosc.io
+
+AOSC OS is a general purpose Linux distribution that
+strives to simplify user experience and improve free 
+and open source software for day-to-day productivity.
+AOSC OS is an independently maintained operating system
+based on the Linux kernel and various software 
+components, using APT and dpkg for package management. 
+AOSC OS is targeted at experienced Linux users 
+and optimised for use on personal devices. 
+Moreover, AOSC OS aims to provide good out-of-the-box 
+experience, simplified system administration, and 
+a reliable work environment.
+
+About Gnome - https://www.gnome.org
+
+An easy and elegant way to use your 
+computer, GNOME is designed to help you
+have the best possible computing experience.
+Every part of GNOME has been designed to make it
+simple and easy to use. The Activities Overview
+is a simple way to access all your basic tasks.
+A press of a button is all it takes to view your
+open windows, launch applications, or check if 
+you have new messages. Having everything in one 
+convenient place means you don’t have to 
+learn your way around a maze of 
+different technologies. I love Gnome Desktop.
+
+You Can Find More Stuff here About WSL
+https://github.com/vinberg88/opensuse
+
+----------------------------------------------
+
+Update all after install - First step.
+
+sudo apt update
+sudo apt dist-upgrade
+
+----------------------------------------------
+
+Paste all to terminal and klick Enter.
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+----------------------------------------------
+
+Please Reboot Reboot Reboot Linux - AOSC OS
+
+----------------------------------------------
+
+Install programs:
+
+sudo apt install bash git wget curl dracut
+sudo apt install gdm
+sudo systemctl set-default graphical
+
+----------------------------------------------
+
+Install this programs for Gnome =] No stress....
+
+sudo apt install adwaita-icon-theme atk atkmm at-spi2-atk at-spi2-core baobab -y
+sudo apt install cheese clutter clutter-gtk cogl dconf -y
+sudo apt install dconf-editor devhelp eog epiphany evince evolution-data-server file-roller folks -y
+sudo apt install gcab gcr gdm gedit geocode-glib gfbgraph gjs -y
+sudo apt install glib-networking gnome-autoar gnome-backgrounds gnome-bluetooth -y
+sudo apt install gnome-builder gnome-calculator gnome-calendar gnome-characters -y
+sudo apt install gnome-clocks gnome-color-manager gnome-contacts gnome-control-center -y
+sudo apt install gnome-disk-utility gnome-font-viewer gnome-getting-started-docs -y
+sudo apt install gnome-initial-setup gnome-keyring gnome-logs gnome-menus -y
+sudo apt install gnome-online-accounts gnome-remote-desktop -y
+sudo apt install gnome-screenshot gnome-session gnome-settings-daemon gnome-shell -y
+sudo apt install gnome-shell-extensions gnome-software gnome-system-monitor gnome-terminal -y
+sudo apt install gnome-tour gnome-user-docs gnome-user-share gnome-video-effects -y
+sudo apt install gnome-weather gobject-introspection gom grilo grilo-plugins -y
+sudo apt install gsettings-desktop-schemas gsound gspell gssdp gtk-doc -y
+sudo apt install gupnp gupnp-av gupnp-dlna gvfs json-glib libchamplain -y
+sudo apt install libdazzle libgdata libgee libgnomekbd libgsf libgweather libgxps libhandy -y
+sudo apt install libmediaart libnma libnotify libpeas libsecret libsoup -y
+sudo apt install mm-common mutter nautilus orca pango pangomm -y
+sudo apt install rest rygel simple-scan sushi sysprof tepl totem totem-pl-parser -y
+sudo apt install vala yelp yelp-tools -y
+sudo apt install yelp-xsl zenity -y
+
+----------------------------------------------
+
+Install this small program for hyfetch.
+
+pip install hyfetch
+sudo pip install hyfetch
+
+To test type: hyfetch
+
+Like Noefetch but more gay =]
+
+----------------------------------------------
+
+Please Reboot Linux and start setup GWSL
+
+----------------------------------------------
+
+Config GWSL and Reboot start from there - GWSL Shell/Bash
+
+----------------------------------------------
+
+Install Chromium - Chrome don't want to work with gnome extensions.
+
+sudo apt-get install chromium
+
+----------------------------------
+
+Time to install more Gnome stuff.
+
+Login as root and run this commands. More stuff for Gnome - sudo -i
+
+oma install gnome-base
+oma install productivity-base
+
+After this login as normal user - type exit in Console/bash
+
+----------------------------------------------
+
+Paste all in Console/Bash
+
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+----------------------------------------------
+
+Type this in terminal and put your user there - loginctl enable-linger user
+
+----------------------------------------------
+
+11. Copy this and paste in terminal: sudo nano ~/.bash_aosc_desktop
+
+Then add this script to terminal
+
+export XDG_CURRENT_DESKTOP=ubuntu:GNOME
+export XDG_SESSION_DESKTOP=ubuntu
+export DESKTOP_SESSION=ubuntu
+export GNOME_SHELL_SESSION_MODE=ubuntu
+
+export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+export XDG_MENU_PREFIX=gnome-
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------
+
+Please Reboot Linux - AOSC OS
+
+----------------------------------------------
+
+Paste in terminal: . ~/.bash_aosc_desktop
+Paste in terminal: dbus-launch gnome-session
+
+It take some time to start... Just Wait!
+
+----------------------------------------------
+
+Regards, 
+Mattias Vinberg - SwEdeN - 2024 - AOSC OS - GNOME
+
+----------------------------------------------
