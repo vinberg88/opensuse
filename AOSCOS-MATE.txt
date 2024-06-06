@@ -4,7 +4,7 @@ Here you can find AOSC OS for WSL - GWSL - Windows 11
 https://wiki.aosc.io/aosc-os/installation/wsl/
 
 How to install MATE Desktop via AOSC OS and Windows 11 - WSL - TEXT
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/AOSCOS-MATE.txt
 
 How to install MATE Desktop via AOSC OS and Windows 11 - GWSL - MOVIE
 https://www.youtube.com/watch?v=nlAh-unzHyg
