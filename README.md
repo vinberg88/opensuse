@@ -24,6 +24,50 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+POP_OS - How to Install KDE PLasma via Pop!_OS by System76 - Windows 11 - WSL - GWSL - Linux
+
+Note: This linux variant is not available from Microsoft or anywhere else how works for WSL.
+You need to download Ubuntu 20.04 and convert to PoP OS 22.04 - Is not Easy to Fix.
+I will make an description about it later. Thank you for your patience.
+PoP_OS is for Professionals and not suitable for everyone!
+
+Pop!_OS is free to download here for laptop - https://pop.system76.com
+
+How to install KDE Plasma via POP-OS and Windows 11 - TEXT
+https://github.com/vinberg88/opensuse/blob/main/Pop-OS-KDE.txt
+
+How to install KDE Plasma via POP-OS via Windows 11 - MOVIE
+https://www.youtube.com/watch?v=whWQfEHtEJU
+
+![Pop-OS-KDE](https://github.com/vinberg88/opensuse/assets/94398623/c2978918-2126-486a-a8be-d5ccdcbe0cc8)
+
+About PoP_OS 76 - https://pop.system76.com
+
+Pop!_OS is an operating system for STEM and creative professionals
+who use their computer as a tool to discover and create.
+Unleash your potential on secure, reliable open source software.
+Based on your exceptional curiosity, we sense you have a lot of it. 
+Pop!_OS is designed for fast navigation, easy workspace 
+organization, and fluid, convenient workflow. Your operating
+system should encourage discovery, not obstruct it.
+
+About KDE Plasma - https://kde.org
+
+KDE is the next generation desktop for Linux. 
+Use KDE software to surf the web, keep in touch
+with colleagues, friends and family, manage your
+files, enjoy music and videos; and get creative and
+productive at work. The KDE community develops
+and maintains more than 200 applications which
+run on any Linux desktop, and often other platforms too.
+
+Want More Stuff for Linux, Windows and WSL.
+https://github.com/vinberg88/opensuse
+
+Regards - Nattias Vinberg - SwedeN - 2024 - PoP_OS 76 - KDE
+
+---------------------------------------------
+
 AOSC OS - How to install MATE Desktop on AOSC OS via Windows 11 - GWSL - WSL
 
 Here you can find AOSC OS for WSL - GWSL - Windows 11
