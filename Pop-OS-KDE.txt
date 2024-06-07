@@ -8,7 +8,7 @@ PoP_OS is for Professionals and not suitable for everyone!
 Pop!_OS is free to download here for laptop - https://pop.system76.com
 
 How to install KDE Plasma via POP-OS and Windows 11 - TEXT
-Comming Zone....
+https://github.com/vinberg88/opensuse/blob/main/Pop-OS-KDE.txt
 
 How to install KDE Plasma via POP-OS via Windows 11 - MOVIE
 https://www.youtube.com/watch?v=whWQfEHtEJU
