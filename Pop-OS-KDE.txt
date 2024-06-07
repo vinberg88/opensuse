@@ -1,0 +1,178 @@
+POP_OS - Install KDE PLasma via Pop!_OS by System76 - Windows 11 - WSL - GWSL - Linux
+
+Note: This linux variant is not available from Microsoft or anywhere else how works for WSL.
+You need to download Ubuntu 20.04 and convert to PoP OS 22.04 - Is not Easy to Fix.
+I will make an description about it later. Thank you for your patience.
+PoP_OS is for Professionals and not suitable for everyone!
+
+Pop!_OS is free to download here for laptop - https://pop.system76.com
+
+How to install KDE Plasma via POP-OS and Windows 11 - TEXT
+Comming Zone....
+
+How to install KDE Plasma via POP-OS via Windows 11 - MOVIE
+https://www.youtube.com/watch?v=whWQfEHtEJU
+
+      "Pop!_OS" | "popos"* | "pop_os"
+                 /////////////
+         /////////////////////
+      ///////${c2}*767${c1}////////////////
+    //////${c2}7676767676*${c1}//////////////
+   /////${c2}76767${c1}//${c2}7676767${c1}//////////////
+  /////${c2}767676${c1}///${c2}*76767${c1}///////////////
+ ///////${c2}767676${c1}///${c2}76767${c1}.///${c2}7676*${c1}
+/////////${c2}767676${c1}//${c2}76767${c1}///${c2}767676${c1}
+//////////${c2}76767676767${c1}////${c2}76767${c1}/////////
+///////////${c2}76767676${c1}//////${c2}7676${c1}//////////
+////////////,${c2}7676${c1},///////${c2}767${c1}///////////
+/////////////*${c2}7676${c1}///////${c2}76${c1}////////////
+///////////////${c2}7676${c1}//////////////////// POP_OS 76
+ ///////////////${c2}7676${c1}///${c2}767${c1}////////////
+  //////////////////////${c2}'${c1}////////////
+   //////${c2}.7676767676767676767,${c1}//////
+    /////${c2}767676767676767676767${c1}/////
+      ///////////////////////////8
+         /////////////////////
+             /////////////
+
+About PoP_OS 76 - https://pop.system76.com
+
+Pop!_OS is an operating system for STEM and creative professionals
+who use their computer as a tool to discover and create.
+Unleash your potential on secure, reliable open source software.
+Based on your exceptional curiosity, we sense you have a lot of it. 
+Pop!_OS is designed for fast navigation, easy workspace 
+organization, and fluid, convenient workflow. Your operating
+system should encourage discovery, not obstruct it.
+
+About KDE Plasma - https://kde.org
+
+KDE is the next generation desktop for Linux. 
+Use KDE software to surf the web, keep in touch
+with colleagues, friends and family, manage your
+files, enjoy music and videos; and get creative and
+productive at work. The KDE community develops
+and maintains more than 200 applications which
+run on any Linux desktop, and often other platforms too.
+
+Want More Stuff for Linux, Windows and WSL.
+https://github.com/vinberg88/opensuse
+
+Regards - Nattias Vinberg - SwedeN - 2024 - PoP_OS 76 - KDE
+
+--------------------------------------------
+
+Paste all to terminal and klick enter.
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+-------------------------------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot
+
+-------------------------------------------------------------
+
+Please Update: sudo apt update && sudo apt upgrade
+
+-------------------------------------------------------------
+
+Install programs for POP_OS:
+
+sudo apt install bash git npm wget curl nano sudo pipx -y
+sudo apt install sddm* -y
+sudo systemctl set-default graphical
+
+-------------------------------------------------------------
+
+Install Hyfetch - like Neofetch but more GAY!
+
+sudo apt install python3-pip
+
+pip3 install hyfetch
+
+Test in Consaole/Bash: hyfetch
+
+-------------------------------------------------------------
+
+Install Chrome - Best Browser 2024
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+-------------------------------------------------------------
+
+Reboot Linux... Time to Confiq GWSL
+
+-------------------------------------------------------------
+
+Config GWSL and start from there - Linux Shell from GWSL Console/Bash
+
+-------------------------------------------------------------
+
+Time to install KDE Plasma
+
+sudo apt install kde-standard
+
+You can choose whichever version you like!
+
+sudo apt install kde-plasma-desktop 
+sudo apt install kde-standard 
+sudo apt install kde-full 
+
+-------------------------------------------------------------
+
+Paste in terminal: 
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-------------------------------------------------------------
+
+Type this in terminal and put your user there - loginctl enable-linger user
+
+-------------------------------------------------------------
+
+Copy this and paste in terminal: sudo nano ~/.bash_popos_desktop
+
+Then add this script to terminal
+
+----------------------------------------------------
+
+export XDG_CURRENT_DESKTOP=ubuntu:GNOME
+export XDG_SESSION_DESKTOP=ubuntu
+export DESKTOP_SESSION=ubuntu
+export GNOME_SHELL_SESSION_MODE=ubuntu
+
+export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+export XDG_MENU_PREFIX=gnome-
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+------------------------------------------------------
+
+Reboot... Reboot... Reboot... Reboot... Reboot...
+
+------------------------------------------------------
+
+Paste in terminal: . ~/.bash_popos_desktop
+
+Type in terminal and start plasma: dbus-launch startplasma-x11
+
+------------------------------------------------------
+
+Regards, 
+Mattias Vinberg - SweDen - Pop-OS 76 - 2024 - KDE plasma
+
+------------------------------------------------------
