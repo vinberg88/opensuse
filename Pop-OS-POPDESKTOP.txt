@@ -1,0 +1,302 @@
+POP_OS 76 - Install PoP Cosmic/Gnome desktop via Pop!_OS by System76 - Windows 11 - WSL - GWSL - Linux
+
+Note: This linux variant is not available from Microsoft or anywhere else for WSL.
+You need to download Ubuntu 22.04 and convert to PoP OS 22.04 - Is not Easy to Fix.
+
+You will find Ubuntu 22.04 in Microsoft store or here
+https://apps.microsoft.com/detail/9pn20msr04dw?hl=sv-se&gl=en
+
+How to install Gnome/PoP/Cosmic via POP-OS and Windows 11 - TEXT
+Comming Zone....
+
+How to install Gnome/PoP/Cosmic via POP-OS via Windows 11 - MOVIE
+https://www.youtube.com/watch?v=SYooHm8bzJU
+
+      "Pop!_OS" | "popos"* | "pop_os"
+                 /////////////
+         /////////////////////
+      ///////${c2}*767${c1}////////////////
+    //////${c2}7676767676*${c1}//////////////
+   /////${c2}76767${c1}//${c2}7676767${c1}//////////////
+  /////${c2}767676${c1}///${c2}*76767${c1}///////////////
+ ///////${c2}767676${c1}///${c2}76767${c1}.///${c2}7676*${c1}
+/////////${c2}767676${c1}//${c2}76767${c1}///${c2}767676${c1}
+//////////${c2}76767676767${c1}////${c2}76767${c1}/////////
+///////////${c2}76767676${c1}//////${c2}7676${c1}//////////
+////////////,${c2}7676${c1},///////${c2}767${c1}///////////
+/////////////*${c2}7676${c1}///////${c2}76${c1}////////////
+///////////////${c2}7676${c1}//////////////////// POP_OS 76
+ ///////////////${c2}7676${c1}///${c2}767${c1}////////////
+  //////////////////////${c2}'${c1}////////////
+   //////${c2}.7676767676767676767,${c1}//////
+    /////${c2}767676767676767676767${c1}/////
+      ///////////////////////////8
+         /////////////////////
+             /////////////
+
+About PoP_OS 76 - https://pop.system76.com
+
+Pop!_OS is an operating system for STEM and creative professionals
+who use their computer as a tool to discover and create.
+Unleash your potential on secure, reliable open source software.
+Based on your exceptional curiosity, we sense you have a lot of it. 
+Pop!_OS is designed for fast navigation, easy workspace 
+organization, and fluid, convenient workflow. Your operating
+system should encourage discovery, not obstruct it.
+
+About PoP OS Desktop 
+
+Pop!_OS and Ubuntu both include the GNOME desktop
+environment by default. A desktop environment is
+responsible for the look and feel of the graphical 
+desktop, and includes many of the key programs
+that get used every day.
+https://support.system76.com/articles/desktop-environment/
+
+Want More Stuff for Linux, Windows and WSL.
+https://github.com/vinberg88/opensuse
+
+Pop!_OS is free to download here for laptops 
+https://pop.system76.com
+
+-----------------------------------------
+
+Remove Errors - Paste in Bash/Terminal
+
+sudo ln -s /dev/null /etc/systemd/system/acpid.service
+sudo ln -s /dev/null /etc/systemd/system/acpid.path
+
+Then This
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+-----------------------------------------
+
+sudo nano /etc/apt/sources.list.d/system.sources
+
+Paste this in Console: 
+
+Paste this in terminal and save.
+
+X-Repolib-Name: Pop_OS System Sources
+Enabled: yes
+Types: deb deb-src
+URIs: http://apt.pop-os.org/ubuntu
+Suites: jammy jammy-security jammy-updates jammy-backports
+Components: main restricted universe multiverse
+X-Repolib-Default-Mirror: http://apt.pop-os.org/ubuntu
+X-Repolib-ID: system
+
+X-Repolib-Name: Pop_OS Apps
+Enabled: yes
+Types: deb
+URIs: http://apt.pop-os.org/proprietary
+Suites: jammy
+Components: main
+
+X-Repolib-Name: Pop_OS Release Sources
+Enabled: yes
+Types: deb deb-src
+URIs: http://apt.pop-os.org/release
+Suites: jammy
+Components: main
+
+-----------------------------------------
+
+Copy and paste 2 times in Bash/Console/terminal....
+
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key 204DD8AEC33A7AFF
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 63C46DF0140D738961429F4E204DD8AEC33A7AFF
+
+-----------------------------------------
+
+Reboot Reboot Reboot....
+
+-----------------------------------------
+
+sudo apt update
+
+sudo apt install pop-desktop
+
+-----------------------------------------
+
+Fix Error Kernel so its works....
+
+sudo fdisk -l
+
+sudo mkdir /boot/efi
+
+sudo mount /dev/sdc /boot/efi
+
+lsblk
+
+sudo apt upgrade
+
+-----------------------------------------
+
+Reboot Reboot Reboot....
+
+-----------------------------------------
+
+Do this again... Delete everything in the terminal and past this.
+Paste this in Console: sudo nano /etc/apt/sources.list.d/system.sources
+
+X-Repolib-Name: Pop_OS System Sources
+Enabled: yes
+Types: deb deb-src
+URIs: http://apt.pop-os.org/ubuntu
+Suites: jammy jammy-security jammy-updates jammy-backports
+Components: main restricted universe multiverse
+X-Repolib-Default-Mirror: http://apt.pop-os.org/ubuntu
+X-Repolib-ID: system
+
+X-Repolib-Name: Pop_OS Apps
+Enabled: yes
+Types: deb
+URIs: http://apt.pop-os.org/proprietary
+Suites: jammy
+Components: main
+
+X-Repolib-Name: Pop_OS Release Sources
+Enabled: yes
+Types: deb deb-src
+URIs: http://apt.pop-os.org/release
+Suites: jammy
+Components: main
+
+-----------------------------------------
+
+Paste in Console...
+
+pop-upgrade release upgrade
+
+We are Done - if you see something like this you have PoP_OS - Latest =]
+
+checking if pop-upgrade requires an update
+Current Release: 22.04
+Upgrading to: 22.10
+New version available: false
+no release available to upgrade to
+
+-----------------------------------------
+
+Install neofetch
+
+sudo apt install neofetch
+
+After install type this to test: neofetch
+
+or 
+
+sudo apt install pipx
+
+pipx install hyfetch
+pipx ensurepath
+
+sudo pipx install hyfetch
+sudo pipx ensurepath
+
+After install type this to test: hyfetch
+
+-----------------------------------------
+
+Reboot Reboot reboot Reboot 
+
+-----------------------------------------
+
+Start GWSL and Config - Always start in from GWSL - Bash / Terminal
+
+-----------------------------------------
+
+Install programs:
+
+sudo apt install bash git npm wget curl -y
+sudo apt install gdm3* -y
+sudo apt install gdm* -y
+sudo systemctl set-default graphical
+
+----------------------------------------------
+
+sudo apt install dbus*
+sudo apt install cosmic-session
+
+----------------------------------------------
+
+Paste in Terminal: 
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+
+----------------------------------
+
+Install Chrome if you want...
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+Blanket
+
+wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+
+----------------------------------------------
+
+Copy this and paste in terminal: sudo nano ~/.bash_popOS_desktop
+
+Then add this script to terminal
+
+export XDG_CURRENT_DESKTOP=pop:GNOME
+export XDG_SESSION_DESKTOP=pop
+export DESKTOP_SESSION=pop
+export GNOME_SHELL_SESSION_MODE=pop
+
+export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+export XDG_MENU_PREFIX=gnome-
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------
+
+Please Reboot - Please Reboot - Please Reboot
+
+----------------------------------------------
+
+Paste this script in Bash - terminal and Rebbor after its done!
+
+git clone https://github.com/DamionGans/ubuntu-wsl2-systemd-script.git
+cd ubuntu-wsl2-systemd-script/
+bash ubuntu-wsl2-systemd-script.sh
+
+----------------------------------------------
+
+Install this....
+
+sudo apt install daemonize
+
+----------------------------------------------
+
+Please Reboot - Please Reboot - Please Reboot
+
+----------------------------------------------
+
+Paste in terminal: . ~/.bash_popOS_desktop
+
+Paste in terminal: gnome-session --session=ubuntu
+
+It take some time to start all in beginning... Just Wait!
+
+----------------------------------------------
+
+Regards - Nattias Vinberg - SwedeN - 2024 - PoP_OS 76 - POP - Cosmic - Gnome
+
+----------------------------------------------
