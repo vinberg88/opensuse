@@ -7,7 +7,7 @@ You will find Ubuntu 22.04 in Microsoft store or here
 https://apps.microsoft.com/detail/9pn20msr04dw?hl=sv-se&gl=en
 
 How to install Gnome/PoP/Cosmic via POP-OS and Windows 11 - TEXT
-Comming Zone....
+https://github.com/vinberg88/opensuse/blob/main/Pop-OS-POPDESKTOP.txt
 
 How to install Gnome/PoP/Cosmic via POP-OS via Windows 11 - MOVIE
 https://www.youtube.com/watch?v=SYooHm8bzJU
