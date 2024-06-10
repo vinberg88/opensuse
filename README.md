@@ -24,6 +24,51 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+POP_OS 76 - Install PoP Cosmic/Gnome desktop via Pop!_OS by System76 - Windows 11 - WSL - GWSL - Linux
+
+Note: This linux variant is not available from Microsoft or anywhere else for WSL.
+You need to download Ubuntu 22.04 and convert to PoP OS 22.04 - Is not Easy to Fix.
+
+You will find Ubuntu 22.04 in Microsoft store or here
+https://apps.microsoft.com/detail/9pn20msr04dw?hl=sv-se&gl=en
+
+How to install Gnome/PoP/Cosmic via POP-OS and Windows 11 - TEXT
+https://github.com/vinberg88/opensuse/blob/main/Pop-OS-POPDESKTOP.txt
+
+How to install Gnome/PoP/Cosmic via POP-OS via Windows 11 - MOVIE
+https://www.youtube.com/watch?v=SYooHm8bzJU
+
+![Pop-OS-POPDESKTOP](https://github.com/vinberg88/opensuse/assets/94398623/9614086a-4581-4e6c-84db-d45ffe07e08b)
+
+About PoP_OS 76 - https://pop.system76.com
+
+Pop!_OS is an operating system for STEM and creative professionals
+who use their computer as a tool to discover and create.
+Unleash your potential on secure, reliable open source software.
+Based on your exceptional curiosity, we sense you have a lot of it. 
+Pop!_OS is designed for fast navigation, easy workspace 
+organization, and fluid, convenient workflow. Your operating
+system should encourage discovery, not obstruct it.
+
+About PoP OS Desktop 
+
+Pop!_OS and Ubuntu both include the GNOME desktop
+environment by default. A desktop environment is
+responsible for the look and feel of the graphical 
+desktop, and includes many of the key programs
+that get used every day.
+https://support.system76.com/articles/desktop-environment/
+
+Want More Stuff for Linux, Windows and WSL.
+https://github.com/vinberg88/opensuse
+
+Pop!_OS is free to download here for laptops 
+https://pop.system76.com
+
+Regards, Mattias Vinberg - Sweden - POPos 76 - Pop-Desktop
+
+---------------------------------------------
+
 POP_OS - How to Install KDE PLasma via Pop!_OS by System76 - Windows 11 - WSL - GWSL - Linux
 
 Note: This linux variant is not available from Microsoft or anywhere else how works for WSL.
