@@ -24,6 +24,50 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+EndeavourOS - How to Install KDE plasma 6.0.5 via WSL - GWSL - Windows 11 - EndeavourOS
+
+You Can Find EndeavourOS for WSL Here - 2024
+
+https://github.com/sileshn/EndeavourOSWSL2
+
+![EndeavourOS-KDE-6](https://github.com/vinberg88/opensuse/assets/94398623/0119f9ec-d27c-4610-ae0e-6f0c702a145a)
+
+How to install Plasma KDE 6 on EndeavourOS - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/EndeavourOS-KDE-6.txt
+
+How to install Plasma KDE 6 on EndeavourOS - Movie
+
+https://www.youtube.com/watch?v=vcVB_HaZJSo
+
+About KDE plasma 6.0.5
+
+Plasma is a Desktop - Use Plasma to surf the
+web; keep in touch with colleagues, friends and family; manage your
+files, enjoy music and videos; and get creative and productive at work.
+Do it all in a beautiful environment that adapts to your needs, and
+with the safety, privacy-protection and peace of mind that the best
+Free Open Source Software has to offer - https://kde.org
+
+About EndeavourOS
+
+EndeavourOS is an Arch-based distro that provides
+an Arch experience without the hassle of installing
+it manually for x86_64 machines. After installation, you’re
+provided with a lightweight and almost bare-bones
+environment ready to be explored with your terminal, along
+with our home-built Welcome App as a powerful
+guide to help you along - https://endeavouros.com
+
+You will find more stuff here for WSL
+
+https://github.com/vinberg88/opensuse
+
+Regards,
+Endeavouros - 2024 - Mattias Vinberg - Sweden - KDE Plasma 6
+
+---------------------------------------------
+
 POP_OS 76 - Install PoP Cosmic/Gnome desktop via Pop!_OS by System76 - Windows 11 - WSL - GWSL - Linux
 
 Note: This linux variant is not available from Microsoft or anywhere else for WSL.
