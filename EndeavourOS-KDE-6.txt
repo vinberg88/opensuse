@@ -20,7 +20,8 @@ https://github.com/sileshn/EndeavourOSWSL2
 
 
 How to install Plasma KDE 6 on EndeavourOS - TEXT
-Comming Zone....
+
+https://github.com/vinberg88/opensuse/blob/main/EndeavourOS-KDE-6.txt
 
 How to install Plasma KDE 6 on EndeavourOS - Movie
 
@@ -142,7 +143,7 @@ dbus-launch startplasma-x11
 
 ----------------------------------------------------------------
 
-Endeavouros - 2024 - Mattias Vinberg - Sweden - KDE Plasma 6
+Endeavouros - 2024 - Mattias Vinberg - Sweden - KDE Plasma 6.0.5
 
 ----------------------------------------------------------------
 
