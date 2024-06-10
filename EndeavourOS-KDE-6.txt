@@ -1,0 +1,148 @@
+EndeavourOS - How to Install KDE plasma 6.0.5 via WSL - GWSL - Windows 11 - EndeavourOS
+
+You Can Find EndeavourOS for WSL Here - 2024
+https://github.com/sileshn/EndeavourOSWSL2
+
+
+                     ./${c2}o${c3}.
+                   ./${c2}sssso${c3}-
+                 `:${c2}osssssss+${c3}-
+               `:+${c2}sssssssssso${c3}/.
+             `-/o${c2}ssssssssssssso${c3}/.
+           `-/+${c2}sssssssssssssssso${c3}+:`
+         `-:/+${c2}sssssssssssssssssso${c3}+/.
+       `.://o${c2}sssssssssssssssssssso${c3}++-
+      .://+${c2}ssssssssssssssssssssssso${c3}++:
+    .:///o${c2}ssssssssssssssssssssssssso${c3}++:
+  `:////${c2}ssssssssssssssssssssssssssso${c3}+++.
+`-////+${c2}ssssssssssssssssssssssssssso${c3}++++-
+ `..-+${c2}oosssssssssssssssssssssssso${c3}+++++/`
+
+
+How to install Plasma KDE 6 on EndeavourOS - TEXT
+Comming Zone....
+
+How to install Plasma KDE 6 on EndeavourOS - Movie
+
+https://www.youtube.com/watch?v=vcVB_HaZJSo
+
+About KDE plasma 6.0.5
+
+Plasma is a Desktop - Use Plasma to surf the
+web; keep in touch with colleagues, friends and family; manage your
+files, enjoy music and videos; and get creative and productive at work.
+Do it all in a beautiful environment that adapts to your needs, and
+with the safety, privacy-protection and peace of mind that the best
+Free Open Source Software has to offer - https://kde.org
+
+About EndeavourOS
+
+EndeavourOS is an Arch-based distro that provides
+an Arch experience without the hassle of installing
+it manually for x86_64 machines. After installation, you’re
+provided with a lightweight and almost bare-bones
+environment ready to be explored with your terminal, along
+with our home-built Welcome App as a powerful
+guide to help you along - https://endeavouros.com
+
+You will find more stuff here for WSL: https://github.com/vinberg88/opensuse
+
+------------------------------------------------------------
+
+0. Enable repos
+
+Paste in terminal: sudo nano /etc/pacman.conf
+
+Uncomment the section of the repositorie to switch your install to
+the Testing repositories, which has the Plasma 6 packages for EndeavourOS
+
+[core-testing]
+Include = /etc/pacman.d/mirrorlist
+
+and
+
+[extra-testing]
+Include = /etc/pacman.d/mirrorlist
+
+------------------------------------------------------------
+
+1. Paste this in terminal... all - you wont get symbolic link error.
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+------------------------------------------------------------
+
+Reboot EndeavourOS - Reboot EndeavourOS - Reboot EndeavourOS
+
+------------------------------------------------------------
+
+2. Update EndeavourOS - sudo pacman -Syu
+
+------------------------------------------------------------
+
+3. Install this tools for EndeavourOS - KDE 6
+
+sudo pacman -S xorg xorg-server xorg-xinit mesa xterm xorg-twm xorg-xrandr xterm xorg-xclock sddm
+bluedevil libqtxdg xorg-xfontsel xorg-xlsfonts xorg-xkill xorg-xinput xorg-xwininfo
+
+------------------------------------------------------------
+
+4. Time To install KDE plasma 6 =]
+
+sudo pacman -S plasma-meta kde-applications-meta plasma
+
+------------------------------------------------------------
+
+5. Paste in terminal - all
+
+sudo systemctl enable sddm.service
+sudo systemctl enable NetworkManager.service
+sudo systemctl set-default graphical
+
+------------------------------------------------------------
+
+6. Type this in terminal and put your user there: loginctl enable-linger user
+
+----------------------------------------------------------------
+
+Reboot Endeavouros - Reboot Endeavouros - Reboot Endeavouros
+
+----------------------------------------------------------------
+
+Start GWSL and Config and Start Endeavouros from GWSL - SHELL - BASH
+
+----------------------------------------------------------------
+
+Type in terminal: sudo nano ~/.bash_Os_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------------------------
+
+Reboot Endeavouros - Reboot Endeavouros - Reboot Endeavouros
+
+----------------------------------------------------------------
+
+Time to start KDE Plasma 6 on Endeavouros.
+
+Paste in terminal: . ~/.bash_Os_desktop
+
+dbus-launch startplasma-x11
+
+----------------------------------------------------------------
+
+Endeavouros - 2024 - Mattias Vinberg - Sweden - KDE Plasma 6
+
+----------------------------------------------------------------
+
