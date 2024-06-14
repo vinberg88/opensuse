@@ -24,6 +24,50 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Arco Linux - How to Install KDE plasma via WSL - GWSL - Windows 11 - ARCO - 2024
+
+Here you find how to install Arco Linux - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/ArcoLinux-KDE-6.txt
+
+Here you find how to install Arco Linux - MOVIE
+
+https://www.youtube.com/watch?v=pjQqRZH5LP8
+
+You can find ARCH via Microsoft store or this link. You need to download it.
+Convert Arch Linux to Arco Linux - 2024
+
+https://apps.microsoft.com/detail/9mznmnksm73x?amp%3Bgl=US&hl=en-us&gl=SE
+
+![ArcoLinux-KDE-6](https://github.com/vinberg88/opensuse/assets/94398623/28ace81c-7bdb-484e-808d-7cd02f4a0ad6)
+
+About ARCO Linux - 2024
+
+ArcoLinux is a distribution based on Arch Linux.
+ArcoLinux installs with a graphical installer 
+(Calamares) with ease and comfort.
+There are 3 major projects. ArcoLinux promotes the
+use of Arch Linux on which it is based.
+
+https://arcolinux.com
+
+About KDE Plasma 6 For Arco Linux
+
+Powerful, multi-platform, and for everyone - Use KDE
+software to surf the web, keep in touch with
+colleagues, friends and family, manage your files, enjoy
+music and videos; and get creative and productive
+at work. The KDE community develops and maintains
+more than 200 applications which run
+on any Linux desktop, and often other platforms too.
+
+https://kde.org/
+
+Regards,
+Arco Linux - 2024 - Mattias Vinberg - Sweden - KDE Plasma 6 - WSL
+
+---------------------------------------------
+
 EndeavourOS - How to Install KDE plasma 6.0.5 via WSL - GWSL - Windows 11 - EndeavourOS
 
 You Can Find EndeavourOS for WSL Here - 2024
