@@ -1,6 +1,5 @@
 Arco Linux - How to Install KDE plasma via WSL - GWSL - Windows 11 - ARCO - 2024
 
-
 Here you find how to install Arco Linux - TEXT
 
 https://github.com/vinberg88/opensuse/blob/main/ArcoLinux-KDE-6.txt
