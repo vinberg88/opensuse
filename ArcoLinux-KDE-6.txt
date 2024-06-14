@@ -1,0 +1,230 @@
+Arco Linux - How to Install KDE plasma via WSL - GWSL - Windows 11 - ARCO - 2024
+
+
+Here you find how to install Arco Linux - TEXT
+Comming....
+
+Here you find how to install Arco Linux - MOVIE
+
+https://www.youtube.com/watch?v=pjQqRZH5LP8
+
+You can find ARCH via Microsoft store or this link. You need to download it.
+Convert Arch Linux to Arco Linux - 2024
+
+https://apps.microsoft.com/detail/9mznmnksm73x?amp%3Bgl=US&hl=en-us&gl=SE
+
+
+                  ##
+                 ####
+                ######
+               ########
+              ##########
+             ############
+            ##############
+           ################
+          ##################
+         ####################
+        ######################
+       #########      #########
+      ##########      ##########
+     ###########      ###########
+    ##########          ##########
+   #######                  #######
+  ####                          ####
+ ###                              ###
+
+
+About ARCO Linux - 2024
+
+ArcoLinux is a distribution based on Arch Linux.
+ArcoLinux installs with a graphical installer 
+(Calamares) with ease and comfort.
+There are 3 major projects. ArcoLinux promotes the
+use of Arch Linux on which it is based.
+
+https://arcolinux.com
+
+About KDE Plasma 6 For Arco Linux
+
+Powerful, multi-platform, and for everyone - Use KDE
+software to surf the web, keep in touch with
+colleagues, friends and family, manage your files, enjoy
+music and videos; and get creative and productive
+at work. The KDE community develops and maintains
+more than 200 applications which run
+on any Linux desktop, and often other platforms too.
+
+https://kde.org/
+
+You Can Find More WSL stuff here for Windows 11
+
+https://github.com/vinberg88/opensuse
+
+------------------------------------------------------------
+
+Edit file in Bash / Console
+
+Paste in terminal: sudo nano /etc/pacman.conf
+
+Replace this to Bash/Console and save.
+
+# Misc options
+#UseSyslog
+Color
+ParallelDownloads = 20
+ILoveCandy
+#TotalDownload
+#CheckSpace
+VerbosePkgLists
+
+------------------------------------------------------------
+
+Paste this in terminal... all - you wont get symbolic link error.
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+------------------------------------------------------------
+
+Reboot linux - Reboot linux - Reboot linux - Reboot linux
+
+------------------------------------------------------------
+
+Paste in terminal
+
+Update all: sudo pacman -Syu
+
+------------------------------------------------------------
+
+Paste in terminal
+
+wget bit.ly/get-arcolinux-keys && chmod +x ./get-arcolinux-keys && sudo ./get-arcolinux-keys
+
+------------------------------------------------------------
+
+Paste in terminal
+
+Run this: sudo pacman-key --init
+
+------------------------------------------------------------
+
+Paste in terminal
+
+Update all: sudo pacman -Syyu
+
+------------------------------------------------------------
+
+Install yay...
+
+sudo pacman -S --needed git base-devel
+mkdir opt
+cd opt
+git clone https://aur.archlinux.org/yay.git 
+cd yay
+makepkg -si
+
+------------------------------------------------------------
+
+Reboot linux - Reboot linux - Reboot linux
+
+------------------------------------------------------------
+
+Install Google-Chrome
+
+yay -S google-chrome
+
+or
+
+git clone https://aur.archlinux.org/google-chrome.git
+cd google-chrome
+makepkg -si
+
+------------------------------------------------------------
+
+Download and install....
+
+wget https://ant.seedhost.eu/arcolinux/arcolinux_repo/x86_64/arcolinuxd-system-config-git-24.06-03-x86_64.pkg.tar.zst
+
+and install this...
+
+sudo pacman -U arcolinuxd-system-config-git-24.06-03-x86_64.pkg.tar.zst
+
+If you want latest version. Download here: https://ant.seedhost.eu/arcolinux/arcolinux_repo/x86_64/?C=M;O=D
+
+------------------------------------------------------------
+
+And we are on ArcoLinux =]
+
+yay -S hyfetch
+
+Test and you are on ARCO - Linux
+
+------------------------------------------------------------
+
+Install this tools for Arco Linux - KDE 6
+
+sudo pacman -S xorg xorg-server xorg-xinit mesa xterm xorg-twm xorg-xrandr xterm xorg-xclock sddm
+libqtxdg xorg-xfontsel xorg-xlsfonts xorg-xkill xorg-xinput xorg-xwininfo
+
+------------------------------------------------------------
+
+Time To install KDE 6 via Arco Linux
+
+sudo pacman -S plasma-meta kde-applications-meta plasma
+
+------------------------------------------------------------
+
+Setup GWSL and Config - Always start from GWSL Terminal/Bash/Console
+
+------------------------------------------------------------
+
+Paste in terminal - all
+
+sudo systemctl enable sddm.service
+sudo systemctl enable NetworkManager.service
+sudo systemctl set-default graphical
+
+------------------------------------------------------------
+
+6. Type this in terminal and put your user there
+
+loginctl enable-linger user
+
+------------------------------------------------------------
+
+Reboot linux - Reboot linux - Reboot linux - Reboot linux
+
+------------------------------------------------------------
+
+Type in terminal: sudo nano ~/.bash_Arco_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+------------------------------------------------------------
+
+Reboot linux - Reboot linux - Reboot linux - Reboot linux - ARCO 
+
+----------------------------------------------------------------
+
+Time to start KDE Plasma 6 on Arco Linux.
+
+Paste in terminal: . ~/.bash_Arco_desktop
+
+dbus-launch startplasma-x11
+
+----------------------------------------------------------------
+
+Arco Linux - 2024 - Mattias Vinberg - Sweden - KDE Plasma 6 - WSL
+
+----------------------------------------------------------------
+
