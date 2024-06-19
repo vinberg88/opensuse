@@ -6,11 +6,10 @@ You can find fedora 40 in Microsoft store or via link
 https://apps.microsoft.com/detail/9npcp8drchsn?hl=en-US&gl=US
 
 How to install Mate desktop on Fedora 40 - TEXT
-Comming Zone..
+https://github.com/vinberg88/opensuse/blob/main/Fedora40-Mate.txt
 
 How to install Mate Desktop via Fedora 40 via windows 11 WsL - Movie
-Comming Zone..
-
+https://www.youtube.com/watch?v=QrY7bEnomUU
 
              .',;::::;,'.
          .';:cccccccccccc:;,.
