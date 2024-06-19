@@ -1,0 +1,171 @@
+How to install Mate Desktop via Fedora 40 - MATE - Windows 11 - WSL - GWSL - Linux
+
+--------------------------------------------------
+
+You can find fedora 40 in Microsoft store or via link
+https://apps.microsoft.com/detail/9npcp8drchsn?hl=en-US&gl=US
+
+How to install Mate desktop on Fedora 40 - TEXT
+Comming Zone..
+
+How to install Mate Desktop via Fedora 40 via windows 11 WsL - Movie
+Comming Zone..
+
+
+             .',;::::;,'.
+         .';:cccccccccccc:;,.
+      .;cccccccccccccccccccccc;.
+    .:cccccccccccccccccccccccccc:.
+  .;ccccccccccccc;.:dddl:.;ccccccc;.
+ .:ccccccccccccc;OWMKOOXMWd;ccccccc:.
+.:ccccccccccccc;KMMc;cc;xMMc;ccccccc:.
+,cccccccccccccc;MMM.;cc;;WW:;cccccccc,
+:cccccccccccccc;MMM.;cccccccccccccccc:
+:ccccccc;oxOOOo;MMM0OOk.;cccccccccccc:
+cccccc;0MMKxdd:;MMMkddc.;cccccccccccc;
+ccccc;XM0';cccc;MMM.;cccccccccccccccc'
+ccccc;MMo;ccccc;MMW.;ccccccccccccccc;
+ccccc;0MNc.ccc.xMMd;ccccccccccccccc;
+cccccc;dNMWXXXWM0:;cccccccccccccc:,
+cccccccc;.:odl:.;cccccccccccccc:,.
+:cccccccccccccccccccccccccccc:'.
+.:cccccccccccccccccccccc:;,..
+  '::cccccccccccccc::;,.
+
+
+About Fedora 40
+
+Fedora is developed by the Fedora Project and sponsored by Red Hat. 
+It follows its own release schedule, with a new version approximately
+every six months. Fedora provides a modern Linux operating system utilizing
+many of the latest technologies. It is free for all users and
+supported via the Fedora community 2024. https://fedoraproject.org
+
+About MATE Desktop
+
+The MATE Desktop Environment is the continuation of GNOME 2.
+It provides an intuitive and attractive desktop environment
+using traditional metaphors for Linux and other Unix-like
+operating systems. MATE is under active development
+to add support for new technologies while preserving
+a traditional desktop experience. https://mate-desktop.org
+
+
+You cand find more about WSL desktops here - Linux and Windows
+https://github.com/vinberg88/opensuse
+
+--------------------------------------------------
+
+Paste in terminal: sudo nano /etc/wsl.conf
+
+And add this small line to terminal. Save and Quit.
+
+[boot]
+systemd=true
+
+-----------------------------------
+
+Paste all in terminal
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+-----------------------------------
+
+Reboot Reboot Reboot Reboot Reboot
+
+-----------------------------------
+
+Install Repos...
+
+sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+
+-----------------------------------
+
+Copy and paste in Bash - No stress!
+
+sudo dnf -y upgrade --refresh
+
+-----------------------------------
+
+Install Hyfetch - like Neofetch so we cane se where we are...
+
+sudo dnf install hyfetch
+
+Run from Terminal: hyfetch
+
+-----------------------------------
+
+Time to install Mate Desktop
+
+sudo dnf -y group install "MATE Desktop" 
+
+-----------------------------------
+
+Install Google-Chrome Browser for Internet.
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm
+sudo yum update google-chrome-stable
+
+------------------------------------
+
+Copy and Paste In Terminal/Bash
+
+sudo systemctl set-default graphical.target
+sudo systemctl set-default multi-user.target
+
+------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot
+
+------------------------------------
+
+Start GWSL and run config. Start later from Shell in GWSL.
+
+( always start from GWSL shell / bash / Console / terminal )
+
+------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot
+
+------------------------------------
+
+Type in terminal: sudo nano ~/.bash_Fedora_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot
+
+------------------------------------
+
+13. Time to start Mate Desktop - Paste all in Shell. Done =]
+
+. ~/.bash_Fedora_desktop
+mate-session
+
+------------------------------------
+
+If don't start type this then start again! Try without it in BASH.
+
+export DISPLAY=$(route.exe print | grep 0.0.0.0 | head -1 | awk '{print $4}'):0.0
+
+----------------------------------------------
+
+Regards,
+Mattias Vinberg - 2024 - Fedora 40 - WSL/Windows 11 - SwEden - Mate Desktop
+
+
