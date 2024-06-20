@@ -1,0 +1,221 @@
+Clear Linux OS - How to install GNOME 46 via Clear Linux - WSL - GWSL - Windows 11 - 2024
+
+How to install GNOME Desktop via Clear Linux - TEXT
+Comming Zone
+
+How to install GNOME Desktop via Clear Linux - MOVIE
+https://www.youtube.com/watch?v=prEUryVs0bI
+
+Find Clear Linux for WSL here - Install Instructions.
+https://github.com/gh0st-work/clear-linux-wsl
+
+
+       / /     __  _   ___  __
+      / /     / /\/ '_ \| | | \ \/ /
+     / /___/\/ /_ | | | | |_| |>  < 
+CLEAR\____/\____/ |_| |_|\__,_/_/\_\ - GNOME 46 - 2024
+
+
+About Clear Linux
+
+Clear Linux OS is an open source, rolling release Linux
+distribution optimized for performance and 
+security, from the Cloud to the Edge, designed
+for customization, and manageability. Start using
+Clear Linux OS now & enjoy the benefits of a
+Linux OS designed with the developer in mind
+Clear Linux* OS is built with optimizations across
+the whole stack for improved performance. 
+Clear Linux OS achieves its performance through
+a variety of design decisions and software
+building techniques.
+
+About GNOME 46 - Desktop
+
+An easy and elegant way to use your computer, GNOME
+is designed to help you have the best possible 
+computing experience. Every part of GNOME has been
+designed to make it simple and easy to use. 
+The Activities Overview is a simple way to access
+all your basic tasks. A press of a button is all
+it takes to view your open windows, launch
+applications, or check if you have new messages.
+Having everything in one convenient place means
+you don’t have to learn your way around a maze
+of different technologies. The GNOME Project is
+an international community supported by a 
+non-profit Foundation. We focus on user experience
+excellence and first-class internationalization
+and accessibility. GNOME is a free and open Project.
+
+More About WSL and Windows 11 for Linux here
+https://github.com/vinberg88/opensuse/
+
+---------------------------------------------
+
+# Update Clear Linux - extra not needed for now.
+
+swupd update
+
+sudo swupd check-update
+
+# Diagnose system
+
+sudo swupd diagnose
+
+# disable automatic updates
+
+sudo swupd autoupdate --disable
+
+---------------------------------------------
+
+Download the latest Clear Linux tarball...
+
+https://github.com/gh0st-work/clear-linux-wsl/releases
+
+This Take some Time to Install - Wait! - Big File...
+
+Best way to install via PowerShell: wsl.exe --import ClearLinux ClearLinux clear_linux_rootfs.tar.xz --version 2
+
+---------------------------------------------
+
+Clera Linux Update
+
+Paste In Terminal: swupd update
+
+---------------------------------------------
+
+Create a new user in terminal (change USERNAME to your username):
+
+useradd -m -s /bin/bash USERNAME
+
+Set Password: passwd USERNAME
+
+Set passwd for root to - Just type: passwd
+
+---------------------------------------------
+
+Add basic bundles - needed
+
+swupd bundle-add sysadmin-basic sudo
+
+---------------------------------------------
+
+Add user to sudoers (change USERNAME to your username):
+
+usermod -aG wheel USERNAME
+
+---------------------------------------------
+
+Write to default wsl.conf config: sudo or just nano /etc/wsl.conf
+
+[automount]
+enabled = true
+options = "metadata,uid=1000,gid=1000,umask=22,fmask=11,case=off"
+mountFsTab = true
+crossDistro = true
+
+[network]
+generateHosts = true
+generateResolvConf = true
+
+[interop]
+enabled = true
+appendWindowsPath = true
+
+[boot]
+systemd=true
+
+[user]
+default = USERNAME
+
+Don't forget to change USERNAME to your username
+
+---------------------------------------------
+
+Reboot and User is added and Sudo works.... Clera Linux 2024 - Gnome
+
+---------------------------------------------
+
+Install Google Chrome
+
+Login as root: sudo -i
+
+swupd bundle-add package-utils cpio wget curl git
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+
+rpm2cpio google-chrome*.rpm | ( cd /; cpio -idv)
+
+rm -f google-chrome*.rpm
+
+f=/etc/environment; s='export FONTCONFIG_PATH=/usr/share/defaults/fonts'; touch $f; if ! grep -q "$s" $f ; then echo $s >> $f; fi
+
+---------------------------------------------
+
+reboot reboot reboot reboot
+
+---------------------------------------------
+
+Install Gnome desktop - Take Some Time - Just Wait! Have a Coffee =]
+
+1. sudo swupd bundle-add desktop-autostart
+
+2. sudo swupd bundle-add devpkg-gnome-desktop
+
+3. sudo swupd bundle-add devpkg-gdm
+
+4. sudo swupd bundle-add os-utils-gui
+
+5. sudo swupd bundle-add devpkg-libX11 gnuplot
+
+---------------------------------------------
+
+Add Flatpak
+
+sudo swupd bundle-add flatpak
+
+sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+----------------------------------------------
+
+Shutdown/Reboot Linux and SetUP GWSL and start From GWSL SHELL.
+
+----------------------------------------------
+
+Copy this and paste in terminal: sudo nano ~/.bash_linux_desktop
+
+Then add this script to terminal
+
+---------------------------------------
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+--------------------------------------
+
+Reboot...  Reboot... Reboot... Reboot...
+
+-----------------------------------
+
+Time to start Gnome 46 via Clear Linux. 
+
+Paste in terminal: . ~/.bash_linux_desktop
+
+Then paste this: dbus-launch gnome-session
+
+---------------------------------------------
+
+Problems ip adress so i need this… You dont need it I hope for start =]
+
+export DISPLAY=$(route.exe print | grep 0.0.0.0 | head -1 | awk '{print $4}'):0.0
+
+----------------------------------------------
+
+Regards,
+Mattias Vinberg - SwEden - Clear Linux - Gnome 46 - END of LIFE 2024
+
+----------------------------------------------
