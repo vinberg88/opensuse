@@ -1,7 +1,7 @@
 Clear Linux OS - How to install GNOME 46 via Clear Linux - WSL - GWSL - Windows 11 - 2024
 
 How to install GNOME Desktop via Clear Linux - TEXT
-Comming Zone
+https://github.com/vinberg88/opensuse/blob/main/ClearLinux-GNOME.txt
 
 How to install GNOME Desktop via Clear Linux - MOVIE
 https://www.youtube.com/watch?v=prEUryVs0bI
