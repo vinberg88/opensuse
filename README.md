@@ -24,6 +24,61 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Clear Linux OS - How to install GNOME 46 via Clear Linux - WSL - GWSL - Windows 11 - 2024
+
+How to install GNOME Desktop via Clear Linux - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/ClearLinux-GNOME.txt
+
+How to install GNOME Desktop via Clear Linux - MOVIE
+
+https://www.youtube.com/watch?v=prEUryVs0bI
+
+Find Clear Linux for WSL here - Install Instructions.
+
+https://github.com/gh0st-work/clear-linux-wsl
+
+![ClearLinux-GNOME](https://github.com/vinberg88/opensuse/assets/94398623/4b61ace8-bf1d-4c08-9baa-8267a0e4cca9)
+
+About Clear Linux
+
+Clear Linux OS is an open source, rolling release Linux
+distribution optimized for performance and 
+security, from the Cloud to the Edge, designed
+for customization, and manageability. Start using
+Clear Linux OS now & enjoy the benefits of a
+Linux OS designed with the developer in mind
+Clear Linux* OS is built with optimizations across
+the whole stack for improved performance. 
+Clear Linux OS achieves its performance through
+a variety of design decisions and software
+building techniques.
+
+About GNOME 46 - Desktop
+
+An easy and elegant way to use your computer, GNOME
+is designed to help you have the best possible 
+computing experience. Every part of GNOME has been
+designed to make it simple and easy to use. 
+The Activities Overview is a simple way to access
+all your basic tasks. A press of a button is all
+it takes to view your open windows, launch
+applications, or check if you have new messages.
+Having everything in one convenient place means
+you don’t have to learn your way around a maze
+of different technologies. The GNOME Project is
+an international community supported by a 
+non-profit Foundation. We focus on user experience
+excellence and first-class internationalization
+and accessibility. GNOME is a free and open Project.
+
+More About WSL and Windows 11 for Linux here
+https://github.com/vinberg88/opensuse/
+
+Regards Mattias Vinberg - SwEden - Clear Linux - Gnome 46 - END of LIFE 2024
+
+---------------------------------------------
+
 How to install Mate Desktop via Fedora 40 - MATE - Windows 11 - WSL - GWSL - Linux
 
 You can find fedora 40 in Microsoft store or via link
