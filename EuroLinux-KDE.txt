@@ -24,7 +24,7 @@ wWWNWWWWw
                                                                                                 
 
 How to install KDE via Euro Linux 9 - TEXT
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/EuroLinux-KDE.txt
 
 How to install KDE via Euro Linux 9 - MOVIE
 https://www.youtube.com/watch?v=LDjJK5cbGuA
