@@ -24,7 +24,7 @@ wWWNWWWWw
                                                                                                 
 
 How to install GNOME via Euro Linux 9 - TEXT
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/EuroLinux-GNOME.txt
 
 How to install GNOME via Euro Linux 9 - MOVIE
 https://www.youtube.com/watch?v=7C8inyk5Lwc
