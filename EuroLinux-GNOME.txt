@@ -1,0 +1,170 @@
+Euro Linux 9 - How to install Gnome via Euro Linux and windows 11 - KDE - WSL - GWSL - 2024
+
+You can find Euro Linux for WSL here
+https://github.com/EuroLinux/wsl
+
+            
+         -wwwWWWWWWWWWwww-        
+        -WWWWWWWWWWWWWWWWWWw-      
+          \WWWWWWWWWWWWWWWWWWW-    
+  _Ww      `WWWWWWWWWWWWWWWWWWWw 
+ -WEWww                -WWWWWWWWW- 
+_WWUWWWW-                _WWWWWWWW  
+_WWRWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW- 
+wWWOWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW 
+WWWLWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWw 
+WWWIWWWWWWWWWWWWWWWWWWWWWWWWWWWWww- 
+wWWNWWWWw                         
+ WWUWWWWWWw                       
+ wWXWWWWWWWWww    
+   wWWWWWWWWWWWWWWWw            
+    wWWWWWWWWWWWWWWWw           
+       WWWWWWWWWWWWWw           
+           wWWWWWWWw           
+                                                                                                
+
+How to install GNOME via Euro Linux 9 - TEXT
+Comming Zone...
+
+How to install GNOME via Euro Linux 9 - MOVIE
+https://www.youtube.com/watch?v=7C8inyk5Lwc
+
+About Euro Linux 9 - https://euro-linux.com/en
+
+EuroLinux is an enterprise-class Linux distribution
+based on open source code, which we have been
+creating and developing since 2013. The system
+is designed for professional server use and
+workstations. It holds certifications for various
+environments – physical, virtual, and cloud.
+
+
+About GNOME Desktop - https://www.gnome.org
+
+GNOME provides a focused working environment that helps
+you get things done. It is packed with features that will
+make you more productive: a powerful search feature that
+helps you access all your work from one place; side-by-side
+windows that make it easy to view several documents at the
+same time; seamless integration with online accounts which
+allows you to access all your data in one place; and a 
+messaging system that comfortably deals with 
+notifications, letting you quickly respond in place or
+return to them in a convenient time.
+
+You will find more stuff for WSL and Windows 11 / Linux here
+https://github.com/vinberg88/opensuse
+
+-------------------------------------------
+
+The systemd-bootd is enabled in the WSL configuration file /etc/wsl.conf.
+
+sudo nano /etc/wsl.conf
+
+[boot]
+systemd=true
+
+-------------------------------------------
+
+Install some programs
+
+sudo yum install sudo util-linux-core systemd git wget bash pip nano
+
+-------------------------------------------
+
+Setup fastest Mirror / Repos for EuroLinux 9
+
+Open filen: sudo nano /etc/dnf/dnf.conf
+
+Copy and past to terminal under text.
+
+max_parallel_downloads=10
+fastestmirror=True
+
+-------------------------------------------
+
+Some extra repos - paste one by one.
+
+sudo dnf -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm
+
+sudo /usr/bin/crb enable
+
+-------------------------------------------
+
+sudo dnf update -y
+
+-------------------------------------------
+
+Time to install Gnome Desktop
+
+sudo dnf group install "Server with GUI" --allowerasing --nobest
+
+-------------------------------------------
+
+sudo dnf install pipx dracut net-tools dbus-x11
+
+-------------------------------------------
+
+Install Google-Chrome
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm
+sudo yum update google-chrome-stable
+
+-------------------------------------------
+
+reboot reboot reboot reboot reboot
+
+-------------------------------------------
+
+Login with GWSL and Config all.
+
+-------------------------------------------
+
+reboot reboot reboot reboot reboot - Start From GWSL SHELL / Bash
+
+-------------------------------------------
+
+Paste in Terminal - Bash - Console
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-------------------------------------------
+
+Type this in terminal and put your user-name there
+
+loginctl enable-linger user
+
+-------------------------------------------
+
+In terminal type: sudo nano ~/.bash_Euro_desktop
+
+Paste this small script in terminal and save and quit.
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-------------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot 
+
+-------------------------------------------
+
+Time to start GNOME desktop Via Eurolinux
+
+Paste in terminal: . ~/.bash_Euro_desktop
+
+Type in terminal: gnome-session
+
+-------------------------------------------
+
+Regards,
+Mattias Vinberg - SweDeN - EuroLinux 9 - GNOME - Linux - Windows 11
+
+-------------------------------------------
