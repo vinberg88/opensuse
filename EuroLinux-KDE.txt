@@ -1,0 +1,177 @@
+Euro Linux 9 - How to install KDE plasma via Euro Linux and windows 11 - KDE - WSL - GWSL - 2024
+
+You can find Euro Linux for WSL here
+https://github.com/EuroLinux/wsl
+
+            
+         -wwwWWWWWWWWWwww-        
+        -WWWWWWWWWWWWWWWWWWw-      
+          \WWWWWWWWWWWWWWWWWWW-    
+  _Ww      `WWWWWWWWWWWWWWWWWWWw 
+ -WEWww                -WWWWWWWWW- 
+_WWUWWWW-                _WWWWWWWW  
+_WWRWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW- 
+wWWOWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW 
+WWWLWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWw 
+WWWIWWWWWWWWWWWWWWWWWWWWWWWWWWWWww- 
+wWWNWWWWw                         
+ WWUWWWWWWw                       
+ wWXWWWWWWWWww    
+   wWWWWWWWWWWWWWWWw            
+    wWWWWWWWWWWWWWWWw           
+       WWWWWWWWWWWWWw           
+           wWWWWWWWw           
+                                                                                                
+
+How to install KDE via Euro Linux 9 - TEXT
+Comming Zone...
+
+How to install KDE via Euro Linux 9 - MOVIE
+https://www.youtube.com/watch?v=LDjJK5cbGuA
+
+About Euro Linux 9 - https://euro-linux.com/en/
+
+EuroLinux is an enterprise-class Linux distribution
+based on open source code, which we have been
+creating and developing since 2013. The system
+is designed for professional server use and
+workstations. It holds certifications for various
+environments – physical, virtual, and cloud.
+
+
+About KDE plasma Desktop - https://kde.org/
+
+Use Plasma to surf the web; keep in touch with 
+colleagues, friends and family; manage your
+files, enjoy music and videos; and get creative
+and productive at work. Do it all in a Beautiful
+environment that adapts to your needs, and with
+the safety, privacy-protection and peace of mind
+that the best Free Open Source Software has to offer.
+
+You will find more stuff for WSL and Windows 11 / Linux here
+https://github.com/vinberg88/opensuse
+
+-------------------------------------------
+
+The systemd-bootd is enabled in the WSL configuration file /etc/wsl.conf.
+
+sudo nano /etc/wsl.conf
+
+[boot]
+systemd=true
+
+-------------------------------------------
+
+Install some programs
+
+sudo yum install sudo util-linux-core systemd git wget bash pip nano
+
+-------------------------------------------
+
+Setup fastest Mirror / Repos for EuroLinux 9
+
+Open filen: sudo nano /etc/dnf/dnf.conf
+
+Copy and past to terminal under text in BASH.
+
+max_parallel_downloads=15
+fastestmirror=True
+
+-------------------------------------------
+Some extra repos - paste one by one.
+
+sudo dnf -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm
+
+sudo /usr/bin/crb enable
+
+-------------------------------------------
+
+Paste in Console - one by one
+
+sudo dnf update -y
+
+sudo dnf upgrade --refresh
+
+-------------------------------------------
+
+Time to install KDE plasma
+
+sudo dnf groupinstall "KDE Plasma Workspaces" "base-x" --allowerasing --nobest
+
+-------------------------------------------
+
+Install this...
+
+sudo dnf install pipx dracut net-tools dbus-x11
+
+-------------------------------------------
+
+Install Google-Chrome
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm
+sudo yum update google-chrome-stable
+
+-------------------------------------------
+
+reboot reboot reboot reboot reboot
+
+-------------------------------------------
+
+Login with GWSL and Config all. Then start Linux-shell from GWSL
+
+-------------------------------------------
+
+Paste in Terminal - Bash - Console
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-------------------------------------------
+
+Type this in terminal and put your user-name there
+
+loginctl enable-linger user
+
+-------------------------------------------
+
+In terminal type: sudo nano ~/.bash_Euro_desktop
+
+Paste this small script in terminal and save and quit.
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-------------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot 
+
+-------------------------------------------
+
+Paste in terminal: . ~/.bash_Euro_desktop
+
+Type in terminal: dbus-launch startplasma-x11
+
+It takes a little time to start at the beginning so leave it 
+for a minute if nothing happens.
+
+-------------------------------------------
+
+If you have problems ip adress use this
+to conecct to x server. You wont need it...
+
+export DISPLAY=$(route.exe print | grep 0.0.0.0 | head -1 | awk '{print $4}'):0.0
+
+-------------------------------------------
+
+Regards,
+Mattias Vinberg - SweDen - EuroLinux 9 - KDE - Linux - Windows 11
+
+-------------------------------------------
+
