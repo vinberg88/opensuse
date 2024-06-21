@@ -24,6 +24,47 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Euro Linux 9 - How to install KDE plasma via Euro Linux and windows 11 - KDE - WSL - GWSL - 2024
+
+You can find Euro Linux for WSL here
+https://github.com/EuroLinux/wsl
+
+![EuroLinux-KDE](https://github.com/vinberg88/opensuse/assets/94398623/757d4a00-6c19-424e-8eea-043630469fd4)
+
+How to install KDE via Euro Linux 9 - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/EuroLinux-KDE.txt
+
+How to install KDE via Euro Linux 9 - MOVIE
+
+https://www.youtube.com/watch?v=LDjJK5cbGuA
+
+About Euro Linux 9 - https://euro-linux.com/en/
+
+EuroLinux is an enterprise-class Linux distribution
+based on open source code, which we have been
+creating and developing since 2013. The system
+is designed for professional server use and
+workstations. It holds certifications for various
+environments – physical, virtual, and cloud.
+
+About KDE plasma Desktop - https://kde.org/
+
+Use Plasma to surf the web; keep in touch with 
+colleagues, friends and family; manage your
+files, enjoy music and videos; and get creative
+and productive at work. Do it all in a Beautiful
+environment that adapts to your needs, and with
+the safety, privacy-protection and peace of mind
+that the best Free Open Source Software has to offer.
+
+You will find more stuff for WSL and Windows 11 / Linux here
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - SweDen - EuroLinux 9 - KDE - Linux - Windows 11
+
+---------------------------------------------
+
 Clear Linux OS - How to install GNOME 46 via Clear Linux - WSL - GWSL - Windows 11 - 2024
 
 How to install GNOME Desktop via Clear Linux - TEXT
