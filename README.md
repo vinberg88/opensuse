@@ -24,6 +24,51 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Euro Linux 9 - How to install Gnome via Euro Linux and windows 11 - KDE - WSL - GWSL - 2024
+
+You can find Euro Linux for WSL here
+
+https://github.com/EuroLinux/wsl
+
+![EuroLinux-GNOME](https://github.com/vinberg88/opensuse/assets/94398623/6868db8c-116b-4194-bc14-046d8e3cc865)         
+
+How to install GNOME via Euro Linux 9 - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/EuroLinux-GNOME.txt
+
+How to install GNOME via Euro Linux 9 - MOVIE
+
+https://www.youtube.com/watch?v=7C8inyk5Lwc
+
+About Euro Linux 9 - https://euro-linux.com/en
+
+EuroLinux is an enterprise-class Linux distribution
+based on open source code, which we have been
+creating and developing since 2013. The system
+is designed for professional server use and
+workstations. It holds certifications for various
+environments – physical, virtual, and cloud.
+
+About GNOME Desktop - https://www.gnome.org
+
+GNOME provides a focused working environment that helps
+you get things done. It is packed with features that will
+make you more productive: a powerful search feature that
+helps you access all your work from one place; side-by-side
+windows that make it easy to view several documents at the
+same time; seamless integration with online accounts which
+allows you to access all your data in one place; and a 
+messaging system that comfortably deals with 
+notifications, letting you quickly respond in place or
+return to them in a convenient time.
+
+You will find more stuff for WSL and Windows 11 / Linux here
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - SweDeN - EuroLinux 9 - GNOME - Linux - Windows 11
+
+---------------------------------------------
+
 Euro Linux 9 - How to install KDE plasma via Euro Linux and windows 11 - KDE - WSL - GWSL - 2024
 
 You can find Euro Linux for WSL here
