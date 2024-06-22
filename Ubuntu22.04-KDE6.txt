@@ -4,7 +4,7 @@ You Can Find Ubuntu 22.04 via Microsoft Store or via this Link
 https://apps.microsoft.com/detail/9pn20msr04dw?hl=en-us&gl=US
 
 How to install kde plasma 6 via Ubuntu 22.04 - TEXT
-Comming Zone!
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu22.04-KDE6.txt
 
 How to install kde plasma 6 via Ubuntu 22.04 - Movie
 https://www.youtube.com/watch?v=LRt50HwViX4
