@@ -24,6 +24,61 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Ubuntu 22.04 - How to Install KDE 6 via Ubuntu 22.04 via Windows 11 - WSL - GWSL - Windows 11 - 2024
+
+You Can Find Ubuntu 22.04 via Microsoft Store or via this Link
+
+https://apps.microsoft.com/detail/9pn20msr04dw?hl=en-us&gl=US
+
+How to install kde plasma 6 via Ubuntu 22.04 - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu22.04-KDE6.txt
+
+How to install kde plasma 6 via Ubuntu 22.04 - Movie
+
+https://www.youtube.com/watch?v=LRt50HwViX4
+
+![Ubuntu22 04-KDE6](https://github.com/vinberg88/opensuse/assets/94398623/a15e3a0c-4d25-42e1-9559-c7f209640d51)
+
+About Ubuntu 22.04 - https://ubuntu.com
+
+Ubuntu is an ancient African word meaning ‘humanity to others’.
+It is often described as reminding us that ‘I am what I am
+because of who we all are’. We bring the spirit of Ubuntu to
+the world of computers and software. The Ubuntu distribution
+represents the best of what the world’s software Community
+has shared with the world. Ubuntu was the first operating
+system to commit to scheduled releases on a predictable
+cadence, every six months, starting in October 2004. 
+In 2006 we decided that every fourth release, made every
+two years, would receive long-term support for large-scale
+deployments. This is the origin of the term LTS for 
+stable, maintained releases. Ubuntu is World Class!
+
+About KDE 6 Plasma - https://kde.org
+
+KDE Plasma is a modern, feature-rich desktop environment
+for Linux-based operating systems. Known for its sleek
+design, customizable interface, and extensive set of
+applications, it is also open source, devoid
+of ads, and makes protecting your privacy and
+personal data a priority. The KDE Plasma Launcher lets
+you quickly and easily launch applications, but it
+can do much more -- convenient tasks like bookmarking
+applications, searching for documents as you type, or
+navigating to common places help you get straight
+to the point. With a history of recently started programs
+and opened files, you can return to where you left off.
+It even remembers previously entered search terms so
+you don't have to.
+
+You cane find more Stuff for WSL and Windows 11 here
+https://github.com/vinberg88/opensuse
+
+Best Regards Mattias Vinberg - Ubunt 22.04 - KDE 6 - Linux - Windows 11 - SWEDEN - 2024
+
+---------------------------------------------
+
 Euro Linux 9 - How to install Gnome via Euro Linux and windows 11 - KDE - WSL - GWSL - 2024
 
 You can find Euro Linux for WSL here
