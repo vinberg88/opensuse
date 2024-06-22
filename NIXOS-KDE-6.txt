@@ -1,7 +1,7 @@
 NixOS - How To install KDE 6 via NixOS 24.11 and Windows 11 - WSL - GWSL - Linux - 2024
 
 How to install KDE 6 via NIXOS - WSL - TEXT
-Comming Zone..
+https://github.com/vinberg88/opensuse/blob/main/NIXOS-KDE-6.txt
 
 How to install KDE 6 via NIXOS - WSL - MOVIE
 https://www.youtube.com/watch?v=MJyIkZpSW2c
