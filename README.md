@@ -24,6 +24,62 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+NixOS - How To install KDE 6 Plasma via NixOS 24.11 and Windows 11 - WSL - GWSL - Linux - 2024
+
+How to install KDE 6 via NIXOS - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/NIXOS-KDE-6.txt
+
+How to install KDE 6 via NIXOS - WSL - MOVIE
+
+https://www.youtube.com/watch?v=MJyIkZpSW2c
+
+You can find NixOS here For WSL - You will update to NIXOS 24.11
+
+https://github.com/nix-community/NixOS-WSL/releases/tag/2311.5.3
+
+![NIXOS-KDE-6](https://github.com/vinberg88/opensuse/assets/94398623/303bf3e5-d591-4a98-87dd-6f1a62ca3655)
+
+About NixOS 24.11 - https://nixos.org/explore
+
+Nix is a tool that takes a unique approach to package
+management and system configuration. Learn how to make
+reproducible, declarative and reliable systems. NixOS 
+is a unique Linux distribution that stands out due
+to its innovative approach to package management and
+system configuration. 
+
+Who should consider NixOS - NIXOS is not for all!
+
+Developers - The reproducible build environment and ease
+of managing development dependencies make NixOS an excellent
+choice for developers. System Administrators - The
+declarative configuration and robust upgrade model
+simplify system administration tasks and reduce 
+maintenance overhead. If you want to try Linux
+use other sort =)
+
+About KDE 6 Plasma - https://nixos.org/explore
+
+KDE Plasma 6 is the latest major release of the popular
+KDE Plasma desktop environment for Linux-based operating
+systems. It was released in February 2024 and brings
+a number of improvements and refinements over Plasma 5.
+KDE Plasma 6 is a solid upgrade that builds on the strengths
+of Plasma 5. It's not a radical departure, but rather
+a refinement of the existing experience. The switch to
+Wayland is a major improvement, and the performance 
+enhancements are welcome. The new default settings may take
+some getting used to for existing users, but they are designed
+to make Plasma more accessible to newcomers.
+
+Find more stuff here for WSL and Windows 11 via WSL - GWSL - Linux
+https://github.com/vinberg88/opensuse
+
+Best Regards - Mattias Vinerg - NixOS - KDE 6 - SweDen - WSL - GWSL - 2024 
+
+---------------------------------------------
+
 Ubuntu 22.04 - How to Install KDE 6 via Ubuntu 22.04 via Windows 11 - WSL - GWSL - Windows 11 - 2024
 
 You Can Find Ubuntu 22.04 via Microsoft Store or via this Link
