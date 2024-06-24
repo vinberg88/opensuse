@@ -24,6 +24,56 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+OpenSUSE LEAP 15.6 - How to install KDE plasm via Opensuse Leap - WSL - GWSL - Windows 11 - Linux - 2024
+
+You can find OPENSUSE LEAP 15.6 here or in Microsoft Store 
+Opensuse Leap 15.6 is latest realase 2024-06-05 from Opensuse.
+
+https://apps.microsoft.com/detail/9pdtjhbqrqpf?hl=en-in&gl=US
+
+How to install KDE via OpenSUSE LEAP 15.6 - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Opensuse-Leap-KDE.txt
+
+How to install KDE via OpenSUSE LEAP 15.6 - GWSL - MOVIE
+
+https://www.youtube.com/watch?v=1kgG0gih9ZI
+
+![Opensuse-Leap-KDE](https://github.com/vinberg88/opensuse/assets/94398623/49337321-092b-4997-a7be-dbdeca35ffff)
+
+About OpenSUSE LEAP 15.6 - https://get.opensuse.org/leap/15.6
+
+A brand new way of building openSUSE and a new
+type of a hybrid Linux distribution. Leap uses
+source from SUSE Linux Enterprise (SLE), which
+gives Leap a level of stability unmatched by
+other Linux distributions, and combines that with
+community developments to give users, developers
+and sysadmins the best stable Linux experience
+available. OpenSUSE LEAP is not a Rolling releas.
+
+About KDE plasma - https://kde.org
+
+openSUSE comes in two versions. Leap, a stable
+distribution with regular releases, comes with LTS
+versions of Linux, Qt and Plasma. Tumbleweed, a
+rolling distribution with the latest versions of
+all packages. The next generation desktop for Linux.
+Use KDE software to surf the web, keep in touch with
+colleagues, friends and family, manage your files, enjoy
+music and videos; and get creative and productive at
+work. The KDE community develops and maintains more
+than 200 applications which run on any Linux
+desktop, and often other platforms too.
+
+You Can Find More Stuff here for WSL. Windows 11 and Linux - WSL - GWSL
+
+https://github.com/vinberg88/opensuse
+
+Best, Mattias Vinberg - SweDen - OpenSUSE LEAP 15.6 - WSL - GWSL - Windows 11 - Linux - KDE - 2024
+
+---------------------------------------------
+
 NixOS - How To install KDE 6 Plasma via NixOS 24.11 and Windows 11 - WSL - GWSL - Linux - 2024
 
 How to install KDE 6 via NIXOS - WSL - TEXT
