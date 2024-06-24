@@ -1,0 +1,192 @@
+OpenSUSE LEAP 15.6 - How to install KDE plasm via Opensuse Leap - WSL - GWSL - Windows 11 - Linux - 2024
+
+You can find OPENSUSE LEAP 15.6 here or in Microsoft Store 
+Opensuse Leap 15.6 is latest realase 2024-06-05 from Opensuse.
+https://apps.microsoft.com/detail/9pdtjhbqrqpf?hl=en-in&gl=US
+
+How to install KDE via OpenSUSE LEAP 15.6 - WSL - TEXT
+Comming Zone..
+
+How to install KDE via OpenSUSE LEAP 15.6 - GWSL - MOVIE
+https://www.youtube.com/watch?v=1kgG0gih9ZI
+
+
+ ,-.               ,-.  .  .  ,-.  ,--.   ,                
+/   \             (   ` |  | (   ` |      |                
+|   | ;-. ,-. ;-.  `-.  |  |  `-.  |-     |    ,-. ,-: ;-. 
+\   / | | |-' | | .   ) |  | .   ) |      |    |-' | | | | 
+ `-'  |-' `-' ' '  `-'  `--`  `-'  `--'   `--' `-' `-` |-' 15.6
+      '                                                '  
+
+About OpenSUSE LEAP 15.6 - https://get.opensuse.org/leap/15.6
+
+A brand new way of building openSUSE and a new
+type of a hybrid Linux distribution. Leap uses
+source from SUSE Linux Enterprise (SLE), which
+gives Leap a level of stability unmatched by
+other Linux distributions, and combines that with
+community developments to give users, developers
+and sysadmins the best stable Linux experience
+available. OpenSUSE LEAP is not a Rolling releas.
+
+About KDE plasma - https://kde.org
+
+openSUSE comes in two versions. Leap, a stable
+distribution with regular releases, comes with LTS
+versions of Linux, Qt and Plasma. Tumbleweed, a
+rolling distribution with the latest versions of
+all packages. The next generation desktop for Linux.
+Use KDE software to surf the web, keep in touch with
+colleagues, friends and family, manage your files, enjoy
+music and videos; and get creative and productive at
+work. The KDE community develops and maintains more
+than 200 applications which run on any Linux
+desktop, and often other platforms too.
+
+You Can Find More Stuff here for WSL. Windows 11 and Linux - WSL - GWSL
+https://github.com/vinberg88/opensuse
+
+----------------------------------------------------------------------
+
+Paste All in terminal
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+----------------------------------------------------------------------
+
+Reboot Tumbelweed Leap - Reboot Tumbelweed Leap - Reboot Tumbelweed Leap
+
+----------------------------------------------------------------------
+
+Update Tumbelweed Leap 15.6 via terminal.
+
+sudo zypper ref -b && sudo zypper dup
+
+----------------------------------------------------------------------
+
+Copy and paste to Terminal and install Systemd.
+
+sudo nano /etc/wsl.conf 
+
+and add
+
+[boot]
+systemd=true
+
+----------------------------------------------------------------------
+
+Reboot Tumbelweed Leap - Reboot Tumbelweed Leap - Reboot Tumbelweed Leap
+
+----------------------------------------------------------------------
+
+Install this programs for OpenSuse Leap 15.6
+
+sudo zypper install bash git npm wget curl nano dialog go opi sddm gnome-terminal
+
+----------------------------------------------------------------------
+
+Install all - one by one.
+
+sudo zypper ar -cfp 90 'https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_$releasever/' packman
+
+sudo zypper dup --from packman --allow-vendor-change
+
+opi codecs
+
+----------------------------------------------------------------------
+
+Install this - Extra programs for WSL 
+
+sudo zypper in -t pattern wsl_gui wsl_base wsl_systemd
+
+----------------------------------------------------------------------
+
+Type in terminal
+
+Type: sudo yast
+
+sudo yast and go to onlien update and install all
+Look under Dependencies and use install recommende packages to.
+
+----------------------------------------------------------------------
+
+Time to install KDE plasma 6 via Opensuse Leap 15.6
+
+sudo zypper install -t pattern kde kde_plasma 
+
+---------------------------------------------------------------------- 
+
+Use yast and install all from recommende packages under meny "Dependencies"
+
+Copy and paste in Console: sudo yast
+
+----------------------------------------------------------------------
+
+Install My Favorite Browser - Google-Chrome: opi google-chrome
+
+----------------------------------------------------------------------
+
+Install My Favorite App =] 
+
+Copy and paste in Terminal: opi blanket
+
+----------------------------------------------------------------------
+
+Install Fastfetch via: opi fastfetch
+
+Test in Console: fastfetch
+
+----------------------------------------------------------------------
+
+Reboot Tumbelweed Leap - Reboot Tumbelweed Leap - Reboot Tumbelweed Leap
+
+----------------------------------------------------------------------
+
+Config GWSL and reboot - start Linux shell from GWSL
+
+----------------------------------------------------------------------
+
+Take an extra Reboot and start from GWSL Shell / Bash / Console
+
+----------------------------------------------------------------------
+
+paste in terminal and install one by one. No stress!
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+sudo systemctl set-default graphical
+
+----------------------------------------------------------------------
+
+In terminal type: sudo nano ~/.bash_opensuse_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------------------------------
+
+Reboot - Reboot - Reboot - Reboot - Reboot - Reboot - Reboot
+
+----------------------------------------------------------------------
+
+Paste in terminal: . ~/.bash_opensuse_desktop
+
+Type in terminal: dbus-launch startplasma-x11
+
+----------------------------------------------------------------------
+
+Best, Mattias Vinberg - SweDen - OpenSUSE LEAP 15.6 - WSL - GWSL - Windows 11 - Linux - KDE - 2024
+
+----------------------------------------------------------------------
