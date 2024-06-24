@@ -5,7 +5,7 @@ Opensuse Leap 15.6 is latest realase 2024-06-05 from Opensuse.
 https://apps.microsoft.com/detail/9pdtjhbqrqpf?hl=en-in&gl=US
 
 How to install KDE via OpenSUSE LEAP 15.6 - WSL - TEXT
-Comming Zone..
+https://github.com/vinberg88/opensuse/blob/main/Opensuse-Leap-KDE.txt
 
 How to install KDE via OpenSUSE LEAP 15.6 - GWSL - MOVIE
 https://www.youtube.com/watch?v=1kgG0gih9ZI
@@ -180,6 +180,8 @@ export LIBGL_ALWAYS_SOFTWARE=1
 Reboot - Reboot - Reboot - Reboot - Reboot - Reboot - Reboot
 
 ----------------------------------------------------------------------
+
+Time to start KDE via OpenSUse Leap!
 
 Paste in terminal: . ~/.bash_opensuse_desktop
 
