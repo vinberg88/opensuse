@@ -6,7 +6,7 @@ or via this link: https://apps.microsoft.com/detail/9pdtjhbqrqpf?hl=en-in&gl=US
 OpenSUSE LEAP is not a Rolling releas... 
 
 How to install Gnome via OpenSUSE LEAP 15.6 - WSL - TEXT
-Coming Zone..
+https://github.com/vinberg88/opensuse/blob/main/Opensuse-Leap-Gnome.txt
 
 How to install Gnome via OpenSUSE LEAP 15.6 - GWSL - MOVIE
 https://www.youtube.com/watch?v=klwShKWnd98
