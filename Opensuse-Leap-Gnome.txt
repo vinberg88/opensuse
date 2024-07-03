@@ -81,7 +81,7 @@ echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
 
 ----------------------------------------------------------------------
 
-Reboot Tumbelweed Leap - Reboot Tumbelweed Leap - Reboot Tumbelweed Leap
+Reboot Tumbelweed Leap - Reboot Tumbelweed Leap - Reboot Opensuse Leap
 
 ----------------------------------------------------------------------
 
@@ -147,7 +147,7 @@ Test in Console: fastfetch
 
 ----------------------------------------------------------------------
 
-Reboot Tumbelweed Leap - Reboot Tumbelweed Leap - Reboot Tumbelweed Leap
+Reboot Tumbelweed Leap - Reboot Tumbelweed Leap - Reboot Opensuse Leap
 
 ----------------------------------------------------------------------
 
