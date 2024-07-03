@@ -24,6 +24,59 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+OpenSUSE LEAP 15.6 - How to install Gnome via Opensuse Leap - WSL - GWSL - Windows 11 - Linux - 2024
+
+You can find OPENSUSE LEAP 15.6 in Microsoft Store 
+Opensuse Leap 15.6 is latest realase 2024-06-05 from Opensuse.
+or via this link: https://apps.microsoft.com/detail/9pdtjhbqrqpf?hl=en-in&gl=US
+OpenSUSE LEAP is not a Rolling releas... 
+
+How to install Gnome via OpenSUSE LEAP 15.6 - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Opensuse-Leap-Gnome.txt
+
+How to install Gnome via OpenSUSE LEAP 15.6 - GWSL - MOVIE
+
+https://www.youtube.com/watch?v=klwShKWnd98
+
+![Opensuse-Leap-Gnome](https://github.com/vinberg88/opensuse/assets/94398623/91ee16c2-5d51-4692-9eb8-98d70befc938)
+
+
+About OpenSUSE LEAP 15.6 - https://get.opensuse.org/leap/15.6
+
+A brand new way of building openSUSE and a new
+type of a hybrid Linux distribution. Leap uses
+source from SUSE Linux Enterprise (SLE), which
+gives Leap a level of stability unmatched by
+other Linux distributions, and combines that with
+community developments to give users, developers
+and sysadmins the best stable Linux experience
+available. OpenSUSE LEAP is not a Rolling releas.
+
+About Gnome Desktop - https://www.gnome.org
+
+Every part of GNOME has been designed to make it
+simple and easy to use. The Activities Overview is
+a simple way to access all your basic tasks. A press
+of a button is all it takes to view your open
+windows, launch applications, or check if you have new
+messages. Having everything in one convenient place
+means you don’t have to learn your way around
+a maze of different technologies. Every aspect of GNOME
+has been crafted to fit together as a harmonious
+whole, providing a consistent and integrated experience.
+Our attention to detail means a smooth and polished 
+product that lets you do the things you want without 
+getting in the way. GNOME is satisfying to use and
+beautiful to behold.
+
+You Can Find More Stuff here for WSL. Windows 11 and Linux - WSL - GWSL
+https://github.com/vinberg88/opensuse
+
+Best Regards, Mattias Vinberg - SweDen - OpenSUSE LEAP 15.6 - WSL - GWSL - Windows 11 - Linux - Gnome
+
+---------------------------------------------
+
 OpenSUSE LEAP 15.6 - How to install KDE plasm via Opensuse Leap - WSL - GWSL - Windows 11 - Linux - 2024
 
 You can find OPENSUSE LEAP 15.6 here or in Microsoft Store 
