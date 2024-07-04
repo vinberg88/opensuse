@@ -24,6 +24,58 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Kylin - How to Install Kylin Desktop on Ubuntu 22.04 via Windows 11 - WSL - GWSL - WINDOWS 11 - Linux - 2024
+
+It's just because it's fun. Do not run this in development mode, just as a test.
+Kylin is under constant development. That's what I said =]
+
+You Will Find Ubuntu 22.04 via this link or in Microsoft store.
+
+https://apps.microsoft.com/detail/9pn20msr04dw?rtc=1&hl=sv-se&gl=SE
+
+How to install Kylin desktop via windows 11 and Unbunt 22.04 - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu22.04-Kylin.txt
+
+How to install Kylin desktop via windows 11 and Unbunt 22.04 - MOVIE
+
+https://www.youtube.com/watch?v=BTm59cOFNnY
+
+![Ubuntu22 04-Kylin](https://github.com/vinberg88/opensuse/assets/94398623/826cf507-bedd-4059-b19d-762a8769ad90)
+
+About Ubuntu - https://ubuntu.com/desktop/wsl
+
+Ubuntu 22.04 - 24.04 LTS brings more of everything you love about
+Ubuntu Desktop. More features and customisation options, more
+performance and power efficiency and more ways to integrate
+with your existing enterprise management tools. Combined with
+our LTS commitment of five years of updates and security 
+patching, we’re confident that this latest version of the
+Linux Desktop delivers everything needed to empower developers
+and creators in 2022 and beyond. Ubuntu WSL gives you a full
+Ubuntu environment, deeply integrated with Windows, for Linux
+application development and execution. Optimised for
+cloud, web, data science, IoT and fun!
+
+About Kylin Desktop - https://ubuntukylin.com/index-en.html
+
+Ubuntu Kylin is a beautiful Linux operating system optimized
+for Chinese users. Since its creation in 2013, the Ubuntu Kylin
+open source operating system has released 20 
+versions, downloaded more than 32 million times, contributed
+millions of lines of code and over 7400 patches to the open source
+community, and has been accepted by international open source
+communities such as Linux, Debian, Ubuntu, OpenStack, and Ceph.
+For now, we have hundreds of thousands of active users worldwide.
+
+You cane Find More Stufff here About WSL - GWSL - Windows 11
+
+https://github.com/vinberg88/opensuse
+
+Warm Regards - Mattias Vinberg - Ubuntu - Kylin Desktop - Windows 11 - Sweden - 2024 - WSL
+
+---------------------------------------------
+
 OpenSUSE LEAP 15.6 - How to install Gnome via Opensuse Leap - WSL - GWSL - Windows 11 - Linux - 2024
 
 You can find OPENSUSE LEAP 15.6 in Microsoft Store 
