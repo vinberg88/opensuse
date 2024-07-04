@@ -1,0 +1,217 @@
+Kylin - How to Install Kylin Desktop on Ubuntu 22.04 via Windows 11 - WSL - GWSL - WINDOWS 11 - Linux - 2024
+
+It's just because it's fun. Do not run this in development mode, just as a test.
+Kylin is under constant development. That's what I said =]
+
+You Will Find Ubuntu 22.04 via this link or in Microsoft store.
+https://apps.microsoft.com/detail/9pn20msr04dw?rtc=1&hl=sv-se&gl=SE
+
+How to install Kylin desktop via windows 11 and Unbunt 22.04 - TEXT
+Comming zone!
+
+How to install Kylin desktop via windows 11 and Unbunt 22.04 - MOVIE
+https://www.youtube.com/watch?v=BTm59cOFNnY
+
+
+
+                             ....                                         ....
+              .',:clooo:  .:looooo:.                       .',:clooo:  .:looooo:.
+           .;looooooooc  .oooooooooo'                   .;looooooooc  .oooooooooo'
+        .;looooool:,''.  :ooooooooooc                .;looooool:,''.  :ooooooooooc
+       ;looool;.         'oooooooooo,               ;looool;.         'oooooooooo,
+      ;clool'             .cooooooc.  ,,           ;clool'             .cooooooc.  ,,
+         ...                ......  .:oo,             ...                ......  .:oo,
+  .;clol:,.                        .loooo'     .;clol:,.                        .loooo'
+ :ooooooooo,                        'ooool    :ooooooooo,                        'ooool
+'ooooooooooo.                        loooo.  'ooooooooooo.                        loooo.
+'ooooooooool                         coooo.  'ooooooooool                         coooo.
+ ,loooooooc.                        .loooo.   ,loooooooc.                        .loooo.
+   .,;;;'.                          ;ooooc      .,;;;'.                          ;ooooc
+       ...                         ,ooool.          ...                         ,ooool.
+    .cooooc.              ..',,'.  .cooo.        .cooooc.              ..',,'.  .cooo.
+      ;ooooo:.           ;oooooooc.  :l.           ;ooooo:.           ;oooooooc.  :l.
+       .coooooc,..      coooooooooo.                .coooooc,..      coooooooooo.
+         .:ooooooolc:. .ooooooooooo'                  .:ooooooolc:. .ooooooooooo'
+           .':loooooo;  ,oooooooooc                     .':loooooo;  ,oooooooooc
+               ..';::c'  .;loooo:'                          ..';::c'  .;loooo:'
+                             .                                            .
+
+About Ubuntu - https://ubuntu.com/desktop/wsl
+
+Ubuntu 22.04 - 24.04 LTS brings more of everything you love about
+Ubuntu Desktop. More features and customisation options, more
+performance and power efficiency and more ways to integrate
+with your existing enterprise management tools. Combined with
+our LTS commitment of five years of updates and security 
+patching, we’re confident that this latest version of the
+Linux Desktop delivers everything needed to empower developers
+and creators in 2022 and beyond. Ubuntu WSL gives you a full
+Ubuntu environment, deeply integrated with Windows, for Linux
+application development and execution. Optimised for
+cloud, web, data science, IoT and fun!
+
+About Kylin Desktop - https://ubuntukylin.com/index-en.html
+
+Ubuntu Kylin is a beautiful Linux operating system optimized
+for Chinese users. Since its creation in 2013, the Ubuntu Kylin
+open source operating system has released 20 
+versions, downloaded more than 32 million times, contributed
+millions of lines of code and over 7400 patches to the open source
+community, and has been accepted by international open source
+communities such as Linux, Debian, Ubuntu, OpenStack, and Ceph.
+For now, we have hundreds of thousands of active users worldwide.
+
+You cane Find More Stufff here About WSL - GWSL - Windows 11
+
+https://github.com/vinberg88/opensuse
+
+--------------------------------------------
+
+Paste all to terminal. Remove Symbolic erros.
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+--------------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot Reboot
+
+--------------------------------------------
+
+Update all: sudo apt update && sudo apt upgrade
+
+--------------------------------------------
+
+Install programs
+
+sudo apt install bash git npm wget curl nano sudo pipx -y
+sudo apt install lightdm* -y
+sudo systemctl set-default graphical
+
+--------------------------------------------
+
+
+Install hyfetch by paste this 2 lines.
+
+pipx install hyfetch
+pipx ensurepath
+
+Test by paste this line in Console. Need to shutdown terminal and start agian: hyfetch
+
+--------------------------------------------
+
+Install Chrome
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+--------------------------------------------
+
+Install Blanket
+
+wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+
+--------------------------------------------
+
+Reboot Linux Reboot Linux Reboot Linux  Reboot Linux 
+
+--------------------------------------------
+
+Config GWSL and start from there - Linux Shell from GWSL...Always!
+
+NOTE: Chang GWSL PROFILE TO "MULTI WINDOW MODE"
+
+--------------------------------------------
+
+Reboot Linux Reboot Linux Reboot Linux  Reboot Linux
+
+--------------------------------------------
+
+Paste this lines in terminal - Remove Acpi error.
+
+sudo ln -s /dev/null /etc/systemd/system/acpid.service
+sudo ln -s /dev/null /etc/systemd/system/acpid.path
+
+--------------------------------------------
+
+Paste and Copy and install via console / bash
+
+sudo snap install firefox
+
+--------------------------------------------
+
+10. Time to install UKUI desktop. Paste in Bash / Console / terminal
+
+
+sudo apt install ubuntukylin-desktop -y
+
+--------------------------------------------
+
+Paste in terminal and klick enter
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+--------------------------------------------
+
+Type this in terminal and put your user there at the end - loginctl enable-linger user
+
+--------------------------------------------
+
+
+13. Copy this and paste in terminal: sudo nano ~/.bash_ubuntu_desktop
+
+Then add this lines and save in terminal
+
+export XDG_CURRENT_DESKTOP=ubuntu:GNOME
+export XDG_SESSION_DESKTOP=ubuntu
+export DESKTOP_SESSION=ubuntu
+export GNOME_SHELL_SESSION_MODE=ubuntu
+
+export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+export XDG_MENU_PREFIX=gnome-
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+------------------------------------------------------
+
+Reboot… Reboot… Reboot… Reboot... Reboot… Remeber to start TERMINAL from GWSL.
+
+------------------------------------------------------
+
+Paste in terminal and follow instruction!
+
+git clone https://github.com/DamionGans/ubuntu-wsl2-systemd-script.git
+cd ubuntu-wsl2-systemd-script/
+bash ubuntu-wsl2-systemd-script.sh
+
+------------------------------------------------------
+
+Reboot… Reboot… Reboot… Reboot... Reboot… Remeber to start TERMINAL from GWSL.
+
+------------------------------------------------------
+
+sudo apt install kwin*
+
+------------------------------------------------------
+
+Paste in terminal: . ~/.bash_ubuntu_desktop
+
+Type in terminal and start UkUI: dbus-launch ukui-session
+
+------------------------------------------------------
+
+Warm Regards - Mattias Vinberg - Ubuntu - Kylin Desktop - Windows 11 - Sweden - 2024 - WSL
+
