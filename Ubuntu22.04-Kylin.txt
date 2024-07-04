@@ -7,7 +7,7 @@ You Will Find Ubuntu 22.04 via this link or in Microsoft store.
 https://apps.microsoft.com/detail/9pn20msr04dw?rtc=1&hl=sv-se&gl=SE
 
 How to install Kylin desktop via windows 11 and Unbunt 22.04 - TEXT
-Comming zone!
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu22.04-Kylin.txt
 
 How to install Kylin desktop via windows 11 and Unbunt 22.04 - MOVIE
 https://www.youtube.com/watch?v=BTm59cOFNnY
@@ -214,4 +214,5 @@ Type in terminal and start UkUI: dbus-launch ukui-session
 ------------------------------------------------------
 
 Warm Regards - Mattias Vinberg - Ubuntu - Kylin Desktop - Windows 11 - Sweden - 2024 - WSL
+
 
