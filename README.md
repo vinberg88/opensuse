@@ -24,6 +24,44 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Endeavouros - UkUI Desktop - How to install UkUI via EndeavourOS - WSL - GWSL - Windows 11 - 2024
+
+You can find EndeavourOS here for WSL - https://github.com/sileshn/EndeavourOSWSL2
+
+How to install UKUI desktop via Endeavouros and Windows 11 - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Endeavouros-UKUI.txt
+
+How to install UKUI desktop via Endeavouros and Windows 11 - MOVIE
+
+https://www.youtube.com/watch?v=eAgxZ6i68Fc
+
+![Endeavouros-UKUI](https://github.com/vinberg88/opensuse/assets/94398623/1b64776d-6a5e-412a-ab54-6c9fc4fde78a)
+
+About EndeavourOS - https://endeavouros.com/
+
+EndeavourOS is an Arch-based distro that provides an Arch 
+experience without the hassle of installing it manually for
+x86_64 and ARM devices. After installation, you’re provided
+with a lightweight and almost bare-bones environment ready to
+be explored with your terminal, along with our home-built
+Welcome App as a powerful guide to help you along.
+
+About UKUI desktop - https://github.com/ukui/ukui-desktop-environment
+
+UKUI is a desktop environment for Linux distributions and
+other UNIX-like operating systems. It provides a simpler
+and more enjoyable experience for browsing, searching and
+managing your computer.
+
+Find More Stuff here for WSL - GWSL - WINDOWS 11
+
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - EndeavourOS - Linux - UKUI - WSL - SWeDen - Windows 11 - 2024
+
+---------------------------------------------
+
 Kylin - How to Install Kylin Desktop on Ubuntu 22.04 via Windows 11 - WSL - GWSL - WINDOWS 11 - Linux - 2024
 
 It's just because it's fun. Do not run this in development mode, just as a test.
