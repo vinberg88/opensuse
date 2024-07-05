@@ -1,0 +1,273 @@
+
+Fedora Rawhide - How to install KDE 6 - GWSL - Fedora Rawhide via Windows 11 - Linux - WSL - 2024
+
+
+You will find Fedora Rawhide for WSL and Windows 11 here
+https://github.com/sileshn/FedoraWSL2
+
+How to install KDE plasma 6 via Fedora Rawhide - TEXT
+Comming Zone..... 
+
+How to install KDE plasma 6 via Fedora Rawhide - MOVIE
+https://www.youtube.com/watch?v=GJLyGEbS2z0
+
+
+              .'ccccc:.             
+         ,'ccccccccccccccc:.        
+      .';cccccccccccccccccccc:.     
+   .'ccccccccccccco@@@@bccccccc; 
+  .:cccccccccccccd@@cccq@@:cccccc, 
+ .:ccccccccccccc@@@ccccc@@Pccccccc;
+,:cccccccccccccc@@@ccccccccccccccc:
+ccccccccco@@@@@c@@@@@@@ccccccccccc: Fedora RawHide - KDE 6 Plasma - 2024
+cccccccd@@cccccc@@@ccccccccccccccc:
+cccccc@@occccccc@@@ccccccccccccccc'
+ccccccq@@bcccccd@@Pccccccccccccc;  
+ccccccccq@@@@@@@Pccccccccccccc:,   
+'cccccccccccccccccccccccccc:.      
+ ;ccccccccccccccccccccc:,.
+
+
+What is Fedora RawHide - https://docs.fedoraproject.org/en-US/releases/rawhide
+
+Rawhide is the name given to the current development version
+of Fedora Linux. It consists of a package repository called
+rawhide and contains the latest build of all Fedora Linux 
+packages updated on a daily basis. Each day, the build system 
+attempts to create a full set of deliverables ,images and so on
+and all that compose successfully are included in the 
+Rawhide tree for that day.
+
+Rawhide is sometimes called "development" or "main". Fedora RawHide is the future.
+
+Fedora, also known as Fedora Linux, is a popular Open Source Linux-based
+operating system (OS). Designed as a secure, general-purpose OS, Fedora
+is developed on a six-month to eight-month release cycle under the Fedora
+Project. Both the OS and the Fedora Project are financially sponsored
+and supported by Red Hat. Fedora is a free and open source OS platform
+for hardware, clouds and containers. Based on the Linux OS kernel
+architecture, Fedora Linux is a user-friendly OS that enables users to
+perform their tasks easily and efficiently with minimal friction. The name
+Fedora refers to the characteristic fedora hat in Red Hat's Shadowman logo.
+
+What is KDE plasma 6 - https://kde.org 
+
+Use Plasma to surf the web; keep in touch with colleagues, friends
+and family; manage your files, enjoy music and videos; and get
+creative and productive at work. Do it all in a beautiful environment
+that adapts to your needs, and with the safety, privacy-protection and
+peace of mind that the best Free Open Source Software has to offer.
+With Plasma 6, our technology stack has undergone two major 
+upgrades: a transition to the latest version of our application 
+framework, Qt, and a migration to the modern Linux graphics 
+platform, Wayland. We have done our best to ensure that these 
+changes are as smooth and unnoticeable to the users as possible, 
+so when you install this update, you will see the same familiar 
+desktop environment that you know and love. But these 
+under-the-hood upgrades benefit Plasma's security, 
+efficiency, and performance, and improve support for modern
+hardware. Thus Plasma delivers an overall more reliable
+user experience, while paving the way for many more
+improvements in the future. Kde 6 Plasma is a good Desktop.
+
+
+Here you have more stuff about WSL - GWSL - Windows - Linux - 2024
+https://github.com/vinberg88/opensuse
+
+----------------------------------------------
+
+Make Fedora Rawhide faster - Tyoe this in Terminal
+
+sudo nano /etc/dnf/dnf.conf
+
+and ad this to Console
+
+max_parallel_downloads=10
+fastestmirror=true
+
+----------------------------------------------
+
+Remove Errors in Bash / termainal / Shell - Paste all and press enter.
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+----------------------------------------------
+
+Reboot - Reboot - Reboot - Reboot - Reboot - Reboot
+
+----------------------------------------------
+
+Time to update Fedora RawHide so we can install KDE 6 Plasma.
+
+Paste in Terminal: sudo dnf update
+
+----------------------------------------------
+
+Add repos in Bash - I have already added them but try to run them again.
+
+sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-rawhide.noarch.rpm
+sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-rawhide.noarch.rpm
+
+----------------------------------------------
+
+Time to update Fedora RawHide - again
+
+Paste in Terminal: sudo dnf upgrade --refresh
+
+----------------------------------------------
+
+Install the following programs in Terminal For Fedora RawHide.
+
+sudo dnf install git wget curl bash pipx net-tools dbus-x11
+
+----------------------------------------------
+
+Install Chrome Browser - Always works =}
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm
+sudo yum update google-chrome-stable
+
+----------------------------------------------
+
+Time Install KDE 6 plasma for Fedora RawHide 
+
+ sudo dnf install \
+ @"base-x" \
+ @"Common NetworkManager Submodules" \
+ @"Fonts" \
+ @"Hardware Support" \
+ bluedevil \
+ breeze-gtk \
+ breeze-icon-theme \
+ cagibi \
+ colord-kde \
+ cups-pk-helper \
+ dolphin \
+ glibc-all-langpacks \
+ gnome-keyring-pam \
+ kcm_systemd \
+ kde-gtk-config \
+ kde-partitionmanager \
+ kde-print-manager \
+ kde-settings-pulseaudio \
+ kde-style-breeze \
+ kdegraphics-thumbnailers \
+ kdeplasma-addons \
+ kdialog \
+ kdnssd \
+ kf5-akonadi-server \
+ kf5-akonadi-server-mysql \
+ kf5-baloo-file \
+ kf5-kipi-plugins \
+ khotkeys \
+ kmenuedit \
+ konsole5 \
+ kscreen \
+ kscreenlocker \
+ ksshaskpass \
+ ksysguard \
+ kwalletmanager5 \
+ kwebkitpart \
+ kwin \
+ NetworkManager-config-connectivity-fedora \
+ pam-kwallet \
+ phonon-qt5-backend-gstreamer \
+ pinentry-qt \
+ plasma-breeze \
+ plasma-desktop \
+ plasma-desktop-doc \
+ plasma-drkonqi \
+ plasma-nm \
+ plasma-nm-l2tp \
+ plasma-nm-openconnect \
+ plasma-nm-openswan \
+ plasma-nm-openvpn \
+ plasma-nm-pptp \
+ plasma-nm-vpnc \
+ plasma-pa \
+ plasma-user-manager \
+ plasma-workspace \
+ plasma-workspace-geolocation \
+ polkit-kde \
+ qt5-qtbase-gui \
+ qt5-qtdeclarative \
+ sddm \
+ sddm-breeze \
+ sddm-kcm \
+ setroubleshoot \
+ sni-qt \
+ xorg-x11-drv-libinput --skip-unavailable
+
+-------------------------------------------------------------
+
+Paste this in Bash / terminal / Console / Shell for Fedora and KDE 6
+
+sudo systemctl enable sddm
+sudo systemctl set-default graphical.target
+
+-------------------------------------------------------------
+
+Reboot - Reboot - Reboot - Reboot - Reboot - Reboot - Fedora Rawhide
+
+-------------------------------------------------------------
+
+Login with GWSL and Config all. Then start Linux-shell from GWSL
+
+    "After installing wsl. Always start from GWSL bash"
+
+-------------------------------------------------------------
+
+Reboot - Reboot - Reboot - Reboot - Reboot - Reboot - Fedora Rawhide
+
+-------------------------------------------------------------
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-------------------------------------------------------------
+
+In terminal type: sudo nano ~/.bash_Fedora_desktop
+
+Paste this small script in terminal and save and quit nano.
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-------------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot Reboot - Fedora Rawhide
+
+-------------------------------------------
+
+Install this - Importent for KDE 6 to start.
+
+sudo dnf install plasma-workspace-x11
+
+-------------------------------------------
+
+Then everything was ready to start. Paste this lines in Terminal.
+
+Type in terminal: . ~/.bash_Fedora_desktop
+    
+Type in terminal: dbus-launch startplasma-x11
+
+Fedora Rawhide is in constant development so Good luck =]
+
+It takes a little time to start at the beginning so leave it for
+a minute if nothing happens.
+
+-------------------------------------------
+
+Regards Mattias Vinberg - Fedora RawHide - KDE 6 Plasma - Sweden - Linux - Windows - 2024
+
