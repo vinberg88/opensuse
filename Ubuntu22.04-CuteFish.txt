@@ -1,0 +1,201 @@
+Ubuntu And CUTEFISH Desktop - How to install CUTEFISH via Ubuntu 22.04 - WSL - GWSL - Windows 11 - 2024
+
+Stabel Verison for more then tensting. Cutefish is a must to test - 2024
+
+Here you can find Ubuntu 22.04 for WSL or in Microsoft Store - GWSL - WSL - Linux
+https://apps.microsoft.com/detail/9pn20msr04dw?rtc=1&hl=sv-se&gl=SE
+
+How to install CUTEFISH via Ubuntu 22.04 and Windows 11 - TEXT
+Comming Zone...
+
+How to install CUTEFISH via Ubuntu 22.04 and Windows 11 - MOVIE
+https://www.youtube.com/watch?v=aLPhl6Eat7M
+
+                             ....                                         ....
+              .',:clooo:  .:looooo:.                       .',:clooo:  .:looooo:.
+           .;looooooooc  .oooooooooo'                   .;looooooooc  .oooooooooo'
+        .;looooool:,''.  :ooooooooooc                .;looooool:,''.  :ooooooooooc
+       ;looool;.         'oooooooooo,               ;looool;.         'oooooooooo,
+      ;clool'             .cooooooc.  ,,           ;clool'             .cooooooc.  ,,
+         ...                ......  .:oo,             ...                ......  .:oo,
+  .;clol:,.                        .loooo'     .;clol:,.                        .loooo'
+ :ooooooooo,                        'ooool    :ooooooooo,                        'ooool
+'ooooooooooo.                        loooo.  'ooooooooooo.                        loooo.
+'ooooooooool                         coooo.  'ooooooooool                         coooo.
+ ,loooooooc.                        .loooo.   ,loooooooc.                        .loooo.
+   .,;;;'.                          ;ooooc      .,;;;'.                          ;ooooc
+       ...                         ,ooool.          ...                         ,ooool.
+    .cooooc.              ..',,'.  .cooo.        .cooooc.              ..',,'.  .cooo.
+      ;ooooo:.           ;oooooooc.  :l.           ;ooooo:.           ;oooooooc.  :l.
+       .coooooc,..      coooooooooo.                .coooooc,..      coooooooooo.
+         .:ooooooolc:. .ooooooooooo'                  .:ooooooolc:. .ooooooooooo'
+           .':loooooo;  ,oooooooooc                     .':loooooo;  ,oooooooooc
+               ..';::c'  .;loooo:'                          ..';::c'  .;loooo:'
+                             .                                            .
+
+
+About Ubuntu 22.04 - https://ubuntu.com/
+
+Run your choice of Linux text editors, including vim, emacs, and nano.
+Install applications, compilers and libraries from the Ubuntu 
+repository, securely maintained by Canonical. Ubuntu is a
+Linux distribution derived from Debian and composed mostly
+of free and open-source software. Ubuntu is officially
+released in multiple editions: Desktop, Server, and Core
+for Internet of things devices and robots.
+
+About Cutefish Desktop - https://cutefish-ubuntu.github.io/
+
+Cutefish desktop environment is an efficient, beautiful, 
+and modern desktop environment built using Qt Quick and 
+some KDE basic frameworks. Cutefish OS has a global menu
+at the top. It is a collection of all functions of
+an application, which is very convenient for the 
+integration of apps functions with the system, and can
+save some screen space. CutefishOS is an elegant, Beautiful
+and easy-to-use Linux desktop operating system. It runs
+Cutefish Desktop has a modern style design. Our goal
+is to provide users with a comfortable interface
+design, better user experience and a better choice. 
+
+You Can Find More Stuff here About WSL
+
+https://github.com/vinberg88/opensuse
+
+----------------------------------------------
+
+Paste all to terminal and klick Enter - Remove Errors
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+----------------------------------------------
+
+Please Reboot Reboot Reboot Ubuntu - Please!
+
+----------------------------------------------
+
+Update All and Upgrade All: sudo apt update && sudo apt upgrade
+
+----------------------------------------------
+
+Install programs:
+
+sudo apt install bash git npm wget curl pipx -y
+sudo apt install sddm* -y
+sudo systemctl set-default graphical
+
+----------------------------------------------
+
+Install this small program - hyfetch.
+
+pipx install hyfetch
+pipx ensurepath
+
+Just restart terminal and type: hyfetch
+
+Like Noefetch but more gay and see where we are =]
+
+----------------------------------------------
+
+Paste in Terminal: 
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+
+----------------------------------------------
+
+Install Chrome Browser - You must install ir =) No firefox.
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+----------------------------------------
+
+Install Balanket - Listen to sounds - Favorite =]
+
+wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+
+----------------------------------------
+
+Paste this in terminal - one by one. Dont update. Go to next step. Repos for CuteFish
+
+curl -s --compressed "https://cutefishos-ubuntu.github.io/packages/key/KEY.gpg" | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/KEY.gpg >/dev/null
+
+sudo curl -s --compressed -o /etc/apt/sources.list.d/cutefish.list "https://cutefishos-ubuntu.github.io/packages/cutefish.list"
+
+----------------------------------------
+
+Paste in terminal: sudo nano /etc/apt/sources.list.d/cutefish.list 
+
+And delete all and add: deb [trusted=yes] https://cutefishos-ubuntu.github.io/packages ./
+
+Now Run Update: sudo apt update
+
+----------------------------------------
+
+Time to install CuteFish Desktop for Ubuntu 22.04
+
+sudo apt install cutefish
+
+----------------------------------------------
+
+Reboot - Reboot - Reboot - Reboot - Reboot - Ubuntu 22.04
+
+----------------------------------------------
+
+Config GWSL and START Terminal / Bash / Console From GWSL Always.
+
+Take on more reboot PLEASE And start Shell from GWSL. Thank You!
+
+----------------------------------------------
+
+Copy this and paste in terminal: sudo nano ~/.bash_cutefish_desktop
+
+Then add this script to terminal
+
+export XDG_CURRENT_DESKTOP=ubuntu:GNOME
+export XDG_SESSION_DESKTOP=ubuntu
+export DESKTOP_SESSION=ubuntu
+export GNOME_SHELL_SESSION_MODE=ubuntu
+
+export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+export XDG_MENU_PREFIX=gnome-
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------
+
+Please Reboot - Please Reboot - Please Reboot - Ubuntu 22.04
+
+          PLEASE And start Shell from GWSL
+
+----------------------------------------------
+
+Time to start Cutefish desktop via Ubuntu 22.04 LTF
+
+Paste in terminal "All" and start Cutefish Desktop - Can Take some time - First Boot
+
+. ~/.bash_cutefish_desktop
+exec dbus-run-session /usr/bin/cutefish-session
+
+try this if it wont start...
+
+. ~/.bash_cutefish_desktop
+cutefish-session
+
+----------------------------------------------
+
+Regards Mattias Vinberg - SwEden - 2024 - CuteFixh - Ubuntu 22.04 - Windows 11 - Linux - 2024
+
+----------------------------------------------
