@@ -1,0 +1,177 @@
+Endeavouros - UkUI Desktop - How to install UkUI via EndeavourOS - WSL - GWSL - Windows 11 - 2024
+
+You can find EndeavourOS here for WSL - https://github.com/sileshn/EndeavourOSWSL2
+
+How to install UKUI desktop via Endeavouros and Windows 11 - TEXT
+Comming Zone….
+
+How to install UKUI desktop via Endeavouros and Windows 11 - MOVIE
+https://www.youtube.com/watch?v=eAgxZ6i68Fc
+
+
+                     ./o.                                      ./o.
+                   ./sssso-                                  ./sssso-
+                 `:osssssss+-                              `:osssssss+-
+               `:+sssssssssso/.                          `:+sssssssssso/.
+             `-/ossssssssssssso/.                      `-/ossssssssssssso/.
+           `-/+sssssssssssssssso+:`                  `-/+sssssssssssssssso+:`
+         `-:/+sssssssssssssssssso+/.               `-:/+sssssssssssssssssso+/.
+       `.://osssssssssssssssssssso++-            `.://osssssssssssssssssssso++-
+      .://+ssssssssssssssssssssssso++:          .://+ssssssssssssssssssssssso++:
+    .:///ossssssssssssssssssssssssso++:       .:///ossssssssssssssssssssssssso++:
+  `:////ssssssssssssssssssssssssssso+++.    `:////ssssssssssssssssssssssssssso+++.
+`-////+ssssssssssssssssssssssssssso++++-  `-////+ssssssssssssssssssssssssssso++++-
+ `..-+oosssssssssssssssssssssssso+++++/`   `..-+oosssssssssssssssssssssssso+++++/`
+   ./++++++++++++++++++++++++++++++/:.       ./++++++++++++++++++++++++++++++/:.
+  `:::::::::::::::::::::::::------``        `:::::::::::::::::::::::::------``
+
+
+About EndeavourOS - https://endeavouros.com/
+
+EndeavourOS is an Arch-based distro that provides an Arch 
+experience without the hassle of installing it manually for
+x86_64 and ARM devices. After installation, you’re provided
+with a lightweight and almost bare-bones environment ready to
+be explored with your terminal, along with our home-built
+Welcome App as a powerful guide to help you along.
+
+About UKUI desktop - https://github.com/ukui/ukui-desktop-environment
+
+UKUI is a desktop environment for Linux distributions and
+other UNIX-like operating systems. It provides a simpler
+and more enjoyable experience for browsing, searching and
+managing your computer.
+
+Find More Stuff here for WSL - GWSL - WINDOWS 11
+
+https://github.com/vinberg88/opensuse
+
+---------------------------------------------------------
+
+Paste this in terminal - all - you wont get symbolic link errors.
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+------------------------------------------------------------
+
+Update All via terminal for EndeavourOS
+
+sudo pacman -Syu
+
+------------------------------------------------------------
+
+Paste in terminal: sudo nano /etc/pacman.conf
+
+And change to 20 ParallelDownloads - Faster downloads.
+
+# Misc options
+#UseSyslog
+Color
+ParallelDownloads = 20
+ILoveCandy
+#TotalDownload
+#CheckSpace
+VerbosePkgLists
+
+------------------------------------------------------------
+
+Reboot Manjaro - Reboot Manjaro - Reboot Manjaro - Reboot Manjaro
+
+------------------------------------------------------------
+
+1. Paste all in terminal - One by One!
+
+sudo pacman -S xorg xorg-server xorg-xinit mesa xterm xorg-twm xorg-xrandr
+
+sudo pacman -S xorg-twm xterm xorg-xclock lightdm bluedevil libqtxdg
+
+sudo pacman -S xorg-xfontsel xorg-xlsfonts xorg-xkill xorg-xinput xorg-xwininfo
+
+------------------------------------------------------------
+ 
+Install Hyfetch to see where we are =]
+
+yay -S hyfetch
+
+Test by type thie in Bash after install: hyfetch
+
+----------------------------------------------------------------
+
+Install Google Chrome - Favorite!
+
+yay -S google-chrome
+
+----------------------------------------------------------------
+
+Install Blanket - Listen to sounds.
+
+yay -S blanket
+
+----------------------------------------------------------------
+
+2. Time to install UKUI Desktop for Endeavouros - 2024
+
+sudo pacman -S ukui
+
+yay -S ukui-desktop
+
+yay -S ukui-panel
+
+yay -S ukui-desktop-environment
+
+Take this to we have a terminal: yay -S gnome-terminal
+
+----------------------------------------------------------------
+
+3. Paste in terminal to start lightdm
+
+sudo systemctl enable lightdm
+
+----------------------------------------------------------------
+
+4. Reboot Linux - Reboot Linux - Reboot Linux - Reboot Linux
+
+----------------------------------------------------------------
+
+5. Start from GWSL and Config - Then Reboot and start from GWSL SHELL.
+
+          "NOTE - Always start from GWSL after config"
+
+                Change GWSL to Multiwindow Mode
+
+----------------------------------------------------------------
+
+Type in terminal: sudo nano ~/.bash_ukui_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------------------------
+
+Reboot Linux - Reboot Linux - Reboot Linux - Reboot Linux
+
+----------------------------------------------------------------
+
+Time to start UkUI desktop. Done =]
+
+Paste in Terminal: . ~/.bash_ukui_desktop
+
+Paste in Terminal: dbus-launch ukui-session
+
+This is Ukui from Arch Linux. Now you need to configure
+it. There may be missing pieces. You need to figure that out...
+
+----------------------------------------------------------------
+
+Regards Mattias Vinberg - EndeavourOS - Linux - UKUI - WSL - SWeDen - Windows 11 - 2024
+
