@@ -24,6 +24,72 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Fedora Rawhide - How to install KDE 6 Plasma - GWSL - Fedora Rawhide via Windows 11 - Linux - WSL - 2024
+
+You will find Fedora Rawhide for WSL and Windows 11 here
+
+https://github.com/sileshn/FedoraWSL2
+
+How to install KDE plasma 6 via Fedora Rawhide - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Fedorarawhide-kde6.txt
+
+How to install KDE plasma 6 via Fedora Rawhide - MOVIE
+
+https://www.youtube.com/watch?v=GJLyGEbS2z0
+
+![Fedorarawhide-kde6](https://github.com/vinberg88/opensuse/assets/94398623/25b3560a-beae-445a-9ccb-711d89e0f7ca)
+
+What is Fedora RawHide - https://docs.fedoraproject.org/en-US/releases/rawhide
+
+Rawhide is the name given to the current development version
+of Fedora Linux. It consists of a package repository called
+rawhide and contains the latest build of all Fedora Linux 
+packages updated on a daily basis. Each day, the build system 
+attempts to create a full set of deliverables ,images and so on
+and all that compose successfully are included in the 
+Rawhide tree for that day.
+
+Rawhide is sometimes called "development" or "main". Fedora RawHide is the future.
+
+Fedora, also known as Fedora Linux, is a popular Open Source Linux-based
+operating system (OS). Designed as a secure, general-purpose OS, Fedora
+is developed on a six-month to eight-month release cycle under the Fedora
+Project. Both the OS and the Fedora Project are financially sponsored
+and supported by Red Hat. Fedora is a free and open source OS platform
+for hardware, clouds and containers. Based on the Linux OS kernel
+architecture, Fedora Linux is a user-friendly OS that enables users to
+perform their tasks easily and efficiently with minimal friction. The name
+Fedora refers to the characteristic fedora hat in Red Hat's Shadowman logo.
+
+What is KDE plasma 6 - https://kde.org 
+
+Use Plasma to surf the web; keep in touch with colleagues, friends
+and family; manage your files, enjoy music and videos; and get
+creative and productive at work. Do it all in a beautiful environment
+that adapts to your needs, and with the safety, privacy-protection and
+peace of mind that the best Free Open Source Software has to offer.
+With Plasma 6, our technology stack has undergone two major 
+upgrades: a transition to the latest version of our application 
+framework, Qt, and a migration to the modern Linux graphics 
+platform, Wayland. We have done our best to ensure that these 
+changes are as smooth and unnoticeable to the users as possible, 
+so when you install this update, you will see the same familiar 
+desktop environment that you know and love. But these 
+under-the-hood upgrades benefit Plasma's security, 
+efficiency, and performance, and improve support for modern
+hardware. Thus Plasma delivers an overall more reliable
+user experience, while paving the way for many more
+improvements in the future. Kde 6 Plasma is a good Desktop.
+
+Here you have more stuff about WSL - GWSL - Windows - Linux - 2024
+
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - Fedora RawHide - KDE 6 Plasma - Sweden - Linux - Windows - 2024
+
+---------------------------------------------
+
 Ubuntu And CUTEFISH Desktop - How to install CUTEFISH via Ubuntu 22.04 - WSL - GWSL - Windows 11 - 2024
 
 Stabel Verison for more then tensting. Cutefish is a must to test - 2024
