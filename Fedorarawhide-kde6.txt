@@ -1,12 +1,11 @@
 
 Fedora Rawhide - How to install KDE 6 - GWSL - Fedora Rawhide via Windows 11 - Linux - WSL - 2024
 
-
 You will find Fedora Rawhide for WSL and Windows 11 here
 https://github.com/sileshn/FedoraWSL2
 
 How to install KDE plasma 6 via Fedora Rawhide - TEXT
-Comming Zone..... 
+https://github.com/vinberg88/opensuse/blob/main/Fedorarawhide-kde6.txt
 
 How to install KDE plasma 6 via Fedora Rawhide - MOVIE
 https://www.youtube.com/watch?v=GJLyGEbS2z0
