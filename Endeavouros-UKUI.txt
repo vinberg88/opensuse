@@ -3,7 +3,7 @@ Endeavouros - UkUI Desktop - How to install UkUI via EndeavourOS - WSL - GWSL - 
 You can find EndeavourOS here for WSL - https://github.com/sileshn/EndeavourOSWSL2
 
 How to install UKUI desktop via Endeavouros and Windows 11 - TEXT
-Comming Zone….
+https://github.com/vinberg88/opensuse/blob/main/Endeavouros-UKUI.txt
 
 How to install UKUI desktop via Endeavouros and Windows 11 - MOVIE
 https://www.youtube.com/watch?v=eAgxZ6i68Fc
@@ -174,4 +174,6 @@ it. There may be missing pieces. You need to figure that out...
 ----------------------------------------------------------------
 
 Regards Mattias Vinberg - EndeavourOS - Linux - UKUI - WSL - SWeDen - Windows 11 - 2024
+
+----------------------------------------------------------------
 
