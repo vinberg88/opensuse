@@ -6,7 +6,7 @@ Here you can find Ubuntu 22.04 for WSL or in Microsoft Store - GWSL - WSL - Linu
 https://apps.microsoft.com/detail/9pn20msr04dw?rtc=1&hl=sv-se&gl=SE
 
 How to install CUTEFISH via Ubuntu 22.04 and Windows 11 - TEXT
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu22.04-CuteFish.txt
 
 How to install CUTEFISH via Ubuntu 22.04 and Windows 11 - MOVIE
 https://www.youtube.com/watch?v=aLPhl6Eat7M
