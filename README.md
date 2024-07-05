@@ -24,6 +24,58 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Ubuntu And CUTEFISH Desktop - How to install CUTEFISH via Ubuntu 22.04 - WSL - GWSL - Windows 11 - 2024
+
+Stabel Verison for more then tensting. Cutefish is a must to test - 2024
+
+Here you can find Ubuntu 22.04 for WSL or in Microsoft Store - GWSL - WSL - Linux
+
+https://apps.microsoft.com/detail/9pn20msr04dw?rtc=1&hl=sv-se&gl=SE
+
+How to install CUTEFISH via Ubuntu 22.04 and Windows 11 - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu22.04-CuteFish.txt
+
+How to install CUTEFISH via Ubuntu 22.04 and Windows 11 - MOVIE
+
+https://www.youtube.com/watch?v=aLPhl6Eat7M
+
+
+![Ubuntu22 04-CuteFish](https://github.com/vinberg88/opensuse/assets/94398623/185a0d96-a664-4ca6-8160-9e7afa270cb5)
+
+
+About Ubuntu 22.04 - https://ubuntu.com/
+
+Run your choice of Linux text editors, including vim, emacs, and nano.
+Install applications, compilers and libraries from the Ubuntu 
+repository, securely maintained by Canonical. Ubuntu is a
+Linux distribution derived from Debian and composed mostly
+of free and open-source software. Ubuntu is officially
+released in multiple editions: Desktop, Server, and Core
+for Internet of things devices and robots.
+
+About Cutefish Desktop - https://cutefish-ubuntu.github.io/
+
+Cutefish desktop environment is an efficient, beautiful, 
+and modern desktop environment built using Qt Quick and 
+some KDE basic frameworks. Cutefish OS has a global menu
+at the top. It is a collection of all functions of
+an application, which is very convenient for the 
+integration of apps functions with the system, and can
+save some screen space. CutefishOS is an elegant, Beautiful
+and easy-to-use Linux desktop operating system. It runs
+Cutefish Desktop has a modern style design. Our goal
+is to provide users with a comfortable interface
+design, better user experience and a better choice. 
+
+You Can Find More Stuff here About WSL
+
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - SwEden - 2024 - CuteFixh - Ubuntu 22.04 - Windows 11 - Linux - 2024
+
+---------------------------------------------
+
 Endeavouros - UkUI Desktop - How to install UkUI via EndeavourOS - WSL - GWSL - Windows 11 - 2024
 
 You can find EndeavourOS here for WSL - https://github.com/sileshn/EndeavourOSWSL2
