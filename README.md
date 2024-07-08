@@ -44,11 +44,6 @@ How to set up Rocky Linux 9 after you have installed it via WSL
 Login as root and install: yum install sudo git nano wget bash
 Log Out as root and login as user and you are done
 
-------------------------------------------------------------------
-
-Login as root and install: yum install sudo git nano wget bash
-Log Out as root and login as user
-
 How to install Cinnamon Desktop via Rockylinux 9 - TEXT
 
 https://github.com/vinberg88/opensuse/blob/main/RockyLinux-Cinnamon.txt
