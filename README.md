@@ -26,8 +26,6 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 Rockylinux 9 - Cinnamon Desktop - GWSL - Rockylinux 9 via Windows 11 - WSL - Linux - 2024
 
-------------------------------------------------------------------
-
 Find Rockylinux 9.4 for WSL in Microsoft store.
 
 https://apps.microsoft.com/detail/9nq0dqkjg91n?SilentAuth=1&wa=wsignin1.0&hl=en-se&gl=US
