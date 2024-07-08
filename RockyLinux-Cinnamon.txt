@@ -22,7 +22,7 @@ Login as root and install: yum install sudo git nano wget bash
 Log Out as root and login as user
 
 How to install Cinnamon Desktop via Rockylinux 9 - TEXT
-Comming Zone - - - 
+https://github.com/vinberg88/opensuse/blob/main/RockyLinux-Cinnamon.txt
 
 How to install Cinnamon Desktop via Rockylinux 9 - MOVIE
 https://www.youtube.com/watch?v=A4IajNDq-to
