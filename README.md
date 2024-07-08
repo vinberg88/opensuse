@@ -24,6 +24,84 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Rockylinux 9 - Cinnamon Desktop - GWSL - Rockylinux 9 via Windows 11 - WSL - Linux - 2024
+
+------------------------------------------------------------------
+
+Find Rockylinux 9.4 for WSL in Microsoft store.
+
+https://apps.microsoft.com/detail/9nq0dqkjg91n?SilentAuth=1&wa=wsignin1.0&hl=en-se&gl=US
+
+Download Rocky Linux 9.4 frpm Docker: https://hub.docker.com/_/rockylinux
+And setit up. It's not that difficult, but still requires a lot more.
+
+Download Rocky Linux 9
+
+https://drive.proton.me/urls/M5JJ0ZWVWM#wr3VtIKeDTqG 
+
+How to set up Rocky Linux 9 after you have installed it via WSL
+
+Login as root and install: yum install sudo git nano wget bash
+Log Out as root and login as user and you are done
+
+------------------------------------------------------------------
+
+Login as root and install: yum install sudo git nano wget bash
+Log Out as root and login as user
+
+How to install Cinnamon Desktop via Rockylinux 9 - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/RockyLinux-Cinnamon.txt
+
+How to install Cinnamon Desktop via Rockylinux 9 - MOVIE
+
+https://www.youtube.com/watch?v=A4IajNDq-to
+
+![RockyLinux-Cinnamon](https://github.com/vinberg88/opensuse/assets/94398623/107cf89b-ba93-45a6-a443-7bdd69b1086f)
+
+What is Rocky Linux 9 - https://rockylinux.org
+
+Rocky Linux is an open-source enterprise operating
+system designed to be 100% bug-for-bug compatible with
+Red Hat Enterprise Linux®. It is under intensive 
+development by the community. Rocky Linux rebuilds sources
+directly from RHEL®, so you can bet your best dollar that
+you'll have a super stable experience, no matter the use-case.
+Rocky Linux is enterprise-ready, providing solid stability
+with regular updates and a 10-year support lifecycle, all
+at no cost. Rocky Linux offer Migrate from other 
+Enterprise Linux distributions without sweating it.
+We provide an easy-to-use migration script, free of charge.
+
+What is Cinnamon Desktop - https://projects.linuxmint.com/cinnamon
+
+Cinnamon is a Linux desktop that provides advanced innovative
+features and a traditional user experience. The desktop layout
+is similar to Gnome 2 with underlying technology forked from
+Gnome Shell. Cinnamon makes users feel at home with an 
+easy-to-use and comfortable desktop experience.
+The development of Cinnamon began by the Linux Mint
+team as the result of the April 2011 release of 
+GNOME 3, in which the conventional desktop metaphor
+of GNOME 2 was discarded in favor of GNOME Shell.
+Following several attempts to extend GNOME 3 so
+that it would suit the Linux Mint design goals 
+through "Mint GNOME Shell Extensions", the Linux
+Mint team eventually forked several GNOME 3
+components to build an independent desktop environment.
+cinnamon-desktop is a set of utility libraries and 
+settings used by other Cinnamon components.
+
+Here you have more stuff about WSL and Windows and Linux
+
+https://github.com/vinberg88/opensuse
+
+Test different Linux types and explorer what a nice tool WSL is =]
+
+Regards Mattias Vinberg - Sweden - Rocky Linux 9 - Windows 11 - Wsl - Gwsl - Cinnamon - 2024
+
+---------------------------------------------
+
 Fedora Rawhide - How to install KDE 6 Plasma - GWSL - Fedora Rawhide via Windows 11 - Linux - WSL - 2024
 
 You will find Fedora Rawhide for WSL and Windows 11 here
