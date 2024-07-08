@@ -30,8 +30,10 @@ Find Rockylinux 9.4 for WSL in Microsoft store.
 
 https://apps.microsoft.com/detail/9nq0dqkjg91n?SilentAuth=1&wa=wsignin1.0&hl=en-se&gl=US
 
-Download Rocky Linux 9.4 frpm Docker: https://hub.docker.com/_/rockylinux
-And setit up. It's not that difficult, but still requires a lot more.
+Download Rocky Linux 9.4 frpm Docker And setit up. It's not that 
+difficult, but still requires a lot more.
+
+https://hub.docker.com/_/rockylinux
 
 Download Rocky Linux 9
 
