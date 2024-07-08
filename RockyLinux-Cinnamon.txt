@@ -1,0 +1,241 @@
+Rockylinux 9 - Cinnamon Desktop - GWSL - Rockylinux 9 via Windows 11 - WSL - Linux - 2024
+
+------------------------------------------------------------------
+
+Find Rockylinux 9.4 for WSL in Microsoft store.
+https://apps.microsoft.com/detail/9nq0dqkjg91n?SilentAuth=1&wa=wsignin1.0&hl=en-se&gl=US
+
+Download Rocky Linux 9.4 frpm Docker: https://hub.docker.com/_/rockylinux
+And setit up. It's not that difficult, but still requires a lot more.
+
+Download Rocky Linux 9
+https://drive.proton.me/urls/M5JJ0ZWVWM#wr3VtIKeDTqG 
+
+How to set up Rocky Linux 9 after you have installed it via WSL
+
+Login as root and install: yum install sudo git nano wget bash
+Log Out as root and login as user and you are done
+
+------------------------------------------------------------------
+
+Login as root and install: yum install sudo git nano wget bash
+Log Out as root and login as user
+
+How to install Cinnamon Desktop via Rockylinux 9 - TEXT
+Comming Zone - - - 
+
+How to install Cinnamon Desktop via Rockylinux 9 - MOVIE
+https://www.youtube.com/watch?v=A4IajNDq-to
+
+
+          __wgliliiligw_,                      __wgliliiligw_,                      __wgliliiligw_,
+       _williiiiiiliilililw,                _williiiiiiliilililw,                _williiiiiiliilililw,
+     _%iiiiiilililiiiiiiiiiii_            _%iiiiiilililiiiiiiiiiii_            _%iiiiiilililiiiiiiiiiii_
+   .Qliiiililiiiiiiililililiilm.        .Qliiiililiiiiiiililililiilm.        .Qliiiililiiiiiiililililiilm.
+  _iiiiiliiiiiililiiiiiiiiiiliil,      _iiiiiliiiiiililiiiiiiiiiiliil,      _iiiiiliiiiiililiiiiiiiiiiliil,
+ .lililiiilililiiiilililililiiiii,    .lililiiilililiiiilililililiiiii,    .lililiiilililiiiilililililiiiii,
+_liiiiiiliiiiiiiliiiiiF{iiiiiilili,  _liiiiiiliiiiiiiliiiiiF{iiiiiilili,  _liiiiiiliiiiiiiliiiiiF{iiiiiilili,
+jliililiiilililiiili@`  ~ililiiiiiL  jliililiiilililiiili@`  ~ililiiiiiL  jliililiiilililiiili@`  ~ililiiiiiL
+iiiliiiiliiiiiiili>`      ~liililii  iiiliiiiliiiiiiili>`      ~liililii  iiiliiiiliiiiiiili>`      ~liililii
+liliiiliiilililii`         -9liiiil  liliiiliiilililii`         -9liiiil  liliiiliiilililii`         -9liiiil
+iiiiiliiliiiiii~             "4lili  iiiiiliiliiiiii~             "4lili  iiiiiliiliiiiii~             "4lili
+4ililiiiiilil~|      -w,       )4lf  4ililiiiiilil~|      -w,       )4lf  4ililiiiiilil~|      -w,       )4lf
+-liiiiililiF'       _liig,       )'  -liiiiililiF'       _liig,       )'  -liiiiililiF'       _liig,       )'
+ )iiiliii@`       _QIililig,          )iiiliii@`       _QIililig,          )iiiliii@`       _QIililig,
+  )iiii>`       .Qliliiiililw          )iiii>`       .Qliliiiililw          )iiii>`       .Qliliiiililw
+   )<>~       .mliiiiiliiiiiil,         )<>~       .mliiiiiliiiiiil,         )<>~       .mliiiiiliiiiiil,
+            _gllilililiililii~                   _gllilililiililii~                   _gllilililiililii~
+           giliiiiiiiiiiiiT`                    giliiiiiiiiiiiiT`                    giliiiiiiiiiiiiT`
+          -^~$ililili@~~'                      -^~$ililili@~~'                      -^~$ililili@~~'
+
+
+What is Rocky Linux 9 - https://rockylinux.org
+
+Rocky Linux is an open-source enterprise operating
+system designed to be 100% bug-for-bug compatible with
+Red Hat Enterprise Linux®. It is under intensive 
+development by the community. Rocky Linux rebuilds sources
+directly from RHEL®, so you can bet your best dollar that
+you'll have a super stable experience, no matter the use-case.
+Rocky Linux is enterprise-ready, providing solid stability
+with regular updates and a 10-year support lifecycle, all
+at no cost. Rocky Linux offer Migrate from other 
+Enterprise Linux distributions without sweating it.
+We provide an easy-to-use migration script, free of charge.
+
+What is Cinnamon Desktop - https://projects.linuxmint.com/cinnamon
+
+Cinnamon is a Linux desktop that provides advanced innovative
+features and a traditional user experience. The desktop layout
+is similar to Gnome 2 with underlying technology forked from
+Gnome Shell. Cinnamon makes users feel at home with an 
+easy-to-use and comfortable desktop experience.
+The development of Cinnamon began by the Linux Mint
+team as the result of the April 2011 release of 
+GNOME 3, in which the conventional desktop metaphor
+of GNOME 2 was discarded in favor of GNOME Shell.
+Following several attempts to extend GNOME 3 so
+that it would suit the Linux Mint design goals 
+through "Mint GNOME Shell Extensions", the Linux
+Mint team eventually forked several GNOME 3
+components to build an independent desktop environment.
+cinnamon-desktop is a set of utility libraries and 
+settings used by other Cinnamon components.
+
+Here you have more stuff about WSL and Windows and Linux: https://github.com/vinberg88/opensuse
+Test different Linux types and explorer what a nice tool WSL is =]
+
+------------------------------------------------------
+
+Install fastmirrors or Rrepos for Rockylinux 9
+
+Run this first
+
+sudo dnf check-update
+sudo dnf install dnf-utils
+sudo yum install sudo git nano wget bash
+
+Then do this..
+
+sudo nano /etc/dnf/dnf.conf
+
+Add the following line: max_parallel_downloads=10 and fastestmirror=True
+
+Like That..
+
+max_parallel_downloads=10
+fastestmirror=True
+
+------------------------------------------------------
+
+Paste in terminal: sudo nano /etc/wsl.conf
+
+and add this lines….
+
+[boot]
+systemd=true
+
+------------------------------------------------------
+
+Paste all in terminal and remove errors from Console.
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+------------------------------------------------------
+
+Reboot Rocky Linux 9 - Reboot Rocky Linux 9 - Reboot Rocky Linux 9
+
+------------------------------------------------------
+
+Time to Update: sudo dnf update
+
+------------------------------------------------------
+
+Install extra Repos for Rockylinux 9 in Terminal / Bash / Shell
+
+sudo dnf -y install epel-release
+sudo /usr/bin/crb enable
+
+------------------------------------------------------
+
+Update all via terminal
+
+sudo dnf upgrade --refresh
+
+------------------------------------------------------
+
+Install some missing programs - Copy and Paste in terminal for Rocky Linux 9
+
+sudo dnf install git wget curl nano bash pipx sudo dracut net-tools dbus-x11 --skip-broken --nobest
+
+------------------------------------------------------
+
+Install Hyfetch - Like Neofetch.
+
+Paste in Bash
+
+pipx install hyfetch
+pipx ensurepath
+
+Just restart terminal and test: hyfetch
+
+------------------------------------------------------
+
+Time to install Cinnamon Desktop on Rockylinux 9
+
+sudo dnf install cinnamon*
+
+sudo dnf install gnome-terminal
+
+sudo dnf install gdm
+
+sudo systemctl enable gdm
+
+------------------------------------------------------
+
+Install Google-Chrome - paste all under this paragraph:
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm
+sudo yum update google-chrome-stable
+
+------------------------------------------------------
+
+Copy and Paste in Terminal for Rocky Linux 9
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+
+------------------------------------------------------
+
+Reboot Linux Reboot Linux Reboot Linux
+
+------------------------------------------------------
+
+Start GWSL and SETUP. Please Always start Terminal from GWSL.
+
+------------------------------------------------------
+
+Take an extra Reboot Reboot Linux Reboot Reboot Linux
+
+------------------------------------------------------
+
+Type this in terminal and put your user there - loginctl enable-linger user
+
+------------------------------------------------------
+
+Type in terminal: sudo nano ~/.bash_ubuntu_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------
+
+Reboot Linux Reboot Linux Reboot Linux Reboot Linux
+ 
+----------------------------------------------
+
+And we are done - Time to start Cinnamon Desktop for Rocky Linux 9
+
+Copy and Paste all in terminal / Shell / bash / Console.
+
+. ~/.bash_ubuntu_desktop
+dbus-launch cinnamon-session
+
+----------------------------------------------
+
+Regards Mattias Vinberg - Sweden - Rocky Linux 9 - Windows 11 - Wsl - Gwsl - Cinnamon - 2024
+
+----------------------------------------------
+
