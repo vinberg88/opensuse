@@ -24,6 +24,86 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Fedora Rawhide - How to install GNOME Desktop via WSL - Fedora Rawhide via Windows 11 - Linux - GWSL - 2024
+
+//////////////////////////////////////////
+
+NOTE! PLRASE READ! "This is experimental. Not to be used in normal mode. Just to run as a sample GNOME desktop for Fedora Rawhide"
+
+You may try a few times before GNOME starts with: gnome-session
+
+//////////////////////////////////////////
+
+You will find Fedora Rawhide for WSL and Windows 11 here
+
+https://github.com/sileshn/FedoraWSL2
+
+How to install GMOME desktop via Fedora Rawhide - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Fedorarawhide-GNOME.txt
+
+How to install GMOME desktop via Fedora Rawhide - MOVIE
+
+https://www.youtube.com/watch?v=dFSNmUK4Y6Y
+
+![Fedorarawhide-GNOME](https://github.com/vinberg88/opensuse/assets/94398623/c8a5874c-8495-409d-b88d-bf9f94498e9b)
+
+What is Fedora RawHide - https://docs.fedoraproject.org/en-US/releases/rawhide
+
+Rawhide is sometimes called "development" or "main". Fedora
+RawHide is the future.
+
+Rawhide is the name given to the current development version
+of Fedora Linux. It consists of a package repository called
+rawhide and contains the latest build of all Fedora Linux 
+packages updated on a daily basis. Each day, the build system 
+attempts to create a full set of deliverables ,images and so on
+and all that compose successfully are included in the 
+Rawhide tree for that day.
+
+Fedora, also known as Fedora Linux, is a popular Open Source
+Linux-based operating system (OS). Designed as a secure, general
+purpose OS, Fedora is developed on a six-month to eight-month
+release cycle under the Fedora Project. Both the OS and the
+Fedora Project are financially sponsored and supported
+by Red Hat. Fedora is a free and open source OS 
+platform for hardware, clouds and containers. Based on the
+Linux OS kernel architecture, Fedora Linux is a user-friendly
+OS that enables users to perform their tasks easily and
+efficiently with minimal friction. The name Fedora refers to
+the characteristic fedora hat in Red Hat's Shadowman logo.
+
+What is GNOME desktop - https://www.gnome.org
+
+An easy and elegant way to use your computer, GNOME
+is designed to help you have the best possible computing
+experience. Every part of GNOME has been designed to
+make it simple and easy to use. The Activities Overview
+is a simple way to access all your basic tasks. A press of
+a button is all it takes to view your open windows, launch
+applications, or check if you have new messages.
+Having everything in one convenient place means you don’t
+have to learn your way around a maze of different
+technologies. GNOME provides a focused working Environment
+that helps you get things done. It is packed with features
+that will make you more productive: a powerful search feature
+that helps you access all your work from one place; side-by-side
+windows that make it easy to view several documents at the same
+time; seamless integration with online accounts which allows
+you to access all your data in one place; and a messaging
+system that comfortably deals with notifications, letting
+you quickly respond in place or return to them in
+a convenient time.
+
+
+Here you have more stuff about WSL - GWSL - Windows - Linux - 2024
+
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - Fedora RawHide - GNOME - Sweden - Linux - Windows - 2024
+
+---------------------------------------------
+
 Rockylinux 9 - Cinnamon Desktop - GWSL - Rockylinux 9 via Windows 11 - WSL - Linux - 2024
 
 Find Rockylinux 9.4 for WSL in Microsoft store.
