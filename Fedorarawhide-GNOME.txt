@@ -1,0 +1,244 @@
+Fedora Rawhide - How to install GNOME Desktop via WSL - Fedora Rawhide via Windows 11 - Linux - GWSL - 2024
+
+
+//////////////////////////////////////////
+
+NOTE! PLRASE READ! "This is experimental. Not to be used in normal mode. Just to run as a sample GNOME desktop for Fedora Rawhide"
+
+You may try a few times before GNOME starts with: gnome-session
+
+//////////////////////////////////////////
+
+
+You will find Fedora Rawhide for WSL and Windows 11 here
+https://github.com/sileshn/FedoraWSL2
+
+How to install GMOME desktop via Fedora Rawhide - TEXT
+Comming Zone…
+
+How to install GMOME desktop via Fedora Rawhide - MOVIE
+https://www.youtube.com/watch?v=dFSNmUK4Y6Y
+
+
+              .'ccccc:.             
+         ,'ccccccccccccccc:.        
+      .';cccccccccccccccccccc:.     
+   .'ccccccccccccco@@@@bccccccc; 
+  .:cccccccccccccd@@cccq@@:cccccc, 
+ .:ccccccccccccc@@@ccccc@@Pccccccc;
+,:cccccccccccccc@@@ccccccccccccccc:
+ccccccccco@@@@@c@@@@@@@ccccccccccc: Fedora RawHide - GMOME desktop - WSL - 2024
+cccccccd@@cccccc@@@ccccccccccccccc:
+cccccc@@occccccc@@@ccccccccccccccc'
+ccccccq@@bcccccd@@Pccccccccccccc;  
+ccccccccq@@@@@@@Pccccccccccccc:,   
+'cccccccccccccccccccccccccc:.      
+ ;ccccccccccccccccccccc:,.
+
+
+What is Fedora RawHide - https://docs.fedoraproject.org/en-US/releases/rawhide
+
+Rawhide is sometimes called "development" or "main". Fedora
+RawHide is the future.
+
+Rawhide is the name given to the current development version
+of Fedora Linux. It consists of a package repository called
+rawhide and contains the latest build of all Fedora Linux 
+packages updated on a daily basis. Each day, the build system 
+attempts to create a full set of deliverables ,images and so on
+and all that compose successfully are included in the 
+Rawhide tree for that day.
+
+Fedora, also known as Fedora Linux, is a popular Open Source
+Linux-based operating system (OS). Designed as a secure, general
+purpose OS, Fedora is developed on a six-month to eight-month
+release cycle under the Fedora Project. Both the OS and the
+Fedora Project are financially sponsored and supported
+by Red Hat. Fedora is a free and open source OS 
+platform for hardware, clouds and containers. Based on the
+Linux OS kernel architecture, Fedora Linux is a user-friendly
+OS that enables users to perform their tasks easily and
+efficiently with minimal friction. The name Fedora refers to
+the characteristic fedora hat in Red Hat's Shadowman logo.
+
+What is GNOME desktop - https://www.gnome.org
+
+An easy and elegant way to use your computer, GNOME
+is designed to help you have the best possible computing
+experience. Every part of GNOME has been designed to
+make it simple and easy to use. The Activities Overview
+is a simple way to access all your basic tasks. A press of
+a button is all it takes to view your open windows, launch
+applications, or check if you have new messages.
+Having everything in one convenient place means you don’t
+have to learn your way around a maze of different
+technologies. GNOME provides a focused working Environment
+that helps you get things done. It is packed with features
+that will make you more productive: a powerful search feature
+that helps you access all your work from one place; side-by-side
+windows that make it easy to view several documents at the same
+time; seamless integration with online accounts which allows
+you to access all your data in one place; and a messaging
+system that comfortably deals with notifications, letting
+you quickly respond in place or return to them in
+a convenient time.
+
+
+Here you have more stuff about WSL - GWSL - Windows - Linux - 2024
+https://github.com/vinberg88/opensuse
+
+----------------------------------------------
+
+Make Fedora Rawhide faster - Type this in Terminal
+
+sudo nano /etc/dnf/dnf.conf
+
+and add this to Console
+
+max_parallel_downloads=10
+fastestmirror=true
+
+-----------------------------------
+
+Paste in terminal: sudo nano /etc/wsl.conf
+
+Add this to Bash and sabe
+
+[boot]
+systemd=true
+
+-----------------------------------
+
+Remove Errors in Bash / termainal / Shell - Paste all and press enter.
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+----------------------------------------------
+
+Reboot - Reboot - Reboot - Reboot - Reboot - Reboot - Fedora RawHide
+
+----------------------------------------------
+
+Time to update Fedora RawHide so we can install GNOME desktop.
+
+Paste in Terminal: sudo dnf update
+
+----------------------------------------------
+
+Add repos in Bash - I have already added them but try to run them again.
+
+sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-rawhide.noarch.rpm
+sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-rawhide.noarch.rpm
+
+----------------------------------------------
+
+Time to update Fedora RawHide - again
+
+Paste in Terminal: sudo dnf upgrade --refresh
+
+----------------------------------------------
+
+Install the following programs in Terminal For Fedora RawHide.
+
+sudo dnf install git wget curl bash pipx dracut dmraid net-tools dbus-x11 dbus*
+
+-----------------------------------
+
+Install Hyfetch - like Neofetch but more gay =)
+
+pipx install hyfetch
+pipx ensurepath
+
+Put this in terminal to Test: hyfetch
+
+-----------------------------------
+
+Install Chrome Browser - Always works =}
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm
+sudo yum update google-chrome-stable
+
+----------------------------------------------
+
+Time Install GNOME desktop for Fedora RawHide 
+
+Paste one by one in Console / Terminal / Bash / Shell
+
+sudo dnf install gdm*
+
+sudo dnf install gnome* --exclude=gnome-shell-extension-system-monitor-47~alpha-1.fc41.noarch,gnome-shell-extension-system-monitor-applet-1:38-29.20240502git4a1cfff.fc41.noarch
+
+sudo dnf install gnome-shell-extension-system-monitor
+
+-------------------------------------------------------------
+
+Paste this in Bash / terminal / Console / Shell for Fedora RawHide and GNOME
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-------------------------------------------------------------
+
+Type this in terminal and put your user there - loginctl enable-linger conny
+
+-------------------------------------------------------------
+
+Reboot - Reboot - Reboot - Reboot - Reboot - Reboot - Fedora Rawhide
+
+-------------------------------------------------------------
+
+Login with GWSL and Config all. Then start Linux-shell from GWSL
+
+    "After installing wsl. Always start from GWSL bash"
+
+-------------------------------------------------------------
+
+Reboot - Reboot - Reboot - Reboot - Reboot - Reboot - Fedora Rawhide
+
+-------------------------------------------------------------
+
+In terminal type: sudo nano ~/.bash_Fedora_desktop
+
+Paste this small script in terminal and save and quit nano.
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-------------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot Reboot - Fedora Rawhide
+
+-------------------------------------------
+
+Then everything was ready to start. Paste this lines in Terminal.
+
+/////////////////////////////
+
+You may try a few times before GNOME starts with: gnome-session
+
+/////////////////////////////
+
+Type in terminal: . ~/.bash_Fedora_desktop
+    
+Type in terminal: gnome-session
+
+Fedora Rawhide is in constant development so Good luck =]
+
+It takes a little time to start at the beginning so leave it for
+a minute if nothing happens.
+
+-------------------------------------------
+
+Regards Mattias Vinberg - Fedora RawHide - GNOME - Sweden - Linux - Windows - 2024
+
