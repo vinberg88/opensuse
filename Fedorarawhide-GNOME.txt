@@ -14,7 +14,7 @@ You will find Fedora Rawhide for WSL and Windows 11 here
 https://github.com/sileshn/FedoraWSL2
 
 How to install GMOME desktop via Fedora Rawhide - TEXT
-Comming Zone…
+https://github.com/vinberg88/opensuse/blob/main/Fedorarawhide-GNOME.txt
 
 How to install GMOME desktop via Fedora Rawhide - MOVIE
 https://www.youtube.com/watch?v=dFSNmUK4Y6Y
