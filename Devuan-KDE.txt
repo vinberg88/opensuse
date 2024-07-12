@@ -1,0 +1,228 @@
+Devuan - How to Install KDE via Devuan Daedalus via Windows 11 - WSL - GWSL - Windows 11 - 2024
+
+You Can Find Devuan here for WSL - We need to update that version later in WSL.
+https://github.com/VPraharsha03/DevuanWSL
+
+How to install kde plasma via Devuan Daedalus - WSL - TEXT
+Comming Zone….
+
+How to install kde plasma via Devuan Daedalus - WSL - MOVIE
+https://www.youtube.com/watch?v=oNahpuqORCc
+
+
+   ..,,;;;::;,..                     ..,,;;;::;,..                     ..,,;;;::;,..
+           `':ddd;:,.                        `':ddd;:,.                        `':ddd;:,.
+                 `'dPPd:,.                         `'dPPd:,.                         `'dPPd:,.
+                     `:b$$b`.                          `:b$$b`.                          `:b$$b`.
+                        'P$$$d`                           'P$$$d`                           'P$$$d`
+                         .$$$$$`                           .$$$$$`                           .$$$$$`
+                         ;$$$$$P                           ;$$$$$P                           ;$$$$$P
+                      .:P$$$$$$`                        .:P$$$$$$`                        .:P$$$$$$`
+                  .,:b$$$$$$$;'                     .,:b$$$$$$$;'                     .,:b$$$$$$$;'
+             .,:dP$$$$$$$$b:'                  .,:dP$$$$$$$$b:'                  .,:dP$$$$$$$$b:'
+      .,:;db$$$$$$$$$$Pd'`              .,:;db$$$$$$$$$$Pd'`              .,:;db$$$$$$$$$$Pd'`
+ ,db$$$$$$$$$$$$$$b:'`             ,db$$$$$$$$$$$$$$b:'`             ,db$$$$$$$$$$$$$$b:'`
+:$$$$$$$$$$$$b:'`                 :$$$$$$$$$$$$b:'`                 :$$$$$$$$$$$$b:'`
+ `$$$$$bd:''`                      `$$$$$bd:''`                      `$$$$$bd:''`
+   `'''`                             `'''`                             `'''`
+
+
+About Devuan - https://www.devuan.org
+
+Devuan GNU+Linux is a fork of Debian without systemd
+that allows users to reclaim control over their system by
+avoiding unnecessary entanglements and ensuring Init Freedom.
+Devuan GNU+Linux is a free software operating system for
+your computer. Free software means you are free to use, copy
+and distribute, study, change the software, and share your
+modifications with the community.
+
+About KDE Plasma - https://kde.org
+
+KDE Plasma is a modern, feature-rich desktop environment
+for Linux-based operating systems. Known for its sleek
+design, customizable interface, and extensive set of
+applications, it is also open source, devoid
+of ads, and makes protecting your privacy and
+personal data a priority. The KDE Plasma Launcher lets
+you quickly and easily launch applications, but it
+can do much more -- convenient tasks like bookmarking
+applications, searching for documents as you type, or
+navigating to common places help you get straight
+to the point. With a history of recently started programs
+and opened files, you can return to where you left off.
+It even remembers previously entered search terms so
+you don't have to.
+
+You cane find more Stuff for WSL and Windows 11 here
+https://github.com/vinberg88/opensuse
+
+---------------------------------
+
+After you have installd Devuan Daedalus OS on WSL do this. Update system
+to Chimaera. We need to do this one more time later to Daedalus. Its easy.. 
+
+1. sudo apt-get update && sudo apt-get upgrade
+
+2. sudo nano /etc/apt/sources.list
+
+3. Delete all in terminal and paste this and save.
+
+deb http://deb.devuan.org/merged chimaera main non-free contrib
+deb http://deb.devuan.org/merged chimaera-updates main
+deb http://deb.devuan.org/merged chimaera-security main
+#deb http://deb.devuan.org/merged chimaera-backports main
+
+4. sudo apt-get update
+
+5. sudo apt-get upgrade
+
+6. sudo apt-get dist-upgrade
+
+---------------------------------
+
+Reboot Reboot Reboot Reboot Reboot System
+
+-------------------------------
+
+Update to latest Version of Devuan Daedalus - one more step to go =]
+
+1. sudo apt-get update && sudo apt-get upgrade
+
+2. sudo nano /etc/apt/sources.list
+
+deb http://deb.devuan.org/merged daedalus main non-free-firmware non-free contrib
+deb http://deb.devuan.org/merged daedalus-updates main
+deb http://deb.devuan.org/merged daedalus-security main
+#deb http://deb.devuan.org/merged daedalus-backports main
+
+4. sudo apt-get update
+
+5. sudo apt-get upgrade
+
+6. sudo apt-get dist-upgrade
+
+-------------------------------
+
+We are done - TAKE A SNAPSHOT/BackUP - If you want - RECOMMENDED!
+
+-------------------------------
+
+Paste all to terminal and klick ENTER. Remove Errors in Terminal.
+
+Copy and paste one by one...
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+-------------------------------
+
+Reboot Reboot Reboot Reboot Reboot System
+
+-------------------------------
+
+Install program:
+
+sudo apt install bash git npm wget curl systemctl pip dbus* -y
+sudo apt install sddm* -y
+sudo systemctl enable sddm.service
+
+-------------------------------
+
+Install Google-Chrome Browser
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+Install blanket - Listen to diffrent sounds.
+
+wget https://mxrepo.com/mx/repo/pool/main/b/blanket/blanket_0.5.0+git20211008-1~mx21+1_all.deb
+sudo apt install ./blanket_0.5.0+git20211008-1~mx21+1_all.deb
+
+-------------------------------
+
+Time to install KDE plasma 5
+
+sudo apt install kde-full
+
+sudo apt install systemsetting* kgamma5* kwin* kde* plasma*
+
+--------------------------------------------
+
+Install this program.
+
+pip install hyfetch --break-system-packages
+
+To test just restart Bash and Type: hyfetch
+
+Like Noefetch but more GAY =]
+
+--------------------------------------------
+
+Reboot Linux... Reboot Linux... Reboot Linux...
+
+--------------------------------------------
+
+Start GWSL and Config GWSL and start from there - Linux Shell - take an extra reboot!
+
+Always start Shell / Terminal / Bash / Console from GWSL
+
+--------------------------------------------
+
+Paste in terminal: 
+
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+--------------------------------------------
+
+Copy this and paste in terminal: sudo nano ~/.bash_wsl_desktop
+
+Then add this script to terminal / Bash
+
+export XDG_CURRENT_DESKTOP=ubuntu:GNOME
+export XDG_SESSION_DESKTOP=ubuntu
+export DESKTOP_SESSION=ubuntu
+export GNOME_SHELL_SESSION_MODE=ubuntu
+
+export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+export XDG_MENU_PREFIX=gnome-
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+--------------------------------------------
+
+Reboot... Reboot... Reboot... Reboot…
+
+Always start Shell / terminal / Bash / Console from GWSL
+
+--------------------------------------------
+
+Time to start KDE desktop.
+
+Paste in terminal: . ~/.bash_wsl_desktop
+
+Type in terminal and start kde plasma 5: dbus-launch startplasma-x11
+
+--------------------------------------------
+
+If you cant move windows - Type this in Terminal.
+
+killall kwin_x11
+kwrapper5 kwin_x11 –replace &
+
+--------------------------------------------
+
+Best Regards, 
+Mattias Vinberg - DEVUAN version Daedalus - KDE Plasma - Linux - Windows 11 - SWEDEN - 2024
+
+--------------------------------------------
