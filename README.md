@@ -24,6 +24,57 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Devuan - How to Install KDE via Devuan Daedalus via Windows 11 - WSL - GWSL - Windows 11 - 2024
+
+You Can Find Devuan here for WSL - We need to update that version later in WSL.
+
+https://github.com/VPraharsha03/DevuanWSL
+
+How to install kde plasma via Devuan Daedalus - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Devuan-KDE.txt
+
+How to install kde plasma via Devuan Daedalus - WSL - MOVIE
+
+https://www.youtube.com/watch?v=oNahpuqORCc
+
+![Devuan-KDE](https://github.com/user-attachments/assets/6a200532-2a74-402c-a63e-8b49bb94e637)
+
+About Devuan - https://www.devuan.org
+
+Devuan GNU+Linux is a fork of Debian without systemd
+that allows users to reclaim control over their system by
+avoiding unnecessary entanglements and ensuring Init Freedom.
+Devuan GNU+Linux is a free software operating system for
+your computer. Free software means you are free to use, copy
+and distribute, study, change the software, and share your
+modifications with the community.
+
+About KDE Plasma - https://kde.org
+
+KDE Plasma is a modern, feature-rich desktop environment
+for Linux-based operating systems. Known for its sleek
+design, customizable interface, and extensive set of
+applications, it is also open source, devoid
+of ads, and makes protecting your privacy and
+personal data a priority. The KDE Plasma Launcher lets
+you quickly and easily launch applications, but it
+can do much more -- convenient tasks like bookmarking
+applications, searching for documents as you type, or
+navigating to common places help you get straight
+to the point. With a history of recently started programs
+and opened files, you can return to where you left off.
+It even remembers previously entered search terms so
+you don't have to.
+
+You cane find more Stuff for WSL and Windows 11 here
+
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - DEVUAN Daedalus - KDE Plasma - Linux - Windows 11 - SWEDEN - 2024
+
+---------------------------------------------
+
 Fedora Rawhide - How to install GNOME Desktop via WSL - Fedora Rawhide via Windows 11 - Linux - GWSL - 2024
 
 //////////////////////////////////////////
