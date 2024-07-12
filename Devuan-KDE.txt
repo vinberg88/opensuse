@@ -4,7 +4,7 @@ You Can Find Devuan here for WSL - We need to update that version later in WSL.
 https://github.com/VPraharsha03/DevuanWSL
 
 How to install kde plasma via Devuan Daedalus - WSL - TEXT
-Comming Zone….
+https://github.com/vinberg88/opensuse/blob/main/Devuan-KDE.txt
 
 How to install kde plasma via Devuan Daedalus - WSL - MOVIE
 https://www.youtube.com/watch?v=oNahpuqORCc
