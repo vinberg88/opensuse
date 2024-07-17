@@ -24,6 +24,49 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Oracle - Kde Plasma Desktop - WSL - Oracle 9.4 via Windows 11 - GWSL - Linux - 2024
+
+How to install KDE plasma via ORACLE 9.4 - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/ORACEL-KDE.txt
+
+How to install KDE plasma via ORACLE 9.4 - WSL - MOVIE
+
+https://www.youtube.com/watch?v=E8qkXS948pY
+
+![ORACEL-KDE](https://github.com/user-attachments/assets/f9cccec0-dbca-4a50-af9e-12e93b5128b5)
+
+About ORACEL - https://www.oracle.com
+
+Oracle Linux combines the fundamental building blocks
+of modern IT infrastructure: operating system, containers, and
+virtualization into one integrated offering. Oracle
+Linux provides the reliability, scalability, security, and
+performance to run demanding SaaS, PaaS, and traditional
+enterprise workloads. 
+
+About KDE plasma - https://kde.org
+
+The next generation desktop for Linux. Use KDE 
+software to surf the web, keep in touch with 
+colleagues, friends and family, manage your files, enjoy
+music and videos; and get creative and productive at work.
+The KDE community develops and maintains more than 200
+applications which run on any Linux desktop, and often
+other platforms too. 
+
+
+You cane find ORACEL Linux here or go to microsoft store
+https://apps.microsoft.com/detail/9mxq65hlmc27?amp%3Bgl=US&hl=en-us&gl=SE
+
+
+Want more stuff about WSL - Windows 11 - GWSL - Linux
+Go here: https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - kDE - ORACEL - WSL - WINDOWS 11 - LINUX - SWEDEN - 2024
+
+---------------------------------------------
+
 Devuan - How to Install KDE via Devuan Daedalus via Windows 11 - WSL - GWSL - Windows 11 - 2024
 
 You Can Find Devuan here for WSL - We need to update that version later in WSL.
