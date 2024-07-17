@@ -1,7 +1,7 @@
 Oracle - Kde Plasma Desktop - WSL - Oracle 9.4 via Windows 11 - GWSL - Linux - 2024
 
 How to install KDE plasma via ORACLE 9.4 - WSL - TEXT
-Comming Zone..
+https://github.com/vinberg88/opensuse/blob/main/ORACEL-KDE.txt
 
 How to install KDE plasma via ORACLE 9.4 - WSL - MOVIE
 https://www.youtube.com/watch?v=E8qkXS948pY
