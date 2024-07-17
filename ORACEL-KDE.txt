@@ -1,0 +1,182 @@
+Oracle - Kde Plasma Desktop - WSL - Oracle 9.4 via Windows 11 - GWSL - Linux - 2024
+
+How to install KDE plasma via ORACLE 9.4 - WSL - TEXT
+Comming Zone..
+
+How to install KDE plasma via ORACLE 9.4 - WSL - MOVIE
+https://www.youtube.com/watch?v=E8qkXS948pY
+
+
+
+      `-/+++++++++++++++++/-.`       
+   `/syyyyyyyyyyyyyyyyyyyyyyys/.
+  :yyyyo/-...............-/oyyyy/
+ /yyys-                     .oyyy+
+.yyyy`                       `syyy-
+:yyyo                         /yyy/
+.yyyy`                       `syyy-
+ /yyys.                     .oyyyo
+  /yyyyo:-...............-:oyyyy/`
+   `/syyyyyyyyyyyyyyyyyyyyyyys+.
+     `.:/+ooooooooooooooo+/:.`
+
+
+About ORACEL - https://www.oracle.com
+
+Oracle Linux combines the fundamental building blocks
+of modern IT infrastructure: operating system, containers, and
+virtualization into one integrated offering. Oracle
+Linux provides the reliability, scalability, security, and
+performance to run demanding SaaS, PaaS, and traditional
+enterprise workloads. 
+
+About KDE plasma - https://kde.org
+
+The next generation desktop for Linux. Use KDE 
+software to surf the web, keep in touch with 
+colleagues, friends and family, manage your files, enjoy
+music and videos; and get creative and productive at work.
+The KDE community develops and maintains more than 200
+applications which run on any Linux desktop, and often
+other platforms too. 
+
+
+You cane find ORACEL Linux here or go to microsoft store
+https://apps.microsoft.com/detail/9mxq65hlmc27?amp%3Bgl=US&hl=en-us&gl=SE
+
+
+Want more stuff about WSL - Windows 11 - GWSL - Linux
+Go here: https://github.com/vinberg88/opensuse
+
+------------------------------------------------------
+
+First thing install nano: sudo dnf install nano
+
+------------------------------------------------------
+
+Paste in terminal and install systemd: sudo nano /etc/wsl.conf
+
+[boot]
+systemd=true
+
+------------------------------------------------------
+
+Paste all in terminal to remove errors in Console
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+------------------------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot Reboot Reboot
+
+------------------------------------------------------
+
+Update: sudo dnf update
+
+------------------------------------------------------
+
+Install some extra repos.
+
+
+   sudo dnf install \
+    https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm \
+    https://dl.fedoraproject.org/pub/epel/epel-next-release-latest-9.noarch.rpm
+
+------------------------------------------------------
+
+Run this after: sudo /usr/bin/crb enable
+
+------------------------------------------------------
+
+Update all.
+
+sudo dnf upgrade --refresh
+
+------------------------------------------------------
+
+Install some programs
+
+sudo dnf install git wget curl nano bash pipx sudo dracut net-tools dbus-x11
+
+------------------------------------------------------
+
+Time to install kde plasma desktop
+
+sudo dnf --enablerepo=epel,epel-next,ol9_codeready_builder group -y install "KDE Plasma Workspaces"
+
+------------------------------------------------------
+
+Install Google-Chrome - paste all under this paragraph:
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm
+sudo yum update google-chrome-stable
+
+------------------------------------------------------
+
+Install Hyfetch like Neofetch.
+
+pipx install hyfetch
+
+Type hyfetch in terminal to test: hyfetch
+
+------------------------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot Reboot Reboot
+
+-------------------------------------------------------------
+
+Login with GWSL and Config all. Then start Linux-shell from GWSL after reboot
+
+-------------------------------------------------------------
+
+Paste in terminal: xdg-user-dirs-update
+
+-------------------------------------------------------------
+
+Paste all in terminal: 
+
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-------------------------------------------------------------
+
+Type this in terminal and put your user-name there: loginctl enable-linger user
+   
+-------------------------------------------
+
+In terminal type: sudo nano ~/.bash_kde_desktop
+
+Paste this small script in terminal and save and quit.
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-------------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot Reboot Reboot
+
+-------------------------------------------
+
+Now we cane start KDE plasma 
+
+Paste in terminal: . ~/.bash_kde_desktop
+
+Type in terminal: dbus-launch startplasma-x11
+
+-------------------------------------------
+
+It takes a little time to start at the beginning so leave it for a minute if nothing happens.
+
+Regards Mattias Vinberg - kDE - ORACEL - WSL - WINDOWS 11 - LINUX - SWEDEN - 2024
+
+-------------------------------------------
