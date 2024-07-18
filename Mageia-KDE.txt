@@ -4,7 +4,7 @@ You will find Mageia 9 for WSL here
 https://drive.proton.me/urls/KDQ8DMGQC0#3dgosrUPYUlH
 
 How to install KDE plasma via Mageia 9 - TEXT
-Comming Zone….
+https://github.com/vinberg88/opensuse/blob/main/Mageia-KDE.txt
 
 How to install KDE plasma via Mageia 9 - MOVIE
 https://www.youtube.com/watch?v=uS4NY7aGRmQ
