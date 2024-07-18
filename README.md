@@ -24,6 +24,64 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Mageia 9 and KDE - How to install KDE desktop - GWSL - Mageia 9 - Windows 11 - Linux - WSL - 2024
+
+You will find Mageia 9 for WSL here
+
+https://drive.proton.me/urls/KDQ8DMGQC0#3dgosrUPYUlH
+
+How to install KDE plasma via Mageia 9 - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Mageia-KDE.txt
+
+How to install KDE plasma via Mageia 9 - MOVIE
+
+https://www.youtube.com/watch?v=uS4NY7aGRmQ
+
+![Mageia-KDE](https://github.com/user-attachments/assets/30e941bb-c02a-4c6e-acc4-49895b94c2a2)
+
+What is Mageia 9 - https://www.mageia.org/en/
+
+Mageia is a GNU/Linux-based, Free Software operating
+system. It is a community project, supported by a 
+nonprofit organisation of elected contributors. Our mission:
+to build great tools for people. Beyond just delivering
+a secure, stable and sustainable operating system, the
+goal is also to become and maintain a credible and
+recognized community in the free software world.
+
+Mageia 9 offer...
+
+* Stable, secure operating system for desktop & server
+* Free Software, coproduced by hundreds of people
+* Elected governance, nonprofit organization
+* You can be part of it
+* Mageia 9 will be supported until March 31st, 2025
+
+What is KDE plasma - https://kde.org 
+
+Use KDE software to surf the web, keep in touch with
+colleagues, friends and family, manage your files, enjoy
+music and videos; and get creative and productive at
+work. The KDE community develops and maintains more
+than 200 applications which run on any Linux desktop,
+and often other platforms too. The next generation desktop
+for Linux.
+
+KDE for You
+
+KDE is developed by a community of passionate
+people. We develop KDE for everyone, from kids
+to grandparents and from professionals to hobbyists.
+
+Here you have more stuff about WSL - GWSL - Windows - Linux - 2024
+
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - Mageia 9 - KDE Plasma - Sweden - Linux - Windows - 2024
+
+----------------------------------------------
+
 Oracle - Kde Plasma Desktop - WSL - Oracle 9.4 via Windows 11 - GWSL - Linux - 2024
 
 How to install KDE plasma via ORACLE 9.4 - WSL - TEXT
