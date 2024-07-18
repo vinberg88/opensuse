@@ -1,0 +1,199 @@
+Mageia 9 and KDE - How to install KDE desktop - GWSL - Mageia 9 - Windows 11 - Linux - WSL - 2024
+
+You will find Mageia 9 for WSL here
+https://drive.proton.me/urls/KDQ8DMGQC0#3dgosrUPYUlH
+
+How to install KDE plasma via Mageia 9 - TEXT
+Comming Zone….
+
+How to install KDE plasma via Mageia 9 - MOVIE
+https://www.youtube.com/watch?v=uS4NY7aGRmQ
+
+
+        .°°.      
+         °°   .°°.
+         .°°°. °° 
+         .   .
+          °°° .°°°.
+      .°°°.   '___'
+     .'___'        . 
+   :dkxc;'.  ..,cxkd;
+ .dkk. kkkkkkkkkk .kkd.   
+.dkk.  ';cloolc;.  .kkd  
+ckk.                .kk;
+xO:                  cOd Mageia 9 - KDE plasma - WSL - SWeDEN - 2024
+xO:                  lOd
+lOO.                .OO:
+.k00.              .00x
+ .k00;            ;00O.
+  .lO0Kc;,,,,,,;c0KOc.
+     ;d00KKKKKK00d;
+        .,KKKK,.
+
+
+
+What is Mageia 9 - https://www.mageia.org/en/
+
+Mageia is a GNU/Linux-based, Free Software operating
+system. It is a community project, supported by a 
+nonprofit organisation of elected contributors. Our mission:
+to build great tools for people. Beyond just delivering
+a secure, stable and sustainable operating system, the
+goal is also to become and maintain a credible and
+recognized community in the free software world.
+
+Mageia 9 offer...
+
+* Stable, secure operating system for desktop & server
+* Free Software, coproduced by hundreds of people
+* Elected governance, nonprofit organization
+* You can be part of it
+* Mageia 9 will be supported until March 31st, 2025
+
+What is KDE plasma - https://kde.org 
+
+Use KDE software to surf the web, keep in touch with
+colleagues, friends and family, manage your files, enjoy
+music and videos; and get creative and productive at
+work. The KDE community develops and maintains more
+than 200 applications which run on any Linux desktop,
+and often other platforms too. The next generation desktop
+for Linux.
+
+KDE for You
+
+KDE is developed by a community of passionate
+people. We develop KDE for everyone, from kids
+to grandparents and from professionals to hobbyists.
+
+Here you have more stuff about WSL - GWSL - Windows - Linux - 2024
+https://github.com/vinberg88/opensuse
+
+----------------------------------------------
+
+Login as root and install this.
+
+dnf install sudo bash git nano curl
+
+----------------------------------------------
+
+Reboot - Logout from root and go back as normal user.
+
+----------------------------------------------
+
+Make Mageia 9 faster - Tyoe this in Terminal
+
+sudo nano /etc/dnf/dnf.conf
+
+and add this to Console / Bash
+
+max_parallel_downloads=10
+fastestmirror=true
+
+----------------------------------------------
+
+Remove Errors in Bash / termainal / Shell - Paste all and press enter.
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+----------------------------------------------
+
+Reboot - Reboot - Reboot - Reboot - Reboot - Reboot
+
+----------------------------------------------
+
+Time to update Mageia 9 so we can install KDE Plasma.
+
+Paste in Terminal: sudo dnf upgrade --refresh
+
+----------------------------------------------
+
+Install the following programs in Terminal For Mageia 9.
+
+sudo dnf install git wget curl bash net-tools dbus-x11 yum dbus*
+
+----------------------------------------------
+
+Install Chrome Browser - Always works =}
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm
+sudo yum update google-chrome-stable
+
+----------------------------------------------
+
+Time Install KDE for Mageia 9
+
+sudo dnf install task-plasma*
+
+sudo dnf install kde* --skip-broken --allowerasing
+
+-------------------------------------------------------------
+
+Paste this in Bash / terminal / Console / Shell for Mageia 9 and KDE
+
+sudo systemctl enable sddm
+sudo systemctl set-default graphical.target
+
+-------------------------------------------------------------
+
+Reboot - Reboot - Reboot - Reboot - Reboot - Reboot - Mageia 9
+
+-------------------------------------------------------------
+
+Login with GWSL and Config all. Then start Linux-shell from GWSL
+
+    "After installing wsl. Always start from GWSL bash"
+
+-------------------------------------------------------------
+
+Reboot - Reboot - Reboot - Reboot - Reboot - Reboot - Mageia 9
+
+-------------------------------------------------------------
+
+Paste all in terminal.
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-------------------------------------------------------------
+
+In terminal type: sudo nano ~/.bash_Mag_desktop
+
+Paste this small script in terminal and save and quit nano.
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-------------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot Reboot - Mageia 9
+
+-------------------------------------------
+
+Install this - Importent for KDE plasma and Mageia 9 to start.
+
+sudo dnf install plasma-workspace*
+
+-------------------------------------------
+
+Then everything was ready to start. Paste this lines in Terminal.
+
+Type in terminal: . ~/.bash_Mag_desktop
+    
+Type in terminal: dbus-launch startplasma-x11
+
+-------------------------------------------
+
+Regards Mattias Vinberg - Mageia 9 - KDE Plasma - Sweden - Linux - Windows - 2024
+
