@@ -27,6 +27,62 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+CachyOS - Arch - WSL - How to install KDE 6 via Windows 11 - GWSL - LINUX - 2024
+
+You can find CachyOS here for WSL or via Docker.
+
+https://drive.proton.me/urls/V83NJ6EVY8#qRsexPW1SZ58
+
+Docker: https://hub.docker.com/r/cachyos/cachyos
+
+Have install CachyOS and KDE Plasma 6 - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Cachyos-KDE6.txt
+
+Have install CachyOS and KDE Plasma 6 - WSL - MOVIE
+
+https://www.youtube.com/watch?v=500I1MEtv40
+
+![Cachyos-KDE6](https://github.com/user-attachments/assets/5f371c1e-3ba5-4268-aa96-4dfef406eb9c)
+
+Why CachyOS - https://www.cachyos.org
+
+CachyOS is an user-friendly and highly optimized Linux
+distribution based on Arch Linux. CachyOS is not an 
+ordinary Arch-based distribution; it has some major
+changes from others. By default, we provide our own
+applications, such as CachyOS Hello or CachyOS Package
+Installer among others to simplify and enchance your Linux
+experience. For example, CachyOS Hello provides options
+to update your system, enable services and rank the mirrors.
+Package Installer will help you to install packages. 
+CachyOS also has a really good and friendly community, 
+which helps each other very well. CachyOS from Germany.
+
+
+KDE 6 - Plasma is a Desktop - https://kde.org
+
+Use Plasma to surf the web; keep in touch with
+colleagues, friends and family; manage your files,
+enjoy music and videos; and get creative and productive
+at work. Do it all in a beautiful environment that
+adapts to your needs, and with the safety, privacy-protection
+and peace of mind that the best Free Open Source
+Software has to offer. With Plasma the user is king.
+Not happy with the color scheme? Change it! Want
+to have your panel on the left edge of the 
+screen? Move it! Don't like the font? Use a
+different one! Download custom widgets in one
+click and add them to your desktop or panel.
+
+You can find more stuff here about WSL - GWSL - WINDOWS - LINUX
+
+https://github.com/vinberg88/opensuse
+
+Regards Matias Vinberg 2024 - Cachy OS - KDE 6 - Linux - WSL - GWSL - SWedeN - ARCH
+
+---------------------------------------------
+
 FEDORA 40 - Cosmic Desktop and Fedora - How to install - WSL - GWSL - WINDOWS 11 - 2024
 
 Here you will find fedora 40 for WSL here or in Microsoft Store
