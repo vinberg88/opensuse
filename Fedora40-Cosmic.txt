@@ -4,7 +4,7 @@ Here you will find fedora 40 for WSL here or in Microsoft Store
 https://apps.microsoft.com/detail/9npcp8drchsn?hl=en-US&gl=US
 
 How to install Cosmic Desktop on Fedora 40 via Windows 11 - TEXT
-Comming Zone…
+https://github.com/vinberg88/opensuse/blob/main/Fedora40-Cosmic.txt
 
 How to install Cosmic Desktop on Fedora 40 via Windows 11 - Movie
 https://www.youtube.com/watch?v=H8OpeSrBZfQ
