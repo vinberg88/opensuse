@@ -24,6 +24,61 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+FEDORA 40 - Cosmic Desktop and Fedora - How to install - WSL - GWSL - WINDOWS 11 - 2024
+
+Here you will find fedora 40 for WSL here or in Microsoft Store
+
+https://apps.microsoft.com/detail/9npcp8drchsn?hl=en-US&gl=US
+
+How to install Cosmic Desktop on Fedora 40 via Windows 11 - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Fedora40-Cosmic.txt
+
+How to install Cosmic Desktop on Fedora 40 via Windows 11 - Movie
+
+https://www.youtube.com/watch?v=H8OpeSrBZfQ
+
+![Fedora40-Cosmic](https://github.com/user-attachments/assets/8fcdeb5a-34ab-4b25-a396-022352028dc4)
+
+========== What is Fedora ==========
+
+Fedora, also known as Fedora Linux, is a popular Open Source Linux-based
+operating system (OS). Designed as a secure, general-purpose OS, Fedora
+is developed on a six-month to eight-month release cycle under the Fedora
+Project. Both the OS and the Fedora Project are financially sponsored
+and supported by Red Hat. Fedora is a free and open source OS platform
+for hardware, clouds and containers. Based on the Linux OS kernel
+architecture, Fedora Linux is a user-friendly OS that enables users to
+perform their tasks easily and efficiently with minimal friction. The name
+Fedora refers to the characteristic fedora hat in Red Hat's Shadowman logo.
+https://fedoraproject.org
+
+========== About Cosmic Desktop ==========
+
+Company behind the popular Ubuntu-based Pop!_OS Linux distro,
+is developing COSMIC, a desktop environment currently in the
+alpha stage. It’s creating quite a buzz in the open-source
+community, with many users eagerly anticipating its release.
+
+If you want to install on othere Linux like Arch.
+
+https://github.com/pop-os/cosmic-epoch
+
+https://linuxiac.com/cosmic-desktop-slated-to-debut-with-popos-24-04-lts
+
+https://blog.system76.com/post/cosmic-the-road-to-alpha
+
+Want more stuff for WSL - WINDOWS 11 - GWSL - LINUX
+
+https://github.com/vinberg88/opensuse
+
+NOTE - This is only a sample and should not be used in a normal environment.
+Cosmic Desktop is not finished in development - Early phase! - NOTE
+
+Regards, Mattias Vinberg - Fedora 40 - WSL - GWSL - SWEDEN - Linux - CosmiC Desktop - 2024
+
+---------------------------------------------
+
 Mageia 9 and KDE - How to install KDE desktop - GWSL - Mageia 9 - Windows 11 - Linux - WSL - 2024
 
 You will find Mageia 9 for WSL here
