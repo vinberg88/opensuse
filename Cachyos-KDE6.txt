@@ -6,7 +6,7 @@ https://drive.proton.me/urls/V83NJ6EVY8#qRsexPW1SZ58
 Docker: https://hub.docker.com/r/cachyos/cachyos
 
 Have install CachyOS and KDE Plasma 6 - WSL - TEXT
-Comming…
+https://github.com/vinberg88/opensuse/blob/main/Cachyos-KDE6.txt
 
 Have install CachyOS and KDE Plasma 6 - WSL - MOVIE
 https://www.youtube.com/watch?v=500I1MEtv40
