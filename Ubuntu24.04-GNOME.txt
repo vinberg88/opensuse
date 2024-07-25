@@ -1,5 +1,5 @@
 ----------------------------------------------
-Ubuntu 24.04 - Gnome 46 on Ubuntu 24.04 via Windows 11 - GWSL - WSL - How to install.
+Ubuntu 24.04 - Gnome 46 on Ubuntu 24.04 via Windows 11 - GWSL - WSL - Linux - How to install.
 
 Here you can find Ubuntu 24.04 for WSL - GWSL
 https://apps.microsoft.com/detail/9p7bdvkvnxz6?hl=en-us&gl=US
@@ -8,7 +8,7 @@ How to install Gnome 46 via Ubuntu 24.04 and Windows 11 - TEXT
 https://github.com/vinberg88/opensuse/blob/main/Ubuntu24.04-GNOME.txt
 
 How to install Gnome 46 via Ubuntu 24.04 and Windows 11 - MOVIE
-https://www.youtube.com/watch?v=t6U4g-e_q0E
+https://www.youtube.com/watch?v=LhPtGcUp0iM
 
                              ....                                         ....
               .',:clooo:  .:looooo:.                       .',:clooo:  .:looooo:.
@@ -79,7 +79,7 @@ Update All: sudo apt update && sudo apt upgrade
 
 Install programs:
 
-sudo apt install bash git npm wget curl pipx dracut -y
+sudo apt install bash git npm wget curl pipx dracut dbus* -y
 sudo apt install gdm3* -y
 sudo systemctl set-default graphical
 
@@ -121,9 +121,14 @@ Install Chrome if you want...
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb -y
 
+Install blanket - Sounds
+
+wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+
 ----------------------------------
 
-10. Time to install Gnome: sudo apt install ubuntu-desktop
+10. Time to install Gnome: sudo apt install ubuntu-desktop gnome*
 
 ----------------------------------------------
 
@@ -164,7 +169,6 @@ dbus-launch gnome-session
 
 ----------------------------------------------
 
-Warm Regards, 
-Mattias Vinberg - SwE - 2024
+Regards Mattias Vinberg - SwEden - GNOME - Ubuntu 24.04 - Linux - WSL - GWSL - 2024
 
 ----------------------------------------------
