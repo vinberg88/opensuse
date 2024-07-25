@@ -33,7 +33,7 @@ https://www.youtube.com/watch?v=LhPtGcUp0iM
                              .                                            .
 
 
-About Ubuntu 24.04
+About Ubuntu 24.04 - https://ubuntu.com/desktop/wsl
 
 Run your choice of Linux text editors, including vim, emacs, and nano.
 Install applications, compilers and libraries from the Ubuntu 
@@ -43,7 +43,7 @@ of free and open-source software. Ubuntu is officially
 released in multiple editions: Desktop, Server, and Core
 for Internet of things devices and robots.
 
-About Gnome 46
+About Gnome 46 - https://www.gnome.org
 
 Every part of GNOME has been designed to make it simple 
 and easy to use. The Activities Overview is a simple way 
