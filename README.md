@@ -27,6 +27,48 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+NEW VIDEO UBUNTU 24.04 - GNOME DESKTOP 46
+
+Ubuntu 24.04 - Gnome 46 on Ubuntu 24.04 via Windows 11 - GWSL - WSL - Linux - How to install.
+
+Here you can find Ubuntu 24.04 for WSL - GWSL
+https://apps.microsoft.com/detail/9p7bdvkvnxz6?hl=en-us&gl=US
+
+How to install Gnome 46 via Ubuntu 24.04 and Windows 11 - TEXT
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu24.04-GNOME.txt
+
+How to install Gnome 46 via Ubuntu 24.04 and Windows 11 - MOVIE
+https://www.youtube.com/watch?v=LhPtGcUp0iM
+
+![ubuntu2404](https://github.com/user-attachments/assets/2f9570cc-1c3f-45f5-a4ac-c2402c7cfb1d)
+
+About Ubuntu 24.04 - https://ubuntu.com/desktop/wsl
+
+Run your choice of Linux text editors, including vim, emacs, and nano.
+Install applications, compilers and libraries from the Ubuntu 
+repository, securely maintained by Canonical. Ubuntu is a
+Linux distribution derived from Debian and composed mostly
+of free and open-source software. Ubuntu is officially
+released in multiple editions: Desktop, Server, and Core
+for Internet of things devices and robots.
+
+About Gnome 46 - https://www.gnome.org
+
+Every part of GNOME has been designed to make it simple 
+and easy to use. The Activities Overview is a simple way 
+to access all your basic tasks. A press of a button is
+all it takes to view your open windows, launch applications, or 
+check if you have new messages. Having everything in 
+one convenient place means you don’t have to learn your way 
+around a maze of different technologies. 
+
+You Can Find More Stuff here About WSL
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - SwEden - GNOME - Ubuntu 24.04 - Linux - WSL - GWSL - YouTUBE - 2024
+
+---------------------------------------------
+
 CachyOS - Arch - WSL - How to install KDE 6 via Windows 11 - GWSL - LINUX - 2024
 
 You can find CachyOS here for WSL or via Docker.
