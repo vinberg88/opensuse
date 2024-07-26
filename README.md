@@ -27,6 +27,63 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+PENGWIN Enterprice 9 - Kde Plasma Desktop Install - GUI - PENGWIN 9 via Windows 11 - WSL - GWSL - 2024
+
+You will find PENGWIN Enterprice 9 in Microsoft Store or via this link - Price is 99 dollar.
+
+https://apps.microsoft.com/detail/9p70gx2hqnhn?hl=en-us&gl=US
+
+How to install Plasma KDE desktop on PENGWIN Enterprice 9 - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Pengwin9-KDE.txt
+
+How to install Plasma KDE desktop on PENGWIN Enterprice 9 - MOVIE
+
+https://www.youtube.com/watch?v=4JP4_5-OjZw
+
+![Pengwin9-KDE](https://github.com/user-attachments/assets/4c7af60f-1829-41a8-81c6-487c2f952e0a)
+     
+About PENGWIN Enterprice 9
+
+https://github.com/WhitewaterFoundry/Pengwin-Enterprise
+
+https://www.whitewaterfoundry.com/pengwin-enterprise
+
+Pengwin Enterprise is an enterprise Linux solution for
+Windows Subsystem for Linux (WSL) that is compatible
+with mainstream enterprise Linux distributions.
+Pengwin Enterprise allows businesses, education, government,
+and other organizations to deploy a secure, reliable,
+and familiar Linux distribution on Windows Subsystem
+for Linux on Windows 11. Pengwin Enterprise was designed
+to be highly adaptable for secure enterprise Environments
+and is compatible with the mainstream enterprise Linux
+vendor distribution and other derivatives. Whitewater Foundry,
+Ltd. Co. is an open-source startup that created Pengwin, the
+first Linux distribution designed for Windows Subsystem for
+Linux on Windows 11. Pengwin has since become a top developer
+tool on the Microsoft Store and Whitewater Foundry, Ltd.
+Co. has grown to a worldwide team. Pengwin Enterprise grew
+out of demand for a mainstream enterprise Linux vendor
+distribution on WSL from enterprise clients.
+
+
+About KDE Plasma Desktop
+
+https://kde.org
+
+Plasma is a Desktop - Use Plasma to surf the
+web; keep in touch with colleagues, friends and family;
+manage your files, enjoy music and videos; and get creative
+and productive at work. Do it all in a Beautiful
+environment that adapts to your needs, and with the
+safety, privacy-protection and peace of mind that the
+best Free Open Source Software has to offer.
+
+Regards Mattias Vinberg - Linux - KDE plasma - Pengwin - WSL - Windows 11 - GWSL - 2024
+
+---------------------------------------------
+
 NEW VIDEO UBUNTU 24.04 - GNOME DESKTOP 46
 
 Ubuntu 24.04 - Gnome 46 on Ubuntu 24.04 via Windows 11 - GWSL - WSL - Linux - How to install.
