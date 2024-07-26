@@ -4,7 +4,7 @@ You will find PENGWIN Enterprice 9 in Microsoft Store or via this link - Price i
 https://apps.microsoft.com/detail/9p70gx2hqnhn?hl=en-us&gl=US
 
 How to install Plasma KDE desktop on PENGWIN Enterprice 9 - TEXT
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/Pengwin9-KDE.txt
 
 How to install Plasma KDE desktop on PENGWIN Enterprice 9 - MOVIE
 https://www.youtube.com/watch?v=4JP4_5-OjZw
