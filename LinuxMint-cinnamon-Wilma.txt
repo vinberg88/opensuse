@@ -1,0 +1,168 @@
+Linux Mint Wilma 22 - Install Cinnamon Desktop on Linux Mint 22 via Windows 11 - WSL - GWSL - Linux - 2024
+
+You cane find Linux Mint Wilma 22 here for WSL - Latest Edition!
+https://github.com/sileshn/LinuxmintWSL2
+
+Here you find how to install Linux Mint Wilma 22 - WSL - TEXT
+Comming Zone…
+
+Here you find how to install Linux Mint Wilma 22 - WSL - MOVIE
+https://www.youtube.com/watch?v=PccsXIdQ-aQ
+
+
+             ...-:::::-...                             ...-:::::-...
+          .-MMMMMMMMMMMMMMM-.                       .-MMMMMMMMMMMMMMM-.
+      .-MMMM`..-:::::::-..`MMMM-.               .-MMMM`..-:::::::-..`MMMM-.
+    .:MMMM.:MMMMMMMMMMMMMMM:.MMMM:.           .:MMMM.:MMMMMMMMMMMMMMM:.MMMM:.
+   -MMM-M---MMMMMMMMMMMMMMMMMMM.MMM-         -MMM-M---MMMMMMMMMMMMMMMMMMM.MMM-
+ `:MMM:MM`  :MMMM:....::-...-MMMM:MMM:`    `:MMM:MM`  :MMMM:....::-...-MMMM:MMM:`
+ :MMM:MMM`  :MM:`  ``    ``  `:MMM:MMM:    :MMM:MMM`  :MM:`  ``    ``  `:MMM:MMM:
+.MMM.MMMM`  :MM.  -MM.  .MM-  `MMMM.MMM.  .MMM.MMMM`  :MM.  -MM.  .MM-  `MMMM.MMM.
+:MMM:MMMM`  :MM.  -MM-  .MM:  `MMMM-MMM:  :MMM:MMMM`  :MM.  -MM-  .MM:  `MMMM-MMM:
+:MMM:MMMM`  :MM.  -MM-  .MM:  `MMMM:MMM:  :MMM:MMMM`  :MM.  -MM-  .MM:  `MMMM:MMM:
+:MMM:MMMM`  :MM.  -MM-  .MM:  `MMMM-MMM:  :MMM:MMMM`  :MM.  -MM-  .MM:  `MMMM-MMM:
+.MMM.MMMM`  :MM:--:MM:--:MM:  `MMMM.MMM.  .MMM.MMMM`  :MM:--:MM:--:MM:  `MMMM.MMM.
+ :MMM:MMM-  `-MMMMMMMMMMMM-`  -MMM-MMM:    :MMM:MMM-  `-MMMMMMMMMMMM-`  -MMM-MMM:
+  :MMM:MMM:`                `:MMM:MMM:      :MMM:MMM:`                `:MMM:MMM:
+   .MMM.MMMM:--------------:MMMM.MMM.        .MMM.MMMM:--------------:MMMM.MMM.
+     '-MMMM.-MMMMMMMMMMMMMMM-.MMMM-'           '-MMMM.-MMMMMMMMMMMMMMM-.MMMM-'
+       '.-MMMM``--:::::--``MMMM-.'               '.-MMMM``--:::::--``MMMM-.'
+            '-MMMMMMMMMMMMM-'                         '-MMMMMMMMMMMMM-'
+               ``-:::::-``                               ``-:::::-``
+
+About Linux Mint Wilma 22 - https://linuxmint.com
+
+Linux Mint is an operating system for desktop and
+laptop computers. It is designed to work 
+out of the box' and comes fully equipped with
+the apps most people need. Yes, Linux Mint is 
+completely free of charge. Almost Everything
+in Linux Mint is also open-source. Fun, helpful
+and passionate is Linux Mint Wilma 22.
+Linux Mint is one of the most popular desktop
+Linux distributions and used by millions of people.
+Thanks to your donations and advertising Linux Mint
+is completely free of charge. We hope you'll enjoy
+using it as much as we enjoy working on it.
+
+About Cinnamon Edition for Linux Mint Wilma 22 - 2024
+
+https://www.linuxmint.com/download.php
+https://github.com/linuxmint/cinnamon
+
+Cinnamon is a Linux desktop that provides advanced
+innovative features and a traditional user experience.
+The desktop layout is similar to Gnome 2 with 
+underlying technology forked from Gnome Shell.
+Cinnamon makes users feel at home with an easy-to-use
+and comfortable desktop experience. 
+
+--------------------------------------------
+
+Paste all to terminal and klick enter... Remove errors..
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+--------------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot
+
+--------------------------------------------
+
+Update All: sudo apt update && sudo apt upgrade -y
+
+--------------------------------------------
+
+Install programs:
+
+sudo apt install bash git npm wget curl nano pipx dracut dbus* -y
+sudo apt install gdm* -y
+sudo systemctl set-default graphical
+
+--------------------------------------------
+
+install Google - Chrome
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+--------------------------------------------
+
+Install blanket - Listen to sounds!
+
+wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+
+--------------------------------------------
+
+Install hyfetch - like Neofetch but more GAY =]
+
+sudo apt install hyfetch
+
+Test in terminal after installation: hyfetch
+
+--------------------------------------------
+
+Reboot Linux... Reboot Linux... Reboot Linux...
+
+--------------------------------------------
+
+Config GWSL and start from there - Linux Shell - Always from GWSL Terminal...
+
+Take an extra reboot!
+
+--------------------------------------------
+
+Time to install Cinnamon Desktop
+
+sudo apt-get build-dep cinnamon cinnamon-control-center cinnamon-desktop cinnamon-menus 
+cinnamon-screensaver cinnamon-session cinnamon-settings-daemon cinnamon-translations
+cjs muffin Nemo
+
+sudo apt install cinnamon*
+
+--------------------------------------------
+
+Paste All in terminal
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+--------------------------------------------
+
+Type this in terminal and put your user there: sudo loginctl enable-linger user
+
+--------------------------------------------
+
+Copy this and paste in terminal: sudo nano ~/.bash_Wilma88_desktop
+
+Then add this script to terminal
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+---------------------------------------------------------
+
+Reboot… Reboot… Reboot… Reboot… Reboot… Reboot… Reboot…
+
+---------------------------------------------------------
+
+Paste in terminal: . ~/.bash_Wilma88_desktop
+
+Type in terminal and start cinnamon: cinnamon-session
+
+---------------------------------------------------------
+
+Regards Mattias Vinberg - Linux Mint Wilma 22 - WSL - Windows 11 - GWSL - Linux - 2024
+
+---------------------------------------------------------
