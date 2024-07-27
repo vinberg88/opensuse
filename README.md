@@ -27,6 +27,54 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Linux Mint Wilma 22 - Install Cinnamon Desktop on Linux Mint 22 via Windows 11 - WSL - GWSL - Linux - 2024
+
+You cane find Linux Mint Wilma 22 here for WSL - Latest Edition!
+
+https://github.com/sileshn/LinuxmintWSL2
+
+Here you find how to install Linux Mint Wilma 22 - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/LinuxMint-cinnamon-Wilma.txt
+
+Here you find how to install Linux Mint Wilma 22 - WSL - MOVIE
+
+https://www.youtube.com/watch?v=PccsXIdQ-aQ
+
+![LinuxMint-cinnamon-Wilma](https://github.com/user-attachments/assets/baf27341-d431-450c-8a60-0e565f19ab29)
+
+About Linux Mint Wilma 22 - https://linuxmint.com
+
+Linux Mint is an operating system for desktop and
+laptop computers. It is designed to work 
+out of the box' and comes fully equipped with
+the apps most people need. Yes, Linux Mint is 
+completely free of charge. Almost Everything
+in Linux Mint is also open-source. Fun, helpful
+and passionate is Linux Mint Wilma 22.
+Linux Mint is one of the most popular desktop
+Linux distributions and used by millions of people.
+Thanks to your donations and advertising Linux Mint
+is completely free of charge. We hope you'll enjoy
+using it as much as we enjoy working on it.
+
+About Cinnamon Edition for Linux Mint Wilma 22 - 2024
+
+https://www.linuxmint.com/download.php
+
+https://github.com/linuxmint/cinnamon
+
+Cinnamon is a Linux desktop that provides advanced
+innovative features and a traditional user experience.
+The desktop layout is similar to Gnome 2 with 
+underlying technology forked from Gnome Shell.
+Cinnamon makes users feel at home with an easy-to-use
+and comfortable desktop experience. 
+
+Regards Mattias Vinberg - Linux Mint Wilma 22 - WSL - Windows 11 - GWSL - Linux - 2024
+
+---------------------------------------------
+
 PENGWIN Enterprice 9 - Kde Plasma Desktop Install - GUI - PENGWIN 9 via Windows 11 - WSL - GWSL - 2024
 
 You will find PENGWIN Enterprice 9 in Microsoft Store or via this link - Price is 99 dollar.
