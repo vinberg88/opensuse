@@ -4,7 +4,7 @@ You cane find Linux Mint Wilma 22 here for WSL - Latest Edition!
 https://github.com/sileshn/LinuxmintWSL2
 
 Here you find how to install Linux Mint Wilma 22 - WSL - TEXT
-Comming Zone…
+https://github.com/vinberg88/opensuse/blob/main/LinuxMint-cinnamon-Wilma.txt
 
 Here you find how to install Linux Mint Wilma 22 - WSL - MOVIE
 https://www.youtube.com/watch?v=PccsXIdQ-aQ
