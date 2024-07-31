@@ -4,7 +4,7 @@ You will find Amazon Linux 2 for WSL here - NEW SETUP!
 https://drive.proton.me/urls/QYFEAA3BRC#ZECxhrbg9nsH
 
 Here you find how to install Amazon Linux - WSL - TEXT
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/Amazon-Mate.txt
 
 Here you find how to install Amazon Linux - WSL - MOVIE
 https://www.youtube.com/watch?v=FWnJOPm50kE
