@@ -4,7 +4,7 @@ You can find Springdale Linux here. Latest Edition 9.2 SpringDale Linux.
 https://drive.proton.me/urls/75S1VPN6F4#uiy1wp0BIbsG
 
 How to install Gnome Desktop via Springdale Linux - WSL - TEXT
-Comming Zone…
+https://github.com/vinberg88/opensuse/blob/main/SpringdaleLinux-GNOME.txt
 
 How to install Gnome Desktop via Springdale Linux - WSL - MOVIE
 https://www.youtube.com/watch?v=zd0QVbQYesg
