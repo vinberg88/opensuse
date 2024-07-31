@@ -27,6 +27,69 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Lubuntu via Ubuntu 24.04 - lxqt -  Ubuntu Noble Numbat - via Windows 11 - WSL - GWSL - Linux - 2024
+
+You can find Ubuntu 24.04 in microsoft store or via this link.
+
+https://apps.microsoft.com/detail/9nz3klhxdjp5?hl=en-US&gl=US
+
+How to install Lubuntu "lxqt" desktop via windows 11 and WSL - Ubuntu 24.04 - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu24.04-Lubuntu.txt
+
+How to install Lubuntu "lxqt" desktop via windows 11 and WSL - Ubuntu 24.04 - MOVIE
+
+https://www.youtube.com/watch?v=1T5fEBdvfLA
+
+![Ubuntu24 04-Lubuntu](https://github.com/user-attachments/assets/65a6e820-f016-43cf-975d-10da37f064d9)
+
+About Ubuntu - https://ubuntu.com/wsl
+
+Ubuntu is an ancient African word meaning ‘humanity to others’.
+It is often described as reminding us that ‘I am what I am
+because of who we all are’. We bring the spirit of Ubuntu
+to the world of computers and software. The Ubuntu 
+distribution represents the best of what the world’s software
+community has shared with the world. Canonical is the
+publisher of Ubuntu. Members of the Canonical team lead
+aspects of Ubuntu such as the kernel, default desktop,
+foundations, security, OpenStack, and Kubernetes. 
+The first official Ubuntu release — Version 4.10, codenamed
+the ‘Warty Warthog’ — was launched in October 2004, and
+sparked dramatic global interest as thousands of free
+software enthusiasts and experts joined the Ubuntu community.
+Ubuntu today has many flavours and dozens of specialised 
+derivatives. There are also special editions for servers, OpenStack
+clouds, and connected devices. All editions share common
+infrastructure and software, making Ubuntu a unique single
+platform that scales from consumer electronics to the desktop
+and up into the cloud for enterprise computing.
+
+About Lubuntu "lxqt" - https://lubuntu.me
+
+Lubuntu is a complete Operating System that ships
+the essential apps and services for daily use: 
+office applications, PDF reader,  image editor, Music
+and video players, etc. Lubuntu now ships the most
+advanced desktop interface, using Qt Technologies
+for rendering the widgets and the entire ecosystem
+(from the installer to the smallest parts). Lubuntu 
+is compatible with the majority of existing file 
+formats, such as images, songs, films, spreadsheets, 
+text documents, internet radio stations, and much more.
+Everything works out of the box. But if you need more
+(usually proprietary) codecs for exotic file formats,
+you can always install the ubuntu-restricted-extras
+package and enjoy all that content.
+
+Want more stuff for WSL - GWSL - WINDOWS 11 - Linux - Click here
+
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - Lubuntu - Ubuntu - lxqt - WSL - GWSL - Windows 11 - Linux - 2024 - Sweden
+
+---------------------------------------------
+
 SpringDale Linux and Gnome Desktop - How to install Gnome Desktop via WSL - GWSL - Windows 11 - Linux - 2024
 
 You can find Springdale Linux here. Latest Edition 9.2 SpringDale Linux.
