@@ -27,6 +27,65 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+SpringDale Linux and Gnome Desktop - How to install Gnome Desktop via WSL - GWSL - Windows 11 - Linux - 2024
+
+You can find Springdale Linux here. Latest Edition 9.2 SpringDale Linux.
+
+https://drive.proton.me/urls/75S1VPN6F4#uiy1wp0BIbsG
+
+How to install Gnome Desktop via Springdale Linux - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/SpringdaleLinux-GNOME.txt
+
+How to install Gnome Desktop via Springdale Linux - WSL - MOVIE
+
+https://www.youtube.com/watch?v=zd0QVbQYesg
+
+![SpringdaleLinux-GNOME](https://github.com/user-attachments/assets/ee28a680-ef99-4595-9111-1a27d928d239)
+
+About SpringDale Linux - https://springdale.math.ias.edu
+
+Springdale Linux – a custom Red Hat®-based distribution and mirror.
+A project of members of the computing staff of ​Princeton University
+and the ​Institute for Advanced Study. This project was started long
+before ​CentOS or other projects were available. Even if you do not
+install the core distribution, the Addons, Computational and
+Unsupported repositories may be of use to you. The Addons repository
+contains additional packages not included in a stock Red Hat 
+distribution. The Computational repository also includes additional
+packages, however, these packages are specific to scientific computing.
+The Unsupported repository is a place where one time packages are
+put, they are unsupported and may change frequently. 
+
+About Gnome Desktop - https://www.gnome.org
+
+An easy and elegant way to use your computer, GNOME
+is designed to help you have the best possible computing
+experience. Every part of GNOME has been designed to
+make it simple and easy to use. The Activities Overview
+is a simple way to access all your basic tasks. A press of
+a button is all it takes to view your open windows, launch
+applications, or check if you have new messages. Having 
+everything in one convenient place means you don’t have to
+learn your way around a maze of different technologies.
+GNOME provides a focused working environment that helps you
+get things done. It is packed with features that will make you
+more productive: a powerful search feature that helps you access
+all your work from one place; side-by-side windows that make
+it easy to view several documents at the same time; seamless 
+integration with online accounts which allows you to access 
+all your data in one place; and a messaging system that 
+comfortably deals with notifications, letting you quickly 
+respond in place or return to them in a convenient time.
+
+Want more stuff for WSL - Linux - Windows - GWSL - Press here..
+
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - SpringDale Linux - GNOME - WSL - Windows 11 - GWSL - Linux - 2024
+
+---------------------------------------------
+
 Amazon Linux 2 and Mate Desktop - How to install Mate via Windows 11 and Amazon Liux - WSL - GWSL - 2024
 
 You will find Amazon Linux 2 for WSL here - NEW SETUP!
