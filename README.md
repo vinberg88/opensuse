@@ -27,6 +27,59 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Amazon Linux 2 and Mate Desktop - How to install Mate via Windows 11 and Amazon Liux - WSL - GWSL - 2024
+
+You will find Amazon Linux 2 for WSL here - NEW SETUP!
+
+https://drive.proton.me/urls/QYFEAA3BRC#ZECxhrbg9nsH
+
+Here you find how to install Amazon Linux - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Amazon-Mate.txt
+
+Here you find how to install Amazon Linux - WSL - MOVIE
+
+https://www.youtube.com/watch?v=FWnJOPm50kE
+
+![Amazon-Mate](https://github.com/user-attachments/assets/7ee19e76-edeb-4eaa-92c4-7e97dc44842c)
+
+About Amazon Linux - https://aws.amazon.com/amazon-linux-2
+
+Amazon Linux 2 is a Linux operating system from
+Amazon Web Services (AWS). It provides a 
+security-focused, stable, and high-performance
+execution environment to develop and run
+cloud applications. Amazon Linux 2 is provided
+at no additional charge. AWS provides ongoing
+security and maintenance updates for Amazon Linux 2.
+Amazon Linux 2 includes support for the latest
+Amazon EC2 instance capabilities and is tuned for
+enhanced performance. It includes packages that
+help ease integration with other AWS Services.
+
+About Mate Desktop - https://mate-desktop.org
+
+The MATE Desktop Environment is the continuation
+of GNOME 2. It provides an intuitive and
+attractive desktop environment using traditional
+metaphors for Linux and other Unix-like 
+operating systems. MATE is under active 
+development to add support for new Technologies
+while preserving a traditional desktop experience.
+
+This is version 2 and not 2023 - Amazon 2023 does not support EPEL so it hard to install.
+Why i not install Amazon Linux 2023 - https://repost.aws/knowledge-center/ec2-enable-epel
+
+Amazon Linux 2 will have support to 2025-06-30.
+
+Find More Stuff here for WSL - GWSL - Windows 11 - Linux
+
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - SwEdeN - 2024 - Amazon Linux 2 - WSL - GWSL - MATE desktop - Windows 11
+
+---------------------------------------------
+
 Linux Mint Wilma 22 - Install Cinnamon Desktop on Linux Mint 22 via Windows 11 - WSL - GWSL - Linux - 2024
 
 You cane find Linux Mint Wilma 22 here for WSL - Latest Edition!
