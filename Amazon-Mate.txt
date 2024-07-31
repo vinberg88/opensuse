@@ -1,0 +1,217 @@
+Amazon Linux 2 and Mate Desktop - How to install Mate via Windows 11 and Amazon Liux - WSL - GWSL - 2024
+
+You will find Amazon Linux 2 for WSL here - NEW SETUP!
+https://drive.proton.me/urls/QYFEAA3BRC#ZECxhrbg9nsH
+
+Here you find how to install Amazon Linux - WSL - TEXT
+Comming Zone...
+
+Here you find how to install Amazon Linux - WSL - MOVIE
+https://www.youtube.com/watch?v=FWnJOPm50kE
+
+
+             `-/oydNNdyo:.`  
+      `.:+shmMMMMMMMMMMMMMMmhs+:.` 
+    -+hNNMMMMMMMMMMMMMMMMMMMMMMNNho-   
+.``      -/+shmNNMMMMMMNNmhs+/-      ``.
+dNmhs+:.       `.:/oo/:.`       .:+shmNd
+dMMMMMMMNdhs+:..        ..:+shdNMMMMMMMd
+dMMMMMMMMMMMMMMNds    odNMMMMMMMMMMMMMMd
+dMMMMMMMMMMMMMMMMh    yMMMMMMMMMMMMMMMMd
+dMMMMMMMMMMMMMMMMh    yMMMMMMMMMMMMMMMMd
+dMMMMMMMMMMMMMMMMh    yMMMMMMMMMMMMMMMMd
+dMMMMMMMMMMMMMMMMh    yMMMMMMMMMMMMMMMMd
+dMMMMMMMMMMMMMMMMh    yMMMMMMMMMMMMMMMMd Amazon Linux 2 - Mate Desktop - 2024
+dMMMMMMMMMMMMMMMMh    yMMMMMMMMMMMMMMMMd
+dMMMMMMMMMMMMMMMMh    yMMMMMMMMMMMMMMMMd
+dMMMMMMMMMMMMMMMMh    yMMMMMMMMMMMMMMMMd
+dMMMMMMMMMMMMMMMMh    yMMMMMMMMMMMMMMMMd
+.:+ydNMMMMMMMMMMMh    yMMMMMMMMMMMNdy+:.
+     `.:+shNMMMMMh    yMMMMMNhs+:``
+            `-+shy    shs+:`
+
+
+About Amazon Linux - https://aws.amazon.com/amazon-linux-2
+
+Amazon Linux 2 is a Linux operating system from
+Amazon Web Services (AWS). It provides a 
+security-focused, stable, and high-performance
+execution environment to develop and run
+cloud applications. Amazon Linux 2 is provided
+at no additional charge. AWS provides ongoing
+security and maintenance updates for Amazon Linux 2.
+Amazon Linux 2 includes support for the latest
+Amazon EC2 instance capabilities and is tuned for
+enhanced performance. It includes packages that
+help ease integration with other AWS Services.
+
+About Mate Desktop - https://mate-desktop.org
+
+The MATE Desktop Environment is the continuation
+of GNOME 2. It provides an intuitive and
+attractive desktop environment using traditional
+metaphors for Linux and other Unix-like 
+operating systems. MATE is under active 
+development to add support for new Technologies
+while preserving a traditional desktop experience.
+
+This is version 2 and not 2023 - Amazon 2023 does not support EPEL so it hard to install.
+Why i not install Amazon Linux 2023 - https://repost.aws/knowledge-center/ec2-enable-epel
+
+Amazon Linux 2 will have support to 2025-06-30.
+
+Find More Stuff here for WSL - GWSL - Windows 11 - Linux
+https://github.com/vinberg88/opensuse
+
+--------------------------------------------------
+
+You may need to install nano: sudo yum install nano
+
+--------------------------------------------------
+
+Copy this first line to terminal.
+
+sudo nano /etc/wsl.conf
+
+Then copy and paste this line.
+
+[boot]
+systemd=true
+
+--------------------------------------------------
+
+Remove Errors in Terminal - Symbolic link
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+--------------------------------------------------
+
+Reboot Reboot Reboot Reboot
+
+--------------------------------------------------
+
+Enable and install Extra Packages for Enterprise Linux by running the commands.
+
+cat /etc/os-release
+
+sudo amazon-linux-extras install epel
+
+sudo rpm -qa |grep -i amazon-linux-extras
+
+sudo yum install -y amazon-linux-extras
+
+sudo yum -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+
+--------------------------------------------------
+
+Time to update Amazon Linux
+
+sudo yum update
+
+--------------------------------------------------
+
+Install some programs - you need it!
+
+sudo yum install bash git wget curl dracut dbus*
+sudo yum install lightdm lightdm-gtk-greeter
+sudo systemctl set-default graphical
+
+--------------------------------------------------
+
+If you want to install Gimp - Extra - or some other program from list.
+
+amazon-linux-extras list
+sudo amazon-linux-extras install gimp
+
+--------------------------------------------------
+
+Install Neofetch
+
+sudo curl -o /etc/yum.repos.d/konimex-neofetch-epel-7.repo https://copr.fedorainfracloud.org/coprs/konimex/neofetch/repo/epel-7/konimex-neofetch-epel-7.repo
+sudo yum install neofetch
+
+Test in Terminal after install: neofetch
+
+--------------------------------------------------
+
+Install Chromium
+
+sudo yum install -y chromium
+
+--------------------------------------------------
+
+Next we will install Mate Desktop - Paste on by one..
+
+sudo amazon-linux-extras install mate-desktop1.x -y
+
+sudo bash -c 'echo PREFERRED=/usr/bin/mate-session > /etc/sysconfig/desktop'
+
+sudo yum install mate*
+
+sudo yum update
+
+----------------------------------------------
+
+Please Reboot Linux and start setup GWSL Config
+
+ALWAYS START FROM GWSL SHELL - TERMINAL - BASH
+
+----------------------------------------------
+
+Paste all in Console/Bash
+
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+----------------------------------------------
+
+Type this in terminal and put your user there: sudo loginctl enable-linger user
+
+----------------------------------------------
+
+Copy this and paste in terminal: sudo nano ~/.bash_Amazon_desktop
+
+Then add this script to terminal
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------
+
+Please Reboot Linux - Amazon Linux - WSL
+
+----------------------------------------------
+
+Time to start Mate Desktop.
+
+Paste in terminal: . ~/.bash_Amazon_desktop
+Paste in terminal: dbus-launch mate-session
+
+----------------------------------------------
+
+Regards Mattias Vinberg - SwEdeN - 2024 - Amazon Linux 2 - WSL - GWSL - MATE desktop - Windows 11
+
+----------------------------------------------
+
+   ,     #_
+   ~\_  ####_        Amazon Linux 2
+  ~~  \_#####\
+  ~~     \###|       AL2 End of Life is 2025-06-30.
+  ~~       \#/ ___
+   ~~       V~' '->
+    ~~~         /
+      ~~._.   _/
+         _/ _/ 
+       _/m/'
+
+----------------------------------------------
+
