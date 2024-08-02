@@ -27,6 +27,58 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Centos 9 - KDE Plasma Desktop - GWSL - Centos 9 via Windows 11 - WSL - 2024
+
+Find Centos 9 for WSL here. Just download and install!
+
+https://drive.proton.me/urls/G754FRT11M#sZKOGUJO7JjI
+
+How to install KDE plasma via Centos 9 - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Centos9-KDE.txt
+
+How to install KDE plasma via Centos 9 - WSL - MOVIE
+
+https://www.youtube.com/watch?v=mEht_soF6CM
+
+![Centos9-KDE](https://github.com/user-attachments/assets/004c4441-bc00-4e22-abbd-e8beddbe3171)
+
+What is CentOS 9 Linux - https://centos.org
+
+The CentOS Linux distribution is a stable, predictable,
+manageable and reproducible platform derived from the
+sources of Red Hat Enterprise Linux (RHEL). We are now
+looking to expand on that by creating the resources needed
+by other communities to come together and be able to build
+on the CentOS Linux platform. And today we start the process
+by delivering a clear governance model, increased 
+transparency and access. In the coming weeks we aim to 
+publish our own roadmap that includes variants of
+the core CentOS Linux. The CentOS Project is a 
+community-driven free software effort focused around
+the goal of providing a rich base platform for open 
+source communities to build upon. We will provide a 
+development framework for cloud providers, the hosting 
+community, and scientific data processing, as a few examples.
+We work with several ‘upstream’ communities to help them layer
+and distribute their software more effectively on a 
+platform they can rely on.
+
+What is KDE - https://kde.org
+
+Use Plasma to surf the web; keep in touch with colleagues, friends
+and family; manage your files, enjoy music and videos; and get
+creative and productive at work. Do it all in a beautiful environment
+that adapts to your needs, and with the safety, privacy-protection and
+peace of mind that the best Free Open Source Software has to offer.
+Plasma is a Desktop =)
+
+Here you have more stuff about WSL - GWSL - Windows 11 - https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - Centos 9 - KDE - WSL - GWSL - Linux - Windows 11 - Sweden - 2024
+
+---------------------------------------------
+
 Lubuntu via Ubuntu 24.04 - lxqt -  Ubuntu Noble Numbat - via Windows 11 - WSL - GWSL - Linux - 2024
 
 You can find Ubuntu 24.04 in microsoft store or via this link.
