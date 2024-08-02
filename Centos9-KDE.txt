@@ -4,7 +4,7 @@ Find Centos 9 for WSL here. Just download and install!
 https://drive.proton.me/urls/G754FRT11M#sZKOGUJO7JjI
 
 How to install KDE plasma via Centos 9 - WSL - TEXT
-Comming Zone
+https://github.com/vinberg88/opensuse/blob/main/Centos9-KDE.txt
 
 How to install KDE plasma via Centos 9 - WSL - MOVIE
 https://www.youtube.com/watch?v=mEht_soF6CM
