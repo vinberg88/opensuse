@@ -1,12 +1,75 @@
-Opensuse Tumbelweed - Plasma Install under Windows 11 - Pro
+OpenSUSE TumbelWeed - How to install KDE plasm via Opensuse - WSL - GWSL - Windows 11 - Linux - 2024
 
-1. Install OpenSuse Tumbelweed
+You can find OPENSUSE Tumbelweed here via this link or in Microsoft Store 
+https://apps.microsoft.com/detail/9mssk2zxxn11?hl=en-us&gl=US
 
-2. Config GWSL and reboot
+How to install KDE via OPENSUSE Tumbelweed - WSL - TEXT
+https://github.com/vinberg88/opensuse/blob/main/Opensuse-Tumbelweed-KDE6.txt
 
-3. Start Tumbelweed from GWSL
+How to install KDE via OPENSUSE Tumbelweed - WSL - MOVIE
+https://www.youtube.com/watch?v=418r2xhrBWQ
 
-4. Add systemd (if nano not works. Install it: sudo zypper in nano)
+                                     ...... 
+     .,cdxxxoc,.               .:kKMMMNWMMMNk:. 
+    cKMMN0OOOKWMMXo. A        ;0MWk:'      ':OMMk. 
+  ;WMK;'       'lKMMNM,     :NMK'             'OMW;
+ cMW;             WMMMN   ,XMK'                 oMM.
+.MMc             ''^*~l. xMN:                    KM0
+'MM.                   .NMO                      oMM
+.MM,                 .kMMl                       xMN
+ KM0               .kMM0' .dl>~,.               .WMd
+ 'XM0.           ,OMMK'    OMMM7'              .XMK 
+   *WMO:.    .;xNMMk'       NNNMKl.          .xWMx  
+     ^ONMMNXMMMKx;          V  'xNMWKkxllox0NMWk'
+         '''''                    ':dOOXXKOxl'
+
+
+About OPENSUSE Tumbelweed - https://get.opensuse.org/tumbleweed
+
+State-of-the-art desktop and server operating system.
+With Tumbleweed you don't have to take difficult decisions
+about things you value, either freedom or safety, either
+control or security, technology or stability -- Tumbleweed
+lets you have your cake and eat it too! With a single command
+you can update thousands of packages, rollback to last 
+week’s snapshot, fast-forward again, and even preview upcoming
+releases. Built from latest kernel releases, compiled with
+the latest Spectre / Meltdown mitigation patches, with 
+firewall and strong security policies turned on by default, your
+security is covered out-of-the-box. Tumbleweed provides users
+with the latest gaming-related software. With the Linux
+support for gaming improving rapidly, that’s an important
+aspect for smooth, performant and problem free experience in
+your favorite games.
+
+About KDE plasma - https://kde.org
+
+Plasma is a Desktop for all. Use Plasma to surf the
+web; keep in touch with colleagues, friends and family;
+manage your files, enjoy music and videos; and get
+creative and productive at work. Do it all in a Beautiful
+environment that adapts to your needs, and with the safety,
+privacy-protection and peace of mind that the best
+Free Open Source Software has to offer. Plasma is made
+to stay out of the way as it helps you get things done.
+But under its light and intuitive surface, it's a powerhouse.
+So you're free to choose ways of usage right as you need
+them and when you need them. The Plasma Launcher lets you
+quickly and easily launch applications, but it can do much
+more -- convenient tasks like bookmarking applications, 
+searching for documents as you type, or navigating to
+common places help you get straight to the point. With
+a history of recently started programs and opened files,
+you can return to where you left off. It even remembers
+previously entered search terms so you don't have to.
+
+
+Want more stuff about WSL - GWSL - Linux - Windows look here
+https://github.com/vinberg88/opensuse
+
+-----------------------------------------------------
+
+Add systemd (if nano not works. Install it: sudo zypper in nano)
 
 Type in terminal: sudo nano /etc/wsl.conf
 
@@ -15,62 +78,127 @@ Copy to terminal and save:
 [boot]
 systemd=true
 
-5. Reboot
+-----------------------------------------------------
 
-6. Update Tumbelweed in terminal: sudo zypper ref -b && sudo zypper dup
+Paste All in terminal - one by one no stress - Tumbelweed
 
-7. Install this programs - good =)
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
 
-sudo zypper install bash git npm wget curl nano sudo dialog go dracut opi
+-----------------------------------------------------
+
+Reboot - Reboot - Reboot - Reboot - Reboot
+
+-----------------------------------------------------
+
+Update Tumbelweed in terminal: sudo zypper ref -b && sudo zypper dup
+
+-----------------------------------------------------
+
+Install this programs - good for you =)
+
+sudo zypper install bash git npm wget curl nano sudo dialog go dracut opi dbus* gnome-terminal
+
+-----------------------------------------------------
+
+Add extra Mirrors and install codecs.
 
 sudo zypper ar -cfp 90 https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumbleweed/ packman
 sudo zypper dup --from packman --allow-vendor-change  <-- press a in terminal
 
 opi codecs
 
-8. Install this: sudo zypper in -t pattern wsl_gui wsl_base wsl_systemd
+-----------------------------------------------------
 
-9. Time to install kde: sudo zypper install -t pattern kde kde_plasma
+Install Hyfetch and Test from terminal.
 
-10 Type - sudo yast and update all and install xorg
+opi hyfetch
 
-11. Paste in terminal: xdg-user-dirs-update
+sudo zypper install python310
 
-12. Paste in terminal: sudo systemctl set-default multi-user.target
+Type hyfetch in terminal to test: hyfetch
 
-13. Paste in terminal: sudo systemctl set-default graphical.target
+-----------------------------------------------------
 
-14 In terminal type: sudo nano ~/.bash_ubuntu_desktop
+Install Google-Chrome
+
+opi google-chrome
+
+-----------------------------------------------------
+
+Install Balnket - Listen to sounds my favorite.
+
+opi blanket
+
+-----------------------------------------------------
+
+Install this: sudo zypper in -t pattern wsl_gui wsl_base wsl_systemd
+
+-----------------------------------------------------
+
+Time to install kde Plasma Desktop via Tumbelweed
+
+sudo zypper install -t pattern kde kde_plasma
+
+-----------------------------------------------------
+
+Type sudo yast and update all and install xorg: sudo yast - look video!
+
+Importent after xorg install go to Dependencies and click on
+install Recommended packages and Already………………… This will take some
+time to install but its good programs that you need.
+
+-----------------------------------------------------
+
+Setup GWSL and Reboot - Always start from GWSL Shell.
+
+
+       "Take an extra Reboot please"
+
+-----------------------------------------------------
+
+Paste in terminal: 
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-----------------------------------------------------
+
+
+In terminal type this to make a scirpt: sudo nano ~/.bash_opensuse_desktop
 
 Paste this in terminal and save:
-
-# Vinberg - Fyren 1488
-# Start to flight adolf!
-# --------------------
-# Setting up essential environment variables
-# --------------------
-
-export XDG_CURRENT_DESKTOP=ubuntu:GNOME
-export XDG_SESSION_DESKTOP=ubuntu
-export DESKTOP_SESSION=ubuntu
-export GNOME_SHELL_SESSION_MODE=ubuntu
-
-# Commonly referenced environment variables for X11 sessions
-# https://specifications.freedesktop.org/basedir-spec/latest/
-
-export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
-export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
-export XDG_MENU_PREFIX=gnome-
 
 export XDG_SESSION_TYPE=x11
 export XDG_SESSION_CLASS=user
 export GDK_BACKEND=x11
 
-# Disables using Direct3D in Mesa 3D graphics library
 export LIBGL_ALWAYS_SOFTWARE=1
 
-15. Reboot
+------------------------------------------------------
 
-16. Paste in terminal: . ~/.bash_ubuntu_desktop
+Reboot - Reboot - Reboot - Reboot - Reboot - Reboot - Reboot
 
-17. Type in terminal: dbus-launch startplasma-x11
+------------------------------------------------------
+
+Time to start KDE via OpenSUse TumbelWeeD - it will take some time first start.
+
+Paste in terminal: . ~/.bash_opensuse_desktop
+
+Type in terminal: dbus-launch startplasma-x11
+
+----------------------------------------------------------------------
+
+If you not can get systemsettings to work type this in Terminal: dbus-launch systemsettings 
+
+----------------------------------------------------------------------
+
+Regards Mattias Vinberg - SweDen - OpenSUse TumbelWeeD - WSL - GWSL - Windows 11 - Linux - KDE - 2024
+
+----------------------------------------------------------------------
