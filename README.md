@@ -27,6 +27,69 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+OpenSUSE TumbelWeed - How to install KDE plasma 6 via Opensuse - WSL - GWSL - Windows 11 - Linux - 2024
+
+You can find OPENSUSE Tumbelweed here via this link or in Microsoft Store 
+
+https://apps.microsoft.com/detail/9mssk2zxxn11?hl=en-us&gl=US
+
+How to install KDE via OPENSUSE Tumbelweed - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Opensuse-Tumbelweed-KDE6.txt
+
+How to install KDE via OPENSUSE Tumbelweed - WSL - MOVIE
+
+https://www.youtube.com/watch?v=418r2xhrBWQ
+
+![Opensuse-Tumbelweed-KDE6](https://github.com/user-attachments/assets/f659fea4-156b-4911-81fa-a9e3fba8eb9a)
+
+About OPENSUSE Tumbelweed - https://get.opensuse.org/tumbleweed
+
+State-of-the-art desktop and server operating system.
+With Tumbleweed you don't have to take difficult decisions
+about things you value, either freedom or safety, either
+control or security, technology or stability -- Tumbleweed
+lets you have your cake and eat it too! With a single command
+you can update thousands of packages, rollback to last 
+week’s snapshot, fast-forward again, and even preview upcoming
+releases. Built from latest kernel releases, compiled with
+the latest Spectre / Meltdown mitigation patches, with 
+firewall and strong security policies turned on by default, your
+security is covered out-of-the-box. Tumbleweed provides users
+with the latest gaming-related software. With the Linux
+support for gaming improving rapidly, that’s an important
+aspect for smooth, performant and problem free experience in
+your favorite games.
+
+About KDE plasma - https://kde.org
+
+Plasma is a Desktop for all. Use Plasma to surf the
+web; keep in touch with colleagues, friends and family;
+manage your files, enjoy music and videos; and get
+creative and productive at work. Do it all in a Beautiful
+environment that adapts to your needs, and with the safety,
+privacy-protection and peace of mind that the best
+Free Open Source Software has to offer. Plasma is made
+to stay out of the way as it helps you get things done.
+But under its light and intuitive surface, it's a powerhouse.
+So you're free to choose ways of usage right as you need
+them and when you need them. The Plasma Launcher lets you
+quickly and easily launch applications, but it can do much
+more -- convenient tasks like bookmarking applications, 
+searching for documents as you type, or navigating to
+common places help you get straight to the point. With
+a history of recently started programs and opened files,
+you can return to where you left off. It even remembers
+previously entered search terms so you don't have to.
+
+Want more stuff about WSL - GWSL - Linux - Windows look here
+
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - SweDen - OpenSUse TumbelWeeD - WSL - GWSL - Windows 11 - Linux - KDE - 2024
+
+---------------------------------------------
+
 Centos 9 - KDE Plasma Desktop - GWSL - Centos 9 via Windows 11 - WSL - 2024
 
 Find Centos 9 for WSL here. Just download and install!
