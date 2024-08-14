@@ -4,7 +4,7 @@ You can find OPENSUSE Tumbelweed here via this link or in Microsoft Store
 https://apps.microsoft.com/detail/9mssk2zxxn11?hl=en-us&gl=US
 
 How to install KDE via OPENSUSE Tumbelweed - WSL - TEXT
-Comming zone.
+https://github.com/vinberg88/opensuse/blob/main/Opensuse-Tumbelweed-KDE6.txt
 
 How to install KDE via OPENSUSE Tumbelweed - WSL - MOVIE
 https://www.youtube.com/watch?v=418r2xhrBWQ
