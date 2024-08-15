@@ -1,0 +1,210 @@
+Ubuntu 22.04 - How to install Elementary - Pantheon desktop via Ubuntu via Windows 11 - WSL - 2024
+
+
+You can find Ubuntu 22.04 here via this link or in Microsoft store for WSL - GWSL - Linux - Windows 11
+https://apps.microsoft.com/detail/9pn20msr04dw?rtc=1&hl=sv-se&gl=SE
+
+How to install Elementary - Pantheon desktop via Ubuntu 22.04 and Windows 11 - TEXT
+Comming Zone…
+
+How to install Elementary - Pantheon desktop via Ubuntu 22.04 and Windows 11 - MOVIE
+https://www.youtube.com/watch?v=UBAQGn9u3H4
+
+
+                             ....                                         ....
+              .',:clooo:  .:looooo:.                       .',:clooo:  .:looooo:.
+           .;looooooooc  .oooooooooo'                   .;looooooooc  .oooooooooo'
+        .;looooool:,''.  :ooooooooooc                .;looooool:,''.  :ooooooooooc
+       ;looool;.         'oooooooooo,               ;looool;.         'oooooooooo,
+      ;clool'             .cooooooc.  ,,           ;clool'             .cooooooc.  ,,
+         ...                ......  .:oo,             ...                ......  .:oo,
+  .;clol:,.                        .loooo'     .;clol:,.                        .loooo'
+ :ooooooooo,                        'ooool    :ooooooooo,                        'ooool
+'ooooooooooo.                        loooo.  'ooooooooooo.                        loooo.
+'ooooooooool                         coooo.  'ooooooooool                         coooo.
+ ,loooooooc.                        .loooo.   ,loooooooc.                        .loooo.
+   .,;;;'.                          ;ooooc      .,;;;'.                          ;ooooc
+       ...                         ,ooool.          ...                         ,ooool.
+    .cooooc.              ..',,'.  .cooo.        .cooooc.              ..',,'.  .cooo.
+      ;ooooo:.           ;oooooooc.  :l.           ;ooooo:.           ;oooooooc.  :l.
+       .coooooc,..      coooooooooo.                .coooooc,..      coooooooooo.
+         .:ooooooolc:. .ooooooooooo'                  .:ooooooolc:. .ooooooooooo'
+           .':loooooo;  ,oooooooooc                     .':loooooo;  ,oooooooooc
+               ..';::c'  .;loooo:'                          ..';::c'  .;loooo:'
+                             .                                            .
+
+
+About Ubuntu 22.04 - https://ubuntu.com
+
+Run your choice of Linux text editors, including vim, emacs, and nano.
+Install applications, compilers and libraries from the Ubuntu 
+repository, securely maintained by Canonical. Ubuntu is a
+Linux distribution derived from Debian and composed mostly
+of free and open-source software. Ubuntu is officially
+released in multiple editions: Desktop, Server, and Core
+for Internet of things devices and robots.
+
+About Elementary - Pantheon desktop - https://elementary.io
+
+Stay productive and focused with Multitasking View,
+Picture-in-Picture, Do Not Disturb, and more. 
+Or keep work out of sight when watching videos or
+playing games. Workspaces help organize your work by 
+task. Keep work and play separate, but just one swipe
+or tap away. Whether you’re watching a movie, game, or 
+terminal process, Picture-in-Picture helps keep tabs on
+one thing while working on another. Tune everything else
+out to stay focused on your work, or keep notifications
+at bay while watching a movie. Do Not Disturb stops
+notifications in their tracks. Elementary comes with
+a carefully considered set of apps that cater to everyday
+needs so you can spend more time using your computer
+and less time cleaning up bloatware. Pantheon is nice to use.
+
+
+You Can Find More Stuff here About WSL - GWSL - Windows 11 - Linux
+https://github.com/vinberg88/opensuse
+
+--------------------------------
+
+Paste all to terminal and klick enter. Remove errors from terminal
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+--------------------------------
+
+Reboot Reboot Reboot Reboot 
+
+--------------------------------
+
+Update All its time =]
+
+sudo apt update && sudo apt upgrade
+
+--------------------------------
+
+Install programs
+
+sudo apt install bash git npm wget curl nano sudo pipx dracut -y
+sudo apt install gdm3* -y
+sudo apt install gdm* -y
+sudo systemctl set-default graphical
+
+--------------------------------
+
+Install this small program.
+
+pipx install hyfetch
+pipx ensurepath
+
+Test by just reboot terminal and copy and paste: hyfetch
+
+--------------------------------
+
+Paste This in terminal - Remove Acpi Errors from Ubuntu 22.04
+
+sudo ln -s /dev/null /etc/systemd/system/acpid.service
+sudo ln -s /dev/null /etc/systemd/system/acpid.path
+
+--------------------------------
+
+Install Chrome
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+-------------------------------
+
+Install Blanket if you Want! - Listen to Sounds =]
+
+wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+
+-------------------------------
+
+Install firefox - Saves time under installation
+
+sudo snap install firefox 
+
+-------------------------------
+
+Time to Install Desktop - Elementary / Pantheon
+
+sudo apt update
+sudo apt upgrade
+sudo apt install wget apt-transport-https gnupg2 software-properties-common
+
+sudo add-apt-repository ppa:elementary-os/stable
+
+sudo apt update
+sudo apt install elementary-desktop
+sudo chmod 755 /usr/share/xsessions/pantheon.desktop
+sudo apt install vala*
+
+sudo apt install task-gnome-desktop
+
+--------------------------------
+
+Reboot Linux... Reboot Linux... Reboot Linux... Ubuntu 22.04
+
+--------------------------------
+
+Config GWSL and start from there - GWSL Linux Shell
+
+      " Take an extra Reboot " 
+
+--------------------------------
+
+Copy and Paste in Terminal: 
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+
+--------------------------------
+
+Copy this and paste in terminal: sudo nano ~/.bash_ubuntu_desktop
+
+Then add this script to terminal
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+--------------------------------
+
+Reboot Reboot Reboot Reboot Reboot Reboot - Ubuntu 22.04
+
+--------------------------------
+
+Install this script - just paste all in terminal - Follow instructions.
+
+git clone https://github.com/DamionGans/ubuntu-wsl2-systemd-script.git
+cd ubuntu-wsl2-systemd-script/
+bash ubuntu-wsl2-systemd-script.sh
+
+--------------------------------
+
+Please Reboot Please Reboot Please Reboot - Ubuntu 22.04
+
+--------------------------------
+
+Time to start Elementary - Pantheon Desktop.
+
+Paste in terminal: . ~/.bash_ubuntu_desktop
+
+Paste in terminal: xhost +
+
+Paste in terminal: io.elementary.wingpanel & plank & gala
+
+--------------------------------
+
+Regards Mattias Vinberg - Elementary - Pantheon - WSL - GWSL - Windows 11 - Linux - 2024 - SWEDEN!
+
+--------------------------------
