@@ -27,6 +27,58 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Ubuntu 22.04 - How to install Elementary - Pantheon desktop via Ubuntu via Windows 11 - WSL - 2024
+
+You can find Ubuntu 22.04 here via this link or in Microsoft store for WSL - GWSL - Linux - Windows 11
+
+https://apps.microsoft.com/detail/9pn20msr04dw?rtc=1&hl=sv-se&gl=SE
+
+How to install Elementary - Pantheon desktop via Ubuntu 22.04 and Windows 11 - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu22.04-Pantheon.txt
+
+How to install Elementary - Pantheon desktop via Ubuntu 22.04 and Windows 11 - MOVIE
+
+https://www.youtube.com/watch?v=UBAQGn9u3H4
+
+![Ubuntu22 04-Pantheon](https://github.com/user-attachments/assets/a9c66ec0-b433-4675-9a88-89a67f6b1e25)
+
+About Ubuntu 22.04 - https://ubuntu.com
+
+Run your choice of Linux text editors, including vim, emacs, and nano.
+Install applications, compilers and libraries from the Ubuntu 
+repository, securely maintained by Canonical. Ubuntu is a
+Linux distribution derived from Debian and composed mostly
+of free and open-source software. Ubuntu is officially
+released in multiple editions: Desktop, Server, and Core
+for Internet of things devices and robots.
+
+About Elementary - Pantheon desktop - https://elementary.io
+
+Stay productive and focused with Multitasking View,
+Picture-in-Picture, Do Not Disturb, and more. 
+Or keep work out of sight when watching videos or
+playing games. Workspaces help organize your work by 
+task. Keep work and play separate, but just one swipe
+or tap away. Whether you’re watching a movie, game, or 
+terminal process, Picture-in-Picture helps keep tabs on
+one thing while working on another. Tune everything else
+out to stay focused on your work, or keep notifications
+at bay while watching a movie. Do Not Disturb stops
+notifications in their tracks. Elementary comes with
+a carefully considered set of apps that cater to everyday
+needs so you can spend more time using your computer
+and less time cleaning up bloatware. Pantheon is nice to use.
+
+
+You Can Find More Stuff here About WSL - GWSL - Windows 11 - Linux
+
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - Elementary - Pantheon - WSL - GWSL - Windows 11 - Linux - 2024 - SWEDEN!
+
+---------------------------------------------
+
 Elementary OS - How To Install GNOME desktop via Windows 11 - WSL - GWSL - Linux - 2024 - YouTube
 
 How to install GNOME Desktop via Elementary OS - TEXT
