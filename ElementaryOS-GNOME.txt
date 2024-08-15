@@ -1,0 +1,190 @@
+Elementary OS - How To Install GNOME via Windows 11 - WSL - GWSL - Linux - 2024 - YouTube
+
+How to install GNOME Desktop via Elementary OS - TEXT
+Comming Zone..
+
+How to install GNOME Desktop via Elementary OS - MOVIE
+https://www.youtube.com/watch?v=ak-q5Q8tEx4
+
+You can find Elementary OS here
+https://github.com/sileshn/ElementaryWSL2
+
+
+         eeeeeeeeeeeeeeeee                    eeeeeeeeeeeeeeeee         
+      eeeeeeeeeeeeeeeeeeeeeee              eeeeeeeeeeeeeeeeeeeeeee      
+    eeeee  eeeeeeeeeeee   eeeee          eeeee  eeeeeeeeeeee   eeeee    
+  eeee   eeeee       eee     eeee      eeee   eeeee       eee     eeee  
+ eeee   eeee          eee     eeee    eeee   eeee          eee     eeee 
+eee    eee            eee       eee  eee    eee            eee       eee
+eee   eee            eee        eee  eee   eee            eee        eee
+ee    eee           eeee       eeee  ee    eee           eeee       eeee
+ee    eee         eeeee      eeeeee  ee    eee         eeeee      eeeeee
+ee    eee       eeeee      eeeee ee  ee    eee       eeeee      eeeee ee
+eee   eeee   eeeeee      eeeee  eee  eee   eeee   eeeeee      eeeee  eee
+eee    eeeeeeeeee     eeeeee    eee  eee    eeeeeeeeee     eeeeee    eee
+ eeeeeeeeeeeeeeeeeeeeeeee    eeeee    eeeeeeeeeeeeeeeeeeeeeeee    eeeee 
+  eeeeeeee eeeeeeeeeeee      eeee      eeeeeeee eeeeeeeeeeee      eeee  
+    eeeee                 eeeee          eeeee                 eeeee    
+      eeeeeee         eeeeeee              eeeeeee         eeeeeee      
+         eeeeeeeeeeeeeeeee                    eeeeeeeeeeeeeeeee 
+
+
+About Elementary OS - Horus - https://elementary.io
+
+Made with care with you in mind. OS 7.1 provides new
+personalization options that make it more inclusive
+and accessible, protects your privacy and ensures apps
+always operate with your explicit consent, and
+addresses your feedback with over 200 bug fixes, design
+changes, and new features. Get Work Done. Or Play.
+Stay productive and focused with Multitasking View,
+Picture-in-Picture, Do Not Disturb, and more. Or keep
+work out of sight when watching videos or playing games.
+Elementary OS is easy to use and god! Our platform
+itself is entirely open source, and it’s built upon
+a strong foundation of Free & Open Source software
+(like GNU/Linux). Plus, we actively collaborate within
+the ecosystem to improve it for everyone. Elementary OS
+was first released in March 2011 during a time when 
+KDE, Gnome, and Ubuntu were radically redesigning
+their desktops.
+
+About GnomE Desktop - https://www.gnome.org
+
+An easy and elegant way to use your computer, GNOME
+is designed to help you have the best possible 
+computing experience. Every part of GNOME has been 
+designed to make it simple and easy to use. The Activities
+Overview is a simple way to access all your basic tasks.
+A press of a button is all it takes to view your open
+windows, launch applications, or check if you have new
+messages. Having everything in one convenient place means
+you don’t have to learn your way around a maze of 
+different technologies. Every aspect of GNOME has been
+crafted to fit together as a harmonious whole, providing
+a consistent and integrated experience. Our attention
+to detail means a smooth and polished product that lets
+you do the things you want without getting in the way.
+GNOME is satisfying to use and beautiful to behold.
+
+Find More Here About WSL and Linux for Windows 11..
+https://github.com/vinberg88/opensuse
+
+-------------------------------
+
+Paste in terminal and enable systemd
+
+sudo nano /etc/wsl.conf 
+
+and add
+
+[boot]
+systemd=true
+
+-------------------------------
+
+Paste in terminal - all - remove errors in Bash
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+-------------------------------
+
+Reboot Reboot Reboot - Elementary OS
+
+-------------------------------
+
+Update and upgrade all by copy and paste this lines...
+
+sudo apt update
+sudo apt upgrade
+
+-------------------------------
+
+-------------------------------
+
+Install programs - you need this for Gnome Desktop:
+
+sudo apt install bash git npm wget curl dracut dbus* sudo bash pipx -y
+sudo apt install gdm* -y
+sudo systemctl set-default graphical
+
+-------------------------------
+
+Time to Setup GWSL and Reboot Before config..
+
+ " Take an extra reboot Before continuing "
+
+-------------------------------
+
+Install hyfetch and copy and paste this..
+
+pipx install hyfetch
+pipx ensurepath
+
+Try hyfetch by type hyfetch in terminal: hyfetch
+
+-------------------------------
+
+Install Google-Chrome
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+-------------------------------
+
+Install Blanket if you Want! - Listen to Sounds =]
+
+wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+
+-------------------------------
+
+Paste all in terminal for install Gnome Desktop via Elementary OS and Windows 11.
+
+sudo apt install task-gnome-desktop
+sudo apt install gnome*
+
+-------------------------------
+
+Paste In Terminal - All
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+
+-------------------------------
+
+Type this in terminal and put your user there - sudo loginctl enable-linger user
+
+-------------------------------
+
+Copy this and paste in terminal: sudo nano ~/.bash_OS_desktop
+
+Then add this script to terminal
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-------------------------------
+
+Reboot Reboot Reboot Elementary OS and Gnome Desktop
+
+-------------------------------
+
+Paste in terminal: . ~/.bash_OS_desktop
+
+Type in terminal and start Gnome: gnome-session
+
+-------------------------------
+
+Regards Mattias Vinberg - Elementary OS - Gnome Desktop - Linux - Windows 11 - WSL - GWSL - SwEden - 2024
+
+-------------------------------
