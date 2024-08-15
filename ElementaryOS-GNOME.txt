@@ -1,7 +1,7 @@
 Elementary OS - How To Install GNOME via Windows 11 - WSL - GWSL - Linux - 2024 - YouTube
 
 How to install GNOME Desktop via Elementary OS - TEXT
-Comming Zone..
+https://github.com/vinberg88/opensuse/blob/main/ElementaryOS-GNOME.txt
 
 How to install GNOME Desktop via Elementary OS - MOVIE
 https://www.youtube.com/watch?v=ak-q5Q8tEx4
