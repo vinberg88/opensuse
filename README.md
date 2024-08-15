@@ -27,6 +27,68 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Elementary OS - How To Install GNOME desktop via Windows 11 - WSL - GWSL - Linux - 2024 - YouTube
+
+How to install GNOME Desktop via Elementary OS - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/ElementaryOS-GNOME.txt
+
+How to install GNOME Desktop via Elementary OS - MOVIE
+
+https://www.youtube.com/watch?v=ak-q5Q8tEx4
+
+You can find Elementary OS here
+
+https://github.com/sileshn/ElementaryWSL2
+
+![ElementaryOS-GNOME](https://github.com/user-attachments/assets/dfb188fd-e998-41c7-8880-1ef4fcfcafe6)
+
+About Elementary OS - Horus - https://elementary.io
+
+Made with care with you in mind. OS 7.1 provides new
+personalization options that make it more inclusive
+and accessible, protects your privacy and ensures apps
+always operate with your explicit consent, and
+addresses your feedback with over 200 bug fixes, design
+changes, and new features. Get Work Done. Or Play.
+Stay productive and focused with Multitasking View,
+Picture-in-Picture, Do Not Disturb, and more. Or keep
+work out of sight when watching videos or playing games.
+Elementary OS is easy to use and god! Our platform
+itself is entirely open source, and it’s built upon
+a strong foundation of Free & Open Source software
+(like GNU/Linux). Plus, we actively collaborate within
+the ecosystem to improve it for everyone. Elementary OS
+was first released in March 2011 during a time when 
+KDE, Gnome, and Ubuntu were radically redesigning
+their desktops.
+
+About GnomE Desktop - https://www.gnome.org
+
+An easy and elegant way to use your computer, GNOME
+is designed to help you have the best possible 
+computing experience. Every part of GNOME has been 
+designed to make it simple and easy to use. The Activities
+Overview is a simple way to access all your basic tasks.
+A press of a button is all it takes to view your open
+windows, launch applications, or check if you have new
+messages. Having everything in one convenient place means
+you don’t have to learn your way around a maze of 
+different technologies. Every aspect of GNOME has been
+crafted to fit together as a harmonious whole, providing
+a consistent and integrated experience. Our attention
+to detail means a smooth and polished product that lets
+you do the things you want without getting in the way.
+GNOME is satisfying to use and beautiful to behold.
+
+Find More Here About WSL and Linux for Windows 11..
+
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - Elementary OS - Gnome Desktop - Linux - Windows 11 - WSL - GWSL - SwEden - 2024
+
+---------------------------------------------
+
 OpenSUSE TumbelWeed - How to install KDE plasma 6 via Opensuse - WSL - GWSL - Windows 11 - Linux - 2024
 
 You can find OPENSUSE Tumbelweed here via this link or in Microsoft Store 
