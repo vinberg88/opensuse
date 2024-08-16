@@ -1,7 +1,7 @@
 Elementary OS - How To Install KDE Plasma via Windows 11 - WSL - GWSL - Linux - 2024 - YouTube
 
 How to install KDE Plasma on Elementary OS - TEXT
-Comming Zone..
+https://github.com/vinberg88/opensuse/blob/main/ElementaryOS-KDE.txt
 
 How to install KDE Plasma on Elementary OS - MOVIE
 https://www.youtube.com/watch?v=OO-ALMzEzaQ
