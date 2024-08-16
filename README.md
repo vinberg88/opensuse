@@ -27,6 +27,70 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Elementary OS - How To Install KDE Plasma via Windows 11 - WSL - GWSL - Linux - 2024 - YouTube
+
+How to install KDE Plasma on Elementary OS - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/ElementaryOS-KDE.txt
+
+How to install KDE Plasma on Elementary OS - MOVIE
+
+https://www.youtube.com/watch?v=OO-ALMzEzaQ
+
+You can find Elementary OS here
+
+https://github.com/sileshn/ElementaryWSL2
+
+![ElementaryOS-KDE](https://github.com/user-attachments/assets/83e66e70-72eb-4918-bc87-4cc6f66b62ae)
+
+About Elementary OS - Horus - https://elementary.io
+
+Made with care with you in mind. OS 7.1 provides new
+personalization options that make it more inclusive
+and accessible, protects your privacy and ensures apps
+always operate with your explicit consent, and
+addresses your feedback with over 200 bug fixes, design
+changes, and new features. Get Work Done. Or Play.
+Stay productive and focused with Multitasking View,
+Picture-in-Picture, Do Not Disturb, and more. Or keep
+work out of sight when watching videos or playing games.
+Elementary OS is easy to use and god! Our platform
+itself is entirely open source, and it’s built upon
+a strong foundation of Free & Open Source software
+(like GNU/Linux). Plus, we actively collaborate within
+the ecosystem to improve it for everyone. Elementary OS
+was first released in March 2011 during a time when 
+KDE, Gnome, and Ubuntu were radically redesigning
+their desktops.
+
+About KDE Desktop - https://kde.org
+
+KDE is an international team co-operating on 
+development and distribution of Free, Open
+Source Software for desktop and portable
+computing. Our community has developed a
+wide variety of applications for communication, 
+work, education and entertainment. We have a
+strong focus on finding innovative solutions to
+old and new problems, creating a vibrant, open
+atmosphere for experimentation. KDE is The 
+next generation desktop for Linux. Use KDE
+software to surf the web, keep in touch with
+colleagues, friends and family, manage your
+files, enjoy music and videos; and get creative
+and productive at work. The KDE community develops
+and maintains more than 200 applications
+which run on any Linux desktop, and often
+other platforms too.
+
+Find More Here About WSL and Linux for Windows 11..
+
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - Elementary OS - KDE - Linux - Windows 11 - WSL - GWSL - SwEden - 2024
+
+---------------------------------------------
+
 Ubuntu 22.04 - How to install Elementary - Pantheon desktop via Ubuntu via Windows 11 - WSL - 2024
 
 You can find Ubuntu 22.04 here via this link or in Microsoft store for WSL - GWSL - Linux - Windows 11
