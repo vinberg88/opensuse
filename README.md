@@ -27,6 +27,55 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+ParrotOS 6 - WSL - How to install Xfce - Xfce4 desktop via Windows 11 - Linux - GWSL - ParrotSec - 2024
+
+How to install Xfce Desktop via ParrotOS 6 and Windows 11 - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/ParrotOS-XFCE.txt
+
+How to install Xfce Desktop via ParrotOS 6 and Windows 11 - WSL - MOVIE
+
+https://www.youtube.com/watch?v=AQC7lqgYSaQ
+
+![ParrotOS-XFCE](https://github.com/user-attachments/assets/4068ae02-6251-4636-9a75-3622f895480b)
+
+About ParrotSEC or ParrotOS 6 - My favorit dist! - https://www.parrotsec.org
+
+The ultimate framework for your Cyber Security operations.
+Parrot Security (ParrotOS, Parrot) is a Free and Open source
+GNU/Linux distribution based on Debian Stable designed for
+security experts, developers and privacy aware people.
+It includes a full portable arsenal for IT security and
+digital forensics operations. It also includes everything
+you need to develop your own programs or protect your privacy
+while surfing the net.
+
+About Xfce - Xfce4 - https://www.xfce.org
+
+Xfce is a lightweight desktop environment for UNIX-like operating
+systems. It aims to be fast and low on system resources, while
+still being visually appealing and user friendly. Xfce embodies
+the traditional UNIX philosophy of modularity and re-usability.
+It consists of a number of components that provide the full
+functionality one can expect of a modern desktop environment.
+They are packaged separately and you can pick among the 
+available packages to create the optimal personal working 
+environment. Xfce can be installed on several UNIX platforms.
+It is known to compile on Linux, NetBSD, FreeBSD, OpenBSD, Solaris,
+Cygwin and MacOS X, on x86, PPC, Sparc, Alpha… Xfce contains a
+number of core components for the minimum tasks you'd expect
+from a desktop Environment - XFCE is a good desktop.
+
+You Can Find More Stuff here About WSL - Linux - Windows 11 - GWSL
+
+https://github.com/vinberg88/opensuse
+
+You can find ParrotOS 6 for WSL here: https://www.parrotsec.org/download
+
+Regards Mattias Vinberg - SwEden - ParrotOS - Xfce - WSL - GWSL - Windows 11 - ParrotSEC - Xfce4 - 2024
+
+---------------------------------------------
+
 Elementary OS - How To Install KDE Plasma via Windows 11 - WSL - GWSL - Linux - 2024 - YouTube
 
 How to install KDE Plasma on Elementary OS - TEXT
