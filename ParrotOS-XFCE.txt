@@ -3,7 +3,7 @@ ParrotOS 6 - WSL - How to install Xfce - Xfce4 desktop via Windows 11 - Linux - 
 -- Parrot OS Xfce4 Minimal Install Guide for WSL 2024 --
 
 How to install Xfce Desktop via ParrotOS 6 and Windows 11 - WSL - TEXT
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/ParrotOS-XFCE.txt
 
 How to install Xfce Desktop via ParrotOS 6 and Windows 11 - WSL - MOVIE
 https://www.youtube.com/watch?v=AQC7lqgYSaQ
