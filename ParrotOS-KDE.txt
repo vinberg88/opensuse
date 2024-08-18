@@ -1,0 +1,198 @@
+ParrotOS - ParrotSec - How to install KDE PLASMA via WSL - Windows 11 - Linux - GWSL - 2024
+
+How to install KDE Plasma via ParrotOS 6.2 and Windows 11 - WSL - TEXT
+Comming Zone…
+
+How to install KDE Plasma via ParrotOS 6.2 and Windows 11 - WSL - MOVIE
+https://www.youtube.com/watch?v=SBaPo4MGMV0
+
+You can find ParrotOS 6.2 for WSL here: https://www.parrotsec.org/download
+                                                    
+                                       
+              ██████████                                            
+            ██░░░░░░░░░░████                                        
+          ██░░░░░░░░░░░░░░░░██                                      
+        ██░░░░░░░░░░░░░░░░░░░░██                                    
+      ██░░░░░░██░░░░░░░░░░░░████                                    
+    ██░░░░░░░░██░░████████░░██░░██     - Parrot is how Debian should be!                            
+    ██░░░░░░░░░░░░██░░░░░░██░░░░██     - ParrotOS or ParrotSEC Version 6.2         
+  ████░░░░░░░░░░░░██░░░░░░██░░░░░░██  - KDE plasma Desktop - 2024                              
+  ██░░░░░░░░░░░░░░██░░░░░░██░░░░░░░░██                              
+██░░░░░░░░░░░░░░░░██░░░░████░░░░░░░░██                              
+██░░░░░░░░░░░░░░░░░░██░░██░░░░░░░░░░██                              
+██░░░░░░░░░░░░░░░░░░██░░██░░░░░░░░░░██                              
+  ██░░░░░░░░░░░░░░░░░░██░░░░░░░░░░░░██                              
+    ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░██                            
+    ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░████                        
+    ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░██                      
+    ██░░██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░██                    
+    ██░░░░░░░░██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░██                  
+    ████████████████████████████████████████████████
+
+
+About ParrotSEC or ParrotOS - https://www.parrotsec.org
+
+The ultimate framework for your Cyber Security operations.
+Parrot Security (ParrotOS, Parrot) is a Free and Open source
+GNU/Linux distribution based on Debian Stable designed for
+security experts, developers and privacy aware people.
+It includes a full portable arsenal for IT security and
+digital forensics operations. It also includes everything
+you need to develop your own programs or protect your privacy
+while surfing the net. Parrot is based on top of Debian,
+the most advanced and recognized universal operating system
+that can run anywhere.
+
+About KDE Plasma - https://kde.org
+
+KDE Plasma is a Desktop - Use KDE Plasma to surf the
+web and keep in touch with colleagues, friends and family.
+Manage your files, enjoy music and videos and get creative
+and productive at work. Do it all in a beautiful Environment
+that adapts to your needs, and with the safety, privacy-protection
+and peace of mind that the best Free Open Source
+Software has to offer. Plasma is made to stay out of the way
+as it helps you get things done. But under its light and 
+intuitive surface, it's a powerhouse. So you're free to
+choose ways of usage right as you need them and when you
+need them. With KDE Plasma the user is king. Not happy
+with the color scheme? Change it! Want to have your panel
+on the left edge of the screen? Move it! Don't like 
+the font? Use a different one! Download custom widgets in
+one click and add them to your desktop or panel.
+
+You Can Find More Stuff here About WSL - Linux - Windows 11 - GWSL
+https://github.com/vinberg88/opensuse
+
+---------------------------------
+
+Paste in terminal and enable systemd.
+
+sudo nano /etc/wsl.conf 
+
+and add
+
+[boot]
+systemd=true
+
+---------------------------------------
+
+Paste all to terminal and klicK Enter. Remove Errors in Terminal.
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+----------------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot - Parrot OS
+
+----------------------------------------------
+
+Update all - dont care if you se errors.
+
+sudo apt update && sudo apt upgrade
+
+----------------------------------------------
+
+Setup Lang for me - Swedish SV Svenska
+
+sudo locale-gen sv_SE sv_SE.UTF-8
+sudo dpkg-reconfigure locales
+
+export LC_ALL="sv_SE.UTF-8" <-- paste this in buttom on file. Paste this in terminal to get file --> sudo nano .bashrc
+
+----------------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot - Parrot OS
+
+----------------------------------------------
+
+Install this programs from terminal - You need it!
+
+sudo apt install bash git npm wget curl pipx net-tools dbus-x11 dbus*
+
+---------------------------------
+
+Time to install KDE Plasma desktop for ParrotOS
+
+sudo apt install parrot-desktop-kde
+sudo apt install sddm*
+
+If you want more KDE programs use: sudo apt install kde*
+
+----------------------------------------------
+
+Install Chrome Browser. Latest Edition!
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+----------------------------------------------
+
+Install Blanket - Listen to sounds - When you are hacking hehe.
+
+wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+
+----------------------------------------------
+
+Install Hyfetch like Neofetch but more fun.
+
+pipx install hyfetch
+pipx ensurepath
+
+Test by paste Hyfetch in Console / Terminal after restart of Bash: hyfetch
+
+----------------------------------------------
+
+Then Copy and Paste this in Terminal: 
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+----------------------------------------------
+
+Type this in terminal and put your user there - sudo loginctl enable-linger user
+
+----------------------------------------------
+
+Start GWSL and Config and start from there - GWSL Shell / Terminal
+
+          " Take an extra Reboot "
+
+----------------------------------------------
+
+Copy this and paste in terminal: sudo nano ~/.bash_parrot_desktop 
+
+Then add this script to terminal
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------
+
+Reboot Reboot Reboot Parrot OS and start from GWSL SHELL / Terminal
+
+----------------------------------------------
+
+Time To Start KDE Desktop via ParrotOS and Windows 11 =]
+
+Paste in terminal: . ~/.bash_parrot_desktop
+Paste in terminal: dbus-launch startplasma-x11
+
+It take some time to start KDE so just WAIT!
+
+----------------------------------------------
+
+Regards Mattias Vinberg - SwEden - ParrotOS - KDE Plasma - WSL - GWSL - Windows 11 - 2024
+
+----------------------------------------------
