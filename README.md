@@ -27,6 +27,59 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+ParrotOS - ParrotSec - How to install KDE PLASMA via WSL - Windows 11 - Linux - GWSL - 2024
+
+How to install KDE Plasma via ParrotOS 6.2 and Windows 11 - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/ParrotOS-KDE.txt
+
+How to install KDE Plasma via ParrotOS 6.2 and Windows 11 - WSL - MOVIE
+
+https://www.youtube.com/watch?v=SBaPo4MGMV0
+
+You can find ParrotOS 6.2 for WSL here: https://www.parrotsec.org/download
+
+![ParrotOS-KDE](https://github.com/user-attachments/assets/30182d73-f129-4a60-9d1b-c36e3126af32)
+
+About ParrotSEC or ParrotOS - https://www.parrotsec.org
+
+The ultimate framework for your Cyber Security operations.
+Parrot Security (ParrotOS, Parrot) is a Free and Open source
+GNU/Linux distribution based on Debian Stable designed for
+security experts, developers and privacy aware people.
+It includes a full portable arsenal for IT security and
+digital forensics operations. It also includes everything
+you need to develop your own programs or protect your privacy
+while surfing the net. Parrot is based on top of Debian,
+the most advanced and recognized universal operating system
+that can run anywhere.
+
+About KDE Plasma - https://kde.org
+
+KDE Plasma is a Desktop - Use KDE Plasma to surf the
+web and keep in touch with colleagues, friends and family.
+Manage your files, enjoy music and videos and get creative
+and productive at work. Do it all in a beautiful Environment
+that adapts to your needs, and with the safety, privacy-protection
+and peace of mind that the best Free Open Source
+Software has to offer. Plasma is made to stay out of the way
+as it helps you get things done. But under its light and 
+intuitive surface, it's a powerhouse. So you're free to
+choose ways of usage right as you need them and when you
+need them. With KDE Plasma the user is king. Not happy
+with the color scheme? Change it! Want to have your panel
+on the left edge of the screen? Move it! Don't like 
+the font? Use a different one! Download custom widgets in
+one click and add them to your desktop or panel.
+
+You Can Find More Stuff here About WSL - Linux - Windows 11 - GWSL
+
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - SwEden - ParrotOS - KDE Plasma - WSL - GWSL - Windows 11 - 2024
+
+---------------------------------------------
+
 ParrotOS 6 - WSL - How to install Xfce - Xfce4 desktop via Windows 11 - Linux - GWSL - ParrotSec - 2024
 
 How to install Xfce Desktop via ParrotOS 6 and Windows 11 - WSL - TEXT
