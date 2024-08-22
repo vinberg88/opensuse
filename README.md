@@ -27,6 +27,60 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+ParrotOS 6 - WSL - How to install MATE Desktop via Windows 11 - Linux - GWSL - ParrotSec - 2024
+
+Mate desktop is ParrotOS flaggship. ParrotOS comes out with the
+default MATE Desktop Environment (DE) for all editions 
+(Home, Security and HTB). However, additional desktop 
+environments can be installed on ParrotOS. Each DE has its own
+characteristics, but we recommend that you try them all Before
+deciding what to install.
+
+How to install MATE Desktop via ParrotOS 6 and Windows 11 - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/ParrotOS-MATE.txt
+
+How to install MATE Desktop via ParrotOS 6 and Windows 11 - WSL - MOVIE
+
+https://www.youtube.com/watch?v=67FlzjS2GnQ
+
+![ParrotOS-MATE](https://github.com/user-attachments/assets/3127da30-72a8-4e3f-a700-84da3893c3c1)
+
+About ParrotSEC or ParrotOS - https://www.parrotsec.org
+
+The ultimate framework for your Cyber Security operations.
+Parrot Security (ParrotOS, Parrot) is a Free and Open source
+GNU/Linux distribution based on Debian Stable designed for
+security experts, developers and privacy aware people.
+It includes a full portable arsenal for IT security and
+digital forensics operations. It also includes everything
+you need to develop your own programs or protect your privacy
+while surfing the net.
+
+About Mate - https://mate-desktop.org - https://ubuntu-mate.org/features
+
+The traditional desktop is Mate. New to some, a classic to
+others. MATE is an intuitive attractive desktop using 
+traditional metaphors. The legacy of GNOME 2 continues to
+be modern, lightweight and fast. It provides an intuitive
+and attractive desktop environment using traditional 
+metaphors for Linux and other Unix-like operating systems.
+According to the MATE team's manifesto, they aim to keep a
+traditional desktop look and feel, maintain an open development
+model, have an open relationship with GNU/Linux 
+distributions, and serve as a good alternative for lower-end
+hardware. Mate Desktop is for All.
+
+You Can Find More Stuff here About WSL - Linux - Windows 11 - GWSL
+
+https://github.com/vinberg88/opensuse
+
+You can find ParrotOS 6 for WSL here: https://www.parrotsec.org/download
+
+Regards Mattias Vinberg - SwEden - ParrotOS - MATE - WSL - GWSL - Windows 11 - ParrotSEC - 2024
+
+---------------------------------------------
+
 ParrotOS - ParrotSec - How to install KDE PLASMA via WSL - Windows 11 - Linux - GWSL - 2024
 
 How to install KDE Plasma via ParrotOS 6.2 and Windows 11 - WSL - TEXT
