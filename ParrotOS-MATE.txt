@@ -8,7 +8,7 @@ characteristics, but we recommend that you try them all Before
 deciding what to install.
 
 How to install MATE Desktop via ParrotOS 6 and Windows 11 - WSL - TEXT
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/ParrotOS-MATE.txt
 
 How to install MATE Desktop via ParrotOS 6 and Windows 11 - WSL - MOVIE
 https://www.youtube.com/watch?v=67FlzjS2GnQ
