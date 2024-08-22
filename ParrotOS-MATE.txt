@@ -1,0 +1,188 @@
+ParrotOS 6 - WSL - How to install MATE Desktop via Windows 11 - Linux - GWSL - ParrotSec - 2024
+
+Mate desktop is ParrotOS flaggship. ParrotOS comes out with the
+default MATE Desktop Environment (DE) for all editions 
+(Home, Security and HTB). However, additional desktop 
+environments can be installed on ParrotOS. Each DE has its own
+characteristics, but we recommend that you try them all Before
+deciding what to install.
+
+How to install MATE Desktop via ParrotOS 6 and Windows 11 - WSL - TEXT
+Comming Zone...
+
+How to install MATE Desktop via ParrotOS 6 and Windows 11 - WSL - MOVIE
+https://www.youtube.com/watch?v=67FlzjS2GnQ
+
+       _------. 
+      /  ,     \_
+    /   /  /{}\ |o\_
+   /    \  `--' /-' \
+  |      \      \    | - ParrotOS 6.2 and MATE desktop 
+ |              |`-, | - ParrotSeC is My Favorit Linux Version...
+ /              /__/)/
+|              |
+
+
+About ParrotSEC or ParrotOS - https://www.parrotsec.org
+
+The ultimate framework for your Cyber Security operations.
+Parrot Security (ParrotOS, Parrot) is a Free and Open source
+GNU/Linux distribution based on Debian Stable designed for
+security experts, developers and privacy aware people.
+It includes a full portable arsenal for IT security and
+digital forensics operations. It also includes everything
+you need to develop your own programs or protect your privacy
+while surfing the net.
+
+About Mate - https://mate-desktop.org - https://ubuntu-mate.org/features
+
+The traditional desktop is Mate. New to some, a classic to
+others. MATE is an intuitive attractive desktop using 
+traditional metaphors. The legacy of GNOME 2 continues to
+be modern, lightweight and fast. It provides an intuitive
+and attractive desktop environment using traditional 
+metaphors for Linux and other Unix-like operating systems.
+According to the MATE team's manifesto, they aim to keep a
+traditional desktop look and feel, maintain an open development
+model, have an open relationship with GNU/Linux 
+distributions, and serve as a good alternative for lower-end
+hardware. Mate Desktop is for All.
+
+You Can Find More Stuff here About WSL - Linux - Windows 11 - GWSL
+https://github.com/vinberg88/opensuse
+
+You can find ParrotOS 6 for WSL here: https://www.parrotsec.org/download
+
+---------------------------------------
+
+Paste in terminal and enable systemd.
+
+sudo nano /etc/wsl.conf 
+
+and add
+
+[boot]
+systemd=true
+
+---------------------------------------
+
+Paste all to terminal and klicK Enter. Remove Errors in Terminal.
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+----------------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot - Parrot OS
+
+----------------------------------------------
+
+Update all - dont care if you se errors.
+
+sudo apt update && sudo apt upgrade
+
+----------------------------------------------
+
+Setup Lang for me - Swedish SV Svenska
+
+sudo locale-gen sv_SE sv_SE.UTF-8
+sudo dpkg-reconfigure locales
+
+export LC_ALL="sv_SE.UTF-8" <-- paste this in buttom on file. Paste this in terminal to get file --> sudo nano .bashrc
+
+----------------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot - Parrot OS
+
+----------------------------------------------
+
+Install some Programs. You need it.
+
+sudo apt install bash git npm wget curl pipx dracut dbus* -y
+sudo apt install gdm3* -y
+
+----------------------------------------------
+
+Time to install MATE desktop for Parrot OS - 2024
+
+sudo apt update && sudo apt install parrot-desktop-mate -y
+sudo apt install mate* -y
+
+----------------------------------------------
+
+Install Chrome Browser if you want =]
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+----------------------------------------------
+
+Install Blanket - Listen to sounds - When you are hacking hehe.
+
+wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+
+----------------------------------------------
+
+Install Hyfetch like Neofetch but more fun.
+
+pipx install hyfetch
+pipx ensurepath
+
+Test by paste Hyfetch in Console / Terminal after restart of Bash: hyfetch
+
+----------------------------------------------
+
+Then Copy and Paste this in Terminal: 
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+----------------------------------------------
+
+Type this in terminal and put your user there - sudo loginctl enable-linger user
+
+----------------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot - Parrot OS
+
+----------------------------------------------
+
+Start GWSL and Config and start from there - GWSL Shell / Terminal
+
+          " Take an extra Reboot "
+
+----------------------------------------------
+
+Copy this and paste in terminal: sudo nano ~/.bash_parrot_desktop 
+
+Then add this script to terminal
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------
+
+Reboot Reboot Reboot Parrot OS and start from GWSL SHELL / Terminal
+
+----------------------------------------------
+
+Time To Start Mate Desktop via ParrotOS and Windows 11 =]
+
+Paste in terminal: . ~/.bash_parrot_desktop
+Paste in terminal: mate-session
+
+----------------------------------------------
+
+Regards Mattias Vinberg - SwEden - ParrotOS - MATE - WSL - GWSL - Windows 11 - ParrotSEC - 2024
+
+----------------------------------------------
