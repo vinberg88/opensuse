@@ -27,6 +27,58 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+ParrotOS - ParrotSec - How to install Gnome via WSL - Windows 11 - Linux - GWSL - 2024
+
+How to install Gnome via ParrotOS 6 and Windows 11 - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/ParrotOS-GNOME.txt
+
+How to install Gnome via ParrotOS 6 and Windows 11 - WSL - MOVIE
+
+https://www.youtube.com/watch?v=gQBHxBqcrws
+
+You can find ParrotOS 6 for WSL here: https://www.parrotsec.org/download
+                                                    
+![ParrotOS-GNOME](https://github.com/user-attachments/assets/e2f91f6b-9275-4ce9-bd17-5d00c9f8c6e5)
+
+About ParrotSEC or ParrotOS - https://www.parrotsec.org
+
+The ultimate framework for your Cyber Security operations.
+Parrot Security (ParrotOS, Parrot) is a Free and Open source
+GNU/Linux distribution based on Debian Stable designed for
+security experts, developers and privacy aware people.
+It includes a full portable arsenal for IT security and
+digital forensics operations. It also includes everything
+you need to develop your own programs or protect your privacy
+while surfing the net. Parrot is based on top of Debian,
+the most advanced and recognized universal operating system
+that can run anywhere.
+
+About Gnome Desktop - https://www.gnome.org
+
+Every part of GNOME has been designed to make it simple and
+easy to use. The Activities Overview is a simple way to access
+all your basic tasks. A press of a button is all it takes to
+view your open windows, launch applications, or check if you
+have new messages. Having everything in one convenient Place
+means you don’t have to learn your way around a maze of
+different technologies. Every aspect of GNOME has been
+crafted to fit together as a harmonious whole, providing a
+consistent and integrated experience. Our attention to detail
+means a smooth and polished product that lets you do the things
+you want without getting in the way. GNOME is satisfying to
+use and beautiful to behold. An easy and elegant way to use
+your computer, GNOME is designed to help you have the best
+possible computing experience. Gnome Desktop is god Stuff!
+
+You Can Find More Stuff here About WSL - Linux - Windows 11 - GWSL
+
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - SwEden - ParrotOS - Gnome - WSL - GWSL - Windows 11 - ParrotSEC - 2024
+
+---------------------------------------------
+
 ParrotOS 6 - WSL - How to install MATE Desktop via Windows 11 - Linux - GWSL - ParrotSec - 2024
 
 Mate desktop is ParrotOS flaggship. ParrotOS comes out with the
