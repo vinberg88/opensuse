@@ -1,28 +1,26 @@
-----------------------------------------------
+ParrotOS - ParrotSec - How to install Gnome via WSL - Windows 11 - Linux - GWSL - 2024
 
-ParrotSeC 6 or ParrotOS 6 - How to install Gnome Desktop via Windows 11 - WSL - GWSL
+How to install Gnome via ParrotOS 6 and Windows 11 - WSL - TEXT
+https://github.com/vinberg88/opensuse/blob/main/ParrotOS-GNOME.txt
 
-This is my favorite =] ParrotSEC 6 or ParrotOS 6 - RedShift Software!
+How to install Gnome via ParrotOS 6 and Windows 11 - WSL - MOVIE
+https://www.youtube.com/watch?v=gQBHxBqcrws
 
-You can find ParrotOS 6 WSL here: https://www.parrotsec.org/download/
+You can find ParrotOS 6 for WSL here: https://www.parrotsec.org/download
+                                                    
+                                       
+           .--.
+          /  6_6
+          \  (__\ - Parrot OS and Gnome for WSL - Enjoy!
+         //   \\
+        ((     ))
+  =======""===""===============
+  Vinberg  |||  Sweden - 2024
+           |||
+           '|'
+            '
 
-How to install Gnome via ParrotOS 6 and Windows 11 - TEXT
-https://github.com/vinberg88/opensuse/blob/main/Parrot6-Gnome.txt
-
-How to install Gnome via ParrotOS 6 and Windows 11 - MOVIE
-https://www.youtube.com/watch?v=NuBVZhuyiMQ
-
-       _------. 
-      /  ,     \_
-    /   /  /{}\ |o\_
-   /    \  `--' /-' \
-  |      \      \    |
- |              |`-, |
- /              /__/)/
-|              |
-
-
-About ParrotSEC
+About ParrotSEC or ParrotOS - https://www.parrotsec.org
 
 The ultimate framework for your Cyber Security operations.
 Parrot Security (ParrotOS, Parrot) is a Free and Open source
@@ -31,24 +29,44 @@ security experts, developers and privacy aware people.
 It includes a full portable arsenal for IT security and
 digital forensics operations. It also includes everything
 you need to develop your own programs or protect your privacy
-while surfing the net.
+while surfing the net. Parrot is based on top of Debian,
+the most advanced and recognized universal operating system
+that can run anywhere.
 
-About Gnome
+About Gnome Desktop - https://www.gnome.org
 
-Every part of GNOME has been designed to make it simple 
-and easy to use. The Activities Overview is a simple way 
-to access all your basic tasks. A press of a button is
-all it takes to view your open windows, launch applications, or 
-check if you have new messages. Having everything in 
-one convenient place means you don’t have to learn your way 
-around a maze of different technologies. 
+Every part of GNOME has been designed to make it simple and
+easy to use. The Activities Overview is a simple way to access
+all your basic tasks. A press of a button is all it takes to
+view your open windows, launch applications, or check if you
+have new messages. Having everything in one convenient Place
+means you don’t have to learn your way around a maze of
+different technologies. Every aspect of GNOME has been
+crafted to fit together as a harmonious whole, providing a
+consistent and integrated experience. Our attention to detail
+means a smooth and polished product that lets you do the things
+you want without getting in the way. GNOME is satisfying to
+use and beautiful to behold. An easy and elegant way to use
+your computer, GNOME is designed to help you have the best
+possible computing experience. Gnome Desktop is god Stuff!
 
-You Can Find More Stuff here About WSL
+You Can Find More Stuff here About WSL - Linux - Windows 11 - GWSL
 https://github.com/vinberg88/opensuse
 
-----------------------------------------------
+---------------------------------
 
-Paste all to terminal and klicK Enter. Remove Errors.
+Paste in terminal and enable systemd for Parrot OS.
+
+sudo nano /etc/wsl.conf 
+
+and add
+
+[boot]
+systemd=true
+
+---------------------------------------
+
+Paste all to terminal and klicK Enter. Remove Errors in Terminal.
 
 ln -s libcuda.so.1.1 libcuda.so.1
 ln -s libcuda.so.1.1 libcuda.so
@@ -59,20 +77,17 @@ echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
 
 ----------------------------------------------
 
-Reboot 
+Reboot Reboot Reboot Reboot Reboot - Parrot OS
 
 ----------------------------------------------
 
-Update all.
+Update all - dont care if you se errors - Parrot Sec
 
 sudo apt update && sudo apt upgrade
 
 ----------------------------------------------
 
-Setup Lang for me Swedish
-
-sudo apt install locales
-sudo localectl set-locale LANG=sv_SE.UTF-8
+Setup Lang for me - Swedish SV Svenska
 
 sudo locale-gen sv_SE sv_SE.UTF-8
 sudo dpkg-reconfigure locales
@@ -81,57 +96,67 @@ export LC_ALL="sv_SE.UTF-8" <-- paste this in buttom on file. Paste this in term
 
 ----------------------------------------------
 
-Reboot 
+Reboot Reboot Reboot Reboot Reboot - Parrot OS
 
 ----------------------------------------------
 
-Install some Programs...
+Install this programs from terminal - You need it!
 
-sudo apt install bash git npm wget curl nano sudo pipx dracut -y
-sudo apt install gdm3* -y
+sudo apt install bash git npm wget curl pipx net-tools dbus-x11 dbus*
 
-sudo apt install gnome
+---------------------------------
 
-sudo apt install systemctl gnome-session*
-sudo apt install gnome-console*
+Time to install Gnome desktop for ParrotOS
+
+sudo apt install parrot-desktop-gnome -y
 
 ----------------------------------------------
 
-Install Chrome if you want =]
+Install Chrome Browser - Latest Edition Parrot OS and Gnome
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb -y
 
 ----------------------------------------------
 
-Paste in Terminal: 
+Install Blanket - Listen to sounds.
+
+wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+
+----------------------------------------------
+
+Install Hyfetch like Neofetch but more fun.
+
+pipx install hyfetch
+pipx ensurepath
+
+Test by paste Hyfetch in Console / Terminal after restart of Bash: hyfetch
+
+----------------------------------------------
+
+Then Copy and Paste this in Terminal: 
 
 xdg-user-dirs-update
 sudo systemctl set-default multi-user.target
 sudo systemctl set-default graphical
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
 
 ----------------------------------------------
 
-Reboot
+Type this in terminal and put your user there - sudo loginctl enable-linger user
 
 ----------------------------------------------
 
-Config GWSL and start from there - GWSL Shell
+Start GWSL and Config and start from there - GWSL Shell / Terminal
+
+          " Take an extra Reboot "
 
 ----------------------------------------------
 
 Copy this and paste in terminal: sudo nano ~/.bash_parrot_desktop 
 
 Then add this script to terminal
-
-export XDG_CURRENT_DESKTOP=ubuntu:GNOME
-export XDG_SESSION_DESKTOP=ubuntu
-export DESKTOP_SESSION=ubuntu
-export GNOME_SHELL_SESSION_MODE=ubuntu
-
-export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
-export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
-export XDG_MENU_PREFIX=gnome-
 
 export XDG_SESSION_TYPE=x11
 export XDG_SESSION_CLASS=user
@@ -141,33 +166,17 @@ export LIBGL_ALWAYS_SOFTWARE=1
 
 ----------------------------------------------
 
-Please Reboot and start from GWSL - SHELL
+Reboot Reboot Reboot Parrot OS and start from GWSL SHELL / Terminal
 
 ----------------------------------------------
 
-Type this in terminal
-
-sudo nano /etc/wsl.conf 
-
-and add
-
-[boot]
-systemd=true
-
-----------------------------------------------
-
-Please Reboot and start from GWSL - SHELL
-
-----------------------------------------------
-
-Time To Start Gnome
+Time To Start Gnome Desktop via ParrotOS and Windows 11 =]
 
 Paste in terminal: . ~/.bash_parrot_desktop
 Paste in terminal: dbus-launch gnome-session
 
 ----------------------------------------------
 
-Kind Regards,
-Mattias Vinberg . 2024 . SwE
+Regards Mattias Vinberg - SwEden - ParrotOS - Gnome - WSL - GWSL - Windows 11 - ParrotSEC - 2024
 
 ----------------------------------------------
