@@ -1,0 +1,216 @@
+Ultramarine Linux - Cosmic Desktop - How to install via Windwos 11 - WSL - GWSL - Linux - 2024
+
+ "This is just to try the Cosmic desktop and should not be used in normal Environment - Beta"
+
+
+            .cd0NNNNNNNXOdc.
+        .:xKNNNNNNNNNNNNNNNNKd;.
+      ,dXNNNNNNNNNNNNNNNNNNNNNNNd,
+    'ONNNNNNNNNNNNNNNNNNNNNNNNNNNNO'
+  .xNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNk.  
+ .0NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN0. 
+.0NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN0.
+dNNNNNNNNNNNNWWWWWWWWNNNNNNNNNNNNNNNNNNd
+NNNNNNNNNNNNNWMMMMMMMMWWNNNNNNNNNNNNNNNN
+NNNNNNNNNNNNNNWMMMMMMMMMWWNNNNNNNNNNNNNN  - Ultramarine 40 and Cosmic Alpha - SWEDEN - 2024 by Vinberg
+NNNNNNNNNNNNNNWMMMMMMMMMMMMWNNNNNNNNNNNN
+NNNNNNNNNNWWWMMMMMMMMMMMMMMMMWWWNNNNNNNX
+oNWWWWMMMMMMMMMMMMMMMMMMMMMMMMMMMMWWWNNo
+ OWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWO 
+ .OWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWO.
+   lNWMMMMMMMMMMMMMMMMMMMMMMMMMMMMWNl
+    .dNWMMMMMMMMMMMMMMMMMMMMMMMMWNd.
+      .cKWMMMMMMMMMMMMMMMMMMMMWKc.
+         'oOXWWWMMMMMMMMWWWXOl.
+             ;lkXNNNNNNXkl'
+
+
+NOTE - This is only a sample and should not be used in a normal environment.
+Cosmic Desktop is not finished in development - Early phase! - NOTE
+
+Here you will find fedora 40 for WSL here or in Microsoft Store
+https://apps.microsoft.com/detail/9npcp8drchsn?hl=en-US&gl=US
+
+How to install Cosmic Desktop on Ultramarine via Windows 11 - TEXT
+Comming Zone….
+
+How to install Cosmic Desktop on Ultramarine via Windows 11 - Movie
+https://www.youtube.com/watch?v=mCg-90U_L7g
+
+Want more stuff for WSL - WINDOWS 11 - GWSL - LINUX - 2024
+https://github.com/vinberg88/opensuse
+
+========== About Cosmic Desktop Beta ==========
+
+Link: https://system76.com/cosmic - https://github.com/pop-os/cosmic-epoch
+
+We aim to liberate the computer with a new desktop Environment
+powerful enough to build custom OS experiences — for users,
+developers, and makers of any device with a screen. As a 
+whole, COSMIC is a comprehensive operating system GUI
+(graphical user interface) environment that features 
+advanced functionality and a responsive design. Its modular
+architecture is specifically designed to facilitate the 
+creation of unique, branded user experiences with ease.
+What’s done and what’s left - The alpha release includes
+the features most users require for day-to-day use. 
+Applets in the panel provide important functionality including
+connecting to wireless networks, audio output and input device
+selection, and connecting to bluetooth devices.
+
+========== What is Ultramarine Linux ==========
+
+Link: https://ultramarine-linux.org
+
+Ultramarine Linux is a Fedora-based Linux distribution designed to
+stay out of your way and be easy to use, by shipping preapplied
+tweaks to make initial setup and daily usage seamless. Ultramarine
+Linux is an operating system designed for your personal 
+workstation (or battlestation). It is designed to be intuitive and
+easy to use, shipping numerous simple environments. Ultramarine
+keeps up with the latest and greatest software in the open-source 
+community, while staying stable and secure. Ultramarine is for 
+everyone, from the beginner to the tech enthusiast, and even 
+Windows dropouts! 
+
+
+-----------------------------------
+
+Convert fedora 40 to Ultramarine by this script. Copy and Paste in Console - DONE =]
+
+bash <(curl -s https://ultramarine-linux.org/migrate.sh)
+
+-----------------------------------
+
+Paste in terminal: sudo nano /etc/wsl.conf
+
+[boot]
+systemd=true
+
+-----------------------------------
+
+Paste all in terminal and Reboot.
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+-----------------------------------
+
+Reboot Ultramarine Linux - Reboot Ultramarine Linux - Reboot 
+
+-----------------------------------
+
+Add Repos to Ultramarine Linux. Probably already done but 
+pasting it into Terminal anyway - Good Work so so far...
+
+sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+
+-----------------------------------
+
+Update all now. Copy and Paste to Bash / Console / Terminal
+
+sudo dnf -y upgrade --refresh
+
+-----------------------------------
+
+Install some basic programs.
+
+sudo dnf install git wget curl bash pipx dmraid net-tools dbus-x11 dbus*
+
+-----------------------------------
+
+Install Hyfetch - like Neofetch but more fun =)
+
+pipx install hyfetch
+pipx ensurepath
+
+Put this in terminal to Test after restart Terminal: hyfetch
+
+-----------------------------------
+
+Install Google-Chrome - paste all under this paragraph in terminal.
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm
+sudo yum update google-chrome-stable
+
+-----------------------------------
+
+Install graphics manager for Cosmic Desktop
+
+sudo dnf install gdm*
+
+-----------------------------------
+
+Install Cosmic-Desktop on Ultramarine Linux and Windows 11 - WSL
+
+sudo dnf copr enable ryanabx/cosmic-epoch
+
+sudo dnf install cosmic-desktop
+
+-----------------------------------
+
+Paste in terminal: 
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-----------------------------------
+
+Type this in terminal and put your user there - sudo loginctl enable-linger user
+
+-----------------------------------
+
+Reboot Reboot Reboot Reboot Reboot Reboot Ultramarine Linux
+
+-----------------------------------
+
+NOTE: Put GWSL in "Multi Window Mode"
+
+Setup GWSL and reboot and start from GWSL Shell.
+
+-----------------------------------
+
+In terminal type: sudo nano ~/.bash_ultramarine_desktop
+
+Paste this in terminal and save and quit.
+
+export XDG_SESSION_TYPE=wayland
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=wayland
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-----------------------------------
+
+The COSMIC desktop environment requires a few dependencies you need to install:
+
+sudo yum install just rustc libwayland* mesa* libseat libxkbcommon libinput udev dbus
+libpulse pop-launcher libexpat1 libfontconfig libfreetype lld cargo libclang-dev
+libpipewire-0.3-dev
+
+-----------------------------------
+
+Reboot Reboot Reboot Reboot Reboot Reboot and start from GWSL Shell.
+
+-----------------------------------
+
+Paste in terminal: . ~/.bash_ultramarine_desktop
+
+Type in terminal: dbus-launch cosmic-session
+
+-----------------------------------
+
+Regards Mattias Vinberg - WSL - GWSL - SWEDEN - Linux - CosmiC Desktop - Ultramarine Linux - 2024
+
+NOTE - This is only a sample and should not be used in a normal environment.
+Cosmic Desktop is not finished in development - Early phase! - NOTE
+
+-----------------------------------
