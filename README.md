@@ -27,6 +27,68 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Ultramarine Linux - Cosmic Desktop - How to install via Windwos 11 - WSL - GWSL - Linux - 2024
+
+ "This is just to try the Cosmic desktop and should not be used in normal Environment - Beta"
+
+![Ultramarine-Cosmic](https://github.com/user-attachments/assets/f0528cc5-fe1a-4347-82b4-b33f9ed21269)
+
+NOTE - This is only a sample and should not be used in a normal environment.
+Cosmic Desktop is not finished in development - Early phase! - NOTE
+
+Here you will find fedora 40 for WSL here or in Microsoft Store
+
+https://apps.microsoft.com/detail/9npcp8drchsn?hl=en-US&gl=US
+
+How to install Cosmic Desktop on Ultramarine via Windows 11 - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Ultramarine-Cosmic.txt
+
+How to install Cosmic Desktop on Ultramarine via Windows 11 - Movie
+
+https://www.youtube.com/watch?v=mCg-90U_L7g
+
+Want more stuff for WSL - WINDOWS 11 - GWSL - LINUX - 2024
+
+https://github.com/vinberg88/opensuse
+
+========== About Cosmic Desktop Beta ==========
+
+Link: https://system76.com/cosmic - https://github.com/pop-os/cosmic-epoch
+
+We aim to liberate the computer with a new desktop Environment
+powerful enough to build custom OS experiences — for users,
+developers, and makers of any device with a screen. As a 
+whole, COSMIC is a comprehensive operating system GUI
+(graphical user interface) environment that features 
+advanced functionality and a responsive design. Its modular
+architecture is specifically designed to facilitate the 
+creation of unique, branded user experiences with ease.
+What’s done and what’s left - The alpha release includes
+the features most users require for day-to-day use. 
+Applets in the panel provide important functionality including
+connecting to wireless networks, audio output and input device
+selection, and connecting to bluetooth devices.
+
+========== What is Ultramarine Linux ==========
+
+Link: https://ultramarine-linux.org
+
+Ultramarine Linux is a Fedora-based Linux distribution designed to
+stay out of your way and be easy to use, by shipping preapplied
+tweaks to make initial setup and daily usage seamless. Ultramarine
+Linux is an operating system designed for your personal 
+workstation (or battlestation). It is designed to be intuitive and
+easy to use, shipping numerous simple environments. Ultramarine
+keeps up with the latest and greatest software in the open-source 
+community, while staying stable and secure. Ultramarine is for 
+everyone, from the beginner to the tech enthusiast, and even 
+Windows dropouts! 
+
+Regards Mattias Vinberg - WSL - GWSL - SWEDEN - Linux - CosmiC Desktop - Ultramarine Linux - 2024
+
+---------------------------------------------
+
 ParrotOS - ParrotSec - How to install Gnome via WSL - Windows 11 - Linux - GWSL - 2024
 
 How to install Gnome via ParrotOS 6 and Windows 11 - WSL - TEXT
