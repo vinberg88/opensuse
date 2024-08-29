@@ -32,7 +32,7 @@ Here you will find fedora 40 for WSL here or in Microsoft Store
 https://apps.microsoft.com/detail/9npcp8drchsn?hl=en-US&gl=US
 
 How to install Cosmic Desktop on Ultramarine via Windows 11 - TEXT
-Comming Zone….
+https://github.com/vinberg88/opensuse/blob/main/Ultramarine-Cosmic.txt
 
 How to install Cosmic Desktop on Ultramarine via Windows 11 - Movie
 https://www.youtube.com/watch?v=mCg-90U_L7g
@@ -72,7 +72,6 @@ keeps up with the latest and greatest software in the open-source
 community, while staying stable and secure. Ultramarine is for 
 everyone, from the beginner to the tech enthusiast, and even 
 Windows dropouts! 
-
 
 -----------------------------------
 
