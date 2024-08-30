@@ -1,0 +1,228 @@
+AlmaLinux - Install Gnome desktop via Windows 11 - WSL - GWSL - Linux - 2024
+
+AlmaLinux - You can find AlmaLinux in Microsoft Store for WSL or here.
+Link - https://apps.microsoft.com/detail/9p5rwlm70sn9?hl=en-US&gl=US
+
+
+         'c:.                                      'c:.
+        lkkkx, ..       ..   ,cc,                 lkkkx, ..       ..   ,cc,
+        okkkk:ckkx'  .lxkkx.okkkkd                okkkk:ckkx'  .lxkkx.okkkkd
+        .:llcokkx'  :kkkxkko:xkkd,                .:llcokkx'  :kkkxkko:xkkd,
+      .xkkkkdood:  ;kx,  .lkxlll;               .xkkkkdood:  ;kx,  .lkxlll;
+       xkkx.       xk'     xkkkkk:               xkkx.       xk'     xkkkkk:
+       'xkx.       xd      .....,.               'xkx.       xd      .....,.
+      .. :xkl'     :c      ..''..               .. :xkl'     :c      ..''..
+    .dkx'  .:ldl:'. '  ':lollldkkxo;          .dkx'  .:ldl:'. '  ':lollldkkxo;
+  .''lkkko'                     ckkkx.      .''lkkko'                     ckkkx.
+'xkkkd:kkd.       ..  ;'        :kkxo.    'xkkkd:kkd.       ..  ;'        :kkxo.
+,xkkkd;kk'      ,d;    ld.   ':dkd::cc,   ,xkkkd;kk'      ,d;    ld.   ':dkd::cc,
+ .,,.;xkko'.';lxo.      dx,  :kkk'xkkkkc   .,,.;xkko'.';lxo.      dx,  :kkk'xkkkkc
+     'dkkkkkxo:.        ;kx  .kkk:;xkkd.       'dkkkkkxo:.        ;kx  .kkk:;xkkd.
+       .....   .;dk:.   lkk.  :;,                .....   .;dk:.   lkk.  :;,
+             :kkkkkkkdoxkkx                            :kkkkkkkdoxkkx
+              ,c,,;;;:xkkd.                             ,c,,;;;:xkkd.
+                ;kkkkl...                                 ;kkkkl...
+                ;kkkkl                                    ;kkkkl
+                 ,od;                                      ,od;
+
+
+
+How to install Gnome desktop via AlmaLinux och Windows 11 - TEXT
+Comming Zone..
+
+How to install Gnome desktop via AlmaLinux och Windows 11 - MOVIE
+https://www.youtube.com/watch?v=fxXMmhOBp20
+
+
+About AlmaLinux OS - https://almalinux.org
+
+AlmaLinux OS is an open-source, community-driven Linux 
+operating system that fills the gap left by the discontinuation
+of the CentOS Linux stable release. AlmaLinux OS is an Enterprise
+Linux distro, binary compatible with RHEL®, and guided and built
+by the community. As a standalone, completely free OS, AlmaLinux OS
+enjoys $1M in annual sponsorship from CloudLinux Inc. and support
+from more than 25 other sponsors. Ongoing development efforts
+are governed by the members of the community. The AlmaLinux OS 
+Foundation is a 501(c)(6) non-profit created for the benefit of
+the AlmaLinux OS community.
+
+About AlmaLinux OS - https://www.gnome.org
+
+GNOME is designed to help you have the best possible computing
+experience. Every aspect of GNOME has been crafted to fit together
+as a harmonious whole, providing a consistent and integrated 
+experience. Our attention to detail means a smooth and polished
+product that lets you do the things you want without getting
+in the way. GNOME is satisfying to use and beautiful to behold.
+GNOME provides a focused working environment that helps you get
+things done. It is packed with features that will make you more
+productive: a powerful search feature that helps you access all
+your work from one place; side-by-side windows that make it easy
+to view several documents at the same time; seamless integration
+with online accounts which allows you to access all your data in
+one place; and a messaging system that comfortably deals with 
+notifications, letting you quickly respond in place or return to 
+them in a convenient time. Gnome desktop is my favorite!
+
+Want more stuff for WSL and Linux and Windows 11
+https://github.com/vinberg88/opensuse <-- LOOK HERE
+
+-----------------------------------
+
+Paste in terminal: sudo nano /etc/wsl.conf
+
+And add this to terminal.
+
+[boot]
+systemd=true
+
+-----------------------------------
+
+Paste all in terminal. Remove Errors in Terminal.
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+-----------------------------------
+
+Add this repos for AlmaLinux 9 - Copy and Paste all
+
+sudo dnf install \
+ https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm \
+  https://dl.fedoraproject.org/pub/epel/epel-next-release-latest-9.noarch.rpm
+
+-----------------------------------
+
+Run this after add Repos in Terminal
+
+sudo /usr/bin/crb enable
+
+------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot
+
+-----------------------------------
+
+Paste in terminal - Update
+
+sudo dnf update
+
+-----------------------------------
+
+Install some basic programs. You Need it =)
+
+sudo dnf install git wget curl bash pipx dracut net-tools dbus-x11 dbus*
+
+-----------------------------------
+
+Install Hyfetch - like Neofetch but more FUN =)
+
+pipx install hyfetch
+pipx ensurepath
+
+Put this in terminal to Test after Quick restart of terminal: hyfetch
+
+-----------------------------------
+
+Install Google-Chrome - paste all under this paragraph in terminal.
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm
+sudo yum update google-chrome-stable
+
+-----------------------------------
+
+Grafic manager for Gnome and AlmaLinux.
+
+sudo dnf install gdm*
+
+----------------------------------
+
+GNOME - full installation - AlmaLinux - 2024
+
+sudo dnf install -y systemd procps bind-utils iproute iputils nmap-ncat
+
+sudo dnf install -y gnome-extensions-app gnome-shell-extension-dash-to-dock
+sudo dnf install -y gnome-shell-extension-window-list dconf-editor
+
+sudo dnf check-update -y
+sudo dnf install -y ffmpeg*
+
+sudo dnf groupinstall "Server with GUI"
+sudo dnf install gnome*
+
+-----------------------------------
+
+Copy and Paste in terminal: 
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-----------------------------------
+
+Reboot Linux - Reboot Linux - Reboot Linux - Reboot Linux
+
+----------------------------------------------------------------
+
+Setup GWSL and reboot and start from GWSL Shell -- AlmaLinux 9
+
+                " Take an extra Reboot "
+
+----------------------------------------------------------------
+
+Type in terminal: sudo nano ~/.bash_AlmaLinux_desktop
+
+Paste this in terminal and save:
+
+export XDG_CURRENT_DESKTOP=ubuntu:GNOME
+export XDG_SESSION_DESKTOP=ubuntu
+export DESKTOP_SESSION=ubuntu
+export GNOME_SHELL_SESSION_MODE=ubuntu
+
+export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+export XDG_MENU_PREFIX=gnome-
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------------------------
+
+ Reboot Linux - Reboot Linux - Reboot Linux - Reboot Linux
+
+               " Start Shell from GWSL "
+
+----------------------------------------------------------------
+
+Paste this one time in Console and restart!
+
+sudo mkdir /run/user/1000 && sudo chmod 700 /run/user/1000 && sudo chown $(whoami): /run/user/1000
+sudo systemctl set-default multi-user.target
+
+              " Take an Extra Restart for Linux "
+
+----------------------------------------------------------------
+
+Time to start Gnome and AlmaLinux 9 - Paste One by Ons!
+
+Copy and paste This: . ~/.bash_AlmaLinux_desktop
+
+Copy and paste This: xhost +
+
+Copy and paste This: dbus-launch gnome-session
+
+----------------------------------------------------------------
+
+Regards Mattias Vinberg - AlmaLinux 9 - Gnome Desktop - Windows 11 - Linux - WSL - GWSL - 2024 - SWEDEN
+
+----------------------------------------------------------------
