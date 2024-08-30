@@ -27,6 +27,61 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+AlmaLinux - Install Gnome desktop via Windows 11 - WSL - GWSL - Linux - 2024
+
+AlmaLinux - You can find AlmaLinux in Microsoft Store for WSL or here.
+
+Link - https://apps.microsoft.com/detail/9p5rwlm70sn9?hl=en-US&gl=US
+
+![Almalinux-GNOME](https://github.com/user-attachments/assets/35751db8-6c8e-4e51-9214-5b0467ce30b9)
+
+How to install Gnome desktop via AlmaLinux och Windows 11 - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Almalinux-GNOME.txt
+
+How to install Gnome desktop via AlmaLinux och Windows 11 - MOVIE
+
+https://www.youtube.com/watch?v=fxXMmhOBp20
+
+About AlmaLinux OS - https://almalinux.org
+
+AlmaLinux OS is an open-source, community-driven Linux 
+operating system that fills the gap left by the discontinuation
+of the CentOS Linux stable release. AlmaLinux OS is an Enterprise
+Linux distro, binary compatible with RHEL®, and guided and built
+by the community. As a standalone, completely free OS, AlmaLinux OS
+enjoys $1M in annual sponsorship from CloudLinux Inc. and support
+from more than 25 other sponsors. Ongoing development efforts
+are governed by the members of the community. The AlmaLinux OS 
+Foundation is a 501(c)(6) non-profit created for the benefit of
+the AlmaLinux OS community.
+
+About AlmaLinux OS - https://www.gnome.org
+
+GNOME is designed to help you have the best possible computing
+experience. Every aspect of GNOME has been crafted to fit together
+as a harmonious whole, providing a consistent and integrated 
+experience. Our attention to detail means a smooth and polished
+product that lets you do the things you want without getting
+in the way. GNOME is satisfying to use and beautiful to behold.
+GNOME provides a focused working environment that helps you get
+things done. It is packed with features that will make you more
+productive: a powerful search feature that helps you access all
+your work from one place; side-by-side windows that make it easy
+to view several documents at the same time; seamless integration
+with online accounts which allows you to access all your data in
+one place; and a messaging system that comfortably deals with 
+notifications, letting you quickly respond in place or return to 
+them in a convenient time. Gnome desktop is my favorite!
+
+Want more stuff for WSL and Linux and Windows 11
+
+https://github.com/vinberg88/opensuse <-- LOOK HERE
+
+Regards Mattias Vinberg - AlmaLinux 9 - Gnome Desktop - Windows 11 - Linux - WSL - GWSL - 2024 - SWEDEN
+
+---------------------------------------------
+
 Ultramarine Linux - Cosmic Desktop - How to install via Windwos 11 - WSL - GWSL - Linux - 2024
 
  "This is just to try the Cosmic desktop and should not be used in normal Environment - Beta"
