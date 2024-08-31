@@ -27,6 +27,54 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+AlmaLinux 9 and how to install Cinnamon desktop via Windows 11 - WSL - GWSL - Linux - 2024
+
+AlmaLinux 9 - You can find AlmaLinux in Microsoft Store for WSL or here.
+
+https://apps.microsoft.com/detail/9p5rwlm70sn9?hl=en-US&gl=US
+
+How to install Cinnamon via AlmaLinux and Windows 11 - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/AlmaLinux-Cinnamon.txt
+
+How to install Cinnamon via AlmaLinux and Windows 11 - MOVIE
+
+https://www.youtube.com/watch?v=ihBz_yEwVp0
+
+![AlmaLinux-Cinnamon](https://github.com/user-attachments/assets/8548d218-58da-4faf-ae76-f9a4875170db)
+
+About AlmaLinux OS - https://almalinux.org
+
+AlmaLinux OS is an open-source, community-driven Linux 
+operating system that fills the gap left by the discontinuation
+of the CentOS Linux stable release. AlmaLinux OS is an Enterprise
+Linux distro, binary compatible with RHEL®, and guided and built
+by the community. As a standalone, completely free OS, AlmaLinux OS
+enjoys $1M in annual sponsorship from CloudLinux Inc. and support
+from more than 25 other sponsors. Ongoing development efforts
+are governed by the members of the community. The AlmaLinux OS 
+Foundation is a 501(c)(6) non-profit created for the benefit of
+the AlmaLinux OS community.
+
+About Cinnamon desktop - https://projects.linuxmint.com/cinnamon
+
+Cinnamon is a free and open-source desktop from Linux Mint.
+environment for Linux and other Unix-like operating systems, which was
+originally based on GNOME 3, but follows traditional desktop metaphor 
+conventions. Cinnamon is a Linux desktop that provides advanced innovative
+features and a traditional user experience. The desktop layout is similar
+to Gnome 2 with underlying technology forked from Gnome Shell. Cinnamon
+makes users feel at home with an easy-to-use and comfortable desktop 
+experience.
+
+Want more stuff for WSL and Linux and Windows 11
+
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - AlmaLinux 9 - Cinnamon - WSL - GWSL - Windows 11 - Linux - 2024 - SWEDEN!
+
+---------------------------------------------
+
 AlmaLinux - Install Gnome desktop via Windows 11 - WSL - GWSL - Linux - 2024
 
 AlmaLinux - You can find AlmaLinux in Microsoft Store for WSL or here.
