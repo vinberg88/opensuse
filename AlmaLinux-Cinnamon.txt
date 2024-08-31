@@ -4,7 +4,7 @@ AlmaLinux 9 - You can find AlmaLinux in Microsoft Store for WSL or here.
 https://apps.microsoft.com/detail/9p5rwlm70sn9?hl=en-US&gl=US
 
 How to install Cinnamon via AlmaLinux and Windows 11 - TEXT
-Comming Zone….
+https://github.com/vinberg88/opensuse/blob/main/AlmaLinux-Cinnamon.txt
 
 How to install Cinnamon via AlmaLinux and Windows 11 - MOVIE
 https://www.youtube.com/watch?v=ihBz_yEwVp0
@@ -120,7 +120,9 @@ Time to install Cinnamon Desktop via AlmaLinux 9
 
 sudo dnf repoquery *cinnamon*
 
-sudo dnf install cinnamon cinnamon-calendar-server cinnamon-control-center cinnamon-control-center-filesystem cinnamon-desktop cinnamon-menus cinnamon-screensaver cinnamon-session cinnamon-settings-daemon cinnamon-themes cinnamon-translations slick-greeter-cinnamon
+sudo dnf install cinnamon cinnamon-calendar-server cinnamon-control-center cinnamon-control-center-filesystem
+cinnamon-desktop cinnamon-menus cinnamon-screensaver cinnamon-session cinnamon-settings-daemon cinnamon-themes
+cinnamon-translations slick-greeter-cinnamon
 
 sudo dnf install cinnamon*
 
