@@ -27,6 +27,59 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+RockyLinux - Have to install GNOME desktop va RockyLinux - WSL - GWSL - Windows 11 - Linux - 2024
+
+How to install GNOME desktop via RockyLinux 9 - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/RockyLinux-GNOME.txt
+
+How to install GNOME desktop via RockyLinux 9 - Movie
+
+https://www.youtube.com/watch?v=dPSeXe8mTGM
+
+You Can Find Rockylinux Here or in Microsoft Store. It will cost you 1 dollar/euro =]
+
+https://apps.microsoft.com/detail/9nq0dqkjg91n?hl=sv-se&gl=SE
+
+Rocky Linux 9 and Gnome Desktop by vinberg Sweden - WSL - 2024
+
+![RockyLinux-GNOME](https://github.com/user-attachments/assets/1e141805-a71e-4c6b-bdbe-c31dc56f0dd1)
+
+About RockyLinux 9 - https://rockylinux.org
+
+Rocky Linux is an open-source enterprise operating system
+designed to be 100% bug-for-bug compatible with Red
+Hat Enterprise Linux®. It is under intensive development
+by the community. Rocky Linux rebuilds sources directly
+from RHEL®, so you can bet your best dollar that you'll
+have a super stable experience, no matter the use-case.
+
+About GNOME desktop - https://www.gnome.org
+
+GNOME is designed to help you have the best possible computing
+experience. Every aspect of GNOME has been crafted to fit together
+as a harmonious whole, providing a consistent and integrated 
+experience. Our attention to detail means a smooth and polished
+product that lets you do the things you want without getting
+in the way. GNOME is satisfying to use and beautiful to behold.
+GNOME provides a focused working environment that helps you get
+things done. It is packed with features that will make you more
+productive: a powerful search feature that helps you access all
+your work from one place; side-by-side windows that make it easy
+to view several documents at the same time; seamless integration
+with online accounts which allows you to access all your data in
+one place; and a messaging system that comfortably deals with 
+notifications, letting you quickly respond in place or return to 
+them in a convenient time. Gnome desktop is my favorite!
+
+Find More Stuff here About WSL - Windows and Linux
+
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - Sweden - RockyLinux - Gnome - WSL - Windows 11 - Linux - GWSL - 2024
+
+---------------------------------------------
+
 AlmaLinux 9 and how to install Xfce via Windows 11 - WSL - GWSL - Linux - 2024
 
 AlmaLinux 9 - You can find AlmaLinux in Microsoft Store for WSL or here.
