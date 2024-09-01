@@ -4,7 +4,7 @@ AlmaLinux 9 - You can find AlmaLinux in Microsoft Store for WSL or here.
 https://apps.microsoft.com/detail/9p5rwlm70sn9?hl=en-US&gl=US
 
 How to install Xfce Desktop via AlmaLinux and Windows 11 - TEXT
-Comming Zone..
+https://github.com/vinberg88/opensuse/blob/main/AlmaLinux-XFCE.txt
 
 How to install Xfce Desktop via AlmaLinux and Windows 11 - MOVIE
 https://www.youtube.com/watch?v=APhy0FdJQXs
