@@ -1,4 +1,4 @@
-RockyLinux - Have to install GNOME desktop va RockyLiux - WSL - GWSL - Windows 11 - Linux - 2024
+RockyLinux - Have to install GNOME desktop va RockyLinux - WSL - GWSL - Windows 11 - Linux - 2024
 
 How to install GNOME desktop via RockyLinux 9 - TEXT
 https://github.com/vinberg88/opensuse/blob/main/RockyLinux-GNOME.txt
