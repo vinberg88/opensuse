@@ -27,6 +27,54 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+AlmaLinux 9 and how to install Xfce via Windows 11 - WSL - GWSL - Linux - 2024
+
+AlmaLinux 9 - You can find AlmaLinux in Microsoft Store for WSL or here.
+
+https://apps.microsoft.com/detail/9p5rwlm70sn9?hl=en-US&gl=US
+
+How to install Xfce Desktop via AlmaLinux and Windows 11 - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/AlmaLinux-XFCE.txt
+
+How to install Xfce Desktop via AlmaLinux and Windows 11 - MOVIE
+
+https://www.youtube.com/watch?v=APhy0FdJQXs
+
+![AlmaLinux-XFCE](https://github.com/user-attachments/assets/fc67e821-1d9e-48a8-82e9-05a9bcbca5b7)
+
+About AlmaLinux OS - https://almalinux.org
+
+AlmaLinux OS is an open-source, community-driven Linux 
+operating system that fills the gap left by the discontinuation
+of the CentOS Linux stable release. AlmaLinux OS is an Enterprise
+Linux distro, binary compatible with RHEL®, and guided and built
+by the community. As a standalone, completely free OS, AlmaLinux OS
+enjoys $1M in annual sponsorship from CloudLinux Inc. and support
+from more than 25 other sponsors. Ongoing development efforts
+are governed by the members of the community. The AlmaLinux OS 
+Foundation is a 501(c)(6) non-profit created for the benefit of
+the AlmaLinux OS community.
+
+About Xfce - https://www.xfce.org
+
+Xfce is a lightweight desktop environment for UNIX-like operating
+systems. It aims to be fast and low on system resources, while
+still being visually appealing and user friendly.
+Xfce embodies the traditional UNIX philosophy of modularity and 
+re-usability. It consists of a number of components that provide
+the full functionality one can expect of a modern desktop environment.
+They are packaged separately and you can pick among the available
+packages to create the optimal personal working environment.
+
+Want more stuff for WSL and Linux and Windows 11
+
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - AlmaLinux 9 - Xfce4 - Xfce - WSL - GWSL - Windows 11 - Linux - 2024 - SWEDEN!
+
+---------------------------------------------
+
 AlmaLinux 9 and how to install Cinnamon desktop via Windows 11 - WSL - GWSL - Linux - 2024
 
 AlmaLinux 9 - You can find AlmaLinux in Microsoft Store for WSL or here.
