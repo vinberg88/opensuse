@@ -27,6 +27,56 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Ubuntu - How to install Deepin Desktop on Ubuntu 22.04 - WSL - Windows 11 - GWSL - 2024
+
+You can find Ubuntu 22.04 here via this link or in Microsoft store for WSL - GWSL - Linux - Windows 11
+
+https://apps.microsoft.com/detail/9pn20msr04dw?rtc=1&hl=sv-se&gl=SE
+
+![Ubuntu22 04-Deepin](https://github.com/user-attachments/assets/53de46da-58ed-4067-86f2-0e7422844c17)
+
+How to install Deepin Desktop via Ubuntu and Windows 11 - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu22.04-Deepin.txt
+
+
+How to install Deepin Desktop via Ubuntu and Windows 11 - WSL - MOVIE
+
+https://www.youtube.com/watch?v=Tvc0mhqYc_w
+
+
+About Ubuntu 22.04 - https://ubuntu.com
+
+Run your choice of Linux text editors, including vim, emacs, and nano.
+Install applications, compilers and libraries from the Ubuntu 
+repository, securely maintained by Canonical. Ubuntu is a
+Linux distribution derived from Debian and composed mostly
+of free and open-source software. Ubuntu is officially
+released in multiple editions: Desktop, Server, and Core
+for Internet of things devices and robots.
+
+About UbuntuDDE - DEEPIN - https://ubuntudde.com
+
+UbuntuDDE is a Remix flavor of Ubuntu system with Deepin Desktop
+Environment (DDE) . UbuntuDDE is a linux distribution based on
+Ubuntu with the most beautiful desktop environment. UbuntuDDE
+Remix is developed and maintained by the UbuntuDDE Community.
+UbuntuDDE is a Remix of the Ubuntu system with Deepin Desktop 
+Environment (DDE) as the default desktop environment. It is
+aIt aims to have a beautiful desktop experience with a modern
+design featuring both Dock and Modern Design. Its initial
+release is UbuntuDDE Remix 20.04 Focal Fossa based on Ubuntu
+22.04 LTS and will be supported by the UbuntuDDE Team and the community.
+Linux distribution based on Ubuntu with the most
+Beautiful desktop environment. 
+
+You Can Find More Stuff here About WSL - GWSL - Windows 11 - Linux
+https://github.com/vinberg88/opensuse   
+
+Regards Mattias Vinberg - Deepin - UbuntuDDE - WSL - GWSL - Windows 11 - Linux - 2024 - SWEDEN
+
+---------------------------------------------
+
 RockyLinux - Have to install GNOME desktop va RockyLinux - WSL - GWSL - Windows 11 - Linux - 2024
 
 How to install GNOME desktop via RockyLinux 9 - TEXT
