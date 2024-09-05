@@ -28,7 +28,7 @@ https://apps.microsoft.com/detail/9pn20msr04dw?rtc=1&hl=sv-se&gl=SE
                              .        
 
 How to install Deepin Desktop via Ubuntu and Windows 11 - WSL - TEXT
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu22.04-Deepin.txt
 
 
 How to install Deepin Desktop via Ubuntu and Windows 11 - WSL - MOVIE     
