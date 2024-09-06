@@ -2,7 +2,7 @@ DEBIAN - How to install BUDGIE DESKTOP via DEBIAN 12 - WSL - Windows 11 - GWSL -
 
 
 How to install Budgie Desktop via DEBIAN - WSL - TEXT
-
+https://github.com/vinberg88/opensuse/blob/main/DEBIAN-BUDGIE.txt
 
 How to install Budgie Desktop via DEBIAN - WSL - MOVIE
 https://www.youtube.com/watch?v=fEUHTBYjxj0
