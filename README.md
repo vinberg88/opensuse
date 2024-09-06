@@ -91,10 +91,7 @@ WANT MORE STUFF FOR WSL - GWSL - LINUX - WINDOWS 11 - LOOK HERE
           
           https://github.com/vinberg88/opensuse
 
-⢀⣴⠾⠻⢶⣦⠀
-⣾⠁⢠⠒⠀⣿⡁ Debian - The universal operating system
-⢿⡄⠘⠷⠚⠋⠀ https://www.debian.org/
-⠈⠳⣄⠀⠀    Mattias Viberg - SWEDEN 2024 - BUDGIE DE
+Regards Mattias Vinberg - BUDGIE DE - DEBIAN - WSL - GWSL - Windows 11 - Linux - 2024 - SWEDEN
 
 ---------------------------------------------
 
