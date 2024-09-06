@@ -27,6 +27,77 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+DEBIAN - How to install BUDGIE DESKTOP via DEBIAN 12 - WSL - Windows 11 - GWSL - 2024
+
+How to install Budgie Desktop via DEBIAN - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/DEBIAN-BUDGIE.txt
+
+How to install Budgie Desktop via DEBIAN - WSL - MOVIE
+
+https://www.youtube.com/watch?v=fEUHTBYjxj0
+
+
+![DEBIAN-BUDGIE](https://github.com/user-attachments/assets/995429d0-8128-4bf6-a44e-362c63c15122)
+
+                        
+You will find DEBIAN - Latest - here or in Micorosoft store - BUDGIE DE - Linux - WSL
+      
+      https://apps.microsoft.com/detail/9msvkqc78pk6?rtc=1&hl=sv-se&gl=SE
+                          
+
+About DEBIAN - 2024 - https://www.debian.org
+
+Debian is a popular and freely available computer
+operating system (OS) that uses a Unix-like
+kernel-- typically Linux -- alongside other program
+components, many of which come from GNU Project. 
+Debian can be downloaded over the internet or, for
+a small charge, obtained on CD, DVD, Blu-ray disc or
+USB flash drive. Of course, the thing that people
+want is application software: programs to help them
+get what they want to do done, from editing documents
+to running a business to playing games to Writing
+more software. Debian comes with over 59000 packages
+(precompiled software that is bundled up in a nice
+format for easy installation on your machine), a
+package manager (APT), and other utilities that
+make it possible to manage thousands of packages
+on thousands of computers as easily as installing
+a single application. All of it free. 
+
+How do I get Debian?
+
+It's most popular to install Debian from a CD which you
+can buy for the price of the media at one of our many
+CD vendors. If you have good Internet access, you
+can download and install Debian over the Internet.
+
+ABOUT BUDGIE DESKTOP - 2024 - https://buddiesofbudgie.org
+
+Budgie Menu shows you all your installed applications,
+neatly organized into categories to improve discoverability,
+and with lightning fast application searching! No more
+diving into sub-menus to find the app you need. Make Budgie Your Own
+With our Budgie Desktop Settings application, you can make
+Budgie feel like home. Whether you want a dock or multiple
+panels, you can do it with just a few clicks. Budgie is
+available on a wide variety of operating systems, from Arch
+Linux to Ubuntu, and everything in between. Try it out today
+on the flavor of Linux of your choosing.
+
+
+WANT MORE STUFF FOR WSL - GWSL - LINUX - WINDOWS 11 - LOOK HERE
+          
+          https://github.com/vinberg88/opensuse
+
+⢀⣴⠾⠻⢶⣦⠀
+⣾⠁⢠⠒⠀⣿⡁ Debian - The universal operating system
+⢿⡄⠘⠷⠚⠋⠀ https://www.debian.org/
+⠈⠳⣄⠀⠀    Mattias Viberg - SWEDEN 2024 - BUDGIE DE
+
+---------------------------------------------
+
 Ubuntu - How to install Deepin Desktop on Ubuntu 22.04 - WSL - Windows 11 - GWSL - 2024
 
 You can find Ubuntu 22.04 here via this link or in Microsoft store for WSL - GWSL - Linux - Windows 11
