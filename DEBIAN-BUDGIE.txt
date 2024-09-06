@@ -1,0 +1,249 @@
+DEBIAN - How to install BUDGIE DESKTOP via DEBIAN 12 - WSL - Windows 11 - GWSL - 2024
+
+
+How to install Budgie Desktop via DEBIAN - WSL - TEXT
+
+
+How to install Budgie Desktop via DEBIAN - WSL - MOVIE
+https://www.youtube.com/watch?v=fEUHTBYjxj0
+
+                                
+
+       _,met$$$$$gg.              
+    ,g$$$$$$$$$$$$$$$P.  
+  ,g$$P"        "\""Y$$.". 
+ ,$$P'              `$$$.         
+',$$P       ,ggs.     `$$b:       
+`d$$'     ,$P"'   .    $$$        
+ $$P      d$'     ,    $$P        
+ $$:      $$.   -    ,d$$'    
+ $$;      Y$b._   _,d$P'      Kernel: 6.6.36.3-microsoft-standard-WSL2
+ Y$$.    `.`"Y$$$$P"'       OS - Debian GNU/Linux 12.7 and BUDGIE DESKTOP
+ `$$b      "-.__                  
+  `Y$$                            
+   `Y$$.                          
+     `$$b.                        
+       `Y$$b.                     
+          `"Y$b._            
+              `"\""
+                            
+
+You will find DEBIAN - Latest - here or in Micorosoft store - BUDGIE DE - Linux - WSL
+      https://apps.microsoft.com/detail/9msvkqc78pk6?rtc=1&hl=sv-se&gl=SE
+                          
+
+About DEBIAN - 2024 - https://www.debian.org
+
+Debian is a popular and freely available computer
+operating system (OS) that uses a Unix-like
+kernel-- typically Linux -- alongside other program
+components, many of which come from GNU Project. 
+Debian can be downloaded over the internet or, for
+a small charge, obtained on CD, DVD, Blu-ray disc or
+USB flash drive. Of course, the thing that people
+want is application software: programs to help them
+get what they want to do done, from editing documents
+to running a business to playing games to Writing
+more software. Debian comes with over 59000 packages
+(precompiled software that is bundled up in a nice
+format for easy installation on your machine), a
+package manager (APT), and other utilities that
+make it possible to manage thousands of packages
+on thousands of computers as easily as installing
+a single application. All of it free. 
+
+How do I get Debian?
+
+It's most popular to install Debian from a CD which you
+can buy for the price of the media at one of our many
+CD vendors. If you have good Internet access, you
+can download and install Debian over the Internet.
+
+ABOUT BUDGIE DESKTOP - 2024 - https://buddiesofbudgie.org
+
+Budgie Menu shows you all your installed applications,
+neatly organized into categories to improve discoverability,
+and with lightning fast application searching! No more
+diving into sub-menus to find the app you need. Make Budgie Your Own
+With our Budgie Desktop Settings application, you can make
+Budgie feel like home. Whether you want a dock or multiple
+panels, you can do it with just a few clicks. Budgie is
+available on a wide variety of operating systems, from Arch
+Linux to Ubuntu, and everything in between. Try it out today
+on the flavor of Linux of your choosing.
+
+
+WANT MORE STUFF FOR WSL - GWSL - LINUX - WINDOWS 11 - LOOK HERE
+          https://github.com/vinberg88/opensuse
+
+⢀⣴⠾⠻⢶⣦⠀
+⣾⠁⢠⠒⠀⣿⡁ Debian - The universal operating system
+⢿⡄⠘⠷⠚⠋⠀ https://www.debian.org/
+⠈⠳⣄⠀⠀    Mattias Viberg - SWEDEN 2024 - BUDGIE DE
+
+--------------------------------------------
+
+After install of DEBIAN - Pleas update all =]
+
+sudo apt update
+sudo apt upgrade
+
+--------------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot - DEBIAN
+
+--------------------------------------------
+
+Paste in terminal and add… BUDGIE DE - DEBIAN
+
+sudo nano /etc/wsl.conf 
+
+and add
+
+[boot]
+systemd=true
+
+--------------------------------------------
+
+Paste all to terminal and klick enter... Remove errors..
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+--------------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot - DEBIAN - SWEDEN
+
+--------------------------------------------
+
+Install some programs and setup LightDM - BUDGIE - DEBIAN
+
+sudo apt install dbus* bash git npm wget curl nano sudo pipx dracut -y
+sudo service dbus start
+sudo apt install gdm3* -y
+sudo apt install gdm* -y
+sudo systemctl set-default graphical
+
+--------------------------------------------
+
+Time to install Hyfetch - Like Neofetch.
+
+pipx install hyfetch
+pipx ensurepath
+
+Restart terminal and type: hyfetch
+
+--------------------------------------------
+
+Install Google Chrome Browser - Perfech for Linux
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+--------------------------------------------
+
+Install Blanket if you Want! - Listen to Sounds.
+
+wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+
+--------------------------------------------
+
+Reboot Linux Reboot Linux Reboot Linux Reboot Linux - DEBIAN - 2024
+
+START GWSL SHELL - TERMINAL - BASH And CONFIG - TAKE AN EXTRA REBOOT!
+
+--------------------------------------------
+
+Start from GWSL - Always start terminal from GWSL - Please do a reboot after setup
+
+--------------------------------------------
+
+Next install BUDGIE Desktop for DEBIAN - WSL - FULL INSTALL - BUDGIE
+
+sudo apt install --install-suggests budgie-desktop
+sudo apt install budgie*
+
+-------------------------------
+
+Add this to Repos - Mirrors - DEBIAN 
+
+sudo nano /etc/apt/sources.list
+
+deb http://ftp.de.debian.org/debian bookworm main contrib
+
+Then update all: sudo apt update
+
+-------------------------------
+
+Install some fonts For Debian.
+
+sudo apt-get install ttf-mscorefonts-installer
+
+Update all after installation....
+
+sudo fc-cache -f -v
+
+-------------------------------
+
+Paste in Terminal and Press enter - BUDGIE - 2024
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+--------------------------------------------
+
+Type this in terminal and put your user there for Linux: loginctl enable-linger user
+
+-------------------------------------------------------------
+
+In terminal type: sudo nano ~/.bash_Debian_desktop
+
+Paste this small script in terminal and save and quit nano.
+
+
+GNOME_SHELL_SESSION_MODE=Budgie:GNOME
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-------------------------------------------
+
+6. Paste and INSTALL =] - DEBIAN 12.7 - BUDGIE DE
+
+git clone https://github.com/DamionGans/ubuntu-wsl2-systemd-script.git
+cd ubuntu-wsl2-systemd-script/
+bash ubuntu-wsl2-systemd-script.sh
+
+Take 3 sec and look in terminal so daemonize is installd.
+
+apt install daemonize <-- if not login as ROOT and install daemonize.
+
+-------------------------------
+
+Reboot Reboot Reboot Reboot Reboot - DEBIAN DE 12 - 2024
+
+-------------------------------
+
+Start BUDGIE Desktop via this line - DEBIAN - BUDGIE DESKTOP
+
+Copy and Paste: . ~/.bash_Debian_desktop
+
+Paste in terminal: xhost +
+
+Start Terminal or Desktop: budgie-desktop 
+
+-------------------------------
+
+Regards Mattias Vinberg - BUDGIE DE - DEBIAN - WSL - GWSL - Windows 11 - Linux - 2024 - SWEDEN
+
+--------------------------------------------
