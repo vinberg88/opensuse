@@ -27,6 +27,58 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Ultramarine - Deepin Desktop install via Windows 11 - WSL - GWSL - Windows 11 - FEDORA - 2024
+
+  "NOTE - Big installation of desktop Deepin and Ultramarine 40 - Take some time - 35 min"
+
+How to install Deepin Desktop on Ultramarine via Windows 11 - TEXT
+  
+    https://github.com/vinberg88/opensuse/blob/main/Ultramarine-DEEPIN.txt
+
+How to install Deepin Desktop on Ultramarine via Windows 11 - Movie
+     
+     https://www.youtube.com/watch?v=jD4INreiyKs
+
+![Ultramarine-DEEPIN](https://github.com/user-attachments/assets/6af5e5fe-930a-42b6-a4c5-c7a0990c5f3d)
+
+About Deepin Desktop - Link: https://www.deepin.org
+
+Beautiful UI design, intimate human-computer interaction, and 
+friendly community environment make you feel at home. Deepin
+is easy to install and can meet your work needs without
+additional system configuration and software installation.
+You can configure deepin as you want, but it is not 
+necessary - optimal settings and adjustments have been
+applied by default to meet the usage demands of most users.
+The desktop environment and multiple applications based
+on the self-developed DTK not only have a beautiful 
+UI, but also offer the human-computer interaction in line
+with user habits. You can get started with deepin in a
+few minutes. 
+
+About Ultramarine 40 - Linux - Link: https://ultramarine-linux.org
+
+Ultramarine Linux is a Fedora-based Linux distribution designed to
+stay out of your way and be easy to use, by shipping preapplied
+tweaks to make initial setup and daily usage seamless. Ultramarine
+Linux is an operating system designed for your personal 
+workstation (or battlestation). It is designed to be intuitive and
+easy to use, shipping numerous simple environments. Ultramarine
+keeps up with the latest and greatest software in the open-source 
+community, while staying stable and secure. Ultramarine is for 
+everyone, from the beginner to the tech enthusiast, and even 
+Windows dropouts! 
+
+Here you have more stuff about WSL: https://github.com/vinberg88/opensuse
+
+Here you will find fedora 40 for WSL here or in Microsoft Store
+   
+    https://apps.microsoft.com/detail/9npcp8drchsn?hl=en-US&gl=US
+
+Regards Mattias Vinberg - Ultramarine Linux - Deepin - WSL - GWSL - Windows 11 - 2024 - FEDORA - Sweden
+
+---------------------------------------------
+
 DEBIAN - How to install BUDGIE DESKTOP via DEBIAN 12 - WSL - Windows 11 - GWSL - 2024
 
 How to install Budgie Desktop via DEBIAN - WSL - TEXT
@@ -91,7 +143,7 @@ WANT MORE STUFF FOR WSL - GWSL - LINUX - WINDOWS 11 - LOOK HERE
           
           https://github.com/vinberg88/opensuse
 
-Regards Mattias Vinberg - BUDGIE DE - DEBIAN - WSL - GWSL - Windows 11 - Linux - 2024 - SWEDEN
+Regards Mattias Vinberg - BUDGIE Desktop - DEBIAN - WSL - GWSL - Windows 11 - Linux - 2024 - SWEDEN
 
 ---------------------------------------------
 
