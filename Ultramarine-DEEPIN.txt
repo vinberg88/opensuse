@@ -1,0 +1,311 @@
+Ultramarine - Deepin Desktop install via Windows 11 - WSL - GWSL - Windows 11 - FEDORA - 2024
+
+  "NOTE - Big installation of desktop Deepin and Ultramarine 40 - Take some time - 35 min"
+
+How to install Deepin Desktop on Ultramarine via Windows 11 - TEXT
+Comming Zone….
+
+How to install Deepin Desktop on Ultramarine via Windows 11 - Movie
+https://www.youtube.com/watch?v=jD4INreiyKs
+
+
+            .cd0NNNNNNNXOdc.
+        .:xKNNNNNNNNNNNNNNNNKd;. 
+      ,dXNNNNNNNNNNNNNNNNNNNNNNNd,
+    'ONNNNNNNNNNNNNNNNNNNNNNNNNNNNO'
+  .xNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNk.
+ .0NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN0.
+.0NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN0.
+dNNNNNNNNNNNNWWWWWWWWNNNNNNNNNNNNNNNNNNd
+NNNNNNNNNNNNNWMMMMMMMMWWNNNNNNNNNNNNNNNN
+NNNNNNNNNNNNNNWMMMMMMMMMWWNNNNNNNNNNNNNN - FEDORA 40 - WINDOWS 11 - WSL - GWSL - DEEPIN
+NNNNNNNNNNNNNNWMMMMMMMMMMMMWNNNNNNNNNNNN - Ultramarine 40 and Deepin DESKTOP - WSL
+NNNNNNNNNNWWWMMMMMMMMMMMMMMMMWWWNNNNNNNX 
+oNWWWWMMMMMMMMMMMMMMMMMMMMMMMMMMMMWWWNNo
+ OWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWO
+ .OWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWO. 
+   lNWMMMMMMMMMMMMMMMMMMMMMMMMMMMMWNl
+    .dNWMMMMMMMMMMMMMMMMMMMMMMMMWNd.
+      .cKWMMMMMMMMMMMMMMMMMMMMWKc. 
+         'oOXWWWMMMMMMMMWWWXOl.         
+             ;lkXNNNNNNXkl'                                        
+
+
+About Deepin Desktop - Link: https://www.deepin.org
+
+Beautiful UI design, intimate human-computer interaction, and 
+friendly community environment make you feel at home. Deepin
+is easy to install and can meet your work needs without
+additional system configuration and software installation.
+You can configure deepin as you want, but it is not 
+necessary - optimal settings and adjustments have been
+applied by default to meet the usage demands of most users.
+The desktop environment and multiple applications based
+on the self-developed DTK not only have a beautiful 
+UI, but also offer the human-computer interaction in line
+with user habits. You can get started with deepin in a
+few minutes. 
+
+About Ultramarine 40 - Linux - Link: https://ultramarine-linux.org
+
+Ultramarine Linux is a Fedora-based Linux distribution designed to
+stay out of your way and be easy to use, by shipping preapplied
+tweaks to make initial setup and daily usage seamless. Ultramarine
+Linux is an operating system designed for your personal 
+workstation (or battlestation). It is designed to be intuitive and
+easy to use, shipping numerous simple environments. Ultramarine
+keeps up with the latest and greatest software in the open-source 
+community, while staying stable and secure. Ultramarine is for 
+everyone, from the beginner to the tech enthusiast, and even 
+Windows dropouts! 
+
+Here you have more stuff about WSL: https://github.com/vinberg88/opensuse
+
+Here you will find fedora 40 for WSL here or in Microsoft Store
+https://apps.microsoft.com/detail/9npcp8drchsn?hl=en-US&gl=US
+
+-----------------------------------
+
+Convert fedora 40 to Ultramarine by this script. Copy and Paste in Console.
+
+bash <(curl -s https://ultramarine-linux.org/migrate.sh)
+
+-----------------------------------
+
+Paste in terminal: sudo nano /etc/wsl.conf
+
+And add this to terminal.
+
+[boot]
+systemd=true
+
+-----------------------------------
+
+Paste all in terminal. Remove Errors in Terminal.
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+-----------------------------------
+
+Add Repos to Ultramarine Linux.
+
+sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+
+-----------------------------------
+
+Reboot Reboot Reboot Reboot Reboot Reboot
+
+-----------------------------------
+
+Update system for Ultramarine 40
+
+sudo dnf update
+
+-----------------------------------
+
+Install some basic programs.
+
+sudo dnf install gala plank vala ibus git wget curl bash pipx dracut dmraid net-tools dbus-x11 dbus*
+
+-----------------------------------
+
+Install Hyfetch - like Neofetch but more gay =)
+
+pipx install hyfetch
+pipx ensurepath
+
+Put this in terminal to Test: hyfetch
+
+-----------------------------------
+
+Install Google-Chrome - paste all under this paragraph in terminal.
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm
+sudo yum update google-chrome-stable
+
+-----------------------------------
+
+Install Studio Visual Code - Paste in Terminal
+
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" | sudo tee /etc/yum.repos.d/vscode.repo > /dev/null
+
+And then…
+
+dnf check-update
+sudo dnf install code
+
+-----------------------------------
+
+Install this program.
+
+sudo dnf install xorg-x11-server-Xorg* xorg*
+sudo dnf install langpacks-sv
+
+-----------------------------------
+
+Install this programs. Copy all to terminal and let it do the jobe.
+
+sudo dnf install xorg-x11-apps xorg-x11-drivers xorg-x11-drv-ati -y
+sudo dnf install xorg-x11-drv-dummy xorg-x11-drv-evdev xorg-x11-drv-fbdev xorg-x11-drv-intel -y
+sudo dnf install xorg-x11-drv-libinput xorg-x11-drv-nouveau xorg-x11-drv-qxl -y
+sudo dnf install xorg-x11-drv-synaptics-legacy xorg-x11-drv-v4l xorg-x11-drv-vesa -y
+sudo dnf install xorg-x11-drv-vmware xorg-x11-drv-wacom xorg-x11-fonts xorg-x11-fonts-others -y
+sudo dnf install xorg-x11-font-utils xorg-x11-server xorg-x11-server-utils xorg-x11-server-Xephyr -y
+sudo dnf install xorg-x11-server-Xspice xorg-x11-util-macros xorg-x11-utils xorg-x11-xauth -y
+sudo dnf install xorg-x11-xbitmaps xorg-x11-xinit xorg-x11-xkb-utils -y
+sudo dnf install adwaita-icon-theme atk atkmm at-spi2-atk at-spi2-core baobab -y
+sudo dnf install abattis-cantarell-fonts cheese clutter clutter-gst3 clutter-gtk cogl dconf -y
+sudo dnf install dconf-editor devhelp eog epiphany evince evolution-data-server file-roller folks -y
+sudo dnf install gcab gcr gdk-pixbuf2 gdm gedit geocode-glib gfbgraph gjs glib2 glibmm24 -y
+sudo dnf install glib-networking gmime30 gnome-autoar gnome-backgrounds gnome-bluetooth -y
+sudo dnf install gnome-builder gnome-calculator gnome-calendar gnome-characters -y
+sudo dnf install gnome-clocks gnome-color-manager gnome-contacts gnome-control-center -y
+sudo dnf install gnome-desktop3 gnome-disk-utility gnome-font-viewer gnome-getting-started-docs -y
+sudo dnf install gnome-initial-setup gnome-keyring gnome-logs gnome-menus gnome-music -y
+sudo dnf install gnome-online-accounts gnome-online-miners gnome-photos gnome-remote-desktop -y
+sudo dnf install gnome-screenshot gnome-session gnome-settings-daemon gnome-shell -y
+sudo dnf install gnome-shell-extensions gnome-software gnome-system-monitor gnome-terminal -y
+sudo dnf install gnome-tour gnome-user-docs gnome-user-share gnome-video-effects -y
+sudo dnf install gnome-weather gobject-introspection gom grilo grilo-plugins -y
+sudo dnf install gsettings-desktop-schemas gsound gspell gssdp gtk3 gtk4 gtk-doc gtkmm30 -y
+sudo dnf install gtksourceview4 gtk-vnc2 gupnp gupnp-av gupnp-dlna gvfs json-glib libchamplain -y
+sudo dnf install libdazzle libgdata libgee libgnomekbd libgsf libgtop2 libgweather libgxps libhandy -y
+sudo dnf install libmediaart libnma libnotify libpeas librsvg2 libsecret libsigc++20 libsoup -y
+sudo dnf install mm-common mutter nautilus orca pango pangomm libphodav python3-pyatspi -y
+sudo dnf install python3-gobject rest rygel simple-scan sushi sysprof tepl totem totem-pl-parser -y
+sudo dnf install tracker3 tracker3-miners vala vte291 yelp yelp-tools -y
+sudo dnf install yelp-xsl zenity -y 
+sudo dnf install gimp -y
+sudo dnf install gnome* -y --exclude=gnome-shell-extension-system-monitor-47~alpha-1.fc41.noarch,gnome-shell-extension-system-monitor-
+applet-1:38-29.20240502git4a1cfff.fc41.noarch,gnome-shell-extension-system-monitor-46.2-1.fc40.noarch,gnome-shell-extension-
+system-monitor-applet-1:38-32.20240820git81f07ce.fc40.noarch,gnome-shell-extension-system-monitor-46.0-1.fc40.noarch,gnome
+-shell-extension-system-monitor-applet-1:38-27.20231104git0f042e8.fc40.noarch
+
+-----------------------------------
+
+REBOOT - REBOOT - REBOOT - REBOOT - REBOOT - UltraMarine Linux
+
+-----------------------------------
+
+Install graphics manager for Deepin Desktop and Ultramarine 40
+
+sudo dnf install lightdm lightdm-gtk lightdm*
+sudo systemctl disable gdm.service
+sudo systemctl enable lightdm.service
+
+-----------------------------------
+
+Install Deepin desktop for Ultramarine Linux 40 -]
+
+sudo dnf grouplist -v
+
+sudo dnf install dde*
+sudo dnf install deepin* --skip-broken
+sudo dnf install @deepin-desktop
+sudo dnf install @deepin-desktop*
+sudo dnf group inställ deepin-desktop*
+sudo dnf group install "deepin-desktop"
+sudo dnf group install desktop-accessibility*
+sudo dnf install ddd-* --skip-unavailable
+sudo dnf group install "system-tools"
+sudo dnf group install "sound-and-video"
+sudo dnf group install "design-suite"
+sudo dnf group install "compiz"
+sudo dnf group install "window-managers"
+sudo dnf group install "helium"
+
+sudo dnf install deepin-desktop-base deepin-control-center deepin-account-faces deepin-wayland
+sudo dnf install deepin-wallpapers deepin-terminal deepin-screenshot deepin-screensaver
+sudo dnf install deepin-picker deepin-menu deepin-launcher deepin-kwin deepin-editor lightdm-gtk*
+sudo dnf install deepin-draw deepin-dock deepin-desktop deepin-daemon deepin-calendar
+sudo dnf install deepin-calculator deepin-api deepin-icon-theme deepin-gtk-theme deepin-gir-generator
+sudo dnf install deepin-gettext-tools deepin-desktop-schemas dtkgui golang-deepin-go-lib-devel
+sudo dnf install deepin-qt5platform-plugins deepin-wayland-protocols-devel deepin-qt5integration
+sudo dnf install deepin-qt-dbus-factory deepin-system-monitor deepin-sound-theme deepin-shortcut-viewer
+
+sudo dnf install deepin-session-ui deepin-session-Shell deepin-pw-check deepin-polkit-agent deepin-network-core
+sudo dnf install deepin-image-Viewer golang-github-linuxdeepin-go-x11-client-devel golang-github-linuxdeepin-dbus-factory
+sudo dnf install dtkwm dtkwidget dtkcore startdde deepin-vm deepin-turbo deepin-wloutput-daemon
+sudo dnf install deepin-file-manager deepin-desktop deepin-file-manager
+sudo dnf install deepin-terminal-data dtkgui deepin-desktop-base deepin-gettext-tools
+sudo dnf install deepin-gtk-theme deepin-image-viewer deepin-menu deepin-polkit-agent
+sudo dnf install deepin-screenshot deepin-shortcut-viewer deepin-sound-theme deepin-account-faces
+sudo dnf install deepin-calendar deepin-dock deepin-desktop-schemas deepin-control-center 
+
+sudo dnf install deepin-control-center-devel deepin-control-center-lib deepin-api deepin-gtk-theme
+sudo dnf install deepin-icon-theme deepin-network-utils deepin-store deepin-file-manager
+sudo dnf install deepin-desktop-base deepin-desktop-theme* deepin-file-manager deepin-widgets
+sudo dnf install deepin-account-faces deepin-anythingx86_64 deepin-app-services deepin-appearance deepin-application-manager 
+sudo dnf install deepin-control-center deepin-daemon deepin-desktop-base deepin-desktop-schemas deepin-desktop-theme deepin-dock
+sudo dnf install deepin-file-manager deepin-gtk-theme deepin-icon-theme deepin-image-Viewer deepin-menu deepin-calendar
+sudo dnf install deepin-network-core deepin-network-utils deepin-polkit-agent deepin-polkit-agent-ext-gnomekeyring deepin-pw-check
+sudo dnf install deepin-qt5integration deepin-qt5platform-plugins deepin-qt6integration deepin-qt6platform-plugins deepin-screensaver
+sudo dnf install deepin-session deepin-session-Shell deepin-session-ui deepin-shortcut-viewer deepin-sound-theme deepin-system-monitor 
+sudo dnf install deepin-turbo deepin-wallpapers deepin-widgets deepin-wloutput-daemon docparser startdde xdg-desktop-portal-dde
+
+-----------------------------------
+
+Copy and Paste in terminal: 
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-----------------------------------
+
+Type this in terminal and put your user there - sudo loginctl enable-linger user
+
+-----------------------------------
+
+Setup GWSL and reboot and start from GWSL Shell -- Ultramarine Linux
+
+           " Take an extra Reboot - Ultramarine "
+
+-----------------------------------
+
+In terminal type: sudo nano ~/.bash_Ultramarine_desktop
+
+Paste this in terminal and save and quit.
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-----------------------------------
+
+Paste in terminal
+
+sudo systemctl set-default graphical.target
+
+-----------------------------------
+
+Reboot Ultramarine - Reboot Ultramarine - Reboot Ultramarine 40 - DEEPIN DESKTOP
+
+-----------------------------------
+
+Time to start Deepin Desktop. It take some time to start so just wait =]
+
+Paste in terminal: . ~/.bash_Ultramarine_desktop
+
+Type in terminal: exec dbus-run-session /usr/bin/startdde
+
+    IT TAKE SOME TIME TO START - JUST WAIT!!
+
+-----------------------------------
+
+Regards Mattias Vinberg - Ultramarine Linux - Deepin - WSL - GWSL - Windows 11 - 2024 - Sweden
+
+-----------------------------------
+
+
