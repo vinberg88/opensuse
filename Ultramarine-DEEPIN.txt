@@ -3,7 +3,7 @@ Ultramarine - Deepin Desktop install via Windows 11 - WSL - GWSL - Windows 11 - 
   "NOTE - Big installation of desktop Deepin and Ultramarine 40 - Take some time - 35 min"
 
 How to install Deepin Desktop on Ultramarine via Windows 11 - TEXT
-Comming Zone….
+https://github.com/vinberg88/opensuse/blob/main/Ultramarine-DEEPIN.txt
 
 How to install Deepin Desktop on Ultramarine via Windows 11 - Movie
 https://www.youtube.com/watch?v=jD4INreiyKs
@@ -135,7 +135,8 @@ sudo yum update google-chrome-stable
 Install Studio Visual Code - Paste in Terminal
 
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
-echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" | sudo tee /etc/yum.repos.d/vscode.repo > /dev/null
+echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft
+.com/keys/microsoft.asc" | sudo tee /etc/yum.repos.d/vscode.repo > /dev/null
 
 And then…
 
