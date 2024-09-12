@@ -25,7 +25,7 @@ You Cane find Linux Mint for WSL here - https://github.com/sileshn/LinuxmintWSL2
 
 
 How to install KDE Desktop via Linux Mint and Windows 11 - WSL - TEXT
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/LinuxMint-KDE.txt
 
 How to install KDE Desktop via Linux Mint and Windows 11 - WSL - MOVIE     
 https://www.youtube.com/watch?v=e4CtS1TqBE4
