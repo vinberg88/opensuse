@@ -27,6 +27,63 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+LINUX MINT - How to install KDE PLasma on Mint via Windows 11 - WSL - WSL - Windows 11 - GWSL - Linux - 2024
+
+You Cane find Linux Mint for WSL here - https://github.com/sileshn/LinuxmintWSL2
+
+How to install KDE Desktop via Linux Mint and Windows 11 - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/LinuxMint-KDE.txt
+
+How to install KDE Desktop via Linux Mint and Windows 11 - WSL - MOVIE 
+
+https://www.youtube.com/watch?v=e4CtS1TqBE4
+
+![LinuxMint-KDE](https://github.com/user-attachments/assets/f5d848ee-afca-422c-aad2-0a8778a53516)
+
+About Linux Mint - https://linuxmint.com
+
+Linux Mint is one of the most popular desktop Linux distributions
+and used by millions of people. It is one of the best alternatives
+to Microsoft Windows and Apple MacOS. Linux Mint is an operating
+system for desktop and laptop computers. It is designed to work 
+out of the box' and comes fully equipped with the apps most
+people need. Yes, Linux Mint is completely free of charge.
+Almost Everything in Linux Mint is also open-source.
+Fun, helpful and passionate is Linux Mint Wilma 22. Linux Mint
+is one of the most popular desktop Linux distributions and used
+by millions of people. Thanks to your donations and advertising
+Linux Mint is completely free of charge. We hope you'll enjoy
+using it as much as we enjoy working on it. 
+
+What is KDE desktop - https://kde.org 
+
+Use KDE to surf the web; keep in touch with colleagues, friends
+and family; manage your files, enjoy music and videos; and get
+creative and productive at work. Do it all in a beautiful environment
+that adapts to your needs, and with the safety, privacy-protection and
+peace of mind that the best Free Open Source Software has to offer.
+With Plasma, our technology stack has undergone two major 
+upgrades: a transition to the latest version of our application 
+framework, Qt, and a migration to the modern Linux graphics 
+platform, Wayland. We have done our best to ensure that these 
+changes are as smooth and unnoticeable to the users as possible, 
+so when you install this update, you will see the same familiar 
+desktop environment that you know and love. But these 
+under-the-hood upgrades benefit Plasma's security, 
+efficiency, and performance, and improve support for modern
+hardware. Thus Plasma delivers an overall more reliable
+user experience, while paving the way for many more
+improvements in the future. Kde Plasma is a good Desktop.
+
+You Can Find More Stuff here About WSL - GWSL - Windows 11 - Linux
+
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - KDE Plasma - LINUX MINT - WSL - GWSL - Windows 11 - Linux - 2024 - SWEDEN
+
+---------------------------------------------
+
 Ultramarine - Deepin Desktop install via Windows 11 - WSL - GWSL - Windows 11 - FEDORA - 2024
 
   "NOTE - Big installation of desktop Deepin and Ultramarine 40 - Take some time - 35 min"
