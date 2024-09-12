@@ -1,17 +1,75 @@
+Ubuntu - How to install Deepin Desktop on Ubuntu 22.04 - WSL - Windows 11 - GWSL - 2024
+
+You can find Ubuntu 22.04 here via this link or in Microsoft store for WSL - GWSL - Linux - Windows 11
+https://apps.microsoft.com/detail/9pn20msr04dw?rtc=1&hl=sv-se&gl=SE
+
+                             ....              
+              .',:clooo:  .:looooo:.
+           .;looooooooc  .oooooooooo'
+        .;looooool:,''.  :ooooooooooc  
+       ;looool;.         'oooooooooo, 
+      ;clool'             .cooooooc.  ,, 
+         ...                ......  .:oo, 
+  .;clol:,.                        .loooo' 
+ :ooooooooo,                        'ooool
+'ooooooooooo.                        loooo.
+'ooooooooool                         coooo.  Ubuntu bookworm/sid - DEEPIN desktop
+ ,loooooooc.                        .loooo.
+   .,;;;'.                          ;ooooc 
+       ...                         ,ooool.
+    .cooooc.              ..',,'.  .cooo.  
+      ;ooooo:.           ;oooooooc.  :l.  
+       .coooooc,..      coooooooooo.    
+         .:ooooooolc:. .ooooooooooo'       
+           .':loooooo;  ,oooooooooc                                   
+               ..';::c'  .;loooo:'                                    
+                             .        
+
+How to install Deepin Desktop via Ubuntu and Windows 11 - WSL - TEXT
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu22.04-Deepin.txt
+
+How to install Deepin Desktop via Ubuntu and Windows 11 - WSL - MOVIE     
+https://www.youtube.com/watch?v=Tvc0mhqYc_w
+
+
+About Ubuntu 22.04 - https://ubuntu.com
+
+Run your choice of Linux text editors, including vim, emacs, and nano.
+Install applications, compilers and libraries from the Ubuntu 
+repository, securely maintained by Canonical. Ubuntu is a
+Linux distribution derived from Debian and composed mostly
+of free and open-source software. Ubuntu is officially
+released in multiple editions: Desktop, Server, and Core
+for Internet of things devices and robots.
+
+About UbuntuDDE - DEEPIN - https://ubuntudde.com
+
+UbuntuDDE is a Remix flavor of Ubuntu system with Deepin Desktop
+Environment (DDE) . UbuntuDDE is a linux distribution based on
+Ubuntu with the most beautiful desktop environment. UbuntuDDE
+Remix is developed and maintained by the UbuntuDDE Community.
+UbuntuDDE is a Remix of the Ubuntu system with Deepin Desktop 
+Environment (DDE) as the default desktop environment. It is
+aIt aims to have a beautiful desktop experience with a modern
+design featuring both Dock and Modern Design. Its initial
+release is UbuntuDDE Remix 20.04 Focal Fossa based on Ubuntu
+22.04 LTS and will be supported by the UbuntuDDE Team and the community.
+Linux distribution based on Ubuntu with the most
+Beautiful desktop environment. 
+
+You Can Find More Stuff here About WSL - GWSL - Windows 11 - Linux
+https://github.com/vinberg88/opensuse         
+
 -------------------------------
 
-How to install Deepin Desktop on Ubuntu 22.04 - WSL
-
--------------------------------
-
-1. After install update all =]
+After install of Ubuntu pleas update all =]
 
 sudo apt update
 sudo apt upgrade
 
 -------------------------------
 
-2. Paste in terminal - all
+2. Paste in terminal - all - Remove Errors from Terminal.
 
 ln -s libcuda.so.1.1 libcuda.so.1
 ln -s libcuda.so.1.1 libcuda.so
@@ -22,7 +80,23 @@ echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
 
 -------------------------------
 
-3. Reboot and Setup GWSL and START from there.... Linux Shell
+Reboot Reboot Reboot Reboot Reboot Reboot
+
+-------------------------------
+
+Setup GWSL and START from there.... Linux Shell / Bash
+
+         " Take an extra Reboot "
+
+-------------------------------
+
+Install some fonts...
+
+sudo apt-get install ttf-mscorefonts-installer
+
+Update all after installation....
+
+sudo fc-cache -f -v
 
 -------------------------------
 
@@ -33,7 +107,29 @@ sudo apt install ./google-chrome-stable_current_amd64.deb -y
 
 -------------------------------
 
-5. Paste all in terminal
+Install Blanket if you Want! - Listen to Sounds.
+
+wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+
+-------------------------------
+
+Install some Programs for WSL - Ubuntu - Deepin.
+
+sudo apt install bash git npm wget curl nano sudo pipx dracut dbus* -y
+
+--------------------------------
+
+Install this small program.
+
+pipx install hyfetch
+pipx ensurepath
+
+Test by just reboot terminal and copy and paste in Bash: hyfetch
+
+--------------------------------
+
+5. Paste all in terminal - Timw to install DEEPIN Desktop via Ubuntu 22.04
 
 sudo add-apt-repository ppa:ubuntudde-dev/stable
 sudo apt update
@@ -49,14 +145,22 @@ git clone https://github.com/DamionGans/ubuntu-wsl2-systemd-script.git
 cd ubuntu-wsl2-systemd-script/
 bash ubuntu-wsl2-systemd-script.sh
 
+Take 3 sec and look in terminal so daemonize is installd.
+
+apt install daemonize <-- if not login as ROOT and install daemonize.
+
 -------------------------------
 
 Reboot Reboot Reboot Reboot Reboot
 
 -------------------------------
 
-Start Deepin
+Start Deepin Desktop via this line - Ubuntu bookworm/sid - DEEPIN desktop
 
 exec dbus-run-session /usr/bin/startdde
+
+-------------------------------
+
+Regards Mattias Vinberg - Deepin - Ubuntu - WSL - GWSL - Windows 11 - Linux - 2024 - SWEDEN
 
 -------------------------------
