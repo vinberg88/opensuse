@@ -4,7 +4,7 @@ You can find PARDUS latest here and unpack and run pardus.exe to install PARDUS 
 https://drive.proton.me/urls/BGEA1ZE23R#KFsMwdQBsdjh
 
 How to install GNOME via PARDUS OS - TEXT
-Comming Zone…
+https://github.com/vinberg88/opensuse/blob/main/Pardus-GNOME.txt
 
 How to install GNOME via PARDUS OS - MOVIE
 https://www.youtube.com/watch?v=ssDZWDgzhRc
