@@ -27,6 +27,61 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Pardus 23 - How to install GNOME via Pardus OS - WSL - GWSL - Windows 11 - Linux - 2024
+
+You can find PARDUS latest here and unpack and run pardus.exe to install PARDUS OS.
+
+    https://drive.proton.me/urls/BGEA1ZE23R#KFsMwdQBsdjh
+
+How to install GNOME via PARDUS OS - TEXT
+
+    https://github.com/vinberg88/opensuse/blob/main/Pardus-GNOME.txt
+
+How to install GNOME via PARDUS OS - MOVIE
+
+    https://www.youtube.com/watch?v=ssDZWDgzhRc
+
+![Pardus-GNOME](https://github.com/user-attachments/assets/edc64550-e8eb-4d42-89a8-582181028514)
+
+About Pardus OS for Freedom
+   
+    https://pardus.org.tr/en/
+
+Pardus is being developed using Open Source Debian
+GNU/Linux infrastructure. It combines stability
+and efficiency oriented corporate usage characteristics
+with speed and up-to-date oriented end user needs.
+Pardus is a open source sub-projects that meet
+institutional needs so that they can be easily
+disseminated in public institutions and organizations.
+
+About GNOME Desktop 
+
+    https://www.gnome.org
+
+An easy and elegant way to use your computer, GNOME
+is designed to help you have the best possible 
+computing experience. GNOME provides a focused working
+environment that helps you get things done. It
+is packed with features that will make you more 
+productive: a powerful search feature that helps 
+you access all your work from one place; side-by-side
+windows that make it easy to view several documents
+at the same time; seamless integration with online
+accounts which allows you to access all your data
+in one place; and a messaging system that comfortably
+deals with notifications, letting you quickly respond
+in place or return to them in a convenient 
+time. 
+
+You can find More stuff here for WSL - GWSL - Windows 11
+
+    https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - SWEDEN - Pardus OS - GNOME - WSL - Windows 11 - Linux - GWSL - 2024
+
+---------------------------------------------
+
 -- UPDATED 2024-09-13 - Ubuntu 24.04.01 AND GNOME 46 -- 
 
 Ubuntu 24.04.01 - Gnome 46 on Ubuntu 24.04 via Windows 11 install - GWSL - WSL - Linux - How to install.
