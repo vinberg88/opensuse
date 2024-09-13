@@ -79,8 +79,9 @@ Update All: sudo apt update && sudo apt upgrade
 
 Install programs:
 
-sudo apt install bash git npm wget curl pipx dracut dbus* -y
+sudo apt install ibus bash git npm wget curl pipx dracut dbus* -y
 sudo apt install gdm3* -y
+sudo apt install gdm* -y
 sudo systemctl set-default graphical
 
 ----------------------------------------------
@@ -100,6 +101,8 @@ Please Reboot Linux...
 ----------------------------------------------
 
 Config GWSL and Reboot start from there - GWSL Shell
+ 
+           " Take an extra Reboot " 
 
 ----------------------------------------------
 
@@ -136,15 +139,6 @@ sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.
 
 Then add this script to terminal
 
-export XDG_CURRENT_DESKTOP=ubuntu:GNOME
-export XDG_SESSION_DESKTOP=ubuntu
-export DESKTOP_SESSION=ubuntu
-export GNOME_SHELL_SESSION_MODE=ubuntu
-
-export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
-export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
-export XDG_MENU_PREFIX=gnome-
-
 export XDG_SESSION_TYPE=x11
 export XDG_SESSION_CLASS=user
 export GDK_BACKEND=x11
@@ -153,9 +147,21 @@ export LIBGL_ALWAYS_SOFTWARE=1
 
 ----------------------------------------------
 
-9. Please Reboot
+Please Reboot Ubuntu
 
-----------------------------------------------
+------------------------------------------------------
+
+Paste in terminal and follow instruction!
+
+git clone https://github.com/DamionGans/ubuntu-wsl2-systemd-script.git
+cd ubuntu-wsl2-systemd-script/
+bash ubuntu-wsl2-systemd-script.sh
+
+------------------------------------------------------
+
+Please Reboot Ubuntu
+
+------------------------------------------------------
 
 11. Paste in terminal: . ~/.bash_ubuntu_desktop
 Paste in terminal: dbus-launch gnome-session
