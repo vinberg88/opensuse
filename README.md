@@ -27,6 +27,62 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+LINUX MINT - How to install DEEPIN desktop via MINT - WSL - Windows 11 - GWSL - Linux - 2024
+
+Dont use latest versin of Linux Mint for Deepin. Dont Support it yet.
+
+Use This: https://github.com/sileshn/LinuxmintWSL2/releases/tag/20240102
+
+Main Page for Linux Mint WSL - https://github.com/sileshn/LinuxmintWSL2
+
+![LinuxMint-DEEPIN](https://github.com/user-attachments/assets/8c74e477-1084-4403-93d1-257d336068bf)
+
+How to install Deepin Desktop via Linux Mint and Windows 11 - WSL - TEXT
+
+    https://github.com/vinberg88/opensuse/blob/main/LinuxMint-DEEPIN.txt
+
+How to install Deepin Desktop via Linux Mint and Windows 11 - WSL - MOVIE     
+
+    https://www.youtube.com/watch?v=yIknWsSbDq8
+
+About Linux Mint - https://linuxmint.com
+
+Linux Mint is one of the most popular desktop Linux distributions
+and used by millions of people. It is one of the best alternatives
+to Microsoft Windows and Apple MacOS. Linux Mint is an operating
+system for desktop and laptop computers. It is designed to work 
+out of the box' and comes fully equipped with the apps most
+people need. Yes, Linux Mint is completely free of charge.
+Almost Everything in Linux Mint is also open-source.
+Fun, helpful and passionate is Linux Mint Wilma 22. Linux Mint
+is one of the most popular desktop Linux distributions and used
+by millions of people. Thanks to your donations and advertising
+Linux Mint is completely free of charge. We hope you'll enjoy
+using it as much as we enjoy working on it. 
+
+About UbuntuDDE - DEEPIN - https://ubuntudde.com
+
+UbuntuDDE is a Remix flavor of Ubuntu system with Deepin Desktop
+Environment (DDE) . UbuntuDDE is a linux distribution based on
+Ubuntu with the most beautiful desktop environment. UbuntuDDE
+Remix is developed and maintained by the UbuntuDDE Community.
+UbuntuDDE is a Remix of the Ubuntu system with Deepin Desktop 
+Environment (DDE) as the default desktop environment. It is
+aIt aims to have a beautiful desktop experience with a modern
+design featuring both Dock and Modern Design. Its initial
+release is UbuntuDDE Remix 20.04 Focal Fossa based on Ubuntu
+22.04 LTS and will be supported by the UbuntuDDE Team and the community.
+Linux distribution based on Ubuntu with the most
+Beautiful desktop environment. 
+
+You Can Find More Stuff here About WSL - GWSL - Windows 11 - Linux
+
+    https://github.com/vinberg88/opensuse 
+
+Regards Mattias Vinberg - Deepin - LINUX MINT - WSL - GWSL - Windows 11 - Linux - 2024 - SWEDEN
+
+---------------------------------------------
+
 LINUX MINT - How to install GNOME desktop via MINT - WSL - Windows 11 - GWSL - Linux - 2024
 
 You Cane find Linux Mint for WSL here - https://github.com/sileshn/LinuxmintWSL2
