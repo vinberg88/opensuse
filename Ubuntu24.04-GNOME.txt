@@ -133,6 +133,8 @@ sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.
 
 Time to install Gnome: sudo apt install gnome ubuntu-desktop gnome*
 
+If you get any questions, copy and paste this and press ok: http://archive.ubuntu.com/ubuntu
+
 ----------------------------------------------
 
 Copy this and paste in terminal: sudo nano ~/.bash_ubuntu_desktop
