@@ -178,6 +178,6 @@ dbus-launch gnome-session
 
 ----------------------------------------------
 
-Regards Mattias Vinberg - SwEden - GNOME - Ubuntu 24.04 - Linux - WSL - GWSL - 2024
+Regards Mattias Vinberg - SwEden - GNOME - Ubuntu 24.04.01 - Linux - WSL - GWSL - WINDOWS 11 - 2024
 
 ----------------------------------------------
