@@ -131,11 +131,11 @@ sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.
 
 ----------------------------------
 
-10. Time to install Gnome: sudo apt install gnome ubuntu-desktop gnome*
+Time to install Gnome: sudo apt install gnome ubuntu-desktop gnome*
 
 ----------------------------------------------
 
-11. Copy this and paste in terminal: sudo nano ~/.bash_ubuntu_desktop
+Copy this and paste in terminal: sudo nano ~/.bash_ubuntu_desktop
 
 Then add this script to terminal
 
@@ -163,7 +163,7 @@ Please Reboot Ubuntu
 
 ------------------------------------------------------
 
-11. Paste in terminal: . ~/.bash_ubuntu_desktop
+Paste in terminal: . ~/.bash_ubuntu_desktop
 Paste in terminal: dbus-launch gnome-session
 
 It take some time to start all in beginning... Just Wait!
