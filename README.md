@@ -27,6 +27,65 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+LINUX MINT - How to install GNOME desktop via MINT - WSL - Windows 11 - GWSL - Linux - 2024
+
+You Cane find Linux Mint for WSL here - https://github.com/sileshn/LinuxmintWSL2
+
+How to install GNOME Desktop via Linux Mint and Windows 11 - WSL - TEXT
+
+    https://github.com/vinberg88/opensuse/blob/main/LinuxMint-GNOME.txt
+
+How to install GNOME Desktop via Linux Mint and Windows 11 - WSL - MOVIE     
+
+    https://www.youtube.com/watch?v=kRoJ72hwKPQ
+
+![LinuxMint-GNOME](https://github.com/user-attachments/assets/4af9518b-9f58-49ed-963f-e09273bfded6)
+
+About Linux Mint - https://linuxmint.com
+
+Linux Mint is one of the most popular desktop Linux distributions
+and used by millions of people. It is one of the best alternatives
+to Microsoft Windows and Apple MacOS. Linux Mint is an operating
+system for desktop and laptop computers. It is designed to work 
+out of the box' and comes fully equipped with the apps most
+people need. Yes, Linux Mint is completely free of charge.
+Almost Everything in Linux Mint is also open-source.
+Fun, helpful and passionate is Linux Mint Wilma 22. Linux Mint
+is one of the most popular desktop Linux distributions and used
+by millions of people. Thanks to your donations and advertising
+Linux Mint is completely free of charge. We hope you'll enjoy
+using it as much as we enjoy working on it. 
+
+What is GNOME desktop - https://www.gnome.org
+
+An easy and elegant way to use your computer, GNOME
+is designed to help you have the best possible computing
+experience. Every part of GNOME has been designed to
+make it simple and easy to use. The Activities Overview
+is a simple way to access all your basic tasks. A press of
+a button is all it takes to view your open windows, launch
+applications, or check if you have new messages.
+Having everything in one convenient place means you don’t
+have to learn your way around a maze of different
+technologies. GNOME provides a focused working Environment
+that helps you get things done. It is packed with features
+that will make you more productive: a powerful search feature
+that helps you access all your work from one place; side-by-side
+windows that make it easy to view several documents at the same
+time; seamless integration with online accounts which allows
+you to access all your data in one place; and a messaging
+system that comfortably deals with notifications, letting
+you quickly respond in place or return to them in
+a convenient time.
+
+You Can Find More Stuff here About WSL - GWSL - Windows 11 - Linux
+        
+        https://github.com/vinberg88/opensuse
+        
+Regards Mattias Vinberg - GNOME - LINUX MINT - WSL - GWSL - Windows 11 - Linux - 2024 - SWEDEN
+
+---------------------------------------------
+
 LINUX MINT - How to install KDE PLasma on Mint via Windows 11 - WSL - WSL - Windows 11 - GWSL - Linux - 2024
 
 You Cane find Linux Mint for WSL here - https://github.com/sileshn/LinuxmintWSL2
