@@ -1,0 +1,205 @@
+LINUX MINT - How to install GNOME desktop via MINT - WSL - Windows 11 - GWSL - Linux - 2024
+
+You Cane find Linux Mint for WSL here - https://github.com/sileshn/LinuxmintWSL2
+
+
+           ...-:::::-...         
+          .-MMMMMMMMMMMMMMM-.    
+      .-MMMM`..-:::::::-..`MMMM-.           
+    .:MMMM.:MMMMMMMMMMMMMMM:.MMMM:.         
+   -MMM-M---MMMMMMMMMMMMMMMMMMM.MMM-        
+ `:MMM:MM`  :MMMM:....::-...-MMMM:MMM:`     
+ :MMM:MMM`  :MM:`  ``    ``  `:MMM:MMM:     
+.MMM.MMMM`  :MM.  -MM.  .MM-  `MMMM.MMM.    
+:MMM:MMMM`  :MM.  -MM-  .MM:  `MMMM-MMM:    
+:MMM:MMMM`  :MM.  -MM-  .MM:  `MMMM:MMM:  --  Linux Mint - Latest - GNOME - 2024
+:MMM:MMMM`  :MM.  -MM-  .MM:  `MMMM-MMM:   
+.MMM.MMMM`  :MM:--:MM:--:MM:  `MMMM.MMM.    
+ :MMM:MMM-  `-MMMMMMMMMMMM-`  -MMM-MMM:     
+  :MMM:MMM:`                `:MMM:MMM:  
+   .MMM.MMMM:--------------:MMMM.MMM. 
+     '-MMMM.-MMMMMMMMMMMMMMM-.MMMM-' 
+       '.-MMMM``--:::::--``MMMM-.'  
+            '-MMMMMMMMMMMMM-'           
+               ``-:::::-``                                         
+
+
+How to install GNOME Desktop via Linux Mint and Windows 11 - WSL - TEXT
+Comming Zone...
+
+How to install GNOME Desktop via Linux Mint and Windows 11 - WSL - MOVIE     
+https://www.youtube.com/watch?v=kRoJ72hwKPQ
+
+About Linux Mint - https://linuxmint.com
+
+Linux Mint is one of the most popular desktop Linux distributions
+and used by millions of people. It is one of the best alternatives
+to Microsoft Windows and Apple MacOS. Linux Mint is an operating
+system for desktop and laptop computers. It is designed to work 
+out of the box' and comes fully equipped with the apps most
+people need. Yes, Linux Mint is completely free of charge.
+Almost Everything in Linux Mint is also open-source.
+Fun, helpful and passionate is Linux Mint Wilma 22. Linux Mint
+is one of the most popular desktop Linux distributions and used
+by millions of people. Thanks to your donations and advertising
+Linux Mint is completely free of charge. We hope you'll enjoy
+using it as much as we enjoy working on it. 
+
+What is GNOME desktop - https://www.gnome.org
+
+An easy and elegant way to use your computer, GNOME
+is designed to help you have the best possible computing
+experience. Every part of GNOME has been designed to
+make it simple and easy to use. The Activities Overview
+is a simple way to access all your basic tasks. A press of
+a button is all it takes to view your open windows, launch
+applications, or check if you have new messages.
+Having everything in one convenient place means you don’t
+have to learn your way around a maze of different
+technologies. GNOME provides a focused working Environment
+that helps you get things done. It is packed with features
+that will make you more productive: a powerful search feature
+that helps you access all your work from one place; side-by-side
+windows that make it easy to view several documents at the same
+time; seamless integration with online accounts which allows
+you to access all your data in one place; and a messaging
+system that comfortably deals with notifications, letting
+you quickly respond in place or return to them in
+a convenient time.
+
+You Can Find More Stuff here About WSL - GWSL - Windows 11 - Linux
+https://github.com/vinberg88/opensuse               
+
+--------------------------------------------
+
+Paste in terminal
+
+sudo nano /etc/wsl.conf 
+
+and add
+
+[boot]
+systemd=true
+
+--------------------------------------------
+
+Paste all to terminal and klick enter... Remove errors..
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+--------------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot
+
+--------------------------------------------
+
+Time to update all =]
+
+sudo apt update
+sudo apt upgrade
+
+--------------------------------------------
+
+Install some programs and setup GDM for Gnome.
+
+sudo apt install dbus* bash git npm ibus wget curl nano sudo pipx dracut -y
+sudo service dbus start
+sudo apt install gdm3* -y
+sudo apt install gdm* -y
+sudo systemctl set-default graphical
+
+--------------------------------------------
+
+Reboot Linux Reboot Linux Reboot Linux Reboot Linux - LINUX MINT
+
+--------------------------------------------
+
+Setup GWSL and start from there - Always start terminal from GWSL - Please do a reboot after setup
+
+--------------------------------------------
+
+Time to install Hyfetch - Like Neofetch.
+
+pipx install hyfetch
+pipx ensurepath
+
+Restart terminal and type: hyfetch
+
+--------------------------------------------
+
+Install Google Chrome Browser
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+--------------------------------------------
+
+Install Blanket if you Want! - Listen to Sounds.
+
+wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+
+--------------------------------------------
+
+Next install Gnome Desktop for LINUX MINT - WSL
+
+Paste in terminal: sudo apt install gnome
+                   sudo apt install gnome*
+
+--------------------------------------------
+
+Paste all in terminal
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-------------------------------------
+
+-------------------------------------
+
+11. Copy this and paste in terminal: sudo nano ~/.bash_mint_desktop
+
+Then add this script to terminal
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-------------------------------------
+
+Paste all in terminal and install!
+
+git clone https://github.com/DamionGans/ubuntu-wsl2-systemd-script.git
+cd ubuntu-wsl2-systemd-script/
+bash ubuntu-wsl2-systemd-script.sh
+
+Take 3 sec and look in terminal so daemonize is installd.
+
+apt install daemonize <-- if not login as ROOT and install daemonize.
+
+-------------------------------
+
+Reboot Reboot Reboot Reboot Reboot
+
+-------------------------------------
+
+Paste in terminal: . ~/.bash_mint_desktop
+
+Time to start Gnome: gnome-session
+
+You always need to type . ~/.bash_ubuntu_desktop and then gnome-session to start gnome.
+
+-------------------------------------
+
+Regards Mattias Vinberg - GNOME - LINUX MINT - WSL - GWSL - Windows 11 - Linux - 2024 - SWEDEN
+
+--------------------------------------------
