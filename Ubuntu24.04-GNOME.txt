@@ -58,7 +58,7 @@ https://github.com/vinberg88/opensuse
 
 ----------------------------------------------
 
-2. Paste all to terminal and klick Enter.
+Paste all to terminal and klick Enter.
 
 ln -s libcuda.so.1.1 libcuda.so.1
 ln -s libcuda.so.1.1 libcuda.so
