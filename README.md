@@ -27,6 +27,52 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+-- UPDATED 2024-09-13 - Ubuntu 24.04.01 AND GNOME 46 -- 
+
+Ubuntu 24.04.01 - Gnome 46 on Ubuntu 24.04 via Windows 11 install - GWSL - WSL - Linux - How to install.
+
+Here you can find Ubuntu 24.04.01 for WSL - GWSL
+
+https://apps.microsoft.com/detail/9nz3klhxdjp5?hl=en-us&gl=US
+
+How to install Gnome 46 via Ubuntu 24.04.01 and Windows 11 - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu24.04-GNOME.txt
+
+How to install Gnome 46 via Ubuntu 24.04 and Windows 11 - MOVIE
+
+https://www.youtube.com/watch?v=cAFmNr18Yxc
+
+![Ubuntu24 04Gnome46](https://github.com/user-attachments/assets/a7486b7a-abad-401b-909a-6afe6fe2bd31)
+
+About Ubuntu 24.04.01 - https://ubuntu.com
+
+Run your choice of Linux text editors, including vim, emacs, and nano.
+Install applications, compilers and libraries from the Ubuntu 
+repository, securely maintained by Canonical. Ubuntu is a
+Linux distribution derived from Debian and composed mostly
+of free and open-source software. Ubuntu is officially
+released in multiple editions: Desktop, Server, and Core
+for Internet of things devices and robots.
+
+About Gnome 46 - https://www.gnome.org
+
+Every part of GNOME has been designed to make it simple 
+and easy to use. The Activities Overview is a simple way 
+to access all your basic tasks. A press of a button is
+all it takes to view your open windows, launch applications, or 
+check if you have new messages. Having everything in 
+one convenient place means you don’t have to learn your way 
+around a maze of different technologies. 
+
+You Can Find More Stuff here About WSL
+
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - SwEden - GNOME - Ubuntu 24.04.01 - Linux - WSL - GWSL - WINDOWS 11 - 2024
+
+---------------------------------------------
+
 LINUX MINT - How to install DEEPIN desktop via MINT - WSL - Windows 11 - GWSL - Linux - 2024
 
 Dont use latest versin of Linux Mint for Deepin. Dont Support it yet.
