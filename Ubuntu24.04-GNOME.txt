@@ -131,7 +131,7 @@ sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.
 
 ----------------------------------
 
-10. Time to install Gnome: sudo apt install ubuntu-desktop gnome*
+10. Time to install Gnome: sudo apt install gnome ubuntu-desktop gnome*
 
 ----------------------------------------------
 
