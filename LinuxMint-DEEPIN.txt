@@ -1,0 +1,217 @@
+LINUX MINT - How to install DEEPIN desktop via MINT - WSL - Windows 11 - GWSL - Linux - 2024
+
+Dont use latest versin of Linux Mint for Deepin. Dont Support it yet.
+
+Use This: https://github.com/sileshn/LinuxmintWSL2/releases/tag/20240102
+
+Main Page for Linux Mint WSL - https://github.com/sileshn/LinuxmintWSL2
+
+
+           ...-:::::-...         
+          .-MMMMMMMMMMMMMMM-.    
+      .-MMMM`..-:::::::-..`MMMM-.           
+    .:MMMM.:MMMMMMMMMMMMMMM:.MMMM:.         
+   -MMM-M---MMMMMMMMMMMMMMMMMMM.MMM-        
+ `:MMM:MM`  :MMMM:....::-...-MMMM:MMM:`     
+ :MMM:MMM`  :MM:`  ``    ``  `:MMM:MMM:     
+.MMM.MMMM`  :MM.  -MM.  .MM-  `MMMM.MMM.    
+:MMM:MMMM`  :MM.  -MM-  .MM:  `MMMM-MMM:    
+:MMM:MMMM`  :MM.  -MM-  .MM:  `MMMM:MMM:  --  Linux Mint bookworm/sid (virginia) - DEPPIN - 2024
+:MMM:MMMM`  :MM.  -MM-  .MM:  `MMMM-MMM:   
+.MMM.MMMM`  :MM:--:MM:--:MM:  `MMMM.MMM.    
+ :MMM:MMM-  `-MMMMMMMMMMMM-`  -MMM-MMM:     
+  :MMM:MMM:`                `:MMM:MMM:  
+   .MMM.MMMM:--------------:MMMM.MMM. 
+     '-MMMM.-MMMMMMMMMMMMMMM-.MMMM-' 
+       '.-MMMM``--:::::--``MMMM-.'  
+            '-MMMMMMMMMMMMM-'           
+               ``-:::::-``                                         
+
+
+How to install Deepin Desktop via Linux Mint and Windows 11 - WSL - TEXT
+Comming Zone...
+
+How to install Deepin Desktop via Linux Mint and Windows 11 - WSL - MOVIE     
+https://www.youtube.com/watch?v=yIknWsSbDq8
+
+About Linux Mint - https://linuxmint.com
+
+Linux Mint is one of the most popular desktop Linux distributions
+and used by millions of people. It is one of the best alternatives
+to Microsoft Windows and Apple MacOS. Linux Mint is an operating
+system for desktop and laptop computers. It is designed to work 
+out of the box' and comes fully equipped with the apps most
+people need. Yes, Linux Mint is completely free of charge.
+Almost Everything in Linux Mint is also open-source.
+Fun, helpful and passionate is Linux Mint Wilma 22. Linux Mint
+is one of the most popular desktop Linux distributions and used
+by millions of people. Thanks to your donations and advertising
+Linux Mint is completely free of charge. We hope you'll enjoy
+using it as much as we enjoy working on it. 
+
+About UbuntuDDE - DEEPIN - https://ubuntudde.com
+
+UbuntuDDE is a Remix flavor of Ubuntu system with Deepin Desktop
+Environment (DDE) . UbuntuDDE is a linux distribution based on
+Ubuntu with the most beautiful desktop environment. UbuntuDDE
+Remix is developed and maintained by the UbuntuDDE Community.
+UbuntuDDE is a Remix of the Ubuntu system with Deepin Desktop 
+Environment (DDE) as the default desktop environment. It is
+aIt aims to have a beautiful desktop experience with a modern
+design featuring both Dock and Modern Design. Its initial
+release is UbuntuDDE Remix 20.04 Focal Fossa based on Ubuntu
+22.04 LTS and will be supported by the UbuntuDDE Team and the community.
+Linux distribution based on Ubuntu with the most
+Beautiful desktop environment. 
+
+You Can Find More Stuff here About WSL - GWSL - Windows 11 - Linux
+https://github.com/vinberg88/opensuse               
+
+--------------------------------------------
+
+Time to update all =]
+
+sudo apt update
+sudo apt upgrade
+
+--------------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot
+
+--------------------------------------------
+
+Paste in terminal
+
+sudo nano /etc/wsl.conf 
+
+and add
+
+[boot]
+systemd=true
+
+--------------------------------------------
+
+Paste all to terminal and klick enter... Remove errors..
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+--------------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot
+
+--------------------------------------------
+
+Install some programs and setup LightDM.
+
+sudo apt install dbus* bash git npm ibus wget curl nano sudo pipx dracut -y
+sudo service dbus start
+sudo apt install gdm3* -y
+sudo apt install gdm* -y
+sudo systemctl set-default graphical
+
+--------------------------------------------
+
+Time to install Hyfetch - Like Neofetch.
+
+pipx install hyfetch
+pipx ensurepath
+
+Restart terminal and type: hyfetch
+
+--------------------------------------------
+
+Install Google Chrome Browser
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+--------------------------------------------
+
+Install Blanket if you Want! - Listen to Sounds.
+
+wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+
+--------------------------------------------
+
+Install Visual Studio Code
+
+echo "code code/add-microsoft-repo boolean true" | sudo debconf-set-selections
+
+sudo apt-get install wget gpg
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" |sudo tee /etc/apt/sources.list.d/vscode.list > /dev/null
+rm -f packages.microsoft.gpg
+
+
+Then update the package cache and install the package using:
+
+sudo apt install apt-transport-https
+sudo apt update
+sudo apt install code
+
+--------------------------------------------
+
+Reboot Linux Reboot Linux Reboot Linux Reboot Linux - LINUX MINT
+
+--------------------------------------------
+
+Setup GWSL and start from there - Always start terminal from GWSL - Please do a reboot after setup
+
+--------------------------------------------
+
+Next install Deepin Desktop for LINUX MINT - WSL
+
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:ubuntudde-dev/stable
+sudo apt update
+sudo apt install ubuntudde-dde ubuntudde-dde-extras
+
+sudo apt-get install dde*
+
+--------------------------------------------
+
+Paste in Terminal and Press enter.
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+--------------------------------------------
+
+Type this in terminal and put your user there for Linux: loginctl enable-linger user
+
+-------------------------------
+
+Paste all in terminal and wait!
+
+git clone https://github.com/DamionGans/ubuntu-wsl2-systemd-script.git
+cd ubuntu-wsl2-systemd-script/
+bash ubuntu-wsl2-systemd-script.sh
+
+Take 3 sec and look in terminal so daemonize is installd.
+
+apt install daemonize <-- if not login as ROOT and install daemonize.
+
+-------------------------------
+
+Reboot Reboot Reboot Reboot Reboot
+
+-------------------------------
+
+Start Deepin Desktop via this line - Linux Mint - DEEPIN desktop
+
+exec dbus-run-session /usr/bin/startdde
+
+-------------------------------
+
+Regards Mattias Vinberg - Deepin - LINUX MINT - WSL - GWSL - Windows 11 - Linux - 2024 - SWEDEN
+
+--------------------------------------------
