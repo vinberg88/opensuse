@@ -1,4 +1,4 @@
-UPDATETED 2024-09-13 - Ubuntu 24.04.01 AND GNOME 46
+UPDATED 2024-09-13 - Ubuntu 24.04.01 AND GNOME 46
 
 Ubuntu 24.04 - Gnome 46 on Ubuntu 24.04 via Windows 11 - GWSL - WSL - Linux - How to install.
 
