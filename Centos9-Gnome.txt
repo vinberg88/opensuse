@@ -1,34 +1,54 @@
-------------------------------------------------------
+CentOS 9 stream - How to install Gnome Desktop - GWSL - WSL - Windows 11 - Linux - 2024
 
-CentOS 9 - Gnome Desktop - GWSL - CentOS 9 Stream via Windows 11 - WSL - 2024
+You can find CentOS 9 Stream here for WSL - https://github.com/mishamosher/CentOS-WSL
 
-You cane find CentOS 9 Stream here for WSL.
-https://github.com/mishamosher/CentOS-WSL/releases/tag/9-stream-20230626
+ -- Updated Version -- How to install Gnome Desktop via WSL and Centos 9 Stream
 
-   _____           _            ___  
-  / ____|         | |          / _ \ 
- | |     ___ _ __ | |_ ___  __| (_) |
- | |    / _ \ '_ \| __/ _ \/ __\__, |
- | |___|  __/ | | | || (_) \__ \ / / 
-  \_____\___|_| |_|\__\___/|___//_/  
+                 ..                                    ..                                    ..
+               .PLTJ.                                .PLTJ.                                .PLTJ.
+              <><><><>                              <><><><>                              <><><><>
+     KKSSV' 4KKK LJ KKKL.'VSSKK            KKSSV' 4KKK LJ KKKL.'VSSKK            KKSSV' 4KKK LJ KKKL.'VSSKK
+     KKV' 4KKKKK LJ KKKKAL 'VKK            KKV' 4KKKKK LJ KKKKAL 'VKK            KKV' 4KKKKK LJ KKKKAL 'VKK
+     V' ' 'VKKKK LJ KKKKV' ' 'V            V' ' 'VKKKK LJ KKKKV' ' 'V            V' ' 'VKKKK LJ KKKKV' ' 'V
+     .4MA.' 'VKK LJ KKV' '.4Mb.            .4MA.' 'VKK LJ KKV' '.4Mb.            .4MA.' 'VKK LJ KKV' '.4Mb.
+   . KKKKKA.' 'V LJ V' '.4KKKKK .        . KKKKKA.' 'V LJ V' '.4KKKKK .        . KKKKKA.' 'V LJ V' '.4KKKKK .
+ .4D KKKKKKKA.'' LJ ''.4KKKKKKK FA.    .4D KKKKKKKA.'' LJ ''.4KKKKKKK FA.    .4D KKKKKKKA.'' LJ ''.4KKKKKKK FA.
+<QDD ++++++++++++  ++++++++++++ GFD>  <QDD ++++++++++++  ++++++++++++ GFD>  <QDD ++++++++++++  ++++++++++++ GFD>
+ 'VD KKKKKKKK'.. LJ ..'KKKKKKKK FV     'VD KKKKKKKK'.. LJ ..'KKKKKKKK FV     'VD KKKKKKKK'.. LJ ..'KKKKKKKK FV
+   ' VKKKKK'. .4 LJ K. .'KKKKKV '        ' VKKKKK'. .4 LJ K. .'KKKKKV '        ' VKKKKK'. .4 LJ K. .'KKKKKV '
+      'VK'. .4KK LJ KKA. .'KV'              'VK'. .4KK LJ KKA. .'KV'              'VK'. .4KK LJ KKA. .'KV'
+     A. . .4KKKK LJ KKKKA. . .4            A. . .4KKKK LJ KKKKA. . .4            A. . .4KKKK LJ KKKKA. . .4
+     KKA. 'KKKKK LJ KKKKK' .4KK            KKA. 'KKKKK LJ KKKKK' .4KK            KKA. 'KKKKK LJ KKKKK' .4KK
+     KKSSA. VKKK LJ KKKV .4SSKK            KKSSA. VKKK LJ KKKV .4SSKK            KKSSA. VKKK LJ KKKV .4SSKK
+              <><><><>                              <><><><>                              <><><><>
+               'MKKM'                                'MKKM'                                'MKKM'
+                 ''                                    ''                                    ''
                                      
                                  
-How to install Gnome via CentOS 9 - TEXT
-https://github.com/vinberg88/opensuse/edit/main/Centos9-Gnome.txt
+How to install Gnome desktop via CentOS 9 - WSL - TEXT
+https://github.com/vinberg88/opensuse/blob/main/Centos-GNOME.txt
 
-MOVIE - How to install Gnome via CentOS 9
-https://www.youtube.com/watch?v=u7eiJso8ydo
+How to install Gnome desktop via CentOS 9 - WSL - MOVIE
+https://www.youtube.com/watch?v=lZ7JKe2TPUI
 
-What is Centos 9 Stream..
+What is Centos 9 Stream - https://www.centos.org
 
 Continuously delivered distro that tracks just ahead
 of Red Hat Enterprise Linux (RHEL) development, positioned
 as a midstream between Fedora Linux and RHEL. 
 For anyone interested in participating and collaborating 
 in the RHEL ecosystem, CentOS Stream is your reliable
-platform for innovation. https://www.centos.org
+platform for innovation. The CentOS Project is a 
+community-driven free software effort focused around
+the goal of providing a rich base platform for open 
+source communities to build upon. We will provide a 
+development framework for cloud providers, the hosting
+community, and scientific data processing, as a few examples.
+We work with several ‘upstream’ communities to help them
+layer and distribute their software more effectively on
+a platform they can rely on. Centos 9 Stream Works!
 
-What is Gnome Desktop..
+What is Gnome Desktop - https://www.gnome.org
 
 Every part of GNOME has been designed to make it simple
 and easy to use. The Activities Overview is a simple
@@ -36,8 +56,10 @@ way to access all your basic tasks. A press of a
 button is all it takes to view your open windows, launch
 applications, or check if you have new messages. Having
 everything in one convenient place means you don’t
-have to learn your way around a maze of different technologies.
-https://www.gnome.org
+have to learn your way around a maze of different
+technologies. An easy and elegant way to use your 
+computer, GNOME is designed to help you have the best 
+possible computing experience 2024.
 
 You can finde more Stuff here About WSL.
 https://github.com/vinberg88/opensuse
@@ -46,18 +68,38 @@ https://github.com/vinberg88/opensuse
 
 Install Nano..
 
-0. sudo dnf install nano
+sudo dnf install nano
 
 ------------------------------------------------------
 
-1. Paste in terminal: sudo nano /etc/wsl.conf
+Install fastmirrors or repos for Centos 9 Stream
+
+Run this first
+
+sudo dnf check-update
+sudo dnf install dnf-utils
+
+Then do this..
+
+sudo nano /etc/dnf/dnf.conf
+
+Add the following line: max_parallel_downloads=10 and fastestmirror=True
+
+Like That..
+
+max_parallel_downloads=10
+fastestmirror=True
+
+------------------------------------------------------
+
+Paste in terminal: sudo nano /etc/wsl.conf
 
 [boot]
 systemd=true
 
 ------------------------------------------------------
 
-2. Paste all in terminal and problem whit symbolic erros will be fixed.
+Paste all in terminal and problem whit symbolic erros will be fixed.
 
 ln -s libcuda.so.1.1 libcuda.so.1
 ln -s libcuda.so.1.1 libcuda.so
@@ -68,32 +110,33 @@ echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
 
 ------------------------------------------------------
 
-3. Reboot and Update: sudo dnf update
+Centos 9 - Reboot Reboot Reboot - Centos 9 Stream.
 
-------------------------------------------------------
+----------------------------------------------------
 
-4. Paste all in terminal...
+Paste all in terminal... Extra Repos
 
 sudo dnf config-manager --set-enabled crb
 sudo dnf install epel-release epel-next-release
-
-After run update: sudo /usr/bin/crb enable
-
-------------------------------------------------------
-
-5. sudo dnf upgrade --refresh
+sudo /usr/bin/crb enable
 
 ------------------------------------------------------
 
-6. sudo dnf install git wget curl bash pipx sudo dracut net-tools dbus-x11
+Update all.
+
+sudo dnf upgrade --refresh
+
+------------------------------------------------------
+
+Install extra programs for Centos 9 - Gnome Desktop
+
+sudo dnf install git wget curl bash pipx dracut net-tools dbus-x11 dbus*
 
 ------------------------------------------------------
 
 Time to install Gnome Desktop on Centos 9...
 
 sudo dnf install -y systemd procps bind-utils iproute iputils nmap-ncat
-
-yum group list
 
 sudo yum groupinstall "Server with GUI"
 
@@ -109,104 +152,55 @@ sudo dnf install gnome* --skip-broken --nobest
 
 ------------------------------------------------------
 
-7.5 Install Google-Chrome - paste all under this paragraph:
+Install Google-Chrome - paste all under this paragraph:
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
 sudo yum install ./google-chrome-stable_current_*.rpm
 sudo yum update google-chrome-stable
 
-------------------------------------------------------
+-----------------------------------
 
-Login as Root and paste this in terminal change malle to your user-name not root....
+Install Hyfetch - like Neofetch but more FUN =)
 
-mkdir -p /etc/polkit-1/localauthority/50-local.d/
-cat >/etc/polkit-1/localauthority/50-local.d/color.pkla <<'EOF'
-[Allow colord for all users]
-Identity=unix-user:*
-Action=org.freedesktop.color-manager.create-device;org.freedesktop.color-manager.create-profile;org.freedesktop.color-
-manager.delete-device;org.freedesktop.color-manager.delete-profile;org.freedesktop.color-
-manager.modify-device; org.freedesktop.color-manager.org.freedesktop.color-manager.modify-profile
-ResultAny=yes
-ResultInactive=yes
-ResultActive=yes
-EOF
+pipx install hyfetch
+pipx ensurepath
 
-systemctl set-default multi-user.target
-mkdir -p /etc/systemd/system/ModemManager.service.d
-echo -e "[Unit]\nConditionVirtualization=\n" > /etc/systemd/system/ModemManager.service.d/override.conf
-mkdir -p /etc/systemd/system/fwupd.service.d
-echo -e "[Unit]\nConditionVirtualization=\n" > /etc/systemd/system/fwupd.service.d/override.conf
-echo -e "[Install]\nWantedBy=multi-user.target\n" >> /etc/systemd/system/fwupd.service.d/override.conf
+Put this in terminal to Test after Quick restart of terminal: hyfetch
 
-systemctl enable ModemManager.service
-systemctl enable fwupd.service
+-----------------------------------
 
-usermod -a -G wheel malle
-usermod -a -G rtkit malle
-usermod -a -G pipewire malle
-
-mkdir -p /home/malle/.config/systemd/user/default.target.wants
-ln -s /usr/lib/systemd/user/pipewire.service /home/malle/.config/systemd/user/default.target.wants/pipewire.service
-
-mkdir -p /home/malle/.config/systemd/user/sockets.target.wants
-ln -s /usr/lib/systemd/user/pipewire.socket /home/malle/.config/systemd/user/sockets.target.wants/pipewire.socket
-
-systemctl enable rtkit-daemon.service
-
-mkdir -p /etc/security/limits.d
-echo -e "@pipewire - rtprio 95\n@pipewire - nice -19\n" > /etc/security/limits.d/95-pipewire.conf
-
-echo "/bin/mount -o remount,rw /tmp/.X11-unix" >> /etc/rc.d/rc.local
-chmod 700 /etc/rc.d/rc.local
-
-mkdir -p /home/malle/bin
-
-cat >/home/malle/bin/start-gnome <<'EOF'
-#!/bin/bash
-
-nohup Xwayland -br -ac :1 >/dev/null 2>&1 &
-env DISPLAY=:1 WAYLAND_DISPLAY= XDG_SESSION_TYPE=x11 gnome-session --disable-acceleration-check
-pkill -9 Xwayland >/dev/null 2>&1
-EOF
-
-chown -R malle:malle /home/malle
-chmod +x /home/malle/bin/start-gnome
-
-------------------------------------------------------
-
-8. Log ut as root and Reboot Reboot Reboot Reboot Reboot CENTOS 9 Stream
+Centos 9 - Reboot Reboot Reboot Reboot - Centos 9
 
 -------------------------------------------------------------
 
-11.5 Login with GWSL and Config all. Then start Linux-shell from GWSL....
+Setup GWSL and Config all. Then start Linux-shell from GWSL....
+
+           " Take an extra Reboot"
 
 -------------------------------------------------------------
 
-12. Paste all in terminal: 
+Paste all in terminal: 
 
 xdg-user-dirs-update
-sudo systemctl set-default multi-user.target
 sudo systemctl set-default graphical.target
 sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
 
 -------------------------------------------------------------
 
-16. Type this in terminal and put your user-name there: loginctl enable-linger user
+Type this in terminal and put your user-name there: sudo loginctl enable-linger USER
 
--------------------------------------------------------------
+----------------------------------------------------------------
 
-17. In terminal type: sudo nano ~/.bash_Centos_desktop
+Paste this one time in Console
+
+sudo mkdir /run/user/1000 && sudo chmod 700 /run/user/1000 && sudo chown $(whoami): /run/user/1000
+sudo systemctl set-default multi-user.target
+
+----------------------------------------------------------------
+
+In terminal type: sudo nano ~/.bash_Centos_desktop
 
 Paste this small script in terminal and save and quit nano.
-
-export XDG_CURRENT_DESKTOP=ubuntu:GNOME
-export XDG_SESSION_DESKTOP=ubuntu
-export DESKTOP_SESSION=ubuntu
-export GNOME_SHELL_SESSION_MODE=ubuntu
-
-export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
-export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
-export XDG_MENU_PREFIX=gnome-
 
 export XDG_SESSION_TYPE=x11
 export XDG_SESSION_CLASS=user
@@ -216,18 +210,26 @@ export LIBGL_ALWAYS_SOFTWARE=1
 
 -------------------------------------------
 
-18. Reboot and start from GWSL - SHELL
+Reboot Reboot Reboot - Centos 9 and start from GWSL Shell.
 
 -------------------------------------------
 
-19. Paste in terminal: . ~/.bash_Centos_desktop
+Paste in terminal: . ~/.bash_Centos_desktop
     
-Type in terminal: gnome-session
+Copy and paste This: xhost +
+
+Copy and paste This: dbus-launch gnome-session
 
 -------------------------------------------
 
-It takes a little time to start at the beginning so leave it for a minute if nothing happens.
+Regards Mattias Vinberg - Sweden - Centos 9 Stream - Gnome - WSL - Windows 11 - Linux - GWSL - 2024
 
-Warm Regards,
-Mattias Vinberg
+-------------------------------------------
 
+Linux® is the registered trademark of Linus Torvalds in the U.S. and
+other countries. Red Hat Enterprise Linux, RHEL and CentOS are trademarks
+or registered trademarks of Red Hat, Inc. or its subsidiaries in the US
+and other countries. We are not affiliated with, endorsed by or
+sponsored by Red Hat, Inc.
+
+-------------------------------------------
