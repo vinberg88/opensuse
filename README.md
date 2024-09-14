@@ -27,6 +27,58 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Pardus 23 - How to install KDE plasma via Pardus OS - WSL - GWSL - Windows 11 - Linux - 2024
+
+You can find PARDUS latest here and unpack and run pardus.exe to install PARDUS OS.
+
+    https://drive.proton.me/urls/BGEA1ZE23R#KFsMwdQBsdjh
+
+How to install KDE Plasma via PARDUS OS - TEXT
+
+    https://github.com/vinberg88/opensuse/blob/main/Pardus-KDE.txt
+
+How to install KDE Plasma via PARDUS OS - MOVIE
+
+    https://www.youtube.com/watch?v=ymIEUjYnDco
+
+![Pardus-KDE](https://github.com/user-attachments/assets/3429ba9e-27e9-4025-9570-1243ae815f50)
+
+About Pardus OS for Freedom - https://pardus.org.tr/en/
+
+Pardus is being developed using Open Source Debian
+GNU/Linux infrastructure. It combines stability
+and efficiency oriented corporate usage characteristics
+with speed and up-to-date oriented end user needs.
+Pardus is a open source sub-projects that meet
+institutional needs so that they can be easily
+disseminated in public institutions and organizations.
+
+About KDE - The next generation desktop for Linux - https://kde.org
+
+Use Plasma to surf the web; keep in touch with 
+colleagues, friends and family; manage your files, enjoy
+music and videos; and get creative and productive at work.
+Do it all in a beautiful environment that adapts to 
+your needs, and with the safety, privacy-protection
+and peace of mind that the best Free Open Source
+Software has to offer. The Plasma Launcher lets you quickly
+and easily launch applications, but it can do much 
+more -- convenient tasks like bookmarking applications, searching
+for documents as you type, or navigating to common places
+help you get straight to the point. With a history of
+recently started programs and opened files, you can return
+to where you left off. It even remembers previously
+entered search terms so you don't have to - https://kde.org
+
+
+You can find More stuff here for WSL - GWSL - Windows 11
+
+    https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - SWEDEN - Pardus OS - KDE plasma - WSL - Windows 11 - Linux - GWSL - 2024
+
+---------------------------------------------
+
 Pardus 23 - How to install GNOME via Pardus OS - WSL - GWSL - Windows 11 - Linux - 2024
 
 You can find PARDUS latest here and unpack and run pardus.exe to install PARDUS OS.
