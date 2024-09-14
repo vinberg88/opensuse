@@ -24,7 +24,23 @@ sudo mkdir /usr/lib/wsl/lib2
 sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
 echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
 
------------------------------------------------------------
+
+-------------------------------------------------------------
+
+1.2 Add this terminal: sudo nano /etc/pacman.conf
+
+And change this...
+
+# Misc options
+#UseSyslog
+Color
+ILoveCandy
+#NoProgressBar
+##CheckSpace
+VerbosePkgLists
+ParallelDownloads = 15
+
+-------------------------------------------------------------
 
 1.5: Reboot and update: sudo pacman -Syu
 
