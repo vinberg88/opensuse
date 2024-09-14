@@ -1,0 +1,299 @@
+Pardus 23 - How to install KDE plasma via Pardus OS - WSL - GWSL - Windows 11 - Linux - 2024
+
+You can find PARDUS latest here and unpack and run pardus.exe to install PARDUS OS.
+https://drive.proton.me/urls/BGEA1ZE23R#KFsMwdQBsdjh
+
+How to install KDE Plasma via PARDUS OS - TEXT
+Comming Zone…
+
+How to install KDE Plasma via PARDUS OS - MOVIE
+https://www.youtube.com/watch?v=ymIEUjYnDco
+
+
+ .smNdy+-    `.:/osyyso+:.`    -+ydmNs.    .smNdy+-    `.:/osyyso+:.`    -+ydmNs.
+/Md- -/ymMdmNNdhso/::/oshdNNmdMmy/. :dM/  /Md- -/ymMdmNNdhso/::/oshdNNmdMmy/. :dM/
+mN.     oMdyy- -y          `-dMo     .Nm  mN.     oMdyy- -y          `-dMo     .Nm
+.mN+`  sMy hN+ -:             yMs  `+Nm.  .mN+`  sMy hN+ -:             yMs  `+Nm.
+ `yMMddMs.dy `+`               sMddMMy`    `yMMddMs.dy `+`               sMddMMy`
+   +MMMo  .`  .                 oMMM+        +MMMo  .`  .                 oMMM+
+   `NM/    `````.`    `.`````    +MN`        `NM/    `````.`    `.`````    +MN`
+   yM+   `.-:yhomy    ymohy:-.`   +My        yM+   `.-:yhomy    ymohy:-.`   +My
+   yM:          yo    oy          :My        yM:          yo    oy          :My
+   +Ms         .N`    `N.      +h sM+        +Ms         .N`    `N.      +h sM+
+   `MN      -   -::::::-   : :o:+`NM`        `MN      -   -::::::-   : :o:+`NM`
+    yM/    sh   -dMMMMd-   ho  +y+My          yM/    sh   -dMMMMd-   ho  +y+My
+    .dNhsohMh-//: /mm/ ://-yMyoshNd`          .dNhsohMh-//: /mm/ ://-yMyoshNd`
+      `-ommNMm+:/. oo ./:+mMNmmo:`              `-ommNMm+:/. oo ./:+mMNmmo:`
+     `/o+.-somNh- :yy: -hNmos-.+o/`            `/o+.-somNh- :yy: -hNmos-.+o/`
+    ./` .s/`s+sMdd+``+ddMs+s`/s. `/.          ./` .s/`s+sMdd+``+ddMs+s`/s. `/.
+        : -y.  -hNmddmNy.  .y- :                  : -y.  -hNmddmNy.  .y- :
+         -+       `..`       +-                    -+       `..`       +-
+
+
+About Pardus OS for Freedom - https://www.pardus.org.tr
+
+Pardus is being developed using Open Source Debian
+GNU/Linux infrastructure. It combines stability
+and efficiency oriented corporate usage characteristics
+with speed and up-to-date oriented end user needs.
+Pardus is a open source sub-projects that meet
+institutional needs so that they can be easily
+disseminated in public institutions and organizations.
+
+About KDE - The next generation desktop for Linux
+
+Use Plasma to surf the web; keep in touch with 
+colleagues, friends and family; manage your files, enjoy
+music and videos; and get creative and productive at work.
+Do it all in a beautiful environment that adapts to 
+your needs, and with the safety, privacy-protection
+and peace of mind that the best Free Open Source
+Software has to offer. The Plasma Launcher lets you quickly
+and easily launch applications, but it can do much 
+more -- convenient tasks like bookmarking applications, searching
+for documents as you type, or navigating to common places
+help you get straight to the point. With a history of
+recently started programs and opened files, you can return
+to where you left off. It even remembers previously
+entered search terms so you don't have to - https://kde.org
+
+
+You can find More stuff here for WSL - GWSL - Windows 11
+https://github.com/vinberg88/opensuse
+
+-----------------------------------------
+
+Login as root and do follow..
+
+apt update
+apt upgrade
+apt install sudo nano wget curl git bash systemd libterm-readline-perl-perl make libtap-harness-archive-perl
+systemd-container systemd-userdbd systemd-boot systemd-resolved libqrencode4 libtss2-esys-3.0.2-0 libtss2-mu0 polkitd
+
+-----------------------------------------
+
+Reboot - Reboot - Reboot - Reboot
+
+-----------------------------------------
+
+Logout and back in as normal user
+
+-----------------------------------------
+
+Open /etc/default/locale with sudo Change contents with this lines
+
+sudo nano /etc/default/locale
+
+LC_CTYPE="en_US.UTF-8"
+LC_ALL="en_US.UTF-8"
+LANG="en_US.UTF-8"
+
+and use this command later
+
+sudo apt install locales
+
+sudo dpkg-reconfigure locales
+
+Number to type is 97 - English and use 3 to use en_US.UTF-8 last option.
+
+-----------------------------------------
+
+Change Repos / Mirrors. It will go faster.... You can change it back later.
+
+sudo nano /etc/apt/sources.list
+
+and add this top line of code….
+
+deb http://deb.debian.org/debian bookworm main contrib non-free non-free-firmware
+deb-src http://deb.debian.org/debian bookworm main contrib non-free non-free-firmware
+deb http://deb.debian.org/debian-security/ bookworm-security main contrib non-free non-free-firmware
+deb-src http://deb.debian.org/debian-security/ bookworm-security main contrib non-free non-free-firmware
+deb http://deb.debian.org/debian bookworm-updates main contrib non-free non-free-firmware
+deb-src http://deb.debian.org/debian bookworm-updates main contrib non-free non-free-firmware
+
+## Pardus
+deb http://depo.pardus.org.tr/pardus yirmiuc main contrib non-free non-free-firmware
+deb-src http://depo.pardus.org.tr/pardus yirmiuc main contrib non-free non-free-firmware
+
+## Pardus Deb
+deb http://depo.pardus.org.tr/pardus yirmiuc-deb main contrib non-free non-free-firmware
+deb-src http://depo.pardus.org.tr/pardus yirmiuc-deb main contrib non-free non-free-firmware
+
+## Pardus Security Deb
+deb http://depo.pardus.org.tr/guvenlik yirmiuc-deb main contrib non-free non-free-firmware
+deb-src http://depo.pardus.org.tr/guvenlik yirmiuc-deb main contrib non-free non-free-firmware
+
+-----------------------------------------
+
+Time to Update all
+
+sudo apt update
+sudo apt full-upgrade
+
+-----------------------------------------
+
+Remove Errors - you dont need to do this…...
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+-----------------------------------------
+
+Reboot - Reboot - Reboot - Reboot
+
+-----------------------------------------
+
+Install KDE plasma for Pardus OS
+
+sudo apt install task-kde-desktop
+
+-----------------------------------------
+
+Extra to install - Better this way.
+
+sudo apt install bash git npm wget curl pipx dbus* -y
+sudo apt install sddm* -y
+sudo systemctl set-default graphical
+
+-----------------------------------------
+
+Change back Repos / Mirrors to this
+
+Type in terminal: sudo nano /etc/apt/sources.list
+
+## Pardus
+deb http://depo.pardus.org.tr/pardus yirmiuc main contrib non-free non-free-firmware
+deb-src http://depo.pardus.org.tr/pardus yirmiuc main contrib non-free non-free-firmware
+
+## Pardus Deb
+deb http://depo.pardus.org.tr/pardus yirmiuc-deb main contrib non-free non-free-firmware
+deb-src http://depo.pardus.org.tr/pardus yirmiuc-deb main contrib non-free non-free-firmware
+
+## Pardus Security Deb
+deb http://depo.pardus.org.tr/guvenlik yirmiuc-deb main contrib non-free non-free-firmware
+deb-src http://depo.pardus.org.tr/guvenlik yirmiuc-deb main contrib non-free non-free-firmware
+
+-----------------------------------------
+
+Update for the best use of Pardus - 2024
+
+sudo apt update
+sudo apt full-upgrade
+
+-----------------------------------------
+
+Install this program to my friend.
+
+pipx install hyfetch
+pipx ensurepath
+
+To test just restart Bash and Type: hyfetch
+
+Like Noefetch but more GAY =]
+
+--------------------------------------------
+
+Install Visual Studio Code
+
+wget https://vscode.download.prss.microsoft.com/dbazure/download/stable/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/code_1.93.1-1726079302_amd64.deb
+sudo apt install ./code_1.93.1-1726079302_amd64.deb
+
+--------------------------------------------
+
+install Chrome Browser
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+--------------------------------------------
+
+Install Blanket =] Listen to diffrent sounds.
+
+wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+
+--------------------------------------------
+
+EXTRA - install this to if you want =]
+
+About Pardus
+
+wget https://github.com/pardus/pardus-about/releases/download/debian%2F0.5.3/pardus-about_0.5.3_all.deb
+sudo apt install ./pardus-about_0.5.3_all.deb
+
+Welcome Pardus
+
+wget https://github.com/pardus/pardus-welcome/releases/download/debian%2F0.3.2/pardus-welcome_0.3.2_all.deb
+sudo apt install ./pardus-welcome_0.3.2_all.deb
+
+Pardus My Computer
+
+wget https://github.com/pardus/pardus-mycomputer/releases/download/debian%2F0.6.1/pardus-mycomputer_0.6.1_all.deb
+sudo apt install ./pardus-mycomputer_0.6.1_all.deb
+
+Pardus Shop
+
+wget https://github.com/pardus/pardus-software/releases/download/debian%2F0.8.0/pardus-software_0.8.0_all.deb
+sudo apt install ./pardus-software_0.8.0_all.deb
+
+--------------------------------------------
+
+Reboot Linux... Reboot Linux... Reboot Linux... Pardus
+
+--------------------------------------------
+
+Config GWSL and start from there - Linux Shell - take an extra reboot!
+
+Always start Shell / Terminal / Bash / Console from GWSL
+
+--------------------------------------------
+
+Paste in terminal: 
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+--------------------------------------------
+
+Copy this and paste in terminal: sudo nano ~/.bash_pardus_desktop
+
+Then add this script to terminal / Bash
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-----------------------------------------
+
+Install systemd - You must =]
+
+sudo nano /etc/wsl.conf
+
+[boot]
+systemd=true
+
+-----------------------------------------
+
+Reboot... Reboot... Reboot... Reboot…
+
+Always start Shell / terminal / Bash / Console from GWSL
+
+--------------------------------------------
+
+Paste in terminal: . ~/.bash_pardus_desktop
+
+Type in terminal and start kde plasma: dbus-launch startplasma-x11
+
+--------------------------------------------
+
+Regards Mattias Vinberg - SWEDEN - Pardus OS - KDE plasma - WSL - Windows 11 - Linux - GWSL - 2024
+
+--------------------------------------------
