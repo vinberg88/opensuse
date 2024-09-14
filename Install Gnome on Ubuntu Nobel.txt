@@ -1,15 +1,65 @@
-Install Gnome on Ubuntu Nobel via Windows 11 - How to install.
+UPDATED 2024-09-13 - Ubuntu 24.04.01 AND GNOME 46
 
-1. Paste in terminal
+Ubuntu 24.04 - Gnome 46 on Ubuntu 24.04 via Windows 11 - GWSL - WSL - Linux - How to install.
 
-sudo nano /etc/wsl.conf 
+Here you can find Ubuntu 24.04 for WSL - GWSL
+https://apps.microsoft.com/detail/9nz3klhxdjp5?hl=en-us&gl=US
 
-and add
+How to install Gnome 46 via Ubuntu 24.04 and Windows 11 - TEXT
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu24.04-GNOME.txt
 
-[boot]
-systemd=true
+How to install Gnome 46 via Ubuntu 24.04 and Windows 11 - MOVIE
+https://www.youtube.com/watch?v=cAFmNr18Yxc
 
-2. Paste all to terminal and klick enter...
+                             ....                                         ....
+              .',:clooo:  .:looooo:.                       .',:clooo:  .:looooo:.
+           .;looooooooc  .oooooooooo'                   .;looooooooc  .oooooooooo'
+        .;looooool:,''.  :ooooooooooc                .;looooool:,''.  :ooooooooooc
+       ;looool;.         'oooooooooo,               ;looool;.         'oooooooooo,
+      ;clool'             .cooooooc.  ,,           ;clool'             .cooooooc.  ,,
+         ...                ......  .:oo,             ...                ......  .:oo,
+  .;clol:,.                        .loooo'     .;clol:,.                        .loooo'
+ :ooooooooo,                        'ooool    :ooooooooo,                        'ooool
+'ooooooooooo.                        loooo.  'ooooooooooo.                        loooo.
+'ooooooooool                         coooo.  'ooooooooool                         coooo.
+ ,loooooooc.                        .loooo.   ,loooooooc.                        .loooo.
+   .,;;;'.                          ;ooooc      .,;;;'.                          ;ooooc
+       ...                         ,ooool.          ...                         ,ooool.
+    .cooooc.              ..',,'.  .cooo.        .cooooc.              ..',,'.  .cooo.
+      ;ooooo:.           ;oooooooc.  :l.           ;ooooo:.           ;oooooooc.  :l.
+       .coooooc,..      coooooooooo.                .coooooc,..      coooooooooo.
+         .:ooooooolc:. .ooooooooooo'                  .:ooooooolc:. .ooooooooooo'
+           .':loooooo;  ,oooooooooc                     .':loooooo;  ,oooooooooc
+               ..';::c'  .;loooo:'                          ..';::c'  .;loooo:'
+                             .                                            .
+
+
+About Ubuntu 24.04 - https://ubuntu.com/desktop/wsl
+
+Run your choice of Linux text editors, including vim, emacs, and nano.
+Install applications, compilers and libraries from the Ubuntu 
+repository, securely maintained by Canonical. Ubuntu is a
+Linux distribution derived from Debian and composed mostly
+of free and open-source software. Ubuntu is officially
+released in multiple editions: Desktop, Server, and Core
+for Internet of things devices and robots.
+
+About Gnome 46 - https://www.gnome.org
+
+Every part of GNOME has been designed to make it simple 
+and easy to use. The Activities Overview is a simple way 
+to access all your basic tasks. A press of a button is
+all it takes to view your open windows, launch applications, or 
+check if you have new messages. Having everything in 
+one convenient place means you don’t have to learn your way 
+around a maze of different technologies. 
+
+You Can Find More Stuff here About WSL
+https://github.com/vinberg88/opensuse
+
+----------------------------------------------
+
+Paste all to terminal and klick Enter.
 
 ln -s libcuda.so.1.1 libcuda.so.1
 ln -s libcuda.so.1.1 libcuda.so
@@ -18,86 +68,116 @@ sudo mkdir /usr/lib/wsl/lib2
 sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
 echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
 
-3. Reboot
+----------------------------------------------
 
-4. Update: sudo apt update && sudo apt upgrade
+Please Reboot Reboot Reboot Ubuntu
 
-5. Install programs:
+----------------------------------------------
 
-sudo apt install bash git wget curl nano sudo -y
+Update All: sudo apt update && sudo apt upgrade
+
+----------------------------------------------
+
+Install programs:
+
+sudo apt install ibus bash git npm wget curl pipx dracut dbus* -y
 sudo apt install gdm3* -y
 sudo apt install gdm* -y
 sudo systemctl set-default graphical
 
-6. Install this small program..
+----------------------------------------------
 
-wget https://github.com/fastfetch-cli/fastfetch/releases/download/2.1.2/fastfetch-2.1.2-Linux.deb
-sudo apt install ./fastfetch-2.1.2-Linux.deb
+Install this small program for hyfetch.
 
-6.3: Paste This in terminal: 
+sudo apt install hyfetch
 
-sudo ln -s /dev/null /etc/systemd/system/acpid.service
-sudo ln -s /dev/null /etc/systemd/system/acpid.path
+To test type: hyfetch
 
-6.4 install Chrome
+Like Noefetch but more gay =]
+
+----------------------------------------------
+
+Please Reboot Linux...
+
+----------------------------------------------
+
+Config GWSL and Reboot start from there - GWSL Shell
+ 
+           " Take an extra Reboot " 
+
+----------------------------------------------
+
+Paste in Terminal: 
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+
+----------------------------------------------
+
+Install FireFox before Gnome. Faster install. Gnome will take alot of time....
+
+sudo snap install firefox
+
+----------------------------------
+
+Install Chrome if you want...
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb -y
 
-6.5: Reboot Linux...
+Install blanket - Sounds
 
-7. Config GWSL and start from there - Linux Shell
+wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
 
-10. Time to install Gnome: sudo apt install ubuntu-desktop gnome*
+----------------------------------
 
-11. Paste in terminal: xdg-user-dirs-update
+Time to install Gnome: sudo apt install gnome ubuntu-desktop gnome*
 
-12. Paste in terminal: sudo systemctl set-default multi-user.target
+If you get any questions, copy and paste this and press ok: http://archive.ubuntu.com/ubuntu
 
-13. Paste in terminal: sudo systemctl set-default graphical.target
+----------------------------------------------
 
-14. Paste in terminal : sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
-
-16. Type this in terminal and put your user there - loginctl enable-linger user
-
-11. Copy this and paste in terminal: sudo nano ~/.bash_ubuntu_desktop
+Copy this and paste in terminal: sudo nano ~/.bash_ubuntu_desktop
 
 Then add this script to terminal
-
-# Fyren - Vinberg - 2023 - SS script!
-# --------------------
-# Setting up essential environment variables for Ubuntu desktop
-# --------------------
-
-# Ubuntu default desktop (GNOME Shell variant)
-# https://wiki.gnome.org/Projects/GnomeShell
-
-export XDG_CURRENT_DESKTOP=ubuntu:GNOME
-export XDG_SESSION_DESKTOP=ubuntu
-export DESKTOP_SESSION=ubuntu
-export GNOME_SHELL_SESSION_MODE=ubuntu
-
-# Commonly referenced environment variables for X11 sessions
-# https://specifications.freedesktop.org/basedir-spec/latest/
-
-export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
-export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
-export XDG_MENU_PREFIX=gnome-
 
 export XDG_SESSION_TYPE=x11
 export XDG_SESSION_CLASS=user
 export GDK_BACKEND=x11
 
-# Disables using Direct3D in Mesa 3D graphics library
 export LIBGL_ALWAYS_SOFTWARE=1
 
-10.5. Reboot...
+----------------------------------------------
 
-11. Paste in terminal: . ~/.bash_ubuntu_desktop
+Please Reboot Ubuntu
 
-12. Type in terminal: dbus-launch gnome-session
+------------------------------------------------------
 
-After install do this in ubuntu terminal: sudo apt purge modemmanager <-- windows not supporting...
+Paste in terminal and follow instruction!
 
-Warm Regards, 
-Mattias Vinberg
+git clone https://github.com/DamionGans/ubuntu-wsl2-systemd-script.git
+cd ubuntu-wsl2-systemd-script/
+bash ubuntu-wsl2-systemd-script.sh
+
+------------------------------------------------------
+
+Please Reboot Ubuntu
+
+------------------------------------------------------
+
+Paste in terminal: . ~/.bash_ubuntu_desktop
+Paste in terminal: dbus-launch gnome-session
+
+It take some time to start all in beginning... Just Wait!
+
+Always start Gnome like this...
+
+. ~/.bash_ubuntu_desktop
+dbus-launch gnome-session
+
+----------------------------------------------
+
+Regards Mattias Vinberg - SwEden - GNOME - Ubuntu 24.04.01 - Linux - WSL - GWSL - WINDOWS 11 - 2024
+
+----------------------------------------------
