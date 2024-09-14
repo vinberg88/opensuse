@@ -26,7 +26,7 @@ You can find CentOS 9 Stream here for WSL - https://github.com/mishamosher/CentO
                                      
                                  
 How to install Gnome desktop via CentOS 9 - WSL - TEXT
-Comming Zone…
+https://github.com/vinberg88/opensuse/blob/main/Centos-GNOME.txt
 
 How to install Gnome desktop via CentOS 9 - WSL - MOVIE
 https://www.youtube.com/watch?v=lZ7JKe2TPUI
