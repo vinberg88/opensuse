@@ -36,9 +36,11 @@ You can find CentOS 9 Stream here for WSL - https://github.com/mishamosher/CentO
 ![Centos-GNOME](https://github.com/user-attachments/assets/3654f6b8-e4cb-49cb-81d0-f79c40b0ba31)
 
 How to install Gnome desktop via CentOS 9 - WSL - TEXT
+
 https://github.com/vinberg88/opensuse/blob/main/Centos-GNOME.txt
 
 How to install Gnome desktop via CentOS 9 - WSL - MOVIE
+
 https://www.youtube.com/watch?v=lZ7JKe2TPUI
 
 What is Centos 9 Stream - https://www.centos.org
@@ -72,6 +74,7 @@ computer, GNOME is designed to help you have the best
 possible computing experience 2024.
 
 You can finde more Stuff here About WSL.
+
 https://github.com/vinberg88/opensuse
 
 Regards Mattias Vinberg - Sweden - Centos 9 Stream - Gnome - WSL - Windows 11 - Linux - GWSL - 2024
