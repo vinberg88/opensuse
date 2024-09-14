@@ -27,6 +27,66 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+CentOS 9 stream - How to install Gnome Desktop - GWSL - WSL - Windows 11 - Linux - 2024
+
+You can find CentOS 9 Stream here for WSL - https://github.com/mishamosher/CentOS-WSL
+
+ -- Updated Version -- How to install Gnome Desktop via WSL and Centos 9 Stream
+
+![Centos-GNOME](https://github.com/user-attachments/assets/3654f6b8-e4cb-49cb-81d0-f79c40b0ba31)
+
+How to install Gnome desktop via CentOS 9 - WSL - TEXT
+https://github.com/vinberg88/opensuse/blob/main/Centos-GNOME.txt
+
+How to install Gnome desktop via CentOS 9 - WSL - MOVIE
+https://www.youtube.com/watch?v=lZ7JKe2TPUI
+
+What is Centos 9 Stream - https://www.centos.org
+
+Continuously delivered distro that tracks just ahead
+of Red Hat Enterprise Linux (RHEL) development, positioned
+as a midstream between Fedora Linux and RHEL. 
+For anyone interested in participating and collaborating 
+in the RHEL ecosystem, CentOS Stream is your reliable
+platform for innovation. The CentOS Project is a 
+community-driven free software effort focused around
+the goal of providing a rich base platform for open 
+source communities to build upon. We will provide a 
+development framework for cloud providers, the hosting
+community, and scientific data processing, as a few examples.
+We work with several ‘upstream’ communities to help them
+layer and distribute their software more effectively on
+a platform they can rely on. Centos 9 Stream Works!
+
+What is Gnome Desktop - https://www.gnome.org
+
+Every part of GNOME has been designed to make it simple
+and easy to use. The Activities Overview is a simple
+way to access all your basic tasks. A press of a
+button is all it takes to view your open windows, launch
+applications, or check if you have new messages. Having
+everything in one convenient place means you don’t
+have to learn your way around a maze of different
+technologies. An easy and elegant way to use your 
+computer, GNOME is designed to help you have the best 
+possible computing experience 2024.
+
+You can finde more Stuff here About WSL.
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - Sweden - Centos 9 Stream - Gnome - WSL - Windows 11 - Linux - GWSL - 2024
+
+-------------------------------------------
+
+Linux® is the registered trademark of Linus Torvalds in the U.S. and
+other countries. Red Hat Enterprise Linux, RHEL and CentOS are trademarks
+or registered trademarks of Red Hat, Inc. or its subsidiaries in the US
+and other countries. We are not affiliated with, endorsed by or
+sponsored by Red Hat, Inc.
+
+
+---------------------------------------------
+
 Pardus 23 - How to install KDE plasma via Pardus OS - WSL - GWSL - Windows 11 - Linux - 2024
 
 You can find PARDUS latest here and unpack and run pardus.exe to install PARDUS OS.
