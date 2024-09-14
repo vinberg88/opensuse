@@ -57,6 +57,10 @@ sudo systemctl set-default graphical
 
 sudo pacman -S gnome gnome-extra
 
+-----------------------------------------------------------
+
+sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+
 Extra install: yay -S google-chrome
 
 ---------------------------------------------------------
