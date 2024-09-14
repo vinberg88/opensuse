@@ -1,11 +1,85 @@
-Lets install Fedora 39 and Gnome via Windows 11 - Pro
+==========Fedora 40 and Gnome 46==========
 
-1. Paste in terminal: sudo nano /etc/wsl.conf
+Lets install Fedora 40 and Gnome Desktop 46 via Windows 11 - WSL - GWSL - Windows 11 - 2024
+
+Find Fedora 40 for WSL here or use Fedora 39 and update to 40 - Use Google for that.
+https://apps.microsoft.com/detail/9n6gdm4k2hnc?hl=sv-se&gl=US
+
+Fedora 40 for WSL here - No pay and updated to 40 =]
+https://apps.microsoft.com/detail/9npcp8drchsn?hl=sv-se&gl=SE
+
+How to install Gnome Desktop 46 via Fedora 40 - text
+https://github.com/vinberg88/opensuse/blob/main/Fedora40-GNOME.txt
+
+How to install Gnome Desktop 46 via Fedora 40 - Movie
+https://www.youtube.com/watch?v=KKAQdt4HytU
+
+
+             .',;::::;,'.                            .',;::::;,'.                            .',;::::;,'.
+         .';:cccccccccccc:;,.                    .';:cccccccccccc:;,.                    .';:cccccccccccc:;,.
+      .;cccccccccccccccccccccc;.              .;cccccccccccccccccccccc;.              .;cccccccccccccccccccccc;.
+    .:cccccccccccccccccccccccccc:.          .:cccccccccccccccccccccccccc:.          .:cccccccccccccccccccccccccc:.
+  .;ccccccccccccc;.:dddl:.;ccccccc;.      .;ccccccccccccc;.:dddl:.;ccccccc;.      .;ccccccccccccc;.:dddl:.;ccccccc;.
+ .:ccccccccccccc;OWMKOOXMWd;ccccccc:.    .:ccccccccccccc;OWMKOOXMWd;ccccccc:.    .:ccccccccccccc;OWMKOOXMWd;ccccccc:.
+.:ccccccccccccc;KMMc;cc;xMMc;ccccccc:.  .:ccccccccccccc;KMMc;cc;xMMc;ccccccc:.  .:ccccccccccccc;KMMc;cc;xMMc;ccccccc:.
+,cccccccccccccc;MMM.;cc;;WW:;cccccccc,  ,cccccccccccccc;MMM.;cc;;WW:;cccccccc,  ,cccccccccccccc;MMM.;cc;;WW:;cccccccc,
+:cccccccccccccc;MMM.;cccccccccccccccc:  :cccccccccccccc;MMM.;cccccccccccccccc:  :cccccccccccccc;MMM.;cccccccccccccccc:
+:ccccccc;oxOOOo;MMM0OOk.;cccccccccccc:  :ccccccc;oxOOOo;MMM0OOk.;cccccccccccc:  :ccccccc;oxOOOo;MMM0OOk.;cccccccccccc:
+cccccc;0MMKxdd:;MMMkddc.;cccccccccccc;  cccccc;0MMKxdd:;MMMkddc.;cccccccccccc;  cccccc;0MMKxdd:;MMMkddc.;cccccccccccc;
+ccccc;XM0';cccc;MMM.;cccccccccccccccc'  ccccc;XM0';cccc;MMM.;cccccccccccccccc'  ccccc;XM0';cccc;MMM.;cccccccccccccccc'
+ccccc;MMo;ccccc;MMW.;ccccccccccccccc;   ccccc;MMo;ccccc;MMW.;ccccccccccccccc;   ccccc;MMo;ccccc;MMW.;ccccccccccccccc;
+ccccc;0MNc.ccc.xMMd;ccccccccccccccc;    ccccc;0MNc.ccc.xMMd;ccccccccccccccc;    ccccc;0MNc.ccc.xMMd;ccccccccccccccc;
+cccccc;dNMWXXXWM0:;cccccccccccccc:,     cccccc;dNMWXXXWM0:;cccccccccccccc:,     cccccc;dNMWXXXWM0:;cccccccccccccc:,
+cccccccc;.:odl:.;cccccccccccccc:,.      cccccccc;.:odl:.;cccccccccccccc:,.      cccccccc;.:odl:.;cccccccccccccc:,.
+:cccccccccccccccccccccccccccc:'.        :cccccccccccccccccccccccccccc:'.        :cccccccccccccccccccccccccccc:'.
+.:cccccccccccccccccccccc:;,..           .:cccccccccccccccccccccc:;,..           .:cccccccccccccccccccccc:;,..
+  '::cccccccccccccc::;,.                  '::cccccccccccccc::;,.                  '::cccccccccccccc::;,.
+
+
+==========What is Fedora==========
+
+Fedora, also known as Fedora Linux, is a popular Open Source Linux-based
+operating system (OS). Designed as a secure, general-purpose OS, Fedora
+is developed on a six-month to eight-month release cycle under the Fedora
+Project. Both the OS and the Fedora Project are financially sponsored
+and supported by Red Hat. Fedora is a free and open source OS platform
+for hardware, clouds and containers. Based on the Linux OS kernel
+architecture, Fedora Linux is a user-friendly OS that enables users to
+perform their tasks easily and efficiently with minimal friction. The name
+Fedora refers to the characteristic fedora hat in Red Hat's Shadowman logo.
+https://fedoraproject.org
+
+
+==========What is Gnome 46==========
+
+Every part of GNOME has been designed to make it simple 
+and easy to use. The Activities Overview is a simple way 
+to access all your basic tasks. A press of a button is
+all it takes to view your open windows, launch applications, or 
+check if you have new messages. Having everything in 
+one convenient place means you don’t have to learn your way 
+around a maze of different technologies. 
+https://www.gnome.org
+
+==========More stuff about WSL==========
+
+Here you have more stuff about WSL: https://github.com/vinberg88/opensuse
+
+-----------------------------------
+
+Kind Regards,
+Mattias Vinberg
+
+-----------------------------------
+
+Paste in terminal: sudo nano /etc/wsl.conf
 
 [boot]
 systemd=true
 
-2. Paste all in terminal
+-----------------------------------
+
+Paste all in terminal and Reboot.
 
 ln -s libcuda.so.1.1 libcuda.so.1
 ln -s libcuda.so.1.1 libcuda.so
@@ -14,144 +88,87 @@ sudo mkdir /usr/lib/wsl/lib2
 sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
 echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
 
+-----------------------------------
+
+Add Repos to Fedora 40.
+
 sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
 sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 
-sudo dnf install git wget curl nano bash pipx sudo dracut dmraid
-sudo dnf install git wget curl nano bash pipx sudo dracut net-tools dbus-x11
+-----------------------------------
 
-3. Reboot and Update: sudo dnf update
+Reboot and Update: sudo dnf update
 
-sudo pipx install hyfetch 
-pipx ensurepath
+-----------------------------------
+
+Install some basic programs.
+
+sudo dnf install git wget curl bash pipx dracut dmraid net-tools dbus-x11
+
+-----------------------------------
+
+Install Hyfetch - like Neofetch but more gay =)
 
 pipx install hyfetch
 pipx ensurepath
 
-4. Log in as root user and paste in terminal. Not all - no stress...
+Put this in terminal to Test: hyfetch
 
-dnf check-update -y
+-----------------------------------
 
-dnf upgrade -y
-dnf install -y systemd dbus-x11 procps bind-utils iproute iputils nmap-ncat
-dnf swap -y curl-minimal curl
-dnf swap -y coreutils-single coreutils
-dnf groupinstall 'Basic Desktop' GNOME*
-
-yum install gnome*
-yum install xorg*
-yum install gdm*
+Install Google-Chrome - paste all under this paragraph in terminal.
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
 sudo yum install ./google-chrome-stable_current_*.rpm
 sudo yum update google-chrome-stable
 
-dnf install -y gnome-extensions-app gnome-shell-extension-dash-to-dock
-dnf install -y gnome-shell-extension-window-list dconf-editor
+-----------------------------------
 
-dnf check-update -y
-dnf install -y ffmpeg
+sudo dnf install gdm*
 
-mkdir -p /etc/polkit-1/localauthority/50-local.d/
-cat >/etc/polkit-1/localauthority/50-local.d/color.pkla <<'EOF'
-[Allow colord for all users]
-Identity=unix-user:*
-Action=org.freedesktop.color-manager.create-device;org.freedesktop.color-manager.create-profile;org.freedesktop.color-manager.delete-device;org.freedesktop.color-manager.delete-profile;org.freedesktop.color-manager.modify-device; org.freedesktop.color-manager.org.freedesktop.color-manager.modify-profile
-ResultAny=yes
-ResultInactive=yes
-ResultActive=yes
-EOF
+-----------------------------------
 
-systemctl set-default multi-user.target
+Time to install Gnome Desktop 46
 
-mkdir -p /etc/systemd/system/ModemManager.service.d
+sudo dnf group install -y "GNOME Desktop Environment"
 
-echo -e "[Unit]\nConditionVirtualization=\n" > /etc/systemd/system/ModemManager.service.d/override.conf
+-----------------------------------
 
-mkdir -p /etc/systemd/system/fwupd.service.d
+Paste in terminal: 
 
-echo -e "[Unit]\nConditionVirtualization=\n" > /etc/systemd/system/fwupd.service.d/override.conf
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
 
-echo -e "[Install]\nWantedBy=multi-user.target\n" >> /etc/systemd/system/fwupd.service.d/override.conf
+-----------------------------------
 
-systemctl enable ModemManager.service
-systemctl enable fwupd.service
+Type this in terminal and put your user there - loginctl enable-linger user
 
-usermod -a -G wheel hitler
-usermod -a -G rtkit hitler
-usermod -a -G pipewire hitler
+-----------------------------------
 
-mkdir -p /home/hitler/.config/systemd/user/default.target.wants
-ln -s /usr/lib/systemd/user/pipewire.service /home/hitler/.config/systemd/user/default.target.wants/pipewire.service
+Setup GWSL and reboot and start from GWSL Shell.
 
-mkdir -p /home/hitler/.config/systemd/user/sockets.target.wants
-ln -s /usr/lib/systemd/user/pipewire.socket /home/hitler/.config/systemd/user/sockets.target.wants/pipewire.socket
+-----------------------------------
 
-systemctl enable rtkit-daemon.service
-
-mkdir -p /etc/security/limits.d
-echo -e "@pipewire - rtprio 95\n@pipewire - nice -19\n" > /etc/security/limits.d/95-pipewire.conf
-
-echo "/bin/mount -o remount,rw /tmp/.X11-unix" >> /etc/rc.d/rc.local
-chmod 700 /etc/rc.d/rc.local
-
-mkdir -p /home/hitler/bin
-
-cat >/home/hitler/bin/start-gnome <<'EOF'
-#!/bin/bash
-
-nohup Xwayland -br -ac :1 >/dev/null 2>&1 &
-env DISPLAY=:1 WAYLAND_DISPLAY= XDG_SESSION_TYPE=x11 gnome-session --disable-acceleration-check
-pkill -9 Xwayland >/dev/null 2>&1
-EOF
-
-chown -R hitler:hitler /home/hitler
-chmod +x /home/hitler/bin/start-gnome
-
-
-11.5 Log out from root and reboot. Login as user....
-
-11. Paste in terminal: xdg-user-dirs-update
-
-12. Paste in terminal: sudo systemctl set-default multi-user.target
-
-13. Paste in terminal: sudo systemctl set-default graphical.target
-
-14. Paste in terminal : sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
-
-16. Type this in terminal and put your user there - loginctl enable-linger user
-
-17. In terminal type: sudo nano ~/.bash_ubuntu_desktop
+In terminal type: sudo nano ~/.bash_fedora_desktop
 
 Paste this in terminal and save and quit.
-
-# Vinberg - Fyren 1488
-# Start to flight adolf!
-# --------------------
-# Setting up essential environment variables
-# --------------------
-
-export XDG_CURRENT_DESKTOP=ubuntu:GNOME
-export XDG_SESSION_DESKTOP=ubuntu
-export DESKTOP_SESSION=ubuntu
-export GNOME_SHELL_SESSION_MODE=ubuntu
-
-# Commonly referenced environment variables for X11 sessions
-# https://specifications.freedesktop.org/basedir-spec/latest/
-
-export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
-export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
-export XDG_MENU_PREFIX=gnome-
 
 export XDG_SESSION_TYPE=x11
 export XDG_SESSION_CLASS=user
 export GDK_BACKEND=x11
 
-# Disables using Direct3D in Mesa 3D graphics library
 export LIBGL_ALWAYS_SOFTWARE=1
 
-18. Reboot
+-----------------------------------
 
-19. Paste in terminal: . ~/.bash_ubuntu_desktop
+Reboot
 
-20. Type in terminal: gnome-session
+-----------------------------------
+
+Paste in terminal: . ~/.bash_fedora_desktop
+
+Type in terminal: gnome-session
+
+-----------------------------------
