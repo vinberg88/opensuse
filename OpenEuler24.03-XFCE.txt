@@ -4,7 +4,7 @@ You can find OpenEuler 24.03 here or in Microsoft store
 https://apps.microsoft.com/detail/9pkz8gn18l5c?hl=en-US&gl=US
 
 How to install XFCE Desktop via OpenEuler 24.03 - WSL - TEXT
-Comming Zone…
+https://github.com/vinberg88/opensuse/blob/main/OpenEuler24.03-XFCE.txt
 
 How to install XFCE Desktop via OpenEuler 24.03 - WSL - MOVIE
 https://www.youtube.com/watch?v=c9wiMw_bcWk
