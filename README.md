@@ -27,6 +27,50 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+OpenEuler - Install UKUI desktop via openEuler 24.03 - WSL - Windows 11 - GWSL - LINUX - 2024
+
+You can find OpenEuler 24.03 here or in Microsoft store
+
+https://apps.microsoft.com/detail/9pkz8gn18l5c?hl=en-US&gl=US
+
+How to install UKUI desktop via OpenEuler 24.03 - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/OpenEuler24.03-UKUI.txt
+
+How to install UKUI desktop via OpenEuler 24.03 - WSL - MOVIE
+
+https://www.youtube.com/watch?v=HiP_Syd1yWU
+
+![OpenEuler24 03-UKUI](https://github.com/user-attachments/assets/9e7d8874-5f7f-48c1-bda5-248474dc2c61)
+
+About OpenEuler 24.03 - https://www.openeuler.org/en
+
+OpenEuler is an open source project incubated and operated by the
+OpenAtom Foundation. EulerOS is a commercial Linux distribution developed
+by Huawei based on Red Hat Enterprise Linux. To provide an operating system
+for server and cloud environments. Its open-source community version
+is known as openEuler, of which source code was released by Huawei at
+Gitee on December 31, 2019. OpenEuler became an open-source project 
+operated by OpenAtom Foundation after Huawei donated the source code 
+of openEuler to the foundation on November.  
+
+About UKUI desktop - https://www.ukui.org/index.php?lang=en
+
+UKUI is a Linux desktop built by the KylinSoft software
+team over the years, primarily based on GTK and QT. Compared
+with other UIs, UKUI is easy to use. The components of UKUI are
+lightweight and can run independently without relying on other suites.
+It can provide user a friendly and efficient experience. 
+UKUI supports both x86_64 and aarch64 architectures.
+
+Want more things to do you can look here - WSL - WINDOWS 11 - GWSL
+
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - OpenEuler 24.03 - UKUI - Linux - WSL - GWSL - Windows 11 - Sweden - 2024
+
+---------------------------------------------
+
 OpenEuler - Install XFCE Desktop via openEuler 24.03 - WSL - Windows 11 - GWSL - LINUX - 2024
 
 You can find OpenEuler 24.03 here or in Microsoft store
