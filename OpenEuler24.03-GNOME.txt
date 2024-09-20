@@ -1,0 +1,274 @@
+OpenEuler - Install Gnome desktop via openEuler 24.03 - WSL - Windows 11 - GWSL - LINUX - 2024
+
+You can find OpenEuler 24.03 here or in Microsoft store
+https://apps.microsoft.com/detail/9pkz8gn18l5c?hl=en-US&gl=US
+
+How to install Gnome desktop via OpenEuler - WSL - TEXT
+Comming Zone…
+
+How to install Gnome desktop via OpenEuler - WSL - MOVIE
+https://www.youtube.com/watch?v=dRz8ExFsKa8
+
+
+                 `.cc.`                                    `.cc.`
+             ``.cccccccc..`                            ``.cccccccc..`
+          `.cccccccccccccccc.`                      `.cccccccccccccccc.`
+      ``.cccccccccccccccccccccc.``              ``.cccccccccccccccccccccc.``
+   `..cccccccccccccccccccccccccccc..`        `..cccccccccccccccccccccccccccc..`
+`.ccccccccccccccc/++/ccccccccccccccccc.`  `.ccccccccccccccc/++/ccccccccccccccccc.`
+.cccccccccccccccmNMMNdo+oso+ccccccccccc.  .cccccccccccccccmNMMNdo+oso+ccccccccccc.
+.cccccccccc/++odms+//+mMMMMm/:+syso/cccc  .cccccccccc/++odms+//+mMMMMm/:+syso/cccc
+.cccccccccyNNMMMs:::/::+o+/:cdMMMMMmcccc  .cccccccccyNNMMMs:::/::+o+/:cdMMMMMmcccc
+.ccccccc:+NmdyyhNNmNNNd:ccccc:oyyyo:cccc  .ccccccc:+NmdyyhNNmNNNd:ccccc:oyyyo:cccc
+.ccc:ohdmMs:cccc+mNMNmyccccccccccccccccc  .ccc:ohdmMs:cccc+mNMNmyccccccccccccccccc
+.cc/NMMMMMo////:c:///:cccccccccccccccccc  .cc/NMMMMMo////:c:///:cccccccccccccccccc
+.cc:syysyNMNNNMNyccccccccccccccccccccccc  .cc:syysyNMNNNMNyccccccccccccccccccccccc
+.cccccccc+MMMMMNyc:/+++/cccccccccccccccc  .cccccccc+MMMMMNyc:/+++/cccccccccccccccc
+.cccccccccohhhs/comMMMMNhccccccccccccccc  .cccccccccohhhs/comMMMMNhccccccccccccccc
+.ccccccccccccccc:MMMMMMMM/cccccccccccccc  .ccccccccccccccc:MMMMMMMM/cccccccccccccc
+.ccccccccccccccccsNNNNNd+cccccccccccccc.  .ccccccccccccccccsNNNNNd+cccccccccccccc.
+`..cccccccccccccccc/+/:cccccccccccccc..`  `..cccccccccccccccc/+/:cccccccccccccc..`
+   ``.cccccccccccccccccccccccccccc.``        ``.cccccccccccccccccccccccccccc.``
+       `.cccccccccccccccccccccc.`                `.cccccccccccccccccccccc.`
+          ``.cccccccccccccc.``                      ``.cccccccccccccc.``
+              `.cccccccc.`                              `.cccccccc.`
+                 `....`                                    `....`
+
+
+About OpenEuler 24.03 - https://www.openeuler.org/en
+
+OpenEuler is an open source project incubated and operated by the
+OpenAtom Foundation. EulerOS is a commercial Linux distribution developed
+by Huawei based on Red Hat Enterprise Linux. To provide an operating system
+for server and cloud environments. Its open-source community version
+is known as openEuler, of which source code was released by Huawei at
+Gitee on December 31, 2019. OpenEuler became an open-source project 
+operated by OpenAtom Foundation after Huawei donated the source code 
+of openEuler to the foundation on November.  
+
+About Gnome - https://www.gnome.org
+
+Every part of GNOME has been designed to make it simple and
+easy to use. The Activities Overview is a simple way to access
+all your basic tasks. A press of a button is all it takes to view
+your open windows, launch applications, or check if you have new
+messages. Having everything in one convenient place means you don’t
+have to learn your way around a maze of different technologies.
+GNOME provides a focused working environment that helps you get things
+done. It is packed with features that will make you more productive:
+a powerful search feature that helps you access all your work from
+one place; side-by-side windows that make it easy to view several
+documents at the same time; seamless integration with online accounts
+which allows you to access all your data in one place; and
+a messaging system that comfortably deals with notifications, letting
+you quickly respond in place or return to them in a convenient time.
+
+Want more things to do you can look here - WSL - WINDOWS 11 - GWSL
+https://github.com/vinberg88/opensuse
+
+------------------------------------------------------
+
+FIRST - LOGIN AS ROOT AND SET PASSWORD
+
+Type passwd in root and set password: passwd
+
+Do that for your user to. In my case: passwd ove
+
+------------------------------------------------------
+
+Install Nano..
+
+sudo dnf install nano --disablerepo=update
+
+------------------------------------------------------
+
+Disabel Repos/Mirror for mirror UPDATE.
+
+NOTE - When i was making this video Mirror UPDATE dont worked.
+so you dont need to do this step maybe. You can test 
+whit out this step at first.
+
+sudo nano /etc/yum.repos.d/openEuler.repo
+
+change enabled=1 to enabled=0 for repo - [update]
+
+-----------------------------------
+
+Paste in terminal: sudo nano /etc/wsl.conf
+
+[boot]
+systemd=true
+
+-----------------------------------
+
+Paste all in terminal. 
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf 
+
+-----------------------------------
+
+Install fastmirrors or repos for openEuler 24.03
+
+Run this first
+
+sudo dnf check-update
+sudo dnf install dnf-utils
+
+Then do this..
+
+sudo nano /etc/dnf/dnf.conf
+
+Add the following line: max_parallel_downloads=10 and fastestmirror=True
+
+Like That..
+
+max_parallel_downloads=10
+fastestmirror=True
+
+-----------------------------------
+
+Add extra Repos - EPEL - OpenEuler - GNOME
+
+sudo curl -o /etc/yum.repos.d/epel-OpenEuler.repo https://down.whsir.com/downloads/epel-OpenEuler.repo
+
+-----------------------------------
+
+Reboot Reboot Reboot Reboot Reboot Reboot -OpenEuler
+
+-----------------------------------
+
+Update All by paste this in Console - OpenEuler
+
+sudo dnf upgrade --refresh
+
+-----------------------------------
+
+Install some basic programs for GNOME desktop and OpenEuler.
+
+sudo dnf install ibus* git wget curl bash dracut net-tools dbus-x11 dbus* --skip-broken --nobest
+
+-----------------------------------
+
+Install Hyfetch - Its a must =] Neofetch is Dead!
+
+sudo curl -fsSL lure.sh/install | bash
+
+Then: lure in hyfetch
+
+Test by typing hyfetch in terminal: hyfetch
+
+-----------------------------------
+
+Install Visual Studio Code
+
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" | sudo tee /etc/yum.repos.d/vscode.repo > /dev/null
+
+dnf check-update
+sudo dnf install code
+
+-----------------------------------
+
+Install Google-Chrome - paste all under this paragraph in terminal.
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm
+sudo yum update google-chrome-stable
+
+-----------------------------------
+
+Time to install Gnome Desktop for openEuler 24.03
+
+sudo dnf install -y systemd procps bind-utils iproute iputils nmap-ncat
+
+sudo dnf install dejavu-fonts liberation-fonts gnu-*-fonts google-*-fonts
+
+sudo dnf install xorg-* --skip-broken --nobest
+
+sudo dnf install adwaita-icon-theme atk atkmm at-spi2-atk at-spi2-core baobab -y
+sudo dnf install abattis-cantarell-fonts cheese clutter clutter-gst3 clutter-gtk cogl dconf -y
+sudo dnf install dconf-editor devhelp eog epiphany evince evolution-data-server file-roller folks -y
+sudo dnf install gcab gcr gdk-pixbuf2 gdm gedit geocode-glib gfbgraph gjs glib2 glibmm24 -y
+sudo dnf install glib-networking gmime30 gnome-autoar gnome-backgrounds gnome-bluetooth -y
+sudo dnf install gnome-builder gnome-calculator gnome-calendar gnome-characters -y
+sudo dnf install gnome-clocks gnome-color-manager gnome-contacts gnome-control-center -y
+sudo dnf install gnome-desktop3 gnome-disk-utility gnome-font-viewer gnome-getting-started-docs -y
+sudo dnf install gnome-initial-setup gnome-keyring gnome-logs gnome-menus gnome-music -y
+sudo dnf install gnome-online-accounts gnome-online-miners gnome-photos gnome-remote-desktop -y
+sudo dnf install gnome-screenshot gnome-session gnome-settings-daemon gnome-shell -y
+sudo dnf install gnome-shell-extensions gnome-software gnome-system-monitor gnome-terminal -y
+sudo dnf install gnome-tour gnome-user-docs gnome-user-share gnome-video-effects -y
+sudo dnf install gnome-weather gobject-introspection gom grilo grilo-plugins -y
+sudo dnf install gsettings-desktop-schemas gsound gspell gssdp gtk3 gtk4 gtk-doc gtkmm30 -y
+sudo dnf install gtksourceview4 gtk-vnc2 gupnp gupnp-av gupnp-dlna gvfs json-glib libchamplain -y
+sudo dnf install libdazzle libgdata libgee libgnomekbd libgsf libgtop2 libgweather libgxps libhandy -y
+sudo dnf install libmediaart libnma libnotify libpeas librsvg2 libsecret libsigc++20 libsoup -y
+sudo dnf install mm-common mutter nautilus orca pango pangomm libphodav python3-pyatspi -y
+sudo dnf install python3-gobject rest rygel simple-scan sushi sysprof tepl totem totem-pl-parser -y
+sudo dnf install tracker3 tracker3-miners vala vte291 yelp yelp-tools -y
+sudo dnf install yelp-xsl zenity -y
+
+-----------------------------------------------------------
+
+Install Graphics - Copy and Paste in terminal - SHELL - BASH - CONSOLE.
+
+sudo dnf install gdm*
+
+----------------------------------------------------------------
+
+Last files to copy to terminal - GNOME - full installation
+
+sudo dnf install gnome* --skip-broken --nobest
+
+----------------------------------------------------------------
+
+Copy and Paste in Terminal.
+
+sudo systemctl enable gdm
+sudo systemctl set-default graphical.target
+
+----------------------------------------------------------------
+
+Reboot Linux - Reboot Linux - Reboot Linux - Reboot Linux - OpenEuler
+
+----------------------------------------------------------------
+
+Start from GWSL and config - Then Reboot and start from GWSL SHELL.
+
+            " NOTE - TAKE AN EXTRA REBOOT "
+
+----------------------------------------------------------------
+
+Type in terminal: sudo nano ~/.bash_ubuntu_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------------------------
+
+Reboot Linux - Reboot Linux - Reboot Linux - Reboot Linux - OpenEuler
+
+Start Shell from GWSL...
+
+----------------------------------------------------------------
+
+Time to start Gnome
+
+Copy and paste this: . ~/.bash_ubuntu_desktop
+Copy and paste this: gnome-session
+
+----------------------------------------------------------------
+
+Regards Mattias Vinberg - OpenEuler 24.03 - Gnome - Linux - WSL - GWSL - Windows 11 - Sweden - 2024
+
+----------------------------------------------------------------
