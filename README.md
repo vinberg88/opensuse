@@ -27,6 +27,58 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+OpenEuler - Install Gnome desktop via openEuler 24.03 - WSL - Windows 11 - GWSL - LINUX - 2024
+
+You can find OpenEuler 24.03 here or in Microsoft store
+
+https://apps.microsoft.com/detail/9pkz8gn18l5c?hl=en-US&gl=US
+
+How to install Gnome desktop via OpenEuler - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/OpenEuler24.03-GNOME.txt
+
+How to install Gnome desktop via OpenEuler - WSL - MOVIE
+
+https://www.youtube.com/watch?v=dRz8ExFsKa8
+
+![openEuler-GNOME](https://github.com/user-attachments/assets/5d9921e5-c670-4c71-a2dd-8bbcda55e1c4)
+
+About OpenEuler 24.03 - https://www.openeuler.org/en
+
+OpenEuler is an open source project incubated and operated by the
+OpenAtom Foundation. EulerOS is a commercial Linux distribution developed
+by Huawei based on Red Hat Enterprise Linux. To provide an operating system
+for server and cloud environments. Its open-source community version
+is known as openEuler, of which source code was released by Huawei at
+Gitee on December 31, 2019. OpenEuler became an open-source project 
+operated by OpenAtom Foundation after Huawei donated the source code 
+of openEuler to the foundation on November.  
+
+About Gnome - https://www.gnome.org
+
+Every part of GNOME has been designed to make it simple and
+easy to use. The Activities Overview is a simple way to access
+all your basic tasks. A press of a button is all it takes to view
+your open windows, launch applications, or check if you have new
+messages. Having everything in one convenient place means you don’t
+have to learn your way around a maze of different technologies.
+GNOME provides a focused working environment that helps you get things
+done. It is packed with features that will make you more productive:
+a powerful search feature that helps you access all your work from
+one place; side-by-side windows that make it easy to view several
+documents at the same time; seamless integration with online accounts
+which allows you to access all your data in one place; and
+a messaging system that comfortably deals with notifications, letting
+you quickly respond in place or return to them in a convenient time.
+
+Want more things to do you can look here - WSL - WINDOWS 11 - GWSL
+
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - OpenEuler 24.03 - Gnome - Linux - WSL - GWSL - Windows 11 - Sweden - 2024
+
+---------------------------------------------
+
 OpenEuler - Install UKUI desktop via openEuler 24.03 - WSL - Windows 11 - GWSL - LINUX - 2024
 
 You can find OpenEuler 24.03 here or in Microsoft store
