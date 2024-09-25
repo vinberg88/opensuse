@@ -27,6 +27,47 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+OpenEuler - Install DEEPIN Desktop via openEuler 24.03 - WSL - Windows 11 - GWSL - LINUX - 2024
+
+You can find OpenEuler 24.03 here or in Microsoft store
+
+https://apps.microsoft.com/detail/9pkz8gn18l5c?hl=en-US&gl=US
+
+How to install DEEPIN Desktop via OpenEuler 24.03 - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/OpenEuler24.03-DEEPIN.txt
+
+How to install DEEPIN Desktop via OpenEuler 24.03 - WSL - MOVIE
+
+https://www.youtube.com/watch?v=vzwh6f4ah4s
+
+![OpenEuler24 03-DEEPIN](https://github.com/user-attachments/assets/ff02eb16-8e7b-4f4c-a6fd-3c56b69dcc9d)
+
+About OpenEuler 24.03 - https://www.openeuler.org/en
+
+OpenEuler is an open source project incubated and operated by the
+OpenAtom Foundation. EulerOS is a commercial Linux distribution developed
+by Huawei based on Red Hat Enterprise Linux. To provide an operating system
+for server and cloud environments. Its open-source community version
+is known as openEuler, of which source code was released by Huawei at
+Gitee on December 31, 2019. OpenEuler became an open-source project 
+operated by OpenAtom Foundation after Huawei donated the source code 
+of openEuler to the foundation on November.  
+
+About DEEPIN Desktop - https://www.deepin.org/en/dde
+
+Deepin is an elegant, easy to use and reliable desktop
+operating system released by Deepin Technology Co., Ltd.
+Featured applications are preinstalled in deepin. 
+It caters to a variety of recreational activities while
+also fulfilling your daily needs. With continually
+improved and perfected functions, we believe deepin
+will be loved and used by more and more users.
+
+Regards Mattias Vinberg - OpenEuler 24.03 - DEEPIN - Linux - WSL - GWSL - Windows 11 - Sweden - 2024
+
+---------------------------------------------
+
 OpenEuler - Install Gnome desktop via openEuler 24.03 - WSL - Windows 11 - GWSL - LINUX - 2024
 
 You can find OpenEuler 24.03 here or in Microsoft store
