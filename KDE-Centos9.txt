@@ -1,127 +1,207 @@
----------------------------------------------------------------
+Centos 9 - KDE Plasma Desktop - GWSL - Centos 9 via Windows 11 - WSL - 2024
 
-Centos 9 - How to install KDE plasma desktop via Windows 11 - WSL - 2024
+Find Centos 9 for WSL here. Just download and install!
+https://drive.proton.me/urls/G754FRT11M#sZKOGUJO7JjI
 
-How to install KDE plasma/WSL via Windows 11 - TEXT: 
+How to install KDE plasma via Centos 9 - WSL - TEXT
+https://github.com/vinberg88/opensuse/blob/main/Centos9-KDE.txt
 
-About Centos - CentOS Stream 9 is the next major release of the CentOS Stream distribution. 
-CentOS Stream is developed in collaboration with the Red Hat Enterprise Linux (RHEL) engineering
-team, and with you, the CentOS community.
+How to install KDE plasma via Centos 9 - WSL - MOVIE
+https://www.youtube.com/watch?v=mEht_soF6CM
 
-You will find Centos 9 here for WSL - https://github.com/mishamosher/CentOS-WSL/releases
+                 ..
+               .PLTJ.  -  OS: CentOS Stream 9 on Windows x86_64
+              <><><><>
+     KKSSV' 4KKK LJ KKKL.'VSSKK
+     KKV' 4KKKKK LJ KKKKAL 'VKK
+     V' ' 'VKKKK LJ KKKKV' ' 'V
+     .4MA.' 'VKK LJ KKV' '.4Mb.
+   . KKKKKA.' 'V LJ V' '.4KKKKK .
+ .4D KKKKKKKA.'' LJ ''.4KKKKKKK FA.
+<QDD ++++++++++++  ++++++++++++ GFD>
+ 'VD KKKKKKKK'.. LJ ..'KKKKKKKK FV
+   ' VKKKKK'. .4 LJ K. .'KKKKKV '
+      'VK'. .4KK LJ KKA. .'KV'
+     A. . .4KKKK LJ KKKKA. . .4
+     KKA. 'KKKKK LJ KKKKK' .4KK
+     KKSSA. VKKK LJ KKKV .4SSKK
+              <><><><>
+               'MKKM'
+                 ''
 
-How to install KDE plasma Centos 9 via WSL - Video: 
 
-Find more stuff here for WSL, Linux and Windows: https://github.com/vinberg88/opensuse
+What is CentOS 9 Linux - https://centos.org
 
-Have installed repos/mirror and some program and updated Centos 9..
+The CentOS Linux distribution is a stable, predictable,
+manageable and reproducible platform derived from the
+sources of Red Hat Enterprise Linux (RHEL). We are now
+looking to expand on that by creating the resources needed
+by other communities to come together and be able to build
+on the CentOS Linux platform. And today we start the process
+by delivering a clear governance model, increased 
+transparency and access. In the coming weeks we aim to 
+publish our own roadmap that includes variants of
+the core CentOS Linux. The CentOS Project is a 
+community-driven free software effort focused around
+the goal of providing a rich base platform for open 
+source communities to build upon. We will provide a 
+development framework for cloud providers, the hosting 
+community, and scientific data processing, as a few examples.
+We work with several ‘upstream’ communities to help them layer
+and distribute their software more effectively on a 
+platform they can rely on.
 
----------------------------------------------------------------
+What is KDE - https://kde.org
 
-1. Copy and Paste slowly. Not all at once. Maybe three to five lines =]
+Use Plasma to surf the web; keep in touch with colleagues, friends
+and family; manage your files, enjoy music and videos; and get
+creative and productive at work. Do it all in a beautiful environment
+that adapts to your needs, and with the safety, privacy-protection and
+peace of mind that the best Free Open Source Software has to offer.
+Plasma is a Desktop =)
 
-sudo dnf update
+Here you have more stuff about WSL - GWSL - Windows 11 - https://github.com/vinberg88/opensuse
+
+------------------------------------------------------
+
+You my need to install nano: sud dnf install nano
+
+------------------------------------------------------
+
+Make Repos faster.
+
+sudo nano /etc/dnf/dnf.conf
+
+and add this to lines off code
+
+max_parallel_downloads=10
+fastestmirror=true
+
+------------------------------------------------------
+
+Install systemd - you need it..
+
+Paste in terminal: sudo nano /etc/wsl.conf
+
+[boot]
+systemd=true
+
+------------------------------------------------------
+
+Paste all in terminal to remove errors in bash.
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+------------------------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot
+
+------------------------------------------------------
+
+Update All: sudo dnf update
+
+------------------------------------------------------
+
+Paste in terminal... Enable mirrors Epel.
+
+sudo yum install epel-release
+
+Then copy and paste this
+
+sudo /usr/bin/crb enable
+
+------------------------------------------------------
+
+Update all!
+
 sudo dnf upgrade --refresh
 
-sudo dnf upgrade -y
-sudo dnf install -y systemd dbus-x11 procps bind-utils iproute iputils nmap-ncat
-sudo dnf swap -y curl-minimal curl
-sudo dnf swap -y coreutils-single coreutils
-sudo dnf --enablerepo=epel,epel-next,crb group -y install "KDE Plasma Workspaces"
+------------------------------------------------------
 
-sudo dnf install -y dconf-editor
+Install some Programs.
 
-sudo systemctl enable sddm.service
-sudo systemctl enable NetworkManager.service
+sudo dnf install git wget curl nano bash pipx sudo dracut net-tools dbus-x11 dbus*
 
-sudo dnf check-update -y
-sudo dnf install -y ffmpeg
+------------------------------------------------------
 
---------------------------------------------------------------
+Time to install KDE Plasma...
 
-2. Login as root user and paste all in terminal, no stress... 
+sudo dnf -y group install "KDE Plasma Workspaces"
 
-Change master to your user.. master is my name.
+sudo dnf install kde*
 
---------------------------------------------------------------
+------------------------------------------------------
 
-mkdir -p /etc/polkit-1/localauthority/50-local.d/
-cat >/etc/polkit-1/localauthority/50-local.d/color.pkla <<'EOF'
-[Allow colord for all users]
-Identity=unix-user:*
-Action=org.freedesktop.color-manager.create-device;org.freedesktop.color-manager.create-profile;org.freedesktop.color-manager.delete-device;org.freedesktop.color-manager.delete-profile;org.freedesktop.color-manager.modify-device; org.freedesktop.color-manager.org.freedesktop.color-manager.modify-profile
-ResultAny=yes
-ResultInactive=yes
-ResultActive=yes
-EOF
+Install Google-Chrome
 
-systemctl set-default multi-user.target
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm
+sudo yum update google-chrome-stable
 
-mkdir -p /etc/systemd/system/ModemManager.service.d
+------------------------------------------------------
 
-echo -e "[Unit]\nConditionVirtualization=\n" > /etc/systemd/system/ModemManager.service.d/override.conf
+Install Hyfetch
 
-mkdir -p /etc/systemd/system/fwupd.service.d
+pipx install hyfetch
 
-echo -e "[Unit]\nConditionVirtualization=\n" > /etc/systemd/system/fwupd.service.d/override.conf
+Test in terminal: hyfetch
 
-echo -e "[Install]\nWantedBy=multi-user.target\n" >> /etc/systemd/system/fwupd.service.d/override.conf
+------------------------------------------------------
 
-systemctl enable ModemManager.service
-systemctl enable fwupd.service
+Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot
 
-usermod -a -G wheel master
-usermod -a -G rtkit master
-usermod -a -G pipewire master
+-------------------------------------------------------------
 
-mkdir -p /home/master/.config/systemd/user/default.target.wants
-ln -s /usr/lib/systemd/user/pipewire.service /home/master/.config/systemd/user/default.target.wants/pipewire.service
+Login with GWSL and Config all. Then start Linux-shell from GWSL.
 
-mkdir -p /home/master/.config/systemd/user/sockets.target.wants
-ln -s /usr/lib/systemd/user/pipewire.socket /home/master/.config/systemd/user/sockets.target.wants/pipewire.socket
+                 "Take an extra reboot"
 
-systemctl enable rtkit-daemon.service
+-------------------------------------------------------------
 
-mkdir -p /etc/security/limits.d
-echo -e "@pipewire - rtprio 95\n@pipewire - nice -19\n" > /etc/security/limits.d/95-pipewire.conf
+Paste all in terminal: 
 
-echo "/bin/mount -o remount,rw /tmp/.X11-unix" >> /etc/rc.d/rc.local
-chmod 700 /etc/rc.d/rc.local
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
 
-systemctl enable rtkit-daemon.service
+-------------------------------------------------------------
 
-mkdir -p /etc/security/limits.d
-echo -e "@pipewire - rtprio 95\n@pipewire - nice -19\n" > /etc/security/limits.d/95-pipewire.conf
+Type this in terminal and put your user-name there: sudo loginctl enable-linger user
 
-echo "/bin/mount -o remount,rw /tmp/.X11-unix" >> /etc/rc.d/rc.local
-chmod 700 /etc/rc.d/rc.local
+-------------------------------------------------------------
 
-mkdir -p /home/master/bin
+In terminal type: sudo nano ~/.bash_Centos_desktop
 
-cat >/home/master/bin/start-gnome <<'EOF'
-#!/bin/bash
+Paste this small script in terminal and save and quit nano.
 
-nohup Xwayland -br -ac :1 >/dev/null 2>&1 &
-env DISPLAY=:1 WAYLAND_DISPLAY= XDG_SESSION_TYPE=x11 startplasma-x11 --disable-acceleration-check
-pkill -9 Xwayland >/dev/null 2>&1
-EOF
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
 
-chown -R master:master /home/master
-chmod +x /home/master/bin/start-gnome
+export LIBGL_ALWAYS_SOFTWARE=1
 
------------------------------------------------
+-------------------------------------------
 
-Logout and reboot - Centos 9 Stream
+Reboot Reboot Reboot Reboot Centos 9 Stream
 
-Setup GWSL and Config and after that Reboot.
+-------------------------------------------
 
------------------------------------------------
+Time to start KDE Desktop and Centos 9 Stream
 
-Time to start KDE plasma via Centos 9. 
+Paste in terminal: . ~/.bash_Centos_desktop
 
-Start shell from GWSL and type: startplasma-x11
+Type in terminal: dbus-launch startplasma-x11
 
-----------------------------------------------
+It takes a little time to start at the beginning so leave it for a minute if nothing happens.
 
-Kind Regards,
-Mattias Vinberg
+-------------------------------------------
+
+Regards Mattias Vinberg - Centos 9 - KDE - WSL - GWSL - Linux - Windows 11 - Sweden - 2024
+
+-------------------------------------------
