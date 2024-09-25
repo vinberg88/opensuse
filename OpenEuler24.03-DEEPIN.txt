@@ -1,0 +1,215 @@
+OpenEuler - Install DEEPIN Desktop via openEuler 24.03 - WSL - Windows 11 - GWSL - LINUX - 2024
+
+You can find OpenEuler 24.03 here or in Microsoft store
+https://apps.microsoft.com/detail/9pkz8gn18l5c?hl=en-US&gl=US
+
+How to install DEEPIN Desktop via OpenEuler 24.03 - WSL - TEXT
+Comming Zone…
+
+How to install DEEPIN Desktop via OpenEuler 24.03 - WSL - MOVIE
+https://www.youtube.com/watch?v=vzwh6f4ah4s
+
+
+                 `.cc.`                                    `.cc.`
+             ``.cccccccc..`                            ``.cccccccc..`
+          `.cccccccccccccccc.`                      `.cccccccccccccccc.`
+      ``.cccccccccccccccccccccc.``              ``.cccccccccccccccccccccc.``
+   `..cccccccccccccccccccccccccccc..`        `..cccccccccccccccccccccccccccc..`
+`.ccccccccccccccc/++/ccccccccccccccccc.`  `.ccccccccccccccc/++/ccccccccccccccccc.`
+.cccccccccccccccmNMMNdo+oso+ccccccccccc.  .cccccccccccccccmNMMNdo+oso+ccccccccccc.
+.cccccccccc/++odms+//+mMMMMm/:+syso/cccc  .cccccccccc/++odms+//+mMMMMm/:+syso/cccc
+.cccccccccyNNMMMs:::/::+o+/:cdMMMMMmcccc  .cccccccccyNNMMMs:::/::+o+/:cdMMMMMmcccc
+.ccccccc:+NmdyyhNNmNNNd:ccccc:oyyyo:cccc  .ccccccc:+NmdyyhNNmNNNd:ccccc:oyyyo:cccc
+.ccc:ohdmMs:cccc+mNMNmyccccccccccccccccc  .ccc:ohdmMs:cccc+mNMNmyccccccccccccccccc
+.cc/NMMMMMo////:c:///:cccccccccccccccccc  .cc/NMMMMMo////:c:///:cccccccccccccccccc
+.cc:syysyNMNNNMNyccccccccccccccccccccccc  .cc:syysyNMNNNMNyccccccccccccccccccccccc
+.cccccccc+MMMMMNyc:/+++/cccccccccccccccc  .cccccccc+MMMMMNyc:/+++/cccccccccccccccc
+.cccccccccohhhs/comMMMMNhccccccccccccccc  .cccccccccohhhs/comMMMMNhccccccccccccccc
+.ccccccccccccccc:MMMMMMMM/cccccccccccccc  .ccccccccccccccc:MMMMMMMM/cccccccccccccc
+.ccccccccccccccccsNNNNNd+cccccccccccccc.  .ccccccccccccccccsNNNNNd+cccccccccccccc.
+`..cccccccccccccccc/+/:cccccccccccccc..`  `..cccccccccccccccc/+/:cccccccccccccc..`
+   ``.cccccccccccccccccccccccccccc.``        ``.cccccccccccccccccccccccccccc.``
+       `.cccccccccccccccccccccc.`                `.cccccccccccccccccccccc.`
+          ``.cccccccccccccc.``                      ``.cccccccccccccc.``
+              `.cccccccc.`                              `.cccccccc.`
+                 `....`                                    `....`
+
+
+About OpenEuler 24.03 - https://www.openeuler.org/en
+
+OpenEuler is an open source project incubated and operated by the
+OpenAtom Foundation. EulerOS is a commercial Linux distribution developed
+by Huawei based on Red Hat Enterprise Linux. To provide an operating system
+for server and cloud environments. Its open-source community version
+is known as openEuler, of which source code was released by Huawei at
+Gitee on December 31, 2019. OpenEuler became an open-source project 
+operated by OpenAtom Foundation after Huawei donated the source code 
+of openEuler to the foundation on November.  
+
+About DEEPIN Desktop - https://www.deepin.org/en/dde
+
+Deepin is an elegant, easy to use and reliable desktop
+operating system released by Deepin Technology Co., Ltd.
+Featured applications are preinstalled in deepin. 
+It caters to a variety of recreational activities while
+also fulfilling your daily needs. With continually
+improved and perfected functions, we believe deepin
+will be loved and used by more and more users.
+
+
+You Cane Find More Stuff for WSL and Linux for Windows 11 here
+https://github.com/vinberg88/opensuse
+
+------------------------------------------------------
+
+FIRST - LOGIN AS ROOT AND SET PASSWORD
+
+Type passwd in root and set password: passwd
+
+Do that for your user to. In my case: passwd ove
+
+------------------------------------------------------
+
+Install Nano..
+
+sudo dnf install nano
+
+-----------------------------------
+
+Install fast mirrors or repos for openEuler 24.03
+
+Run this first
+
+sudo dnf install dnf-utils
+
+Then do this..
+
+sudo nano /etc/dnf/dnf.conf
+
+Add the following line: fastestmirror=True
+
+Like That..
+
+fastestmirror=True
+
+-----------------------------------
+
+Paste in terminal: sudo nano /etc/wsl.conf
+
+[boot]
+systemd=true
+
+-----------------------------------
+
+Paste all in terminal. No errors i Console.
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf 
+
+-----------------------------------
+
+Add extra Repos - EPEL - OpenEuler 24.03
+
+sudo curl -o /etc/yum.repos.d/epel-OpenEuler.repo https://down.whsir.com/downloads/epel-OpenEuler.repo
+
+-----------------------------------
+
+Reboot Reboot Reboot Reboot Reboot Reboot - OpenEuler 24.03
+
+-----------------------------------
+
+Update All by paste this in Console - OpenEuler
+
+sudo dnf upgrade --refresh
+
+-----------------------------------
+
+Install some basic programs for DEEPIN Desktop and OpenEuler.
+
+sudo dnf install wget git nano bash sudo curl npm dbus
+
+-----------------------------------
+
+Time to install DEEPIN Desktop for openEuler 24.03
+
+sudo dnf install dde
+
+---------------------------------
+
+Install Hyfetch - Its a must =] Neofetch is Dead - RIP NEOFETCH!
+
+sudo curl -fsSL lure.sh/install | bash
+
+Then copy and paste this: lure in hyfetch
+
+Test by typing hyfetch in terminal: hyfetch
+
+-----------------------------------
+
+Install Visual Studio Code - Microsoft
+
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" | sudo tee /etc/yum.repos.d/vscode.repo > /dev/null
+
+sudo dnf install code
+
+-----------------------------------
+
+Install Google-Chrome - paste all under this paragraph in terminal.
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm
+sudo yum update google-chrome-stable
+
+-----------------------------------
+
+Copy and Paste in Terminal.
+
+sudo systemctl set-default graphical.target
+
+----------------------------------------------------------------
+
+Reboot Linux - Reboot Linux - Reboot Linux - Reboot Linux - OpenEuler
+
+----------------------------------------------------------------
+
+Start from GWSL and config - Then Reboot and start from GWSL SHELL.
+
+            " NOTE - TAKE AN EXTRA REBOOT - Start Shell from GWSL "
+
+----------------------------------------------------------------
+
+Type in terminal: sudo nano ~/.bash_dde_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------------------------
+
+Reboot Linux - Reboot Linux - Reboot Linux - Reboot Linux - OpenEuler 24.03
+
+       " Start Shell from GWSL "
+
+-----------------------------------
+
+Done - Time to start from terminal and DEEPIN Desktop will start!
+
+Copy and paste this in Console: . ~/.bash_dde_desktop
+Copy and paste this in Console: exec dbus-run-session /usr/bin/startdde
+
+              " Just wait it will start, it take some time "
+
+--------------------------------------------------------------
+
+Regards Mattias Vinberg - OpenEuler 24.03 - DEEPIN - Linux - WSL - GWSL - Windows 11 - Sweden - 2024
+
+----------------------------------------------------------------
