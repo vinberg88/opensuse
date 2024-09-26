@@ -27,6 +27,59 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+AlmaLinux - Install KDE Plasma via AlmaLinux - Windows 11 - WSL - GWSL - Linux - 2024
+
+AlmaLinux - You can find AlmaLinux in Microsoft Store for WSL or here.
+
+https://apps.microsoft.com/detail/9p5rwlm70sn9?hl=en-US&gl=US
+
+How to install KDE desktop via AlmaLinux och Windows 11 - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/AlmaLinux-KDE.txt
+
+How to install KDE desktop via AlmaLinux och Windows 11 - MOVIE
+
+https://www.youtube.com/watch?v=thgS6wxZ2nI
+
+![AlmaLinux-KDE](https://github.com/user-attachments/assets/0b572c07-3203-45ff-9806-d01f93e4f905)
+
+About AlmaLinux OS - https://almalinux.org
+
+AlmaLinux OS is an open-source, community-driven Linux 
+operating system that fills the gap left by the discontinuation
+of the CentOS Linux stable release. AlmaLinux OS is an Enterprise
+Linux distro, binary compatible with RHEL®, and guided and built
+by the community. As a standalone, completely free OS, AlmaLinux OS
+enjoys $1M in annual sponsorship from CloudLinux Inc. and support
+from more than 25 other sponsors. Ongoing development efforts
+are governed by the members of the community. The AlmaLinux OS 
+Foundation is a 501(c)(6) non-profit created for the benefit of
+the AlmaLinux OS community.
+
+About KDE Desktop https://kde.org
+
+KDE is an international team co-operating on 
+development and distribution of Free, Open
+Source Software for desktop and portable
+computing. Our community has developed a
+wide variety of applications for communication, 
+work, education and entertainment. We have a
+strong focus on finding innovative solutions to
+old and new problems, creating a vibrant, open
+atmosphere for experimentation. KDE is The 
+next generation desktop for Linux. Use KDE
+software to surf the web, keep in touch with
+colleagues, friends and family, manage your
+files, enjoy music and videos; and get creative
+and productive at work. The KDE community develops
+and maintains more than 200 applications
+which run on any Linux desktop, and often
+other platforms too.
+
+Regards Mattias Vinberg - AlmaLinux - KDE - Windows 11 - WSL - GWSL - Linux - Sweden - 2024
+
+---------------------------------------------
+
 OpenEuler - Install DEEPIN Desktop via openEuler 24.03 - WSL - Windows 11 - GWSL - LINUX - 2024
 
 You can find OpenEuler 24.03 here or in Microsoft store
