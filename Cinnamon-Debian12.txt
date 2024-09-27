@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------
  
-How to install Cinnamon Desktop on Debian 12 - WSL - WGSL - Windows 11 Pr0
+Debian - How to install Cinnamon Desktop on Debian 12 - WSL - GWSL - LINUX - Windows 11 Pr0
 
 
        _,met$$$$$gg.    
