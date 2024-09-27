@@ -27,6 +27,59 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Ubuntu 24.04 - Install KDE on Ubuntu via Windows 11 - WSL - GWSL - LINUX - 2024
+
+You can find Ubuntu 24.04 in microsoft store or via this link.
+
+https://apps.microsoft.com/detail/9nz3klhxdjp5?hl=en-US&gl=US
+
+How to install KDE desktop via windows 11 and WSL - Ubuntu 24.04 - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu24.04-kde-plasma.txt
+
+How to install KDE desktop via windows 11 and WSL - Ubuntu 24.04 - MOVIE
+
+https://www.youtube.com/watch?v=QRUSt9Vp6Tc
+
+![Ubuntu](https://github.com/user-attachments/assets/c04cd90b-79b3-4c4a-bbc4-b551e9b4b456)
+
+About Ubuntu - https://ubuntu.com
+
+Ubuntu is an ancient African word meaning ‘humanity to others’.
+It is often described as reminding us that ‘I am what I am
+because of who we all are’. We bring the spirit of Ubuntu
+to the world of computers and software. The Ubuntu 
+distribution represents the best of what the world’s software
+community has shared with the world. Canonical is the
+publisher of Ubuntu. Members of the Canonical team lead
+aspects of Ubuntu such as the kernel, default desktop,
+foundations, security, OpenStack, and Kubernetes. 
+The first official Ubuntu release — Version 4.10, codenamed
+the ‘Warty Warthog’ — was launched in October 2004, and
+sparked dramatic global interest as thousands of free
+software enthusiasts and experts joined the Ubuntu community.
+Ubuntu today has many flavours and dozens of specialised 
+derivatives. There are also special editions for servers, OpenStack
+clouds, and connected devices. All editions share common
+infrastructure and software, making Ubuntu a unique single
+platform that scales from consumer electronics to the desktop
+and up into the cloud for enterprise computing.
+
+About KDE Plasma - https://kde.org
+
+KDE is the next generation desktop for Linux. 
+Use KDE software to surf the web, keep in touch
+with colleagues, friends and family, manage your
+files, enjoy music and videos; and get creative and
+productive at work. The KDE community develops
+and maintains more than 200 applications which
+run on any Linux desktop, and often other platforms
+too.
+
+Regards Mattias Vinberg - Ubuntu 24.04 - KDE PLASMA - WSL - GWSL - WINDOWS 11 - SWEDEN - 2024
+
+---------------------------------------------
+
 AlmaLinux - Install KDE Plasma via AlmaLinux - Windows 11 - WSL - GWSL - Linux - 2024
 
 AlmaLinux - You can find AlmaLinux in Microsoft Store for WSL or here.
