@@ -1,7 +1,7 @@
-Debian - How to install Gnome on Debian via Windows 11 - WSL - GWSL - LINUX - 2024 - YouTube
+Debian - How to install Gnome on Debian via Windows 11 - WSL - GWSL - LINUX - 2024
 
 How to install Gnome Desktop on Debian - TEXT - WSL - GWSL
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/Debian12-GNOME.txt
 
 How to install Gnome Desktop on Debian - VIDEO - WSL - GWSL
 https://www.youtube.com/watch?v=yTVhY168H-I
