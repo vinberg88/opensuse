@@ -27,6 +27,60 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Debian - How to install Gnome on Debian 12 via Windows 11 - WSL - GWSL - LINUX - 2024 - GitHub
+
+How to install Gnome Desktop on Debian - TEXT - WSL - GWSL
+
+https://github.com/vinberg88/opensuse/blob/main/Debian12-GNOME.txt
+
+How to install Gnome Desktop on Debian - VIDEO - WSL - GWSL
+
+https://www.youtube.com/watch?v=yTVhY168H-I
+
+You can find Debian here or in Microsoft Store
+
+https://apps.microsoft.com/detail/9msvkqc78pk6?hl=en-US&gl=US
+
+![Debian12-GNOME](https://github.com/user-attachments/assets/b886b94d-7448-42fe-b337-f1b5a1f73942)
+
+About Debian - 2024 - https://www.debian.org
+
+Debian is a popular and freely available computer
+operating system (OS) that uses a Unix-like
+kernel-- typically Linux -- alongside other program
+components, many of which come from GNU Project. 
+Debian can be downloaded over the internet or, for
+a small charge, obtained on CD, DVD, Blu-ray disc or
+USB flash drive. There are a lot of reasons to choose
+Debian as your operating system – as a user, as a
+developer, and even in enterprise environments. Most
+users appreciate the stability, and the smooth upgrade
+processes of both packages and the entire distribution.
+Debian is also widely used by software and hardware developers
+because it runs on numerous architectures and devices, offers
+a public bug tracker and other tools for developers. If
+you plan to use Debian in a professional environment, there
+are additional benefits like LTS versions and cloud images.
+
+About Gnome Desktop - 2024 - https://www.gnome.org
+
+Get things done with ease, comfort, and control.
+An easy and elegant way to use your 
+computer, GNOME is designed to help you 
+have the best possible computing experience. 
+Every aspect of GNOME has been crafted to fit 
+together as a harmonious whole, providing a 
+consistent and integrated experience. 
+Our attention to detail means a smooth and 
+polished product that lets you do the things you 
+want without getting in the way. 
+GNOME is satisfying to use and beautiful 
+to behold.
+
+Regards Mattias Vinberg - DEBIAN - Gnome - Linux - Wsl - GWSL - WINDOWS 11 - Sweden - 2024
+
+---------------------------------------------
+
 Ubuntu 24.04 - Install KDE on Ubuntu via Windows 11 - WSL - GWSL - LINUX - 2024
 
 You can find Ubuntu 24.04 in microsoft store or via this link.
