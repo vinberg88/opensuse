@@ -4,7 +4,7 @@ You can find Ubuntu 24.04 in microsoft store or via this link.
 https://apps.microsoft.com/detail/9nz3klhxdjp5?hl=en-US&gl=US
 
 How to install KDE desktop via windows 11 and WSL - Ubuntu 24.04 - TEXT
-Cooming Zone….
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu24.04-kde-plasma.txt
 
 How to install KDE desktop via windows 11 and WSL - Ubuntu 24.04 - MOVIE
 https://www.youtube.com/watch?v=QRUSt9Vp6Tc
