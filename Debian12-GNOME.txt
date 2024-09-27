@@ -1,0 +1,201 @@
+Debian - How to install Gnome on Debian via Windows 11 - WSL - GWSL - LINUX - 2024 - YouTube
+
+How to install Gnome Desktop on Debian - TEXT - WSL - GWSL
+Comming Zone...
+
+How to install Gnome Desktop on Debian - VIDEO - WSL - GWSL
+https://www.youtube.com/watch?v=yTVhY168H-I
+
+
+
+       _,met$$$$$gg.                _,met$$$$$gg.
+    ,g$$$$$$$$$$$$$$$P.          ,g$$$$$$$$$$$$$$$P.
+  ,g$$P"        "\""Y$$.".     ,g$$P"        "\""Y$$.".
+ ,$$P'              `$$$.     ,$$P'              `$$$.
+',$$P       ,ggs.     `$$b:  ',$$P       ,ggs.     `$$b:
+`d$$'     ,$P"'   .    $$$   `d$$'     ,$P"'   .    $$$
+ $$P      d$'     ,    $$P    $$P      d$'     ,    $$P  OS: WINDOWS 11
+ $$:      $$.   -    ,d$$'    $$:      $$.   -    ,d$$'  OS: Debian GNU/Linux 12.7
+ $$;      Y$b._   _,d$P'      $$;      Y$b._   _,d$P'    DE: Gnome Desktop 43.9
+ Y$$.    `.`"Y$$$$P"'         Y$$.    `.`"Y$$$$P"'       Master: Vinberg - Sweden
+ `$$b      "-.__              `$$b      "-.__ 
+  `Y$$                         `Y$$
+   `Y$$.                        `Y$$.
+     `$$b.                        `$$b.
+       `Y$$b.                       `Y$$b.
+          `"Y$b._                      `"Y$b._
+              `"\""                        `"\""
+
+
+
+You can find Debian here or in Microsoft Store
+https://apps.microsoft.com/detail/9msvkqc78pk6?hl=en-US&gl=US
+
+About Debian - 2024 - https://www.debian.org
+
+Debian is a popular and freely available computer
+operating system (OS) that uses a Unix-like
+kernel-- typically Linux -- alongside other program
+components, many of which come from GNU Project. 
+Debian can be downloaded over the internet or, for
+a small charge, obtained on CD, DVD, Blu-ray disc or
+USB flash drive. There are a lot of reasons to choose
+Debian as your operating system – as a user, as a
+developer, and even in enterprise environments. Most
+users appreciate the stability, and the smooth upgrade
+processes of both packages and the entire distribution.
+Debian is also widely used by software and hardware developers
+because it runs on numerous architectures and devices, offers
+a public bug tracker and other tools for developers. If
+you plan to use Debian in a professional environment, there
+are additional benefits like LTS versions and cloud images.
+
+About Gnome Desktop - 2024 - https://www.gnome.org
+
+Get things done with ease, comfort, and control.
+An easy and elegant way to use your 
+computer, GNOME is designed to help you 
+have the best possible computing experience. 
+Every aspect of GNOME has been crafted to fit 
+together as a harmonious whole, providing a 
+consistent and integrated experience. 
+Our attention to detail means a smooth and 
+polished product that lets you do the things you 
+want without getting in the way. 
+GNOME is satisfying to use and beautiful 
+to behold.
+
+Find More Here About WSL and Linux for Windows 11 - Wsl - Gwsl
+https://github.com/vinberg88/opensuse
+
+⢀⣴⠾⠻⢶⣦⠀
+⣾⠁⢠⠒⠀⣿⡁ Debian - The universal operating system
+⢿⡄⠘⠷⠚⠋⠀ https://www.debian.org
+⠈⠳⣄⠀⠀    Mattias Vinberg - SWEDEN 2024
+
+------------------------------------------------
+
+Paste in terminal and enable systemd
+
+sudo nano /etc/wsl.conf 
+
+and add
+
+[boot]
+systemd=true
+
+------------------------------------------------
+
+Paste all to terminal and klick enter - Remove Errors from Bash
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+------------------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot Reboot Debian
+
+------------------------------------------------
+
+Update All - Importent
+
+sudo apt update && sudo apt upgrade
+
+------------------------------------------------
+
+Install some programs for Debian - Copy and paste all.
+
+sudo apt install bash git npm wget curl nano sudo pipx dracut dbus* -y
+sudo apt install gdm3* -y
+sudo apt install gdm* -y
+sudo systemctl set-default graphical
+
+------------------------------------------------
+
+Install this small program. Neofetch is Dead =]
+
+pipx install hyfetch
+pipx ensurepath
+
+To test type this in terminal. You maybe need to restart Console: hyfetch
+
+------------------------------------------------
+
+Install Chrome Browser
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+------------------------------------------------
+
+Install Blanket if you Want! - Listen to Sounds =]
+
+wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb -y
+
+------------------------------------------------
+
+Reboot Linux... Reboot Linux... Reboot Linux... Reboot Linux...
+
+------------------------------------------------
+
+Config GWSL and start from Linux Shell / Bash / Console / Terminal
+
+   " Take an extra Reboot after config - Start from GWSL bash =] "
+
+------------------------------------------------
+
+Paste in Terminal
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+
+------------------------------------------------
+
+Time to install Gnome for Debian... 
+
+sudo apt install gnome
+
+If you want all after install gnome: sudo apt install gnome*
+
+------------------------------------------------
+
+In terminal type: sudo nano ~/.bash_debian_desktop
+
+Paste this in terminal and save.
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+------------------------------------------------
+
+Install this - just paste all in terminal - Follow instructions...
+
+git clone https://github.com/DamionGans/ubuntu-wsl2-systemd-script.git
+cd ubuntu-wsl2-systemd-script/
+bash ubuntu-wsl2-systemd-script.sh
+
+------------------------------------------------
+
+Reboot Debian - Reboot Debian - Reboot Debian - Reboot Debian
+
+---------------------------------------------------
+
+Now we can start GNOME via Debian 12
+
+Paste in terminal: . ~/.bash_debian_desktop
+
+Type in terminal: dbus-launch gnome-session
+
+---------------------------------------------------
+
+Regards Mattias Vinberg - DEBIAN - Gnome - Linux - Wsl - GWSL - WINDOWS 11 - Sweden - 2024
+
+---------------------------------------------------
