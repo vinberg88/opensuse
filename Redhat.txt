@@ -1,13 +1,121 @@
-How to install Redhat 9 "Gnome" as desktop via Windows 11 - 2023
+Redhat 9 - Have to install GNOME desktop via Redhat - WSL - GWSL - Windows 11 - Linux - 2024
 
----------------------------------------------------
+How to install GNOME desktop via Redhat 9 - TEXT
+https://github.com/vinberg88/opensuse/blob/main/REDHAT-GNOME.txt
 
-1. Paste in terminal: sudo nano /etc/wsl.conf
+How to install GNOME desktop via Redhat 9 - MOVIE
+https://www.youtube.com/watch?v=D9XUWXOgDNY
 
-[boot]
-systemd=true
+You Can Find Redhat 9 Here for WSL - GWSL - Window 11 - Linux - Follow instructions.
+https://developers.redhat.com/articles/2023/11/15/create-customized-rhel-images-wsl-environment#prerequisites
 
-2. Paste all in terminal
+RedHat 9 and Gnome Desktop - vinberg Sweden - WSL - 2024
+
+
+           .MMM..:MMMMMMM                            .MMM..:MMMMMMM
+          MMMMMMMMMMMMMMMMMM                        MMMMMMMMMMMMMMMMMM
+          MMMMMMMMMMMMMMMMMMMM.                     MMMMMMMMMMMMMMMMMMMM.
+         MMMMMMMMMMMMMMMMMMMMMM                    MMMMMMMMMMMMMMMMMMMMMM
+        ,MMMMMMMMMMMMMMMMMMMMMM:                  ,MMMMMMMMMMMMMMMMMMMMMM:
+        MMMMMMMMMMMMMMMMMMMMMMMM                  MMMMMMMMMMMMMMMMMMMMMMMM
+  .MMMM'  MMMMMMMMMMMMMMMMMMMMMM            .MMMM'  MMMMMMMMMMMMMMMMMMMMMM
+ MMMMMM    `MMMMMMMMMMMMMMMMMMMM.          MMMMMM    `MMMMMMMMMMMMMMMMMMMM.
+MMMMMMMM      MMMMMMMMMMMMMMMMMM .        MMMMMMMM      MMMMMMMMMMMMMMMMMM .
+MMMMMMMMM.       `MMMMMMMMMMMMM' MM.      MMMMMMMMM.       `MMMMMMMMMMMMM' MM.
+MMMMMMMMMMM.                     MMMM     MMMMMMMMMMM.                     MMMM
+`MMMMMMMMMMMMM.                 ,MMMMM.   `MMMMMMMMMMMMM.                 ,MMMMM.
+ `MMMMMMMMMMMMMMMMM.          ,MMMMMMMM.   `MMMMMMMMMMMMMMMMM.          ,MMMMMMMM.
+    MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM      MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+      MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM:        MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM:
+         MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM            MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+            `MMMMMMMMMMMMMMMMMMMMMMMM:                `MMMMMMMMMMMMMMMMMMMMMMMM:
+                ``MMMMMMMMMMMMMMMMM'                      ``MMMMMMMMMMMMMMMMM''              
+
+
+
+About Redhat 9 - https://www.Redhat.com/en
+
+Red Hat is the leading provider of enterprise open source
+software—including Linux®, hybrid cloud, AI, and automation
+technologies. We work alongside a community of contributors,
+customers, and partners to build technology that unlocks
+opportunities for innovation, everywhere. With engineers
+connected to open source communities, the freedom of our
+subscription model, and a broad portfolio of Products
+that's constantly expanding, Red Hat is here to help
+you face your business challenges head-on. We're 
+successful because we stay true to the original intent
+of open source. Red Hat taps into the collective talent
+and innovation of open source communities to produce
+better software. Red Hatters are empowered to
+contribute their ideas and skills, no matter their
+job title. Passionate, diverse groups of people are
+free to debate, collaborate, and take action.
+Together, we create an environment where the best
+ideas thrive. Red Hat delivers hardened, open source
+solutions that make it easier for enterprises to work
+across platforms and environments, from the core datacenter
+to the network edge. By operating transparently and 
+responsibly, we continue to be a catalyst in open 
+source communities, helping you build flexible, powerful
+IT infrastructure solutions. 
+
+About GNOME desktop - https://www.gnome.org
+
+GNOME is designed to help you have the best possible computing
+experience. Every aspect of GNOME has been crafted to fit together
+as a harmonious whole, providing a consistent and integrated 
+experience. Our attention to detail means a smooth and polished
+product that lets you do the things you want without getting
+in the way. GNOME is satisfying to use and beautiful to behold.
+GNOME provides a focused working environment that helps you get
+things done. It is packed with features that will make you more
+productive: a powerful search feature that helps you access all
+your work from one place; side-by-side windows that make it easy
+to view several documents at the same time; seamless integration
+with online accounts which allows you to access all your data in
+one place; and a messaging system that comfortably deals with 
+notifications, letting you quickly respond in place or return to 
+them in a convenient time. Gnome desktop is my favorite!
+
+Find More Stuff here About WSL - Windows - Linux
+https://github.com/vinberg88/opensuse
+
+------------------------------------------------------
+
+First thing after install Redhat login as root and install this
+
+sudo dnf install sudo nano
+
+------------------------------------------------------
+
+Check if the product is registered - Redhat 9
+
+Copy and paste this in terminal: sudo subscription-manager register
+
+------------------------------------------------------
+
+Install fastmirrors or repos for Redhat 9
+
+Run this first
+
+sudo dnf check-update
+sudo dnf install dnf-utils
+
+Then do this..
+
+sudo nano /etc/dnf/dnf.conf
+
+Add the following line: max_parallel_downloads=10 and fastestmirror=True
+
+Like That..
+
+max_parallel_downloads=10
+fastestmirror=True
+
+------------------------------------------------------
+
+Paste all in terminal
 
 ln -s libcuda.so.1.1 libcuda.so.1
 ln -s libcuda.so.1.1 libcuda.so
@@ -16,185 +124,140 @@ sudo mkdir /usr/lib/wsl/lib2
 sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
 echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
 
-.....................................................
+-----------------------------------
 
-2.5 Extra - install this after you have installed all as root 
-Like neofetch but more gay...
+Reboot Reboot Reboot Reboot Reboot Reboot - Redhat 9
 
-Paste in terminal - pipx needed!
+-----------------------------------
 
-pipx install hyfetch
-pipx ensurepath
+Paste all in terminal... Install extra Repos for Redhat 9
 
------------------------------------------------------
+sudo dnf install \
+https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm
+sudo /usr/bin/crb enable
 
-3. Reboot and Update: sudo dnf update
+------------------------------------------------------
 
------------------------------------------------------
+Update all - Paste this in Terminal.
 
-4. Log in as root user and paste in terminal. Not all - no stress...
+sudo dnf upgrade --refresh
 
-dnf install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm
-rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-9
-dnf install -y https://dl.fedoraproject.org/pub/epel/epel-next-release-latest-9.noarch.rpm
+------------------------------------------------------
 
-/usr/bin/crb enable
+Install some Programs - Redhat 9
 
-dnf install -y --nogpgcheck https://mirrors.rpmfusion.org/free/el/rpmfusion-free-release-9.noarch.rpm https://mirrors.rpmfusion.org/nonfree/el/rpmfusion-nonfree-release-9.noarch.rpm
-rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-free-el-9
-rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-nonfree-el-9
+sudo dnf install git wget curl bash pipx dracut net-tools dbus-x11 dbus* systemd procps bind-utils iproute iputils nmap-ncat --skip-broken --nobest --allowerasing
 
-dnf check-update -y
+------------------------------------------------------
 
-dnf install git wget curl nano bash pipx sudo dracut net-tools dbus-x11 --allowerasing
+Time to install Gnome Desktop for Redhat 9.
 
-dnf upgrade -y
-dnf install -y systemd dbus-x11 procps bind-utils iproute iputils nmap-ncat
-dnf swap -y curl-minimal curl
-dnf swap -y coreutils-single coreutils
-dnf groupinstall -y "Server with GUI"
-dnf kpatch auto
-yum install gnome*
+sudo dnf groupinstall -y "Server with GUI" --allowerasing --skip-broken --nobest
 
+------------------------------------------------------
+
+Please install this - Extra Programs for Redhat 9 and GNOME.
+
+sudo yum install gnome* -y
+sudo yum install gdm* -y
+sudo dnf install -y gnome-extensions-app gnome-shell-extension-dash-to-dock
+sudo dnf install -y gnome-shell-extension-window-list dconf-editor
+
+------------------------------------------------------
+
+Install Google-Chrome - paste all under this paragraph:
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
 sudo yum install ./google-chrome-stable_current_*.rpm
 sudo yum update google-chrome-stable
 
-dnf install -y gnome-extensions-app gnome-shell-extension-dash-to-dock
-dnf install -y gnome-shell-extension-window-list dconf-editor
+-----------------------------------
 
-dnf check-update -y
-dnf install -y ffmpeg
+Install Visual Studio Code
 
-mkdir -p /etc/polkit-1/localauthority/50-local.d/
-cat >/etc/polkit-1/localauthority/50-local.d/color.pkla <<'EOF'
-[Allow colord for all users]
-Identity=unix-user:*
-Action=org.freedesktop.color-manager.create-device;org.freedesktop.color-manager.create-profile;org.freedesktop.color-manager.delete-device;org.freedesktop.color-manager.delete-profile;org.freedesktop.color-manager.modify-device; org.freedesktop.color-manager.org.freedesktop.color-manager.modify-profile
-ResultAny=yes
-ResultInactive=yes
-ResultActive=yes
-EOF
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpg
+key=https://packages.microsoft.com/keys/microsoft.asc" | sudo tee /etc/yum.repos.d/vscode.repo > /dev/null
 
-systemctl set-default multi-user.target
+sudo dnf check-update
+sudo dnf install code
 
-mkdir -p /etc/systemd/system/ModemManager.service.d
+-----------------------------------
 
-echo -e "[Unit]\nConditionVirtualization=\n" > /etc/systemd/system/ModemManager.service.d/override.conf
+Install Hyfetch - like Neofetch but more FUN =)
 
-mkdir -p /etc/systemd/system/fwupd.service.d
+pipx install hyfetch
+pipx ensurepath
 
-echo -e "[Unit]\nConditionVirtualization=\n" > /etc/systemd/system/fwupd.service.d/override.conf
+Put this in terminal to Test after Quick restart of terminal: hyfetch
 
-echo -e "[Install]\nWantedBy=multi-user.target\n" >> /etc/systemd/system/fwupd.service.d/override.conf
+-------------------------------------------------------------
 
-systemctl enable ModemManager.service
-systemctl enable fwupd.service
+Reboot Reboot Reboot Reboot - Redhat 9 - Reboot Reboot - Redhat 9
 
-usermod -a -G wheel adolf
-usermod -a -G rtkit adolf
-usermod -a -G pipewire adolf
+-------------------------------------------------------------
 
-mkdir -p /home/adolf/.config/systemd/user/default.target.wants
-ln -s /usr/lib/systemd/user/pipewire.service /home/adolf/.config/systemd/user/default.target.wants/pipewire.service
+Start GWSL and Config all. Then start Linux-shell from GWSL....
 
-mkdir -p /home/adolf/.config/systemd/user/sockets.target.wants
-ln -s /usr/lib/systemd/user/pipewire.socket /home/adolf/.config/systemd/user/sockets.target.wants/pipewire.socket
 
-systemctl enable rtkit-daemon.service
+                     " TAKE AN EXTRA REBOOT "
 
-mkdir -p /etc/security/limits.d
-echo -e "@pipewire - rtprio 95\n@pipewire - nice -19\n" > /etc/security/limits.d/95-pipewire.conf
+-------------------------------------------------------------
 
-echo "/bin/mount -o remount,rw /tmp/.X11-unix" >> /etc/rc.d/rc.local
-chmod 700 /etc/rc.d/rc.local
+Paste all in terminal: 
 
-mkdir -p /home/adolf/bin
+xdg-user-dirs-update
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
 
-cat >/home/adolf/bin/start-gnome <<'EOF'
-#!/bin/bash
+-------------------------------------------------------------
 
-nohup Xwayland -br -ac :1 >/dev/null 2>&1 &
-env DISPLAY=:1 WAYLAND_DISPLAY= XDG_SESSION_TYPE=x11 gnome-session --disable-acceleration-check
-pkill -9 Xwayland >/dev/null 2>&1
-EOF
+Type this in terminal and put your user-name there: sudo loginctl enable-linger USER
 
-chown -R adolf:adolf /home/adolf
-chmod +x /home/adolf/bin/start-gnome
+----------------------------------------------------------------
 
-11.5 Log out from root and reboot. Login as USER and config GWSL and start linux shell from GWSL......
+Paste this one time in Console 
 
-11. Paste in terminal: xdg-user-dirs-update
+sudo mkdir /run/user/1000 && sudo chmod 700 /run/user/1000 && sudo chown $(whoami): /run/user/1000
+sudo systemctl set-default multi-user.target
 
-12. Paste in terminal: sudo systemctl set-default multi-user.target
+----------------------------------------------------------------
 
-13. Paste in terminal: sudo systemctl set-default graphical.target  
+In terminal type: sudo nano ~/.bash_Redhat_desktop
 
-14. Paste in terminal : sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
-
-16. Type this in terminal: sudo mkdir /run/user/1000 && sudo chmod 700 /run/user/1000 && sudo chown $(whoami): /run/user/1000
-
-16.5 Paste in terminal: sudo mkdir -p /var/lib/systemd/linger
-                        sudo touch /var/lib/systemd/linger/$USER
-
-17. In terminal type: sudo nano ~/.bash_ubuntu_desktop
-
-Paste this in terminal and save and quit.
-
-# Vinberg - Fyren 1488
-# Start to flight adolf!
-# --------------------
-# Setting up essential environment variables
-# --------------------
-
-export XDG_CURRENT_DESKTOP=ubuntu:GNOME
-export XDG_SESSION_DESKTOP=ubuntu
-export DESKTOP_SESSION=ubuntu
-export GNOME_SHELL_SESSION_MODE=ubuntu
-
-# Commonly referenced environment variables for X11 sessions
-# https://specifications.freedesktop.org/basedir-spec/latest/
-
-export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
-export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
-export XDG_MENU_PREFIX=gnome-
+Paste this small script in terminal and save and quit nano.
 
 export XDG_SESSION_TYPE=x11
 export XDG_SESSION_CLASS=user
 export GDK_BACKEND=x11
 
-# Disables using Direct3D in Mesa 3D graphics library
 export LIBGL_ALWAYS_SOFTWARE=1
 
---------------------------------------------------
+-------------------------------------------
 
-18. Reboot
+Reboot Reboot Reboot - Redhat and start from GWSL Shell.
 
-18.5 Paste all in terminal: 
+-------------------------------------------
+Time to start Gnome desktop and Redhat 9
 
-git clone https://github.com/DamionGans/ubuntu-wsl2-systemd-script.git
-cd ubuntu-wsl2-systemd-script/
-bash ubuntu-wsl2-systemd-script.sh
+Paste in terminal: . ~/.bash_Redhat_desktop
+    
+Copy and paste This: xhost +
 
-18.7 Reboot
+Copy and paste This: dbus-launch gnome-session
 
-19. Paste in terminal: . ~/.bash_ubuntu_desktop
+" You may need to restart Gnome 2 times for best experiences "
 
-20. Type in terminal: dbus-launch gnome-session
+-------------------------------------------
 
-21. If i not works paste in terminal this below... You maybe need to reboot agian..
+Regards Mattias Vinberg - Sweden - Redhat - Gnome - WSL - Windows 11 - Linux - GWSL - 2024
 
-22. Paste in Terminal: sudo systemctl set-default multi-user.target
+-------------------------------------------
 
-And reboot
+Linux® is the registered trademark of Linus Torvalds in the U.S. and
+other countries. Red Hat Enterprise Linux, RHEL and CentOS are trademarks
+or registered trademarks of Red Hat, Inc. or its subsidiaries in the US
+and other countries. We are not affiliated with, endorsed by or
+sponsored by Red Hat, Inc.
 
-23. Paste all: . ~/.bash_ubuntu_desktop
-dbus-launch gnome-session
-
-Regards,
-Vinberg - 2023
-
---------------------------------------------------
-
-
+-------------------------------------------
