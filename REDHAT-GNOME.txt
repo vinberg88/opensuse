@@ -1,7 +1,7 @@
 Redhat 9 - Have to install GNOME desktop via Redhat - WSL - GWSL - Windows 11 - Linux - 2024
 
 How to install GNOME desktop via Redhat 9 - TEXT
-Comming Zone…
+https://github.com/vinberg88/opensuse/blob/main/REDHAT-GNOME.txt
 
 How to install GNOME desktop via Redhat 9 - MOVIE
 https://www.youtube.com/watch?v=D9XUWXOgDNY
@@ -176,7 +176,8 @@ sudo yum update google-chrome-stable
 Install Visual Studio Code
 
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
-echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" | sudo tee /etc/yum.repos.d/vscode.repo > /dev/null
+echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpg
+key=https://packages.microsoft.com/keys/microsoft.asc" | sudo tee /etc/yum.repos.d/vscode.repo > /dev/null
 
 sudo dnf check-update
 sudo dnf install code
