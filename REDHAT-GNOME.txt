@@ -1,0 +1,262 @@
+Redhat 9 - Have to install GNOME desktop via Redhat - WSL - GWSL - Windows 11 - Linux - 2024
+
+How to install GNOME desktop via Redhat 9 - TEXT
+Comming Zone…
+
+How to install GNOME desktop via Redhat 9 - MOVIE
+https://www.youtube.com/watch?v=D9XUWXOgDNY
+
+You Can Find Redhat 9 Here for WSL - GWSL - Window 11 - Linux - Follow instructions.
+https://developers.redhat.com/articles/2023/11/15/create-customized-rhel-images-wsl-environment#prerequisites
+
+RedHat 9 and Gnome Desktop - vinberg Sweden - WSL - 2024
+
+
+           .MMM..:MMMMMMM                            .MMM..:MMMMMMM
+          MMMMMMMMMMMMMMMMMM                        MMMMMMMMMMMMMMMMMM
+          MMMMMMMMMMMMMMMMMMMM.                     MMMMMMMMMMMMMMMMMMMM.
+         MMMMMMMMMMMMMMMMMMMMMM                    MMMMMMMMMMMMMMMMMMMMMM
+        ,MMMMMMMMMMMMMMMMMMMMMM:                  ,MMMMMMMMMMMMMMMMMMMMMM:
+        MMMMMMMMMMMMMMMMMMMMMMMM                  MMMMMMMMMMMMMMMMMMMMMMMM
+  .MMMM'  MMMMMMMMMMMMMMMMMMMMMM            .MMMM'  MMMMMMMMMMMMMMMMMMMMMM
+ MMMMMM    `MMMMMMMMMMMMMMMMMMMM.          MMMMMM    `MMMMMMMMMMMMMMMMMMMM.
+MMMMMMMM      MMMMMMMMMMMMMMMMMM .        MMMMMMMM      MMMMMMMMMMMMMMMMMM .
+MMMMMMMMM.       `MMMMMMMMMMMMM' MM.      MMMMMMMMM.       `MMMMMMMMMMMMM' MM.
+MMMMMMMMMMM.                     MMMM     MMMMMMMMMMM.                     MMMM
+`MMMMMMMMMMMMM.                 ,MMMMM.   `MMMMMMMMMMMMM.                 ,MMMMM.
+ `MMMMMMMMMMMMMMMMM.          ,MMMMMMMM.   `MMMMMMMMMMMMMMMMM.          ,MMMMMMMM.
+    MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM      MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+      MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM:        MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM:
+         MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM            MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+            `MMMMMMMMMMMMMMMMMMMMMMMM:                `MMMMMMMMMMMMMMMMMMMMMMMM:
+                ``MMMMMMMMMMMMMMMMM'                      ``MMMMMMMMMMMMMMMMM''              
+
+
+
+About Redhat 9 - https://www.Redhat.com/en
+
+Red Hat is the leading provider of enterprise open source
+software—including Linux®, hybrid cloud, AI, and automation
+technologies. We work alongside a community of contributors,
+customers, and partners to build technology that unlocks
+opportunities for innovation, everywhere. With engineers
+connected to open source communities, the freedom of our
+subscription model, and a broad portfolio of Products
+that's constantly expanding, Red Hat is here to help
+you face your business challenges head-on. We're 
+successful because we stay true to the original intent
+of open source. Red Hat taps into the collective talent
+and innovation of open source communities to produce
+better software. Red Hatters are empowered to
+contribute their ideas and skills, no matter their
+job title. Passionate, diverse groups of people are
+free to debate, collaborate, and take action.
+Together, we create an environment where the best
+ideas thrive. Red Hat delivers hardened, open source
+solutions that make it easier for enterprises to work
+across platforms and environments, from the core datacenter
+to the network edge. By operating transparently and 
+responsibly, we continue to be a catalyst in open 
+source communities, helping you build flexible, powerful
+IT infrastructure solutions. 
+
+About GNOME desktop - https://www.gnome.org
+
+GNOME is designed to help you have the best possible computing
+experience. Every aspect of GNOME has been crafted to fit together
+as a harmonious whole, providing a consistent and integrated 
+experience. Our attention to detail means a smooth and polished
+product that lets you do the things you want without getting
+in the way. GNOME is satisfying to use and beautiful to behold.
+GNOME provides a focused working environment that helps you get
+things done. It is packed with features that will make you more
+productive: a powerful search feature that helps you access all
+your work from one place; side-by-side windows that make it easy
+to view several documents at the same time; seamless integration
+with online accounts which allows you to access all your data in
+one place; and a messaging system that comfortably deals with 
+notifications, letting you quickly respond in place or return to 
+them in a convenient time. Gnome desktop is my favorite!
+
+Find More Stuff here About WSL - Windows - Linux
+https://github.com/vinberg88/opensuse
+
+------------------------------------------------------
+
+First thing after install Redhat login as root and install this
+
+sudo dnf install sudo nano
+
+------------------------------------------------------
+
+Check if the product is registered - Redhat 9
+
+Copy and paste this in terminal: sudo subscription-manager register
+
+------------------------------------------------------
+
+Install fastmirrors or repos for Redhat 9
+
+Run this first
+
+sudo dnf check-update
+sudo dnf install dnf-utils
+
+Then do this..
+
+sudo nano /etc/dnf/dnf.conf
+
+Add the following line: max_parallel_downloads=10 and fastestmirror=True
+
+Like That..
+
+max_parallel_downloads=10
+fastestmirror=True
+
+------------------------------------------------------
+
+Paste all in terminal
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+-----------------------------------
+
+Reboot Reboot Reboot Reboot Reboot Reboot - Redhat 9
+
+-----------------------------------
+
+Paste all in terminal... Install extra Repos for Redhat 9
+
+sudo dnf install \
+https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm
+sudo /usr/bin/crb enable
+
+------------------------------------------------------
+
+Update all - Paste this in Terminal.
+
+sudo dnf upgrade --refresh
+
+------------------------------------------------------
+
+Install some Programs - Redhat 9
+
+sudo dnf install git wget curl bash pipx dracut net-tools dbus-x11 dbus* systemd procps bind-utils iproute iputils nmap-ncat --skip-broken --nobest --allowerasing
+
+------------------------------------------------------
+
+Time to install Gnome Desktop for Redhat 9.
+
+sudo dnf groupinstall -y "Server with GUI" --allowerasing --skip-broken --nobest
+
+------------------------------------------------------
+
+Please install this - Extra Programs for Redhat 9 and GNOME.
+
+sudo yum install gnome* -y
+sudo yum install gdm* -y
+sudo dnf install -y gnome-extensions-app gnome-shell-extension-dash-to-dock
+sudo dnf install -y gnome-shell-extension-window-list dconf-editor
+
+------------------------------------------------------
+
+Install Google-Chrome - paste all under this paragraph:
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm
+sudo yum update google-chrome-stable
+
+-----------------------------------
+
+Install Visual Studio Code
+
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" | sudo tee /etc/yum.repos.d/vscode.repo > /dev/null
+
+sudo dnf check-update
+sudo dnf install code
+
+-----------------------------------
+
+Install Hyfetch - like Neofetch but more FUN =)
+
+pipx install hyfetch
+pipx ensurepath
+
+Put this in terminal to Test after Quick restart of terminal: hyfetch
+
+-------------------------------------------------------------
+
+Reboot Reboot Reboot Reboot - Redhat 9 - Reboot Reboot - Redhat 9
+
+-------------------------------------------------------------
+
+Start GWSL and Config all. Then start Linux-shell from GWSL....
+
+
+                     " TAKE AN EXTRA REBOOT "
+
+-------------------------------------------------------------
+
+Paste all in terminal: 
+
+xdg-user-dirs-update
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-------------------------------------------------------------
+
+Type this in terminal and put your user-name there: sudo loginctl enable-linger USER
+
+----------------------------------------------------------------
+
+Paste this one time in Console 
+
+sudo mkdir /run/user/1000 && sudo chmod 700 /run/user/1000 && sudo chown $(whoami): /run/user/1000
+sudo systemctl set-default multi-user.target
+
+----------------------------------------------------------------
+
+In terminal type: sudo nano ~/.bash_Redhat_desktop
+
+Paste this small script in terminal and save and quit nano.
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-------------------------------------------
+
+Reboot Reboot Reboot - Redhat and start from GWSL Shell.
+
+-------------------------------------------
+Time to start Gnome desktop and Redhat 9
+
+Paste in terminal: . ~/.bash_Redhat_desktop
+    
+Copy and paste This: xhost +
+
+Copy and paste This: dbus-launch gnome-session
+
+" You may need to restart Gnome 2 times for best experiences "
+
+-------------------------------------------
+
+Regards Mattias Vinberg - Sweden - Redhat - Gnome - WSL - Windows 11 - Linux - GWSL - 2024
+
+-------------------------------------------
+
+Linux® is the registered trademark of Linus Torvalds in the U.S. and
+other countries. Red Hat Enterprise Linux, RHEL and CentOS are trademarks
+or registered trademarks of Red Hat, Inc. or its subsidiaries in the US
+and other countries. We are not affiliated with, endorsed by or
+sponsored by Red Hat, Inc.
+
+-------------------------------------------
