@@ -27,6 +27,75 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Redhat 9 - Have to install GNOME desktop via Redhat - WSL - GWSL - Windows 11 - Linux - 2024
+
+How to install GNOME desktop via Redhat 9 - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/REDHAT-GNOME.txt
+
+How to install GNOME desktop via Redhat 9 - MOVIE
+
+https://www.youtube.com/watch?v=D9XUWXOgDNY
+
+You Can Find Redhat 9 Here for WSL - GWSL - Window 11 - Linux - Follow instructions.
+
+https://developers.redhat.com/articles/2023/11/15/create-customized-rhel-images-wsl-environment#prerequisites
+
+![REDHAT-GNOME](https://github.com/user-attachments/assets/1707634c-3e75-4aab-8ee5-74b8f58875c0)
+
+About Redhat 9 - https://www.Redhat.com/en
+
+Red Hat is the leading provider of enterprise open source
+software—including Linux®, hybrid cloud, AI, and automation
+technologies. We work alongside a community of contributors,
+customers, and partners to build technology that unlocks
+opportunities for innovation, everywhere. With engineers
+connected to open source communities, the freedom of our
+subscription model, and a broad portfolio of Products
+that's constantly expanding, Red Hat is here to help
+you face your business challenges head-on. We're 
+successful because we stay true to the original intent
+of open source. Red Hat taps into the collective talent
+and innovation of open source communities to produce
+better software. Red Hatters are empowered to
+contribute their ideas and skills, no matter their
+job title. Passionate, diverse groups of people are
+free to debate, collaborate, and take action.
+Together, we create an environment where the best
+ideas thrive. Red Hat delivers hardened, open source
+solutions that make it easier for enterprises to work
+across platforms and environments, from the core datacenter
+to the network edge. By operating transparently and 
+responsibly, we continue to be a catalyst in open 
+source communities, helping you build flexible, powerful
+IT infrastructure solutions. 
+
+About GNOME desktop - https://www.gnome.org
+
+GNOME is designed to help you have the best possible computing
+experience. Every aspect of GNOME has been crafted to fit together
+as a harmonious whole, providing a consistent and integrated 
+experience. Our attention to detail means a smooth and polished
+product that lets you do the things you want without getting
+in the way. GNOME is satisfying to use and beautiful to behold.
+GNOME provides a focused working environment that helps you get
+things done. It is packed with features that will make you more
+productive: a powerful search feature that helps you access all
+your work from one place; side-by-side windows that make it easy
+to view several documents at the same time; seamless integration
+with online accounts which allows you to access all your data in
+one place; and a messaging system that comfortably deals with 
+notifications, letting you quickly respond in place or return to 
+them in a convenient time. Gnome desktop is my favorite!
+
+Find More Stuff here About WSL - Windows - Linux
+
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - Sweden - Redhat - Gnome - WSL - Windows 11 - Linux - GWSL - 2024
+
+---------------------------------------------
+
 Debian - How to install Gnome on Debian 12 via Windows 11 - WSL - GWSL - LINUX - 2024 - GitHub
 
 How to install Gnome Desktop on Debian - TEXT - WSL - GWSL
