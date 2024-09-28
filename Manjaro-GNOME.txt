@@ -4,7 +4,7 @@ X410 - X Server for Windows 11 in this video. You can find that in Microsoft Sto
 https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
 
 How to install GNOME 47 desktop via Manjaro - WSL - TEXT
-Comming ZONE
+https://github.com/vinberg88/opensuse/blob/main/Manjaro-GNOME.txt
 
 How to install GNOME 47 desktop via Manjaro - WSL - MOVIE
 https://www.youtube.com/watch?v=iMDUCGCSf8s
