@@ -1,0 +1,193 @@
+Manjaro - How to install Gnome 47 via Manjaro - Windows 11 - WSL - X410 - Linux - 2024
+
+X410 - X Server for Windows 11 in this video. You can find that in Microsoft Store or via this link.
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+How to install GNOME 47 desktop via Manjaro - WSL - TEXT
+Comming ZONE
+
+How to install GNOME 47 desktop via Manjaro - WSL - MOVIE
+https://www.youtube.com/watch?v=iMDUCGCSf8s
+
+You Can Find Manjaro Here for WSL - X410 - Windows 11 - Linux
+https://github.com/sileshn/ManjaroWSL2
+
+Manjaro and Gnome 47 - Mattias Vinberg - Sweden - WSL - LINUX - X410 - 2024
+
+
+██████████████████  ████████ 
+██████████████████  ████████ 
+██████████████████  ████████   
+██████████████████  ████████   
+████████               ████████  
+████████  ████████  ████████  OS: Windows 11 - WSL
+████████  ████████  ████████  OS: Manjaro Linux 24.1.0pre1 Xahea
+████████  ████████  ████████  DE: Gnome Desktop 47
+████████  ████████  ████████  Xserver: X410 - X Server for Windows 11 
+████████  ████████  ████████  Master:  Mattias Vinberg - Sweden
+████████  ████████  ████████
+████████  ████████  ████████
+████████  ████████  ████████
+████████  ████████  ████████
+
+
+About Manjaro Linux - https://manjaro.org
+
+Manjaro is a user-friendly Linux distribution based on the 
+independently developed Arch operating system. Within the 
+Linux community, Arch itself is renowned for being an 
+exceptionally fast, powerful, and lightweight distribution
+that provides access to the very latest cutting-edge and
+bleeding-edge software. However, Arch is also aimed at more
+experienced or technically-minded users. As such, it is
+generally considered to be beyond the reach of those who
+lack the technical expertise (or persistence) required to
+use it Developed in Austria, France, and Germany, Manjaro
+provides all the benefits of the Arch operating system
+combined with a focus on user-friendliness and accessibility.
+Manjaro follows Arch Linux and officially only offers a 
+64-bit version. Manjaro is suitable for both newcomers as 
+well as experienced Linux users. For newcomers, a user-friendly
+installer is provided, and the system itself is designed to
+work fully 'straight out of the box' with features including
+like desktops.. - Manjaro is my favorite.
+
+About GNOME desktop - https://www.gnome.org
+
+GNOME is designed to help you have the best possible computing
+experience. Every aspect of GNOME has been crafted to fit together
+as a harmonious whole, providing a consistent and integrated 
+experience. Our attention to detail means a smooth and polished
+product that lets you do the things you want without getting
+in the way. GNOME is satisfying to use and beautiful to behold.
+GNOME provides a focused working environment that helps you get
+things done. It is packed with features that will make you more
+productive: a powerful search feature that helps you access all
+your work from one place; side-by-side windows that make it easy
+to view several documents at the same time; seamless integration
+with online accounts which allows you to access all your data in
+one place; and a messaging system that comfortably deals with 
+notifications, letting you quickly respond in place or return to 
+them in a convenient time. Gnome desktop is my favorite!
+
+Find More Stuff here About WSL - Windows - Linux - X410
+https://github.com/vinberg88/opensuse
+
+---------------------------------
+
+Paste this in terminal - You wont get symbolic link error.
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+---------------------------------
+
+Paste in terminal: sudo nano /etc/pacman.conf 
+
+and change in file to
+
+# Misc options
+#UseSyslog
+Color
+ParallelDownloads = 20
+ILoveCandy
+#TotalDownload
+#CheckSpace
+VerbosePkgLists
+
+---------------------------------
+
+Update Manjaro to latest Version =] 
+
+Paste in terminal: sudo pacman-mirrors --api --set-branch unstable
+
+------------------------------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Manjaro
+
+------------------------------------------------------------
+
+Time to Update all and get fast repos.
+
+sudo pacman-mirrors --fasttrack 5 && sudo pacman -Syu 
+
+------------------------------------------------------------
+
+Install some programs take one by one...
+
+sudo pacman -S xorg xorg-server xorg-xinit mesa xterm xorg-twm xorg-xrandr xterm xorg-xclock gdm xorg-xkill xorg-xinput xorg-xwininfo
+
+yay -S bluedevil xorg-xlsfonts libqtxdg xorg-xfontsel
+
+sudo pacman -Sy gnome-browser-connector
+
+sudo systemctl enable gdm
+sudo systemctl set-default graphical
+
+------------------------------------------------------------
+
+Now we can install latest GNOME 47 for Manjaro.
+
+sudo pacman -S gnome gnome-extra
+
+---------------------------------------------------------
+
+Extra install - Chrome Browser
+
+yay -S google-chrome
+
+---------------------------------------------------------
+
+Install hyfetch - like Neofetch but better or more fun. Neofetch is Dead.
+
+yay -S hyfetch
+
+To test type hyfetch in bash / terminal / console: hyfetch
+
+---------------------------------------------------------
+
+Install Blanket - Listen to sounds - Favorite for Linux.
+
+yay -S blanket
+
+---------------------------------------------------------
+
+Type this in terminal and put your user there - sudo loginctl enable-linger user
+
+---------------------------------------------------------
+
+Type in terminal: sudo nano ~/.bash_manjaro_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+------------------------------------------------------
+
+Reboot - Reboot - Reboot - Reboot - Reboot - Reboot - Manjaro
+
+------------------------------------------------------
+
+Start X410 for windows and start Manjaro Linux - Time to start Gnome 47.
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+Paste in terminal: . ~/.bash_manjaro_desktop
+Paste in terminal: gnome-session
+
+If it not starts you can try this: dbus-launch gnome-session
+
+NOTE - It take some time to start Gnome. You may have to try more than one to start Gnome via: gnome-session
+
+------------------------------------------------------------
+
+Regards Mattias Vinberg - Manjaro - Gnome - X410 - WSL - Linux - Windows 11 - SWEDEN - 2024
+
+------------------------------------------------------------
