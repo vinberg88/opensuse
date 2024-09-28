@@ -1,6 +1,27 @@
 ------------------------------------------------------
 
-Rockylinux 9 - KDE Plasma Desktop 5 - GWSL - Rockylinux 9 via Windows 11 - WSL - 2024
+Rockylinux 9 - How to install KDE Plasma Desktop 5 - GWSL - Rockylinux 9 via Windows 11 - WSL - 2024
+
+          __wgliliiligw_,
+       _williiiiiiliilililw,
+     _%iiiiiilililiiiiiiiiiii_
+   .Qliiiililiiiiiiililililiilm.
+  _iiiiiliiiiiililiiiiiiiiiiliil,
+ .lililiiilililiiiilililililiiiii,
+_liiiiiiliiiiiiiliiiiiF{iiiiiilili,
+jliililiiilililiiili@`  ~ililiiiiiL OS: Rockylinux 9
+iiiliiiiliiiiiiili>`      ~liililii DE: KDE Plasma Desktop 5
+liliiiliiilililii`         -9liiiil 
+iiiiiliiliiiiii~             "4lili
+4ililiiiiilil~|      -w,       )4lf
+-liiiiililiF'       _liig,       )'
+ )iiiliii@`       _QIililig,
+  )iiii>`       .Qliliiiililw
+   )<>~       .mliiiiiliiiiiil,
+            _gllilililiililii~
+           giliiiiiiiiiiiiT`
+          -^~$ililili@~~'              
+
 
 Find Rockylinux 9.3 for WSL here and Download and install...
 https://drive.proton.me/urls/M5JJ0ZWVWM#wr3VtIKeDTqG 
