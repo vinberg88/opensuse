@@ -24,7 +24,7 @@ https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
 
 
 How to install Gnome 47 on Arch - TEXT
-Comming Zone
+https://github.com/vinberg88/opensuse/blob/main/Arch-GNOME.txt
 
 How to install Gnome 47 on Arch - Movie
 https://www.youtube.com/watch?v=ujjUmge6cUo
