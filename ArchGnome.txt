@@ -1,8 +1,69 @@
-ARCH - Linux - WSL - Gnome - 2024
+Arch och Gnome 47 - How to install Gnome 47 via Arch - Windows 11 - WSL - X410 - Linux - 2024
 
-------------------------------------------------------------
+You can find Arch in microsoft store or via this link.
+https://apps.microsoft.com/detail/9mznmnksm73x?hl=en-US&gl=US
 
-Gnome Desktop on Arch - Windows 11 - Gnome - WSL - Windows Subsystem For Linux - 2024
+I use X410 - X Server for Windows 11 in this video and it works well. Find it in Micorsoft store or via this link
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+                    -@                
+                   .##@               
+                  .####@              
+                  @#####@             
+                . *######@            
+               .##@o@#####@      Master - Mattias Vinberg - SWEDEN   
+              /############@     OS - Arch         
+             /##############@    OS - Windows  
+            @######@**%######@   DE - GNOME 47
+           @######`     %#####o       
+          @######@       ######%      
+        -@#######h       ######@.`    
+       /#####h**``       `**%@####@   
+      @H@*`                    `*%#@  
+     *`                            `* 
+
+
+How to install Gnome 47 on Arch - TEXT
+https://github.com/vinberg88/opensuse/blob/main/Arch-GNOME.txt
+
+How to install Gnome 47 on Arch - Movie
+https://www.youtube.com/watch?v=ujjUmge6cUo
+
+About Gnome 47 - https://www.gnome.org
+
+Every aspect of GNOME has been crafted to fit together
+as a harmonious whole, providing a consistent and integrated
+experience. Our attention to detail means a smooth and
+polished product that lets you do the things you want
+without getting in the way. GNOME is satisfying to use
+and beautiful to behold. Every part of GNOME has been
+designed to make it simple and easy to use. The Activities
+Overview is a simple way to access all your basic tasks.
+A press of a button is all it takes to view your open 
+windows, launch applications, or check if you have new 
+messages. Having everything in one convenient place means
+you don’t have to learn your way around a maze
+of different technologies. An easy and elegant way to use
+your computer, GNOME is designed to help you have the best
+possible computing experience. 
+
+About Arch Linux - https://archlinux.org
+
+Arch Linux, a lightweight and flexible Linux® distribution
+that tries to Keep It Simple. Arch Linux is an independently 
+developed, x86-64 general-purpose GNU/Linux distribution that strives
+to provide the latest stable versions of most software by following
+a rolling-release model. The default installation is a minimal
+base system, configured by the user to only add what is purposely
+required. The best Arch-based Linux distros make it simple and
+easy to carry the power and flexibility of Arch Linux into a
+desktop friendly package. The best Arch-based Linux distros provide
+impressive customizability. Arch adheres to a rolling release
+model, which means you can install it once and keep updating
+it till eternity. 
+
+You will find more stuff here for WSL - Windows 11 - Linux - Arch 
+https://github.com/vinberg88/opensuse
 
 ------------------------------------------------------------
 
@@ -15,7 +76,7 @@ systemd=true
 
 -----------------------------------------------------------
 
-1. Paste this in terminal... all - you wont get symbolink error.
+Paste this in terminal... all - you wont get symbolinc error.
 
 ln -s libcuda.so.1.1 libcuda.so.1
 ln -s libcuda.so.1.1 libcuda.so
@@ -24,12 +85,11 @@ sudo mkdir /usr/lib/wsl/lib2
 sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
 echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
 
-
 -------------------------------------------------------------
 
-1.2 Add this terminal: sudo nano /etc/pacman.conf
+Add this terminal: sudo nano /etc/pacman.conf
 
-And change this...
+And change this in bash.
 
 # Misc options
 #UseSyslog
@@ -38,89 +98,104 @@ ILoveCandy
 #NoProgressBar
 ##CheckSpace
 VerbosePkgLists
-ParallelDownloads = 15
+ParallelDownloads = 20
 
 -------------------------------------------------------------
 
-1.5: Reboot and update: sudo pacman -Syu
+Reboot Reboot Reboot Reboot - ARCH - Reboot Reboot Reboot - ARCH
 
 -----------------------------------------------------------
 
-2. Install one by one...
+Update Arch Linux by copy and paste this lines in Terminal.
+
+sudo pacman -Syu
+
+------------------------------------------------------------
+
+Getting the fastest mirrors/repos for Arch Linux...
+
+sudo pacman -S reflector rsync
+
+sudo reflector --country "Sweden" --latest 10 --sort rate --save /etc/pacman.d/mirrorlist
+
+Look at list: cat /etc/pacman.d/mirrorlist
+
+sudo systemctl enable --now reflector.service
+
+------------------------------------------------------
+
+Reboot - Reboot - Reboot - Reboot - Reboot - Reboot - Arch 
+
+------------------------------------------------------
+
+Install this programs for ARCH 
+
+sudo pacman -S bash git npm wget curl dialog go fakeroot dbus ibus
+
+-----------------------------------------------------------
+
+Install YAY helper for easy installation
+
+sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+
+-----------------------------------------------------------
+
+Extra programs to install. You need this programs =]
+
+yay -S google-chrome blanket hyfetch gimp libreoffice
+
+-----------------------------------------------------------
+
+Install this for GDM and ARCH - one by one...
 
 sudo pacman -S xorg xorg-server xorg-xinit mesa xterm xorg-twm xorg-xrandr
-sudo pacman -S xorg-twm xterm xorg-xclock gdm bluedevil libqtxdg
-sudo pacman -S xorg-server xorg-xinit xorg-xrandr xorg-xfontsel xorg-xlsfonts xorg-xkill xorg-xinput xorg-xwininfo
+sudo pacman -S xorg-xclock gdm bluedevil libqtxdg gnome-browser-connector
+sudo pacman -S xorg-xfontsel xorg-xlsfonts xorg-xkill xorg-xinput xorg-xwininfo
 
 sudo systemctl enable gdm
 sudo systemctl set-default graphical
+
+-----------------------------------------------------------
+
+Now we can install latest GNOME 47 for Arch Linux.
 
 sudo pacman -S gnome gnome-extra
 
 -----------------------------------------------------------
 
-sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+Type this in terminal and put your user there: sudo loginctl enable-linger user
 
-Extra install: yay -S google-chrome
+----------------------------------------------------------------
 
----------------------------------------------------------
-
-Reboot and Fire UP GWSL and CONFIG - Start Shell from GWSL
-
----------------------------------------------------------
-
-Paste in terminal: xdg-user-dirs-update
-
-Paste in terminal: sudo systemctl set-default multi-user.target
-
-Paste in terminal: sudo systemctl set-default graphical.target
-
-Paste in terminal : sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
-
-Type this in terminal and put your user there - loginctl enable-linger user
-
-Type in terminal: sudo nano ~/.bash_ubuntu_desktop
+Type in terminal: sudo nano ~/.bash_Arch_desktop
 
 Paste this in terminal and save:
-
-------------------------------------------------------
-
-# Vinberg - Fyren 1488
-# Start to flight adolf!
-# --------------------
-# Setting up essential environment variables
-# --------------------
-
-export XDG_CURRENT_DESKTOP=ubuntu:GNOME
-export XDG_SESSION_DESKTOP=ubuntu
-export DESKTOP_SESSION=ubuntu
-export GNOME_SHELL_SESSION_MODE=ubuntu
-
-# Commonly referenced environment variables for X11 sessions
-# https://specifications.freedesktop.org/basedir-spec/latest/
-
-export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
-export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
-export XDG_MENU_PREFIX=gnome-
 
 export XDG_SESSION_TYPE=x11
 export XDG_SESSION_CLASS=user
 export GDK_BACKEND=x11
 
-# Disables using Direct3D in Mesa 3D graphics library
 export LIBGL_ALWAYS_SOFTWARE=1
 
 ------------------------------------------------------
 
-Reboot - Reboot - Reboot - Reboot - Reboot - Reboot
+Reboot - Reboot - Reboot - Reboot - Reboot - Reboot - Arch 
 
 ------------------------------------------------------
 
-Paste in terminal: . ~/.bash_ubuntu_desktop
+Start X410 for windows 11 and start Arch - Time to start Gnome 47.
 
-Type in terminal: dbus-launch gnome-session
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+Paste in terminal: . ~/.bash_Arch_desktop
+Paste in terminal: gnome-session
+
+If it not starts you can try this: dbus-launch gnome-session
+
+NOTE - It take some time to start Gnome 47. You may have to try more than one to start Gnome via: gnome-session
 
 ------------------------------------------------------------
 
-And we are Done,
-Mattias Vinberg
+Regards Mattias Vinberg - ARCH - Gnome 47 - X410 - WSL - Linux - Windows 11 - SWEDEN - 2024
+
+------------------------------------------------------------
+
