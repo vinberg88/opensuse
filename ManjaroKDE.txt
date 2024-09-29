@@ -1,4 +1,4 @@
-KDE Desktop (Plasma) on Manjaro - Windows 11 - WSL - GWSL
+KDE Desktop (Plasma) on Manjaro - Windows 11 - WSL - GWSL - 2024
 
 You will find manjaro for WSL here: https://github.com/sileshn/ManjaroWSL2
 
@@ -7,6 +7,8 @@ https://github.com/vinberg88/opensuse/blob/main/ManjaroKDE.txt
 
 How to install Video for kde Manjaro
 https://www.youtube.com/watch?v=84dJIrW7DUY
+
+
 
 About Manjaro: Manjaro Linux Open Source operating system is
 and always will be provided for you to download use or 
@@ -73,15 +75,6 @@ Paste in terminal : sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/sy
 
 Paste this in terminal and save:
 
-export XDG_CURRENT_DESKTOP=ubuntu:GNOME
-export XDG_SESSION_DESKTOP=ubuntu
-export DESKTOP_SESSION=ubuntu
-export GNOME_SHELL_SESSION_MODE=ubuntu
-
-export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
-export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
-export XDG_MENU_PREFIX=gnome-
-
 export XDG_SESSION_TYPE=x11
 export XDG_SESSION_CLASS=user
 export GDK_BACKEND=x11
@@ -101,5 +94,9 @@ Type in terminal: dbus-launch startplasma-x11
 ------------------------------------------------------------
 
 Extra install: yay -S google-chrome
+
+------------------------------------------------------------
+
+Regards Mattias Vinberg - Manjaro - KDE - Linux - WSL - GWSL - 2024 - Sweden
 
 ------------------------------------------------------------
