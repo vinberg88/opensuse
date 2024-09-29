@@ -27,6 +27,63 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Arch och Gnome 47 - How to install Gnome 47 via Arch - Windows 11 - WSL - X410 - Linux - 2024
+
+You can find Arch in microsoft store or via this link.
+
+https://apps.microsoft.com/detail/9mznmnksm73x?hl=en-US&gl=US
+
+I use X410 - X Server for Windows 11 in this video and it works well. Find it in Micorsoft store or via this link
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+![Arch-GNOME](https://github.com/user-attachments/assets/c00b5f96-e3c6-4456-a728-9bb658dee2b3)
+
+How to install Gnome 47 on Arch - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Arch-GNOME.txt
+
+How to install Gnome 47 on Arch - Movie
+
+https://www.youtube.com/watch?v=ujjUmge6cUo
+
+About Gnome 47 - https://www.gnome.org
+
+Every aspect of GNOME has been crafted to fit together
+as a harmonious whole, providing a consistent and integrated
+experience. Our attention to detail means a smooth and
+polished product that lets you do the things you want
+without getting in the way. GNOME is satisfying to use
+and beautiful to behold. Every part of GNOME has been
+designed to make it simple and easy to use. The Activities
+Overview is a simple way to access all your basic tasks.
+A press of a button is all it takes to view your open 
+windows, launch applications, or check if you have new 
+messages. Having everything in one convenient place means
+you don’t have to learn your way around a maze
+of different technologies. An easy and elegant way to use
+your computer, GNOME is designed to help you have the best
+possible computing experience. 
+
+About Arch Linux - https://archlinux.org
+
+Arch Linux, a lightweight and flexible Linux® distribution
+that tries to Keep It Simple. Arch Linux is an independently 
+developed, x86-64 general-purpose GNU/Linux distribution that strives
+to provide the latest stable versions of most software by following
+a rolling-release model. The default installation is a minimal
+base system, configured by the user to only add what is purposely
+required. The best Arch-based Linux distros make it simple and
+easy to carry the power and flexibility of Arch Linux into a
+desktop friendly package. The best Arch-based Linux distros provide
+impressive customizability. Arch adheres to a rolling release
+model, which means you can install it once and keep updating
+it till eternity. 
+
+Regards Mattias Vinberg - ARCH - Gnome 47 - X410 - WSL - Linux - Windows 11 - SWEDEN - 2024
+
+---------------------------------------------
+
 Manjaro - How to install Gnome 47 via Manjaro - Windows 11 - WSL - X410 - Linux - 2024
 
 Use X410 - X Server for Windows 11 in this video. You can find that in Microsoft Store or via this link.
