@@ -8,8 +8,8 @@ Debian - How to install Cinnamon Desktop on Debian 12 - WSL - GWSL - LINUX - Win
   ,g$$P"     """Y$$.".        
  ,$$P'              `$$$.
 ',$$P       ,ggs.     `$$b:
-`d$$'     ,$P"'   .    $$$    
- $$P      d$'     ,    $$P    
+`d$$'     ,$P"'   .    $$$    OS - DEBIAN
+ $$P      d$'     ,    $$P    DE - Cinnamon Desktop
  $$:      $$.   -    ,d$$'    
  $$;      Y$b._   _,d$P'      
  Y$$.    `.`"Y$$$$P"'         
@@ -150,7 +150,7 @@ and space bar to highlight. Once selected, click ENTER to start the installation
 
 -----------------------------------
 
-6. Normal install if you don want to use Tasksel
+6. Normal install if you dont want to use Tasksel
 
 sudo apt -y install task-cinnamon-desktop
 
