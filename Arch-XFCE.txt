@@ -1,0 +1,175 @@
+Arch and Xfce4 - WSL - How to install Xfce via Arch - Windows 11 - X410 - Linux - 2024
+
+How to install Xfce4 via Arch - TEXT
+Comming Zone!
+
+How to install Xfce4 via Arch - Movie
+https://www.youtube.com/watch?v=8vn4c6o6vVI
+
+                    -@                
+                   .##@               
+                  .####@              
+                  @#####@             
+                . *######@            
+               .##@o@#####@      Master - Mattias Vinberg - SWEDEN   
+              /############@     OS - Arch         
+             /##############@    DE - Xfce4  
+            @######@**%######@   OS - Windows 11
+           @######`     %#####o       
+          @######@       ######%      
+        -@#######h       ######@.`    
+       /#####h**``       `**%@####@   
+      @H@*`                    `*%#@  
+     *`                            `* 
+
+
+You can find Arch in microsoft store or via this link.
+https://apps.microsoft.com/detail/9mznmnksm73x?hl=en-US&gl=US
+
+I use X410 - X Server for Windows 11 in this video and it works well. Find it in Micorsoft store or via this link
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+About Arch Linux - https://archlinux.org
+
+Arch Linux, a lightweight and flexible Linux® distribution
+that tries to Keep It Simple. Arch Linux is an independently 
+developed, x86-64 general-purpose GNU/Linux distribution that strives
+to provide the latest stable versions of most software by following
+a rolling-release model. The default installation is a minimal
+base system, configured by the user to only add what is purposely
+required. The best Arch-based Linux distros make it simple and
+easy to carry the power and flexibility of Arch Linux into a
+desktop friendly package. The best Arch-based Linux distros provide
+impressive customizability. Arch adheres to a rolling release
+model, which means you can install it once and keep updating
+it till eternity.
+
+About Xfce - Xfce4 - https://www.xfce.org
+
+Xfce is a lightweight desktop environment for UNIX-like operating
+systems. It aims to be fast and low on system resources, while
+still being visually appealing and user friendly.
+Xfce embodies the traditional UNIX philosophy of modularity and 
+re-usability. It consists of a number of components that provide
+the full functionality one can expect of a modern desktop environment.
+They are packaged separately and you can pick among the available
+packages to create the optimal personal working environment. 
+
+You will find more stuff here for WSL - Windows 11 - Linux - Arch 
+https://github.com/vinberg88/opensuse
+
+------------------------------------------------------------
+
+sudo nano /etc/wsl.conf 
+
+and add
+
+[boot]
+systemd=true
+
+-----------------------------------------------------------
+
+Paste this in terminal... all - you wont get symbolinc error.
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+-------------------------------------------------------------
+
+Add this terminal: sudo nano /etc/pacman.conf
+
+And change this in bash.
+
+# Misc options
+#UseSyslog
+Color
+ILoveCandy
+#NoProgressBar
+##CheckSpace
+VerbosePkgLists
+ParallelDownloads = 20
+
+-------------------------------------------------------------
+
+Reboot Reboot Reboot Reboot - ARCH - Reboot Reboot Reboot - ARCH
+
+-----------------------------------------------------------
+
+Update Arch Linux by copy and paste this lines in Terminal.
+
+sudo pacman -Syu
+
+------------------------------------------------------------
+
+Install this programs for ARCH 
+
+sudo pacman -S bash git npm wget curl dialog go fakeroot dbus ibus
+
+-----------------------------------------------------------
+
+Install YAY helper for easy installation
+
+sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+
+-----------------------------------------------------------
+
+Extra programs to install. You need this programs =]
+
+yay -S google-chrome blanket hyfetch gimp libreoffice gnome-terminal
+
+-----------------------------------------------------------
+
+Install this for ARCH
+
+sudo pacman -S --needed xorg xorg-server networkmanager glxinfo
+
+-----------------------------------------------------------
+
+Install Desktop files for Xfce4 / Xfce
+
+sudo pacman -S xfce4 xfce4-goodies xfce4-whiskermenu-plugin
+
+yay -S menu
+
+-----------------------------------------------------------
+
+Install this - display manager
+
+sudo pacman -S lightdm lightdm-gtk-greeter
+
+sudo systemctl enable lightdm
+
+-----------------------------------------------------------
+
+Type in terminal: sudo nano ~/.bash_Arch_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+------------------------------------------------------
+
+Reboot - Reboot - Reboot - Reboot - Reboot - Reboot - Arch 
+
+------------------------------------------------------
+
+Start X410 for windows 11 and start Arch now its Time to start xfce4
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+Paste in terminal: . ~/.bash_Arch_desktop
+Paste in terminal: dbus-launch startxfce4
+
+------------------------------------------------------------
+
+Regards Mattias Vinberg - ARCH - Xfce4 - Xfce - X410 - WSL - Linux - Windows 11 - SWEDEN - 2024
+
+------------------------------------------------------------
+
