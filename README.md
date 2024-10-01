@@ -27,6 +27,59 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Arch and Xfce4 - WSL - How to install Xfce desktop via Arch - Windows 11 - X410 - Linux - 2024
+
+How to install Xfce4 via Arch - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Arch-XFCE.txt
+
+How to install Xfce4 via Arch - Movie
+
+https://www.youtube.com/watch?v=8vn4c6o6vVI
+
+![Arch-XFCE](https://github.com/user-attachments/assets/c16dd5fb-d79b-4f7b-bc3a-96f105a358f9)
+
+You can find Arch in microsoft store or via this link.
+
+https://apps.microsoft.com/detail/9mznmnksm73x?hl=en-US&gl=US
+
+I use X410 - X Server for Windows 11 in this video and it works well. Find it in Micorsoft store or via this link
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+About Arch Linux - https://archlinux.org
+
+Arch Linux, a lightweight and flexible Linux® distribution
+that tries to Keep It Simple. Arch Linux is an independently 
+developed, x86-64 general-purpose GNU/Linux distribution that strives
+to provide the latest stable versions of most software by following
+a rolling-release model. The default installation is a minimal
+base system, configured by the user to only add what is purposely
+required. The best Arch-based Linux distros make it simple and
+easy to carry the power and flexibility of Arch Linux into a
+desktop friendly package. The best Arch-based Linux distros provide
+impressive customizability. Arch adheres to a rolling release
+model, which means you can install it once and keep updating
+it till eternity.
+
+About Xfce - Xfce4 - https://www.xfce.org
+
+Xfce is a lightweight desktop environment for UNIX-like operating
+systems. It aims to be fast and low on system resources, while
+still being visually appealing and user friendly.
+Xfce embodies the traditional UNIX philosophy of modularity and 
+re-usability. It consists of a number of components that provide
+the full functionality one can expect of a modern desktop environment.
+They are packaged separately and you can pick among the available
+packages to create the optimal personal working environment. 
+
+You will find more stuff here for WSL - Windows 11 - Linux - Arch 
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - ARCH - Xfce4 - Xfce - X410 - WSL - Linux - Windows 11 - SWEDEN - 2024
+
+---------------------------------------------
+
 Arch och Gnome 47 - How to install Gnome 47 via Arch - Windows 11 - WSL - X410 - Linux - 2024
 
 You can find Arch in microsoft store or via this link.
