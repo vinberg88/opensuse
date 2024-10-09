@@ -1,8 +1,79 @@
---------------------------------------------
-Install KDE PLasma on Debian 12 via Windows 11 - WSL - How to install KDE plasma.
---------------------------------------------
+Debian - How to install KDE via Debian 12 via Windows 11 - WSL - GWSL - LINUX - 2024
 
-1. Paste in terminal
+How to install KDE Desktop on Debian - TEXT
+https://github.com/vinberg88/opensuse/blob/main/Debian12-KDE.txt
+
+How to install KDE Desktop on Debian - VIDEO
+https://www.youtube.com/watch?v=k7z3s_Oy4eE
+
+
+       _,met$$$$$gg.                _,met$$$$$gg.
+    ,g$$$$$$$$$$$$$$$P.          ,g$$$$$$$$$$$$$$$P.
+  ,g$$P"        "\""Y$$.".     ,g$$P"        "\""Y$$.".
+ ,$$P'              `$$$.     ,$$P'              `$$$.
+',$$P       ,ggs.     `$$b:  ',$$P       ,ggs.     `$$b:
+`d$$'     ,$P"'   .    $$$   `d$$'     ,$P"'   .    $$$
+ $$P      d$'     ,    $$P    $$P      d$'     ,    $$P
+ $$:      $$.   -    ,d$$'    $$:      $$.   -    ,d$$'
+ $$;      Y$b._   _,d$P'      $$;      Y$b._   _,d$P'
+ Y$$.    `.`"Y$$$$P"'         Y$$.    `.`"Y$$$$P"'
+ `$$b      "-.__              `$$b      "-.__ 
+  `Y$$                         `Y$$
+   `Y$$.                        `Y$$.
+     `$$b.                        `$$b.
+       `Y$$b.                       `Y$$b.
+          `"Y$b._                      `"Y$b._
+              `"\""                        `"\""
+
+You can find Debian here via this link or in Microsoft Store
+https://apps.microsoft.com/detail/9msvkqc78pk6?hl=en-US&gl=US
+
+About Debian - 2024 - https://www.debian.org
+
+Debian is a popular and freely available computer
+operating system (OS) that uses a Unix-like
+kernel-- typically Linux -- alongside other program
+components, many of which come from GNU Project. 
+Debian can be downloaded over the internet or, for
+a small charge, obtained on CD, DVD, Blu-ray disc or
+USB flash drive. There are a lot of reasons to choose
+Debian as your operating system – as a user, as a
+developer, and even in enterprise environments. Most
+users appreciate the stability, and the smooth upgrade
+processes of both packages and the entire distribution.
+Debian is also widely used by software and hardware developers
+because it runs on numerous architectures and devices, offers
+a public bug tracker and other tools for developers. If
+you plan to use Debian in a professional environment, there
+are additional benefits like LTS versions and cloud images.
+
+
+About KDE Desktop - https://kde.org
+
+KDE is an international team co-operating on 
+development and distribution of Free, Open
+Source Software for desktop and portable
+computing. Our community has developed a
+wide variety of applications for communication, 
+work, education and entertainment. We have a
+strong focus on finding innovative solutions to
+old and new problems, creating a vibrant, open
+atmosphere for experimentation. KDE is The 
+next generation desktop for Linux. Use KDE
+software to surf the web, keep in touch with
+colleagues, friends and family, manage your
+files, enjoy music and videos; and get creative
+and productive at work. The KDE community develops
+and maintains more than 200 applications
+which run on any Linux desktop, and often
+other platforms too.
+
+Find More Here About WSL and Linux for Windows 11 - Wsl - Gwsl - X410
+https://github.com/vinberg88/opensuse
+
+----------------------------------------------
+
+Paste in terminal
 
 sudo nano /etc/wsl.conf 
 
@@ -11,7 +82,9 @@ and add
 [boot]
 systemd=true
 
-2. Paste all to terminal and klick enter... Remove errors..
+----------------------------------------------
+
+Paste all to terminal and klick enter... Remove errors..
 
 ln -s libcuda.so.1.1 libcuda.so.1
 ln -s libcuda.so.1.1 libcuda.so
@@ -20,31 +93,62 @@ sudo mkdir /usr/lib/wsl/lib2
 sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
 echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
 
-3. Reboot
+----------------------------------------------
 
-4. Update: sudo apt update && sudo apt upgrade
+Reboot Reboot Reboot Reboot Reboot Debian
 
-5. Install programs:
+----------------------------------------------
 
-sudo apt install bash git npm wget curl nano sudo pipx dracut -y
+All Update
+
+sudo apt update && sudo apt upgrade
+
+----------------------------------------------
+
+Install some programs.
+
+sudo apt install bash git npm wget curl nano sudo pipx dracut dbus*
 sudo apt install sddm* -y
 sudo systemctl set-default graphical
 
-6. Install this small program..
+----------------------------------------------
 
-wget https://github.com/fastfetch-cli/fastfetch/releases/download/2.1.2/fastfetch-2.1.2-Linux.deb
-sudo apt install ./fastfetch-2.1.2-Linux.deb
+Install this small program.
 
-6.4 install Chrome
+pipx install hyfetch
+pipx ensurepath
+
+After installation test i terminal: hyfetch
+
+   " you may need to restart terminal "
+
+----------------------------------------------
+
+Install Chrome
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb -y
 
-6.5: Reboot Linux...
+----------------------------------------------
 
-7. Config GWSL and start from there - Linux Shell from
+Install Blanket if you Want! - Listen to Sound =]
 
-10. Time to install Gnome: sudo apt install kde-standard <-- standard 
+wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+
+----------------------------------------------
+
+Reboot Linux Reboot Linux Reboot Linux Reboot Linux - Debian
+
+----------------------------------------------
+
+Start and Config GWSL and start terminal from there - ALWAYS!
+
+ " you may need to restart linux - do an extra restart "
+
+----------------------------------------------
+
+Time to install KDE Desktop: sudo apt install kde-standard
 
 You can choose whichever version you like but I run the default
 
@@ -52,38 +156,24 @@ sudo apt install kde-plasma-desktop
 sudo apt install kde-standard 
 sudo apt install kde-full 
 
-11. Paste in terminal: xdg-user-dirs-update
+----------------------------------------------
 
-12. Paste in terminal: sudo systemctl set-default multi-user.target
+Paste in terminal 
 
-13. Paste in terminal: sudo systemctl set-default graphical.target
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
 
-14. Paste in terminal : sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+----------------------------------------------
 
-16. Type this in terminal and put your user there - loginctl enable-linger user
+Type this in terminal and put your user there - loginctl enable-linger user
 
-11. Copy this and paste in terminal: sudo nano ~/.bash_ubuntu_desktop
+----------------------------------------------
+
+Copy this and paste in terminal: sudo nano ~/.bash_debian_desktop
 
 Then add this script to terminal
-
-----------------------------------------------------
-
-# Fyren - Vinberg - 2023 - SS script!
-# --------------------
-# Setting up essential environment variables for Debian 12 desktop
-# --------------------
-
-# Ubuntu default desktop (GNOME Shell variant)
-# https://wiki.gnome.org/Projects/GnomeShell
-
-export XDG_CURRENT_DESKTOP=ubuntu:GNOME
-export XDG_SESSION_DESKTOP=ubuntu
-export DESKTOP_SESSION=ubuntu
-export GNOME_SHELL_SESSION_MODE=ubuntu
-
-export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
-export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
-export XDG_MENU_PREFIX=gnome-
 
 export XDG_SESSION_TYPE=x11
 export XDG_SESSION_CLASS=user
@@ -91,21 +181,27 @@ export GDK_BACKEND=x11
 
 export LIBGL_ALWAYS_SOFTWARE=1
 
-------------------------------------------------------
+----------------------------------------------
 
-10.5. Reboot...
-
-10.9 Paste in terminal and follow instruction!
+Paste this script in Terminal and follow instructions.
 
 git clone https://github.com/DamionGans/ubuntu-wsl2-systemd-script.git
 cd ubuntu-wsl2-systemd-script/
 bash ubuntu-wsl2-systemd-script.sh
 
-Reboot...
+----------------------------------------------
 
-11. Paste in terminal: . ~/.bash_ubuntu_desktop
+Reboot… Debian Reboot… Debian Reboot… Debian 
 
-12. Type in terminal and start plasma: dbus-launch startplasma-x11
+----------------------------------------------
 
-Warm Regards, 
-Mattias Vinberg
+Time to start KDE desktop via Debian
+
+Paste in terminal: . ~/.bash_debian_desktop
+Type in terminal: dbus-launch startplasma-x11 
+
+----------------------------------------------
+
+Regards, Mattias Vinberg - Debian - KDE - GWSL - WSL - Linux - 2024 - Sweden
+
+----------------------------------------------
