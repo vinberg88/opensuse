@@ -1,7 +1,7 @@
 Debian - How to install KDE via Debian 12 via Windows 11 - WSL - GWSL - LINUX - 2024
 
 How to install KDE Desktop on Debian - TEXT
-Comming Zone
+https://github.com/vinberg88/opensuse/blob/main/Debian12-KDE.txt
 
 How to install KDE Desktop on Debian - VIDEO
 https://www.youtube.com/watch?v=k7z3s_Oy4eE
