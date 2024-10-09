@@ -27,6 +27,70 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Debian - How to install KDE via Debian 12 via Windows 11 - WSL - GWSL - LINUX - 2024
+
+How to install KDE Desktop on Debian - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Debian12-KDE.txt
+
+How to install KDE Desktop on Debian - VIDEO
+
+https://www.youtube.com/watch?v=k7z3s_Oy4eE
+
+![Debian12-KDE](https://github.com/user-attachments/assets/1dc955c7-f16e-42de-afbd-1d56ab34ba99)
+
+You can find Debian here via this link or in Microsoft Store
+
+https://apps.microsoft.com/detail/9msvkqc78pk6?hl=en-US&gl=US
+
+About Debian - 2024 - https://www.debian.org
+
+Debian is a popular and freely available computer
+operating system (OS) that uses a Unix-like
+kernel-- typically Linux -- alongside other program
+components, many of which come from GNU Project. 
+Debian can be downloaded over the internet or, for
+a small charge, obtained on CD, DVD, Blu-ray disc or
+USB flash drive. There are a lot of reasons to choose
+Debian as your operating system – as a user, as a
+developer, and even in enterprise environments. Most
+users appreciate the stability, and the smooth upgrade
+processes of both packages and the entire distribution.
+Debian is also widely used by software and hardware developers
+because it runs on numerous architectures and devices, offers
+a public bug tracker and other tools for developers. If
+you plan to use Debian in a professional environment, there
+are additional benefits like LTS versions and cloud images.
+
+
+About KDE Desktop - https://kde.org
+
+KDE is an international team co-operating on 
+development and distribution of Free, Open
+Source Software for desktop and portable
+computing. Our community has developed a
+wide variety of applications for communication, 
+work, education and entertainment. We have a
+strong focus on finding innovative solutions to
+old and new problems, creating a vibrant, open
+atmosphere for experimentation. KDE is The 
+next generation desktop for Linux. Use KDE
+software to surf the web, keep in touch with
+colleagues, friends and family, manage your
+files, enjoy music and videos; and get creative
+and productive at work. The KDE community develops
+and maintains more than 200 applications
+which run on any Linux desktop, and often
+other platforms too.
+
+Find More Here About WSL and Linux for Windows 11 - Wsl - Gwsl
+
+https://github.com/vinberg88/opensuse
+
+Regards, Mattias Vinberg - Debian - KDE - GWSL - WSL - Linux - 2024 - Sweden
+
+---------------------------------------------
+
 Arch and Xfce4 - WSL - How to install Xfce desktop via Arch - Windows 11 - X410 - Linux - 2024
 
 How to install Xfce4 via Arch - TEXT
