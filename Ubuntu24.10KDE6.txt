@@ -1,0 +1,182 @@
+Ubuntu 24.10 and KDE 6 - How to install KDE 6 via Ubuntu - WSL - X410 - Windows 11 - Linux - 2024
+
+             NOTE - THIS IS NOT FOR NORMAL USE - JUST FOR TESTING - NOTE 
+
+I use X410 - X Server for Windows 11 in this video and it works well. Find it in Micorsoft store or via this link
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+How to install KDE 6 via Ubuntu 24.10  - TEXT
+
+
+How to install KDE 6 via Ubuntu 24.10 - Movie
+https://www.youtube.com/watch?v=7Vf16FUt0uU
+
+                             ....                                         ....
+              .',:clooo:  .:looooo:.                       .',:clooo:  .:looooo:.
+           .;looooooooc  .oooooooooo'                   .;looooooooc  .oooooooooo'
+        .;looooool:,''.  :ooooooooooc                .;looooool:,''.  :ooooooooooc
+       ;looool;.         'oooooooooo,               ;looool;.         'oooooooooo,
+      ;clool'             .cooooooc.  ,,           ;clool'             .cooooooc.  ,,
+         ...                ......  .:oo,             ...                ......  .:oo,
+  .;clol:,.                        .loooo'     .;clol:,.                        .loooo'
+ :ooooooooo,                        'ooool    :ooooooooo,                        'ooool
+'ooooooooooo.                        loooo.  'ooooooooooo.                        loooo.
+'ooooooooool                         coooo.  'ooooooooool                         coooo.
+ ,loooooooc.                        .loooo.   ,loooooooc.                        .loooo.
+   .,;;;'.                          ;ooooc      .,;;;'.                          ;ooooc
+       ...                         ,ooool.          ...                         ,ooool.
+    .cooooc.              ..',,'.  .cooo.        .cooooc.              ..',,'.  .cooo.
+      ;ooooo:.           ;oooooooc.  :l.           ;ooooo:.           ;oooooooc.  :l.
+       .coooooc,..      coooooooooo.                .coooooc,..      coooooooooo.
+         .:ooooooolc:. .ooooooooooo'                  .:ooooooolc:. .ooooooooooo'
+           .':loooooo;  ,oooooooooc                     .':loooooo;  ,oooooooooc
+               ..';::c'  .;loooo:'                          ..';::c'  .;loooo:'
+                             .                                            .
+
+
+About Ubuntu - https://ubuntu.com
+
+Ubuntu is an ancient African word meaning ‘humanity to others’.
+It is often described as reminding us that ‘I am what I am
+because of who we all are’. We bring the spirit of Ubuntu
+to the world of computers and software. The Ubuntu 
+distribution represents the best of what the world’s software
+community has shared with the world. Canonical is the
+publisher of Ubuntu. Members of the Canonical team lead
+aspects of Ubuntu such as the kernel, default desktop,
+foundations, security, OpenStack, and Kubernetes. 
+The first official Ubuntu release — Version 4.10, codenamed
+the ‘Warty Warthog’ — was launched in October 2004, and
+sparked dramatic global interest as thousands of free
+software enthusiasts and experts joined the Ubuntu community.
+Ubuntu today has many flavours and dozens of specialised 
+derivatives. There are also special editions for servers, OpenStack
+clouds, and connected devices. All editions share common
+infrastructure and software, making Ubuntu a unique single
+platform that scales from consumer electronics to the desktop
+and up into the cloud for enterprise computing.
+
+About KDE 6 Plasma - https://kde.org
+
+KDE Plasma is a modern, feature-rich desktop environment
+for Linux-based operating systems. Known for its sleek
+design, customizable interface, and extensive set of
+applications, it is also open source, devoid
+of ads, and makes protecting your privacy and
+personal data a priority. The KDE Plasma Launcher lets
+you quickly and easily launch applications, but it
+can do much more -- convenient tasks like bookmarking
+applications, searching for documents as you type, or
+navigating to common places help you get straight
+to the point. With a history of recently started programs
+and opened files, you can return to where you left off.
+It even remembers previously entered search terms so
+you don't have to.
+
+You will find more stuff here for WSL - Windows 11 - Linux - Ubuntu
+https://github.com/vinberg88/opensuse
+
+-------------------------------
+
+Remove Errors from Terminal - PASTE ALL in BASH / Console
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+-------------------------------
+
+sudo apt update
+sudo apt upgrade
+
+-------------------------------
+
+Reboot Ubuntu 24.10 - Reboot Ubuntu 24.10
+
+-------------------------------
+
+Install Chrome
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+-------------------------------
+
+Install Blanket if you Want! - Listen to Sounds.
+
+wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+
+-------------------------------
+
+Install some Programs for WSL - Ubuntu 24.10
+
+sudo apt install bash ibus git npm wget curl dracut dbus* kwin* -y
+sudo apt install sddm* -y
+sudo systemctl set-default graphical
+
+--------------------------------
+
+Install this small program.
+
+sudo apt install hyfetch
+
+Test by Copy and Paste in Bash: hyfetch
+
+--------------------------------
+
+Save alot of time.
+
+sudo snap install firefox
+
+--------------------------------
+
+Paste all in terminal - Timw to install KDE 6 via Ubuntu 24.10
+
+sudo apt install kde-standard
+
+--------------------------------------------
+
+Paste in terminal: 
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+--------------------------------------------
+
+Type this in terminal and put your user there - sudo loginctl enable-linger user
+
+--------------------------------------------
+
+13. Copy this and paste in terminal: sudo nano ~/.bash_ubuntu_desktop
+
+Then add this script to terminal
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+------------------------------------------------------
+
+Reboot... Reboot... Reboot... Reboot… Ubuntu 24.10
+
+--------------------------------------------
+
+Start X410 for windows 11 and start Ubuntu 24.10 - Time to start KDE 6
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+Paste in terminal: . ~/.bash_ubuntu_desktop
+Start kde plasma 6: dbus-launch startplasma-x11
+
+--------------------------------------------
+
+Regards Mattias Vinberg - Ubuntu 24.10 - KDE 6 - Windows 11 - WSL - X410 - Linux - Sweden 2024
+
+--------------------------------------------
