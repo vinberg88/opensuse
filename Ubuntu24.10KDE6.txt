@@ -6,7 +6,7 @@ I use X410 - X Server for Windows 11 in this video and it works well. Find it in
 https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
 
 How to install KDE 6 via Ubuntu 24.10  - TEXT
-
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu24.10KDE6.txt
 
 How to install KDE 6 via Ubuntu 24.10 - Movie
 https://www.youtube.com/watch?v=7Vf16FUt0uU
