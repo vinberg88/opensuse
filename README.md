@@ -27,6 +27,69 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Opensuse Tumbelweed - How to Install Gnome 47 via Windows 11 - WSL - Linux - X410 - 2024
+
+How to install Gnome via Opensuse Tumbelweed - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Opensuse-Tumbelweed-GNOME.txt
+
+How to install Gnome via Opensuse Tumbelweed - WSL - MOVIE
+
+https://www.youtube.com/watch?v=2U5IT7N6CWo
+
+I use X410 - X Server for Windows 11 - Find it in Micorsoft store or via this link
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+![Opensuse-Tumbelweed-GNOME](https://github.com/user-attachments/assets/89f8a195-af16-451f-be4d-7124ae2cd7b6)
+
+About OPENSUSE TumbelweeD - https://www.opensuse.org
+
+State-of-the-art desktop and server operating system.
+With Tumbleweed you don't have to take difficult decisions
+about things you value, either freedom or safety, either
+control or security, technology or stability -- Tumbleweed
+lets you have your cake and eat it too! With a single command
+you can update thousands of packages, rollback to last 
+week’s snapshot, fast-forward again, and even preview upcoming
+releases. Built from latest kernel releases, compiled with
+the latest Spectre / Meltdown mitigation patches, with 
+firewall and strong security policies turned on by default, your
+security is covered out-of-the-box. Tumbleweed provides users
+with the latest gaming-related software. With the Linux
+support for gaming improving rapidly, that’s an important
+aspect for smooth, performant and problem free experience in
+your favorite games
+
+About Gnome Desktop - https://www.gnome.org
+
+Every part of GNOME has been designed to make it
+simple and easy to use. The Activities Overview is
+a simple way to access all your basic tasks. A press
+of a button is all it takes to view your open
+windows, launch applications, or check if you have new
+messages. Having everything in one convenient place
+means you don’t have to learn your way around
+a maze of different technologies. Every aspect of GNOME
+has been crafted to fit together as a harmonious
+whole, providing a consistent and integrated experience.
+Our attention to detail means a smooth and polished 
+product that lets you do the things you want without 
+getting in the way. GNOME is satisfying to use and
+beautiful to behold.
+
+You Can Find More Stuff here for WSL - Windows 11 - Linux - WSL - x410
+
+https://github.com/vinberg88/opensuse
+
+You can find Tumbelweed in Microsoft Store or via this link
+
+https://apps.microsoft.com/detail/9mssk2zxxn11?hl=en-US&gl=US
+
+Regards Mattias Vinberg - Tumbelweed OpenSusE - Gnome - Windows 11 - Linux - X410 - 2024 - SwedeN
+
+---------------------------------------------
+
 Ubuntu 24.10 and KDE 6 - How to install KDE 6 via Ubuntu - WSL - X410 - Windows 11 - Linux - 2024
 
              NOTE - THIS IS NOT FOR NORMAL USE - JUST FOR TESTING - NOTE 
