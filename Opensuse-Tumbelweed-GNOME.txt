@@ -1,7 +1,7 @@
 Opensuse Tumbelweed - How to Install Gnome 47 via Windows 11 - WSL - Linux - X410 - 2024
 
 How to install Gnome via Opensuse Tumbelweed - WSL - TEXT
-Comming Zone
+https://github.com/vinberg88/opensuse/blob/main/Opensuse-Tumbelweed-GNOME.txt
 
 How to install Gnome via Opensuse Tumbelweed - WSL - MOVIE
 https://www.youtube.com/watch?v=2U5IT7N6CWo
