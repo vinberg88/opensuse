@@ -1,10 +1,72 @@
-Opensuse Tumbelweed - Gnome install under Windows 11 - Pro
+Opensuse Tumbelweed - How to Install Gnome 47 via Windows 11 - WSL - Linux - X410 - 2024
 
-1. Install OpenSuse Tumbelweed
+How to install Gnome via Opensuse Tumbelweed - WSL - TEXT
+https://github.com/vinberg88/opensuse/blob/main/Opensuse-Tumbelweed-GNOME.txt
 
-2. Config GWSL and reboot - start Linux shell from GWSL
+How to install Gnome via Opensuse Tumbelweed - WSL - MOVIE
+https://www.youtube.com/watch?v=2U5IT7N6CWo
 
-3. Add systemd (if nano not works. Install it: sudo zypper in nano)
+I use X410 - X Server for Windows 11 - Find it in Micorsoft store or via this link
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+                                     ...... 
+     .,cdxxxoc,.               .:kKMMMNWMMMNk:. 
+    cKMMN0OOOKWMMXo. A        ;0MWk:'      ':OMMk. 
+  ;WMK;'       'lKMMNM,     :NMK'             'OMW;
+ cMW;             WMMMN   ,XMK'                 oMM.
+.MMc             ''^*~l. xMN:                    KM0
+'MM.                   .NMO                      oMM  Gnome 47 and Tumbelweed - WSL
+.MM,                 .kMMl                       xMN
+ KM0               .kMM0' .dl>~,.               .WMd
+ 'XM0.           ,OMMK'    OMMM7'              .XMK 
+   *WMO:.    .;xNMMk'       NNNMKl.          .xWMx  
+     ^ONMMNXMMMKx;          V  'xNMWKkxllox0NMWk'
+         '''''                    ':dOOXXKOxl'
+
+About OPENSUSE TumbelweeD - https://en.opensuse.org/openSUSE:WSL
+
+State-of-the-art desktop and server operating system.
+With Tumbleweed you don't have to take difficult decisions
+about things you value, either freedom or safety, either
+control or security, technology or stability -- Tumbleweed
+lets you have your cake and eat it too! With a single command
+you can update thousands of packages, rollback to last 
+week’s snapshot, fast-forward again, and even preview upcoming
+releases. Built from latest kernel releases, compiled with
+the latest Spectre / Meltdown mitigation patches, with 
+firewall and strong security policies turned on by default, your
+security is covered out-of-the-box. Tumbleweed provides users
+with the latest gaming-related software. With the Linux
+support for gaming improving rapidly, that’s an important
+aspect for smooth, performant and problem free experience in
+your favorite games - https://www.opensuse.org
+
+About Gnome Desktop - https://www.gnome.org
+
+Every part of GNOME has been designed to make it
+simple and easy to use. The Activities Overview is
+a simple way to access all your basic tasks. A press
+of a button is all it takes to view your open
+windows, launch applications, or check if you have new
+messages. Having everything in one convenient place
+means you don’t have to learn your way around
+a maze of different technologies. Every aspect of GNOME
+has been crafted to fit together as a harmonious
+whole, providing a consistent and integrated experience.
+Our attention to detail means a smooth and polished 
+product that lets you do the things you want without 
+getting in the way. GNOME is satisfying to use and
+beautiful to behold.
+
+You Can Find More Stuff here for WSL - Windows 11 - Linux - WSL - x410
+https://github.com/vinberg88/opensuse
+
+You can find Tumbelweed in Microsoft Store or via this link
+https://apps.microsoft.com/detail/9mssk2zxxn11?hl=en-US&gl=US
+
+----------------------------------------------
+
+Add systemd (if nano not works. Install it: sudo zypper in nano)
 
 Type in terminal: sudo nano /etc/wsl.conf
 
@@ -13,72 +75,111 @@ Copy to terminal and save:
 [boot]
 systemd=true
 
-4. Reboot
+-----------------------------------------------------
 
-6. Update Tumbelweed in terminal: sudo zypper ref -b && sudo zypper dup
+Paste All in terminal - one by one no stress - Tumbelweed
 
-7. Install this programs
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+-----------------------------------------------------
+
+Reboot - Reboot - Reboot - Reboot - Reboot
+
+-----------------------------------------------------
+
+Update Tumbelweed via terminal
+
+sudo zypper ref -b && sudo zypper dup
+
+-----------------------------------------------------
+
+Install this programs
 
 sudo zypper install bash git npm wget curl nano sudo dialog go dracut opi
+
+-----------------------------------------------------
+
+Extra Programs install this to...
 
 sudo zypper ar -cfp 90 https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumbleweed/ packman
 sudo zypper dup --from packman --allow-vendor-change  <-- press a in terminal
 
-opi codecs
+Then copy and paste this to Terminal: opi codecs
 
-8. Install this: sudo zypper in -t pattern wsl_gui wsl_base wsl_systemd
+-----------------------------------------------------
 
-9. Time to install Gnome: sudo zypper -n install -t pattern x11 gnome_basic gnome*
+Install this - WSL Tools
 
-Extra om du vill installera Chrome - skriv: opi google-chrome och följ anvisningar =)
+sudo zypper in -t pattern wsl_gui wsl_base wsl_systemd
 
-10. Type: sudo yast and update all and install from yast: xorg
+-----------------------------------------------------
 
-11. Paste in terminal: xdg-user-dirs-update
+Time to install Gnome
 
-12. Paste in terminal: sudo systemctl set-default multi-user.target
+sudo zypper in -t pattern gnome_basic gnome gnome_x11
 
-13. Paste in terminal: sudo systemctl set-default graphical.target
+Press 2 if you get errors.
 
-14. Paste in terminal : sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+-----------------------------------------------------
 
-15. Type this in terminal and change: sudo nano /etc/sysconfig/windowmanager
+Install Chrome - wright: opi google-chrome
+
+-----------------------------------------------------
+
+sudo yast and update all plus "dependencies menu" and install all from yast: xorg
+
+Type in Terminal: sudo yast
+
+-----------------------------------------------------
+
+Paste in terminal - one by one
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-----------------------------------------------------
+
+Type this in terminal and change: sudo nano /etc/sysconfig/windowmanager
 
 change to this: DEFAULT_WM="gnome" from DEFAULT_WM="default"
 
-16. Type this in terminal and put your user there - loginctl enable-linger user <-- in my case kapten
+-----------------------------------------------------
 
-17. In terminal type: sudo nano ~/.bash_ubuntu_desktop
+Type this in terminal and put your user there - sudo loginctl enable-linger user
+
+---------------------------------------------
+
+In terminal type: sudo nano ~/.bash_opensuse_desktop
 
 Paste this in terminal and save:
-
-# Vinberg - Fyren 1488
-# Start to flight adolf!
-# --------------------
-# Setting up essential environment variables
-# --------------------
-
-export XDG_CURRENT_DESKTOP=ubuntu:GNOME
-export XDG_SESSION_DESKTOP=ubuntu
-export DESKTOP_SESSION=ubuntu
-export GNOME_SHELL_SESSION_MODE=ubuntu
-
-# Commonly referenced environment variables for X11 sessions
-# https://specifications.freedesktop.org/basedir-spec/latest/
-
-export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
-export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
-export XDG_MENU_PREFIX=gnome-
 
 export XDG_SESSION_TYPE=x11
 export XDG_SESSION_CLASS=user
 export GDK_BACKEND=x11
 
-# Disables using Direct3D in Mesa 3D graphics library
 export LIBGL_ALWAYS_SOFTWARE=1
 
-18. Reboot
+---------------------------------------------
 
-19. Paste in terminal: . ~/.bash_ubuntu_desktop
+Reboot Reboot Reboot Reboot - Tumbelweed
 
-20. Type in terminal: dbus-launch gnome-session
+---------------------------------------------
+
+Now we cane start Gnome desktop via OpenSuse TumbelWeeD
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+Paste in terminal: . ~/.bash_opensuse_desktop
+Type in terminal: dbus-launch gnome-session
+
+---------------------------------------------
+
+Regards Mattias Vinberg - Tumbelweed OpenSusE - Gnome - Windows 11 - Linux - X410 - 2024 - SwedeN
+
+---------------------------------------------
