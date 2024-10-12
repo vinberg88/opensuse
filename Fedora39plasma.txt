@@ -1,8 +1,60 @@
+
+Fedora 39 is old - Please use this
+
 ------------------------------------------------------
 
-KDE Plasma Desktop Install - GUI - Fedora 39 via Windows 11 - WSL - 2023
+Fedora 40 - KDE Plasma Desktop 6 - GWSL - Fedora 40 via Windows 11 - WSL - 2024
 
-Movie - how to install: https://youtu.be/KsjmMcTt09U
+Find Fedora 40 for WSL here...
+https://apps.microsoft.com/detail/9n6gdm4k2hnc?hl=sv-se&gl=US
+
+How to install KDE plasma 6 via Fedora 40 - text
+https://github.com/vinberg88/opensuse/edit/main/Fedora40-KDE6.txt
+
+Movie - How to install KDE plasma 6 via Fedora 40
+https://www.youtube.com/watch?v=PbHgMkDot_Y
+
+
+         _nnnn_                      
+        dGGGGMMb     ,"""""""""""""".
+       @p~qp~~qMb    | Fedora 40
+       M|@||@) M|   _;..............'
+       @,----.JM| -'
+      JS^\__/  qKL
+     dZP        qKRb
+    dZP          qKKb
+   fZP            SMMb
+   HZM            MMMM
+   FqM            MMMM
+ __| ".        |\dS"qML
+ |    `.       | `' \Zq
+_)      \.___.,|     .'
+\____   )MMMMMM|   .'
+     `-'       `--' 
+
+
+What is Fedora?
+
+Fedora, also known as Fedora Linux, is a popular Open Source Linux-based
+operating system (OS). Designed as a secure, general-purpose OS, Fedora
+is developed on a six-month to eight-month release cycle under the Fedora
+Project. Both the OS and the Fedora Project are financially sponsored
+and supported by Red Hat. Fedora is a free and open source OS platform
+for hardware, clouds and containers. Based on the Linux OS kernel
+architecture, Fedora Linux is a user-friendly OS that enables users to
+perform their tasks easily and efficiently with minimal friction. The name
+Fedora refers to the characteristic fedora hat in Red Hat's Shadowman logo.
+
+What is KDE plasma 6..
+
+Use Plasma to surf the web; keep in touch with colleagues, friends
+and family; manage your files, enjoy music and videos; and get
+creative and productive at work. Do it all in a beautiful environment
+that adapts to your needs, and with the safety, privacy-protection and
+peace of mind that the best Free Open Source Software has to offer.
+Plasma is a Desktop =)
+
+Here you have more stuff about WSL: https://github.com/vinberg88/opensuse
 
 ------------------------------------------------------
 
@@ -10,6 +62,8 @@ Movie - how to install: https://youtu.be/KsjmMcTt09U
 
 [boot]
 systemd=true
+
+------------------------------------------------------
 
 2. Paste all in terminal
 
@@ -20,18 +74,31 @@ sudo mkdir /usr/lib/wsl/lib2
 sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
 echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
 
+------------------------------------------------------
+
 3. Reboot and Update: sudo dnf update
+
+------------------------------------------------------
 
 4. Paste all in terminal...
 
-sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
-sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+
+------------------------------------------------------
 
 5. sudo dnf upgrade --refresh
 
+------------------------------------------------------
+
 6. sudo dnf install git wget curl nano bash pipx sudo dracut net-tools dbus-x11
 
+------------------------------------------------------
+
+Time to install KDE Plasma...
+
 7. sudo dnf -y group install "KDE Plasma Workspaces"
+
+------------------------------------------------------
 
 7.5 Install Google-Chrome - paste all under this paragraph:
 
@@ -39,45 +106,32 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
 sudo yum install ./google-chrome-stable_current_*.rpm
 sudo yum update google-chrome-stable
 
+------------------------------------------------------
+
 8. Reboot
 
 -------------------------------------------------------------
 
-11.5 Login with GWSL and Config all. Then start Linux-shell from GWSL
+11.5 Login with GWSL and Config all. Then start Linux-shell from GWSL....
 
 -------------------------------------------------------------
 
-1.7 Reboot and start GWSL shell.....
-
-11. Paste in terminal: xdg-user-dirs-update
-
 12. Paste all in terminal: 
 
+xdg-user-dirs-update
 sudo systemctl set-default multi-user.target
 sudo systemctl set-default graphical.target
 sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
 
-16. Type this in terminal and put your user-name there: loginctl enable-linger adolfhitler
+-------------------------------------------------------------
 
-17. In terminal type: sudo nano ~/.bash_ubuntu_desktop
+16. Type this in terminal and put your user-name there: loginctl enable-linger user
 
-Paste this small script in terminal and save and quit.
+-------------------------------------------------------------
 
--------------------------------------------
+17. In terminal type: sudo nano ~/.bash_Fedora_desktop
 
-# Vinberg - Fyren 1488
-# --------------------
-# Setting up essential environment variables - Sweden 2023
-# --------------------
-
-export XDG_CURRENT_DESKTOP=ubuntu:GNOME
-export XDG_SESSION_DESKTOP=ubuntu
-export DESKTOP_SESSION=ubuntu
-export GNOME_SHELL_SESSION_MODE=ubuntu
-
-export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
-export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
-export XDG_MENU_PREFIX=gnome-
+Paste this small script in terminal and save and quit nano.
 
 export XDG_SESSION_TYPE=x11
 export XDG_SESSION_CLASS=user
@@ -89,9 +143,19 @@ export LIBGL_ALWAYS_SOFTWARE=1
 
 18. Reboot
 
-19. Paste in terminal: . ~/.bash_ubuntu_desktop
+-------------------------------------------
 
-20. Type in terminal: dbus-launch startplasma-x11
+18.5  Install this.....
+
+sudo dnf install plasma-workspace-x11
+
+-------------------------------------------
+
+19. Paste in terminal: . ~/.bash_Fedora_desktop
+    
+Type in terminal: dbus-launch startplasma-x11
+
+-------------------------------------------
 
 It takes a little time to start at the beginning so leave it for a minute if nothing happens.
 
