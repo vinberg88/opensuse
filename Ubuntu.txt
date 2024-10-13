@@ -1,15 +1,83 @@
-Install Gnome on Ubuntu 22.04 via Windows 11 - How to install.
+Ubuntu - Gnome - How to install Gnome via Ubuntu 22.04 via Windows 11 - WSL - GWSL - Linux - 2024
 
-1. Paste in terminal
+You can find Ubuntu 22.04 here via this link or in Microsoft store for WSL - GWSL - Linux - Windows 11
+https://apps.microsoft.com/detail/9pn20msr04dw?rtc=1&hl=sv-se&gl=SE
+
+How to install Gnome desktop via Ubuntu 22.04 and Windows 11 - TEXT
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu22.04-Gnome.txt
+
+How to install Gnome desktop via Ubuntu 22.04 and Windows 11 - MOVIE
+https://www.youtube.com/watch?v=vbKOBlpisNA
+
+
+                             ....
+              .',:clooo:  .:looooo:.
+           .;looooooooc  .oooooooooo
+        .;looooool:,''.  :ooooooooooc
+       ;looool;.         'oooooooooo,
+      ;clool'             .cooooooc.  ,,
+         ...                ......  .:oo,
+  .;clol:,.                        .loooo'
+ :ooooooooo,                        'ooool
+'ooooooooooo.                        loooo. - OS Windows 11 Pro
+'ooooooooool                         coooo. - Ubuntu 22.04 - Gnome Desktop 
+ ,loooooooc.                        .loooo. - Host - Mattias Vinberg - Sweden - Ubuntu - Canonical
+   .,;;;'.                          ;ooooc
+       ...                         ,ooool.
+    .cooooc.              ..',,'.  .cooo.
+      ;ooooo:.           ;oooooooc.  :l.
+       .coooooc,..      coooooooooo.
+         .:ooooooolc:. .ooooooooooo'
+           .':loooooo;  ,oooooooooc
+               ..';::c'  .;loooo:'
+                             .
+
+
+About Ubuntu 22.04 - https://ubuntu.com/desktop/wsl - https://ubuntu.com
+
+Run your choice of Linux text editors, including vim, emacs, and nano.
+Install applications, compilers and libraries from the Ubuntu 
+repository, securely maintained by Canonical. Ubuntu is a
+Linux distribution derived from Debian and composed mostly
+of free and open-source software. Ubuntu is officially
+released in multiple editions: Desktop, Server, and Core
+for Internet of things devices and robots.
+
+About Gnome - https://www.gnome.org
+
+Every aspect of GNOME has been crafted to fit together
+as a harmonious whole, providing a consistent and integrated
+experience. Our attention to detail means a smooth and
+polished product that lets you do the things you want
+without getting in the way. GNOME is satisfying to use
+and beautiful to behold. Every part of GNOME has been
+designed to make it simple and easy to use. The Activities
+Overview is a simple way to access all your basic tasks.
+A press of a button is all it takes to view your open 
+windows, launch applications, or check if you have new 
+messages. Having everything in one convenient place means
+you don’t have to learn your way around a maze
+of different technologies. An easy and elegant way to use
+your computer, GNOME is designed to help you have the best
+possible computing experience. 
+
+You Can Find More Stuff here About WSL - GWSL - Windows 11 - Linux
+https://github.com/vinberg88/opensuse
+
+--------------------------------
+
+Paste in terminal
 
 sudo nano /etc/wsl.conf 
 
-and add
+and add this to terminal
 
 [boot]
 systemd=true
 
-2. Paste all to terminal and klick enter...
+--------------------------------
+
+Paste all to terminal and klick enter. Remove errors from terminal
 
 ln -s libcuda.so.1.1 libcuda.so.1
 ln -s libcuda.so.1.1 libcuda.so
@@ -18,87 +86,125 @@ sudo mkdir /usr/lib/wsl/lib2
 sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
 echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
 
-3. Reboot
+--------------------------------
 
-4. Update All: sudo apt update && sudo apt upgrade
+Reboot Ubuntu Reboot Ubuntu Reboot Ubuntu Reboot Ubuntu
 
-5. Install programs:
+--------------------------------
 
-sudo apt install bash git npm wget curl nano sudo pipx dracut -y
+Update All
+
+sudo apt update && sudo apt upgrade
+
+--------------------------------
+
+Install programs
+
+sudo apt install bash git npm wget curl dbus pipx dracut -y
 sudo apt install gdm3* -y
 sudo apt install gdm* -y
 sudo systemctl set-default graphical
 
-6. Install this small program..
+--------------------------------
 
-sudo pipx install hyfetch 
-pipx ensurepath
+Install this small program.
 
 pipx install hyfetch
 pipx ensurepath
 
-6.3: Paste This in terminal: 
+Test by just reboot terminal and copy and paste: hyfetch
+
+--------------------------------
+
+Paste This in terminal - Remove Acpid Errors from Ubuntu 22.04
 
 sudo ln -s /dev/null /etc/systemd/system/acpid.service
 sudo ln -s /dev/null /etc/systemd/system/acpid.path
 
-6.5: Reboot Linux...
+--------------------------------
 
-7. Config GWSL and start from there - Linux Shell
+Save some time when you install Gnome Desktop
 
-8. Paste in Terminal: xdg-user-dirs-update
+sudo snap install firefox
 
-9. Paste in Terminal: sudo systemctl set-default multi-user.target
+--------------------------------
 
-10. Time to install Gnome: sudo apt install ubuntu-desktop
+Install Chrome
 
-11. Copy this and paste in terminal: sudo nano ~/.bash_ubuntu_desktop
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+-------------------------------
+
+Install Blanket if you Want! - Listen to Sounds =]
+
+wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+
+--------------------------------
+
+Reboot Linux... Reboot Linux... Reboot Linux... Ubuntu 22.04
+
+--------------------------------
+
+Start GWSL and Config GWSL
+
+" Take an extra Reboot " 
+
+--------------------------------
+
+Start Terminal - Shell - Console from GWSL....
+
+--------------------------------
+
+Copy and Paste in Terminal: 
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+
+--------------------------------
+
+Time to install Gnome
+
+Paste this in Terminal: sudo apt install ubuntu-desktop
+
+--------------------------------
+
+Copy this and paste in terminal: sudo nano ~/.bash_ubuntu_desktop
 
 Then add this script to terminal
-
-# Fyren - Vinberg - 2023 - SS script!
-# --------------------
-# Setting up essential environment variables for Ubuntu desktop
-# --------------------
-
-# Ubuntu default desktop (GNOME Shell variant)
-# https://wiki.gnome.org/Projects/GnomeShell
-
-export XDG_CURRENT_DESKTOP=ubuntu:GNOME
-export XDG_SESSION_DESKTOP=ubuntu
-export DESKTOP_SESSION=ubuntu
-export GNOME_SHELL_SESSION_MODE=ubuntu
-
-# Commonly referenced environment variables for X11 sessions
-# https://specifications.freedesktop.org/basedir-spec/latest/
-
-export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
-export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
-export XDG_MENU_PREFIX=gnome-
 
 export XDG_SESSION_TYPE=x11
 export XDG_SESSION_CLASS=user
 export GDK_BACKEND=x11
 
-# Disables using Direct3D in Mesa 3D graphics library
 export LIBGL_ALWAYS_SOFTWARE=1
 
-9. Reboot
+--------------------------------
 
-10. Install this - just paste all in terminal - Follow instruction...
+Reboot Reboot Reboot Reboot Reboot Reboot - Ubuntu 22.04
+
+--------------------------------
+
+Install this script - Follow instructions in terminal.
 
 git clone https://github.com/DamionGans/ubuntu-wsl2-systemd-script.git
 cd ubuntu-wsl2-systemd-script/
 bash ubuntu-wsl2-systemd-script.sh
 
-10.5. Please Reboot.
+--------------------------------
 
-11. Paste in terminal: . ~/.bash_ubuntu_desktop
+Please Reboot Please Reboot Please Reboot - Ubuntu 22.04
 
-12. Type in terminal: dbus-launch gnome-session
+--------------------------------
 
-After install do this in ubuntu terminal: sudo apt purge modemmanager <-- windows not supporting...
+Time to start Gnome Desktop via Ubuntu 22.04
 
-Warm Regards, 
-Mattias Vinberg
+Paste in terminal: . ~/.bash_ubuntu_desktop
+Paste in terminal: dbus-launch gnome-session
 
+--------------------------------
+
+Regards Mattias Vinberg - Ubuntu - Gnome - Canonical - WSL - GWSL - Windows 11 - Linux - 2024 - SWEDEN!
+
+--------------------------------
