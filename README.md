@@ -27,6 +27,54 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Ubuntu - Gnome - How to install Gnome via Ubuntu 22.04 via Windows 11 - WSL - GWSL - Linux - 2024
+
+You can find Ubuntu 22.04 here via this link or in Microsoft store for WSL - GWSL - Linux - Windows 11
+
+https://apps.microsoft.com/detail/9pn20msr04dw?rtc=1&hl=sv-se&gl=SE
+
+How to install Gnome desktop via Ubuntu 22.04 and Windows 11 - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu22.04-Gnome.txt
+
+How to install Gnome desktop via Ubuntu 22.04 and Windows 11 - MOVIE
+
+https://www.youtube.com/watch?v=vbKOBlpisNA
+
+![Ubuntu22 04-Gnome](https://github.com/user-attachments/assets/b51e049d-3736-4707-b8bf-6239de6bb613)
+
+About Ubuntu 22.04 - https://ubuntu.com/desktop/wsl - https://ubuntu.com
+
+Run your choice of Linux text editors, including vim, emacs, and nano.
+Install applications, compilers and libraries from the Ubuntu 
+repository, securely maintained by Canonical. Ubuntu is a
+Linux distribution derived from Debian and composed mostly
+of free and open-source software. Ubuntu is officially
+released in multiple editions: Desktop, Server, and Core
+for Internet of things devices and robots.
+
+About Gnome - https://www.gnome.org
+
+Every aspect of GNOME has been crafted to fit together
+as a harmonious whole, providing a consistent and integrated
+experience. Our attention to detail means a smooth and
+polished product that lets you do the things you want
+without getting in the way. GNOME is satisfying to use
+and beautiful to behold. Every part of GNOME has been
+designed to make it simple and easy to use. The Activities
+Overview is a simple way to access all your basic tasks.
+A press of a button is all it takes to view your open 
+windows, launch applications, or check if you have new 
+messages. Having everything in one convenient place means
+you don’t have to learn your way around a maze
+of different technologies. An easy and elegant way to use
+your computer, GNOME is designed to help you have the best
+possible computing experience. 
+
+Regards Mattias Vinberg - Ubuntu - Gnome - Canonical - WSL - GWSL - Windows 11 - Linux - 2024 - SWEDEN!
+
+---------------------------------------------
+
 Opensuse Tumbelweed - How to Install Gnome 47 via Windows 11 - WSL - Linux - X410 - 2024
 
 How to install Gnome via Opensuse Tumbelweed - WSL - TEXT
