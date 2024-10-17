@@ -1,5 +1,7 @@
 IP CHANGE FOR WSL - after this is done take a snapshot. First thing to do after installation Linux... 
 
+FIX - $DISPLAY is not set or cannot connect to the X server
+
 -------------------------------------------------
 
 Change nameserver and ip - Hard way
@@ -31,7 +33,9 @@ sudo nano /etc/wsl.conf
 generateHosts = true
 generateResolvConf = false
 
-Do this under 2 and reboot Linux and look agian at /etc/resolv.conf
+Done - then do this
+
+Do this under 2 times and reboot Linux and look agian at /etc/resolv.conf
 
 sudo nano /etc/resolv.conf
 
