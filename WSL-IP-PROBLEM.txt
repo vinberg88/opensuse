@@ -1,4 +1,6 @@
-IP CHANGE FOR WSL - after this is done take a snapshot. First thing to do after installation Linux... 
+How to CHANGE IP FOR WSL - after this is done take a snapshot. First thing to do after installation Linux... 
+
+VIDEO: https://www.youtube.com/watch?v=hLrXtOvnE8w
 
 FIX - $DISPLAY is not set or cannot connect to the X server
 
