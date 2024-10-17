@@ -1,4 +1,4 @@
-IF you have problem with ip https://github.com/vinberg88/opensuse/blob/main/WSL-IP-PROBLEM.txt
+If you have problem with ip https://github.com/vinberg88/opensuse/blob/main/WSL-IP-PROBLEM.txt
 FIX - $DISPLAY is not set or cannot connect to the X server
 
 <h3 align="left">Languages and Tools:</h3>
