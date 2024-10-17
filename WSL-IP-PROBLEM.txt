@@ -50,7 +50,7 @@ sudo nano /etc/resolv.conf
 # generateResolvConf = false
 nameserver 182.18.122.9 
 
-demo nameserver: 182.18.122.9 put you ip there.
+demo nameserver: 182.18.122.9 put you ip there for WSL.
 
 You should see nameserver but if you not do it agian.
 
