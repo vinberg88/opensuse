@@ -30,6 +30,56 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Blackarch - KDE 6 (Plasma) on Black Arch - Microsoft - Windows 11 - WSL - GWSL - Linux - 2024
+
+You can find BlackArch here - NOTE: this install is for testing KDE 6
+
+https://github.com/Rishu20/Blackarchwsl
+
+Here you can find X410 or in Microsoft Store.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?rtc=1&hl=sv-se&gl=SE
+
+![BlackArch-KDE6](https://github.com/user-attachments/assets/32c1f6a3-e284-4ab5-b5a6-714567d1750c)
+
+How to install Plasma KDE 6 on Black Arch - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/BlackArch-KDE6.txt
+
+How to install Plasma KDE 6 on Black Arch - Movie
+
+https://www.youtube.com/watch?v=tcnlNEXMNJA
+
+About KDE plasma 6: Plasma is a Desktop - Use Plasma to surf the
+web; keep in touch with colleagues, friends and family; manage your
+files, enjoy music and videos; and get creative and productive at work.
+Do it all in a beautiful environment that adapts to your needs, and
+with the safety, privacy-protection and peace of mind that the best
+Free Open Source Software has to offer.
+
+Link KDE - https://kde.org
+
+About Black Arch - BlackArch Linux is an Arch Linux-based penetration testing distribution
+for penetration testers and security researchers. The repository
+contains 2902 tools. You can install tools individually or in groups.
+BlackArch Linux is compatible with existing Arch installs.
+For more information, see the installation instructions.
+The BlackArch Full ISO contains multiple window managers.
+The BlackArch Slim ISO features the XFCE Desktop Environment.
+Below you will find screenshots of a few of them.
+
+Link - https://blackarch.org
+
+You will find more stuff here for WSL: https://github.com/vinberg88/opensuse
+
+If you have problem with this error - Fix: $DISPLAY is not set or cannot connect to the X server
+
+https://github.com/vinberg88/opensuse/blob/main/WSL-IP-PROBLEM.txt
+
+Regards Matias Vinberg - BlackArch - KDE 6 - X410 - Linux - SwEden - 2024
+
+---------------------------------------------
+
 Ubuntu - Gnome - How to install Gnome via Ubuntu 22.04 via Windows 11 - WSL - GWSL - Linux - 2024
 
 You can find Ubuntu 22.04 here via this link or in Microsoft store for WSL - GWSL - Linux - Windows 11
