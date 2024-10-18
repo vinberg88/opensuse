@@ -1,11 +1,12 @@
-KDE 6 (Plasma) on Black Arch - Windows 11 - WSL - GWSL - 2024
+Blackarch - KDE 6 (Plasma) on Black Arch - Microsoft - Windows 11 - WSL - GWSL - Linux - 2024
 
-You can find Arch in microsoft store - Orginal Arch
-https://apps.microsoft.com/detail/9mznmnksm73x?hl=sv-SE&gl=US
+You can find BlackArch here - NOTE: this install is for testing KDE 6
+https://github.com/Rishu20/Blackarchwsl
 
-Read About BlackARch here: https://blackarch.org
+Here you can find X410 or in Microsoft Store.
+https://apps.microsoft.com/detail/9pm8lp83g3l3?rtc=1&hl=sv-se&gl=SE
 
-KDE plasma 6 on Black Arch - Windows 11 - GWSL - WSL - BlackArch
+
 
                     -@                
                    .##@               
@@ -21,14 +22,14 @@ KDE plasma 6 on Black Arch - Windows 11 - GWSL - WSL - BlackArch
         -@#######h       ######@.`    
        /#####h**``       `**%@####@   
       @H@*`                    `*%#@  
-     *`                            `* - BlachArch WSL - GWSL - 2024
+     *`                            `* - BlachArch - KDE - WSL - X410 - 2024
 
 
 How to install Plasma KDE 6 on Black Arch - TEXT
 https://github.com/vinberg88/opensuse/blob/main/BlackArch-KDE6.txt
 
 How to install Plasma KDE 6 on Black Arch - Movie
-https://www.youtube.com/watch?v=WCxSou_Wwpo
+https://www.youtube.com/watch?v=tcnlNEXMNJA
 
 About KDE plasma 6: Plasma is a Desktop - Use Plasma to surf the
 web; keep in touch with colleagues, friends and family; manage your
@@ -36,6 +37,8 @@ files, enjoy music and videos; and get creative and productive at work.
 Do it all in a beautiful environment that adapts to your needs, and
 with the safety, privacy-protection and peace of mind that the best
 Free Open Source Software has to offer.
+
+Link KDE - https://kde.org
 
 About Black Arch - BlackArch Linux is an Arch Linux-based penetration testing distribution
 for penetration testers and security researchers. The repository
@@ -46,45 +49,16 @@ The BlackArch Full ISO contains multiple window managers.
 The BlackArch Slim ISO features the XFCE Desktop Environment.
 Below you will find screenshots of a few of them.
 
+Link - https://blackarch.org
+
 You will find more stuff here for WSL: https://github.com/vinberg88/opensuse
 
-------------------------------------------------------------
-
-0. Install Faster Mirrors or repos on BlackArch.
-
-yay -S rate-mirrors-bin
-
-rate-mirrors arch | sudo tee /etc/pacman.d/mirrorlist
+If you have problem with this error - Fix: $DISPLAY is not set or cannot connect to the X server
+https://github.com/vinberg88/opensuse/blob/main/WSL-IP-PROBLEM.txt
 
 ------------------------------------------------------------
 
-1. Update Arch to Black Arch = 2024 - Paste one by one.
-
-curl -O https://blackarch.org/strap.sh
-
-echo 26849980b35a42e6e192c6d9ed8c46f0d6d06047 strap.sh | sha1sum -c
-
-chmod +x strap.sh
-
-sudo ./strap.sh
-
-sudo pacman -Syu
-
-------------------------------------------------------------
-
-3. Enable repos
-
-Paste in terminal: sudo nano /etc/pacman.conf
-
-Uncomment the section of the repositorie to switch your install to
-the Testing repositories, which has the Plasma 6 packages Latest.
-
-[testing]
-Include = /etc/pacman.d/mirrorlist
-
-------------------------------------------------------------
-
-4. Paste this in terminal... all - you wont get symbolic link error.
+After installation paste this - all - you wont get symbolic link error.
 
 ln -s libcuda.so.1.1 libcuda.so.1
 ln -s libcuda.so.1.1 libcuda.so
@@ -95,32 +69,61 @@ echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
 
 ------------------------------------------------------------
 
-5. Reboot Reboot Reboot and update: sudo pacman -Syu
+Reboot Reboot Reboot BlackArch
 
 ------------------------------------------------------------
 
-6. Install Hyfetch
+Update BlackArch to Black Arch = 2024
+
+sudo pacman -Syu
+
+------------------------------------------------------------
+
+Install YAY
+
+sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si
+
+------------------------------------------------------------
+
+Install Hyfetch to see where we are...
 
 yay -S hyfetch
 
 Run hyfetch: hyfetch
 
+or install
+
+yay -S fastfetch
+
+To test after install: fastfetch
+
 ------------------------------------------------------------
 
-7. Install this tools on BlackArch.
+Install google-chrome
 
-sudo pacman -S xorg xorg-server xorg-xinit mesa xterm xorg-twm xorg-xrandr xterm xorg-xclock sddm bluedevil libqtxdg
-xorg-server xorg-xinit xorg-xrandr xorg-xfontsel xorg-xlsfonts xorg-xkill xorg-xinput xorg-xwininfo
+yay -S google-chrome
 
 ------------------------------------------------------------
 
-8. Time To install KDE plasma 6 on BlackArch =]
+NOTE - Most importent install Blanket - listen to sounds.
+
+yay -S blanket
+
+------------------------------------------------------------
+
+Install this tools on BlackArch.
+
+yay -S xorg xorg-server xorg-xinit mesa xterm xorg-twm xorg-xrandr xterm xorg-xclock sddm bluedevil libqtxdg xorg-xfontsel xorg-xlsfonts xorg-xkill xorg-xinput xorg-xwininfo
+
+------------------------------------------------------------
+
+Time To install KDE plasma 6 on BlackArch
 
 sudo pacman -S plasma-meta kde-applications-meta
 
 ------------------------------------------------------------
 
-9. Paste in terminal - all
+Paste in terminal - all
 
 sudo systemctl enable sddm.service
 sudo systemctl enable NetworkManager.service
@@ -128,15 +131,11 @@ sudo systemctl set-default graphical
 
 ------------------------------------------------------------
 
-10. Type this in terminal and put your user there: loginctl enable-linger user
+Type this in terminal and put your user there: sudo loginctl enable-linger user
 
 ----------------------------------------------------------------
 
-11. Start GWSL and Config and Start BlackArch from GWSL - SHELL
-
-----------------------------------------------------------------
-
-12. Type in terminal: sudo nano ~/.bash_Arch_desktop
+Type in terminal: sudo nano ~/.bash_Arch_desktop
 
 Paste this in terminal and save:
 
@@ -148,19 +147,20 @@ export LIBGL_ALWAYS_SOFTWARE=1
 
 ----------------------------------------------------------------
 
-13. Reboot BlackArch - Start BlackArch From GWSL and start Shell.
+Reboot BlackArch and Start X410
 
 ----------------------------------------------------------------
 
-14. Time to start KDE Plasma 6 on Black-Arch.
+Time to start KDE Plasma 6 on Black-Arch. Start X410 Before WSL...
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
 
 Paste in terminal: . ~/.bash_Arch_desktop
 
-Paste in terminal: startplasma-x11
+Paste in terminal: dbus-launch startplasma-x11
 
 ----------------------------------------------------------------
 
-Warm Regards,
-Matias Vinberg 2024 - BlackArch Linux 2013-2024 - SwE
+Regards Matias Vinberg - BlackArch - KDE 6 - X410 - Linux - SwEden - Microsoft - WSL - 2024
 
 ----------------------------------------------------------------
