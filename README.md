@@ -30,7 +30,7 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
-Blackarch - KDE 6 (Plasma) on Black Arch - Microsoft - Windows 11 - WSL - GWSL - Linux - 2024
+Blackarch - KDE 6 (Plasma) on Black Arch - Microsoft - Windows 11 - WSL - X410 - Linux - 2024
 
 You can find BlackArch here - NOTE: this install is for testing KDE 6
 
