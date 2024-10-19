@@ -24,7 +24,7 @@ https://apps.microsoft.com/detail/9pm8lp83g3l3?rtc=1&hl=sv-se&gl=SE
 
 
 How to install GNOME 47 desktop on Black Arch - TEXT
-Comming Zone -- 
+https://github.com/vinberg88/opensuse/blob/main/BlackArch-GNOME.txt 
 
 How to install GNOME 47 desktop on Black Arch - Movie
 https://www.youtube.com/watch?v=mDph8VTb7yY
