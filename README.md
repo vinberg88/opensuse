@@ -30,6 +30,59 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+BlackArch Linux - How to install GNOME 47 desktop via BlackArch - Microsoft - Windows 11 - WSL - X410 - Linux - 2024
+
+You can find BlackArch here
+
+https://github.com/Rishu20/Blackarchwsl
+
+Here you can find X410 or in Microsoft Store.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?rtc=1&hl=sv-se&gl=SE
+
+How to install GNOME 47 desktop on Black Arch - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/BlackArch-GNOME.txt
+
+How to install GNOME 47 desktop on Black Arch - Movie
+
+https://www.youtube.com/watch?v=mDph8VTb7yY
+
+![BlackArch-GNOME](https://github.com/user-attachments/assets/e299c601-5723-453d-8789-49c702aa6996)
+
+About Gnome 47 Desktop - https://www.gnome.org
+
+Every aspect of GNOME has been crafted to fit together
+as a harmonious whole, providing a consistent and integrated
+experience. Our attention to detail means a smooth and
+polished product that lets you do the things you want
+without getting in the way. GNOME is satisfying to use
+and beautiful to behold. Every part of GNOME has been
+designed to make it simple and easy to use. The Activities
+Overview is a simple way to access all your basic tasks.
+A press of a button is all it takes to view your open 
+windows, launch applications, or check if you have new 
+messages. Having everything in one convenient place means
+you don’t have to learn your way around a maze
+of different technologies. An easy and elegant way to use
+your computer, GNOME is designed to help you have the best
+possible computing experience.
+
+About Black Arch  - https://blackarch.org
+
+BlackArch Linux is an Arch Linux-based
+penetration testing distribution for penetration testers and
+security researchers. The repository contains 2902 tools.
+You can install tools individually or in groups. BlackArch
+Linux is compatible with existing Arch installs. For more
+information, see the installation instructions The BlackArch
+Full ISO contains multiple window managers. The BlackArch
+Slim ISO features the XFCE Desktop Environment.
+
+Regards Mattias Vinberg - ARCH - Gnome 47 - X410 - WSL - Linux - Windows 11 - SWEDEN - 2024
+
+---------------------------------------------
+
 Blackarch - KDE 6 (Plasma) on Black Arch - Microsoft - Windows 11 - WSL - X410 - Linux - 2024
 
 You can find BlackArch here - NOTE: this install is for testing KDE 6
