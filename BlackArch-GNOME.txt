@@ -1,0 +1,198 @@
+BlackArch Linux - How to install GNOME 47 desktop via BlackArch - Microsoft - Windows 11 - WSL - X410 - Linux - 2024
+
+You can find BlackArch here
+https://github.com/Rishu20/Blackarchwsl
+
+Here you can find X410 or in Microsoft Store.
+https://apps.microsoft.com/detail/9pm8lp83g3l3?rtc=1&hl=sv-se&gl=SE
+
+                    -@                
+                   .##@               
+                  .####@              
+                  @#####@             
+                . *######@            
+               .##@o@#####@           
+              /############@          
+             /##############@         
+            @######@**%######@        
+           @######`     %#####o       
+          @######@       ######%      
+        -@#######h       ######@.`    
+       /#####h**``       `**%@####@   
+      @H@*`                    `*%#@  - OS Windows 11/Pro
+     *`                            `* - BlachArch - GNOME 47 - WSL - X410 - 2024
+
+
+How to install GNOME 47 desktop on Black Arch - TEXT
+Comming Zone -- 
+
+How to install GNOME 47 desktop on Black Arch - Movie
+https://www.youtube.com/watch?v=mDph8VTb7yY
+
+About Gnome 47 Desktop - https://www.gnome.org
+
+Every aspect of GNOME has been crafted to fit together
+as a harmonious whole, providing a consistent and integrated
+experience. Our attention to detail means a smooth and
+polished product that lets you do the things you want
+without getting in the way. GNOME is satisfying to use
+and beautiful to behold. Every part of GNOME has been
+designed to make it simple and easy to use. The Activities
+Overview is a simple way to access all your basic tasks.
+A press of a button is all it takes to view your open 
+windows, launch applications, or check if you have new 
+messages. Having everything in one convenient place means
+you don’t have to learn your way around a maze
+of different technologies. An easy and elegant way to use
+your computer, GNOME is designed to help you have the best
+possible computing experience.
+
+About Black Arch  - https://blackarch.org
+
+BlackArch Linux is an Arch Linux-based
+penetration testing distribution for penetration testers and
+security researchers. The repository contains 2902 tools.
+You can install tools individually or in groups. BlackArch
+Linux is compatible with existing Arch installs. For more
+information, see the installation instructions The BlackArch
+Full ISO contains multiple window managers. The BlackArch
+Slim ISO features the XFCE Desktop Environment.
+
+You will find more stuff here for WSL: https://github.com/vinberg88/opensuse
+
+If you have problem with this error - Fix: $DISPLAY is not set or cannot connect to the X server
+https://github.com/vinberg88/opensuse/blob/main/WSL-IP-PROBLEM.txt
+
+------------------------------------------------------------
+
+EXTRA - If you are missing from Visudo file when you
+try to install stuff, do this...
+
+1. Login as root and do this.
+
+2. Copy and paste this in terminal: sudo EDITOR=nano visudo
+
+3. Add your user-name under root like this: helge ALL=(ALL:ALL) ALL
+
+4. next remove # in front of this lines. Its almost same Place.
+
+## Uncomment to allow members of group wheel to execute any command
+%wheel ALL=(ALL:ALL) ALL
+
+## Same thing without a password
+%wheel ALL=(ALL:ALL) NOPASSWD: ALL
+
+## Uncomment to allow members of group sudo to execute any command
+%sudo ALL=(ALL:ALL) ALL
+
+5. Logout as root and login as normal user
+
+------------------------------------------------------------
+
+Paste this in terminal - all - you wont get symbolic link error in terminal.
+
+ln -s libcuda.so.1.1 libcuda.so.1
+ln -s libcuda.so.1.1 libcuda.so
+echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
+sudo mkdir /usr/lib/wsl/lib2
+sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
+echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+
+------------------------------------------------------------
+
+Reboot Reboot Reboot BlackArch
+
+------------------------------------------------------------
+
+Update BlackArch to Black Arch = 2024
+
+sudo pacman -Syu
+
+------------------------------------------------------------
+
+Install YAY package Helper
+
+sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si
+
+------------------------------------------------------------
+
+Install Fastfetch to see where we are...
+
+yay -S fastfetch
+
+To test after install: fastfetch
+
+------------------------------------------------------------
+
+Install google-chrome - works great whit GNOME desktop.
+
+yay -S google-chrome
+
+------------------------------------------------------------
+
+Most importent install Blanket - listen to sounds.
+
+yay -S blanket
+
+------------------------------------------------------------
+
+Install this programs via BLACKARCH.
+
+sudo pacman -S bash git npm wget curl dialog go dbus ibus
+
+------------------------------------------------------------
+
+Install this for GDM and BlackARCH - one by one...
+
+sudo pacman -S xorg xorg-server xorg-xinit mesa xterm xorg-twm xorg-xrandr
+sudo pacman -S xorg-xclock gdm bluedevil libqtxdg gnome-browser-connector
+sudo pacman -S xorg-xfontsel xorg-xlsfonts xorg-xkill xorg-xinput xorg-xwininfo
+
+------------------------------------------------------------
+
+Copy and paste this in terminal.
+
+sudo systemctl enable gdm
+sudo systemctl set-default graphical
+
+------------------------------------------------------------
+
+Time To install Gnome 47 via BlackArch
+
+sudo pacman -S gnome gnome-extra
+
+------------------------------------------------------------
+
+Type this in terminal and put your user there: sudo loginctl enable-linger user
+
+----------------------------------------------------------------
+
+Type in terminal: sudo nano ~/.bash_Arch_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------------------------
+
+Reboot Reboot Reboot - BlackArch - Reboot Reboot Reboot
+
+----------------------------------------------------------------
+
+Start X410 for windows 11 and start Arch - Time to start Gnome Desktop.
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+Paste in terminal: . ~/.bash_Arch_desktop
+Paste in terminal: dbus-launch gnome-session
+
+NOTE - It take some time to start Gnome 47. You may have to try more than one to start Gnome via: dbus-launch gnome-session
+
+----------------------------------------------------------------
+
+Regards Mattias Vinberg - ARCH - Gnome 47 - X410 - WSL - Linux - Windows 11 - SWEDEN - 2024
+
+----------------------------------------------------------------
