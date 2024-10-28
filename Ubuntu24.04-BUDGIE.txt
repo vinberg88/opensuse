@@ -1,7 +1,7 @@
 Ubuntu 24.04 - BUDGIE - How to install BUDGIE Desktop via Windows 11 - WSL - GWSL - Linux - YouTube - 2024
 
 How to install Budgie Desktop via Windows 11 / Ubuntu 24.04 and WSL - TEXT
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu24.04-BUDGIE.txt
 
 How to install Budgie Desktop via Windows 11 / Ubuntu 24.04 and WSL - MOVIE
 https://www.youtube.com/watch?v=mKn5WuNLMFo
