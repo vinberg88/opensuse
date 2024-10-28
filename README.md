@@ -30,6 +30,49 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Ubuntu 24.04 - BUDGIE - How to install BUDGIE Desktop via Windows 11 - WSL - GWSL - Linux - YouTube - 2024
+
+How to install Budgie Desktop via Windows 11 / Ubuntu 24.04 and WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu24.04-BUDGIE.txt
+
+How to install Budgie Desktop via Windows 11 / Ubuntu 24.04 and WSL - MOVIE
+
+https://www.youtube.com/watch?v=mKn5WuNLMFo
+
+![Ubuntu24 04-BUDGIE](https://github.com/user-attachments/assets/7446d950-6fc3-4851-a850-ad8ebf26e6ce)
+
+You can find ubuntu 24.04.01 here or via Microsoft store.
+
+Link to WSL version - https://apps.microsoft.com/detail/9nz3klhxdjp5?hl=en-US&gl=US
+
+About Ubuntu 24.04 - https://ubuntu.com/desktop/wsl - https://ubuntu.com
+
+Run your choice of Linux text editors, including vim, emacs, and nano.
+Install applications, compilers and libraries from the Ubuntu 
+repository, securely maintained by Canonical. Ubuntu is a
+Linux distribution derived from Debian and composed mostly
+of free and open-source software. Ubuntu is officially
+released in multiple editions: Desktop, Server, and Core
+for Internet of things devices and robots.
+
+ABOUT BUDGIE DESKTOP - 2024 - https://buddiesofbudgie.org
+
+Budgie Menu shows you all your installed applications,
+neatly organized into categories to improve discoverability,
+and with lightning fast application searching! No more
+diving into sub-menus to find the app you need. Make Budgie Your Own
+With our Budgie Desktop Settings application, you can make
+Budgie feel like home. Whether you want a dock or multiple
+panels, you can do it with just a few clicks. Budgie is
+available on a wide variety of operating systems, from Arch
+Linux to Ubuntu, and everything in between. Try it out today
+on the flavor of Linux of your choosing.
+
+Regards Mattias Vinberg - BUDGIE - Ubuntu 24.04 LTS - WSL - GWSL - Windows 11 - Linux - 2024 - SWEDEN
+
+---------------------------------------------
+
 BlackArch Linux - How to install GNOME 47 desktop via BlackArch - Microsoft - Windows 11 - WSL - X410 - Linux - 2024
 
 You can find BlackArch here
