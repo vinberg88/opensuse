@@ -30,7 +30,7 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
-Ubuntu 24.04 - BUDGIE - How to install BUDGIE Desktop via Windows 11 - WSL - GWSL - Linux - YouTube - 2024
+Ubuntu 24.04 - BUDGIE - How to install BUDGIE Desktop via Windows 11 - WSL - GWSL - Linux - YouTube - GitHub - 2024
 
 How to install Budgie Desktop via Windows 11 / Ubuntu 24.04 and WSL - TEXT
 
