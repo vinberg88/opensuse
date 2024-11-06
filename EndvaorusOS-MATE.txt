@@ -27,7 +27,7 @@ https://github.com/sileshn/EndeavourOSWSL2
 
 
 How to install Mate Desktop on EndeavourOS - TEXT
-Comming Zone!
+https://github.com/vinberg88/opensuse/blob/main/EndvaorusOS-MATE.txt
 
 How to install Mate Desktop on EndeavourOS - Movie
 https://www.youtube.com/watch?v=XljxgqrqgoU
