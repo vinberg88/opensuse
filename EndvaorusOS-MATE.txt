@@ -1,0 +1,154 @@
+Endeavour - Install Mate Desktop via WSL - GWSL - Windows 11 - EndeavourOS - Linux - 2024
+
+You Can Find EndeavourOS for WSL Here - 2024
+https://github.com/sileshn/EndeavourOSWSL2
+
+------------------------------------------------------------
+
+
+                     ./o.                                      ./o.
+                   ./sssso-                                  ./sssso-
+                 `:osssssss+-                              `:osssssss+-
+               `:+sssssssssso/.                          `:+sssssssssso/.
+             `-/ossssssssssssso/.                      `-/ossssssssssssso/.
+           `-/+sssssssssssssssso+:`                  `-/+sssssssssssssssso+:`
+         `-:/+sssssssssssssssssso+/.               `-:/+sssssssssssssssssso+/.
+       `.://osssssssssssssssssssso++-            `.://osssssssssssssssssssso++-
+      .://+ssssssssssssssssssssssso++:          .://+ssssssssssssssssssssssso++:
+    .:///ossssssssssssssssssssssssso++:       .:///ossssssssssssssssssssssssso++:
+  `:////ssssssssssssssssssssssssssso+++.    `:////ssssssssssssssssssssssssssso+++.
+`-////+ssssssssssssssssssssssssssso++++-  `-////+ssssssssssssssssssssssssssso++++-
+ `..-+oosssssssssssssssssssssssso+++++/`   `..-+oosssssssssssssssssssssssso+++++/`
+   ./++++++++++++++++++++++++++++++/:.       ./++++++++++++++++++++++++++++++/:.
+  `:::::::::::::::::::::::::------``        `:::::::::::::::::::::::::------``
+
+
+------------------------------------------------------------
+
+
+How to install Mate Desktop on EndeavourOS - TEXT
+Comming Zone!
+
+How to install Mate Desktop on EndeavourOS - Movie
+https://www.youtube.com/watch?v=XljxgqrqgoU
+
+About MATE Desktop for Endeavour - https://mate-desktop.org
+
+The MATE Desktop Environment is the continuation of GNOME 2.
+It provides an intuitive and attractive desktop environment
+using traditional metaphors for Linux and other Unix-like
+operating systems. MATE is under active development to add
+support for new technologies while preserving a traditional
+desktop experience. 
+
+About EndeavourOS - Endeavour - https://endeavouros.com
+
+EndeavourOS is an Arch-based distro that provides
+an Arch experience without the hassle of installing
+it manually for x86_64 machines. After installation, you’re
+provided with a lightweight and almost bare-bones
+environment ready to be explored with your terminal, along
+with our home-built Welcome App as a powerful
+guide to help you along.
+
+You will find more stuff here for WSL: https://github.com/vinberg88/opensuse
+
+------------------------------------------------------------
+
+First thing to do after installation. Update EndeavourOS Arch based distro - 2024
+
+sudo pacman -Syu
+
+------------------------------------------------------------
+
+Some programs for EndeavourOS - Copy and paste one by one.
+
+git clone https://github.com/endeavouros-team/EndeavourOS-packages-lists.git
+cd EndeavourOS-packages-lists
+sudo pacman -S --needed - < eos-base-group
+sudo pacman -S --needed - < eos-apps
+sudo pacman -S --needed - < mate
+cd
+
+------------------------------------------------------------
+
+Install one by one... Xorg is a popular X windows system or display system for MATE.
+
+sudo pacman -S xorg xorg-server xorg-xinit mesa xterm xorg-twm xorg-xrandr -y
+sudo pacman -S xorg-twm xterm xorg-xclock lightdm bluedevil libqtxdg -y
+sudo pacman -S xorg-server xorg-xinit xorg-xrandr xorg-xfontsel xorg-xlsfonts xorg-xkill xorg-xinput xorg-xwininfo -y
+sudo pacman -S lightdm-gtk-greeter -y
+
+sudo systemctl enable lightdm
+sudo systemctl set-default graphical
+
+------------------------------------------------------------
+
+Time to installing MATE Desktop Environment in EndeavourOS - WSL
+
+sudo pacman -S mate mate-extra
+
+------------------------------------------------------------
+
+Paste in terminal
+
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+------------------------------------------------------------
+
+Type this in terminal and put your user there - sudo loginctl enable-linger user
+
+------------------------------------------------------------
+
+Install this if you want - You need it =]
+
+yay -S google-chrome hyfetch gimp libreoffice blanket fastfetch
+
+----------------------------------------------------------------
+
+Test hyfetch by type this in terminal: hyfetch
+
+Like Neofetch but more fun...
+
+------------------------------------------------------------
+
+Reboot Endeavouros - Reboot Endeavouros - Reboot Endeavouros
+
+------------------------------------------------------------
+
+Start GWSL and Config and Start Endeavouros from GWSL - SHELL - BASH
+
+                 " Take an extra Reboot "
+
+------------------------------------------------------------
+
+Type in terminal: sudo nano ~/.bash_Endeavouros_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+------------------------------------------------------------
+
+Reboot Endeavouros - Reboot Endeavouros - Reboot Endeavouros - Start Bash - Terminal - Console - BASH from GWSL.
+
+------------------------------------------------------------
+
+Time to start Mate Desktop - WSL - Windows 11 - Endeavouros - GWSL - Linux
+
+Paste in terminal.
+
+1. First to copy and paste:  . ~/.bash_Endeavouros_desktop
+2. Second to copy and paste: mate-session
+
+NOTE: You'll probably have to try a couple of times before it starts....
+
+------------------------------------------------------------
+
+Regards Mattias Vinberg - Mate Desktop - Endeavour - Linux - GWSL - WSL - Windows 11 - Endeavouros - Sweden - 2024 
+
+----------------------------------------------------------------
