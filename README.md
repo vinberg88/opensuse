@@ -30,6 +30,45 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Endeavour - Install Mate Desktop via WSL - GWSL - Windows 11 - EndeavourOS - Linux - 2024
+
+You Can Find EndeavourOS for WSL Here - 2024
+
+https://github.com/sileshn/EndeavourOSWSL2
+
+How to install Mate Desktop on EndeavourOS - Endeavour - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/EndvaorusOS-MATE.txt
+
+How to install Mate Desktop on EndeavourOS - Endeavour - Movie
+
+https://www.youtube.com/watch?v=XljxgqrqgoU
+
+![EndvaorusOS-MATE](https://github.com/user-attachments/assets/d73770d4-97c0-4027-af64-022bd2ccedbf)
+
+About MATE Desktop for Endeavour - https://mate-desktop.org
+
+The MATE Desktop Environment is the continuation of GNOME 2.
+It provides an intuitive and attractive desktop environment
+using traditional metaphors for Linux and other Unix-like
+operating systems. MATE is under active development to add
+support for new technologies while preserving a traditional
+desktop experience. 
+
+About EndeavourOS - Endeavour - https://endeavouros.com
+
+EndeavourOS is an Arch-based distro that provides
+an Arch experience without the hassle of installing
+it manually for x86_64 machines. After installation, you’re
+provided with a lightweight and almost bare-bones
+environment ready to be explored with your terminal, along
+with our home-built Welcome App as a powerful
+guide to help you along
+
+Regards Mattias Vinberg - Mate Desktop - Endeavour - Linux - GWSL - WSL - Windows 11 - Endeavouros - Sweden - 2024
+
+---------------------------------------------
+
 Ubuntu 24.04 - BUDGIE - How to install BUDGIE Desktop via Windows 11 - WSL - GWSL - Linux - YouTube - GitHub - 2024
 
 How to install Budgie Desktop via Windows 11 / Ubuntu 24.04 and WSL - TEXT
