@@ -90,7 +90,7 @@ Want more stuff for WSL - GWSL - WINDOWS 11 - Linux
 
 https://github.com/vinberg88/opensuse
 
-Regards Mattias Vinberg - Ubuntu 24.04 Noble - KDE PLASMA 6 - Neon 6.2 - WSL - GWSL - WINDOWS 11 - SWEDEN - 2024
+Regards Mattias Vinberg - Ubuntu 24.04 - KDE 6 - Neon 6.2 - WSL - GWSL - WINDOWS 11 - SWEDEN - 2024
 
 ---------------------------------------------
 
