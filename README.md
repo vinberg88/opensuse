@@ -30,6 +30,70 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Ubuntu 24.04 and KDE PLASMA 6.2 - How to install KDE 6 via WSL - GWSL - Windows 11 - Linux - 2024
+
+You can find Ubuntu 24.04 in microsoft store or via this link.
+
+https://apps.microsoft.com/detail/9nz3klhxdjp5?hl=en-US&gl=US
+
+How to install KDE 6 via windows 11 and WSL - Ubuntu 24.04 Noble - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu24.04-KDE6.txt
+
+How to install KDE 6 via windows 11 and WSL - Ubuntu 24.04 Noble - MOVIE
+
+https://www.youtube.com/watch?v=tHmvIoyfM1Y
+
+![Ubuntu24 04-KDE6](https://github.com/user-attachments/assets/a38f0027-13bf-4e1a-b402-1ff5a2c3a757)
+
+About Ubuntu - https://ubuntu.com - https://ubuntu.com/desktop/wsl
+
+Ubuntu is an ancient African word meaning ‘humanity to others’.
+It is often described as reminding us that ‘I am what I am
+because of who we all are’. We bring the spirit of Ubuntu
+to the world of computers and software. The Ubuntu 
+distribution represents the best of what the world’s software
+community has shared with the world. Canonical is the
+publisher of Ubuntu. Members of the Canonical team lead
+aspects of Ubuntu such as the kernel, default desktop,
+foundations, security, OpenStack, and Kubernetes. 
+The first official Ubuntu release — Version 4.10, codenamed
+the ‘Warty Warthog’ — was launched in October 2004, and
+sparked dramatic global interest as thousands of free
+software enthusiasts and experts joined the Ubuntu community.
+Ubuntu today has many flavours and dozens of specialised 
+derivatives. There are also special editions for servers, OpenStack
+clouds, and connected devices. All editions share common
+infrastructure and software, making Ubuntu a unique single
+platform that scales from consumer electronics to the desktop
+and up into the cloud for enterprise computing.
+
+About KDE 6.2 - https://kde.org
+
+KDE is the next generation desktop for Linux. 
+Use KDE software to surf the web, keep in touch
+with colleagues, friends and family, manage your
+files, enjoy music and videos; and get creative and
+productive at work. The KDE community develops
+and maintains more than 200 applications which
+run on any Linux desktop, and often other platforms
+too. The Plasma Launcher lets you quickly and easily
+launch applications, but it can do much more -- convenient
+tasks like bookmarking applications, searching for documents
+as you type, or navigating to common places help you get
+straight to the point. With a history of recently started
+programs and opened files, you can return to where you left
+off. It even remembers previously entered search terms
+so you don't have to.
+
+Want more stuff for WSL - GWSL - WINDOWS 11 - Linux
+
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - Ubuntu 24.04 Noble - KDE PLASMA 6 - Neon 6.2 - WSL - GWSL - WINDOWS 11 - SWEDEN - 2024
+
+---------------------------------------------
+
 Endeavour - Install Mate Desktop via WSL - GWSL - Windows 11 - EndeavourOS - Linux - 2024
 
 You Can Find EndeavourOS for WSL Here - 2024
