@@ -26,7 +26,7 @@ hdddyo+ohddyosdddddddddho+oydddy++ohdddh   Setup - Mattias Vinberg - Sweden - 20
 
 
 How to install XFCE4 via windows 11 and Linux - WSL - ALPINE - TEXT
-Comming ZONE..
+https://github.com/vinberg88/opensuse/blob/main/Alpine-XFCE4.txt
 
 How to install XFCE4 via windows 11 and Linux - WSL - ALPINE - MOVIE
 https://www.youtube.com/watch?v=JpWrDc5jSaw
