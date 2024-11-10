@@ -1,0 +1,216 @@
+Alpine Linux and XFCE4 - How to install XFCE desktop via Alpine - Windows 11 - WSL - GWSL - LINUX - 2024
+
+You can find Alpine Linux via this link or via Microsoft store.
+https://apps.microsoft.com/detail/9p804crf0395?hl=en-US&gl=US
+
+       .hddddddddddddddddddddddh.
+      :dddddddddddddddddddddddddd:
+     /dddddddddddddddddddddddddddd/
+    +dddddddddddddddddddddddddddddd+ 
+  `sdddddddddddddddddddddddddddddddds`
+ `ydddddddddddd++hdddddddddddddddddddy`
+.hddddddddddd+`  `+ddddh:-sdddddddddddh.
+hdddddddddd+`      `+y:    .sddddddddddh
+ddddddddh+`   `//`   `.`     -sddddddddd   Windows OS: Windows 11 Pro - 24H2 - WSL - GWSL
+ddddddh+`   `/hddh/`   `:s-    -sddddddd   Host: Windows Subsystem for Linux - Alpine (2.3.25)
+ddddh+`   `/+/dddddh/`   `+s-    -sddddd   OS: Alpine Linux 3.17.0 x86_64
+ddd+`   `/o` :dddddddh/`   `oy-    .yddd   Kernel: Linux 5.15.153.1-microsoft-standard-WSL2
+hdddyo+ohddyosdddddddddho+oydddy++ohdddh   Setup - Mattias Vinberg - Sweden - 2024 - ALPINE
+.hddddddddddddddddddddddddddddddddddddh.
+ `yddddddddddddddddddddddddddddddddddy`
+  `sdddddddddddddddddddddddddddddddds`
+    +dddddddddddddddddddddddddddddd+
+     /dddddddddddddddddddddddddddd/
+      :dddddddddddddddddddddddddd:
+       .hddddddddddddddddddddddh. 
+
+
+How to install XFCE4 via windows 11 and Linux - WSL - ALPINE - TEXT
+Comming ZONE..
+
+How to install XFCE4 via windows 11 and Linux - WSL - ALPINE - MOVIE
+https://www.youtube.com/watch?v=JpWrDc5jSaw
+
+About Alpine Linux - https://alpinelinux.org
+
+Alpine Linux is an independent, non-commercial, general purpose
+Linux distribution designed for power users who appreciate
+security, simplicity and resource efficiency. Alpine Linux 
+is a very simple distribution that will try to stay out of your
+way. It uses its own package manager called apk, the OpenRC
+init system, script driven set-ups and that’s it! This provides
+you with a simple, crystal-clear Linux environment without all
+the noise. You can then add on top of that just the packages
+you need for your project, so whether it’s building a home
+PVR, or an iSCSI storage controller, a wafer-thin mail server
+container, or a rock-solid embedded switch, nothing else will
+get in the way. https://www.alpinelinux.org
+
+About Xfce - Xfce4 - https://www.xfce.org
+
+Xfce is a lightweight desktop environment for UNIX-like operating
+systems. It aims to be fast and low on system resources, while
+still being visually appealing and user friendly.
+Xfce embodies the traditional UNIX philosophy of modularity and 
+re-usability. It consists of a number of components that provide
+the full functionality one can expect of a modern desktop environment.
+They are packaged separately and you can pick among the available
+packages to create the optimal personal working environment. 
+
+You will find more stuff here for WSL - Windows 11 - Linux - ALPINE - GWSL
+https://github.com/vinberg88/opensuse
+
+--------------------------------------
+
+Time to Install Alpine and follow instructions.
+
+--------------------------------------
+
+Login as root and type
+
+passwd
+passwd stig <-- put your user ther.
+
+--------------------------------------
+
+Install sudo as root.
+
+apk add sudo
+
+-----------------------------
+
+Reboot Alpine Linux - Reboot Alpine Linux - Reboot Alpine Linux
+
+-----------------------------
+
+Run this script as root
+
+wget --no-cache -O - https://raw.githubusercontent.com/afimpel/alpine-linux/master/setup-basic-postinstal | sh
+
+Logut as root and get back as normal user after you run script.
+
+-----------------------------
+
+Reboot Alpine Linux - Reboot Alpine Linux - Reboot Alpine Linux
+
+-----------------------------
+
+Fix ip for GWSL - Paste one By ONE in terminal...
+
+sudo ls -l /etc/resolv.conf
+
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+
+sudo nano /etc/resolv.conf
+
+HERE PUT YOUR IP LIKE THIS: nameserver 88.01.01.2 <-- this is not ip adress for GWSL.
+
+sudo chattr +i /etc/resolv.conf
+
+sudo systemctl restart systemd-resolved
+
+cat /etc/resolv.conf
+
+-----------------------------
+
+Reboot Alpine Linux - Reboot Alpine Linux - Reboot Alpine Linux
+
+-----------------------------
+
+Install Chromium / gimp / libreoffice / blanket
+
+sudo apk add chromium
+sudo apk add gimp
+sudo apk add libreoffice
+sudo apk add blanket
+sudo apk add code-oss
+sudo apk add gnome-terminal
+
+-----------------------------
+
+Install some themes if you want
+
+sudo apk add papirus-icon-theme
+sudo apk add materia-gtk-theme
+sudo apk add arc-theme
+sudo apk add adwaita-icon-theme
+sudo apk add slim-themes
+sudo apk add greybird-themes-gtk3
+sudo apk add paper-gtk-theme
+sudo apk add numix-themes-gtk3
+sudo apk add adw-gtk3 adwaita-xfce-icon-theme
+sudo apk add greybird-themes
+sudo apk add mate-themes
+sudo apk add albatross-themes
+sudo apk add mate-icon-theme
+sudo apk add capitaine-cursors
+sudo apk add simp1e-cursors
+sudo apk add simp1e-cursors-dark
+sudo apk add lxqt-themes
+sudo apk add faenza-icon-theme
+sudo apk add numix-themes
+sudo apk add xfwm4-themes
+sudo apk add paper-icon-theme
+sudo apk add moka-icon-theme
+sudo apk add kiconthemes
+sudo apk add gnome-wise-icon-theme
+sudo apk add arc-icon-theme
+sudo apk add mate-icon-theme-Faenza
+sudo apk add arc-dark-gtk3
+sudo apk add breeze-gtk
+sudo apk add materia-dark-compact-gtk3
+sudo apk add materia-dark
+sudo apk add materia-dark-compact
+
+
+-----------------------------
+
+Time to install XFCE4 desktop via Alpine Linux - Install as normal user, not root.
+
+wget --no-cache -O - https://raw.githubusercontent.com/afimpel/alpine-linux/master/xfce4/setup-xfce4 | bash
+
+-----------------------------
+
+Time to update all.
+
+sudo apk update && sudo apk upgrade
+
+------------------------------------
+
+Reboot Alpine Linux - Reboot Alpine Linux - Reboot Alpine Linux 
+
+------------------------------------
+
+Setup and Login with GWSL and Config all. Then start Linux-shell/Bash from GWSL.
+
+                   " Take an extra reboot "
+
+------------------------------------
+
+In terminal type: sudo nano ~/.bash_Alpine_desktop
+
+Paste this small script in terminal and save and quit nano.
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-------------------------------------------
+
+Reboot Alpine Linux - Reboot Alpine Linux - Reboot Alpine Linux -->> from GWSL - SHELL
+
+-------------------------------------------
+
+TIME TO START XCFE4 desktop for Alpine Linux.
+
+Paste in terminal: . ~/.bash_Alpine_desktop
+    
+Type in terminal:  dbus-launch startxfce4
+
+-------------------------------------------
+
+Regards Mattias Vinberg - Alpine Linux - XFCE4 - WSL - Windows 11 - GWSL - LINUX - Sweden 2024.
+
+-------------------------------------------
