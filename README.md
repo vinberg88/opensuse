@@ -59,7 +59,7 @@ the noise. You can then add on top of that just the packages
 you need for your project, so whether it’s building a home
 PVR, or an iSCSI storage controller, a wafer-thin mail server
 container, or a rock-solid embedded switch, nothing else will
-get in the way. https://www.alpinelinux.org
+get in the way.
 
 About Xfce - Xfce4 - https://www.xfce.org
 
