@@ -30,6 +30,52 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Alpine Linux and XFCE4 - How to install XFCE desktop via Alpine - Windows 11 - WSL - GWSL - LINUX - 2024
+
+You can find Alpine Linux via this link or via Microsoft store.
+
+https://apps.microsoft.com/detail/9p804crf0395?hl=en-US&gl=US
+
+How to install XFCE4 via windows 11 and Linux - WSL - ALPINE - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Alpine-XFCE4.txt
+
+How to install XFCE4 via windows 11 and Linux - WSL - ALPINE - MOVIE
+
+https://www.youtube.com/watch?v=JpWrDc5jSaw
+
+![Alpine-XFCE4](https://github.com/user-attachments/assets/2dd20285-7706-47c1-b9f4-88131bc5e450)
+
+About Alpine Linux - https://alpinelinux.org
+
+Alpine Linux is an independent, non-commercial, general purpose
+Linux distribution designed for power users who appreciate
+security, simplicity and resource efficiency. Alpine Linux 
+is a very simple distribution that will try to stay out of your
+way. It uses its own package manager called apk, the OpenRC
+init system, script driven set-ups and that’s it! This provides
+you with a simple, crystal-clear Linux environment without all
+the noise. You can then add on top of that just the packages
+you need for your project, so whether it’s building a home
+PVR, or an iSCSI storage controller, a wafer-thin mail server
+container, or a rock-solid embedded switch, nothing else will
+get in the way. https://www.alpinelinux.org
+
+About Xfce - Xfce4 - https://www.xfce.org
+
+Xfce is a lightweight desktop environment for UNIX-like operating
+systems. It aims to be fast and low on system resources, while
+still being visually appealing and user friendly.
+Xfce embodies the traditional UNIX philosophy of modularity and 
+re-usability. It consists of a number of components that provide
+the full functionality one can expect of a modern desktop environment.
+They are packaged separately and you can pick among the available
+packages to create the optimal personal working environment. 
+
+Regards Mattias Vinberg - Alpine Linux - XFCE4 - WSL - Windows 11 - GWSL - LINUX - Sweden - 2024
+
+---------------------------------------------
+
 Ubuntu 24.04 and KDE PLASMA 6.2 - How to install KDE 6 via WSL - GWSL - Windows 11 - Linux - 2024
 
 You can find Ubuntu 24.04 in microsoft store or via this link.
