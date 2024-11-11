@@ -1,0 +1,242 @@
+Alpine Linux and MATE - How to install MATE desktop via Alpine - Windows 11 - WSL - GWSL - LINUX - 2024
+
+You can find Alpine Linux via this link or via Microsoft store.
+https://apps.microsoft.com/detail/9p804crf0395?hl=en-US&gl=US
+
+       .hddddddddddddddddddddddh.
+      :dddddddddddddddddddddddddd:  
+     /dddddddddddddddddddddddddddd/ 
+    +dddddddddddddddddddddddddddddd+  
+  `sdddddddddddddddddddddddddddddddds`
+ `ydddddddddddd++hdddddddddddddddddddy`  
+.hddddddddddd+`  `+ddddh:-sdddddddddddh.
+hdddddddddd+`      `+y:    .sddddddddddh    OS: Alpine Linux x86_64 - Mate Desktop
+ddddddddh+`   `//`   `.`     -sddddddddd    DE: Mate Desktop for Alpin Linux - 1.28.2
+ddddddh+`   `/hddh/`   `:s-    -sddddddd    Host: Windows Subsystem for Linux - Alpine (2.3.25)
+ddddh+`   `/+/dddddh/`   `+s-    -sddddd    Kernel: Linux 5.15.153.1-microsoft-standard-WSL2
+ddd+`   `/o` :dddddddh/`   `oy-    .yddd    Windows 11 Pro - Mattias Vinberg - SWEDEN - 2024
+hdddyo+ohddyosdddddddddho+oydddy++ohdddh
+.hddddddddddddddddddddddddddddddddddddh. 
+ `yddddddddddddddddddddddddddddddddddy` 
+  `sdddddddddddddddddddddddddddddddds`
+    +dddddddddddddddddddddddddddddd+ 
+     /dddddddddddddddddddddddddddd/
+      :dddddddddddddddddddddddddd:   
+       .hddddddddddddddddddddddh.
+
+
+How to install MATE DE via windows 11 and Linux - WSL - ALPINE - TEXT
+Comming Zone...
+
+How to install MATE DE via windows 11 and Linux - WSL - ALPINE - MOVIE
+https://www.youtube.com/watch?v=SEkqi15acxo
+
+About Alpine Linux - https://alpinelinux.org
+
+Alpine Linux is an independent, non-commercial, general purpose
+Linux distribution designed for power users who appreciate
+security, simplicity and resource efficiency. Alpine Linux 
+is a very simple distribution that will try to stay out of your
+way. It uses its own package manager called apk, the OpenRC
+init system, script driven set-ups and that’s it! This provides
+you with a simple, crystal-clear Linux environment without all
+the noise. You can then add on top of that just the packages
+you need for your project, so whether it’s building a home
+PVR, or an iSCSI storage controller, a wafer-thin mail server
+container, or a rock-solid embedded switch, nothing else will
+get in the way.
+
+About MATE Desktop for Alpine Linux - https://mate-desktop.org
+
+The MATE Desktop Environment is the continuation
+of GNOME 2. It provides an intuitive and 
+attractive desktop environment using traditional
+metaphors for Linux and other Unix-like
+operating systems. MATE is composed of a number of
+applications. The renaming is necessary to avoid
+conflicts with GNOME components.
+
+You will find more stuff here for WSL - Windows 11 - Linux - ALPINE - GWSL
+https://github.com/vinberg88/opensuse
+
+--------------------------------------
+
+Basic commands Alpine Linux - apk package manager.
+
+pkg stands for program Alpine Linux
+
+sudo apk update : Update list package.
+sudo apk upgrade : Upgrade package.
+sudo apk search (pkg) : Search package.
+sudo apk add (pkg) : Install package.
+sudo apk del (pkg) : Delete package.
+
+--------------------------------------
+
+Time to Install Alpine Linux and follow instructions.
+
+--------------------------------------
+
+Login as root and type this after install.
+
+passwd
+passwd stig <-- put your user ther.
+
+--------------------------------------
+
+Install sudo as root.
+
+apk add sudo
+
+-----------------------------
+
+Reboot Alpine Linux - Reboot Alpine Linux - Reboot Alpine Linux
+
+-----------------------------
+
+Run this script as root for Alpine Linux
+
+wget --no-cache -O - https://raw.githubusercontent.com/afimpel/alpine-linux/master/setup-basic-postinstal | sh
+
+Logut as root and get back as normal user after you run script.
+
+-----------------------------
+
+Reboot Alpine Linux - Reboot Alpine Linux - Reboot Alpine Linux
+
+-----------------------------
+
+Fix ip for GWSL - Paste one By ONE in terminal...
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+HERE PUT YOUR IP LIKE THIS: nameserver 88.01.01.2 <-- this is not ip adress for GWSL.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+cat /etc/resolv.conf
+
+-----------------------------
+
+Reboot Alpine Linux - Reboot Alpine Linux - Reboot Alpine Linux
+
+-----------------------------
+
+Install Xorg
+
+sudo setup-xorg-base
+
+-----------------------------
+
+Install Mate Desktop for Alpine Linux
+
+sudo apk add --no-cache ca-certificates openssl bash-completion gvfs udisks2
+
+sudo apk add mate-desktop-environment adwaita-icon-theme faenza-icon-theme firefox-esr pulseaudio dbus dbus-x11
+
+sudo apk add lxdm eudev polkit-elogind elogind
+
+-----------------------------
+
+Install Chromium / gimp / libreoffice / blanket
+
+sudo apk add chromium
+sudo apk add gimp
+sudo apk add libreoffice
+sudo apk add blanket
+sudo apk add code-oss
+sudo apk add gnome-terminal
+sudo apk add thunderbird
+
+-----------------------------
+
+Install some themes if you want
+
+sudo apk add papirus-icon-theme
+sudo apk add materia-gtk-theme
+sudo apk add arc-theme
+sudo apk add adwaita-icon-theme
+sudo apk add slim-themes
+sudo apk add greybird-themes-gtk3
+sudo apk add paper-gtk-theme
+sudo apk add numix-themes-gtk3
+sudo apk add adw-gtk3 adwaita-xfce-icon-theme
+sudo apk add greybird-themes
+sudo apk add mate-themes
+sudo apk add albatross-themes
+sudo apk add mate-icon-theme
+sudo apk add capitaine-cursors
+sudo apk add simp1e-cursors
+sudo apk add simp1e-cursors-dark
+sudo apk add lxqt-themes
+sudo apk add faenza-icon-theme
+sudo apk add numix-themes
+sudo apk add xfwm4-themes
+sudo apk add paper-icon-theme
+sudo apk add moka-icon-theme
+sudo apk add kiconthemes
+sudo apk add gnome-wise-icon-theme
+sudo apk add arc-icon-theme
+sudo apk add arc-dark-gtk3
+sudo apk add breeze-gtk
+sudo apk add materia-dark-compact-gtk3
+sudo apk add materia-dark
+sudo apk add materia-dark-compact
+
+-----------------------------
+
+Time to update all.
+
+sudo apk update && sudo apk upgrade
+
+------------------------------------
+
+Copy and paste this to terminal.
+
+sudo rc-update add dbus
+sudo rc-update add lxdm
+
+sudo rc-service dbus start
+sudo rc-service lxdm start
+
+------------------------------------
+
+Reboot Alpine Linux - Reboot Alpine Linux - Reboot Alpine Linux 
+
+------------------------------------
+
+Setup and Login with GWSL and Config all. Then start Linux-shell/Bash from GWSL.
+
+                   " Take an extra reboot - START Terminal from GWSL - SHELL "
+
+------------------------------------
+
+In terminal type: sudo nano ~/.bash_Alpine_desktop
+
+Paste this small script in terminal and save and quit nano.
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-------------------------------------------
+
+Reboot Alpine Linux - Reboot Alpine Linux - Reboot Alpine Linux - START Terminal from GWSL - SHELL.
+
+-------------------------------------------
+
+TIME TO START Mate desktop for Alpine Linux.
+
+Paste in terminal: . ~/.bash_Alpine_desktop
+    
+Type in terminal:  dbus-launch mate-session
+
+-------------------------------------------
+
+Regards Mattias Vinberg - Alpine Linux - Mate - WSL - Windows 11 - GWSL - LINUX - Sweden 2024.
+
+-------------------------------------------
