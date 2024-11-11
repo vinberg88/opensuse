@@ -26,7 +26,7 @@ hdddyo+ohddyosdddddddddho+oydddy++ohdddh
 
 
 How to install MATE DE via windows 11 and Linux - WSL - ALPINE - TEXT
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/AlpineLinux-MATE.txt
 
 How to install MATE DE via windows 11 and Linux - WSL - ALPINE - MOVIE
 https://www.youtube.com/watch?v=SEkqi15acxo
