@@ -30,6 +30,51 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Alpine Linux and MATE - How to install MATE desktop via Alpine - Windows 11 - WSL - GWSL - LINUX - 2024
+
+You can find Alpine Linux via this link or via Microsoft store.
+
+https://apps.microsoft.com/detail/9p804crf0395?hl=en-US&gl=US
+
+How to install MATE DE via windows 11 and Linux - WSL - ALPINE - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/AlpineLinux-MATE.txt
+
+How to install MATE DE via windows 11 and Linux - WSL - ALPINE - MOVIE
+
+https://www.youtube.com/watch?v=SEkqi15acxo
+
+![Alpine-MATE](https://github.com/user-attachments/assets/261b08bd-c741-405d-a981-4f4f4f9ee576)
+
+About Alpine Linux - https://alpinelinux.org
+
+Alpine Linux is an independent, non-commercial, general purpose
+Linux distribution designed for power users who appreciate
+security, simplicity and resource efficiency. Alpine Linux 
+is a very simple distribution that will try to stay out of your
+way. It uses its own package manager called apk, the OpenRC
+init system, script driven set-ups and that’s it! This provides
+you with a simple, crystal-clear Linux environment without all
+the noise. You can then add on top of that just the packages
+you need for your project, so whether it’s building a home
+PVR, or an iSCSI storage controller, a wafer-thin mail server
+container, or a rock-solid embedded switch, nothing else will
+get in the way.
+
+About MATE Desktop for Alpine Linux - https://mate-desktop.org
+
+The MATE Desktop Environment is the continuation
+of GNOME 2. It provides an intuitive and 
+attractive desktop environment using traditional
+metaphors for Linux and other Unix-like
+operating systems. MATE is composed of a number of
+applications. The renaming is necessary to avoid
+conflicts with GNOME components.
+
+Regards Mattias Vinberg - Alpine Linux - Mate - WSL - Windows 11 - GWSL - LINUX - Sweden - 2024
+
+---------------------------------------------
+
 Alpine Linux and XFCE4 - How to install XFCE desktop via Alpine - Windows 11 - WSL - GWSL - LINUX - 2024
 
 You can find Alpine Linux via this link or via Microsoft store.
