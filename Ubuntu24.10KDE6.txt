@@ -1,40 +1,42 @@
-Ubuntu 24.10 and KDE 6 - How to install KDE 6 via Ubuntu - WSL - X410 - Windows 11 - Linux - 2024
+Ubuntu 24.10 Oracular Oriole - KDE 6 - How to install KDE 6 via Ubuntu - WSL - X410 - Windows 11 - Linux - 2024
 
-             NOTE - THIS IS NOT FOR NORMAL USE - JUST FOR TESTING - NOTE 
+UPDATED - NOTE: We are first ta give you an working version of Ubuntu 24.10 Oracular Oriole for WSL - EnJoY
+
+You can find Ubuntu 24.10 (Oracular Oriole) here via this link. To install run Ubuntu.exe
+https://drive.proton.me/urls/EDJNDVEY48#EgFRfjrXBmf6
 
 I use X410 - X Server for Windows 11 in this video and it works well. Find it in Micorsoft store or via this link
 https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
 
-How to install KDE 6 via Ubuntu 24.10  - TEXT
-https://github.com/vinberg88/opensuse/blob/main/Ubuntu24.10KDE6.txt
+How to install KDE 6 via Ubuntu 24.10 and Windows 11 - WSL - TEXT
+Comming Zone...
 
-How to install KDE 6 via Ubuntu 24.10 - Movie
-https://www.youtube.com/watch?v=7Vf16FUt0uU
+How to install KDE 6 via Ubuntu 24.10 and Windows 11 - WSL - Movie
+https://www.youtube.com/watch?v=MgrGs0dQ5-0
 
-                             ....                                         ....
-              .',:clooo:  .:looooo:.                       .',:clooo:  .:looooo:.
-           .;looooooooc  .oooooooooo'                   .;looooooooc  .oooooooooo'
-        .;looooool:,''.  :ooooooooooc                .;looooool:,''.  :ooooooooooc
-       ;looool;.         'oooooooooo,               ;looool;.         'oooooooooo,
-      ;clool'             .cooooooc.  ,,           ;clool'             .cooooooc.  ,,
-         ...                ......  .:oo,             ...                ......  .:oo,
-  .;clol:,.                        .loooo'     .;clol:,.                        .loooo'
- :ooooooooo,                        'ooool    :ooooooooo,                        'ooool
-'ooooooooooo.                        loooo.  'ooooooooooo.                        loooo.
-'ooooooooool                         coooo.  'ooooooooool                         coooo.
- ,loooooooc.                        .loooo.   ,loooooooc.                        .loooo.
-   .,;;;'.                          ;ooooc      .,;;;'.                          ;ooooc
-       ...                         ,ooool.          ...                         ,ooool.
-    .cooooc.              ..',,'.  .cooo.        .cooooc.              ..',,'.  .cooo.
-      ;ooooo:.           ;oooooooc.  :l.           ;ooooo:.           ;oooooooc.  :l.
-       .coooooc,..      coooooooooo.                .coooooc,..      coooooooooo.
-         .:ooooooolc:. .ooooooooooo'                  .:ooooooolc:. .ooooooooooo'
-           .':loooooo;  ,oooooooooc                     .':loooooo;  ,oooooooooc
-               ..';::c'  .;loooo:'                          ..';::c'  .;loooo:'
-                             .                                            .
-
-
-About Ubuntu - https://ubuntu.com
+                            ....     
+              .',:clooo:  .:looooo:.  
+           .;looooooooc  .oooooooooo'          
+        .;looooool:,''.  :ooooooooooc 
+       ;looool;.         'oooooooooo,         
+      ;clool'             .cooooooc.  ,, 
+         ...                ......  .:oo, 
+  .;clol:,.                        .loooo'
+ :ooooooooo,                        'ooool     OS: Ubuntu oracular 24.10 x86_64 - 2024
+'ooooooooooo.                        loooo.    Host: Windows Subsystem for Linux - Ubuntu (2.3.25)
+'ooooooooool                         coooo.    Kernel: Linux 5.15.153.1-microsoft-standard-WSL2
+ ,loooooooc.                        .loooo.    Windows 11 PRO 24H2 - Mattias Vinberg - Sweden
+   .,;;;'.                          ;ooooc     Desktop: KDE 6 PLASMA for Ubuntu oracular 24.10
+       ...                         ,ooool.
+    .cooooc.              ..',,'.  .cooo.      
+      ;ooooo:.           ;oooooooc.  :l.       
+       .coooooc,..      coooooooooo.           
+         .:ooooooolc:. .ooooooooooo'           
+           .':loooooo;  ,oooooooooc            
+               ..';::c'  .;loooo:'             
+                                               
+                                              
+About Ubuntu 24.10 - https://documentation.ubuntu.com/wsl/en/latest - https://ubuntu.com/blog/tag/ubuntu-24-10
 
 Ubuntu is an ancient African word meaning ‘humanity to others’.
 It is often described as reminding us that ‘I am what I am
@@ -78,23 +80,62 @@ https://github.com/vinberg88/opensuse
 
 -------------------------------
 
-Remove Errors from Terminal - PASTE ALL in BASH / Console
+Download this file and run Ubuntu.exe ( take some time ) - Its Ubuntu 24.10 Oracular Oriole file to make WSL work.
 
-ln -s libcuda.so.1.1 libcuda.so.1
-ln -s libcuda.so.1.1 libcuda.so
-echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
-sudo mkdir /usr/lib/wsl/lib2
-sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
-echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+https://drive.proton.me/urls/EDJNDVEY48#EgFRfjrXBmf6
 
 -------------------------------
+
+After installation Ubuntu 24.10 Oracular Oriole run as root.
+
+Copy and paste in terminal
+
+1. adduser sten <-- put your user-name there
+
+2. adduser sten sudo  <change sten to your user
+
+3. passwd
+
+Add this to terminal as root user not normal user.
+
+sudo nano /etc/wsl.conf
+
+and add this to terminal
+
+[user]
+default=sten <-- put your user-name there.
+
+[boot]
+systemd=true
+
+save nano.
+
+-------------------------------
+
+Reboot Ubuntu 24.10 Oracular Oriole - Reboot Ubuntu 24.10 Oracular Oriole
+
+-------------------------------
+
+Login as normal user - Type this in terminal to fix ip problem for xserver - X410
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.19.64.1  <-- add this and put your ip there
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+cat /etc/resolv.conf
+
+If you see som red text dont worry it works.
+
+-------------------------------
+
+Time to update all to latest version of Ubuntu 24.10 Oracular Oriole
 
 sudo apt update
 sudo apt upgrade
-
--------------------------------
-
-Reboot Ubuntu 24.10 - Reboot Ubuntu 24.10
 
 -------------------------------
 
@@ -105,36 +146,73 @@ sudo apt install ./google-chrome-stable_current_amd64.deb -y
 
 -------------------------------
 
-Install Blanket if you Want! - Listen to Sounds.
+Install Blanket - Listen to Sounds.
 
 wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
-sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb -y
 
 -------------------------------
 
-Install some Programs for WSL - Ubuntu 24.10
+Install visual studio code - Paste one By one in terminal.
 
-sudo apt install bash ibus git npm wget curl dracut dbus* kwin* -y
+sudo apt update
+sudo apt install wget gpg apt-transport-https
+
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+
+echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" | sudo tee /etc/apt/sources.list.d/vscode.list > /dev/null
+
+rm packages.microsoft.gpg
+
+sudo apt update
+
+sudo apt install code
+
+-------------------------------
+
+If you want to install this program - it up to you!
+
+sudo apt install gimp libreoffice gnome-terminal 
+
+-------------------------------
+
+Install some Programs for WSL and KDE 6 - Ubuntu 24.10 Oracular Oriole
+
+sudo apt install x11* bash ibus git npm wget curl dracut dbus* kwin* menu* -y
 sudo apt install sddm* -y
-sudo systemctl set-default graphical
 
 --------------------------------
 
-Install this small program.
+Install this small program. Like Neofetch but more fun =]
 
-sudo apt install hyfetch
+sudo apt install hyfetch fastfetch
 
-Test by Copy and Paste in Bash: hyfetch
-
---------------------------------
-
-Save alot of time.
-
-sudo snap install firefox
+Test by Copy and Paste in Bash: hyfetch or fastfetch
 
 --------------------------------
 
-Paste all in terminal - Timw to install KDE 6 via Ubuntu 24.10
+Save alot of time bu installing Firefox as a DEB Package on Ubuntu (No Snap)
+
+Copy and paste this to terminal - NO Stress.
+
+sudo install -d -m 0755 /etc/apt/keyrings
+
+wget -q https://packages.mozilla.org/apt/repo-signing-key.gpg -O- | sudo tee /etc/apt/keyrings/packages.mozilla.org.asc > /dev/null
+
+echo "deb [signed-by=/etc/apt/keyrings/packages.mozilla.org.asc] https://packages.mozilla.org/apt mozilla main" | sudo tee -a /etc/apt/sources.list.d/mozilla.list > /dev/null
+
+echo '
+Package: *
+Pin: origin packages.mozilla.org
+Pin-Priority: 1000
+' | sudo tee /etc/apt/preferences.d/mozilla
+
+sudo apt update && sudo apt install firefox
+
+--------------------------------
+
+Paste all in terminal - Timw to install KDE 6 via Ubuntu 24.10 Oracular Oriole
 
 sudo apt install kde-standard
 
@@ -165,11 +243,11 @@ export LIBGL_ALWAYS_SOFTWARE=1
 
 ------------------------------------------------------
 
-Reboot... Reboot... Reboot... Reboot… Ubuntu 24.10
+Reboot... Reboot... Reboot... Reboot… Ubuntu 24.10 Oracular Oriole
 
 --------------------------------------------
 
-Start X410 for windows 11 and start Ubuntu 24.10 - Time to start KDE 6
+Start X410 for windows 11 and start Ubuntu 24.10 via WSL - Time to start KDE 6
 
 Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
 Paste in terminal: . ~/.bash_ubuntu_desktop
