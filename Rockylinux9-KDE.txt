@@ -87,29 +87,22 @@ systemd=true
 
 ------------------------------------------------------
 
-2. Paste all in terminal
-
-ln -s libcuda.so.1.1 libcuda.so.1
-ln -s libcuda.so.1.1 libcuda.so
-echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
-sudo mkdir /usr/lib/wsl/lib2
-sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
-echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+Take an extra REBOOT - ROCKYLINUX - REBOOT - REBOOT
 
 ------------------------------------------------------
 
-3. Reboot and Update: sudo dnf update
+2.5 Reboot and Update: sudo dnf update
 
 ------------------------------------------------------
 
-4. Paste all in terminal... Install extra Repos for Rockylinux 9
+3. Paste all in terminal... Install extra Repos for Rockylinux 9
 
 sudo dnf -y install epel-release
 sudo /usr/bin/crb enable
 
 ------------------------------------------------------
 
-5. sudo dnf upgrade --refresh
+4.5 sudo dnf upgrade --refresh
 
 ------------------------------------------------------
 
