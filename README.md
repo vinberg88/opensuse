@@ -30,6 +30,60 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Centos 9 and KDE 6 - WSL - Centos 9 via Windows 11 - How to install KDE 6 - GWSL - Linux - 2024
+
+Find Centos 9 Stream for WSL. Just download and install - Made for WSL and Windows 11 - WSL
+
+Download here it will be updated after install: https://github.com/mishamosher/CentOS-WSL
+
+Download Centos 10 Stream - BETA: https://buildlogs.centos.org/centos/10-stream/altimages/images/wsl/x86_64/
+
+How to install KDE 6 via Centos 9 - WSL - GWSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Centos9-KDE6.txt
+
+How to install KDE 6 via Centos 9 - WSL - GWSL - MOVIE
+
+https://www.youtube.com/watch?v=HQlHijfNnKU
+
+![Centos9-KDE6](https://github.com/user-attachments/assets/2e39e3fe-7fe7-4507-8cfc-3ad773d45566)
+
+About Centos 9 Stream - https://www.centos.org 
+
+Extra Read - https://www.redhat.com/en/topics/linux/what-is-centos-stream
+
+The CentOS Linux distribution is a stable, predictable,
+manageable and reproducible platform derived from the
+sources of Red Hat Enterprise Linux (RHEL). We are now
+looking to expand on that by creating the resources needed
+by other communities to come together and be able to build
+on the CentOS Linux platform. And today we start the process
+by delivering a clear governance model, increased 
+transparency and access. In the coming weeks we aim to 
+publish our own roadmap that includes variants of
+the core CentOS Linux. The CentOS Project is a 
+community-driven free software effort focused around
+the goal of providing a rich base platform for open 
+source communities to build upon. We will provide a 
+development framework for cloud providers, the hosting 
+community, and scientific data processing, as a few examples.
+We work with several ‘upstream’ communities to help them layer
+and distribute their software more effectively on a 
+platform they can rely on.
+
+What is KDE 6 Plasma - https://kde.org
+
+Use Plasma to surf the web; keep in touch with colleagues, friends
+and family; manage your files, enjoy music and videos; and get
+creative and productive at work. Do it all in a beautiful environment
+that adapts to your needs, and with the safety, privacy-protection and
+peace of mind that the best Free Open Source Software has to offer.
+KDE 6 Plasma is a Desktop for next life =)
+
+Regards Mattias Vinberg - GWSL - Centos 9 Stream - WSL - KDE 6 Plasma - Windows 11 - Linux - Sweden - 2024
+
+---------------------------------------------
+
 NEW VERSION - Ubuntu 24.10 Oracular Oriole - KDE 6 - How to install KDE 6 via Ubuntu - WSL - X410 - Windows 11 - Linux - 2024
 
 UPDATED - NOTE: We are first ta give you an working version of Ubuntu 24.10 Oracular Oriole for WSL - EnJoY
