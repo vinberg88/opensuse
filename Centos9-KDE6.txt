@@ -1,0 +1,362 @@
+Centos 9 and KDE 6 - WSL - Centos 9 via Windows 11 - How to install KDE 6 - GWSL - Linux - 2024
+
+Find Centos 9 Stream for WSL. Just download and install - Made for WSL and Windows 11 - WSL
+
+Download here it will be updated after install: https://github.com/mishamosher/CentOS-WSL
+
+Download Centos 10 Stream - BETA: https://buildlogs.centos.org/centos/10-stream/altimages/images/wsl/x86_64/
+
+How to install KDE 6 via Centos 9 - WSL - GWSL - TEXT
+Comming Zone.. 
+
+How to install KDE 6 via Centos 9 - WSL - GWSL - MOVIE
+https://www.youtube.com/watch?v=HQlHijfNnKU 
+
+                 ..                     
+               .PLTJ.                   
+              <><><><>                  
+     KKSSV' 4KKK LJ KKKL.'VSSKK 
+     KKV' 4KKKKK LJ KKKKAL 'VKK         
+     V' ' 'VKKKK LJ KKKKV' ' 'V         
+     .4MA.' 'VKK LJ KKV' '.4Mb.         Desktop - KDE 6 Plasma via Wayland/X-11 - Centos 9
+   . KKKKKA.' 'V LJ V' '.4KKKKK .       OS: CentOS Stream 9 x86_64 - Windows 11 Pro 
+ .4D KKKKKKKA.'' LJ ''.4KKKKKKK FA.     Host: Windows Subsystem for Linux - Centos9 (2.4.4)
+<QDD ++++++++++++  ++++++++++++ GFD>    Kernel: Linux 5.15.167.4-microsoft-standard-WSL2
+ 'VD KKKKKKKK'.. LJ ..'KKKKKKKK FV      Host - Mattias Vinberg - Sweden - Centos Stream 9
+   ' VKKKKK'. .4 LJ K. .'KKKKKV '     
+      'VK'. .4KK LJ KKA. .'KV'   
+     A. . .4KKKK LJ KKKKA. . .4 
+     KKA. 'KKKKK LJ KKKKK' .4KK        
+     KKSSA. VKKK LJ KKKV .4SSKK 
+              <><><><>              
+               'MKKM'   
+                 ''
+
+About Centos 9 Stream - https://www.centos.org 
+
+Extra Read - https://www.redhat.com/en/topics/linux/what-is-centos-stream
+
+The CentOS Linux distribution is a stable, predictable,
+manageable and reproducible platform derived from the
+sources of Red Hat Enterprise Linux (RHEL). We are now
+looking to expand on that by creating the resources needed
+by other communities to come together and be able to build
+on the CentOS Linux platform. And today we start the process
+by delivering a clear governance model, increased 
+transparency and access. In the coming weeks we aim to 
+publish our own roadmap that includes variants of
+the core CentOS Linux. The CentOS Project is a 
+community-driven free software effort focused around
+the goal of providing a rich base platform for open 
+source communities to build upon. We will provide a 
+development framework for cloud providers, the hosting 
+community, and scientific data processing, as a few examples.
+We work with several ‘upstream’ communities to help them layer
+and distribute their software more effectively on a 
+platform they can rely on.
+
+What is KDE 6 Plasma - https://kde.org
+
+Use Plasma to surf the web; keep in touch with colleagues, friends
+and family; manage your files, enjoy music and videos; and get
+creative and productive at work. Do it all in a beautiful environment
+that adapts to your needs, and with the safety, privacy-protection and
+peace of mind that the best Free Open Source Software has to offer.
+KDE 6 Plasma is a Desktop for next life =)
+
+Here you have more stuff about WSL - GWSL - https://github.com/vinberg88/opensuse
+
+------------------------------------------------------
+
+Do this direct after installation to get repos and some programs.
+
+sudo dnf install dnf-plugins-core -y
+sudo dnf copr enable loise/kde-plasma-6 epel-9-x86_64
+sudo dnf install sudo -y
+sudo dnf install wget -y 
+sudo dnf install nano -y
+sudo dnf install plasma-desktop** --allowerasing --nobest --skip-broken -y
+
+------------------------------------------------------
+
+Install systemd - its a must for Centos 9 Stream.
+
+Paste in terminal: sudo nano /etc/wsl.conf
+
+[boot]
+systemd=true
+
+------------------------------------------------------
+
+Make Repos faster for Centos 9 Stream.
+
+sudo nano /etc/dnf/dnf.conf
+
+and add this to lines off code
+
+max_parallel_downloads=10
+fastestmirror=true
+
+------------------------------------------------------
+
+Paste in terminal... Enable mirrors for EPEL - KDE 6 AND Centos 9 Stream
+
+sudo dnf config-manager --set-enabled crb
+sudo dnf config-manager --set-enabled rt
+sudo dnf config-manager --set-enabled nfv
+sudo dnf config-manager --set-enabled highavailability
+sudo dnf config-manager --set-enabled appstream
+sudo dnf install epel-release -y
+sudo /usr/bin/crb enable
+
+------------------------------------------------------
+
+Reboot Centos 9 Stream - Reboot Centos 9 Stream - Reboot Centos 9 Stream
+
+-----------------------------------------------------
+
+You my want to update Centos 9 stream to latest version
+
+sudo dnf upgrade --refresh -y
+
+------------------------------------------------------
+
+Run this to fix some errors!
+
+sudo yum update --exclude=konsole-part-24.02.2-1.el9.x86_64,konsole5-part-23.08.5-1.el9.x86_64,kf5-kio-core-5.115.0-2.el9.x86_64,kio-extras-24.02.2-2.el9.x86_64
+
+------------------------------------------------------
+
+Install some more Programs for Centos 9 Stream and KDE 6.
+
+sudo dnf install kwin* -y
+sudo dnf install llvm -y
+sudo yum install ibus* -y
+sudo yum install xorg* -y --allowerasing --skip-broken --nobest
+sudo dnf install gtk* -y --allowerasing --skip-broken --nobest
+sudo dnf install sddm*  -y --allowerasing --skip-broken --nobest
+sudo dnf install systemd* -y --allowerasing --skip-broken --nobest
+sudo dnf install dconf* git wget curl nano bash pipx net-tools dbus-x11 dbus* -y --allowerasing --skip-broken --nobest -y
+sudo dnf install curl wget git bash librepo pip system* -y --allowerasing --skip-broken --nobest -y
+sudo dnf install wget curl bash pipx dbus* net-tools dbus-x11 -y --allowerasing --skip-broken --nobest -y
+sudo yum install g++ extra-cmake-modules cmake gettext -y
+sudo yum install kdecoration -y
+sudo yum install fftw cmake extra-cmake-modules -y
+sudo yum install git extra-cmake-modules fftw3-devel -y
+
+------------------------------------------------------
+
+Next install this programs for KDE 6 to get discover and all other programs.
+
+TAKE ONE BY ONE AND LOOK FOR ERRORS =) IF you see errors use --exclude=andprogram
+
+sudo dnf -y groupinstall "KDE Plasma Workspaces" --exclude=konsole5-part-23.08.5-1.el9.x86_64 --allowerasing --nobest --skip-broken -y
+sudo dnf install plasma-desktop** plasma-workspace** plasma-workspace-wayland** plasma-settings** --allowerasing --nobest --skip-broken -y 
+sudo dnf group install kde --exclude=konsole5-part-23.08.5-1.el9.x86_64 --allowerasing --nobest --skip-broken -y 
+sudo dnf install kde* --exclude=konsole5-part-23.08.5-1.el9.x86_64 --allowerasing --nobest --skip-broken -y 
+sudo dnf group install kde-desktop* --allowerasing --nobest --skip-broken -y
+sudo dnf group install kde-media* --allowerasing --nobest --skip-broken -y
+sudo dnf group install KDE-Software-Development* --exclude=konsole5-part-23.08.5-1.el9.x86_64 --allowerasing --nobest --skip-broken -y
+sudo dnf group install System-Tools* --allowerasing --nobest --skip-broken -y
+sudo dnf install plasma* --allowerasing --nobest --skip-broken -y
+sudo yum install kdecoration plasma-workspace plasma-discover plasma-welcome dolphin -y
+sudo yum install korganizer kaddressbook kate akregator pim-data-exporter pim-sieve-editor --allowerasing --nobest --skip-broken -y
+
+KDE 6 on Centos Stream 9 - Copy and Paste in Terminal.
+
+sudo yum install kactivitymanagerd** -y
+sudo yum install bluedevil** -y
+sudo yum install breeze-gtk** -y
+sudo yum install breeze-grub -y
+sudo yum install breeze-plymouth** -y
+sudo yum install qqc2-breeze-style -y
+sudo yum install kde-gtk-config** -y
+sudo yum install kgamma** -y
+sudo yum install kglobalacceld** -y
+sudo yum install kinfocenter** --skip-broken --nobest -y
+sudo yum install kmenuedit** -y
+sudo yum install kpipewire** -y --skip-broken --nobest
+sudo yum install kscreenlocker* -y
+sudo yum install ksshaskpass* -y
+sudo yum install ksystemstats* -y
+sudo yum install kwrited** -y
+sudo yum install layer-shell-qt** -y
+sudo yum install libkscreen** -y
+sudo yum install libksysguard** -y
+sudo yum install libplasma** -y
+sudo yum install oxygen-sounds -y
+sudo yum install plasma5support** -y
+sudo yum install plasma-nm -y
+sudo yum install plasma-firewall -y
+sudo yum install plasma-mobile -y
+sudo yum install plasma-welcome -y
+sudo yum install sddm-kcm** -y
+sudo yum install powerdevil** -y
+sudo yum install polkit-kde-agent-1 -y
+sudo yum install plymouth-kcm -y
+sudo yum install plasma-workspace-wallpapers -y
+sudo yum install plasma-vault-y
+sudo yum install plasma-thunderbolt -y
+sudo yum install plasma-sdk** -y
+sudo yum install plasma-pa -y
+sudo yum install plasma-pass** -y
+sudo yum install plasma-nano -y
+sudo yum install plasma-integration** --skip-broken --nobest -y
+sudo yum install plasma-disks -y
+sudo yum install plasma-desktop** -y
+sudo yum install plasma-browser-integration** -y
+sudo yum install breeze** --allowerasing --nobest --skip-broken -y
+sudo yum install plasma-** --allowerasing --nobest --skip-broken -y
+sudo yum install kdeplasma-addons** -y
+sudo yum install plasma-activities-stats -y
+sudo yum install plasma-activities** -y
+sudo yum install kwin** -y
+sudo yum install kwayland-integration** -y
+sudo yum install kwayland** -y
+sudo yum install kwallet-pam -y
+sudo yum install kscreen** -y
+sudo yum install krdp** --allowerasing --nobest --skip-broken -y
+sudo yum install xdg-desktop-portal-kde** -y
+sudo yum install kdecoration** --allowerasing --nobest --skip-broken -y
+sudo yum install kde-cli-tools** -y
+sudo yum install flatpak-kcm** -y
+sudo yum install plasma-discover** --skip-broken --nobest -y
+
+---------------------------------------
+
+Install Kvantum - Kvantum is an SVG-based theme engine for Qt, tuned to Plasma and LXQt, with an emphasis on elegance, usability and practicality.
+
+sudo dnf install https://pkgs.sysadmins.ws/el9/base/x86_64/kvantum-1.0.7-1.el9.x86_64.rpm -y
+
+---------------------------------------
+
+Use this to get Snapd for Centos Stream 9 
+
+sudo yum install snapd* -y
+
+sudo systemctl enable --now snapd.socket
+sudo systemctl enable snapd
+sudo ln -s /var/lib/snapd/snap /snap
+
+sudo snap install core 
+
+WE ARE DONE - Nice WORK!
+
+---------------------------------------
+
+Install Google Chrome - work werry god via Linux - Centos 9
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm -y
+sudo yum update google-chrome-stable
+
+------------------------------------------------------
+
+Install CODE Visual studio code - 2024 - MicroSoft
+
+wget https://www.knulla.org/scripts/code-1.95.3-1731513157.el8.x86_64.rpm
+sudo dnf install ./code-1.95.3-1731513157.el8.x86_64.rpm -y
+
+-----------------------------------------------------
+
+Install some fetch files. Like Neofetch...
+
+pipx install hyfetch
+ 
+Install Hyfetch - more fun and the only way to run fastfetch for now.
+
+Test in terminal: hyfetch
+
+------------------------------------------------------
+
+Done now lets install this via rpm package. Centos 9 Stream - KDE 6
+
+sudo dnf install python python-gobject gtk4 -y
+sudo dnf install gstreamer1-devel gstreamer1-plugins-base-tools gstreamer1-plugins-base-devel -y
+sudo dnf install gstreamer1-plugins-bad-free-devel -y
+
+------------------------------------------------------
+
+If you want install flatpack for Blanket.
+
+sudo dnf install flatpak* -y
+
+sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+sudo flatpak install flathub org.gimp.GIMP
+sudo flatpak install flathub io.mpv.Mpv
+sudo flatpak install flathub com.github.tchx84.Flatseal
+sudo flatpak install flathub com.rafaelmardojai.Blanket
+sudo flatpak install flathub com.github.unrud.VideoDownloader
+
+------------------------------------------------------
+
+Paste all in terminal for Centos 9: 
+
+xdg-user-dirs-update
+sudo systemctl set-default graphical.target
+
+-------------------------------------------------------------
+
+ONLY IF YOU WANT - NO MOST...
+
+If you want Catppuccin theme for KDE 6 follow this guide - World Class Themes for KDE 6 and Centos 9
+
+Copy and Paste in Terminal: git clone --depth=1 https://github.com/catppuccin/kde catppuccin-kde && cd catppuccin-kde
+Run the install script using: ./install.sh and follow the instructions - EASY =]
+
+cd.. when you are done.
+
+If you want some fancy Icons and Themes.
+
+wget -O - https://github.com/vinceliuice/Colloid-icon-theme/archive/master.tar.gz | tar xz
+cd Colloid-icon-theme-main
+./install.sh -s catppuccin -t red
+
+Use this to se how to install themes: ./install.sh -h help
+
+-------------------------------------------------------------
+
+Type this in terminal and put your user-name there: sudo loginctl enable-linger centos
+
+-------------------------------------------------------------
+
+In terminal type: sudo nano ~/.bash_Centos_desktop
+
+Paste this small script in terminal and save and quit nano.
+
+export XDG_SESSION_TYPE=X11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=X11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+export DISPLAY="$(ip route show default | cut -d' ' -f3):0.0"
+export PULSE_SERVER="tcp:$(ip route show default | cut -d' ' -f3)"
+export LIBGL_ALWAYS_INDIRECT=1
+
+-------------------------------------------
+
+ Reboot Reboot Reboot Reboot Centos 9 Stream - KDE 6
+
+ NOW WE CAN START GWSL AND START TERMINAL FROM THERE...
+
+-------------------------------------------
+
+Time to Start KDE 6 for Centos 9 stream - Latest Version.
+
+Paste in terminal: . ~/.bash_Centos_desktop
+Paste in terminal: dbus-launch startplasma-x11
+
+-------------------------------------------
+
+      .-+**#**+=:
+    -######*=:::+*=
+  .#######-  -=-+**#:
+ .#######*  *####**##.
+ =#######+  #####**##+ Regards Mattias Vinberg - GWSL - Centos 9 Stream - WSL - KDE 6 Plasma - Windows 11 PRO - Linux - Sweden - 2024
+ +##**=        +**###*
+ +#***#**=  **#######= 
+ +***####+  ########+
+ +#**+++-  =#######-
+ =###-..:-*#####+-
