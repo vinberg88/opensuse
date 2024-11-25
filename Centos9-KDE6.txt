@@ -7,7 +7,7 @@ Download here it will be updated after install: https://github.com/mishamosher/C
 Download Centos 10 Stream - BETA: https://buildlogs.centos.org/centos/10-stream/altimages/images/wsl/x86_64/
 
 How to install KDE 6 via Centos 9 - WSL - GWSL - TEXT
-Comming Zone.. 
+https://github.com/vinberg88/opensuse/blob/main/Centos9-KDE6.txt
 
 How to install KDE 6 via Centos 9 - WSL - GWSL - MOVIE
 https://www.youtube.com/watch?v=HQlHijfNnKU 
