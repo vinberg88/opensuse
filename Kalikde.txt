@@ -8,7 +8,7 @@ How to install KDE plasma on Kali Linux.
 
 --------------------------------------------
 
-1. Paste in terminal
+Paste in terminal
 
 sudo nano /etc/wsl.conf 
 
@@ -16,6 +16,8 @@ and add
 
 [boot]
 systemd=true
+
+--------------------------------------------
 
 2. Paste all to terminal and klick enter... Remove errors..
 
