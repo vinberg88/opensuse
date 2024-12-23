@@ -3,7 +3,7 @@ Redhat 10 and Gnome 47 - Have to install GNOME desktop via Redhat 10 - WSL - GWS
 -----------------------------------------------------
 
 How to install GNOME 47 desktop via Redhat 10 - TEXT
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/Redhat10-Gnome47.txt
 
 How to install GNOME 47 desktop via Redhat 10 - MOVIE
 https://www.youtube.com/watch?v=h1RuXj5mJXw
