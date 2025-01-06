@@ -30,6 +30,65 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Fedora 41 and KDE 6 - How to install KDE 6 via Fedora 41 - X410 - Windows 11 - WSL - Linux - Whitewater Foundry - 2025
+
+Find Fedora 41 for WSL here by Whitewater Foundry inc. It will cost Money$ 9.99 - Go to Microsoft store and install from there.
+
+https://apps.microsoft.com/detail/9n6gdm4k2hnc?hl=sv-se&gl=US
+
+Use X410 - X Server for Windows 11 in this video and it works well. Find it in Micorsoft store. 
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+How to install KDE plasma 6 via Fedora 41 - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Fedora41-KDE6.txt
+
+How to install KDE plasma 6 via Fedora 41 - VIDEO
+
+https://www.youtube.com/watch?v=MrNnGxsXfnA
+
+![Fedora41-KDE6](https://github.com/user-attachments/assets/61d08a04-267e-4495-af53-c3e6a727bbb2)
+
+About Fedora 41 - https://www.fedoraproject.org - use dnf5 not dnf for package install - 2025
+
+Fedora is developed by the Fedora Project and sponsored by Red Hat.
+Fedora, also known as Fedora Linux, is a popular Open Source Linux-based
+operating system (OS). Designed as a secure, general-purpose OS, Fedora
+is developed on a six-month to eight-month release cycle under the Fedora
+Project. Both the OS and the Fedora Project are financially sponsored
+and supported by Red Hat. Fedora is a free and open source OS platform
+for hardware, clouds and containers. Based on the Linux OS kernel
+architecture, Fedora Linux is a user-friendly OS that enables users to
+perform their tasks easily and efficiently with minimal friction. The name
+Fedora refers to the characteristic fedora hat in Red Hat's Shadowman logo.
+
+What is KDE plasma 6 - https://kde.org - The next generation desktop for Linux 2025
+
+Use Plasma to surf the web; keep in touch with colleagues, friends
+and family; manage your files, enjoy music and videos; and get
+creative and productive at work. Do it all in a beautiful environment
+that adapts to your needs, and with the safety, privacy-protection and
+peace of mind that the best Free Open Source Software has to offer.
+Plasma is a Desktop =) KDE’s next mega release is here!
+KDE Plasma is a modern, feature-rich desktop environment for
+Linux-based operating systems. Known for its sleek design, customizable 
+interface, and extensive set of applications, it is also open 
+source, devoid of ads, and makes protecting your privacy and
+personal data a priority.
+
+Here you have more stuff about WSL and other desktops for Linux and Windows: https://github.com/vinberg88/opensuse
+
+Read more from Whitewater Foundry - Fedora Remix 41 - 2025
+ 
+https://www.whitewaterfoundry.com/fedora-remix-for-wsl
+
+https://github.com/WhitewaterFoundry/Fedora-Remix-for-WSL
+
+Regards Mattias Vinberg - FEDORA 41 - WSL - X410 - Windows 11 - Linux - Microsoft - Sweden - Whitewater Foundry - 2025
+
+---------------------------------------------
+
 Redhat 10 and Gnome 47 - Have to install GNOME desktop via Redhat 10 - WSL - GWSL - Windows 11 - Linux - 2024
 
 How to install GNOME 47 desktop via Redhat 10 - TEXT
