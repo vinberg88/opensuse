@@ -7,7 +7,7 @@ Use X410 - X Server for Windows 11 in this video and it works well. Find it in M
 https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
 
 How to install KDE plasma 6 via Fedora 41 - TEXT
-Comming Zone....
+https://github.com/vinberg88/opensuse/blob/main/Fedora41-KDE6.txt
 
 How to install KDE plasma 6 via Fedora 41 - VIDEO
 https://www.youtube.com/watch?v=MrNnGxsXfnA
