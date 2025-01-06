@@ -1,0 +1,542 @@
+Fedora 41 and KDE 6 - How to install KDE 6 via Fedora 41 - X410 - Windows 11 - WSL - Linux - Whitewater Foundry - 2025
+
+Find Fedora 41 for WSL here by Whitewater Foundry inc. It will cost Money$ 9.99 - Go to Microsoft store and install from there.
+https://apps.microsoft.com/detail/9n6gdm4k2hnc?hl=sv-se&gl=US
+
+Use X410 - X Server for Windows 11 in this video and it works well. Find it in Micorsoft store. 
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+How to install KDE plasma 6 via Fedora 41 - TEXT
+Comming Zone....
+
+How to install KDE plasma 6 via Fedora 41 - VIDEO
+https://www.youtube.com/watch?v=MrNnGxsXfnA
+
+GWSL is broken so we need to wait for fix. From there page: Update Aug-Oct 2024 - Microsoft
+is rolling out an update that can break GWSL. We are working on a fix. I like GWSL alot hehe.
+
+https://github.com/Opticos/gwsl/blob/master/help.md
+                                      
+              ........                
+          .::::::::::::::.            
+       .::::::::::::::::::::.         
+     .::::::::::::.shhdhyo.:::. 
+   .::::::::::::omMMMNNNMMMP):::.     NOTE - WARNING - This is for Testing/Beta
+  .::::::::::::sMMMdo:'+++++++:::.    
+  :::::::::::::MMMd:::::::+++++:::
+ ::::::::::::::MMMy:::::::+++++::::   X server - X410 WSL Server
+ :::::::++++++/+MMMh\::+++++++:::::   Distro: Fedora 41 Remix for WSL x86_64 from Whitewater Foundry
+ ::::+++++oNMMMMMMMMMNho+++++::::::   Windows 11 PRO - 24H2 - 2025 - Windows Subsystem for Linux
+ :::+++++::shhhMMMmhhy+++++::::::::   Kernel: Linux 5.15.153.1-microsoft-standard-WSL2
+ ::++++++::::::MMMy:::::::::::::::    Host - Mattias Vinberg - Sweden - 2025 - WSL
+ ::+++++::::::.MMMy::::::::::::::'    System OS version: KDE 6 - DNF5 - Fedora 41 - Windows 11
+ ::++++++::::.hMMM+:::::::::::::'   
+ ::::dMMNdyydNMMNo::::::::::::'   
+ :::::sdNMMMMNds::::::::::::'         
+ ::::::::'YY'::::::::::::'            
+ \:::::::::::::::::'''                
+                                                                            
+
+
+About Fedora 41 - https://www.fedoraproject.org - use dnf5 not dnf for package install - 2025
+
+Fedora is developed by the Fedora Project and sponsored by Red Hat.
+Fedora, also known as Fedora Linux, is a popular Open Source Linux-based
+operating system (OS). Designed as a secure, general-purpose OS, Fedora
+is developed on a six-month to eight-month release cycle under the Fedora
+Project. Both the OS and the Fedora Project are financially sponsored
+and supported by Red Hat. Fedora is a free and open source OS platform
+for hardware, clouds and containers. Based on the Linux OS kernel
+architecture, Fedora Linux is a user-friendly OS that enables users to
+perform their tasks easily and efficiently with minimal friction. The name
+Fedora refers to the characteristic fedora hat in Red Hat's Shadowman logo.
+
+What is KDE plasma 6 - https://kde.org - The next generation desktop for Linux 2025
+
+Use Plasma to surf the web; keep in touch with colleagues, friends
+and family; manage your files, enjoy music and videos; and get
+creative and productive at work. Do it all in a beautiful environment
+that adapts to your needs, and with the safety, privacy-protection and
+peace of mind that the best Free Open Source Software has to offer.
+Plasma is a Desktop =) KDE’s next mega release is here!
+KDE Plasma is a modern, feature-rich desktop environment for
+Linux-based operating systems. Known for its sleek design, customizable 
+interface, and extensive set of applications, it is also open 
+source, devoid of ads, and makes protecting your privacy and
+personal data a priority.
+
+Here you have more stuff about WSL and other desktops for Linux and Windows: https://github.com/vinberg88/opensuse
+
+Read more from Whitewater Foundry - Fedora Remix 41 - 2025
+ 
+https://www.whitewaterfoundry.com/fedora-remix-for-wsl
+https://github.com/WhitewaterFoundry/Fedora-Remix-for-WSL
+
+------------------------------------------------------
+
+After install Update system - it time to do so.
+
+sudo dnf5 upgrade --refresh
+
+----------------------------------------------------
+
+Start this script in Terminal - Update to latest version Fedora 41
+
+For Fedora Remix - If you run Fedora 41 jump over this.
+
+Copy and Paste: upgrade.sh
+
+------------------------------------------------------
+
+Paste all in terminal... Extra Repos for fedora 41
+
+sudo dnf5 install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm -y
+sudo dnf5 install https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
+
+Install Terra Repos.
+
+sudo dnf5 install --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' --setopt='terra.gpgkey=https://repos.fyralabs.com/terra$releasever/key.asc' terra-release
+
+
+------------------------------------------------------
+
+Paste in terminal and setup systemd: sudo nano /etc/wsl.conf
+
+[boot]
+systemd=true
+
+------------------------------------------------------
+
+Reboot Fedora 41 - Reboot Fedora 41 - Reboot Fedora 41 - Reboot Fedora 41
+
+------------------------------------------------------
+
+Install some other programs for FEDORA 41
+
+sudo dnf5 install curl* wget* git bash* zeal* demonized* chattr* librepo* --skip-unavailable -y
+
+------------------------------------------------------
+
+Fix IP problem whit GWSL or X410. Cant find screen problems. Look ip adress in windows terminal / PowerShell as root : ipconfig
+
+NOTE - Importent to look for ip.....
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.19.64.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+cat /etc/resolv.conf
+
+
+DONE - alot of problem fixed =]
+
+------------------------------------------------------
+
+Install some programs for KDE 6 and Fedora 41
+
+sudo dnf5 install daemonize mesa git wget curl nano bash pipx sudo kwin dbus net-tools x11* dbus-x11 menu gmenu --no-best --allowerasing --skip-broken --skip-unavailable -y
+sudo dnf5 install sddm* --allowerasing --skip-broken -y
+
+------------------------------------------------------
+
+Install Hyfetch or some other fetch that you like =}
+
+sudo dnf5 install fastfetch -y
+sudo dnf5 install cpufetch -y
+sudo dnf5 install hyfetch -y
+sudo dnf5 install screenfetch -y
+sudo dnf5 install zeitfetch -y
+sudo dnf5 install afetch -y
+
+-----------------------------------------------------
+
+Time to install KDE 6 Plasma for fedora 41 - KDE
+
+sudo dnf5 install plasma-workspace-x11 -y
+
+sudo dnf5 install plasma-desktop* plasma-workspace* plasma-workspace-wayland* plasma-settings* sddm-wayland-plasma* kde-baseapps* kscreen --no-best --allowerasing --skip-broken -y
+
+sudo dnf5 group install "kde-desktop" --allowerasing --no-best -y
+
+Next to install take all in list and paste in your terminal / Shell / Bash / Console.
+
+ sudo dnf5 install \
+ @"base-x" \
+ @"Common NetworkManager Submodules" \
+ @"Fonts" \
+ @"Hardware Support" \
+ bluedevil \
+ breeze-gtk \
+ breeze-icon-theme \
+ cagibi \
+ colord-kde \
+ cups-pk-helper \
+ dolphin \
+ glibc-all-langpacks \
+ gnome-keyring-pam \
+ kcm_systemd \
+ kde-gtk-config \
+ kde-partitionmanager \
+ kde-print-manager \
+ kde-settings-pulseaudio \
+ kde-style-breeze \
+ kdegraphics-thumbnailers \
+ kdeplasma-addons \
+ kdialog \
+ kdnssd \
+ kf5-akonadi-server \
+ kf5-akonadi-server-mysql \
+ kf5-baloo-file \
+ kf5-kipi-plugins \
+ khotkeys \
+ kmenuedit \
+ konsole5 \
+ kscreen \
+ kscreenlocker \
+ ksshaskpass \
+ ksysguard \
+ kwalletmanager5 \
+ kwebkitpart \
+ kwin \
+ NetworkManager-config-connectivity-fedora \
+ pam-kwallet \
+ phonon-qt5-backend-gstreamer \
+ pinentry-qt \
+ plasma-breeze \
+ plasma-desktop \
+ plasma-desktop-doc \
+ plasma-drkonqi \
+ plasma-nm \
+ plasma-nm-l2tp \
+ plasma-nm-openconnect \
+ plasma-nm-openswan \
+ plasma-nm-openvpn \
+ plasma-nm-pptp \
+ plasma-nm-vpnc \
+ plasma-pa \
+ plasma-user-manager \
+ plasma-workspace \
+ plasma-workspace-geolocation \
+ polkit-kde \
+ qt5-qtbase-gui \
+ qt5-qtdeclarative \
+ sddm \
+ sddm-breeze \
+ sddm-kcm \
+ setroubleshoot \
+ sni-qt \
+ xorg-x11-drv-libinput --skip-unavailable
+
+Now take this and install this final step - almost =]
+
+sudo dnf5 install kactivitymanagerd** -y
+sudo dnf5 install bluedevil** -y
+sudo dnf5 install breeze-gtk** -y
+sudo dnf5 install breeze-grub -y
+sudo dnf5 install breeze-plymouth** -y
+sudo dnf5 install qqc2-breeze-style -y
+sudo dnf5 install kde-gtk-config** -y
+sudo dnf5 install kgamma** -y
+sudo dnf5 install kglobalacceld** -y
+sudo dnf5 install kinfocenter** --skip-broken --nobest -y
+sudo dnf5 install kmenuedit** -y
+sudo dnf5 install kpipewire** -y
+sudo dnf5 install kscreenlocker* -y
+sudo dnf5 install ksshaskpass* -y
+sudo dnf5 install ksystemstats* -y
+sudo dnf5 install kwrited** -y
+sudo dnf5 install layer-shell-qt** -y
+sudo dnf5 install libkscreen** -y
+sudo dnf5 install libksysguard** -y
+sudo dnf5 install libplasma** -y
+sudo dnf5 install oxygen-sounds -y
+sudo dnf5 install plasma5support** -y
+sudo dnf5 install plasma-nm -y
+sudo dnf5 install plasma-firewall -y
+sudo dnf5 install plasma-mobile -y
+sudo dnf5 install plasma-welcome -y
+sudo dnf5 install sddm-kcm** -y
+sudo dnf5 install powerdevil** -y
+sudo dnf5 install polkit-kde-agent-1 -y
+sudo dnf5 install plymouth-kcm -y
+sudo dnf5 install plasma-workspace-wallpapers -y
+sudo dnf5 install plasma-vault -y
+sudo dnf5 install plasma-thunderbolt -y
+sudo dnf5 install plasma-sdk** -y
+sudo dnf5 install plasma-pa -y
+sudo dnf5 install plasma-pass** -y
+sudo dnf5 install plasma-nano -y
+sudo dnf5 install plasma-integration** --skip-broken --nobest -y
+sudo dnf5 install plasma-disks -y
+sudo dnf5 install plasma-desktop** -y
+sudo dnf5 install plasma-browser-integration** -y
+sudo dnf5 install breeze** --allowerasing --nobest --skip-broken -y
+sudo dnf5 install plasma-** --allowerasing --nobest --skip-broken -y
+sudo dnf5 install kdeplasma-addons** -y
+sudo dnf5 install plasma-activities-stats -y
+sudo dnf5 install plasma-activities** -y
+sudo dnf5 install kwin** -y
+sudo dnf5 install kwayland-integration** -y
+sudo dnf5 install kwayland** -y
+sudo dnf5 install kwallet-pam -y
+sudo dnf5 install kscreen** -y
+sudo dnf5 install krdp** --allowerasing --nobest --skip-broken -y
+sudo dnf5 install xdg-desktop-portal-kde** -y
+sudo dnf5 install kdecoration** --allowerasing --nobest --skip-broken -y
+sudo dnf5 install kde-cli-tools** -y
+sudo dnf5 install flatpak-kcm** -y
+sudo dnf5 install plasma-discover** --skip-broken --nobest -y
+
+And we are DONE. Fast install for KDE 6 and fedora 41 =]
+
+---------------------------------------
+
+Use this to get Snapd for Fedora 41 if you want...
+
+sudo dnf5 install snapd* -y
+sudo dnf install fuse squashfuse -y
+sudo dnf install kernel-modules -y
+
+sudo systemctl enable --now snapd.socket
+sudo systemctl enable snapd
+sudo ln -s /var/lib/snapd/snap /snap
+
+sudo snap install core 
+
+WE ARE DONE - Nice WORK! you need to restart if you want more stuff from snap!
+
+---------------------------------------
+
+Install Google-Chrome web browser
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm -y
+sudo yum update google-chrome-stable
+
+------------------------------------------------------
+
+Install Visual Studio Code - 2025 - Microsoft Engine for Code.
+
+wget https://www.knulla.org/scripts/code-1.95.3-1731513157.el8.x86_64.rpm
+sudo dnf install ./code-1.95.3-1731513157.el8.x86_64.rpm -y
+
+-----------------------------------------------------
+
+Install BLANKET to listen to sounds.... Copy and Paste All in Bash!
+
+sudo dnf install https://www.knulla.org/scripts/blanket79.rpm
+
+-----------------------------------------------------
+
+Done now lets install flatpack
+
+Copy and paste: sudo dnf5 install flatpak* -y
+
+Copy and paste: sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+Next Gimp for fedora 41 - Test: sudo flatpak install flathub org.gimp.GIMP
+
+-----------------------------------------------------
+
+Install LibreOffice - this works and take some time to install.
+
+sudo dnf5 install libreoffice
+
+------------------------------------------------------
+
+Install some themes - Cursor - Wallpapers - Icons - just if you want. NO MOST to install!
+
+sudo dnf5 install verne-kde-theme -y
+sudo dnf5 install flat-remix-gtk2-theme flat-remix-gtk3-theme -y
+sudo dnf5 install papirus-icon-theme -y
+sudo dnf5 install numix-gtk-theme -y
+sudo dnf5 install materia-gtk-theme -y
+sudo dnf5 install pop-icon-theme -y
+sudo dnf5 install tango-icon-theme-extras -y
+sudo dnf5 install materia-kde -y
+sudo dnf5 install materia-kde-decorations -y
+sudo dnf5 install materia-kde-konsole -y
+sudo dnf5 install materia-kde-kvantum -y
+sudo dnf5 install materia-kde-sddm -y
+sudo dnf5 install materia-kde-yakuake -y
+sudo dnf5 install materia-kde-yakuake-y 
+sudo dnf5 install mint-x-icons --no-best --allowerasing --skip-broken -y 
+sudo dnf5 install mint-y-icons --no-best --allowerasing --skip-broken -y
+sudo dnf5 install plasma-integration -y
+sudo dnf5 install kdm-themes -y
+sudo dnf5 install icewm-themes -y
+sudo dnf5 install emerald-themes -y
+sudo dnf5 install cinnamon-themes -y
+sudo dnf5 install sddm-themes -y
+sudo dnf5 install lxqt-themes-fedora -y
+sudo dnf5 install WindowMaker-extra -y
+sudo dnf5 install bluebird-metacity-theme -y
+sudo dnf5 install greybird-dark-theme -y
+sudo dnf5 install NsCDE-icon-theme -y
+sudo dnf5 install adw-gtk3-theme -y
+sudo dnf5 install adwaita-cursor-theme -y
+sudo dnf5 install arc-theme -y
+sudo dnf5 install beefy-miracle-kde-theme -y
+sudo dnf5 install bluebird-metacity-theme -y
+sudo dnf5 install bluecurve-cursor-theme -y
+sudo dnf5 install constantine-kde-theme -y
+sudo dnf5 install deepin-gtk-theme -y
+sudo dnf5 install deepin-sound-theme -y
+sudo dnf5 install fedorawaves-kdm-theme -y
+sudo dnf5 install kf6-kiconthemes -y
+sudo dnf5 install yaru-gtk4-theme -y
+sudo dnf5 install pop-icon-theme -y
+sudo dnf5 install arc-kde-kvantum -y
+sudo dnf5 install arc-kde-yakuake -y
+sudo dnf5 install adwaita-qt6 -y
+sudo dnf5 install gnome-shell-extension-user-theme -y
+sudo dnf5 install ipsilon-theme-Fedora -y
+sudo dnf5 install mate-themes -y
+sudo dnf5 install papirus-icon-theme-dark -y
+sudo dnf5 install pop-gtk4-theme -y
+sudo dnf5 install solar-kde-theme -y
+sudo dnf5 install yaru-gtk4-theme -y
+sudo dnf5 install elementary-icon-theme -y
+sudo dnf5 install corsix-th -y
+sudo dnf5 install cros-adapta -y
+sudo dnf5 install luv-wallpapers -y
+sudo dnf5 install adwaita-cursor-theme -y
+sudo dnf5 install bluecurve-cursor-theme -y
+sudo dnf5 install breeze-cursor-theme -y
+sudo dnf5 install hyprcursor -y
+sudo dnf5 install la-capitaine-cursor-theme -y
+sudo dnf5 install oxygen-cursor-themes -y
+sudo dnf5 install icoutils -y
+sudo dnf5 install suru-icon-theme -y
+sudo dnf5 install verne-backgrounds-extras-kde -y
+sudo dnf5 install verne-backgrounds-kde -y
+sudo dnf5 install beefy-miracle-backgrounds-kde -y
+sudo dnf5 install constantine-backgrounds-kde -y
+sudo dnf5 install f40-backgrounds-extras-kde -y
+sudo dnf5 install laughlin-backgrounds-extras-kde -y
+sudo dnf5 install lovelock-backgrounds-kde -y
+sudo dnf5 install lovelock-backgrounds-stripes-kde -y
+sudo dnf5 install schroedinger-cat-backgrounds-extras-kde -y
+sudo dnf5 install spherical-cow-backgrounds-extras-kde -y
+sudo dnf5 install fedora-jam-backgrounds-kde -y
+sudo dnf5 install WindowMaker-extra -y
+sudo dnf5 install bluebird-gtk2-theme -y
+sudo dnf5 install bluebird-gtk3-theme -y
+sudo dnf5 install bluebird-metacity-theme -y
+sudo dnf5 install bluebird-xfwm4-theme -y
+sudo dnf5 install greybird-dark-theme -y
+sudo dnf5 install greybird-light-theme -y
+sudo dnf5 install greybird-metacity-theme -y
+sudo dnf5 install greybird-plank -y
+sudo dnf5 install greybird-xfwm4-theme -y
+sudo dnf5 install mint-themes-gtk4 -y
+sudo dnf5 install mint-themes-gtk3 -y
+sudo dnf5 install helium-gtk-theme -y
+sudo dnf5 install hicolor-icon-theme -y
+sudo dnf5 install icon-naming-utils -y
+sudo dnf5 install rust-xcursor+default-devel -y
+sudo dnf5 install rust-xcursor-devel -y
+sudo dnf5 install tau-helium -y
+sudo dnf5 install xfwm4-themes -y
+sudo dnf5 install terra-sddm-themes -y
+sudo dnf5 install kf6-kiconthemes -y
+sudo dnf5 install kdm-themes -y
+sudo dnf5 install e16-themes -y
+sudo dnf5 install oxygen-gtk2 -y
+sudo dnf5 install material-design-dark -y
+sudo dnf5 install material-design-light -y
+sudo dnf5 install kf6-breeze-icons -y
+sudo dnf5 install cros-adapta -y
+sudo dnf5 install elementary-theme -y
+sudo dnf5 install pagure-theme-chameleon -y
+sudo dnf5 install laughlin-kde-theme -y
+sudo dnf5 install human-theme-gtk -y
+sudo dnf5 install hydrogen-icon-theme -y
+sudo dnf5 install deepin-gtk-theme -y
+
+
+sudo dnf5 install xenlism-wildfire xenlism-wildfire-day xenlism-wildfire-friday xenlism-wildfire-midnight xenlism-wildfire-Monday
+xenlism-wildfire-saturday xenlism-wildfire-Thursday xenlism-wildfire-Tuesday xenlism-wildfire-wednesday --skip-unavailable -y
+
+If you want catppuccin-theme follow this - World Class Themes for KDE 6 and Fedora 41
+
+Copy and paste in terminal: git clone --depth=1 https://github.com/catppuccin/kde catppuccin-kde && cd catppuccin-kde
+Run the install script using: ./install.sh and follow the instructions
+
+Dont forgett to run this after install: cd
+
+Last install some cursor themes
+
+sudo dnf5 install adwaita-cursor-theme -y
+sudo dnf5 install bibata-cursor-theme -y
+sudo dnf5 install bluecurve-cursor-theme -y
+sudo dnf5 install breeze-cursor-theme -y
+sudo dnf5 install google-black-cursor-theme -y
+sudo dnf5 install hyprcursor -y
+sudo dnf5 install la-capitaine-cursor-theme -y
+sudo dnf5 install oxygen-cursor-themes -y
+sudo dnf5 install suru-icon-theme -y
+sudo dnf5 install breeze-cursor-theme -y
+
+-------------------------------------------------------------
+
+Paste this in Bash / terminal / Console / Shell for Fedora 41 and KDE 6
+
+xdg-user-dirs-update
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-------------------------------------------------------------
+
+Type this in terminal and put your user-name there: sudo loginctl enable-linger user
+
+-------------------------------------------------------------
+
+17. In terminal type: sudo nano ~/.bash_Fedora_desktop
+
+Paste this small script in terminal and save and quit nano.
+
+export XDG_SESSION_TYPE=X11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=X11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-------------------------------------------
+
+Reboot Fedora 41 - Reboot Fedora 41 - Reboot Fedora 41 - KDE 6
+
+-------------------------------------------
+
+NOW START X410 AND THEN START TERMINAL / BASH / CONSOLE
+
+-------------------------------------------
+
+Time to start KDE 6 for Fedora 41
+
+Copy and Paste in Console: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+Copy and Paste in Console: . ~/.bash_Fedora_desktop
+Copy and Paste in Console: dbus-launch startplasma-x11
+
+It takes a little time to start at the beginning so leave it for a minute if nothing happens.
+
+-------------------------------------------
+
+      .-+**#**+=:
+    -######*=:::+*=
+  .#######-  -=-+**#:
+ .#######*  *####**##.
+ =#######+  #####**##+ Regards Mattias Vinberg - FEDORA 41 - WSL - X410 - Windows 11 - Linux - Microsoft - Sweden - Whitewater Foundry - 2025
+ +##**=        +**###*
+ +#***#**=  **#######= 
+ +***####+  ########+
+ +#**+++-  =#######-
+ =###-..:-*#####+-
+
+Maintained by KDE 6 - FEDORA 41 - WSL MATTIAS VINBERG - X410 - © - Whitewater Foundry - 2025
+
+-------------------------------------------
