@@ -30,6 +30,71 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Debian and KDE 6 - WSL - How to install KDE 6 via Debian - Windows 11 - X410 - Linux - 2024
+
+You will find Debian via Microsoft store or via this link
+
+https://apps.microsoft.com/detail/9msvkqc78pk6?hl=en-US&gl=US
+
+X410 - X server can you find in Microsoft Store or via this link
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-us&gl=US
+
+How to install KDE 6 via DEBIAN - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Debian-KDE6.txt
+
+How to install KDE 6 via DEBIAN - WSL - VIDEO
+
+https://www.youtube.com/watch?v=yrtgmwsptVc
+
+![Debian-KDE6](https://github.com/user-attachments/assets/49f1e956-0c33-43ab-b192-b257a4ac825c)
+
+About Debian - https://www.debian.org
+
+Debian is a popular and freely available computer 
+operating system (OS) that uses a Unix-like 
+kernel typically Linux alongside other program 
+components, many of which come from GNU Project. 
+Debian can be downloaded over the internet 
+or, for a small charge, obtained on CD, DVD, Blu-ray
+disc or USB flash drive. As Open Source 
+software, Debian is developed by nearly 1,000 active
+programmers from around the world who collectively
+form Debian Project. he name Debian -- pronounced
+deb-EE-uhn -- is a portmanteau that blends the
+creator's first name, Ian, with that of his 
+wife, Debra.
+
+About KDE Plasma 6 - https://kde.org - https://kde.org/plasma-desktop
+
+KDE is an international team co-operating on 
+development and distribution of Free, Open
+Source Software for desktop and portable
+computing. Our community has developed a
+wide variety of applications for communication, 
+work, education and entertainment. We have a
+strong focus on finding innovative solutions to
+old and new problems, creating a vibrant, open
+atmosphere for experimentation. KDE is The 
+next generation desktop for Linux. Use KDE
+software to surf the web, keep in touch with
+colleagues, friends and family, manage your
+files, enjoy music and videos; and get creative
+and productive at work. The KDE community develops
+and maintains more than 200 applications
+which run on any Linux desktop, and often
+other platforms too.
+
+⢀⣴⠾⠻⢶⣦⠀
+⣾⠁⢠⠒⠀⣿⡁ Debian - The universal operating system
+⢿⡄⠘⠷⠚⠋⠀ https://www.debian.org/ Mattias Vinberg
+⠈⠳⣄
+
+Regards Mattias Vinberg - Debian 13 - KDE 6 - Windows 11 - WSL - X410 - Linux - Sweden - 2024
+
+---------------------------------------------
+
 Fedora 41 and KDE 6 - How to install KDE 6 via Fedora 41 - X410 - Windows 11 - WSL - Linux - Whitewater Foundry - 2025
 
 Find Fedora 41 for WSL here by Whitewater Foundry inc. It will cost Money$ 9.99 - Go to Microsoft store and install from there.
