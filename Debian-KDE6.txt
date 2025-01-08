@@ -7,7 +7,7 @@ X410 - X server can you find in Microsoft Store or via this link
 https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-us&gl=US
 
 How to install KDE 6 via DEBIAN - WSL - TEXT
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/Debian-KDE6.txt
 
 How to install KDE 6 via DEBIAN - WSL - VIDEO
 https://www.youtube.com/watch?v=yrtgmwsptVc
