@@ -1,0 +1,238 @@
+Debian and KDE 6 - WSL - How to install KDE 6 via Debian - Windows 11 - X410 - Linux - 2024
+
+You will find Debian via Microsoft store or via this link
+https://apps.microsoft.com/detail/9msvkqc78pk6?hl=en-US&gl=US
+
+X410 - X server can you find in Microsoft Store or via this link
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-us&gl=US
+
+How to install KDE 6 via DEBIAN - WSL - TEXT
+Comming Zone...
+
+How to install KDE 6 via DEBIAN - WSL - VIDEO
+https://www.youtube.com/watch?v=yrtgmwsptVc
+
+
+       _,met$$$$$gg.                _,met$$$$$gg.                _,met$$$$$gg.                _,met$$$$$gg.
+    ,g$$$$$$$$$$$$$$$P.          ,g$$$$$$$$$$$$$$$P.          ,g$$$$$$$$$$$$$$$P.          ,g$$$$$$$$$$$$$$$P.
+  ,g$$P"        """Y$$.".      ,g$$P"        """Y$$.".      ,g$$P"        """Y$$.".      ,g$$P"        """Y$$.".
+ ,$$P'              `$$$.     ,$$P'              `$$$.     ,$$P'              `$$$.     ,$$P'              `$$$.
+',$$P       ,ggs.     `$$b:  ',$$P       ,ggs.     `$$b:  ',$$P       ,ggs.     `$$b:  ',$$P       ,ggs.     `$$b:
+`d$$'     ,$P"'   .    $$$   `d$$'     ,$P"'   .    $$$   `d$$'     ,$P"'   .    $$$   `d$$'     ,$P"'   .    $$$
+ $$P      d$'     ,    $$P    $$P      d$'     ,    $$P    $$P      d$'     ,    $$P    $$P      d$'     ,    $$P
+ $$:      $$.   -    ,d$$'    $$:      $$.   -    ,d$$'    $$:      $$.   -    ,d$$'    $$:      $$.   -    ,d$$'
+ $$;      Y$b._   _,d$P'      $$;      Y$b._   _,d$P'      $$;      Y$b._   _,d$P'      $$;      Y$b._   _,d$P'
+ Y$$.    `.`"Y$$$$P"'         Y$$.    `.`"Y$$$$P"'         Y$$.    `.`"Y$$$$P"'         Y$$.    `.`"Y$$$$P"'
+ `$$b      "-.__              `$$b      "-.__              `$$b      "-.__              `$$b      "-.__
+  `Y$$                         `Y$$                         `Y$$                         `Y$$
+   `Y$$.                        `Y$$.                        `Y$$.                        `Y$$.
+     `$$b.                        `$$b.                        `$$b.                        `$$b.
+       `Y$$b.                       `Y$$b.                       `Y$$b.                       `Y$$b.
+          `"Y$b._                      `"Y$b._                      `"Y$b._                      `"Y$b._
+              `"""                         `"""                         `"""                         `"""
+
+About Debian - https://www.debian.org
+
+Debian is a popular and freely available computer 
+operating system (OS) that uses a Unix-like 
+kernel typically Linux alongside other program 
+components, many of which come from GNU Project. 
+Debian can be downloaded over the internet 
+or, for a small charge, obtained on CD, DVD, Blu-ray
+disc or USB flash drive. As Open Source 
+software, Debian is developed by nearly 1,000 active
+programmers from around the world who collectively
+form Debian Project. he name Debian -- pronounced
+deb-EE-uhn -- is a portmanteau that blends the
+creator's first name, Ian, with that of his 
+wife, Debra.
+
+About KDE Plasma 6 - https://kde.org - https://kde.org/plasma-desktop
+
+KDE is an international team co-operating on 
+development and distribution of Free, Open
+Source Software for desktop and portable
+computing. Our community has developed a
+wide variety of applications for communication, 
+work, education and entertainment. We have a
+strong focus on finding innovative solutions to
+old and new problems, creating a vibrant, open
+atmosphere for experimentation. KDE is The 
+next generation desktop for Linux. Use KDE
+software to surf the web, keep in touch with
+colleagues, friends and family, manage your
+files, enjoy music and videos; and get creative
+and productive at work. The KDE community develops
+and maintains more than 200 applications
+which run on any Linux desktop, and often
+other platforms too.
+
+Find More Here About WSL and Linux for Windows 11..
+https://github.com/vinberg88/opensuse
+
+-------------------------------
+
+DO THIS AFTER INSTALL - DEBIAN UPDATE.
+
+To upgrade Debian 12 (Bookworm) to Debian 13 (Trixie)
+
+Type in Terminal....
+
+sudo apt update
+sudo apt full-upgrade
+
+Then change Modify your /etc/apt/sources.list file
+to point to the Debian 13 repositories. Replace all instances of "bookworm" with "trixie"
+
+sudo nano /etc/apt/sources.list
+
+Replace all instances of "bookworm" with "trixie"
+
+sudo apt update
+sudo apt full-upgrade
+
+-------------------------------
+
+sudo apt install hyfetch fastfetch
+
+Type in terminal: hyfetch
+
+And we are on Debian 13 - Trixie
+
+-------------------------------
+
+Type this in terminal to fix ip problem for xserver - X410 - You can find ip for WSL via Micrsoft Terminal/powershell: ipconfig
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.19.64.1  <-- add this and put your ip there
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+cat /etc/resolv.conf
+
+If you see som red text dont worry it works.
+
+-------------------------------
+
+Reboot Reboot Reboot Debian - Reboot Reboot Reboot Debian
+
+-------------------------------
+
+Install programs:
+
+sudo apt install bash git npm wget curl dracut dbus -y
+sudo apt install sddm* -y
+sudo systemctl set-default graphical
+sudo systemctl enable sddm.service
+
+-------------------------------
+
+Install Google-Chrome
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+-------------------------------
+
+Install Blanket if you Want! - Listen to Sound =]
+
+wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb -y
+
+-------------------------------
+
+Isntall Visual Studio Code from Microsoft - 2025
+
+sudo apt-get install wget gpg
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" |sudo tee /etc/apt/sources.list.d/vscode.list > /dev/null
+rm -f packages.microsoft.gpg
+
+sudo apt install apt-transport-https
+sudo apt update
+sudo apt install code
+
+-------------------------------
+
+Paste all in terminal for install KDE 6 Desktop for Debian 13.
+
+sudo apt install plasma-workspace* plasma-desktop* qtwayland5* kwin-wayland*
+
+-------------------------------
+
+Install some Programs that is needed for Debian and KDE 6.
+
+sudo apt install dolphin konsole kate gnome-terminal kwin* xorg* x11* npm* kpackagetool6* cmake* clang* gcc
+
+sudo apt-get install zip* makefile*
+
+sudo apt-get update
+
+sudo apt-get install make cmake ninja-build build-essential extra-cmake-modules qtbase5-private-dev qtdeclarative5-dev libqt5svg5-dev libkf5config-dev libkf5declarative-dev libkf5configwidgets-dev libkf5kcmutils-dev libkdecorations2-dev
+
+sudo  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
+source ~/.profile
+nvm install 20
+
+npm uninstall tsc
+npm install -D typescript
+
+git clone https://github.com/zeroxoneafour/polonium.git
+cd polonium
+wget https://github.com/zeroxoneafour/polonium/releases/download/v0.6.0/polonium.kwinscript
+sudo make
+
+Last to do in terminal for this: cd
+
+-------------------------------
+
+Paste In Terminal - All
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+
+-------------------------------
+
+Type this in terminal and put your user there - sudo loginctl enable-linger user
+
+-------------------------------
+
+Copy this and paste in terminal: sudo nano ~/.bash_debian_desktop
+
+Then add this script to terminal
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-------------------------------
+
+Reboot Reboot Reboot Debian 13
+
+--------------------------------------------
+
+Start X410 for windows 11 and start Debian 13 via WSL - Time to start KDE 6
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+Paste in terminal: . ~/.bash_debian_desktop
+Start kde plasma 6: startplasma-x11
+
+Just wait it will start.. Take some time... 
+
+--------------------------------------------
+
+⢀⣴⠾⠻⢶⣦⠀
+⣾⠁⢠⠒⠀⣿⡁ Debian - The universal operating system
+⢿⡄⠘⠷⠚⠋⠀ https://www.debian.org/ Mattias Vinberg
+⠈⠳⣄
+
+Regards Mattias Vinberg - Debian 13 - KDE 6 - Windows 11 - WSL - X410 - Linux - Sweden - 2024
+
+--------------------------------------------
