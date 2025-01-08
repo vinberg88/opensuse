@@ -86,10 +86,9 @@ and maintains more than 200 applications
 which run on any Linux desktop, and often
 other platforms too.
 
-⢀⣴⠾⠻⢶⣦⠀
-⣾⠁⢠⠒⠀⣿⡁ Debian - The universal operating system
-⢿⡄⠘⠷⠚⠋⠀ https://www.debian.org/ Mattias Vinberg
-⠈⠳⣄
+Find More Here About WSL and Linux for Windows 11..
+
+https://github.com/vinberg88/opensuse
 
 Regards Mattias Vinberg - Debian 13 - KDE 6 - Windows 11 - WSL - X410 - Linux - Sweden - 2024
 
