@@ -1,0 +1,186 @@
+RHINO Linux and KDE PLASMA 6 - WSL - How to install KDE 6 via Rhino - X410 - Windows 11 - Linux - 2024
+
+
+|\   __  \|\  \|\  \|\  \|\   ___  \|\   __  \    
+\ \  \|\  \ \  \\\  \ \  \ \  \\ \  \ \  \|\  \   
+ \ \   _  _\ \   __  \ \  \ \  \\ \  \ \  \\\  \  
+  \ \  \\  \\ \  \ \  \ \  \ \  \\ \  \ \  \\\  \ 
+   \ \__\\ _\\ \__\ \__\ \__\ \__\\ \__\ \_______\
+    \|__|\|__|\|__|\|__|\|__|\|__| \|__|\|_______| -  Rhino Linux and KDE 6 - WSL - Unicorn Desktop!
+
+You can find Rhino Linux for WSL Here
+https://github.com/sileshn/RhinoLinuxWSL2
+
+X410 - Xserver for windows 11 - So you have a Console / Desktop or install it via Microsoft Store.
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+How to install KDE 6 via windows 11 and WSL - RHINO LINUX - TEXT
+Comming Zone...
+
+How to install KDE 6 via windows 11 and WSL - RHINO LINUX - MOVIE
+https://www.youtube.com/watch?v=9E1_PWJQ5-U
+
+-----------------------------
+
+        #####
+       #######
+       ##O#O##
+       #######
+     ###########
+    #############       Rhino Linux - 2024 - Rolling Release - Pacstall
+   ###############      --------------
+   ################     OS: Rhino Linux 2024.2 (server) on Windows x86_64
+  #################     Kernel: 5.15.167.4-microsoft-standard-WSL2
+#####################   Host: Mattias Vinberg - Sweden - RhinoLinux
+#####################   Desktop/OS: KDE 6 - Windows 11 - Rhino Linux - 2024
+  #################
+
+
+-----------------------------
+
+About Rhino Linux - https://rhinolinux.org
+
+Rhino Linux is an Ubuntu-based, rolling release distribution, with
+Pacstall & XFCE at its core - Rhino Linux re-invents the Ubuntu
+experience as a rolling-release distribution built on a stable
+desktop environment. Diverging from Ubuntu-based tradition, Rhino
+Linux is not derived from any LTS or interim releases, but
+instead uses Ubuntu's devel branch to provide a rolling experience.
+Pacstall is the AUR for Ubuntu, and assists in providing the most
+up-to-date software, even those unavailable in the standard
+repositories. It is at the very heart of the 
+distribution, providing essential packages such as the Linux 
+kernel, web browsers, our customized Unicorn Desktop, and other
+Rhino Linux utilities.
+
+About KDE 6 - The next generation desktop for Linux - https://kde.org
+
+The Plasma Launcher lets you quickly and easily launch 
+applications, but it can do much more -- convenient tasks like
+bookmarking applications, searching for documents as you type, or
+navigating to common places help you get straight to the point.
+With a history of recently started programs and opened files, you 
+can return to where you left off. It even remembers previously
+entered search terms so you don't have to. With KDE 6 the user
+is king. Not happy with the color scheme? Change it! Want to
+have your panel on the left edge of the screen? Move it!
+Don't like the font? Use a different one! Download custom
+widgets in one click and add them to your desktop or panel.
+
+Find More About WSL and Linux Here.
+https://github.com/vinberg88/opensuse
+
+-----------------------------
+
+NOW LETS START INSTALLATION FOR KDE 6 AND RHINO LINUX.
+
+You need to Fix IP for WSL. You can find your ip for WSL by using Powershell as admin and type: ipconfig
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+HERE PUT YOUR IP LIKE THIS: nameserver 172.19.64.1
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+cat /etc/resolv.conf
+
+-----------------------------
+
+RESTART Rhino Linux - RESTART Rhino Linux - RESTART Rhino Linux
+
+-----------------------------
+
+Time To update all - Rhino Linux
+
+sudo apt update && sudo apt upgrade
+
+--------------------------
+
+Install some programs for kde 6 and Rhino Linux.
+
+sudo apt install bash git npm wget dbus* curl pipx dracut -y
+sudo apt install sddm* -y
+sudo systemctl set-default graphical
+
+--------------------------------------------
+
+Installing KDE 6 Distribution - KDE 6 for Rhino Linux
+
+sudo apt install kde-standard
+
+--------------------------------------------
+
+Install this small program.. Neofetch is DEAD =]
+
+sudo apt install hyfetch
+
+To test type: hyfetch
+
+--------------------------------------------
+
+Install Chrome - Browser
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+--------------------------------------------
+
+Reboot Linux... Reboot Linux... Reboot Linux... Reboot Linux...
+
+--------------------------------------------
+
+Paste in terminal: 
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+--------------------------------------------
+
+Type this in terminal and put your user there: sudo loginctl enable-linger user
+
+--------------------------------------------
+
+Copy this and paste in terminal: sudo nano ~/.bash_Rhino_desktop
+
+Then add this script to terminal
+
+export XDG_CURRENT_DESKTOP=ubuntu:GNOME
+export XDG_SESSION_DESKTOP=ubuntu
+export DESKTOP_SESSION=ubuntu
+export GNOME_SHELL_SESSION_MODE=ubuntu
+
+export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+export XDG_MENU_PREFIX=gnome-
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+------------------------------------------------------
+
+Reboot… Reboot… Reboot… Reboot… Rhino Linux - 2024 
+
+------------------------------------------------------
+
+NOW START X410 AND THEN TERMINAL FOR LINUX...
+
+------------------------------------------------------
+
+Now we can start KDE 6 for Rhino Linux
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+Paste in terminal: . ~/.bash_Rhino_desktop
+Type in terminal and start KDE 6: dbus-launch startplasma-x11
+
+------------------------------------------------------
+
+Regards Mattias Vinberg - Rhino Linux - KDE PLASMA 6 - Neon 6.2 - WSL - X410 - WINDOWS 11 - SWEDEN - 2024
+
+------------------------------------------------------
