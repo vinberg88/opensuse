@@ -30,6 +30,61 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+RHINO Linux and KDE PLASMA 6 - WSL - How to install KDE 6 via Rhino - X410 - Windows 11 - Linux - 2024
+
+You can find Rhino Linux for WSL Here
+
+https://github.com/sileshn/RhinoLinuxWSL2
+
+X410 - Xserver for windows 11 - So you have a Console / Desktop or install it via Microsoft Store.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+How to install KDE 6 via windows 11 and WSL - RHINO LINUX - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/RhinoLinux-KDE.txt
+
+How to install KDE 6 via windows 11 and WSL - RHINO LINUX - MOVIE
+
+https://www.youtube.com/watch?v=9E1_PWJQ5-U
+
+![RhinoLinux-KDE](https://github.com/user-attachments/assets/923e204f-04a0-462a-b892-ef3b73c3e382)
+
+About Rhino Linux - https://rhinolinux.org
+
+Rhino Linux is an Ubuntu-based, rolling release distribution, with
+Pacstall & XFCE at its core - Rhino Linux re-invents the Ubuntu
+experience as a rolling-release distribution built on a stable
+desktop environment. Diverging from Ubuntu-based tradition, Rhino
+Linux is not derived from any LTS or interim releases, but
+instead uses Ubuntu's devel branch to provide a rolling experience.
+Pacstall is the AUR for Ubuntu, and assists in providing the most
+up-to-date software, even those unavailable in the standard
+repositories. It is at the very heart of the 
+distribution, providing essential packages such as the Linux 
+kernel, web browsers, our customized Unicorn Desktop, and other
+Rhino Linux utilities.
+
+About KDE 6 - The next generation desktop for Linux - https://kde.org
+
+The Plasma Launcher lets you quickly and easily launch 
+applications, but it can do much more -- convenient tasks like
+bookmarking applications, searching for documents as you type, or
+navigating to common places help you get straight to the point.
+With a history of recently started programs and opened files, you 
+can return to where you left off. It even remembers previously
+entered search terms so you don't have to. With KDE 6 the user
+is king. Not happy with the color scheme? Change it! Want to
+have your panel on the left edge of the screen? Move it!
+Don't like the font? Use a different one! Download custom
+widgets in one click and add them to your desktop or panel.
+
+Find More About WSL and Linux Here - https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - Rhino Linux - KDE PLASMA 6 - Neon 6.2 - WSL - X410 - WINDOWS 11 - SWEDEN - 2024
+
+---------------------------------------------
+
 Debian and KDE 6 - WSL - How to install KDE 6 via Debian - Windows 11 - X410 - Linux - 2024
 
 You will find Debian via Microsoft store or via this link
