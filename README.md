@@ -81,7 +81,7 @@ widgets in one click and add them to your desktop or panel.
 
 Find More About WSL and Linux Here - https://github.com/vinberg88/opensuse
 
-Regards Mattias Vinberg - Rhino Linux - KDE PLASMA 6 - Neon 6.2 - WSL - X410 - WINDOWS 11 - SWEDEN - 2024
+Regards Mattias Vinberg - Rhino Linux - KDE PLASMA 6 - WSL - X410 - WINDOWS 11 - SWEDEN - 2024
 
 ---------------------------------------------
 
