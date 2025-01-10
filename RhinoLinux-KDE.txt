@@ -15,7 +15,7 @@ X410 - Xserver for windows 11 - So you have a Console / Desktop or install it vi
 https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
 
 How to install KDE 6 via windows 11 and WSL - RHINO LINUX - TEXT
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/RhinoLinux-KDE.txt
 
 How to install KDE 6 via windows 11 and WSL - RHINO LINUX - MOVIE
 https://www.youtube.com/watch?v=9E1_PWJQ5-U
