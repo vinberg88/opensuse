@@ -22,7 +22,7 @@ https://apps.microsoft.com/detail/9pm8lp83g3l3?rtc=1&hl=sv-se&gl=SE
         -@#######h       ######@.`    
        /#####h**``       `**%@####@   
       @H@*`                    `*%#@  
-     *`                            `* - BlachArch - KDE - WSL - X410 - 2024
+     *`                            `* - BlachArch - KDE - WSL - X410 - 2025
 
 
 How to install Plasma KDE 6 on Black Arch - TEXT
@@ -55,17 +55,6 @@ You will find more stuff here for WSL: https://github.com/vinberg88/opensuse
 
 If you have problem with this error - Fix: $DISPLAY is not set or cannot connect to the X server
 https://github.com/vinberg88/opensuse/blob/main/WSL-IP-PROBLEM.txt
-
-------------------------------------------------------------
-
-After installation paste this - all - you wont get symbolic link error.
-
-ln -s libcuda.so.1.1 libcuda.so.1
-ln -s libcuda.so.1.1 libcuda.so
-echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
-sudo mkdir /usr/lib/wsl/lib2
-sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
-echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
 
 ------------------------------------------------------------
 
