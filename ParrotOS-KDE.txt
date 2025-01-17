@@ -5,18 +5,16 @@ https://github.com/vinberg88/opensuse/blob/main/ParrotOS-KDE.txt
 
 How to install KDE Plasma via ParrotOS 6.2 and Windows 11 - WSL - MOVIE
 https://www.youtube.com/watch?v=SBaPo4MGMV0
-
-You can find ParrotOS 6.2 for WSL here: https://www.parrotsec.org/download
-                                                    
+                                              
                                        
               ██████████                                            
             ██░░░░░░░░░░████                                        
           ██░░░░░░░░░░░░░░░░██                                      
         ██░░░░░░░░░░░░░░░░░░░░██                                    
       ██░░░░░░██░░░░░░░░░░░░████                                    
-    ██░░░░░░░░██░░████████░░██░░██     - Parrot is how Debian should be!                            
-    ██░░░░░░░░░░░░██░░░░░░██░░░░██     - ParrotOS or ParrotSEC Version 6.2         
-  ████░░░░░░░░░░░░██░░░░░░██░░░░░░██  - KDE plasma Desktop - 2024                              
+    ██░░░░░░░░██░░████████░░██░░██      - Parrot is how Debian should be!                            
+    ██░░░░░░░░░░░░██░░░░░░██░░░░██      - ParrotOS or ParrotSEC Version 6.2         
+  ████░░░░░░░░░░░░██░░░░░░██░░░░░░██    - KDE plasma Desktop - 2024                              
   ██░░░░░░░░░░░░░░██░░░░░░██░░░░░░░░██                              
 ██░░░░░░░░░░░░░░░░██░░░░████░░░░░░░░██                              
 ██░░░░░░░░░░░░░░░░░░██░░██░░░░░░░░░░██                              
@@ -63,6 +61,19 @@ one click and add them to your desktop or panel.
 
 You Can Find More Stuff here About WSL - Linux - Windows 11 - GWSL
 https://github.com/vinberg88/opensuse
+
+---------------------------------
+
+Install debian normal edidtion and convert it to Parrot OS
+
+install this: sudo apt install bash gnupg git sudo
+
+git clone https://gitlab.com/parrotsec/project/debian-conversion-script.git
+cd debian-conversion-script
+sudo chmod +x ./install.sh
+./install.sh
+
+Press 1 and exit after install....
 
 ---------------------------------
 
