@@ -66,15 +66,6 @@ Remove Errors - Paste in Bash/Terminal
 sudo ln -s /dev/null /etc/systemd/system/acpid.service
 sudo ln -s /dev/null /etc/systemd/system/acpid.path
 
-Then This
-
-ln -s libcuda.so.1.1 libcuda.so.1
-ln -s libcuda.so.1.1 libcuda.so
-echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
-sudo mkdir /usr/lib/wsl/lib2
-sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
-echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
-
 -----------------------------------------
 
 sudo nano /etc/apt/sources.list.d/system.sources
