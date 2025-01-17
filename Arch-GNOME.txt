@@ -74,17 +74,6 @@ and add
 [boot]
 systemd=true
 
------------------------------------------------------------
-
-Paste this in terminal... all - you wont get symbolinc error.
-
-ln -s libcuda.so.1.1 libcuda.so.1
-ln -s libcuda.so.1.1 libcuda.so
-echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
-sudo mkdir /usr/lib/wsl/lib2
-sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
-echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
-
 -------------------------------------------------------------
 
 Add this terminal: sudo nano /etc/pacman.conf
