@@ -48,7 +48,36 @@ from a desktop Environment - XFCE is a good desktop.
 You Can Find More Stuff here About WSL - Linux - Windows 11 - GWSL
 https://github.com/vinberg88/opensuse
 
-You can find ParrotOS 6 for WSL here: https://www.parrotsec.org/download
+---------------------------------
+
+Install Debian normal edidtion and convert it to Parrot OS
+
+install this: sudo apt install bash gnupg git sudo
+
+git clone https://gitlab.com/parrotsec/project/debian-conversion-script.git
+cd debian-conversion-script
+sudo chmod +x ./install.sh
+./install.sh
+
+Press 1 and exit after install....
+
+-----------------------------
+
+NOW LETS START INSTALLATION FOR KDE 6 AND RHINO LINUX.
+
+You need to Fix IP for WSL. You can find your ip for WSL by using Powershell as admin and type: ipconfig
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+HERE PUT YOUR IP LIKE THIS: nameserver 172.19.64.1
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+cat /etc/resolv.conf
+
+Dont care if you see some redtext its works
 
 ---------------------------------------
 
