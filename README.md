@@ -1,5 +1,3 @@
-If you have problem with ip https://github.com/vinberg88/opensuse/blob/main/WSL-IP-PROBLEM.txt
-FIX - $DISPLAY is not set or cannot connect to the X server
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> <a href="https://www.gnu.org/software/bash/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://grafana.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg" alt="grafana" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://mariadb.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" alt="mariadb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.nginx.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/> </a> <a href="https://openresty.org/" target="_blank"> <img src="https://openresty.org/images/logo.png" alt="openresty" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://redis.io" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> </p>
@@ -18,13 +16,20 @@ want to use both Windows and Linux at the same time.
 
 What you need for WSL.. Basic stuff
 
-Windows 11
+Windows 11/10
 
-GWSL - https://apps.microsoft.com/detail/gwsl/9NL6KD1H33V3?hl=en-US&gl=US <-- Best tool for Xserver.
+GWSL - https://apps.microsoft.com/detail/9nl6kd1h33v3?hl=en-US&gl=US
+
+OR
+
+X410 - https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
 
 Movie: how to setup GWSL after install: https://www.youtube.com/watch?v=O5qgeTXArxQ
 
 Raft WSL https://www.whitewaterfoundry.com/raft-wsl <-- change fast from ubuntu, debian or any distro you like.
+
+If you have problem with ip https://github.com/vinberg88/opensuse/blob/main/WSL-IP-PROBLEM.txt
+FIX - $DISPLAY is not set or cannot connect to the X server
 
 Have alot of time - This is just for fun! WSL is an excellent tool to learn Linux!
 
