@@ -1,0 +1,179 @@
+RHINO Linux and GNOME - WSL - How to install GNOME via Rhino - X410 - Windows 11 - Linux - 2025
+
+
+|\   __  \|\  \|\  \|\  \|\   ___  \|\   __  \    
+\ \  \|\  \ \  \\\  \ \  \ \  \\ \  \ \  \|\  \   
+ \ \   _  _\ \   __  \ \  \ \  \\ \  \ \  \\\  \  
+  \ \  \\  \\ \  \ \  \ \  \ \  \\ \  \ \  \\\  \ 
+   \ \__\\ _\\ \__\ \__\ \__\ \__\\ \__\ \_______\
+    \|__|\|__|\|__|\|__|\|__|\|__| \|__|\|_______| -  Rhino Linux and GNOME - WSL - Unicorn Desktop!
+
+
+You can find Rhino Linux for WSL Here
+https://github.com/sileshn/RhinoLinuxWSL2
+
+X410 - Xserver for windows 11 - So you have a Console / Desktop TO See GNOME.
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+How to install GNOME via windows 11 and WSL - RHINO LINUX - TEXT
+Coming Zone...
+
+How to install GNOME via windows 11 and WSL - RHINO LINUX - MOVIE
+https://www.youtube.com/watch?v=QiSP4HglLl8
+
+-----------------------------
+
+        #####
+       #######
+       ##O#O##
+       #######
+     ###########
+    #############       Rhino Linux - 2025 - Rolling Release - Pacstall - GNOME
+   ###############      --------------
+   ################     OS: Rhino Linux 2024.2 (server) on Windows x86_64
+  #################     Kernel: 5.15.167.4-microsoft-standard-WSL2
+#####################   Host: Mattias Vinberg - Sweden - RhinoLinux
+#####################   Desktop/OS: GNOME - Windows 11 - Rhino Linux - 2025
+  #################
+
+
+-----------------------------
+
+About Rhino Linux - https://rhinolinux.org - 2025 - YouTube
+
+Rhino Linux is an Ubuntu-based, rolling release distribution, with
+Pacstall & XFCE at its core - Rhino Linux re-invents the Ubuntu
+experience as a rolling-release distribution built on a stable
+desktop environment. Diverging from Ubuntu-based tradition, Rhino
+Linux is not derived from any LTS or interim releases, but
+instead uses Ubuntu's devel branch to provide a rolling experience.
+Pacstall is the AUR for Ubuntu, and assists in providing the most
+up-to-date software, even those unavailable in the standard
+repositories. It is at the very heart of the 
+distribution, providing essential packages such as the Linux 
+kernel, web browsers, our customized Unicorn Desktop, and other
+Rhino Linux utilities.
+
+About GNOME - https://www.gnome.org - 2025 - Sweden
+
+Every part of GNOME has been designed to make it simple and
+easy to use. The Activities Overview is a simple way to access
+all your basic tasks. A press of a button is all it takes
+to view your open windows, launch applications, or check
+if you have new messages. Having everything in one convenient
+place means you don’t have to learn your way around a maze of
+different technologies. GNOME provides a focused working
+environment that helps you get things done. It is packed
+with features that will make you more productive: a powerful
+search feature that helps you access all your work from
+one place; side-by-side windows that make it easy to view
+several documents at the same time; seamless integration
+with online accounts which allows you to access all your
+data in one place; and a messaging system that comfortably
+deals with notifications, letting you quickly respond in
+place or return to them in a convenient time. GNOME 2025
+
+
+Find More About WSL and Linux Here for Microsoft and Windows subsystem for Linux.
+https://github.com/vinberg88/opensuse
+
+-----------------------------
+
+🆁🅷🅸🅽🅾 - NOW LETS START INSTALLATION FOR GNOME AND RHINO LINUX. 
+
+You need to Fix IP for WSL. You can find your ip for WSL by using Powershell as admin and type: ipconfig
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+HERE PUT YOUR IP LIKE THIS: nameserver 172.19.64.1
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+cat /etc/resolv.conf
+
+-----------------------------
+
+RESTART Rhino Linux - RESTART Rhino Linux - RESTART Rhino Linux
+
+----------------------------------------------
+
+Update All: 
+
+sudo apt update && sudo apt upgrade
+
+----------------------------------------------
+
+Install programs:
+
+sudo apt install ibus bash git wget curl pipx dbus* -y
+sudo apt install gdm3* -y
+sudo apt install gdm* -y
+sudo systemctl set-default graphical
+
+----------------------------------------------
+
+Install this small program - HYFETCH - Neofetch is DEAD =]
+
+sudo apt install hyfetch fastfetch
+
+To test type: hyfetch
+
+----------------------------------------------
+
+Paste in Terminal: 
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+
+----------------------------------------------
+
+Install Chrome if you want...
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+----------------------------------
+
+Time to install Gnome - Rhino is same as Ubuntu so this works fine. 
+
+sudo apt install gnome ubuntu-desktop gnome*
+
+if you are asked under install: https://archive.ubuntu.com/ubuntu/
+
+----------------------------------------------
+
+Copy this and paste in terminal: sudo nano ~/.bash_Rhino_desktop
+
+Then add this script to terminal
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+------------------------------------------------------
+
+Please Reboot RHINO - LINUX - Please Reboot RHINO - LINUX
+
+------------------------------------------------------
+
+Warning - Start x410 then Console
+
+------------------------------------------------------
+
+Time to start GNOME desktop and RHINO Linux.
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+Paste in terminal: . ~/.bash_Rhino_desktop
+Paste in terminal: dbus-launch gnome-session
+
+It take some time to start all in beginning... Just Wait!
+
+----------------------------------------------
+
+🆁🅷🅸🅽🅾 - Regards Mattias Vinberg - SwEden - GNOME - Rhino Linux - Linux - WSL - X410 - WINDOWS 11 - 2025
+
+----------------------------------------------
