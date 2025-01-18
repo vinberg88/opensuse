@@ -37,6 +37,7 @@ EndeavourOS and Xfce4 - WSL - How to install XFCE 4 via EndeavourOS and Windows 
 You can find EndeavourOS via this link: https://github.com/sileshn/EndeavourOSWSL2
 
 GWSL is an XServer that lets you easily run graphical Linux apps and desktop on Windows 11
+
 GWSL here: https://apps.microsoft.com/detail/9nl6kd1h33v3?hl=en-US&gl=US
 
 How to install Xfce4 via Endeavour and Microsoft - WSL - TEXT
