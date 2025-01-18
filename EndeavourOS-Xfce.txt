@@ -4,7 +4,7 @@ EndeavourOS and Xfce4 - WSL - How to install XFCE 4 via EndeavourOS and Windows 
                      ./o.
                    ./sssso-
                  `:osssssss+-
-               `:+sssssssssso/.             Endeavour - Xfce 4 - Mattias Vinberg - SWEDEN - 2025
+               `:+sssssssssso/.             EndeavourOS - Xfce 4 - Mattias Vinberg - SWEDEN - 2025
              `-/ossssssssssssso/.
            `-/+sssssssssssssssso+:`         
          `-:/+sssssssssssssssssso+/.        Host: Windows Subsystem for Linux - EndeavourOS (2.4.8)
@@ -61,6 +61,9 @@ MacOS X, on x86, PPC, Sparc, Alpha...
 
 Want to see more WSL and Linux for Windows: https://github.com/vinberg88/opensuse
 
+-------------------------------------------------------------
+
+TIME TO START TO INSTALL XFCE 4 DESKTOP and EndeavourOS
 
 -------------------------------------------------------------
 
