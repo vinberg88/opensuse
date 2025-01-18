@@ -16,7 +16,7 @@ X410 - Xserver for windows 11 - So you have a Console / Desktop TO See GNOME.
 https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
 
 How to install GNOME via windows 11 and WSL - RHINO LINUX - TEXT
-Coming Zone...
+https://github.com/vinberg88/opensuse/blob/main/RhinoLinux-GNOME.txt
 
 How to install GNOME via windows 11 and WSL - RHINO LINUX - MOVIE
 https://www.youtube.com/watch?v=QiSP4HglLl8
