@@ -24,7 +24,7 @@ GWSL here: https://apps.microsoft.com/detail/9nl6kd1h33v3?hl=en-US&gl=US
 GWSL is an XServer that lets you easily run graphical Linux apps and desktop on Windows 11
 
 How to install Xfce4 via Endeavour and Microsoft - WSL - TEXT
-Coming Zone...
+https://github.com/vinberg88/opensuse/blob/main/EndeavourOS-Xfce.txt
 
 How to install Xfce4 via Endeavour and Microsoft - WSL - MOVIE
 https://www.youtube.com/watch?v=-fh2hs7pKK8
