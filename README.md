@@ -32,6 +32,58 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+EndeavourOS and Xfce4 - WSL - How to install XFCE 4 via EndeavourOS and Windows 11 - GWSL - Linux - 2025
+
+You can find EndeavourOS via this link: https://github.com/sileshn/EndeavourOSWSL2
+
+GWSL is an XServer that lets you easily run graphical Linux apps and desktop on Windows 11
+GWSL here: https://apps.microsoft.com/detail/9nl6kd1h33v3?hl=en-US&gl=US
+
+How to install Xfce4 via Endeavour and Microsoft - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/EndeavourOS-Xfce.txt
+
+How to install Xfce4 via Endeavour and Microsoft - WSL - MOVIE
+
+https://www.youtube.com/watch?v=-fh2hs7pKK8
+
+![EndeavourOS-Xfce](https://github.com/user-attachments/assets/1fbe3a91-b00f-4cd1-8fdd-b89317639744)
+
+About EndeavourOS - https://endeavouros.com
+
+When the popular Arch-based distro Antergos ended its run in May 2019,
+it left a friendly and extremely helpful community behind. Within a
+matter of days after the announcement, Bryan Poerwoatmodjo opted for
+the idea to continue the community feeling on a new forum that would
+invite any Arch or Arch-based Linux user into the group. The idea 
+received a lot of enthusiastic response, more than enough for him
+to get the project going. Quickly, Johannes Kamprad, Fernando
+Omiechuk Frozi and Manuel joined him to set up the project and
+when that happened, the plan changed from preserving the former
+community on a new forum to creating a new distro with that vibrant
+community at its core. Endeavour is like god as Arch...
+
+Xfce 4 Desktop Environment - https://www.xfce.org
+
+Xfce is a lightweight desktop environment for UNIX-like operating systems.
+It aims to be fast and low on system resources, while still being 
+visually appealing and user friendly. Xfce embodies the traditional
+UNIX philosophy of modularity and re-usability. It consists of a
+number of components that provide the full functionality one can
+expect of a modern desktop environment. They are packaged separately
+and you can pick among the available packages to create the optimal
+personal working environment. Another priority of Xfce is adherence
+to standards, specifically those defined at freedesktop.org
+Xfce can be installed on several UNIX platforms. It is known to
+compile on Linux, NetBSD, FreeBSD, OpenBSD, Solaris, Cygwin and
+MacOS X, on x86, PPC, Sparc, Alpha...
+
+Want to see more WSL and Linux for Windows: https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - Endeavour - Xfce4 - Xfce - GWSL - WSL - Linux - Windows 11 - SWEDEN - 2025
+
+---------------------------------------------
+
 RHINO Linux and GNOME - WSL - How to install GNOME via Rhino - X410 - Windows 11 - Linux - 2025
 
 You can find Rhino Linux for WSL Here
