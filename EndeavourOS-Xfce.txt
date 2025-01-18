@@ -1,0 +1,183 @@
+EndeavourOS and Xfce4 - WSL - How to install XFCE 4 via EndeavourOS and Windows 11 - GWSL - Linux - 2025
+
+                                            
+                     ./o.
+                   ./sssso-
+                 `:osssssss+-
+               `:+sssssssssso/.             Endeavour - Xfce 4 - Mattias Vinberg - SWEDEN - 2025
+             `-/ossssssssssssso/.
+           `-/+sssssssssssssssso+:`         
+         `-:/+sssssssssssssssssso+/.        Host: Windows Subsystem for Linux - EndeavourOS (2.4.8)
+       `.://osssssssssssssssssssso++-       OS: EndeavourOS x86_64 - Microsoft - Linux
+      .://+ssssssssssssssssssssssso++:      DE: Xfce4 - Windows 11 - GWSL - 2025
+    .:///ossssssssssssssssssssssssso++:     Kernel: Linux 5.15.167.4-microsoft-standard-WSL2
+  `:////ssssssssssssssssssssssssssso+++.   
+`-////+ssssssssssssssssssssssssssso++++- 
+ `..-+oosssssssssssssssssssssssso+++++/`   
+   ./++++++++++++++++++++++++++++++/:.
+  `:::::::::::::::::::::::::------``
+
+
+You can find EndeavourOS via this link: https://github.com/sileshn/EndeavourOSWSL2
+
+GWSL here: https://apps.microsoft.com/detail/9nl6kd1h33v3?hl=en-US&gl=US
+GWSL is an XServer that lets you easily run graphical Linux apps and desktop on Windows 11
+
+How to install Xfce4 via Endeavour and Microsoft - WSL - TEXT
+Coming Zone...
+
+How to install Xfce4 via Endeavour and Microsoft - WSL - MOVIE
+https://www.youtube.com/watch?v=-fh2hs7pKK8
+
+About EndeavourOS - https://endeavouros.com
+
+When the popular Arch-based distro Antergos ended its run in May 2019,
+it left a friendly and extremely helpful community behind. Within a
+matter of days after the announcement, Bryan Poerwoatmodjo opted for
+the idea to continue the community feeling on a new forum that would
+invite any Arch or Arch-based Linux user into the group. The idea 
+received a lot of enthusiastic response, more than enough for him
+to get the project going. Quickly, Johannes Kamprad, Fernando
+Omiechuk Frozi and Manuel joined him to set up the project and
+when that happened, the plan changed from preserving the former
+community on a new forum to creating a new distro with that vibrant
+community at its core. Endeavour is like god as Arch...
+
+
+Xfce 4 Desktop Environment - https://www.xfce.org
+
+Xfce is a lightweight desktop environment for UNIX-like operating systems.
+It aims to be fast and low on system resources, while still being 
+visually appealing and user friendly. Xfce embodies the traditional
+UNIX philosophy of modularity and re-usability. It consists of a
+number of components that provide the full functionality one can
+expect of a modern desktop environment. They are packaged separately
+and you can pick among the available packages to create the optimal
+personal working environment. Another priority of Xfce is adherence
+to standards, specifically those defined at freedesktop.org
+Xfce can be installed on several UNIX platforms. It is known to
+compile on Linux, NetBSD, FreeBSD, OpenBSD, Solaris, Cygwin and
+MacOS X, on x86, PPC, Sparc, Alpha...
+
+Want to see more WSL and Linux for Windows: https://github.com/vinberg88/opensuse
+
+
+-------------------------------------------------------------
+
+Add this terminal: sudo nano /etc/pacman.conf
+
+And change this in bash.
+
+# Misc options
+#UseSyslog
+Color
+ILoveCandy
+#NoProgressBar
+##CheckSpace
+VerbosePkgLists
+ParallelDownloads = 20
+
+-------------------------------------------------------------
+
+Reboot Reboot Reboot Reboot - EndeavourOS - Reboot Reboot Reboot - EndeavourOS
+
+-----------------------------------------------------------
+
+Update EndeavourOS by copy and paste this lines in Terminal.
+
+sudo pacman -Syu
+
+-------------------------------
+
+Type this in terminal to fix ip problem for X server - Go to Powershell as admin and type: ipconfig 
+
+THAT WILL GIVE YOUR NUMBERS FOR WSL.
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.19.64.1  <-- add this and put your ip there
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+cat /etc/resolv.conf
+
+If you see som red text dont worry it works.
+
+-------------------------------
+
+Install this programs for ARCH 
+
+sudo pacman -S bash git npm wget curl dialog go fakeroot dbus ibus
+
+-----------------------------------------------------------
+
+Install YAY helper for easy installation
+
+sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+
+-----------------------------------------------------------
+
+Extra programs to install. You need this programs =]
+
+yay -S google-chrome blanket hyfetch gimp libreoffice gnome-terminal
+
+-----------------------------------------------------------
+
+Install this for ARCH
+
+sudo pacman -S --needed xorg xorg-server networkmanager glxinfo
+
+-----------------------------------------------------------
+
+Install Desktop files for Xfce4 / Xfce
+
+sudo pacman -S xfce4 xfce4-goodies xfce4-whiskermenu-plugin
+
+yay -S menu
+
+-----------------------------------------------------------
+
+Install this - display manager
+
+sudo pacman -S lightdm lightdm-gtk-greeter
+
+sudo systemctl enable lightdm
+
+-------------------------------------------------------------
+
+Reboot Reboot Reboot Reboot - EndeavourOS - Reboot Reboot Reboot - EndeavourOS
+
+-----------------------------------------------------------
+
+INSTALL GWSL AND SETUP - Always START TERMINAL / BASH / CONSOLE from GWSL
+
+-----------------------------------------------------------
+
+Type in terminal: sudo nano ~/.bash_Arch_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+------------------------------------------------------
+
+Reboot - Reboot - Reboot - Reboot - Reboot - Reboot - Endeavour 
+
+------------------------------------------------------
+
+Start GWSL from Terminal for windows 11 and start EndeavourOS - now its Time to start xfce 4
+
+Paste in terminal: . ~/.bash_Arch_desktop
+Paste in terminal: dbus-launch startxfce4
+
+------------------------------------------------------------
+
+Regards Mattias Vinberg - Endeavour - Xfce4 - Xfce - GWSL - WSL - Linux - Windows 11 - SWEDEN - 2025
+
+------------------------------------------------------------
