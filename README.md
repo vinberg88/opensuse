@@ -32,6 +32,68 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+RHINO Linux and GNOME - WSL - How to install GNOME via Rhino - X410 - Windows 11 - Linux - 2025
+
+You can find Rhino Linux for WSL Here
+
+https://github.com/sileshn/RhinoLinuxWSL2
+
+X410 - Xserver for windows 11 - So you have a Console / Desktop TO See GNOME.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+How to install GNOME via windows 11 and WSL - RHINO LINUX - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/RhinoLinux-GNOME.txt
+
+How to install GNOME via windows 11 and WSL - RHINO LINUX - MOVIE
+
+https://www.youtube.com/watch?v=QiSP4HglLl8
+
+![RhinoLinux-GNOME](https://github.com/user-attachments/assets/cb32c9b5-7a17-4dd8-9cd3-e7ad3fb6e85c)
+
+About Rhino Linux - https://rhinolinux.org - 2025 - YouTube
+
+Rhino Linux is an Ubuntu-based, rolling release distribution, with
+Pacstall & XFCE at its core - Rhino Linux re-invents the Ubuntu
+experience as a rolling-release distribution built on a stable
+desktop environment. Diverging from Ubuntu-based tradition, Rhino
+Linux is not derived from any LTS or interim releases, but
+instead uses Ubuntu's devel branch to provide a rolling experience.
+Pacstall is the AUR for Ubuntu, and assists in providing the most
+up-to-date software, even those unavailable in the standard
+repositories. It is at the very heart of the 
+distribution, providing essential packages such as the Linux 
+kernel, web browsers, our customized Unicorn Desktop, and other
+Rhino Linux utilities.
+
+About GNOME - https://www.gnome.org - 2025 - Sweden
+
+Every part of GNOME has been designed to make it simple and
+easy to use. The Activities Overview is a simple way to access
+all your basic tasks. A press of a button is all it takes
+to view your open windows, launch applications, or check
+if you have new messages. Having everything in one convenient
+place means you don’t have to learn your way around a maze of
+different technologies. GNOME provides a focused working
+environment that helps you get things done. It is packed
+with features that will make you more productive: a powerful
+search feature that helps you access all your work from
+one place; side-by-side windows that make it easy to view
+several documents at the same time; seamless integration
+with online accounts which allows you to access all your
+data in one place; and a messaging system that comfortably
+deals with notifications, letting you quickly respond in
+place or return to them in a convenient time. GNOME 2025
+
+Find More About WSL and Linux Here for Microsoft and Windows subsystem for Linux.
+
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - SwEden - GNOME - Rhino Linux - Linux - WSL - X410 - WINDOWS 11 - 2025
+
+---------------------------------------------
+
 RHINO Linux and KDE PLASMA 6 - WSL - How to install KDE 6 via Rhino - X410 - Windows 11 - Linux - 2024
 
 You can find Rhino Linux for WSL Here
