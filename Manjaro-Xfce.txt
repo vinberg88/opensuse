@@ -1,0 +1,204 @@
+Manjaro - Xfce Desktop on Manjaro via WSL - GWSL - Linux and Windows 11 - 2025
+
+How to install Xfce Desktop via Windows 11 and Manjaro - WSL - TEXT
+Comming Zone...
+
+How to install Xfce Desktop via Windows 11 and Manjaro - WSL - MOVIE
+https://www.youtube.com/watch?v=__sKDsrmde4
+
+You can find Manjaro for WSL via this link.
+https://github.com/sileshn/ManjaroWSL2
+
+GWSL - X server for for WSL.
+https://apps.microsoft.com/detail/9nl6kd1h33v3?hl=en-US&gl=US
+
+██████████████████  ████████
+██████████████████  ████████ - OS: Manjaro Linux x86_64
+██████████████████  ████████ - Host: Windows Subsystem for Linux - Manjaro2025 (2.4.8)
+██████████████████  ████████ - Kernel: Linux 5.15.167.4-microsoft-standard-WSL2
+████████         ████████
+████████  ████████  ████████ - Desktop: XFCE 4 - Windows 11 - WSL - Linux - GWSL
+████████  ████████  ████████
+████████  ████████  ████████
+████████  ████████  ████████
+████████  ████████  ████████
+████████  ████████  ████████
+████████  ████████  ████████
+████████  ████████  ████████
+████████  ████████  ████████ - HOST: Manjaro - Mattias Vinberg - Sweden - 2024
+
+
+About Manjaro Linux for WSL -  https://manjaro.org
+
+Manjaro is a versatile open-source Linux operating system designed
+with a strong focus on safeguarding user privacy and offering
+extensive control over hardware. This user-friendly OS is an
+excellent choice for those who seek a fresh computing experience, as
+it can be seamlessly installed on a diverse array of devices.
+With support for both x86-64 and ARM architectures, Manjaro
+stands as an ideal option for any device or computing environment.
+Furthermore, Manjaro provides an array of customization options
+and a rich selection of applications, all while prioritizing
+security and privacy features. To cater to a wide audience.
+
+About Xfce desktop - https://www.xfce.org
+
+Xfce is a lightweight desktop environment for UNIX-like
+operating systems. It aims to be fast and low on system 
+resources, while still being visually appealing
+and user friendly. Xfce embodies the traditional UNIX
+philosophy of modularity and re-usability. 
+It consists of a number of components that provide
+the full functionality one can expect of a modern desktop
+environment. They are packaged separately and you can pick
+among the available packages to create the optimal personal
+working environment.
+
+Want More Stuff About WSL for Microsoft and Linux - Look here.
+https://github.com/vinberg88/opensuse
+
+------------------------------------------------------------
+   _   _   _   _   _   _   _  
+  / \ / \ / \ / \ / \ / \ / \ 
+ ( M | a | n | j | a | r | o )
+  \_/ \_/ \_/ \_/ \_/ \_/ \_/  - 2025 - Sweden - Mattias Vinberg
+
+NOW LETS START TO INSTALL XFCE 4 AND MANJARO ON WINDOWS 11 - WSL
+
+Copy and paste this line in terminal....
+
+sudo nano /etc/pacman.conf and change this lines in file.
+
+# Misc options
+#UseSyslog
+Color
+ParallelDownloads = 20
+ILoveCandy
+#TotalDownload
+#CheckSpace
+VerbosePkgLists
+
+-------------------------------------------------------------
+
+Type this in terminal to fix ip problem for X server - GWSL - Open Microsoft powershell and type: ipconfig 
+That will give you ip adress for WSL.
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.19.64.1  <-- add this and put your ip there
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+cat /etc/resolv.conf
+
+If you see som red text dont worry it works.
+
+-------------------------------------------------------------
+
+Reboot Linux Reboot Linux Reboot Linux Reboot Linux
+
+-------------------------------------------------------------
+
+Update all and install fastest mirrors.
+
+sudo pacman-mirrors --geoip && sudo pacman -Syu
+
+-------------------------------------------------------------
+
+Install google-chrome browser
+
+yay -S google-chrome
+
+-------------------------------------------------------------
+
+Install Hyfetch - Neofetch is DEAD!
+
+yay -S hyfetch fastfetch
+
+Test in Console after install: hyfetch
+
+-------------------------------------------------------------
+
+If you want install Blanket - Listen to sounds..
+
+yay -S blanket
+
+-------------------------------------------------------------
+
+Install Gimp. You need it =]
+
+yay -S gimp
+
+-------------------------------------------------------------
+
+Words for Linux - 2025
+
+yay -S libreoffice
+
+-------------------------------------------------------------
+
+Reboot Linux Reboot Linux Reboot Linux Reboot Linux - MANJARO - 2025
+
+-------------------------------------------------------------
+
+Config and start from GWSL - Shell - After setup please Reboot Linux
+                
+                  "Always Start from GWSL Shell" 
+
+-------------------------------------------------------------
+
+Install this No stress - Install Xorg.
+
+Paste in terminal: sudo pacman -S --needed xorg xorg-server networkmanager
+
+-------------------------------------------------------
+
+Install display manager, and Xfce desktop components.
+
+sudo pacman -S xfce4 xfce4-goodies xfce4-whiskermenu-plugin
+
+yay -S menu
+
+-------------------------------------------------------
+
+Install this - display manager
+
+sudo pacman -S lightdm lightdm-gtk-greeter
+
+sudo systemctl enable lightdm
+
+-------------------------------------------------------
+
+Type this in terminal and put your user there - sudo loginctl enable-linger user
+
+-------------------------------------------------------
+
+Type in terminal: sudo nano ~/.bash_manjaro_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-----------------------------------------------------------
+
+Reboot - and start from GWSL shell.. Just saying. Reboot Manjaro
+
+-----------------------------------------------------------
+
+Time to start Xfce Desktop. Copy and paste this in Terminal.
+
+Copy and paste in bash: . ~/.bash_manjaro_desktop
+
+Copy and paste in bash: dbus-launch xfce4-session
+
+------------------------------------------------------------
+
+Regards Mattias Vinberg - Sweden - Manjaro - Xfce 4 - WSL - GWSL - Windows 11 - Linux - 2024
+
+------------------------------------------------------------
