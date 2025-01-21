@@ -1,7 +1,7 @@
 Manjaro - Xfce Desktop on Manjaro via WSL - GWSL - Linux and Windows 11 - 2025
 
 How to install Xfce Desktop via Windows 11 and Manjaro - WSL - TEXT
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/Manjaro-Xfce.txt
 
 How to install Xfce Desktop via Windows 11 and Manjaro - WSL - MOVIE
 https://www.youtube.com/watch?v=__sKDsrmde4
