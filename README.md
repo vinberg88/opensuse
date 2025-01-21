@@ -32,6 +32,60 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Manjaro - Xfce Desktop on Manjaro via WSL - GWSL - Linux and Windows 11 - 2025
+
+How to install Xfce Desktop via Windows 11 and Manjaro - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Manjaro-Xfce.txt
+
+How to install Xfce Desktop via Windows 11 and Manjaro - WSL - MOVIE
+
+https://www.youtube.com/watch?v=__sKDsrmde4
+
+You can find Manjaro for WSL via this link.
+
+https://github.com/sileshn/ManjaroWSL2
+
+GWSL - X server for for WSL.
+
+https://apps.microsoft.com/detail/9nl6kd1h33v3?hl=en-US&gl=US
+
+![Manjaro-Xfce](https://github.com/user-attachments/assets/b0ce4c7c-b0c6-400d-bd00-8d704ccf4602)
+
+About Manjaro Linux for WSL -  https://manjaro.org
+
+Manjaro is a versatile open-source Linux operating system designed
+with a strong focus on safeguarding user privacy and offering
+extensive control over hardware. This user-friendly OS is an
+excellent choice for those who seek a fresh computing experience, as
+it can be seamlessly installed on a diverse array of devices.
+With support for both x86-64 and ARM architectures, Manjaro
+stands as an ideal option for any device or computing environment.
+Furthermore, Manjaro provides an array of customization options
+and a rich selection of applications, all while prioritizing
+security and privacy features. To cater to a wide audience.
+
+About Xfce desktop - https://www.xfce.org
+
+Xfce is a lightweight desktop environment for UNIX-like
+operating systems. It aims to be fast and low on system 
+resources, while still being visually appealing
+and user friendly. Xfce embodies the traditional UNIX
+philosophy of modularity and re-usability. 
+It consists of a number of components that provide
+the full functionality one can expect of a modern desktop
+environment. They are packaged separately and you can pick
+among the available packages to create the optimal personal
+working environment.
+
+Want More Stuff About WSL for Microsoft and Linux - Look here.
+
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - Sweden - Manjaro - Xfce 4 - WSL - GWSL - Windows 11 - Linux - 2024
+
+---------------------------------------------
+
 EndeavourOS and Xfce4 - WSL - How to install XFCE 4 via EndeavourOS and Windows 11 - GWSL - Linux - 2025
 
 You can find EndeavourOS via this link: https://github.com/sileshn/EndeavourOSWSL2
