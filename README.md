@@ -32,6 +32,57 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+RockyLinux 9 - Have to install Xfce desktop - WSL - GWSL - Windows 11 - Linux - 2025
+
+How to install Xfce via Rocky Linux - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/RockyLinux-Xfce.txt
+
+How to install Xfce via Rocky Linux - Movie
+
+https://www.youtube.com/watch?v=pUgGLga0YSk
+
+OS: Rocky Linux 9.5 x86_64 - Windows 11 
+Host: Windows Subsystem for Linux - RLU_9 (2.3.26)
+Kernel: Linux 5.15.167.4-microsoft-standard-WSL2
+Host 2: Mattias Vinberg - Sweden - Rocky Linux 9.5 - 2025
+
+![RockyLinux-Xfce](https://github.com/user-attachments/assets/f251ff26-4374-430e-9413-6b63777ce304)
+
+You Can Find Rockylinux 9.5 Here or in Microsoft Store. Cost Money...
+
+https://apps.microsoft.com/detail/9nq0dqkjg91n?hl=sv-se&gl=SE
+
+Or for free here --> https://swissmakers.ch/en/wsl-with-rocky-linux-9/
+
+GWSL - Xserver you can find here or in Microsof store.
+
+https://apps.microsoft.com/detail/9nl6kd1h33v3?hl=en-US&gl=US
+
+About RockyLinux 9 - https://rockylinux.org
+
+Rocky Linux is an open-source enterprise operating system
+designed to be 100% bug-for-bug compatible with Red
+Hat Enterprise Linux®. It is under intensive development
+by the community. Rocky Linux rebuilds sources directly
+from RHEL®, so you can bet your best dollar that you'll
+have a super stable experience, no matter the use-case.
+
+About Xfce Desktop - https://www.xfce.org
+
+Xfce is a lightweight desktop environment for UNIX-like
+operating systems. It aims to be fast and low on system
+resources, while still being visually appealing and
+user friendly. 
+
+Find More Stuff here About WSL - Windows and Linux
+
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - Linux - GWSL - WSL - Windows 11 - Rocky Linux 9 - Microsoft - Sweden - 2025
+
+---------------------------------------------
+
 Manjaro - Xfce Desktop on Manjaro via WSL - GWSL - Linux and Windows 11 - 2025
 
 How to install Xfce Desktop via Windows 11 and Manjaro - WSL - TEXT
