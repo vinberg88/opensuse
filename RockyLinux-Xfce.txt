@@ -60,7 +60,6 @@ resources, while still being visually appealing and
 user friendly. 
 
 Find More Stuff here About WSL - Windows and Linux
-
 https://github.com/vinberg88/opensuse
 
 ------------------------------------------------------
