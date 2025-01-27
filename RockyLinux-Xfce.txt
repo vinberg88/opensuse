@@ -1,0 +1,218 @@
+RockyLinux 9 - Have to install Xfce desktop - WSL - GWSL - Windows 11 - Linux - 2025
+
+How to install Xfce via Rocky Linux - TEXT
+Comming Zone..
+
+How to install Xfce via Rocky Linux - Movie
+https://www.youtube.com/watch?v=pUgGLga0YSk
+
+OS: Rocky Linux 9.5 x86_64 - Windows 11 
+Host: Windows Subsystem for Linux - RLU_9 (2.3.26)
+Kernel: Linux 5.15.167.4-microsoft-standard-WSL2
+Host 2: Mattias Vinberg - Sweden - Rocky Linux 9.5 - 2025
+
+
+          __wgliliiligw_,                      __wgliliiligw_,                      __wgliliiligw_,
+       _williiiiiiliilililw,                _williiiiiiliilililw,                _williiiiiiliilililw,
+     _%iiiiiilililiiiiiiiiiii_            _%iiiiiilililiiiiiiiiiii_            _%iiiiiilililiiiiiiiiiii_
+   .Qliiiililiiiiiiililililiilm.        .Qliiiililiiiiiiililililiilm.        .Qliiiililiiiiiiililililiilm.
+  _iiiiiliiiiiililiiiiiiiiiiliil,      _iiiiiliiiiiililiiiiiiiiiiliil,      _iiiiiliiiiiililiiiiiiiiiiliil,
+ .lililiiilililiiiilililililiiiii,    .lililiiilililiiiilililililiiiii,    .lililiiilililiiiilililililiiiii,
+_liiiiiiliiiiiiiliiiiiF{iiiiiilili,  _liiiiiiliiiiiiiliiiiiF{iiiiiilili,  _liiiiiiliiiiiiiliiiiiF{iiiiiilili,
+jliililiiilililiiili@`  ~ililiiiiiL  jliililiiilililiiili@`  ~ililiiiiiL  jliililiiilililiiili@`  ~ililiiiiiL
+iiiliiiiliiiiiiili>`      ~liililii  iiiliiiiliiiiiiili>`      ~liililii  iiiliiiiliiiiiiili>`      ~liililii
+liliiiliiilililii`         -9liiiil  liliiiliiilililii`         -9liiiil  liliiiliiilililii`         -9liiiil
+iiiiiliiliiiiii~             "4lili  iiiiiliiliiiiii~             "4lili  iiiiiliiliiiiii~             "4lili
+4ililiiiiilil~|      -w,       )4lf  4ililiiiiilil~|      -w,       )4lf  4ililiiiiilil~|      -w,       )4lf
+-liiiiililiF'       _liig,       )'  -liiiiililiF'       _liig,       )'  -liiiiililiF'       _liig,       )'
+ )iiiliii@`       _QIililig,          )iiiliii@`       _QIililig,          )iiiliii@`       _QIililig,
+  )iiii>`       .Qliliiiililw          )iiii>`       .Qliliiiililw          )iiii>`       .Qliliiiililw
+   )<>~       .mliiiiiliiiiiil,         )<>~       .mliiiiiliiiiiil,         )<>~       .mliiiiiliiiiiil,
+            _gllilililiililii~                   _gllilililiililii~                   _gllilililiililii~
+           giliiiiiiiiiiiiT`                    giliiiiiiiiiiiiT`                    giliiiiiiiiiiiiT`
+          -^~$ililili@~~'                      -^~$ililili@~~'                      -^~$ililili@~~'
+
+
+
+
+You Can Find Rockylinux Here or in Microsoft Store. Cost Money...
+
+https://apps.microsoft.com/detail/9nq0dqkjg91n?hl=sv-se&gl=SE
+
+Or for free here --> https://swissmakers.ch/en/wsl-with-rocky-linux-9/
+
+GWSL - Xserver you can find here or in Microsof store.
+
+https://apps.microsoft.com/detail/9nl6kd1h33v3?hl=en-US&gl=US
+
+About RockyLinux 9 - https://rockylinux.org
+
+Rocky Linux is an open-source enterprise operating system
+designed to be 100% bug-for-bug compatible with Red
+Hat Enterprise Linux®. It is under intensive development
+by the community. Rocky Linux rebuilds sources directly
+from RHEL®, so you can bet your best dollar that you'll
+have a super stable experience, no matter the use-case.
+
+About Xfce Desktop - https://www.xfce.org
+
+Xfce is a lightweight desktop environment for UNIX-like
+operating systems. It aims to be fast and low on system
+resources, while still being visually appealing and
+user friendly. 
+
+Find More Stuff here About WSL - Windows and Linux
+
+https://github.com/vinberg88/opensuse
+
+------------------------------------------------------
+
+Install Nano
+
+sudo dnf install nano
+
+------------------------------------------------------
+
+Install fastmirrors or repos for Rockylinux 9
+
+Run this first
+
+sudo dnf check-update
+sudo dnf install dnf-utils
+
+Then do this..
+
+sudo nano /etc/dnf/dnf.conf
+
+Add the following line: max_parallel_downloads=10 and fastestmirror=True
+
+Like That..
+
+max_parallel_downloads=10
+fastestmirror=True
+
+------------------------------------------------------
+
+Paste in terminal: sudo nano /etc/wsl.conf
+
+and add this to terminal
+
+[boot]
+systemd=true
+
+------------------------------------------------------
+
+
+Type this in terminal to fix ip problem for X server - GWSL - Open Microsoft powershell as admin and type: ipconfig 
+That will give you ip adress for GWSL and WSL
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.29.224.1  <-- add this and put your ip there
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+cat /etc/resolv.conf
+
+If you see some red text dont worry it works.
+
+-----------------------------------
+
+Reboot Reboot Reboot Reboot Reboot Reboot Rocky Linux 9
+
+-----------------------------------
+
+Paste all in terminal... Install extra Repos for Rockylinux 9
+
+sudo dnf -y install epel-release
+sudo /usr/bin/crb enable
+sudo dnf install -y https://repo.almalinux.org/almalinux/almalinux-release-synergy-latest-$(rpm -E %rhel).noarch.rpm
+
+------------------------------------------------------
+
+Update all
+
+sudo dnf upgrade --refresh
+
+------------------------------------------------------
+
+Install some programs for Rocky Linux
+
+sudo dnf install git wget curl nano bash pipx dracut net-tools dbus-x11 --skip-broken --nobest
+
+------------------------------------------------------
+
+Install Hyfetch
+
+pipx install hyfetch
+
+To test just type hyfetch in terminal: hyfetch
+
+------------------------------------------------------
+
+Time to install Xfce on Rockylinux 9...
+
+sudo dnf groupinstall "Xfce" "base-x"
+
+------------------------------------------------------
+
+Take this to - Extra Programs..
+
+sudo dnf install xfce*
+
+------------------------------------------------------
+
+Install Google-Chrome - paste all under this paragraph:
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm
+sudo yum update google-chrome-stable
+
+--------------------------------------------------------
+
+Reboot Reboot Reboot Reboot - Rocky Linux
+
+-------------------------------------------------------------
+
+Login with GWSL and Config all. Then start Linux-shell from GWSL....
+
+-------------------------------------------------------------
+
+Paste all in terminal: 
+
+sudo systemctl set-default graphical.target
+sudo systemctl set-default multi-user.target
+
+-------------------------------------------------------------
+
+Type this in terminal and put your user-name there: sudo loginctl enable-linger username
+
+-------------------------------------------------------------
+
+In terminal type: sudo nano ~/.bash_RockyLinux_desktop
+
+Paste this small script in terminal and save and quit nano.
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-------------------------------------------
+
+Reboot RockyLinux 9 and start from GWSL Shell.
+
+-------------------------------------------
+
+19. Paste in terminal: . ~/.bash_RockyLinux_desktop
+    
+Type in terminal: startxfce4
+
+-------------------------------------------
+
+Regards Mattias Vinberg - Linux - GWSL - WSL - Windows 11 - Rocky Linux 9 - Microsoft - Sweden - 2025
+
+-------------------------------------------
