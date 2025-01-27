@@ -1,7 +1,7 @@
 RockyLinux 9 - Have to install Xfce desktop - WSL - GWSL - Windows 11 - Linux - 2025
 
 How to install Xfce via Rocky Linux - TEXT
-Comming Zone..
+https://github.com/vinberg88/opensuse/blob/main/RockyLinux-Xfce.txt
 
 How to install Xfce via Rocky Linux - Movie
 https://www.youtube.com/watch?v=pUgGLga0YSk
@@ -36,13 +36,11 @@ iiiiiliiliiiiii~             "4lili  iiiiiliiliiiiii~             "4lili  iiiiil
 
 
 You Can Find Rockylinux Here or in Microsoft Store. Cost Money...
-
 https://apps.microsoft.com/detail/9nq0dqkjg91n?hl=sv-se&gl=SE
 
 Or for free here --> https://swissmakers.ch/en/wsl-with-rocky-linux-9/
 
 GWSL - Xserver you can find here or in Microsof store.
-
 https://apps.microsoft.com/detail/9nl6kd1h33v3?hl=en-US&gl=US
 
 About RockyLinux 9 - https://rockylinux.org
