@@ -1,7 +1,7 @@
 Fedora 41 - How to install LXQT desktop via Fedora 41 - WSL - GWSL - Windows 11 - 2024 - YouTube
 
 How to install LXQt with Fedora 41 via Windows - WSL - TEXT
-Commming Zone..
+https://github.com/vinberg88/opensuse/blob/main/Fedora41-lxqt.txt
 
 How to install LXQt via Fedora 41 and Windows - WSL - VIDEO
 https://www.youtube.com/watch?v=u-lCiMZWqeU
