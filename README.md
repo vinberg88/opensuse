@@ -32,6 +32,58 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Fedora 41 - How to install LXQT desktop via Fedora 41 - WSL - GWSL - Windows 11 - 2024 - YouTube
+
+How to install LXQt with Fedora 41 via Windows - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Fedora41-lxqt.txt
+
+How to install LXQt via Fedora 41 and Windows - WSL - VIDEO
+
+https://www.youtube.com/watch?v=u-lCiMZWqeU
+
+Fedora 41 WSL you will find in Mcrosoft Store or via this link. It says Fedora 40 but it is Fedora 41.
+
+https://apps.microsoft.com/detail/9npcp8drchsn?hl=en-US&gl=US
+
+X server for WSL - GWSL - https://apps.microsoft.com/detail/9nl6kd1h33v3?hl=en-US&gl=US
+
+Raft WSL - https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+![fedora41-lxqt](https://github.com/user-attachments/assets/30feaedc-a3b5-4661-928e-c9b5f48a4c3f)
+
+About LXQt - https://lxqt-project.org
+
+LXQt provides a lightweight, well-integrated LXQt desktop environment.
+In addition to LXQt itself it provides a small, well selected Collection
+of applications like the Falkon browser, which combines Chromium's
+rendering engine with a nice Qt experience. Other applications include
+the Trojita mail client, the qBittorrent client, the Yarock music player
+and a set of some more commonly used applications. As all applications
+use the same Qt5 toolkit and the Breeze theme known from KDE, the
+desktop provides a unified and well-integrated style and theming.
+In addition breeze-gtk is provided to allow the user to integrate
+GTK applications too. It will not get in your way. It will not
+hang or slow down your system. It is focused on being a Classic
+desktop with a modern look and feel. LXQt is available for
+all major Linux and BSD distributions so you may just try
+it out on your system or in a VM.
+
+About FEDORA 41 - https://fedoraproject.org
+
+Fedora Linux is a Linux distribution developed by the Fedora Project.
+It was originally developed in 2003 as a continuation of the Red Hat 
+Linux project. It contains software distributed under various free
+and open-source licenses and aims to be on the leading edge of open-source
+technologies. It is now the upstream source for CentOS Stream and Red Hat
+Enterprise Linux.
+
+Find more for WSL and Windows and Linux: https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - WSL - FEDORA 41 - LXQT - LINUX - WINDOWS 11 - GWSL - SWEDEN - 2024
+
+---------------------------------------------
+
 RockyLinux 9 - Have to install Xfce desktop - WSL - GWSL - Windows 11 - Linux - 2025
 
 How to install Xfce via Rocky Linux - TEXT
