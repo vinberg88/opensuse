@@ -1,0 +1,195 @@
+Fedora 41 - How to install LXQT desktop via Fedora 41 - WSL - GWSL - Windows 11 - 2024 - YouTube
+
+How to install LXQt with Fedora 41 via Windows - WSL - TEXT
+Commming Zone..
+
+How to install LXQt via Fedora 41 and Windows - WSL - VIDEO
+https://www.youtube.com/watch?v=u-lCiMZWqeU
+
+Fedora 41 WSL you will find in Mcrosoft Store or via this link. It says Fedora 40 but it is Fedora 41.
+https://apps.microsoft.com/detail/9npcp8drchsn?hl=en-US&gl=US
+
+X server for WSL - GWSL - https://apps.microsoft.com/detail/9nl6kd1h33v3?hl=en-US&gl=US
+
+Raft WSL - https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+             .',;::::;,'.
+         .';:cccccccccccc:;,. 
+      .;cccccccccccccccccccccc;.
+    .:cccccccccccccccccccccccccc:.
+  .;ccccccccccccc;.:dddl:.;ccccccc;.
+ .:ccccccccccccc;OWMKOOXMWd;ccccccc:.
+.:ccccccccccccc;KMMc;cc;xMMc;ccccccc:.
+,cccccccccccccc;MMM.;cc;;WW:;cccccccc,
+:cccccccccccccc;MMM.;cccccccccccccccc:   OS: Fedora Linux 41 (Container Image) x86_64
+:ccccccc;oxOOOo;MMM0OOk.;cccccccccccc:   System: Windows Subsystem for Linux - Fedora (2.3.25)
+cccccc;0MMKxdd:;MMMkddc.;cccccccccccc;   Kernel: Linux 5.15.153.1-microsoft-standard-WSL2
+ccccc;XM0';cccc;MMM.;cccccccccccccccc'   Desktop: Windows 11 - 24H2 - LXQT - FEDORA 41
+ccccc;MMo;ccccc;MMW.;ccccccccccccccc;    Host: Mattias Vinberg - Sweden - 2025 - Linux - Microsoft
+ccccc;0MNc.ccc.xMMd;ccccccccccccccc;      
+cccccc;dNMWXXXWM0:;cccccccccccccc:,       
+cccccccc;.:odl:.;cccccccccccccc:,.        
+:cccccccccccccccccccccccccccc:'.          
+.:cccccccccccccccccccccc:;,..             
+  '::cccccccccccccc::;,.                 
+
+
+About LXQt - https://lxqt-project.org
+
+LXQt provides a lightweight, well-integrated LXQt desktop environment.
+In addition to LXQt itself it provides a small, well selected Collection
+of applications like the Falkon browser, which combines Chromium's
+rendering engine with a nice Qt experience. Other applications include
+the Trojita mail client, the qBittorrent client, the Yarock music player
+and a set of some more commonly used applications. As all applications
+use the same Qt5 toolkit and the Breeze theme known from KDE, the
+desktop provides a unified and well-integrated style and theming.
+In addition breeze-gtk is provided to allow the user to integrate
+GTK applications too. It will not get in your way. It will not
+hang or slow down your system. It is focused on being a Classic
+desktop with a modern look and feel. LXQt is available for
+all major Linux and BSD distributions so you may just try
+it out on your system or in a VM.
+
+
+About FEDORA 41 - https://fedoraproject.org
+
+Fedora Linux is a Linux distribution developed by the Fedora Project.
+It was originally developed in 2003 as a continuation of the Red Hat 
+Linux project. It contains software distributed under various free
+and open-source licenses and aims to be on the leading edge of open-source
+technologies. It is now the upstream source for CentOS Stream and Red Hat
+Enterprise Linux.
+
+Find more for WSL and Windows and Linux: https://github.com/vinberg88/opensuse
+
+--------------------------------------------------
+
+LETS START INSTALLATION.....
+
+Copy and Paste in terminal to fix system.
+
+sudo nano /etc/wsl.conf
+
+[boot]
+systemd=true
+
+---------------------
+
+Add extra Repos to Fedora 41.
+
+sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+
+-------------------------------------------------------------
+
+Type this in terminal to fix ip problem for X server - GWSL - Open Microsoft powershell and type: ipconfig 
+That will give you ip adress for WSL.
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.29.224.1  <-- add this and put your ip there
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+cat /etc/resolv.conf
+
+If you see som red text dont worry it works.
+
+-------------------------------------------------------------
+
+Reboot fedora 41 - Reboot fedora 41 - Reboot fedora 41 - Reboot fedora 41
+
+-------------------------------------------------------------
+
+Update all so it works.
+
+sudo dnf5 upgrade --refresh
+
+-------------------------------------------------------------
+
+Install some programs for Fedora 41
+
+sudo dnf5 install git wget curl ffmpeg gimp libreoffice bash pipx dracut dmraid net-tools dbus-x11 --allowerasing
+
+-------------------------------------------------------------
+
+Install Hyfetch fedora 41 - like Neofetch but more gay =)
+
+pipx install hyfetch
+pipx ensurepath
+
+Put this in terminal to Test: hyfetch
+
+-----------------------------------
+
+Install Google-Chrome - paste all under this paragraph in terminal.
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm
+sudo yum update google-chrome-stable
+
+-----------------------------------
+
+Install blanket for Fedora 41
+
+sudo dnf5 install https://www.knulla.org/scripts/blanket79.rpm
+
+-----------------------------------
+
+Time to install LXDE Desktop for Fedora 41
+
+sudo dnf5 group install "lxqt-desktop"
+
+sudo dnf5 install lxqt*
+
+---------------------
+
+Copy and Paste in Terminal
+
+sudo systemctl set-default graphical.target
+sudo systemctl set-default multi-user.target
+
+---------------------
+
+Reboot Linux Reboot Linux Reboot Linux Reboot Linux 
+
+---------------------
+
+Start GWSL and do some config to GWSL. Start later from Shell in GWSL.
+
+---------------------
+
+Reboot Linux an extra time and start CONSOLE FROM GWSL - Always start from there.
+
+---------------------
+
+Type in terminal: sudo nano ~/.bash_fedora_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------
+
+Reboot Linux - Fedora 41 and start from GWSL SHELL / BASH / Terminal / Console
+
+----------------------------------------------
+
+We are done - Paste in Shell - Terminal - Console - Bash and lxqt will start =]
+
+First: . ~/.bash_fedora_desktop
+
+Then: startlxqt
+
+---------------------------------------------------
+
+Regards Mattias Vinberg - WSL - FEDORA - LXQT - LINUX - WINDOWS 11 - GWSL - SWEDEN - 2024
+
+---------------------------------------------------
