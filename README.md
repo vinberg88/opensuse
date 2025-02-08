@@ -32,6 +32,83 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Ubuntu 25.04 - Install Gnome desktop via WSL - Ubuntu Plucky Puffin - Windows 11 - Linux - X410 - 2025
+
+How to install Gnome via Ubuntu 25.04 Plucky Puffin - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu25.04-GNOME.txt
+
+How to install Gnome via Ubuntu 25.04 Plucky Puffin - WSL - MOVIE
+
+https://www.youtube.com/watch?v=mEdXfacdyBo
+
+You can download Ubuntu 25.04 here for WSL and Windows 11
+
+https://drive.proton.me/urls/WSWVPDH0N8#3dR52HlpXDPM
+
+X410 - Xserver for windows 11 - So you have a Console / Desktop TO See GNOME.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Handel WSL image easy and Linux for WSL via This TOOL - Raft WSL
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+![Ubuntu25 04-GNOME](https://github.com/user-attachments/assets/1fcb8863-33d2-46fc-8bba-b105b17023e8)
+
+About Ubuntu 25.04 - https://ubuntu.com - https://ubuntu.com/desktop/wsl - 2025
+
+Ubuntu is an ancient African word meaning ‘humanity to others’.
+It is often described as reminding us that ‘I am what I am
+because of who we all are’. We bring the spirit of Ubuntu
+to the world of computers and software. The Ubuntu 
+distribution represents the best of what the world’s software
+community has shared with the world. Canonical is the
+publisher of Ubuntu. Members of the Canonical team lead
+aspects of Ubuntu such as the kernel, default desktop,
+foundations, security, OpenStack, and Kubernetes. 
+The first official Ubuntu release — Version 4.10, codenamed
+the ‘Warty Warthog’ — was launched in October 2004, and
+sparked dramatic global interest as thousands of free
+software enthusiasts and experts joined the Ubuntu community.
+Ubuntu today has many flavours and dozens of specialised 
+derivatives. There are also special editions for servers, OpenStack
+clouds, and connected devices. All editions share common
+infrastructure and software, making Ubuntu a unique single
+platform that scales from consumer electronics to the desktop
+and up into the cloud for enterprise computing.
+
+About GNOME Desktop - https://www.gnome.org - 2025 - Ubuntu 25.04
+
+Every part of GNOME has been designed to make it simple and
+easy to use. The Activities Overview is a simple way to access
+all your basic tasks. A press of a button is all it takes
+to view your open windows, launch applications, or check
+if you have new messages. Having everything in one convenient
+place means you don’t have to learn your way around a maze of
+different technologies. GNOME provides a focused working
+environment that helps you get things done. It is packed
+with features that will make you more productive: a powerful
+search feature that helps you access all your work from
+one place; side-by-side windows that make it easy to view
+several documents at the same time; seamless integration
+with online accounts which allows you to access all your
+data in one place; and a messaging system that comfortably
+deals with notifications, letting you quickly respond in
+place or return to them in a convenient time. GNOME 2025
+
+Find More About WSL and Linux Here for Microsoft and Windows subsystem for Linux.
+
+https://github.com/vinberg88/opensuse
+
+Download full version of Ubuntu 25.04 - This is desktop verion - Not WSL.
+
+https://cdimage.ubuntu.com/daily-live/current/
+
+Regards Mattias Vinberg - SwEden - GNOME - Ubuntu 25.04 Plucky Puffin - Linux - WSL - X410 - WINDOWS 11 - 2025
+
+---------------------------------------------
+
 Fedora 41 - How to install LXQT desktop via Fedora 41 - WSL - GWSL - Windows 11 - 2024 - YouTube
 
 How to install LXQt with Fedora 41 via Windows - WSL - TEXT
