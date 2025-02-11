@@ -32,6 +32,97 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Ubuntu 25.04 - Install KDE 6 via WSL - Ubuntu Plucky Puffin - Windows 11 - Linux - X410 - 2025
+
+How to install KDE 6 via Ubuntu 25.04 Plucky Puffin - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu25.04-KDE.txt
+
+How to install KDE 6 via Ubuntu 25.04 Plucky Puffin - WSL - MOVIE
+
+https://www.youtube.com/watch?v=YkCWfI7VHjI
+
+You can download Ubuntu Plucky Puffin 25.04 here for WSL and Windows 11
+
+https://drive.proton.me/urls/WSWVPDH0N8#3dR52HlpXDPM
+
+Or download from docker if you can: https://hub.docker.com/_/ubuntu/tags
+
+docker pull ubuntu:plucky
+
+![Ubuntu25 04-KDE](https://github.com/user-attachments/assets/a5dd1622-0992-4729-a925-0fa3d3509a98)
+
+X410
+
+X410 - Xserver for windows 11 - So you have a Console / Desktop TO See GNOME.
+Do you want to seamlessly use Linux GUI apps side by side with Windows
+apps? Simply start X410 and adjust a few settings; your Linux GUI
+apps then suddenly appear in Windows and you can use them like Windows 
+apps! It doesn't matter where your Linux GUI apps are actually
+running; it can be a full virtual machine, Docker container, WSL
+(Windows Subsystem for Linux) or whatever. As long as your Linux GUI
+apps support X-Window client protocols, you can use them in Windows.
+You can even securely use your Linux GUI apps running in a far remote
+server via any SSH client that supports X11 forwarding over the Internet.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL
+
+Handel WSL image easy and Linux for WSL via This TOOL - Raft WSL
+Raft is a Windows Subsystem for Linux (WSL) distribution manager in native C#/XAML for
+Windows, applying Fluent design principles. Raft makes managing WSL distros on your
+Windows device easy.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+About Ubuntu Plucky Puffin 25.04 - https://ubuntu.com - https://ubuntu.com/desktop/wsl
+
+Ubuntu is an ancient African word meaning ‘humanity to others’.
+It is often described as reminding us that ‘I am what I am
+because of who we all are’. We bring the spirit of Ubuntu
+to the world of computers and software. The Ubuntu 
+distribution represents the best of what the world’s software
+community has shared with the world. Canonical is the
+publisher of Ubuntu. Members of the Canonical team lead
+aspects of Ubuntu such as the kernel, default desktop,
+foundations, security, OpenStack, and Kubernetes. 
+The first official Ubuntu release — Version 4.10, codenamed
+the ‘Warty Warthog’ — was launched in October 2004, and
+sparked dramatic global interest as thousands of free
+software enthusiasts and experts joined the Ubuntu community.
+Ubuntu today has many flavours and dozens of specialised 
+derivatives. There are also special editions for servers, OpenStack
+clouds, and connected devices. All editions share common
+infrastructure and software, making Ubuntu a unique single
+platform that scales from consumer electronics to the desktop
+and up into the cloud for enterprise computing.
+
+About KDE 6 Plasma - https://kde.org
+
+KDE Plasma is a modern, feature-rich desktop environment
+for Linux-based operating systems. Known for its sleek
+design, customizable interface, and extensive set of
+applications, it is also open source, devoid
+of ads, and makes protecting your privacy and
+personal data a priority. The KDE Plasma Launcher lets
+you quickly and easily launch applications, but it
+can do much more -- convenient tasks like bookmarking
+applications, searching for documents as you type, or
+navigating to common places help you get straight
+to the point. With a history of recently started programs
+and opened files, you can return to where you left off.
+It even remembers previously entered search terms so
+you don't have to. Your Plasma desktop is very flexible and
+can be configured just how you like it using the System Settings
+app. Easily manage hardware, software, and workspaces all in
+one place: Keyboard, Printer, Languages, Desktop Themes, Fonts, Networks.
+Kde 6 Plasma and its applications to a built-in dark theme.
+
+Regards Mattias Vinberg - SwEden - KDE 6 - Ubuntu 25.04 Plucky Puffin - Linux - WSL - X410 - WINDOWS - 2025
+
+---------------------------------------------
+
 Ubuntu 25.04 - Install Gnome desktop via WSL - Ubuntu Plucky Puffin - Windows 11 - Linux - X410 - 2025
 
 How to install Gnome via Ubuntu 25.04 Plucky Puffin - WSL - TEXT
