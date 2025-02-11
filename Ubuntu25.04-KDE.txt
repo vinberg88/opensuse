@@ -1,0 +1,344 @@
+Ubuntu 25.04 - Install KDE 6 via WSL - Ubuntu Plucky Puffin - Windows 11 - Linux - X410 - 2025
+
+How to install KDE via Ubuntu 25.04 Plucky Puffin - WSL - TEXT
+CommingZone..
+
+How to install KDE via Ubuntu 25.04 Plucky Puffin - WSL - MOVIE
+https://www.youtube.com/watch?v=YkCWfI7VHjI
+
+--------------------
+
+Ubuntu Plucky Puffin 25.04
+
+You can download Ubuntu Plucky Puffin 25.04 here for WSL and Windows 11
+https://drive.proton.me/urls/WSWVPDH0N8#3dR52HlpXDPM
+
+Or download from docker if you can: https://hub.docker.com/_/ubuntu/tags
+docker pull ubuntu:plucky
+
+--------------------
+
+X410
+
+X410 - Xserver for windows 11 - So you have a Console / Desktop TO See GNOME.
+Do you want to seamlessly use Linux GUI apps side by side with Windows
+apps? Simply start X410 and adjust a few settings; your Linux GUI
+apps then suddenly appear in Windows and you can use them like Windows 
+apps! It doesn't matter where your Linux GUI apps are actually
+running; it can be a full virtual machine, Docker container, WSL
+(Windows Subsystem for Linux) or whatever. As long as your Linux GUI
+apps support X-Window client protocols, you can use them in Windows.
+You can even securely use your Linux GUI apps running in a far remote
+server via any SSH client that supports X11 forwarding over the Internet.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+--------------------
+
+Raft WSL
+
+Handel WSL image easy and Linux for WSL via This TOOL - Raft WSL
+Raft is a Windows Subsystem for Linux (WSL) distribution manager in native C#/XAML for
+Windows, applying Fluent design principles. Raft makes managing WSL distros on your
+Windows device easy.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+--------------------
+
+                             ....              
+              .',:clooo:  .:looooo:. 
+           .;looooooooc  .oooooooooo'
+        .;looooool:,''.  :ooooooooooc
+       ;looool;.         'oooooooooo,
+      ;clool'             .cooooooc.  ,,
+         ...                ......  .:oo,
+  .;clol:,.                        .loooo'
+ :ooooooooo,                        'ooool     Desktop: KDE plasma Latest - Windows 11 Latest
+'ooooooooooo.                        loooo.    Ubuntu 25.04 "Plucky Puffin" which will release on 17 April 2025.
+'ooooooooool                         coooo.    OS: Ubuntu Plucky Puffin 25.04 (development branch) x86_64
+ ,loooooooc.                        .loooo.    WSL: Windows Subsystem for Linux - Ubuntu 25.04 (2.4.10)
+   .,;;;'.                          ;ooooc     Kernel: Linux 5.15.167.4-microsoft-standard-WSL2 - Canonical
+       ...                         ,ooool.     X server for WSL X410 - Host Mattias Vinberg - Sweden
+    .cooooc.              ..',,'.  .cooo.
+      ;ooooo:.           ;oooooooc.  :l.
+       .coooooc,..      coooooooooo. 
+         .:ooooooolc:. .ooooooooooo'
+           .':loooooo;  ,oooooooooc 
+               ..';::c'  .;loooo:'
+
+--------------------
+
+About Ubuntu Plucky Puffin 25.04 - https://ubuntu.com - https://ubuntu.com/desktop/wsl
+
+Ubuntu is an ancient African word meaning ‘humanity to others’.
+It is often described as reminding us that ‘I am what I am
+because of who we all are’. We bring the spirit of Ubuntu
+to the world of computers and software. The Ubuntu 
+distribution represents the best of what the world’s software
+community has shared with the world. Canonical is the
+publisher of Ubuntu. Members of the Canonical team lead
+aspects of Ubuntu such as the kernel, default desktop,
+foundations, security, OpenStack, and Kubernetes. 
+The first official Ubuntu release — Version 4.10, codenamed
+the ‘Warty Warthog’ — was launched in October 2004, and
+sparked dramatic global interest as thousands of free
+software enthusiasts and experts joined the Ubuntu community.
+Ubuntu today has many flavours and dozens of specialised 
+derivatives. There are also special editions for servers, OpenStack
+clouds, and connected devices. All editions share common
+infrastructure and software, making Ubuntu a unique single
+platform that scales from consumer electronics to the desktop
+and up into the cloud for enterprise computing.
+
+--------------------
+
+About KDE 6 Plasma - https://kde.org
+
+KDE Plasma is a modern, feature-rich desktop environment
+for Linux-based operating systems. Known for its sleek
+design, customizable interface, and extensive set of
+applications, it is also open source, devoid
+of ads, and makes protecting your privacy and
+personal data a priority. The KDE Plasma Launcher lets
+you quickly and easily launch applications, but it
+can do much more -- convenient tasks like bookmarking
+applications, searching for documents as you type, or
+navigating to common places help you get straight
+to the point. With a history of recently started programs
+and opened files, you can return to where you left off.
+It even remembers previously entered search terms so
+you don't have to. Your Plasma desktop is very flexible and
+can be configured just how you like it using the System Settings
+app. Easily manage hardware, software, and workspaces all in
+one place: Keyboard, Printer, Languages, Desktop Themes, Fonts, Networks.
+Kde 6 Plasma and its applications to a built-in dark theme.
+
+--------------------
+
+Find More About WSL and Linux and Description: https://github.com/vinberg88/opensuse
+
+------------------------------
+
+Lets begine installation of Ubuntu 25.04 via WSL. Login as root user and copy and paste in Consol / terminal / bash.
+
+apt update
+apt upgrade -y
+apt install sudo nano xorg* readline* systemd dialog* daemonize dbus-user-session fontconfig lsb-release x11* -y
+apt install tint2* gtk* vala* libnotify* -y
+apt install libsquashfuse0 squashfuse snapd* apparmor-profiles-extra apparmor-utils fuse3 zenity -y
+apt install flatpak gnome-software gnome-software-plugin-flatpak software-properties-common -y
+apt install gnome-software-plugin-flatpak -y
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+apt install plank* -y
+apt install synaptic gdebi tasksel build* -y
+
+Replace adolf whit you username.
+
+adduser adolf
+
+usermod -aG sudo adolf
+
+Open this file in terminal: nano /etc/wsl.conf and add this 2 lines.
+
+[boot]
+systemd=true
+
+[user]
+default=adolf
+
+Replace adolf whit you username.
+
+--------------------------
+
+Reboot Ubuntu 25.04 - Reboot Ubuntu 25.04 - Reboot Ubuntu 25.04
+
+--------------------------
+
+Login normal user via Ubuntu.
+
+Install some Basic Programs for Ubuntu 25.04 and KDE Desktop.
+
+sudo apt install ibus bash git npm wget curl pipx pip dracut dbus* -y
+sudo apt install sddm* -y
+sudo apt install xorg* -y
+sudo systemctl set-default graphical
+
+----------------------------------------------
+
+Install this small program for Hyfetch.
+
+sudo apt install hyfetch fastfetch -y
+
+To test type: hyfetch
+
+Like Noefetch but more gay =]
+
+----------------------------------------------
+
+Install Google Chrome Browser
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+----------------------------------
+
+Install blanket - Sounds - Improve focus and increase your productivity by listening to different ambient sounds
+
+wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb -y
+
+----------------------------------
+
+Install Visual studio Code - Microsoft
+
+sudo apt-get install wget gpg
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" |sudo tee /etc/apt/sources.list.d/vscode.list > /dev/null
+rm -f packages.microsoft.gpg
+
+sudo apt install apt-transport-https apt -y
+sudo apt update
+sudo apt install code -y
+
+----------------------------------
+
+Install Gimp 3 and Libre Office for Ubuntu 25.04
+
+sudo apt install gimp libreoffice -y
+
+----------------------------------
+
+Time to install KDE Plasma 6.3 Desktop for Ubuntu 25.04
+
+sudo apt install kde-standard -y
+
+-----------------------------------------------------
+
+Type this in terminal to fix ip problem for X server - X410 - Open Microsoft Powershell and type as admin: ipconfig 
+That will give you ip adress for WSL - Last line is WSL IP in Terminal/Powershell.
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.29.224.1  <-- add this and put your ip there
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+----------------------------------------------
+
+Reboot Ubuntu 25.04 - Reboot Ubuntu 25.04 - Reboot Ubuntu 25.04
+
+----------------------------------------------
+
+Test so ip is changed
+
+sudo cat /etc/resolv.conf
+
+If you see nameserver and ip all works.
+
+----------------------------------------------
+
+Test snapd install - You maybe need to paste this more then ones in Console.
+
+Install Core is a must for test. Rest is up to you - https://snapcraft.io/store
+
+sudo snap install core
+
+sudo snap install oxygen-cursors
+
+sudo snap install snap-store
+
+----------------------------------------------
+
+Test Flatpaks installation - https://flathub.org/apps/org.xfce.mousepad
+
+sudo flatpak install flathub org.xfce.mousepad
+
+----------------------------------------------
+
+Install https://store.kde.org - KDE store so you can install themes and other stuff Easy.
+
+sudo apt install libqt5svg5 qtdeclarative5* -y
+sudo apt install libqt5svg5 qml-module-qtquick-controls -y
+
+wget https://www.swehub.com/scripts/ocs-url_3.1.0-0ubuntu1_amd64.deb
+sudo apt install ./ocs-url_3.1.0-0ubuntu1_amd64.deb -y
+
+To test: https://store.kde.org/p/2055521 and press Files then you press Install via homepage after you start KDE desktop - done.
+
+----------------------------------------------
+
+Paste in terminal: 
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+--------------------------------------------
+
+Type this in terminal and put your user there: sudo loginctl enable-linger user
+
+--------------------------------------------
+
+Copy this and paste in terminal: sudo nano ~/.bash_ubuntu_desktop
+
+Then add this script to terminal
+
+export XDG_CURRENT_DESKTOP=ubuntu:GNOME
+export XDG_SESSION_DESKTOP=ubuntu
+export DESKTOP_SESSION=ubuntu
+export GNOME_SHELL_SESSION_MODE=ubuntu
+
+export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+export XDG_MENU_PREFIX=gnome-
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+------------------------------------------------------
+
+Reboot… Reboot… Reboot… Reboot… Ubuntu 25.04 Plucky Puffin
+
+------------------------------------------------------
+
+Now we can start KDE 6 for Ubuntu 25.04 Plucky Puffin
+
+FIRST START X410 XSERVER THEN YOU START TERMINAL / CONSOLE / BSAH FOR Ubuntu
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Paste in terminal: . ~/.bash_ubuntu_desktop
+
+Type in terminal and start plasma: dbus-launch startplasma-x11
+
+------------------------------------------------------
+
+⣿⣿⣿⣿⣿⣿⣿⣿⠿⠛⠋⠉⠁⠀⠀⠀⠀⠈⠉⠙⠛⠿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⠿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠿⣿⣿⣿⣿⣿
+⣿⣿⣿⡟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣾⣿⣦⠀⠀⠀⠈⢻⣿⣿⣿
+⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⢠⣶⣶⣾⣷⣶⣆⠸⣿⣿⡟⠀⠀⠀⠀⠀⠹⣿⣿
+⣿⠃⠀⠀⠀⠀⠀⠀⣠⣾⣷⡈⠻⠿⠟⠻⠿⢿⣷⣤⣤⣄⠀⠀⠀⠀⠀⠀⠘⣿
+⡏⠀⠀⠀⠀⠀⠀⣴⣿⣿⠟⠁⠀⠀⠀⠀⠀⠀⠈⠻⣿⣿⣦⠀⠀⠀⠀⠀⠀⢹
+⠁⠀⠀⢀⣤⣤⡘⢿⣿⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣿⣿⡇⠀⠀⠀⠀⠀⠈
+⠀⠀⠀⣿⣿⣿⡇⢸⣿⡁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢈⣉⣉⡁⠀⠀⠀⠀⠀⠀
+⡀⠀⠀⠈⠛⠛⢡⣾⣿⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣿⣿⡇⠀⠀⠀⠀⠀⢀
+⣇⠀⠀⠀⠀⠀⠀⠻⣿⣿⣦⡀⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿⠟⠀⠀⠀⠀⠀⠀⣸
+⣿⡄⠀⠀⠀⠀⠀⠀⠙⢿⡿⢁⣴⣶⣦⣴⣶⣾⡿⠛⠛⠋⠀⠀⠀⠀⠀⠀⢠⣿
+⣿⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠘⠿⠿⢿⡿⠿⠏⢰⣿⣿⣧⠀⠀⠀⠀⠀⣰⣿⣿
+⣿⣿⣿⣧⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢿⣿⠟⠀⠀⠀⢀⣼⣿⣿⣿
+⣿⣿⣿⣿⣿⣶⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣶⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣶⣤⣄⣀⡀⠀⠀⠀⠀⢀⣀⣠⣤⣶⣿⣿⣿⣿⣿⣿⣿⣿
+
+Regards Mattias Vinberg - SwEden - KDE 6 - Ubuntu 25.04 Plucky Puffin - Linux - WSL - X410 - WINDOWS - 2025
+
+----------------------------------------------
