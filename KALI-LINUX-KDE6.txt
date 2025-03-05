@@ -3,7 +3,8 @@ KALI LINUX AND KDE 6 - HOW TO INSTALL KDE PLASMA VIA WINDOWS 11 and LINUX - WSL 
 --------------------
 
 How to install KDE on KALI LINUX - WSL - TEXT
-Comming Zone...
+
+https://github.com/vinberg88/opensuse/blob/main/KALI-LINUX-KDE6.txt
 
 How to install KDE on KALI LINUX - WSL - MOVIE
 
