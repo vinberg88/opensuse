@@ -32,6 +32,47 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+KALI LINUX AND KDE 6 - HOW TO INSTALL KDE PLASMA VIA WINDOWS 11 and LINUX - WSL - X410 - 2025
+
+How to install KDE on KALI LINUX - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/KALI-LINUX-KDE6.txt
+
+How to install KDE on KALI LINUX - WSL - MOVIE
+
+https://www.youtube.com/watch?v=7NdpqI_taR8
+
+![KALI-LINUX-KDE6](https://github.com/user-attachments/assets/6641f122-3450-47f9-8a6e-7cd0a23277d6)
+
+About KALI LINUX - https://www.kali.org                  
+
+Kali Linux is an open-source, Debian-based Linux distribution
+geared towards various information security tasks, such as
+Penetration Testing, Security Research, Computer Forensics 
+and Reverse Engineering. A version of Kali is always close to
+you, no matter where you need it. Mobile devices, Containers,
+ARM, Cloud providers, Windows Subsystem for Linux, Pre-built
+Virtual Machine, Installer Images, and others are all available.
+
+About KDE 6 - The next generation desktop - https://kde.org
+
+KDE is an international team co-operating on development and
+distribution of Free, Open ource Software for desktop and 
+portable computing. Our community has developed a wide variety
+of applications for communication, work, education and entertainment.
+We have a strong focus on finding innovative solutions to
+old and new problems, creating a vibrant, open atmosphere for
+experimentation. KDE is The next generation desktop for Linux.
+Use KDE software to surf the web, keep in touch with
+colleagues, friends and family, manage your files, enjoy music and
+videos; and get creative and productive at work. The KDE community
+develops and maintains more than 200 applications which run on any
+Linux desktop, and often other platforms too.
+
+Regrads Mattias Vinberg - KALI LINUX - KDE PLASMA 6 - LINUX - MICROSOFT - WSL - X410 - SWEDEN - 2025
+
+---------------------------------------------
+
 Ubuntu 25.04 - Install KDE 6 via WSL - Ubuntu Plucky Puffin - Windows 11 - Linux - X410 - 2025
 
 How to install KDE 6 via Ubuntu 25.04 Plucky Puffin - WSL - TEXT
