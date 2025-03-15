@@ -32,6 +32,60 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Oracle Linux 9.5 - How to install Gnome Desktop - GWSL - Oracle 9.5 via Windows 11 - WSL - 2025 - YouTube
+
+How to install Gnome Desktop via Oracle 9.5 - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Oracle9.5-Gnome.txt
+
+How to install Gnome Desktop via Oracle 9.5 - WSL - MOVIE
+
+https://www.youtube.com/watch?v=-lC-QAwynS8
+
+You will find Oracle Linux 9.5 here via link or in Microsoft store
+
+https://apps.microsoft.com/detail/9pmc1fjr3jf3?hl=en-us&gl=US
+
+GWSL is an XServer that lets you easily run graphical Linux Apps and Desktops - GUI - on Windows.
+Simple XServer with minimal setup required. Dashboard that integrates with Windows to control WSL
+distros and other functionality. Based on the rock solid VCXSRV. Built In Sound Support.
+You can find GWSL here via link or in Microsoft store - Oracle Linux 9.5 - WSL - 2025
+
+https://apps.microsoft.com/detail/9nl6kd1h33v3?hl=en-US&gl=US
+
+![Oracle9 5-Gnome](https://github.com/user-attachments/assets/d91a9f10-aac8-4b91-a9e1-9581b9db410a)
+
+About Oracle Linux 9.5 - https://www.oracle.com
+
+Read More Here https://docs.oracle.com/en/operating-systems/oracle-linux/9/
+
+Oracle Linux is compiled from Red Hat Enterprise Linux. 
+Oracle Corporation is an integrated technology company based
+in Austin, Texas. Oracle offers a collection of cloud technologies, applications,
+databases, storage and servers to empower modern business. 
+Oracle was founded by Larry Ellison in 1977. The workforce is becoming
+increasingly mobile. Flexibility is critical for companies to meet
+shifting market demands. For more than four decades, businesses of all
+sizes have trusted Oracle to provide modern, comprehensive, and scalable
+technology solutions that enable technical agility and sharpen competitive edge.
+
+About Gnome Desktop - https://www.gnome.org
+
+GNOME provides a focused working environment
+that helps you get things done. It is packed with features that will
+make you more productive: a powerful search feature that helps you
+access all your work from one place; side-by-side windows that make it
+easy to view several documents at the same time; seamless integration
+with online accounts which allows you to access all your data in one place; and
+a messaging system that comfortably deals with notifications, letting
+you quickly respond in place or return to them in a convenient time.
+
+Find more stuff here about WSL and Other desktops: https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - Oracle Linux 9.5 - Gnome - WSL - GWSL - Microsoft - Linux - Sweden - 2025
+
+---------------------------------------------
+
 KALI LINUX AND KDE 6 - HOW TO INSTALL KDE PLASMA VIA WINDOWS 11 and LINUX - WSL - X410 - 2025
 
 How to install KDE on KALI LINUX - WSL - TEXT
