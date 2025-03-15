@@ -1,7 +1,7 @@
 Oracle Linux 9.5 - How to install Gnome Desktop - GWSL - Oracle 9.5 via Windows 11 - WSL - 2025 - YouTube
 
 How to install Gnome Desktop via Oracle 9.5 - WSL - TEXT
-Comming Zone…
+https://github.com/vinberg88/opensuse/blob/main/Oracle9.5-Gnome.txt
 
 How to install Gnome Desktop via Oracle 9.5 - WSL - MOVIE
 https://www.youtube.com/watch?v=-lC-QAwynS8
@@ -242,7 +242,6 @@ Type in terminal: gnome-session
 
 ⣠⡶⠶⠶⢦⡀⢰⡶⠶⢶⡀⠀⣠⣶⡄⠀⣠⠶⠶⠶⠂⢰⡆⠀⠀⢠⠶⠶⠶⠂
 ⢿⣄⣀⣀⣼⠇⢸⡗⢶⣞⠀⣰⠏⠬⢿⡄⢿⣄⣀⣀⠀⢸⣇⣀⡀⢻⣏⣉⣉⡉
-⠀⠈⠉⠉⠀⠀⠈⠁⠀⠉⠀⠉⠀⠀⠀⠉⠀⠈⠉⠁⠀⠈⠉⠉⠀⠀⠈⠉⠉
 
 Regards Mattias Vinberg - Oracle Linux 9.5 - Gnome Desktop - WSL - GWSL - Microsoft - Linux - Sweden - 2025
 
