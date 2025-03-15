@@ -1,0 +1,249 @@
+Oracle Linux 9.5 - How to install Gnome Desktop - GWSL - Oracle 9.5 via Windows 11 - WSL - 2025 - YouTube
+
+How to install Gnome Desktop via Oracle 9.5 - WSL - TEXT
+Comming Zone…
+
+How to install Gnome Desktop via Oracle 9.5 - WSL - MOVIE
+https://www.youtube.com/watch?v=-lC-QAwynS8
+
+You will find Oracle Linux 9.5 here via link or in Microsoft store
+
+https://apps.microsoft.com/detail/9pmc1fjr3jf3?hl=en-us&gl=US
+
+GWSL is an XServer that lets you easily run graphical Linux Apps and Desktops - GUI - on Windows.
+Simple XServer with minimal setup required. Dashboard that integrates with Windows to control WSL
+distros and other functionality. Based on the rock solid VCXSRV. Built In Sound Support.
+You can find GWSL here via link or in Microsoft store - Oracle Linux 9.5 - WSL - 2025
+
+https://apps.microsoft.com/detail/9nl6kd1h33v3?hl=en-US&gl=US
+
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣾⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣠⣤⡜⢣⣤⣄⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⣾⣿⡆⢀⣤⡾⠟⠋⢉⣁⡀⢀⣈⡉⠙⠻⢷⣤⡀⢰⣿⣷⠀⠀⠀⠀
+⠀⠀⠀⠀⠈⢉⣏⠙⠁⣠⣶⣿⣿⣿⡇⢸⣿⣿⣿⣶⣄⠈⠋⣹⡉⠁⠀⠀⠀⠀
+⠀⠀⠀⠀⣠⡿⠁⣠⣄⠙⢿⣿⣿⣿⡇⢸⣿⣿⣿⡿⠋⣠⣄⠈⢿⣄⠀⠀⠀⠀
+⠀⠀⠀⢠⡿⠁⣼⣿⣿⣷⣄⠙⠛⢉⣀⣀⡉⠛⠋⣠⣾⣿⣿⣧⠈⢿⡄⠀⠀⠀ OS: Oracle Linux 9.5 x86_64 - Microsoft - WSL - Windows 11 / PRO
+⠀⠀⠀⣾⠇⢰⣿⣿⣿⣿⡟⢀⣾⡿⠿⠿⢿⣷⡀⢻⣿⣿⣿⣿⡆⠸⣷⠀⠀⠀ Windows Subsystem for Linux: OracleLinux_9_5 (2.4.12)
+⢾⣿⠶⣉⠀⢈⣉⣉⣉⣉⠀⢸⣿⡇⠀⠀⢸⣿⡇⠀⣉⣉⣉⣉⡁⠀⣉⠶⣿⡷ Kernel: Linux 5.15.167.4-microsoft-standard-WSL2
+⠀⠀⠀⢿⡆⠸⣿⣿⣿⣿⣧⠈⢿⣷⣶⣶⣾⡿⠁⣼⣿⣿⣿⣿⠇⢰⡿⠀⠀⠀ Host: Mattias Vinberg - Sweden - Oracle Linux 9.5 Inc - Linux
+⠀⠀⠀⠘⣷⡀⢻⣿⣿⡿⠋⣠⣤⣈⠉⠉⣁⣤⣄⠙⢿⣿⣿⡟⢀⣾⠃⠀⠀⠀ X server GWSL - GUI - Gnome Desktop - Oracle Linux 9.5 - 2025
+⠀⠀⠀⠀⠙⣷⡀⠙⠋⣠⣾⣿⣿⣿⡇⢸⣿⣿⣿⣷⣄⠙⠋⢀⣾⠋⠀⠀⠀⠀
+⠀⠀⠀⠀⢀⣈⣏⣠⡀⠙⠿⣿⣿⣿⡇⢸⣿⣿⣿⠿⠋⢀⣄⣹⣁⡀⠀⠀⠀⠀
+⠀⠀⠀⠀⢿⣿⠇⠈⠛⢷⣦⣄⣈⡉⠁⠈⢉⣁⣠⣴⡾⠛⠁⠸⣿⡿⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠙⠛⢣⡜⠛⠋⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+
+About Oracle Linux 9.5 - https://www.oracle.com
+
+Read More Here https://docs.oracle.com/en/operating-systems/oracle-linux/9/
+
+Oracle Linux is compiled from Red Hat Enterprise Linux. 
+Oracle Corporation is an integrated technology company based
+in Austin, Texas. Oracle offers a collection of cloud technologies, applications,
+databases, storage and servers to empower modern business. 
+Oracle was founded by Larry Ellison in 1977. The workforce is becoming
+increasingly mobile. Flexibility is critical for companies to meet
+shifting market demands. For more than four decades, businesses of all
+sizes have trusted Oracle to provide modern, comprehensive, and scalable
+technology solutions that enable technical agility and sharpen competitive edge.
+
+About Gnome Desktop - https://www.gnome.org
+
+GNOME provides a focused working environment
+that helps you get things done. It is packed with features that will
+make you more productive: a powerful search feature that helps you
+access all your work from one place; side-by-side windows that make it
+easy to view several documents at the same time; seamless integration
+with online accounts which allows you to access all your data in one place; and
+a messaging system that comfortably deals with notifications, letting
+you quickly respond in place or return to them in a convenient time.
+
+Find more stuff here about WSL and Other desktops: https://github.com/vinberg88/opensuse
+
+------------------------------------------------------
+
+First thing install nano: sudo dnf install nano
+
+------------------------------------------------------
+
+Paste in terminal: sudo nano /etc/wsl.conf
+
+[boot]
+systemd=true
+
+------------------------------------------------------
+
+Reboot Reboot Reboot Linux Reboot Reboot Reboot Oracle Linux 9.5
+
+------------------------------------------------------
+
+Update alla so you are up to date.
+
+sudo dnf update
+
+------------------------------------------------------
+
+Paste this in terminal andf install Repos - Mirrors - Oracle Linux 9.5
+
+sudo dnf install \
+    https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm \
+    https://dl.fedoraproject.org/pub/epel/epel-next-release-latest-9.noarch.rpm
+
+------------------------------------------------------
+
+Next type this in Console for Oracle Linux 9.5
+
+sudo /usr/bin/crb enable
+
+------------------------------------------------------
+
+Paste in terminal: sudo dnf upgrade --refresh
+
+------------------------------------------------------
+
+Install some programs
+
+sudo dnf install dbus* git wget curl bash dracut net-tools dbus-x11 pipx
+
+------------------------------------------------------
+
+Install Hyfetch like Neofecth for Oracel 9.5
+
+pipx install hyfetch
+
+To test type in terminal: hyfetch
+
+------------------------------------------------------
+
+Time to install Gnome Desktop
+
+sudo yum groupinstall "Server with GUI"
+
+sudo yum install gnome*
+
+------------------------------------------------------
+
+Install Google-Chrome - Paste all. Works god whit Gnome Desktop.
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm
+sudo yum update google-chrome-stable
+
+------------------------------------------------------
+
+Blanket - Listen to ambient sounds - Improve focus and increase your productivity by listening to different ambient sounds
+
+Copy and paste this line so you can install Blanket via Snapd
+
+sudo dnf install -y snapd
+
+Copy and paste this lines 2-3 times in terminal.
+
+sudo systemctl enable --now snapd.socket
+sudo systemctl enable snapd.socket --now
+sudo systemctl enable snapd
+sudo ln -s /var/lib/snapd/snap /snap
+
+Take a Reboot befora installation of Core and Blanket.
+
+sudo snap install core
+
+sudo snap install blanket
+
+Type in terminal after start of Gnome Desktop to start: blanket
+
+------------------------------------------------------
+
+Install CODE Visual studio Code - 2025 - Microsoft Windows 11 - CODE
+
+wget https://www.knulla.org/scripts/code-1.95.3-1731513157.el8.x86_64.rpm
+sudo dnf install ./code-1.95.3-1731513157.el8.x86_64.rpm -y
+
+-----------------------------------------------------
+
+Type this in terminal to fix ip problem for X server - GWSL - Open Microsoft Powershell and type as admin: ipconfig 
+That will give you ip adress for WSL - Last line is WSL IP.
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.28.32.1  <-- add this and put your ip there
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+If you see som RED TEXT dont worry it works.
+
+-------------------------------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot Oracle Linux 9.5 and Gnome
+
+------------------------------------------------------
+
+Login with GWSL and Config all. Then start Linux-shell from GWSL
+
+------------------------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot Linux 9.5 and Gnome
+
+------------------------------------------------------
+
+Start GWSL Shell - Terminal - Bash - Console - Always from GWSL...
+
+------------------------------------------------------
+
+Paste ALL in terminal 
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+------------------------------------------------------
+
+Type this in terminal and put your user-name there: sudo loginctl enable-linger user
+
+------------------------------------------------------
+
+Install this so you have some Tools for Oracle 9.5
+
+sudo dnf install gnome-extensions*
+sudo dnf install gnome-tweaks
+sudo dnf install gimp
+sudo dnf install libreoffice
+
+------------------------------------------------------
+
+In terminal type: sudo nano ~/.bash_linux_desktop
+
+and Paste this small script in terminal and save and quit.
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-------------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot Reboot Reboot - Oracle Linux 9.5
+
+-------------------------------------------
+
+Time to start Gnome desktop for Oracle Linux 9.5 - START FROM GWSL SHELL...
+
+Paste in terminal: . ~/.bash_linux_desktop
+
+Type in terminal: gnome-session
+
+-------------------------------------------
+
+⣠⡶⠶⠶⢦⡀⢰⡶⠶⢶⡀⠀⣠⣶⡄⠀⣠⠶⠶⠶⠂⢰⡆⠀⠀⢠⠶⠶⠶⠂
+⢿⣄⣀⣀⣼⠇⢸⡗⢶⣞⠀⣰⠏⠬⢿⡄⢿⣄⣀⣀⠀⢸⣇⣀⡀⢻⣏⣉⣉⡉
+⠀⠈⠉⠉⠀⠀⠈⠁⠀⠉⠀⠉⠀⠀⠀⠉⠀⠈⠉⠁⠀⠈⠉⠉⠀⠀⠈⠉⠉
+
+Regards Mattias Vinberg - Oracle Linux 9.5 - Gnome Desktop - WSL - GWSL - Microsoft - Linux - Sweden - 2025
+
+-------------------------------------------
