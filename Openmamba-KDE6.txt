@@ -1,0 +1,305 @@
+Openmamba and KDE 6 - Install KDE 6 via Openmamba - WSL - Windows 11 - GUI - Linux - X410 - 2025 - YouTube 
+
+How to install KDE 6 via Openmamba - WSL - WINDOWS - LINUX - TEXT
+Comming Zone.
+
+How to install KDE 6 via Openmamba - WSL - WINDOWS - LINUX - MOVIE
+https://www.youtube.com/watch?v=v1juUM9p4OI
+
+-------------------
+
+Here you will find WSL version of OpenMamba here. Download and install.
+
+https://drive.proton.me/urls/3RGJF76H48#kEL3UdI5Fq1j
+
+-------------------
+
+What i USE for Tools - Windows 11 Microsoft.
+
+X410 - X Server for Windows 11 and it works well. Find it in Micorsoft store.
+ 
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem for 
+Linux (WSL) distributions, enabling installation, snapshots,
+version control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+-------------------
+
+                 `````                      
+           .-/+ooooooooo+/:-`               
+        ./ooooooooooooooooooo+:.            
+      -+oooooooooooooooooooooooo+-          
+    .+ooooooooo+/:---::/+ooooooooo+.        
+   :oooooooo/-`          `-/oos´oooo.s´     
+  :ooooooo/`                `sNdsooosNds    
+ -ooooooo-                   :dmyooo:dmy    MEDIA: Mattias Vinberg - Sweden - OpenMamba - 2025 - DEV
+ +oooooo:                      :oooooo-     
+.ooooooo                        .://:`      OS: Openmamba GNU/Linux 2024.6 for x86_64 (rolling)
+:oooooo+                        ./+o+:`     Host: Windows Subsystem for Linux - Openmamba (2.5.1)
+-ooooooo`                      `oooooo+     Kernel: Linux 6.6.75.1-microsoft-standard-WSL2
+`ooooooo:                      /oooooo+     Shell: bash 5.2.37
+ -ooooooo:                    :ooooooo.     CPU: AMD Ryzen 7 5800H (16) @ 3.19 GHz - RAM 32 Gig
+  :ooooooo+.                .+ooooooo:      GPU: NVIDIA GeForce RTX Laptop GPU 8.86 GiB
+   :oooooooo+-`          `-+oooooooo:       Desktop for WSL: KDE 6 PLASMA - Windows 11 - X410
+    .+ooooooooo+/::::://oooooooooo+.        
+      -+oooooooooooooooooooooooo+-          
+        .:ooooooooooooooooooo+:.            
+           `-:/ooooooooo+/:.`               
+                 ``````                     
+
+-------------------
+
+About OpenMamba - https://openmamba.org/en/
+
+openmamba is an open source Linux based operating system
+available with two modern and always up-to-date desktop Environments.
+
+Other main features
+
+It is not a derivative neither depends on other existing distributions.
+uses the RPM packaging format to distribute software Components.
+uses DNF and PackageKit as updates managers.
+supports the installation of packages from Flatpak repositories.
+implements a rolling mechanism to deploy continuous updates to the latest software releases.
+it is available for x86 (64 bits with legacy support for 32 bits) and aarch64 arm64) architectures.
+
+-------------------
+
+About KDE plasma 6 - https://kde.org - The next generation desktop for Linux 2025
+
+Use Plasma to surf the web; keep in touch with colleagues, friends
+and family; manage your files, enjoy music and videos; and get
+creative and productive at work. Do it all in a beautiful environment
+that adapts to your needs, and with the safety, privacy-protection and
+peace of mind that the best Free Open Source Software has to offer.
+Plasma is a Desktop =) KDE’s next mega release is here!
+KDE Plasma is a modern, feature-rich desktop environment for
+Linux-based operating systems. Known for its sleek design, customizable 
+interface, and extensive set of applications, it is also open 
+source, devoid of ads, and makes protecting your privacy and
+personal data a priority.
+
+-------------------
+
+Here you have more stuff about WSL and Windows: https://github.com/vinberg88/opensuse
+
+---------------------------------------------
+
+Lets Begin installation of OpenMamba via WSL. Login as root user and copy and paste in Consol / terminal / bash.
+
+---------------------------------------------
+
+Do this as root user...
+
+dnf install nano sudo systemd
+
+---------------------------------------------
+
+Do this as root user...
+
+Set password for root and add user.
+
+Paste one by one in Console and change <username> to your name.
+
+passwd
+useradd -m -g users -G wheel -s /bin/bash <username>
+echo "%sudo ALL=(ALL) ALL" >/etc/sudoers.d/Wheel
+passwd <username>
+usermod -aG wheel <username>
+
+---------------------------------------------
+
+Do this as root user…
+
+Open this file via Terminal and add: nano /etc/wsl.conf
+
+[user]
+default=adolf  <-- change to your user.
+
+[boot]
+systemd=true
+
+---------------------------------------------
+
+Do this as root user…
+
+Open this file via this line in terminal
+
+EDITOR=nano visudo
+
+and add your username under root like this.
+
+root ALL=(ALL) ALL
+adolf ALL=(ALL) ALL
+
+---------------------------------------------
+
+Reboot OpenMamba - Reboot OpenMamba - Reboot OpenMamba - Reboot OpenMamba 
+
+-----------------------------------
+
+Install Fastmirrors for OpenMamba
+
+Type this in terminal: sudo nano /etc/dnf/dnf.conf
+
+Add the following line: max_parallel_downloads=10 and fastestmirror=True
+
+Like That..
+
+max_parallel_downloads=10
+fastestmirror=True
+
+-------------------------------------------------------------
+
+Login as normal user and update all!
+
+sudo dnf update -y
+
+---------------------------------------------
+
+Next install some programs for OpenMamBa and KDE 6.
+
+sudo dnf install yum git wget curl nano bash pip sudo dracut net-tools x11* dbus* sddm* kwin* -y
+
+---------------------------------------------
+
+Install gimp and Libreoffice
+
+sudo yum install gimp -y
+
+---------------------------------------------
+
+Install Libreoffice via Flatpak.
+
+sudo dnf install flatpak -y
+
+sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+TAKE AN REBOOT AND PASTE THIS LINE TO INSTALL LIBREOFFICE
+
+sudo flatpak install flathub org.libreoffice.LibreOffice
+
+---------------------------------------------
+
+Visual Studio Code From Microsoft =]
+
+wget https://www.knulla.org/scripts/code-1.95.3-1731513157.el8.x86_64.rpm
+sudo dnf install ./code-1.95.3-1731513157.el8.x86_64.rpm -y
+
+---------------------------------------------
+
+Time to install KDE 6 Plasma for OpenMamba Linux.
+
+sudo dnf install desktop-base-kde -y
+sudo dnf install kde* -y
+sudo yum install gnome-terminal -y
+
+---------------------------------------------
+
+Fastfetch is a must.
+
+wget https://github.com/fastfetch-cli/fastfetch/releases/download/2.38.0/fastfetch-linux-amd64.rpm
+sudo dnf install ./fastfetch-linux-amd64.rpm -y
+
+To test type this in Console: fastfetch
+
+----------------------------------------------
+
+Install Chrome Browser - Always works =]
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm -y
+sudo yum update google-chrome-stable
+
+-------------------------------------------------------------
+
+Paste this in Bash / terminal / Console / Shell for OpenMamba and KDE 6
+
+sudo systemctl enable sddm
+sudo systemctl set-default graphical.target
+
+-------------------------------------------------------------
+
+Type this in terminal to fix ip problem for X server - X410 - Open Microsoft Powershell and type as admin: ipconfig 
+That will give you ip adress for WSL - Last line is WSL IP in Terminal/Powershell.
+
+sudo dnf install e2fsprogs -y
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.28.32.1
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+-------------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot Reboot - OpenMamba / KDE 6
+
+-------------------------------------------
+
+To test IP change type: sudo cat /etc/resolv.conf
+
+If you see nameserver and IP you are OK ✅ 
+
+-------------------------------------------
+
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-------------------------------------------------------------
+
+In terminal type: sudo nano ~/.bash_Mamba_desktop
+
+Paste this small script in terminal and save and quit nano.
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-------------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot Reboot - OpenMamba
+
+-------------------------------------------
+
+Now we can start KDE 6 for OpenMamba - 2025
+
+FIRST START X410 XSERVER THEN YOU START TERMINAL / CONSOLE / BASH FOR OpenMamba
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Paste in terminal: . ~/.bash_Mamba_desktop
+
+Type in terminal and start plasma: dbus-launch startplasma-x11
+
+-------------------------------------------
+
+                  __    __    __    __
+                 /  \  /  \  /  \  /  \
+                /    \/    \/    \/    \
+███████████████/  /██/  /██/  /██/  /███████████████████
+              /  / \   / \   / \   / \  \____
+             /  /   \_/   \_/   \_/   \    o \__,
+            / _/                       \_____/  `
+            |/
+        ███╗   ███╗ █████╗ ███╗   ███╗██████╗  █████╗
+        ████╗ ████║██╔══██╗████╗ ████║██╔══██╗██╔══██╗
+        ██╔████╔██║███████║██╔████╔██║██████╔╝███████║
+        ██║╚██╔╝██║██╔══██║██║╚██╔╝██║██╔══██╗██╔══██║
+  OPEN  ██║ ╚═╝ ██║██║  ██║██║ ╚═╝ ██║██████╔╝██║  ██║
+        ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚═════╝ ╚═╝  ╚═╝
+
+
+Regards Mattias Vinberg - Openmamba - KDE PLASMA 6 - Linux - WSL - Micrsoft - X410 - Sweden - 2025
+
+-------------------------------------------
