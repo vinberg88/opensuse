@@ -32,6 +32,66 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Openmamba and KDE 6 - Install KDE 6 via Openmamba - WSL - Windows 11 - GUI - Linux - X410 - 2025
+
+How to install KDE 6 via Openmamba - WSL - WINDOWS - LINUX - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Openmamba-KDE6.txt
+
+How to install KDE 6 via Openmamba - WSL - WINDOWS - LINUX - MOVIE
+
+https://www.youtube.com/watch?v=v1juUM9p4OI
+
+Here you will find WSL version of OpenMamba here. Download and install.
+
+https://drive.proton.me/urls/3RGJF76H48#kEL3UdI5Fq1j
+
+What i USE for Tools - Windows 11 Microsoft.
+
+X410 - X Server for Windows 11 and it works well. Find it in Micorsoft store.
+ 
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem for 
+Linux (WSL) distributions, enabling installation, snapshots,
+version control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+![Openmamba-KDE6](https://github.com/user-attachments/assets/9b9d0c56-d689-4239-a256-de0c726ec04e)
+
+About OpenMamba - https://openmamba.org/en/
+
+openmamba is an open source Linux based operating system
+available with two modern and always up-to-date desktop Environments.
+
+Other main features
+
+It is not a derivative neither depends on other existing distributions.
+uses the RPM packaging format to distribute software Components.
+uses DNF and PackageKit as updates managers.
+supports the installation of packages from Flatpak repositories.
+implements a rolling mechanism to deploy continuous updates to the latest software releases.
+it is available for x86 (64 bits with legacy support for 32 bits) and aarch64 arm64) architectures.
+
+About KDE plasma 6 - https://kde.org - The next generation desktop for Linux 2025
+
+Use Plasma to surf the web; keep in touch with colleagues, friends
+and family; manage your files, enjoy music and videos; and get
+creative and productive at work. Do it all in a beautiful environment
+that adapts to your needs, and with the safety, privacy-protection and
+peace of mind that the best Free Open Source Software has to offer.
+Plasma is a Desktop =) KDE’s next mega release is here!
+KDE Plasma is a modern, feature-rich desktop environment for
+Linux-based operating systems. Known for its sleek design, customizable 
+interface, and extensive set of applications, it is also open 
+source, devoid of ads, and makes protecting your privacy and
+personal data a priority.
+
+Regards Mattias Vinberg - Openmamba - KDE PLASMA 6 - Linux - WSL - Micrsoft - X410 - Sweden - 2025
+
+---------------------------------------------
+
 Oracle Linux 9.5 - How to install Gnome Desktop - GWSL - Oracle 9.5 via Windows 11 - WSL - 2025 - YouTube
 
 How to install Gnome Desktop via Oracle 9.5 - WSL - TEXT
