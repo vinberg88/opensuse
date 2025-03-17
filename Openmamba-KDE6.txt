@@ -1,7 +1,7 @@
 Openmamba and KDE 6 - Install KDE 6 via Openmamba - WSL - Windows 11 - GUI - Linux - X410 - 2025 - YouTube 
 
 How to install KDE 6 via Openmamba - WSL - WINDOWS - LINUX - TEXT
-Comming Zone.
+https://github.com/vinberg88/opensuse/blob/main/Openmamba-KDE6.txt
 
 How to install KDE 6 via Openmamba - WSL - WINDOWS - LINUX - MOVIE
 https://www.youtube.com/watch?v=v1juUM9p4OI
