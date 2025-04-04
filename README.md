@@ -32,6 +32,81 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Parrot OS 6.3 and KDE - Install KDE via WSL and Parrot - Windows - WSL - Linux - GWSL - YouTube - 2025
+
+How to install KDE via ParrotOS 6.3 and Windows - WSL - LINUX - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/ParrotOS-6.3-KDE.txt
+
+How to install KDE via ParrotOS 6.3 and Windows - WSL - LINUX - MOVIE
+
+https://www.youtube.com/watch?v=GPTvLerLZSw
+
+Find Parrot OS here and download and press the exe file and you are done to start build KDE.
+
+https://parrotsec.org/download/ look for WSL and download and install - DONE!
+
+Tools that i USE
+
+Raft WSL is a powerful tool for managing Windows Subsystem for 
+Linux (WSL) distributions, enabling installation, snapshots,
+version control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+GWSL - The Feature-Packed, Highly-Integrated Windows 10/11 XServer
+GWSL is an XServer that lets you easily run graphical Linux apps on Windows
+AND it lets you run graphical applications located on remote Linux machines
+on Windows . . . AND it lets you manage these apps graphically, create
+Windows shortcuts for them, customize these shortcuts, and even 
+manage/configure WSL distros! All at the click of a button! No memorization
+of commands necessary! Easy!!!
+
+https://apps.microsoft.com/detail/9nl6kd1h33v3?hl=en-US&gl=US
+
+![ParrotOS-6 3-KDE](https://github.com/user-attachments/assets/5a9163ae-2ec0-4f2e-8506-e71279eae7dd)
+
+About ParrotSEC or Parrot OS 6.3 - https://www.parrotsec.org
+
+The ultimate framework for your Cyber Security operations.
+Parrot Security (ParrotOS, Parrot) is a Free and Open source
+GNU/Linux distribution based on Debian Stable designed for
+security experts, developers and privacy aware people.
+It includes a full portable arsenal for IT security and
+digital forensics operations. It also includes everything
+you need to develop your own programs or protect your privacy
+while surfing the net. Parrot is based on top of Debian,
+the most advanced and recognized universal operating system
+that can run anywhere.
+
+About KDE Plasma Desktop - https://kde.org
+
+KDE Plasma is a Desktop - Use KDE Plasma to surf the
+web and keep in touch with colleagues, friends and family.
+Manage your files, enjoy music and videos and get creative
+and productive at work. Do it all in a beautiful Environment
+that adapts to your needs, and with the safety, privacy-protection
+and peace of mind that the best Free Open Source
+Software has to offer. Plasma is made to stay out of the way
+as it helps you get things done. But under its light and 
+intuitive surface, it's a powerhouse. So you're free to
+choose ways of usage right as you need them and when you
+need them. With KDE Plasma the user is king. Not happy
+with the color scheme? Change it! Want to have your panel
+on the left edge of the screen? Move it! Don't like 
+the font? Use a different one! Download custom widgets in
+one click and add them to your desktop or panel.
+
+You Can Find More Stuff here About WSL - Linux - Windows 11 - GWSL
+
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - SwEden - Microsoft - Parrot OS - KDE - WSL - GWSL - Windows 11 - 2025
+
+Thanks For Watching Video and Have a Nice Summer =]
+
+---------------------------------------------
+
 Openmamba and KDE 6 - Install KDE 6 via Openmamba - WSL - Windows 11 - GUI - Linux - X410 - 2025
 
 How to install KDE 6 via Openmamba - WSL - WINDOWS - LINUX - TEXT
