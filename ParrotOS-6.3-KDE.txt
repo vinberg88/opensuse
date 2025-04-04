@@ -3,9 +3,11 @@ Parrot OS 6.3 and KDE - Install KDE via WSL and Parrot - Windows - WSL - Linux -
 ----------------------------
 
 How to install KDE via ParrotOS 6.3 and Windows - WSL - LINUX - TEXT
-Comming Zone...
+
+https://github.com/vinberg88/opensuse/blob/main/ParrotOS-6.3-KDE.txt
 
 How to install KDE via ParrotOS 6.3 and Windows - WSL - LINUX - MOVIE
+
 https://www.youtube.com/watch?v=GPTvLerLZSw
 
 --------------------------
