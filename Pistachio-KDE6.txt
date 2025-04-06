@@ -1,7 +1,7 @@
 Pistachio Linux and KDE 6 - Debian - Install KDE 6 via WSL and Pistachio Linux - Windows - WSL - X410 - 2025
 
 How to install KDE 6 via Pistachio Linux and Windows 11 - WSL - LINUX - TEXT
-Comming ZONE...
+https://github.com/vinberg88/opensuse/blob/main/Pistachio-KDE6.txt
 
 How to install KDE 6 via Pistachio Linux and Windows 11 - WSL - LINUX - MOVIE
 https://www.youtube.com/watch?v=e3KGpKe7wSY
