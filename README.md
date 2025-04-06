@@ -32,6 +32,88 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Pistachio Linux and KDE 6 - Debian - Install KDE 6 via WSL and Pistachio Linux - Windows - WSL - X410 - 2025
+
+How to install KDE 6 via Pistachio Linux and Windows 11 - WSL - LINUX - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Pistachio-KDE6.txt
+
+How to install KDE 6 via Pistachio Linux and Windows 11 - WSL - LINUX - MOVIE
+
+https://www.youtube.com/watch?v=e3KGpKe7wSY
+
+Find Pistachio Linux here and start to build KDE 6 or you can install from Micrsoft Store.
+
+https://apps.microsoft.com/detail/9p41g2mv9cq3?hl=en-US&gl=US
+
+Tools that i USE
+
+About Raft WSL for Windows 11
+
+Raft WSL is a powerful tool for managing Windows Subsystem for 
+Linux (WSL) distributions, enabling installation, snapshots,
+version control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+About X410 - X Server for Windows
+
+Do you want to seamlessly use Linux GUI apps side by side
+with Windows apps? Simply start X410 and adjust a few
+settings; your Linux GUI apps then suddenly appear in
+Windows and you can use them like Windows apps!
+It doesn't matter where your Linux GUI apps are actually
+running; it can be a full virtual machine, Docker 
+Container, WSL (Windows Subsystem for Linux) or whatever. As
+long as your Linux GUI apps support X-Window client
+protocols, you can use them in Windows. You can even
+securely use your Linux GUI apps running in a far remote
+server via any SSH client that supports X11 forwarding
+over the Internet.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+![Pistachio-KDE6](https://github.com/user-attachments/assets/2661af73-8982-45af-8b46-a72417ca88e6)
+
+About Pistachio Linux for WSL. Debian based distro latest version.
+
+Pistachio Linux is a brand new WSL-only Linux distro that allows
+you to run all kinds of distros without ever having to install them.
+You can install Arch Linux, Fedora, Debian and more (if you aren't
+satisfied, please make an issue on GitHub) right in Pistachio
+Linux, and keep the same environment. It's all integrated.
+Pistachio Linux is always going to be free and open source, and
+we work closely to the community and we actively listen to
+what the community has to say.
+
+About KDE Plasma Desktop - https://kde.org
+
+KDE Plasma 6 is a Desktop - Use KDE Plasma to surf the
+web and keep in touch with colleagues, friends and family.
+Manage your files, enjoy music and videos and get creative
+and productive at work. Do it all in a beautiful Environment
+that adapts to your needs, and with the safety, privacy-protection
+and peace of mind that the best Free Open Source
+Software has to offer. Plasma is made to stay out of the way
+as it helps you get things done. But under its light and 
+intuitive surface, it's a powerhouse. So you're free to
+choose ways of usage right as you need them and when you
+need them. With KDE Plasma the user is king. Not happy
+with the color scheme? Change it! Want to have your panel
+on the left edge of the screen? Move it! Don't like 
+the font? Use a different one! Download custom widgets in
+one click and add them to your desktop or panel.
+
+You Can Find More Stuff here About WSL - Linux - Windows 11 - GWSL
+
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - SWEDEN - Microsoft - Pistachio Linux - KDE 6 - WSL - X410 - Windows 11 - 2025
+
+Thanks For Watching Video and Have a Nice Summer =]
+
+---------------------------------------------
+
 Parrot OS 6.3 and KDE - Install KDE via WSL and Parrot - Windows - WSL - Linux - GWSL - YouTube - 2025
 
 How to install KDE via ParrotOS 6.3 and Windows - WSL - LINUX - TEXT
