@@ -1,7 +1,7 @@
 Pistachio Linux and GNOME 48 - Debian - Install KDE 6 via WSL and Pistachio Linux - Windows - WSL - X410 - 2025
 
 How to install GNOME 48 via Pistachio Linux and Windows 11 - WSL - LINUX - TEXT
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/Pistachio-GNOME48.txt
 
 How to install GNOME 48 via Pistachio Linux and Windows 11 - WSL - LINUX - MOVIE
 https://www.youtube.com/watch?v=w-3xleE8Wvg
