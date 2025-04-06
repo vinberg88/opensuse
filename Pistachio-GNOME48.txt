@@ -1,0 +1,237 @@
+Pistachio Linux and GNOME 48 - Debian - Install KDE 6 via WSL and Pistachio Linux - Windows - WSL - X410 - 2025
+
+How to install GNOME 48 via Pistachio Linux and Windows 11 - WSL - LINUX - TEXT
+Comming Zone...
+
+How to install GNOME 48 via Pistachio Linux and Windows 11 - WSL - LINUX - MOVIE
+https://www.youtube.com/watch?v=w-3xleE8Wvg
+
+Find Pistachio Linux here and start to build GNOME 48 or you can install from Micrsoft Store.
+
+https://apps.microsoft.com/detail/9p41g2mv9cq3?hl=en-US&gl=US
+
+Tools that i USE
+
+About Raft WSL for Windows 11
+
+Raft WSL is a powerful tool for managing Windows Subsystem for 
+Linux (WSL) distributions, enabling installation, snapshots,
+version control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+About X410 - X Server for Windows
+
+Do you want to seamlessly use Linux GUI apps side by side
+with Windows apps? Simply start X410 and adjust a few
+settings; your Linux GUI apps then suddenly appear in
+Windows and you can use them like Windows apps!
+It doesn't matter where your Linux GUI apps are actually
+running; it can be a full virtual machine, Docker 
+Container, WSL (Windows Subsystem for Linux) or whatever. As
+long as your Linux GUI apps support X-Window client
+protocols, you can use them in Windows. You can even
+securely use your Linux GUI apps running in a far remote
+server via any SSH client that supports X11 forwarding
+over the Internet.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+
+       _,met$$$$$gg.
+    ,g$$$$$$$$$$$$$$$P.
+  ,g$$P"        """Y$$.".
+ ,$$P'              `$$$. 
+',$$P       ,ggs.     `$$b: 
+`d$$'     ,$P"'   .    $$$   
+ $$P      d$'     ,    $$P     OS: Debian GNU/Linux trixie trixie/sid x86_64
+ $$:      $$.   -    ,d$$'     Host: Windows Subsystem for Linux - PistachioLinux (2.5.4)
+ $$;      Y$b._   _,d$P'       Kernel: Linux 6.6.75.1-microsoft-standard-WSL2
+ Y$$.    `.`"Y$$$$P"'          System: Windows 11 and Pistachio Linux for GNOME 48
+ `$$b      "-.__               
+  `Y$$                         
+   `Y$$.                       MEDIA: Mattias Vinberg - Sweden - Microsoft / Pistachio
+     `$$b.                     
+       `Y$$b.                  
+          `"Y$b._              
+              `"""             
+                               
+                               
+
+
+About Pistachio Linux for WSL. Debian based distro latest version.
+
+Pistachio Linux is a brand new WSL-only Linux distro that allows
+you to run all kinds of distros without ever having to install them.
+You can install Arch Linux, Fedora, Debian and more (if you aren't
+satisfied, please make an issue on GitHub) right in Pistachio
+Linux, and keep the same environment. It's all integrated.
+Pistachio Linux is always going to be free and open source, and
+we work closely to the community and we actively listen to
+what the community has to say.
+
+About GNOME Desktop - https://www.gnome.org
+
+An independent computing platform for everyone.
+Every part of GNOME has been designed to make it simple and
+easy to use. The Activities Overview is a simple way to access
+all your basic tasks. A press of a button is all it takes to
+view your open windows, launch applications, or check if you
+have new messages. Having everything in one convenient Place
+means you don’t have to learn your way around a maze of
+different technologies. Every aspect of GNOME has been
+crafted to fit together as a harmonious whole, providing a
+consistent and integrated experience. Our attention to detail
+means a smooth and polished product that lets you do the things
+you want without getting in the way. GNOME is satisfying to
+use and beautiful to behold. An easy and elegant way to use
+your computer, GNOME is designed to help you have the best
+possible computing experience. Gnome Desktop is god Stuff!
+
+You Can Find More Stuff here About WSL - Linux - Windows 11 - GWSL
+
+https://github.com/vinberg88/opensuse
+
+-----------------------------
+
+NOW LETS START INSTALLATION FOR GNOME 48 AND Pistachio Linux
+
+-----------------------------
+
+Update all for Pistachio Linux. Run upgrade first then full-upgrade
+
+sudo apt update && sudo apt upgrade
+
+sudo apt update && sudo apt full-upgrade
+
+----------------------------------------------
+
+You need to Fix IP for WSL. You can find your ip for WSL by using Powershell as admin and type: ipconfig
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.28.32.1 -- HERE PUT YOUR IP LIKE THIS
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+Dont care if you see some redtext its works
+
+-----------------------------
+
+Pistachio Linux - Reboot Reboot Reboot Reboot Reboot - Pistachio Linux
+
+---------------------------------------
+
+TEST TO SEE THAT IP iS CHANGE AND WORKING!
+
+sudo cat /etc/resolv.conf
+
+nameserver 172.28.32.1 <-- if you see something like that you are fine =)
+
+----------------------------------------------
+
+
+Install this programs from terminal - You need it for Pistachio Linux and GNOME 48
+
+sudo apt install bash xorg* git npm wget curl pipx net-tools dbus-x11 dbus* kwin* -y
+
+---------------------------------
+
+Time to install GNOME 48 for Pistachio Linux 2025. Pistachio Linux is latest version of Debian.
+
+sudo apt install gdm3* -y
+sudo apt install task-gnome-desktop -y
+sudo apt install gnome* -y
+
+---------------------------------------------
+
+Install Chrome Browser from Google. Latest Edition for Web!
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+----------------------------------------------
+
+Install Blanket - Listen to sounds - When you are hacking.
+
+wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb -y
+
+----------------------------------------------
+
+Visual studio code from Microsoft - Install for Pistachio Linux 
+
+sudo apt-get install wget gpg -y
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" |sudo tee /etc/apt/sources.list.d/vscode.list > /dev/null
+rm -f packages.microsoft.gpg
+
+sudo apt install apt-transport-https -y
+sudo apt update
+sudo apt install code -y
+
+----------------------------------------------
+
+Install gimp and LibreOffice for GNOME 48 and Pistachio Linux
+
+sudo apt install gimp libreoffice -y
+
+----------------------------------------------
+
+Install Hyfetch like Neofetch but more fun and MORE gay!
+
+pipx install hyfetch
+pipx ensurepath
+
+Test by paste Hyfetch in Console / Terminal after restart: hyfetch
+
+----------------------------------------------
+
+Pistachio Linux - Then Copy and Paste this in Terminal: 
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+
+----------------------------------------------
+
+Type this in terminal and put your user there - sudo loginctl enable-linger user
+
+----------------------------------------------
+
+Copy this and paste in terminal: sudo nano ~/.bash_linux_desktop 
+
+Then add this script to terminal
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------
+
+Reboot Pistachio Linux and start X410 then you start Pistachio Linux from terminal.
+
+----------------------------------------------
+
+Time To Start GNOME 48 via Pistachio Linux and Windows 11 - WSL
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Paste in terminal: . ~/.bash_linux_desktop
+
+Paste in terminal: dbus-launch gnome-session
+
+----------------------------------------------
+
+Regards Mattias Vinberg - SWEDEN - Microsoft - Pistachio Linux - GNOME 48 - WSL - X410 - Windows 11 - 2025
+
+Thanks For Watching Video and Have a Nice Summer =]
+
+---------------------------------------------
