@@ -32,6 +32,84 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Pistachio Linux and GNOME 48 - Debian - Install KDE 6 via WSL and Pistachio Linux - Windows - WSL - X410 - 2025
+
+How to install GNOME 48 via Pistachio Linux and Windows 11 - WSL - LINUX - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Pistachio-GNOME48.txt
+
+How to install GNOME 48 via Pistachio Linux and Windows 11 - WSL - LINUX - MOVIE
+
+https://www.youtube.com/watch?v=w-3xleE8Wvg
+
+Find Pistachio Linux here and start to build GNOME 48 or you can install from Micrsoft Store.
+
+https://apps.microsoft.com/detail/9p41g2mv9cq3?hl=en-US&gl=US
+
+Tools that i USE
+
+About Raft WSL for Windows 11
+
+Raft WSL is a powerful tool for managing Windows Subsystem for 
+Linux (WSL) distributions, enabling installation, snapshots,
+version control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+About X410 - X Server for Windows
+
+Do you want to seamlessly use Linux GUI apps side by side
+with Windows apps? Simply start X410 and adjust a few
+settings; your Linux GUI apps then suddenly appear in
+Windows and you can use them like Windows apps!
+It doesn't matter where your Linux GUI apps are actually
+running; it can be a full virtual machine, Docker 
+Container, WSL (Windows Subsystem for Linux) or whatever. As
+long as your Linux GUI apps support X-Window client
+protocols, you can use them in Windows. You can even
+securely use your Linux GUI apps running in a far remote
+server via any SSH client that supports X11 forwarding
+over the Internet.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+![Pistachio-GNOME48](https://github.com/user-attachments/assets/4fa52dca-2d10-4c06-9f35-82efedd99672)
+
+About Pistachio Linux for WSL. Debian based distro latest version.
+
+Pistachio Linux is a brand new WSL-only Linux distro that allows
+you to run all kinds of distros without ever having to install them.
+You can install Arch Linux, Fedora, Debian and more (if you aren't
+satisfied, please make an issue on GitHub) right in Pistachio
+Linux, and keep the same environment. It's all integrated.
+Pistachio Linux is always going to be free and open source, and
+we work closely to the community and we actively listen to
+what the community has to say.
+
+About GNOME Desktop - https://www.gnome.org
+
+An independent computing platform for everyone.
+Every part of GNOME has been designed to make it simple and
+easy to use. The Activities Overview is a simple way to access
+all your basic tasks. A press of a button is all it takes to
+view your open windows, launch applications, or check if you
+have new messages. Having everything in one convenient Place
+means you don’t have to learn your way around a maze of
+different technologies. Every aspect of GNOME has been
+crafted to fit together as a harmonious whole, providing a
+consistent and integrated experience. Our attention to detail
+means a smooth and polished product that lets you do the things
+you want without getting in the way. GNOME is satisfying to
+use and beautiful to behold. An easy and elegant way to use
+your computer, GNOME is designed to help you have the best
+possible computing experience. Gnome Desktop is god Stuff!
+
+Regards Mattias Vinberg - SWEDEN - Microsoft - Pistachio Linux - GNOME 48 - WSL - X410 - Windows 11 - 2025
+
+Thanks For Watching Video and Have a Nice Summer =]
+
+---------------------------------------------
+
 Pistachio Linux and KDE 6 - Debian - Install KDE 6 via WSL and Pistachio Linux - Windows - WSL - X410 - 2025
 
 How to install KDE 6 via Pistachio Linux and Windows 11 - WSL - LINUX - TEXT
