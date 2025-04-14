@@ -32,6 +32,60 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Fedora 41 - How to install GNOME 47 via WSL - Fedora 41 via Windows 11 - Linux - X410 - 2025
+
+You can find Fedora 41 here for free. It says 40 but its version 41
+
+https://apps.microsoft.com/detail/9npcp8drchsn?hl=sv-se&gl=SE
+
+If you want to pay for fedora 41 look here. Has its charm
+
+https://apps.microsoft.com/detail/9n6gdm4k2hnc?hl=sv-se&gl=US
+
+How to install GMOME desktop via Fedora 41 - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Fedora41-GNOME.txt
+
+How to install GMOME desktop via Fedora 41 - MOVIE
+
+https://www.youtube.com/watch?v=XF_aWyGUv1Q
+
+![Fedora41-GNOME](https://github.com/user-attachments/assets/11c67c44-b566-4f7b-bc89-644cb381df86)
+
+Use X410 - X Server for Windows 11 in this video and it works well. Find it in Micorsoft store. 
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem for Linux
+(WSL) distributions, enabling installation, snapshots, version control, and 
+seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+About GNOME desktop - https://www.gnome.org
+
+Every part of GNOME has been designed to make it simple 
+and easy to use. The Activities Overview is a simple way 
+to access all your basic tasks. A press of a button is
+all it takes to view your open windows, launch applications, or 
+check if you have new messages. Having everything in 
+one convenient place means you don’t have to learn your way 
+around a maze of different technologies. 
+https://www.gnome.org
+
+About FEDORA 41 - https://fedoraproject.org
+
+Fedora Linux is a Linux distribution developed by the Fedora Project.
+It was originally developed in 2003 as a continuation of the Red Hat 
+Linux project. It contains software distributed under various free
+and open-source licenses and aims to be on the leading edge of open-source
+technologies. It is now the upstream source for CentOS Stream and Red Hat
+Enterprise Linux.
+
+Regards Mattias Vinberg - Sweden - Gnome 47 - Fedora 41 - Linux - MICROSOFT - X410 - 2025
+
+---------------------------------------------
+
 Pistachio Linux and GNOME 48 - Debian - Install KDE 6 via WSL and Pistachio Linux - Windows - WSL - X410 - 2025
 
 How to install GNOME 48 via Pistachio Linux and Windows 11 - WSL - LINUX - TEXT
