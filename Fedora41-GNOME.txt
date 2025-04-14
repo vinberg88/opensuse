@@ -7,7 +7,7 @@ If you want to pay for fedora 41 look here. Has its charm
 https://apps.microsoft.com/detail/9n6gdm4k2hnc?hl=sv-se&gl=US
 
 How to install GMOME desktop via Fedora 41 - TEXT
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/Fedora41-GNOME.txt
 
 How to install GMOME desktop via Fedora 41 - MOVIE
 https://www.youtube.com/watch?v=XF_aWyGUv1Q
