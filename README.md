@@ -32,6 +32,93 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Rocky Linux 9 - Have to install GNOME desktop - Pengwin Enterprise 9 - WSL - GWSL - Windows 11 - Linux - 2025
+
+How to install GNOME desktop via Rocky Linux 9 / Pengwin Enterprise 9 - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Pengwin-Enterprise9-Gnome.txt
+
+How to install GNOME desktop via Rocky Linux 9 / Pengwin Enterprise 9 - Movie
+
+https://www.youtube.com/watch?v=_Ygi-BRh7Nc
+
+You Can Find Rocky linux 9 and Pengwin Enterprise 9 Here or in Microsoft Store.
+
+https://apps.microsoft.com/detail/9p70gx2hqnhn?hl=en-US&gl=US
+
+Tools that are used.
+
+GWSL is an XServer that lets you easily run graphical Linux apps on
+Windows . . . AND it lets you run graphical applications located on
+remote Linux machines on Windows . . . AND it lets you manage these 
+apps graphically, create Windows shortcuts for them, customize these
+shortcuts, and even manage/configure WSL distros! All at the click 
+of a button! No memorization of commands necessary! Easy!!!
+
+https://apps.microsoft.com/detail/9nl6kd1h33v3?hl=sv-SE&gl=SE
+
+Raft WSL
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, 
+snapshots, version control, and seamless integration
+with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+![Pengwin-Enterprise9-Gnome](https://github.com/user-attachments/assets/cc3a5856-1a39-4bac-994c-fe56e046ab37)
+
+About Pengwin Enterprise 9 - https://www.whitewaterfoundry.com/pengwin-enterprise
+
+Pengwin Enterprise is a Windows Subsystem for Linux (WSL) solution
+compatible with mainstream enterprise Linux distributions such
+as **Oracle Linux** and **Red Hat Enterprise Linux**. It is 
+designed for enterprise users who need a secure, reliable, and
+fast Linux environment on their Windows machines. Pengwin Enterprise
+can be customized to fit the organization's needs and leverage
+existing Linux infrastructure and subscriptions. Pengwin
+Enterprise also comes with a rich set of tools and packages
+to help you work productively with Linux on Windows.
+Whether you are a developer, a system administrator, a data 
+scientist, or a power user, Pengwin Enterprise can meet your
+needs and enhance your workflow. Pengwin Enterprise installs
+itself as a menu entry in Windows Terminal. We crafted the
+background and the color palette for the best looking and 
+usability in Windows Terminal. Configuring Pengwin Enterprise
+as your Default Profile in Windows Terminal allows greater integration
+with the Windows environment. Specifically, right-click a folder
+in File Explorer and select Open in Terminal. It will open in 
+the chosen directory, making it easier to access all necessary 
+files and tools from within the terminal. Access your C:\ drive 
+at /mnt/C automatically. Copy and paste from Visual Studio into Emacs.
+Open Word from zsh. Pipe ifconfig.exe output into a Python script.
+It is a hybrid world. Pengwin Enterprise bridges the gap between
+Windows and Linux. Pengwin Enterprise is designed for custom deployments
+in consultation with Whitewater Foundry's international team of WSL experts...
+
+
+About GNOME desktop - https://www.gnome.org
+
+GNOME is designed to help you have the best possible computing
+experience. Every aspect of GNOME has been crafted to fit together
+as a harmonious whole, providing a consistent and integrated 
+experience. Our attention to detail means a smooth and polished
+product that lets you do the things you want without getting
+in the way. GNOME is satisfying to use and beautiful to behold.
+GNOME provides a focused working environment that helps you get
+things done. It is packed with features that will make you more
+productive: a powerful search feature that helps you access all
+your work from one place; side-by-side windows that make it easy
+to view several documents at the same time; seamless integration
+with online accounts which allows you to access all your data in
+one place; and a messaging system that comfortably deals with 
+notifications, letting you quickly respond in place or return to 
+them in a convenient time. Gnome desktop is my favorite!
+
+Regards Mattias Vinberg - Sweden - Pengwin Enterprise 9 - Rocky Linux 9 - Gnome - WSL - Windows 11 - Linux - GWSL - 2025
+
+---------------------------------------------
+
 Fedora 41 - How to install GNOME 47 via WSL - Fedora 41 via Windows 11 - Linux - X410 - 2025
 
 You can find Fedora 41 here for free. It says 40 but its version 41
