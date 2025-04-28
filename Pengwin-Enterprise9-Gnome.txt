@@ -1,7 +1,8 @@
 Rocky Linux 9 - Have to install GNOME desktop - Pengwin Enterprise 9 - WSL - GWSL - Windows 11 - Linux - 2025
 
 How to install GNOME desktop via Rocky Linux 9 / Pengwin Enterprise 9 - TEXT
-Comming Zone...
+
+https://github.com/vinberg88/opensuse/blob/main/Pengwin-Enterprise9-Gnome.txt
 
 How to install GNOME desktop via Rocky Linux 9 / Pengwin Enterprise 9 - Movie
 
