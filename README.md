@@ -35,20 +35,25 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 Ultramarine 41 and KDE 6 - How to install KDE 6 via Ultramarine - X410 - Windows 11 - WSL - Linux - 2025
 
 Ultramarine 41 - you will find it here for WSL or go to Microsoft Store.
+
 https://apps.microsoft.com/detail/9pbpg2rdmzb9?hl=en-US&gl=US
 
-Use X410 - X Server for Windows 11 in this video and it works well. Find it in Micorsoft store. 
+Use X410 - X Server for Windows 11 in this video and it works well. Find it in Micorsoft store.
+
 https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
 
 Raft WSL is a powerful tool for managing Windows Subsystem
 for Linux (WSL) distributions, enabling installation, snapshots, version
 control, and seamless integration with Windows tools.
+
 https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
 
 How to install KDE plasma 6 via Ultramarine 41 - TEXT - Fyra Labs
+
 https://github.com/vinberg88/opensuse/blob/main/Ultramarine41-KDE6.txt
 
 How to install KDE plasma 6 via Ultramarine 41 - VIDEO - Fyra Labs
+
 https://www.youtube.com/watch?v=boqYLTllgVg
 
 ![Ultramarine41-KDE6](https://github.com/user-attachments/assets/a38c1a9a-dfc1-4397-816d-26dc4166f10a)
@@ -87,6 +92,7 @@ out-of-the-box experience is as smooth as it can be. We've tried
 to make sure that you'll be able to get started as quickly as possible. 
 
 Here you have more stuff about WSL and other desktops for Linux and Windows 11/10
+
 https://github.com/vinberg88/opensuse
 
 Regards Mattias Vinberg - Ultramarine 41 - KDE 6 - Microsoft - Linux - WSL - X410 - Sweden - 2025
