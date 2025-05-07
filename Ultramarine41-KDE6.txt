@@ -12,7 +12,7 @@ control, and seamless integration with Windows tools.
 https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
 
 How to install KDE plasma 6 via Ultramarine 41 - TEXT - Fyra Labs
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/Ultramarine41-KDE6.txt
 
 How to install KDE plasma 6 via Ultramarine 41 - VIDEO - Fyra Labs
 https://www.youtube.com/watch?v=boqYLTllgVg
