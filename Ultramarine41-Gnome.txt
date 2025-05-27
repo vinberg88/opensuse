@@ -1,0 +1,218 @@
+Ultramarine 41 and Gnome 47 - WSL - Install Gnome via Ultramarine 41 - Linux - Microsoft - X410 - 2025 - YouTube
+
+Ultramarine 41 - you will find it here for WSL or go to Microsoft Store.
+https://apps.microsoft.com/detail/9pbpg2rdmzb9?hl=en-US&gl=US
+
+Use X410 - X Server for Windows 11 in this video and it works well. Find it in Micorsoft store. 
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+How to install GNOME desktop via Ultramarine 41 - TEXT - Fyra Labs - WSL
+
+
+How to install GNOME desktop via Ultramarine 41 - VIDEO - Fyra Labs - WSL
+https://www.youtube.com/watch?v=naAZmPE3NuA
+
+
+            .cd0NNNNNNNXOdc. 
+        .:xKNNNNNNNNNNNNNNNNKd;.     
+      ,dXNNNNNNNNNNNNNNNNNNNNNNNd,    
+    'ONNNNNNNNNNNNNNNNNNNNNNNNNNNNO' 
+  .xNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNk.      
+ .0NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN0.     
+.0NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN0.    DESKTOP: Gnome 47 via WSL and Ultramarine 41
+dNNNNNNNNNNNNWWWWWWWWNNNNNNNNNNNNNNNNNNd    OS: Ultramarine Linux 41 (Cyberia) x86_64 - Fyra Labs
+NNNNNNNNNNNNNWMMMMMMMMWWNNNNNNNNNNNNNNNN    WM: WSLg 1.0.66 (Wayland)
+NNNNNNNNNNNNNNWMMMMMMMMMWWNNNNNNNNNNNNNN    Kernel: Linux 6.6.87.1-microsoft-standard-WSL2
+NNNNNNNNNNNNNNWMMMMMMMMMMMMWNNNNNNNNNNNN    Host: Windows Subsystem for Linux - Ultramarine (2.5.7.0)
+NNNNNNNNNNWWWMMMMMMMMMMMMMMMMWWWNNNNNNNX
+oNWWWWMMMMMMMMMMMMMMMMMMMMMMMMMMMMWWWNNo    MEDIA: Mattias Vinberg - Sweden - Stockholm - 2025
+ OWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWO 
+ .OWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWO.
+   lNWMMMMMMMMMMMMMMMMMMMMMMMMMMMMWNl  
+    .dNWMMMMMMMMMMMMMMMMMMMMMMMMWNd.        
+      .cKWMMMMMMMMMMMMMMMMMMMMWKc. 
+         'oOXWWWMMMMMMMMWWWXOl.    
+             ;lkXNNNNNNXkl'
+
+
+
+About GNOME desktop - Gnome - https://www.gnome.org
+
+GNOME is designed to help you have the best possible computing
+experience. Every aspect of GNOME has been crafted to fit together
+as a harmonious whole, providing a consistent and integrated 
+experience. Our attention to detail means a smooth and polished
+product that lets you do the things you want without getting
+in the way. GNOME is satisfying to use and beautiful to behold.
+GNOME provides a focused working environment that helps you get
+things done. It is packed with features that will make you more
+productive: a powerful search feature that helps you access all
+your work from one place; side-by-side windows that make it easy
+to view several documents at the same time; seamless integration
+with online accounts which allows you to access all your data in
+one place; and a messaging system that comfortably deals with 
+notifications, letting you quickly respond in place or return to 
+them in a convenient time. Gnome desktop is my favorite!
+
+About UltraMarine 41 - https://ultramarine-linux.org - Fyra Labs
+
+Ultramarine Linux is an operating system designed for your personal
+workstation (or battlestation). It is designed to be intuitive and
+easy to use, shipping numerous simple environments. Ultramarine
+keeps up with the latest and greatest software in the open-source
+community, while staying stable and secure. Ultramarine is for
+everyone, from the beginner to the tech enthusiast, and even Windows
+dropouts! Based on Fedora Linux, Ultramarine offers
+the latest and greatest in open-source software, yet maintaining
+rock-solid stability. Making sure things don't break is our top priority.
+Ultramarine provides both developer-friendly and user-friendly tools
+to make sure you can get the most out of your system. We're making 
+it as easy and accessible as possible for everyone to create and
+package their software for Ultramarine (and in extension, Fedora!)
+Ultramarine applies pragmatic tweaks and settings to make sure your
+out-of-the-box experience is as smooth as it can be. We've tried
+to make sure that you'll be able to get started as quickly as possible. 
+
+Here you have more stuff about WSL and other desktops for Linux and Windows 11/10
+https://github.com/vinberg88/opensuse
+
+------------------------------------------------------
+
+After install Update Ultramarine 41 - it time to do so.
+
+sudo dnf5 upgrade --refresh
+
+------------------------------------------------------
+
+THIS IS MAYBE ALREADY DONE........ Please do this anyway...
+
+Paste in terminal and setup systemd: sudo nano /etc/wsl.conf
+
+[boot]
+systemd=true
+
+------------------------------------------------------
+
+Reboot Ultramarine 41 - Reboot Ultramarine 41 - Reboot Ultramarine 41 - Reboot Ultramarine 41
+
+------------------------------------------------------
+
+Install some other programs for Ultramarine 41
+
+sudo dnf5 install curl wget git bash zeal demonized chattr librepo --skip-unavailable -y
+
+------------------------------------------------------
+
+Fix IP problem whit GWSL or X410. Cant find screen problems. Look ip adress in windows terminal / PowerShell as root : ipconfig
+
+NOTE - Importent to look for ip.....
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.28.32.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed =]
+
+------------------------------------------------------
+
+Install some programs for Gnome and Ultramarine 41
+
+sudo dnf5 install gdm pipewire daemonize mesa git wget curl nano bash pipx sudo kwin dbus net-tools x11 dbus-x11 menu gmenu --no-best --allowerasing --skip-broken --skip-unavailable -y
+
+-----------------------------------
+
+Install Hyfetch - like Neofetch but more gay =)
+
+sudo dnf5 install hyfetch -y
+
+Put this in terminal to Test: hyfetch
+
+-----------------------------------
+
+Install LibreOffice - this works and take some time to install.
+
+sudo dnf5 install libreoffice -y
+
+------------------------------------------------------
+
+Install Google-Chrome web browser
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm -y
+sudo yum update google-chrome-stable
+
+------------------------------------------------------
+
+Install Visual Studio Code - 2025 - Microsoft Engine for Code.
+
+wget https://www.knulla.org/scripts/code-1.95.3-1731513157.el8.x86_64.rpm
+sudo dnf install ./code-1.95.3-1731513157.el8.x86_64.rpm -y
+
+-----------------------------------------------------
+
+Install Gimp - a most =]
+
+sudo dnf5 install gimp -y
+
+-----------------------------------------------------
+
+Time to install Gnome desktop 47 for Ultramarine 41
+
+sudo dnf5 install gnome-tweaks gdm gnome-terminal -y
+sudo dnf5 install @ultramarine-gnome-product-environment --no-best --allowerasing --skip-broken -y
+
+-----------------------------------------------------
+
+Paste this in Bash / terminal / Console / Shell for Ultramarine 41 and GNOME
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-------------------------------------------------------------
+
+Type this in terminal and put your user there - sudo loginctl enable-linger user
+
+-------------------------------------------------------------
+
+In terminal type: sudo nano ~/.bash_Ultramarine_desktop
+
+Paste this small script in terminal and save and quit nano.
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-------------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot Reboot - Ultramarine 41 - Ultramarine 41
+
+-------------------------------------------
+
+Now start X410 then you start Terminal for Ultramarine 41
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Type in terminal: . ~/.bash_Ultramarine_desktop
+    
+Type in terminal: dbus-launch gnome-session
+
+-------------------------------------------
+
+Regards Mattias Vinberg - Sweden - Stockholm - Gnome 47 - Ultramarine 41 - Linux - MICROSOFT - X410 - Windows 11 - 2025
+
+-------------------------------------------
