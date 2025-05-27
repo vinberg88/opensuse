@@ -32,6 +32,73 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Ultramarine 41 and Gnome 47 - WSL - Install Gnome via Ultramarine 41 - Linux - Microsoft - X410 - 2025
+
+Ultramarine 41 - you will find it here for WSL or go to Microsoft Store.
+
+https://apps.microsoft.com/detail/9pbpg2rdmzb9?hl=en-US&gl=US
+
+Use X410 - X Server for Windows 11 in this video and it works well. Find it in Micorsoft store. 
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+How to install GNOME desktop via Ultramarine 41 - TEXT - Fyra Labs - WSL
+
+https://github.com/vinberg88/opensuse/blob/main/Ultramarine41-Gnome.txt
+
+How to install GNOME desktop via Ultramarine 41 - VIDEO - Fyra Labs - WSL
+
+https://www.youtube.com/watch?v=naAZmPE3NuA
+
+![Ultramarine41-Gnome](https://github.com/user-attachments/assets/88d232b4-dfbc-4c23-9126-49d35a12b13b)
+
+About GNOME desktop - Gnome - https://www.gnome.org
+
+GNOME is designed to help you have the best possible computing
+experience. Every aspect of GNOME has been crafted to fit together
+as a harmonious whole, providing a consistent and integrated 
+experience. Our attention to detail means a smooth and polished
+product that lets you do the things you want without getting
+in the way. GNOME is satisfying to use and beautiful to behold.
+GNOME provides a focused working environment that helps you get
+things done. It is packed with features that will make you more
+productive: a powerful search feature that helps you access all
+your work from one place; side-by-side windows that make it easy
+to view several documents at the same time; seamless integration
+with online accounts which allows you to access all your data in
+one place; and a messaging system that comfortably deals with 
+notifications, letting you quickly respond in place or return to 
+them in a convenient time. Gnome desktop is my favorite!
+
+About UltraMarine 41 - https://ultramarine-linux.org - Fyra Labs
+
+Ultramarine Linux is an operating system designed for your personal
+workstation (or battlestation). It is designed to be intuitive and
+easy to use, shipping numerous simple environments. Ultramarine
+keeps up with the latest and greatest software in the open-source
+community, while staying stable and secure. Ultramarine is for
+everyone, from the beginner to the tech enthusiast, and even Windows
+dropouts! Based on Fedora Linux, Ultramarine offers
+the latest and greatest in open-source software, yet maintaining
+rock-solid stability. Making sure things don't break is our top priority.
+Ultramarine provides both developer-friendly and user-friendly tools
+to make sure you can get the most out of your system. We're making 
+it as easy and accessible as possible for everyone to create and
+package their software for Ultramarine (and in extension, Fedora!)
+Ultramarine applies pragmatic tweaks and settings to make sure your
+out-of-the-box experience is as smooth as it can be. We've tried
+to make sure that you'll be able to get started as quickly as possible. 
+
+Regards Mattias Vinberg - Sweden - Stockholm - Gnome 47 - Ultramarine 41 - Linux - MICROSOFT - X410 - Windows 11 - 2025
+
+---------------------------------------------
+
 Ultramarine 41 and KDE 6 - How to install KDE 6 via Ultramarine - X410 - Windows 11 - WSL - Linux - 2025
 
 Ultramarine 41 - you will find it here for WSL or go to Microsoft Store.
