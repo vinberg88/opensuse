@@ -1,96 +1,153 @@
-KDE 6 (Plasma) on Arch - Windows 11 - WSL - GWSL - 2024
+ARCH and KDE 6 - How to install KDE 6 via ARCH - X410 - Windows 11 - WSL - Linux - YouTube - 2025
 
-You can find Arch in microsoft store.
+Updated - 2025/05/28
+
+ARCH Linux for WSL - you will find it here for WSL or go to Microsoft Store.
 https://apps.microsoft.com/detail/9mznmnksm73x?hl=sv-SE&gl=US
 
-kde plasma 6 on Arch. Plasma 6 has arrived in stable repositories
-so its time to install and test =]
+Use X410 - X Server for Windows 11 in this video and it works well. Find it in Micorsoft store. 
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
 
-                    -@                
-                   .##@               
-                  .####@              
-                  @#####@             
-                . *######@            
-               .##@o@#####@           
-              /############@          
-             /##############@         
-            @######@**%######@        
-           @######`     %#####o       
-          @######@       ######%      
-        -@#######h       ######@.`    
-       /#####h**``       `**%@####@   
-      @H@*`                    `*%#@  
-     *`                            `* 
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+How to install Plasma KDE 6 via Arch Linux - WSL - TEXT
+https://github.com/vinberg88/opensuse/blob/main/Arch-KDE6-2025.txt
+
+How to install Plasma KDE 6 via Arch Linux - WSL - Movie
+https://www.youtube.com/watch?v=zML5ogQ3ReI
+
+                                          
+                   -`
+                  .o+`
+                 `ooo/                    
+                `+oooo:                   
+               `+oooooo:                  Welcome to Arch - WSL - X410 - Windows 11 - Linux
+               -+oooooo+:                 
+             `/:-:++oooo+:                
+            `/++++/+++++++:               OS: Arch Linux x86_64 - WINDOWS 11 - WSL
+           `/++++++++++++++:              Host: Windows Subsystem for Linux - Arch (2.5.7.0)
+          `/+++ooooooooooooo/`            Kernel: Linux 6.6.87.1-microsoft-standard-WSL2
+         ./ooosssso++osssssso+`           
+        .oossssso-````/ossssss+`          MEDIA - MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2025
+       -osssssso.      :ssssssso.         
+      :osssssss/        osssso+++.       
+     /ossssssss/        +ssssooo/-        
+   `/ossssso+/:-        -:/+osssso+-      
+  `+sso+:-`                 `.-/+oso:     
+ `++:.                           `-/+/    
+ .`                                 `/ 
 
 
-How to install Plasma KDE 6 on Arch - TEXT
-https://github.com/vinberg88/opensuse/blob/main/ArchKDEPlasma6.txt
+About KDE plasma 6 - https://kde.org
 
-How to install Plasma KDE 6 on Arch - Movie
-https://www.youtube.com/watch?v=Z8nuWSZTlmg
-
-About KDE plasma 6: Plasma is a Desktop - Use Plasma to surf the
+Plasma is a Desktop - Use Plasma to surf the
 web; keep in touch with colleagues, friends and family; manage your
 files, enjoy music and videos; and get creative and productive at work.
 Do it all in a beautiful environment that adapts to your needs, and
 with the safety, privacy-protection and peace of mind that the best
 Free Open Source Software has to offer.
 
-About Arch: Arch Linux, a lightweight and flexible Linux® distribution
+About Arch - https://archlinux.org
+
+Arch Linux, a lightweight and flexible Linux® distribution
 that tries to Keep It Simple. Arch Linux is an independently 
 developed, x86-64 general-purpose GNU/Linux distribution that strives
 to provide the latest stable versions of most software by following
 a rolling-release model. The default installation is a minimal
 base system, configured by the user to only add what is purposely required.
+Arch Linux uses a "rolling release" system which allows one-time
+installation and perpetual software upgrades. It is not generally
+necessary to reinstall or upgrade your Arch Linux system from one
+"version" to the next. By issuing one command, an Arch system is
+kept up-to-date and on the bleeding edge. 
 
 You will find more stuff here for WSL: https://github.com/vinberg88/opensuse
 
-------------------------------------------------------------
+-------------------------
 
-0. Enable repos
+First thing you need to do is copy this file to C:\Users\user  <-- user is not your name =]
 
-Paste in terminal: sudo nano /etc/pacman.conf
+Its easy use Explorer and copy and past. Download this file.
 
-Uncomment the section of the repositorie to switch your install to
-the Testing repositories, which has the Plasma 6 packages
+https://drive.proton.me/urls/G602NV0DFG#Rn5D1Tny3TpQ
 
-[testing]
-Include = /etc/pacman.d/mirrorlist
+-------------------------
 
-------------------------------------------------------------
+After install of Arch - Update and Reboot: sudo pacman -Syu
 
-2. Update and Reboot - sudo pacman -Syu
+-------------------------
 
-------------------------------------------------------------
+Install yay installer for ARCH Linux and KDE 6.
 
-3. Install this tools
+sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+
+--------------------------
+
+Install blanket - gimp - LibreOffice - Code
+
+yay -S gimp blanket libreoffice code
+
+--------------------------
+
+Install Google Chrome.
+
+yay -S google-chrome
+
+--------------------------
+
+Install hyfetch and fastfetch
+
+yay -S hyfetch fastfetch
+
+To test hyfetch type hyfetch in terminal: hyfetch
+
+-------------------------
+
+Install this tools
 
 sudo pacman -S xorg xorg-server xorg-xinit mesa xterm xorg-twm xorg-xrandr xterm xorg-xclock sddm bluedevil libqtxdg
-xorg-xinit xorg-xrandr xorg-xfontsel xorg-xlsfonts xorg-xkill xorg-xinput xorg-xwininfo
+sudo pacman -S xorg-xfontsel xorg-xlsfonts xorg-xkill xorg-xinput xorg-xwininfo
 
-------------------------------------------------------------
+-------------------------
 
-4. Time To install KDE plasma 6 =]
+Time To install KDE plasma 6 =]
 
 sudo pacman -S plasma-meta kde-applications-meta
 
-------------------------------------------------------------
+-------------------------
 
-5. Paste in terminal - all
+Fix IP problem GWSL or X410. Cant find screen problems. Look ip adress in windows terminal / PowerShell - Type this in terminal: ipconfig
+
+NOTE - Importent to look for ip. Last lines are right IP for WSL...
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.28.32.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed =]
+
+-------------------------
+
+Paste in terminal - all
 
 sudo systemctl enable sddm.service
 sudo systemctl enable NetworkManager.service
 sudo systemctl set-default graphical
 
-------------------------------------------------------------
+-------------------------
 
-6. Type this in terminal and put your user there: loginctl enable-linger user
+Type this in terminal and put your user there: sudo loginctl enable-linger user
 
-----------------------------------------------------------------
-
-Start GWSL and Config and Start Arch from GWSL - SHELL
-
-----------------------------------------------------------------
+-------------------------
 
 Type in terminal: sudo nano ~/.bash_Arch_desktop
 
@@ -104,19 +161,20 @@ export LIBGL_ALWAYS_SOFTWARE=1
 
 ----------------------------------------------------------------
 
-Reboot Arch - Reboot Arch - Start Arch From GWSL and start Shell.
+Reboot Arch - Reboot Arch - Reboot Arch - Reboot Arch - Reboot Arch 
 
 ----------------------------------------------------------------
 
-Time to start KDE Plasma 6 on Arch.
+Time to start KDE Plasma 6 via Arch. Start X410 then you start ARCH from terminal.
 
-Paste in terminal: . ~/.bash_Arch_desktop
+Copy and Paste in Console: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
 
-Paste in terminal: startplasma-x11
+Copy and Paste in Console: . ~/.bash_Arch_desktop
+
+Copy and Paste in Console: dbus-launch startplasma-x11
 
 ----------------------------------------------------------------
 
-Warm Regards,
-Matias Vinberg 2024 - Arch
+Regards Mattias Vinberg - Arch - KDE 6 Plasma - SWEDEN - WSL - Microsoft - Linux - X410 - Stockholm - 2025 
 
 ----------------------------------------------------------------
