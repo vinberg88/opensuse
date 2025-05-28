@@ -32,6 +32,56 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+ARCH and KDE 6 - How to install KDE 6 via ARCH - X410 - Windows 11 - WSL - Linux - 2025
+
+Updated - 2025/05/28
+
+ARCH Linux for WSL - you will find it here for WSL or go to Microsoft Store.
+https://apps.microsoft.com/detail/9mznmnksm73x?hl=sv-SE&gl=US
+
+Use X410 - X Server for Windows 11 in this video and it works well. Find it in Micorsoft store. 
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+How to install Plasma KDE 6 via Arch Linux - WSL - TEXT
+https://github.com/vinberg88/opensuse/blob/main/Arch-KDE6-2025.txt
+
+How to install Plasma KDE 6 via Arch Linux - WSL - Movie
+https://www.youtube.com/watch?v=zML5ogQ3ReI
+
+![Arch-KDE6-2025](https://github.com/user-attachments/assets/8acf31cf-1753-416b-9ca4-946470ca20b0)
+
+About KDE plasma 6 - https://kde.org
+
+Plasma is a Desktop - Use Plasma to surf the
+web; keep in touch with colleagues, friends and family; manage your
+files, enjoy music and videos; and get creative and productive at work.
+Do it all in a beautiful environment that adapts to your needs, and
+with the safety, privacy-protection and peace of mind that the best
+Free Open Source Software has to offer.
+
+About Arch - https://archlinux.org
+
+Arch Linux, a lightweight and flexible Linux® distribution
+that tries to Keep It Simple. Arch Linux is an independently 
+developed, x86-64 general-purpose GNU/Linux distribution that strives
+to provide the latest stable versions of most software by following
+a rolling-release model. The default installation is a minimal
+base system, configured by the user to only add what is purposely required.
+Arch Linux uses a "rolling release" system which allows one-time
+installation and perpetual software upgrades. It is not generally
+necessary to reinstall or upgrade your Arch Linux system from one
+"version" to the next. By issuing one command, an Arch system is
+kept up-to-date and on the bleeding edge. 
+
+Regards Mattias Vinberg - Arch - KDE 6 Plasma - SWEDEN - WSL - Microsoft - Linux - X410 - Stockholm - 2025
+
+---------------------------------------------
+
 Ultramarine 41 and Gnome 47 - WSL - Install Gnome via Ultramarine 41 - Linux - Microsoft - X410 - 2025
 
 Ultramarine 41 - you will find it here for WSL or go to Microsoft Store.
