@@ -14,7 +14,7 @@ control, and seamless integration with Windows tools.
 https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
 
 How to install Plasma KDE 6 via Arch Linux - WSL - TEXT
-Comming Zone....
+https://github.com/vinberg88/opensuse/blob/main/Arch-KDE6-2025.txt
 
 How to install Plasma KDE 6 via Arch Linux - WSL - Movie
 https://www.youtube.com/watch?v=zML5ogQ3ReI
