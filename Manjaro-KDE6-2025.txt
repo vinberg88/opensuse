@@ -1,7 +1,7 @@
 MANJARO and KDE 6 - How to install KDE 6 - X410 - Windows 11 - WSL - Linux - YouTube - 2025
 
 How to install Plasma KDE 6 via Manjaro - WSL - TEXT
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/Manjaro-KDE6-2025.txt
 
 How to install Plasma KDE 6 via Manjaro - WSL - Movie
 https://www.youtube.com/watch?v=L-jeMbILH4g
