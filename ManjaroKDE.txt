@@ -1,89 +1,171 @@
-KDE Desktop (Plasma) on Manjaro - Windows 11 - WSL - GWSL - 2024
+MANJARO and KDE 6 - How to install KDE 6 - X410 - Windows 11 - WSL - Linux - YouTube - 2025
 
-You will find manjaro for WSL here: https://github.com/sileshn/ManjaroWSL2
+How to install Plasma KDE 6 via Manjaro - WSL - TEXT
+https://github.com/vinberg88/opensuse/blob/main/Manjaro-KDE6-2025.txt
 
-How to install Manjaro KDE Text
-https://github.com/vinberg88/opensuse/blob/main/ManjaroKDE.txt
+How to install Plasma KDE 6 via Manjaro - WSL - Movie
+https://www.youtube.com/watch?v=L-jeMbILH4g
 
-How to install Video for kde Manjaro
-https://www.youtube.com/watch?v=84dJIrW7DUY
+Download Manjaro here and unzip and click on exe file
+https://github.com/sileshn/ManjaroWSL2
 
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⣿⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣷⣤⣙⢻⣿⣿⣿⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⢠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡄⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⡿⠛⠛⠿⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⠏⠀⠀⠀⠀⠙⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⣰⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⠿⣆⠀⠀⠀⠀
-⠀⠀⠀⣴⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣷⣦⡀⠀⠀⠀
-⠀⢀⣾⣿⣿⠿⠟⠛⠋⠉⠉⠀⠀⠀⠀⠀⠀⠉⠉⠙⠛⠻⠿⣿⣿⣷⡀⠀
-⣠⠟⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠻⣄ Manjaro 2024 - Vinberg SwE - WSL
+Use X410 - X Server for Windows 11 in this video and it works well. Find it in Micorsoft store. 
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
 
-About Manjaro: Manjaro Linux Open Source operating system is
-and always will be provided for you to download use or 
-modify free of charge and completely open source. 
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+                                        
+██████████████████  ████████ 
+██████████████████  ████████   
+██████████████████  ████████   
+██████████████████  ████████   
+████████            ████████       WELCOME TO MANJARO - 2025 - Updated Manjaro - 2025/05/29
+████████  ████████  ████████
+████████  ████████  ████████    OS: Manjaro Linux x86_64 - WSL - Windows 11 / 10
+████████  ████████  ████████    Host: Windows Subsystem for Linux - Manjaro (2.5.7.0)
+████████  ████████  ████████    Kernel: Linux 6.6.87.1-microsoft-standard-WSL2
+████████  ████████  ████████
+████████  ████████  ████████    
+████████  ████████  ████████    MEDIA MATTIAS VINBERG - STOCKHOLM - SWEDEN - 2025
+████████  ████████  ████████
+████████  ████████  ████████
+                        
 
-You will find more stuff here for WSL: https://github.com/vinberg88/opensuse
+About KDE plasma 6 - https://kde.org - The next generation desktop for Linux
 
-------------------------------------------------------------
+KDE is developed by a community of passionate people. We 
+develop KDE for everyone, from kids to grandparents and
+from professionals to hobbyists. Use Plasma to surf the web;
+keep in touch with colleagues, friends and family; manage your
+files, enjoy music and videos; and get creative and productive
+at work. Do it all in a beautiful environment that adapts to
+your needs, and with the safety, privacy-protection and peace
+of mind that the best Free Open Source Software has to offer.
+Plasma is made to stay out of the way as it helps you get
+things done. But under its light and intuitive surface, it's
+a powerhouse. So you're free to choose ways of usage right
+as you need them and when you need them. With Plasma the user
+is king. Not happy with the color scheme? Change it! Want to
+have your panel on the left edge of the screen? Move it! Don't
+like the font? Use a different one! Download custom widgets in
+one click and add them to your desktop or panel.
 
-1. Paste this in terminal... all - you wont get symbolic link error.
+About Manjaro - https://manjaro.org - MANJARO LINUX FOR WSL.
 
-ln -s libcuda.so.1.1 libcuda.so.1
-ln -s libcuda.so.1.1 libcuda.so
-echo -e "[automount]\nldconfig = false" | sudo tee -a /etc/wsl.conf
-sudo mkdir /usr/lib/wsl/lib2
-sudo ln -s /usr/lib/wsl/lib/* /usr/lib/wsl/lib2
-echo /usr/lib/wsl/lib2 | sudo tee /etc/ld.so.conf.d/ld.wsl.conf
+Manjaro is a versatile open-source Linux operating system designed
+with a strong focus on safeguarding user privacy and offering
+extensive control over hardware. This user-friendly OS is an
+excellent choice for those who seek a fresh computing experience, as
+it can be seamlessly installed on a diverse array of devices.
+With support for both x86-64 and ARM architectures, Manjaro
+stands as an ideal option for any device or computing environment.
+Furthermore, Manjaro provides an array of customization options
+and a rich selection of applications, all while prioritizing
+security and privacy features. To cater to a wide audience.
+        
 
-------------------------------------------------------------
+You will find more stuff here for WSL - https://github.com/vinberg88/opensuse
 
-2. Paste in terminal and update: sudo pacman -Syu
+-------------------------
 
-------------------------------------------------------------
+First thing you need to do is copy this file to C:\Users\user  <-- user is not your name =]
 
-3. Install Tools: sudo pacman -S bash git npm wget curl nano sudo dialog go fakeroot
+Its easy use Explorer and copy and past. Download this file.
 
-------------------------------------------------------------
+https://drive.proton.me/urls/G602NV0DFG#Rn5D1Tny3TpQ
 
-4. Install one by one... Paste in Terminal.
+-------------------------
 
-sudo pacman -S xorg xorg-server xorg-xinit mesa xterm xorg-twm xorg-xrandr
-sudo pacman -S xterm xorg-xclock sddm bluedevil libqtxdg
-sudo pacman -S xorg-xinit xorg-xfontsel xorg-xlsfonts xorg-xkill xorg-xinput xorg-xwininfo
+Paste in terminal: sudo nano /etc/pacman.conf 
 
-sudo pacman -S plasma plasma-wayland-session kde-applications 
+and change in file to
+
+# Misc options
+#UseSyslog
+Color
+ParallelDownloads = 20
+ILoveCandy
+#TotalDownload
+#CheckSpace
+VerbosePkgLists
+
+--------------------------
+
+Reboot Manjaro - Reboot Manjaro - Reboot Manjaro - Reboot Manjaro 
+
+--------------------------
+
+Time to Update all and get fast repos.
+
+sudo pacman-mirrors --fasttrack 5 && sudo pacman -Syu 
+
+--------------------------
+
+Install blanket - gimp - LibreOffice - Code
+
+yay -S gimp blanket libreoffice code
+
+--------------------------
+
+Install Google Chrome.
+
+yay -S google-chrome
+
+--------------------------
+
+Install hyfetch and fastfetch
+
+yay -S hyfetch fastfetch
+
+To test hyfetch type hyfetch in terminal: hyfetch
+
+-------------------------
+
+Install this tools
+
+sudo pacman -S xorg xorg-server xorg-xinit mesa xterm xorg-twm xorg-xrandr xterm xorg-xclock sddm bluedevil libqtxdg
+sudo pacman -S xorg-xfontsel xorg-xlsfonts xorg-xkill xorg-xinput xorg-xwininfo
+
+-------------------------
+
+Time To install KDE plasma 6 for Manjaro =]
+
+sudo pacman -S plasma-meta kde-applications-meta
+
+-------------------------
+
+Fix IP problem GWSL or X410. Cant find screen problems. Look ip adress in windows terminal / PowerShell - Type this in terminal: ipconfig
+NOTE - Importent to look for ip. Last lines are right IP for WSL...
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.28.32.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed =]
+
+-------------------------
+
+Paste in terminal - all
 
 sudo systemctl enable sddm.service
 sudo systemctl enable NetworkManager.service
 sudo systemctl set-default graphical
 
-------------------------------------------------------------
+-------------------------
 
-5. Start GWSL and setup and reboot - start shell from GWSL...
+Type this in terminal and put your user there: sudo loginctl enable-linger user
 
-------------------------------------------------------------
+-------------------------
 
-6. Paste in terminal - one by one!
-
-Paste in terminal: xdg-user-dirs-update
-
-Paste in terminal: sudo systemctl set-default multi-user.target
-
-Paste in terminal: sudo systemctl set-default graphical.target
-
-Paste in terminal : sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
-
-------------------------------------------------------------
-
-8. Type this in terminal and put your user there - loginctl enable-linger user
-
-------------------------------------------------------------
-
-9. Type in terminal: sudo nano ~/.bash_manjaro_desktop
+Type in terminal: sudo nano ~/.bash_Manjaro_desktop
 
 Paste this in terminal and save:
 
@@ -93,22 +175,22 @@ export GDK_BACKEND=x11
 
 export LIBGL_ALWAYS_SOFTWARE=1
 
-------------------------------------------------------------
+----------------------------------------------------------------
 
-10. Reboot Reboot Reboot Reboot Reboot Reboot
+Reboot Manjaro - Reboot Manjaro - Reboot Manjaro - Reboot Manjaro - Reboot Manjaro 
 
-------------------------------------------------------------
+----------------------------------------------------------------
 
-Paste in terminal: . ~/.bash_manjaro_desktop
+Time to start KDE Plasma 6 via Manjaro. Start X410 then you start Manjaro from terminal.
 
-Type in terminal: dbus-launch startplasma-x11
+Copy and Paste in Console: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
 
-------------------------------------------------------------
+Copy and Paste in Console: . ~/.bash_Manjaro_desktop
 
-Extra install: yay -S google-chrome
+Copy and Paste in Console: dbus-launch startplasma-x11
 
-------------------------------------------------------------
+----------------------------------------------------------------
 
-Regards Mattias Vinberg - Manjaro - KDE - Linux - WSL - GWSL - 2024 - Sweden
+Regards Mattias Vinberg - Manjaro - KDE 6 Plasma - SWEDEN - WSL - Microsoft - Linux - X410 - Stockholm - 2025 
 
-------------------------------------------------------------
+----------------------------------------------------------------
