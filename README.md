@@ -32,6 +32,68 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+MANJARO and KDE 6 - How to install KDE 6 - X410 - Windows 11 - WSL - Linux - YouTube - 2025
+
+How to install Plasma KDE 6 via Manjaro - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Manjaro-KDE6-2025.txt
+
+How to install Plasma KDE 6 via Manjaro - WSL - Movie
+
+https://www.youtube.com/watch?v=L-jeMbILH4g
+
+Download Manjaro here and unzip and click on exe file
+
+https://github.com/sileshn/ManjaroWSL2
+
+Use X410 - X Server for Windows 11 in this video and it works well. Find it in Micorsoft store. 
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+![Manjaro-KDE6-2025](https://github.com/user-attachments/assets/8a0a3ff8-86aa-4084-8816-b54dec48c9a0)
+
+About KDE plasma 6 - https://kde.org - The next generation desktop for Linux
+
+KDE is developed by a community of passionate people. We 
+develop KDE for everyone, from kids to grandparents and
+from professionals to hobbyists. Use Plasma to surf the web;
+keep in touch with colleagues, friends and family; manage your
+files, enjoy music and videos; and get creative and productive
+at work. Do it all in a beautiful environment that adapts to
+your needs, and with the safety, privacy-protection and peace
+of mind that the best Free Open Source Software has to offer.
+Plasma is made to stay out of the way as it helps you get
+things done. But under its light and intuitive surface, it's
+a powerhouse. So you're free to choose ways of usage right
+as you need them and when you need them. With Plasma the user
+is king. Not happy with the color scheme? Change it! Want to
+have your panel on the left edge of the screen? Move it! Don't
+like the font? Use a different one! Download custom widgets in
+one click and add them to your desktop or panel.
+
+About Manjaro - https://manjaro.org - MANJARO LINUX FOR WSL.
+
+Manjaro is a versatile open-source Linux operating system designed
+with a strong focus on safeguarding user privacy and offering
+extensive control over hardware. This user-friendly OS is an
+excellent choice for those who seek a fresh computing experience, as
+it can be seamlessly installed on a diverse array of devices.
+With support for both x86-64 and ARM architectures, Manjaro
+stands as an ideal option for any device or computing environment.
+Furthermore, Manjaro provides an array of customization options
+and a rich selection of applications, all while prioritizing
+security and privacy features. To cater to a wide audience.
+
+Regards Mattias Vinberg - Manjaro - KDE 6 Plasma - SWEDEN - WSL - Microsoft - Linux - X410 - Stockholm
+
+---------------------------------------------
+
 ARCH and KDE 6 - How to install KDE 6 via ARCH - X410 - Windows 11 - WSL - Linux - 2025
 
 Updated - 2025/05/28
