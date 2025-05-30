@@ -1,0 +1,229 @@
+ARCH and GNOME 48 - WSL - Install Gnome 48 via ARCH - Windows 11 - X410 - Linux - 2025
+
+How to install GNOME 48 via ARCH - WSL - TEXT
+Comming Zone..
+
+How to install GNOME 48 via ARCH - WSL - MOVIE
+https://www.youtube.com/watch?v=h6nCOEpFkV0
+
+ARCH Linux for WSL - you will find it here for WSL or go to Microsoft Store.
+https://apps.microsoft.com/detail/9mznmnksm73x?hl=sv-SE&gl=US
+
+Use X410 - X Server for Windows 11 in this video and it works well. Find it in Micorsoft store. 
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+
+                   -`
+                  .o+`
+                 `ooo/                    
+                `+oooo:                   
+               `+oooooo:                  Welcome to Arch - WSL - X410 - Windows 11 - Linux - 2025
+               -+oooooo+:                 
+             `/:-:++oooo+:                
+            `/++++/+++++++:               OS: Arch Linux x86_64 - WINDOWS 11 - WSL
+           `/++++++++++++++:              Host: Windows Subsystem for Linux - Arch (2.5.7.0)
+          `/+++ooooooooooooo/`            Kernel: Linux 6.6.87.1-microsoft-standard-WSL2
+         ./ooosssso++osssssso+`           WM: WSLg 1.0.66 (Wayland)
+        .oossssso-````/ossssss+`          
+       -osssssso.      :ssssssso.         
+      :osssssss/        osssso+++.       
+     /ossssssss/        +ssssooo/-        
+   `/ossssso+/:-        -:/+osssso+-      MEDIA - MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2025
+  `+sso+:-`                 `.-/+oso:     
+ `++:.                           `-/+/    
+ .`                                 `/ 
+
+
+About Arch - https://archlinux.org
+
+Arch Linux, a lightweight and flexible Linux® distribution
+that tries to Keep It Simple. Arch Linux is an independently 
+developed, x86-64 general-purpose GNU/Linux distribution that strives
+to provide the latest stable versions of most software by following
+a rolling-release model. The default installation is a minimal
+base system, configured by the user to only add what is purposely required.
+Arch Linux uses a "rolling release" system which allows one-time
+installation and perpetual software upgrades. It is not generally
+necessary to reinstall or upgrade your Arch Linux system from one
+"version" to the next. By issuing one command, an Arch system is
+kept up-to-date and on the bleeding edge.
+
+About GNOME desktop - https://www.gnome.org
+
+GNOME is designed to help you have the best possible computing
+experience. Every aspect of GNOME has been crafted to fit together
+as a harmonious whole, providing a consistent and integrated 
+experience. Our attention to detail means a smooth and polished
+product that lets you do the things you want without getting
+in the way. GNOME is satisfying to use and beautiful to behold.
+GNOME provides a focused working environment that helps you get
+things done. It is packed with features that will make you more
+productive: a powerful search feature that helps you access all
+your work from one place; side-by-side windows that make it easy
+to view several documents at the same time; seamless integration
+with online accounts which allows you to access all your data in
+one place; and a messaging system that comfortably deals with 
+notifications, letting you quickly respond in place or return to 
+them in a convenient time. Gnome desktop is my favorite!
+
+Find More Stuff here About WSL - Linux - Microsoft - https://github.com/vinberg88/opensuse
+
+---------------------------------
+
+TIME TO START INSTALL FOR GNOME 48 VIA ARCH AND WINDOWS 10/11..
+
+---------------------------------
+
+First thing to do change this file.
+
+Paste in terminal: sudo nano /etc/pacman.conf 
+
+and change in file to - Delete old text.
+
+# Misc options
+#UseSyslog
+Color
+ParallelDownloads = 20
+ILoveCandy
+#TotalDownload
+#CheckSpace
+VerbosePkgLists
+
+---------------------------------
+
+Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot ARCH
+
+------------------------------------------------------------
+
+Time to Update all and get fast repos/mirrors
+
+Go here and find your repos/mirrors: https://archlinux.org/mirrorlist/
+
+MY TEXT THAT I USE FOR ARCH REPOS...
+
+##
+## Arch Linux repository mirrorlist
+## Generated on 2025-05-30
+##
+
+## Sweden
+Server = http://mirror.accum.se/mirror/archlinux/$repo/os/$arch
+Server = https://mirror.accum.se/mirror/archlinux/$repo/os/$arch
+Server = https://mirror.braindrainlan.nu/archlinux/$repo/os/$arch
+Server = http://ftpmirror.infania.net/mirror/archlinux/$repo/os/$arch
+Server = http://ftp.ludd.ltu.se/mirrors/archlinux/$repo/os/$arch
+Server = https://ftp.ludd.ltu.se/mirrors/archlinux/$repo/os/$arch
+Server = http://ftp.lysator.liu.se/pub/archlinux/$repo/os/$arch
+Server = https://ftp.lysator.liu.se/pub/archlinux/$repo/os/$arch
+Server = http://mirror.bahnhof.net/pub/archlinux/$repo/os/$arch
+Server = https://mirror.bahnhof.net/pub/archlinux/$repo/os/$arch
+Server = http://ftp.myrveln.se/pub/linux/archlinux/$repo/os/$arch
+Server = https://ftp.myrveln.se/pub/linux/archlinux/$repo/os/$arch
+Server = https://mirror.osbeck.com/archlinux/$repo/os/$arch
+
+Paste all to this file - Delete old text: sudo nano /etc/pacman.d/mirrorlist
+
+Time to update ARCH linux: sudo pacman -Syu 
+
+------------------------------------------------------------
+
+Install yay installer for ARCH Linux and KDE 6.
+
+sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+
+DONT FORGETT TO CD OUT FROM DIR - TYPE CD AFTER INSTALL: CD
+
+------------------------------------------------------------
+
+Install some programs For ARCH and GNOME 48.
+
+sudo pacman -S xorg xorg-server xorg-xinit mesa xterm xorg-twm xorg-xrandr xterm xorg-xclock gdm xorg-xkill xorg-xinput xorg-xwininfo
+
+yay -S bluedevil xorg-xlsfonts libqtxdg xorg-xfontsel
+
+sudo pacman -Sy gnome-browser-connector gnome-tweaks
+
+sudo systemctl enable gdm
+sudo systemctl set-default graphical
+
+------------------------------------------------------------
+
+Now we can install latest GNOME 48 for Manjaro.
+
+sudo pacman -S gnome gnome-extra
+
+---------------------------------------------------------
+
+Extra install - Chrome Browser - ARCH - GNOME.
+
+yay -S google-chrome
+
+---------------------------------------------------------
+
+Install hyfetch - like Neofetch but better or more fun. Neofetch is Dead.
+
+yay -S hyfetch fastfetch
+
+To test type hyfetch in bash / terminal / console: hyfetch
+
+---------------------------------------------------------
+
+Install blanket - gimp - LibreOffice - Code
+
+yay -S gimp blanket libreoffice code
+
+---------------------------------------------------------
+
+Fix IP problem GWSL or X410. Cant find screen problems. Look ip adress in windows terminal / PowerShell - Type this in terminal: ipconfig
+NOTE - Importent to look for ip. Last lines are right IP for WSL...
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.28.32.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed =]
+
+---------------------------------------------------------
+
+Type this in terminal and put your user there - sudo loginctl enable-linger user
+
+---------------------------------------------------------
+
+Type in terminal: sudo nano ~/.bash_archlinux_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+------------------------------------------------------
+
+Reboot - Reboot - Reboot - Reboot - Reboot - Reboot - ARCH and Gnome 48
+
+------------------------------------------------------
+
+Start X410 for windows and then start ARCH Linux - Time to start Gnome 48.
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+Paste in terminal: . ~/.bash_archlinux_desktop
+Paste in terminal: dbus-launch gnome-session
+
+------------------------------------------------------------
+
+Regards Mattias Vinberg - ARCH - Gnome 48 - X410 - WSL - Linux - Windows 11 - SWEDEN - 2025
+
+------------------------------------------------------------
