@@ -1,7 +1,7 @@
 Manjaro and GNOME 48 - Install Gnome via Manjaro - Windows 11 - WSL - X410 - Linux - 2025
 
 How to install GNOME 48 via Manjaro - WSL - TEXT
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/Manjaro-GNOME-2025.txt
 
 How to install GNOME 48 via Manjaro - WSL - MOVIE
 https://www.youtube.com/watch?v=C_SsTwbFU1g
