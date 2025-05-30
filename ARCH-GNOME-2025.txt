@@ -1,7 +1,7 @@
 ARCH and GNOME 48 - WSL - Install Gnome 48 via ARCH - Windows 11 - X410 - Linux - 2025
 
 How to install GNOME 48 via ARCH - WSL - TEXT
-Comming Zone..
+https://github.com/vinberg88/opensuse/blob/main/ARCH-GNOME-2025.txt
 
 How to install GNOME 48 via ARCH - WSL - MOVIE
 https://www.youtube.com/watch?v=h6nCOEpFkV0
