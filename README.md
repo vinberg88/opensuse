@@ -32,6 +32,68 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+ARCH and GNOME 48 - WSL - Install Gnome 48 via ARCH - Windows 11 - X410 - Linux - 2025
+
+How to install GNOME 48 via ARCH - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/ARCH-GNOME-2025.txt
+
+How to install GNOME 48 via ARCH - WSL - MOVIE
+
+https://www.youtube.com/watch?v=h6nCOEpFkV0
+
+ARCH Linux for WSL - you will find it here for WSL or go to Microsoft Store.
+
+https://apps.microsoft.com/detail/9mznmnksm73x?hl=sv-SE&gl=US
+
+Use X410 - X Server for Windows 11 in this video and it works well. Find it in Micorsoft store. 
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+![ARCH-GNOME-2025](https://github.com/user-attachments/assets/8a54fbcc-1a2c-4b10-b936-e76db2e28f61)
+
+About Arch - https://archlinux.org
+
+Arch Linux, a lightweight and flexible Linux® distribution
+that tries to Keep It Simple. Arch Linux is an independently 
+developed, x86-64 general-purpose GNU/Linux distribution that strives
+to provide the latest stable versions of most software by following
+a rolling-release model. The default installation is a minimal
+base system, configured by the user to only add what is purposely required.
+Arch Linux uses a "rolling release" system which allows one-time
+installation and perpetual software upgrades. It is not generally
+necessary to reinstall or upgrade your Arch Linux system from one
+"version" to the next. By issuing one command, an Arch system is
+kept up-to-date and on the bleeding edge.
+
+About GNOME desktop - https://www.gnome.org
+
+GNOME is designed to help you have the best possible computing
+experience. Every aspect of GNOME has been crafted to fit together
+as a harmonious whole, providing a consistent and integrated 
+experience. Our attention to detail means a smooth and polished
+product that lets you do the things you want without getting
+in the way. GNOME is satisfying to use and beautiful to behold.
+GNOME provides a focused working environment that helps you get
+things done. It is packed with features that will make you more
+productive: a powerful search feature that helps you access all
+your work from one place; side-by-side windows that make it easy
+to view several documents at the same time; seamless integration
+with online accounts which allows you to access all your data in
+one place; and a messaging system that comfortably deals with 
+notifications, letting you quickly respond in place or return to 
+them in a convenient time. Gnome desktop is my favorite!
+
+Regards Mattias Vinberg - ARCH - Gnome 48 - X410 - WSL - Linux - Windows 11 - SWEDEN - 2025
+
+---------------------------------------------
+
 Manjaro and GNOME 48 - Install Gnome via Manjaro - Windows 11 - WSL - X410 - Linux - 2025
 
 How to install GNOME 48 via Manjaro - WSL - TEXT
