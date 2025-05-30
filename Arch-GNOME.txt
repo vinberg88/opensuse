@@ -1,162 +1,206 @@
-Arch och Gnome 47 - How to install Gnome 47 via Arch - Windows 11 - WSL - X410 - Linux - 2024
+ARCH and GNOME 48 - WSL - Install Gnome 48 via ARCH - Windows 11 - X410 - Linux - 2025
 
-You can find Arch in microsoft store or via this link.
-https://apps.microsoft.com/detail/9mznmnksm73x?hl=en-US&gl=US
+How to install GNOME 48 via ARCH - WSL - TEXT
+https://github.com/vinberg88/opensuse/blob/main/ARCH-GNOME-2025.txt
 
-I use X410 - X Server for Windows 11 in this video and it works well. Find it in Micorsoft store or via this link
+How to install GNOME 48 via ARCH - WSL - MOVIE
+https://www.youtube.com/watch?v=h6nCOEpFkV0
+
+ARCH Linux for WSL - you will find it here for WSL or go to Microsoft Store.
+https://apps.microsoft.com/detail/9mznmnksm73x?hl=sv-SE&gl=US
+
+Use X410 - X Server for Windows 11 in this video and it works well. Find it in Micorsoft store. 
 https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
 
-                    -@                
-                   .##@               
-                  .####@              
-                  @#####@             
-                . *######@            
-               .##@o@#####@      Master - Mattias Vinberg - SWEDEN   
-              /############@     OS - Arch         
-             /##############@    OS - Windows  
-            @######@**%######@   DE - GNOME 47
-           @######`     %#####o       
-          @######@       ######%      
-        -@#######h       ######@.`    
-       /#####h**``       `**%@####@   
-      @H@*`                    `*%#@  
-     *`                            `* 
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
 
 
-How to install Gnome 47 on Arch - TEXT
-https://github.com/vinberg88/opensuse/blob/main/Arch-GNOME.txt
+                   -`
+                  .o+`
+                 `ooo/                    
+                `+oooo:                   
+               `+oooooo:                  Welcome to Arch - WSL - X410 - Windows 11 - Linux - 2025
+               -+oooooo+:                 
+             `/:-:++oooo+:                
+            `/++++/+++++++:               OS: Arch Linux x86_64 - WINDOWS 11 - WSL
+           `/++++++++++++++:              Host: Windows Subsystem for Linux - Arch (2.5.7.0)
+          `/+++ooooooooooooo/`            Kernel: Linux 6.6.87.1-microsoft-standard-WSL2
+         ./ooosssso++osssssso+`           WM: WSLg 1.0.66 (Wayland)
+        .oossssso-````/ossssss+`          
+       -osssssso.      :ssssssso.         
+      :osssssss/        osssso+++.       
+     /ossssssss/        +ssssooo/-        
+   `/ossssso+/:-        -:/+osssso+-      MEDIA - MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2025
+  `+sso+:-`                 `.-/+oso:     
+ `++:.                           `-/+/    
+ .`                                 `/ 
 
-How to install Gnome 47 on Arch - Movie
-https://www.youtube.com/watch?v=ujjUmge6cUo
 
-About Gnome 47 - https://www.gnome.org
-
-Every aspect of GNOME has been crafted to fit together
-as a harmonious whole, providing a consistent and integrated
-experience. Our attention to detail means a smooth and
-polished product that lets you do the things you want
-without getting in the way. GNOME is satisfying to use
-and beautiful to behold. Every part of GNOME has been
-designed to make it simple and easy to use. The Activities
-Overview is a simple way to access all your basic tasks.
-A press of a button is all it takes to view your open 
-windows, launch applications, or check if you have new 
-messages. Having everything in one convenient place means
-you don’t have to learn your way around a maze
-of different technologies. An easy and elegant way to use
-your computer, GNOME is designed to help you have the best
-possible computing experience. 
-
-About Arch Linux - https://archlinux.org
+About Arch - https://archlinux.org
 
 Arch Linux, a lightweight and flexible Linux® distribution
 that tries to Keep It Simple. Arch Linux is an independently 
 developed, x86-64 general-purpose GNU/Linux distribution that strives
 to provide the latest stable versions of most software by following
 a rolling-release model. The default installation is a minimal
-base system, configured by the user to only add what is purposely
-required. The best Arch-based Linux distros make it simple and
-easy to carry the power and flexibility of Arch Linux into a
-desktop friendly package. The best Arch-based Linux distros provide
-impressive customizability. Arch adheres to a rolling release
-model, which means you can install it once and keep updating
-it till eternity. 
+base system, configured by the user to only add what is purposely required.
+Arch Linux uses a "rolling release" system which allows one-time
+installation and perpetual software upgrades. It is not generally
+necessary to reinstall or upgrade your Arch Linux system from one
+"version" to the next. By issuing one command, an Arch system is
+kept up-to-date and on the bleeding edge.
 
-You will find more stuff here for WSL - Windows 11 - Linux - Arch 
-https://github.com/vinberg88/opensuse
+About GNOME desktop - https://www.gnome.org
 
-------------------------------------------------------------
+GNOME is designed to help you have the best possible computing
+experience. Every aspect of GNOME has been crafted to fit together
+as a harmonious whole, providing a consistent and integrated 
+experience. Our attention to detail means a smooth and polished
+product that lets you do the things you want without getting
+in the way. GNOME is satisfying to use and beautiful to behold.
+GNOME provides a focused working environment that helps you get
+things done. It is packed with features that will make you more
+productive: a powerful search feature that helps you access all
+your work from one place; side-by-side windows that make it easy
+to view several documents at the same time; seamless integration
+with online accounts which allows you to access all your data in
+one place; and a messaging system that comfortably deals with 
+notifications, letting you quickly respond in place or return to 
+them in a convenient time. Gnome desktop is my favorite!
 
-sudo nano /etc/wsl.conf 
+Find More Stuff here About WSL - Linux - Microsoft - https://github.com/vinberg88/opensuse
 
-and add
+---------------------------------
 
-[boot]
-systemd=true
+TIME TO START INSTALL FOR GNOME 48 VIA ARCH AND WINDOWS 10/11..
 
--------------------------------------------------------------
+---------------------------------
 
-Add this terminal: sudo nano /etc/pacman.conf
+First thing to do change this file.
 
-And change this in bash.
+Paste in terminal: sudo nano /etc/pacman.conf 
+
+and change in file to - Delete old text.
 
 # Misc options
 #UseSyslog
 Color
-ILoveCandy
-#NoProgressBar
-##CheckSpace
-VerbosePkgLists
 ParallelDownloads = 20
+ILoveCandy
+#TotalDownload
+#CheckSpace
+VerbosePkgLists
 
--------------------------------------------------------------
+---------------------------------
 
-Reboot Reboot Reboot Reboot - ARCH - Reboot Reboot Reboot - ARCH
-
------------------------------------------------------------
-
-Update Arch Linux by copy and paste this lines in Terminal.
-
-sudo pacman -Syu
+Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot ARCH
 
 ------------------------------------------------------------
 
-Getting the fastest mirrors/repos for Arch Linux...
+Time to Update all and get fast repos/mirrors
 
-sudo pacman -S reflector rsync
+Go here and find your repos/mirrors: https://archlinux.org/mirrorlist/
 
-sudo reflector --country "Sweden" --latest 10 --sort rate --save /etc/pacman.d/mirrorlist
+MY TEXT THAT I USE FOR ARCH REPOS...
 
-Look at list: cat /etc/pacman.d/mirrorlist
+##
+## Arch Linux repository mirrorlist
+## Generated on 2025-05-30
+##
 
-sudo systemctl enable --now reflector.service
+## Sweden
+Server = http://mirror.accum.se/mirror/archlinux/$repo/os/$arch
+Server = https://mirror.accum.se/mirror/archlinux/$repo/os/$arch
+Server = https://mirror.braindrainlan.nu/archlinux/$repo/os/$arch
+Server = http://ftpmirror.infania.net/mirror/archlinux/$repo/os/$arch
+Server = http://ftp.ludd.ltu.se/mirrors/archlinux/$repo/os/$arch
+Server = https://ftp.ludd.ltu.se/mirrors/archlinux/$repo/os/$arch
+Server = http://ftp.lysator.liu.se/pub/archlinux/$repo/os/$arch
+Server = https://ftp.lysator.liu.se/pub/archlinux/$repo/os/$arch
+Server = http://mirror.bahnhof.net/pub/archlinux/$repo/os/$arch
+Server = https://mirror.bahnhof.net/pub/archlinux/$repo/os/$arch
+Server = http://ftp.myrveln.se/pub/linux/archlinux/$repo/os/$arch
+Server = https://ftp.myrveln.se/pub/linux/archlinux/$repo/os/$arch
+Server = https://mirror.osbeck.com/archlinux/$repo/os/$arch
 
-------------------------------------------------------
+Paste all to this file - Delete old text: sudo nano /etc/pacman.d/mirrorlist
 
-Reboot - Reboot - Reboot - Reboot - Reboot - Reboot - Arch 
+Time to update ARCH linux: sudo pacman -Syu 
 
-------------------------------------------------------
+------------------------------------------------------------
 
-Install this programs for ARCH 
-
-sudo pacman -S bash git npm wget curl dialog go fakeroot dbus ibus
-
------------------------------------------------------------
-
-Install YAY helper for easy installation
+Install yay installer for ARCH Linux and KDE 6.
 
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 
------------------------------------------------------------
+DONT FORGETT TO CD OUT FROM DIR - TYPE CD AFTER INSTALL: CD
 
-Extra programs to install. You need this programs =]
+------------------------------------------------------------
 
-yay -S google-chrome blanket hyfetch gimp libreoffice
+Install some programs For ARCH and GNOME 48.
 
------------------------------------------------------------
+sudo pacman -S xorg xorg-server xorg-xinit mesa xterm xorg-twm xorg-xrandr xterm xorg-xclock gdm xorg-xkill xorg-xinput xorg-xwininfo
 
-Install this for GDM and ARCH - one by one...
+yay -S bluedevil xorg-xlsfonts libqtxdg xorg-xfontsel
 
-sudo pacman -S xorg xorg-server xorg-xinit mesa xterm xorg-twm xorg-xrandr
-sudo pacman -S xorg-xclock gdm bluedevil libqtxdg gnome-browser-connector
-sudo pacman -S xorg-xfontsel xorg-xlsfonts xorg-xkill xorg-xinput xorg-xwininfo
+sudo pacman -Sy gnome-browser-connector gnome-tweaks
 
 sudo systemctl enable gdm
 sudo systemctl set-default graphical
 
------------------------------------------------------------
+------------------------------------------------------------
 
-Now we can install latest GNOME 47 for Arch Linux.
+Now we can install latest GNOME 48 for Manjaro.
 
 sudo pacman -S gnome gnome-extra
 
------------------------------------------------------------
+---------------------------------------------------------
 
-Type this in terminal and put your user there: sudo loginctl enable-linger user
+Extra install - Chrome Browser - ARCH - GNOME.
 
-----------------------------------------------------------------
+yay -S google-chrome
 
-Type in terminal: sudo nano ~/.bash_Arch_desktop
+---------------------------------------------------------
+
+Install hyfetch - like Neofetch but better or more fun. Neofetch is Dead.
+
+yay -S hyfetch fastfetch
+
+To test type hyfetch in bash / terminal / console: hyfetch
+
+---------------------------------------------------------
+
+Install blanket - gimp - LibreOffice - Code
+
+yay -S gimp blanket libreoffice code
+
+---------------------------------------------------------
+
+Fix IP problem GWSL or X410. Cant find screen problems. Look ip adress in windows terminal / PowerShell - Type this in terminal: ipconfig
+NOTE - Importent to look for ip. Last lines are right IP for WSL...
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.28.32.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed =]
+
+---------------------------------------------------------
+
+Type this in terminal and put your user there - sudo loginctl enable-linger user
+
+---------------------------------------------------------
+
+Type in terminal: sudo nano ~/.bash_archlinux_desktop
 
 Paste this in terminal and save:
 
@@ -168,23 +212,18 @@ export LIBGL_ALWAYS_SOFTWARE=1
 
 ------------------------------------------------------
 
-Reboot - Reboot - Reboot - Reboot - Reboot - Reboot - Arch 
+Reboot - Reboot - Reboot - Reboot - Reboot - Reboot - ARCH and Gnome 48
 
 ------------------------------------------------------
 
-Start X410 for windows 11 and start Arch - Time to start Gnome 47.
+Start X410 for windows and then start ARCH Linux - Time to start Gnome 48.
 
 Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
-Paste in terminal: . ~/.bash_Arch_desktop
-Paste in terminal: gnome-session
-
-If it not starts you can try this: dbus-launch gnome-session
-
-NOTE - It take some time to start Gnome 47. You may have to try more than one to start Gnome via: gnome-session
+Paste in terminal: . ~/.bash_archlinux_desktop
+Paste in terminal: dbus-launch gnome-session
 
 ------------------------------------------------------------
 
-Regards Mattias Vinberg - ARCH - Gnome 47 - X410 - WSL - Linux - Windows 11 - SWEDEN - 2024
+Regards Mattias Vinberg - ARCH - Gnome 48 - X410 - WSL - Linux - Windows 11 - SWEDEN - 2025
 
 ------------------------------------------------------------
-
