@@ -32,6 +32,45 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+EndeavourOS and Gnome 48 - Install Gnome via EndeavourOS - Linux - WSL - Windows 11 - Youtube - 2025
+
+How to install EndeavourOS - TEXT - https://github.com/vinberg88/opensuse/blob/main/EndeavourOS-Gnome.txt
+
+How to install EndeavourOS - VIDEO - https://www.youtube.com/watch?v=LZLWe3TpFmY
+
+You can find EndeavourOS here for WSL: https://github.com/sileshn/EndeavourOSWSL2
+
+Use X410 - X Server for Windows 11 in this video and it works well. Find it in Micorsoft store.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+![EndeavourOS-Gnome](https://github.com/user-attachments/assets/6ff7ec3b-9e2f-4ecc-b041-c41330a5ffea)
+
+What is EndeavourOS - https://endeavouros.com
+
+EndeavourOS is a rolling release Linux distribution based on Arch Linux.
+The project aims to be a spiritual successor to Antergos - providing an easy
+setup and pre-configured desktop environment on an Arch base. 
+EndeavourOS offers both off-line and on-line install options. 
+The off-line installer, Calamares, uses the Xfce desktop by default. 
+The on-line installer can install optional software components, including
+most popular desktop environments.
+
+About Gnome Desktop 48 - https://www.gnome.org
+
+GNOME is a desktop environment that aims to be simple and easy to use. It is
+designed by The GNOME Project and is composed entirely of free and open-source software.
+
+Regards - Mattias Vinberg - EndeavourOS - Gnome - WSL - X410 - GitHub - Sweden - Stockholm - 2025
+
+---------------------------------------------
+
 ARCH and GNOME 48 - WSL - Install Gnome 48 via ARCH - Windows 11 - X410 - Linux - 2025
 
 How to install GNOME 48 via ARCH - WSL - TEXT
