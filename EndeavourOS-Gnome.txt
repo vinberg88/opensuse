@@ -1,125 +1,168 @@
-EndeavourOS - Linux - WSL - Gnome - 2024 - Windows Subsystem For Linux - 2024
+EndeavourOS and Gnome 48 - Install Gnome via EndeavourOS - Linux - WSL - Windows 11 - Youtube - 2025
+
+How to install EndeavourOS - TEXT - https://github.com/vinberg88/opensuse/blob/main/EndeavourOS-Gnome.txt
+
+How to install EndeavourOS - VIDEO - https://www.youtube.com/watch?v=LZLWe3TpFmY
 
 You can find EndeavourOS here for WSL: https://github.com/sileshn/EndeavourOSWSL2
 
-Find more stuff for WSL here: https://github.com/vinberg88/opensuse
+Use X410 - X Server for Windows 11 in this video and it works well. Find it in Micorsoft store. 
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
 
-How to install text: https://github.com/vinberg88/opensuse/blob/main/EndeavourOS-Gnome.txt
-
-Movie - how to install EndeavourOS: https://www.youtube.com/watch?v=dYxH8lsOI1o
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
 
                                    (                       
                                  #///#                     
                                #///////#                   
                              ##/////////##                 
-                           ##/////////////##               
+                           ##/////////////##                  Welcome to EndeavourOS and WSL and Gnome Desktop.
                          ###///////////////###             
-                       ###(//////////////////##            
+                       ###(//////////////////##               UPDATED INSTALLATION - 2025-05-31 - Endeavour OS
                       ###/////////////////////###          
                     ####///////////////////////####        
-                  ####///////////////////////////###       
-                #####/////////////////////////////####     
-              ######///////////////////////////////####    
-            ######//////////////////////////////////####(  
+                  ####///////////////////////////###          OS: EndeavourOS x86_64 - WINDOWS 11 / 10
+                #####/////////////////////////////####        Host: Windows Subsystem for Linux - EndeavourOS (2.5.7.0)
+              ######///////////////////////////////####       Kernel: Linux 6.6.87.1-microsoft-standard-WSL2
+            ######//////////////////////////////////####(     WM: WSLg 1.0.66 (Wayland)
            ######///////////////////////////////////(##### 
          ######//////////////////////////////////////######
        #######////////////////////////////////////////#####
      ########/////////////////////////////////////////#####
-   ########//////////////////////////////////////////######
+   ########//////////////////////////////////////////######   MEDIA: Mattias Vinberg - Sweden - Stockholm - 2025
  /########///////////////////////////////////////////######
      ####//////////////////////////////////////////########
        #####################///////////////////########### 
       #################################################
 
-What is EndeavourOS: EndeavourOS is a rolling release Linux distribution based on Arch Linux.
+What is EndeavourOS - https://endeavouros.com
+
+EndeavourOS is a rolling release Linux distribution based on Arch Linux.
 The project aims to be a spiritual successor to Antergos - providing an easy
 setup and pre-configured desktop environment on an Arch base. 
 EndeavourOS offers both off-line and on-line install options. 
 The off-line installer, Calamares, uses the Xfce desktop by default. 
-The on-line installer can install optional software components, including most popular desktop environments.
+The on-line installer can install optional software components, including
+most popular desktop environments.
 
-About Gnome Desktop: GNOME is a desktop environment that aims to be simple and easy to use. It is
+About Gnome Desktop 48 - https://www.gnome.org
+
+GNOME is a desktop environment that aims to be simple and easy to use. It is
 designed by The GNOME Project and is composed entirely of free and open-source software.
 
-How to install Gnome desktop via WSL and EndeavourOS - Windows 11
+Find more stuff for WSL here: https://github.com/vinberg88/opensuse
 
 ------------------------------------------------------------
 
-1.5: Reboot and update: sudo pacman -Syu
+How to install Gnome via WSL and EndeavourOS - Windows 11 - Lets start install!
+
+------------------------------------------------------------
+
+Run this to get faster Mirrors - Repos
+
+rate-mirrors arch | sudo tee /etc/pacman.d/mirrorlist
+
+------------------------------------------------------------
+
+After install update all: sudo pacman -Syu
 
 -----------------------------------------------------------
 
-2. Install one by one...
+Install one by one...
 
 sudo pacman -S xorg xorg-server xorg-xinit mesa xterm xorg-twm xorg-xrandr
 sudo pacman -S xterm xorg-xclock gdm bluedevil libqtxdg
 sudo pacman -S xorg-xrandr xorg-xfontsel xorg-xlsfonts xorg-xkill xorg-xinput xorg-xwininfo
 
+sudo pacman -S gnome-browser-connector gnome-tweaks
+
 sudo systemctl enable gdm
 sudo systemctl set-default graphical
 
+---------------------------------------------------------
+
+Time to install GNOME DESKTOP =]
+
 sudo pacman -S gnome gnome-extra
 
-Extra install: yay -S google-chrome
+---------------------------------------------------------
+
+Install hyfetch - like Neofetch but better or more fun. Neofetch is Dead.
+
+yay -S hyfetch fastfetch
+
+To test type hyfetch in bash / terminal / console: hyfetch
 
 ---------------------------------------------------------
 
-Reboot and Fire UP GWSL and CONFIG - Start Shell from GWSL
+Install Chrome Browser.
+
+yay -S google-chrome
 
 ---------------------------------------------------------
 
-Paste in terminal: xdg-user-dirs-update
+Install blanket - gimp - LibreOffice - Code
 
-Paste in terminal: sudo systemctl set-default multi-user.target
+yay -S gimp blanket libreoffice code
 
-Paste in terminal: sudo systemctl set-default graphical.target
+---------------------------------------------------------
 
-Paste in terminal : sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+Fix IP problem GWSL or X410. Cant find screen problems. Look ip adress in windows terminal / PowerShell - Type this in terminal: ipconfig
+NOTE - Importent to look for ip. Last lines are right IP for WSL...
 
-Type this in terminal and put your user there - loginctl enable-linger user
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
 
-Type in terminal: sudo nano ~/.bash_arch_desktop
+nameserver 172.28.32.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed =]
+
+---------------------------------------------------------
+
+Paste in terminal: 
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+---------------------------------------------------------
+
+Type this in terminal and put your user there - sudo loginctl enable-linger user
+
+---------------------------------------------------------
+
+Type in terminal: sudo nano ~/.bash_vourOS_desktop
 
 Paste this in terminal and save:
-
-------------------------------------------------------
-
-# Vinberg - Fyren 1488
-# Start to flight adolf!
-# --------------------
-# Setting up essential environment variables
-# --------------------
-
-export XDG_CURRENT_DESKTOP=ubuntu:GNOME
-export XDG_SESSION_DESKTOP=ubuntu
-export DESKTOP_SESSION=ubuntu
-export GNOME_SHELL_SESSION_MODE=ubuntu
-
-# Commonly referenced environment variables for X11 sessions
-# https://specifications.freedesktop.org/basedir-spec/latest/
-
-export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
-export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
-export XDG_MENU_PREFIX=gnome-
 
 export XDG_SESSION_TYPE=x11
 export XDG_SESSION_CLASS=user
 export GDK_BACKEND=x11
 
-# Disables using Direct3D in Mesa 3D graphics library
 export LIBGL_ALWAYS_SOFTWARE=1
 
 ------------------------------------------------------
 
-Reboot - Reboot - Reboot - Reboot - Reboot - Reboot
+Reboot - Reboot - Reboot - Reboot - Reboot - Reboot - EndeavourOS
 
 ------------------------------------------------------
 
-Paste in terminal: . ~/.bash_arch_desktop
+Start X410 for windows and then start EndeavourOS - Time to start Gnome.
 
-Type in terminal: dbus-launch gnome-session
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+Paste in terminal: . ~/.bash_vourOS_desktop
+Paste in terminal: dbus-launch gnome-session
 
 ------------------------------------------------------------
 
-And we are Done,
-Mattias Vinberg
+Regards - Mattias Vinberg - EndeavourOS - Gnome - WSL - X410 - GitHub - YouTube - Sweden - 2025
+
+------------------------------------------------------------
