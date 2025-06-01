@@ -1,112 +1,170 @@
-EndeavourOS - How to Install KDE plasma 6.0.5 via WSL - GWSL - Windows 11 - EndeavourOS
+Endeavouros - Endeavour - WSL - KDE 6 - How to install KDE via Endeavour - Windows 11 - 2025
 
-You Can Find EndeavourOS for WSL Here - 2024
-https://github.com/sileshn/EndeavourOSWSL2
-
-
-                     ./${c2}o${c3}.
-                   ./${c2}sssso${c3}-
-                 `:${c2}osssssss+${c3}-
-               `:+${c2}sssssssssso${c3}/.
-             `-/o${c2}ssssssssssssso${c3}/.
-           `-/+${c2}sssssssssssssssso${c3}+:`
-         `-:/+${c2}sssssssssssssssssso${c3}+/.
-       `.://o${c2}sssssssssssssssssssso${c3}++-
-      .://+${c2}ssssssssssssssssssssssso${c3}++:
-    .:///o${c2}ssssssssssssssssssssssssso${c3}++:
-  `:////${c2}ssssssssssssssssssssssssssso${c3}+++.
-`-////+${c2}ssssssssssssssssssssssssssso${c3}++++-
- `..-+${c2}oosssssssssssssssssssssssso${c3}+++++/`
-
-
-How to install Plasma KDE 6 on EndeavourOS - TEXT
+How to install KDE 6 via Endeavouros / Endeavour and Windows 11 - TEXT
 https://github.com/vinberg88/opensuse/blob/main/EndeavourOS-KDE-6.txt
 
-How to install Plasma KDE 6 on EndeavourOS - Movie
-https://www.youtube.com/watch?v=vcVB_HaZJSo
+How to install KDE 6 via Endeavouros / Endeavour and Windows 11 - MOVIE
+https://www.youtube.com/watch?v=JFGt01hEg2E
 
-About KDE plasma 6.0.5
+You can find EndeavourOS here for WSL - https://github.com/sileshn/EndeavourOSWSL2
+
+Use X410 - X Server for Windows 11 in this video and it works well. Find it in Micorsoft store. 
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+                                   (                       
+                                 #///#                     
+                               #///////#                   
+                             ##/////////##                 
+                           ##/////////////##                  Welcome to EndeavourOS and WSL and KDE 6.
+                         ###///////////////###             
+                       ###(//////////////////##               
+                      ###/////////////////////###             UPDATED INSTALLATION - 2025-06-01 - Endeavour OS
+                    ####///////////////////////####        
+                  ####///////////////////////////###          OS: EndeavourOS x86_64 - WINDOWS 11 / 10
+                #####/////////////////////////////####        Host: Windows Subsystem for Linux - Endeavour (2.5.7.0)
+              ######///////////////////////////////####       Kernel: Linux 6.6.87.1-microsoft-standard-WSL2
+            ######//////////////////////////////////####(     WM: WSLg 1.0.66 (Wayland)
+           ######///////////////////////////////////(#####    Desktop: Xfce - Windows 11 - Microsoft and Endeavour
+         ######//////////////////////////////////////######
+       #######////////////////////////////////////////#####
+     ########/////////////////////////////////////////#####
+   ########//////////////////////////////////////////######   MEDIA: Mattias Vinberg - Sweden - Stockholm - 2025
+ /########///////////////////////////////////////////######
+     ####//////////////////////////////////////////########
+       #####################///////////////////########### 
+      #################################################
+
+
+About EndeavourOS - https://endeavouros.com
+
+EndeavourOS is an Arch-based distro that provides an Arch 
+experience without the hassle of installing it manually for
+x86_64 and ARM devices. After installation, you’re provided
+with a lightweight and almost bare-bones environment ready to
+be explored with your terminal, along with our home-built
+Welcome App as a powerful guide to help you along.
+
+About KDE 6 PLASMA - https://kde.org
 
 Plasma is a Desktop - Use Plasma to surf the
 web; keep in touch with colleagues, friends and family; manage your
 files, enjoy music and videos; and get creative and productive at work.
 Do it all in a beautiful environment that adapts to your needs, and
 with the safety, privacy-protection and peace of mind that the best
-Free Open Source Software has to offer - https://kde.org
+Free Open Source Software has to offer.
 
-About EndeavourOS
+Find More Stuff here for WSL - X410 - WINDOWS 11
 
-EndeavourOS is an Arch-based distro that provides
-an Arch experience without the hassle of installing
-it manually for x86_64 machines. After installation, you’re
-provided with a lightweight and almost bare-bones
-environment ready to be explored with your terminal, along
-with our home-built Welcome App as a powerful
-guide to help you along - https://endeavouros.com
+https://github.com/vinberg88/opensuse
 
-You will find more stuff here for WSL: https://github.com/vinberg88/opensuse
+-------------------------
+
+First thing you need to do is copy this file to C:\Users\user  <-- user is not your name =]
+
+Its easy use Explorer and copy and past. Download this file.
+
+https://drive.proton.me/urls/G602NV0DFG#Rn5D1Tny3TpQ
+
+-------------------------
+
+Run this to get faster Mirrors - Repos
+
+rate-mirrors arch | sudo tee /etc/pacman.d/mirrorlist
 
 ------------------------------------------------------------
-
-0. Enable repos
 
 Paste in terminal: sudo nano /etc/pacman.conf
 
-Uncomment the section of the repositorie to switch your install to
-the Testing repositories, which has the Plasma 6 packages for EndeavourOS
+And change to 20 ParallelDownloads - Faster download and faster install.
 
-[core-testing]
-Include = /etc/pacman.d/mirrorlist
-
-and
-
-[extra-testing]
-Include = /etc/pacman.d/mirrorlist
+ParallelDownloads = 20
 
 ------------------------------------------------------------
 
-Reboot EndeavourOS - Reboot EndeavourOS - Reboot EndeavourOS
+Update All via terminal for EndeavourOS - Endeavour
+
+sudo pacman -Syu
 
 ------------------------------------------------------------
 
-2. Update EndeavourOS - sudo pacman -Syu
+Paste all in terminal - One by One!
+
+sudo pacman -S xorg xorg-server xorg-xinit mesa xterm xorg-twm xorg-xrandr
+
+sudo pacman -S xorg-twm xterm xorg-xclock sddm bluedevil libqtxdg
+
+sudo pacman -S xorg-xfontsel xorg-xlsfonts xorg-xkill xorg-xinput xorg-xwininfo
+
+sudo pacman -S bash git npm wget curl dialog go fakeroot dbus ibus networkmanager glxinfo
 
 ------------------------------------------------------------
+ 
+Install Hyfetch to see where we are =]
 
-3. Install this tools for EndeavourOS - KDE 6
+yay -S hyfetch fastfetch
 
-sudo pacman -S xorg xorg-server xorg-xinit mesa xterm xorg-twm xorg-xrandr xterm xorg-xclock sddm
-bluedevil libqtxdg xorg-xfontsel xorg-xlsfonts xorg-xkill xorg-xinput xorg-xwininfo
+Test by type thie in Bash after install: hyfetch
 
-------------------------------------------------------------
+----------------------------------------------------------------
 
-4. Time To install KDE plasma 6 =]
+Install Google Chrome - Favorite!
+
+yay -S google-chrome
+
+----------------------------------------------------------------
+
+Install Blanket - Listen to sounds.
+
+yay -S blanket
+
+---------------------------------------------------------
+
+Install Gimp - LibreOffice - Code
+
+yay -S gimp libreoffice code
+
+---------------------------------------------------------
+
+Time to install KDE 6 Desktop for Endeavour - 2025 - EndeavourOS
 
 sudo pacman -S plasma-meta kde-applications-meta plasma
 
-------------------------------------------------------------
+----------------------------------------------------------------
 
-5. Paste in terminal - all
+Paste all in terminal to start lightdm
 
 sudo systemctl enable sddm.service
 sudo systemctl enable NetworkManager.service
 sudo systemctl set-default graphical
 
-------------------------------------------------------------
-
-6. Type this in terminal and put your user there: loginctl enable-linger user
-
 ----------------------------------------------------------------
 
-Reboot Endeavouros - Reboot Endeavouros - Reboot Endeavouros
+Fix IP problem GWSL or X410. Cant find screen problems. Look ip adress in windows terminal / PowerShell
 
-----------------------------------------------------------------
+TYPE THIS IN TERMINAL / BASH / CONSOLE for windows: ipconfig
 
-Start GWSL and Config and Start Endeavouros from GWSL - SHELL - BASH
+NOTE - Importent to look for ip. Last lines are right IP for WSL...
 
-----------------------------------------------------------------
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
 
-Type in terminal: sudo nano ~/.bash_Os_desktop
+nameserver 172.28.32.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed =]
+
+---------------------------------------------------------
+
+Type in terminal: sudo nano ~/.bash_KDE_desktop
 
 Paste this in terminal and save:
 
@@ -118,19 +176,20 @@ export LIBGL_ALWAYS_SOFTWARE=1
 
 ----------------------------------------------------------------
 
-Reboot Endeavouros - Reboot Endeavouros - Reboot Endeavouros
+Reboot Linux - Reboot Linux - Reboot Linux - Reboot Linux - Endeavour - EndeavourOS
 
 ----------------------------------------------------------------
 
-Time to start KDE Plasma 6 on Endeavouros.
+Time to start KDE 6. First start X410 then you start Endeavour via terminal -  Done =]
 
-Paste in terminal: . ~/.bash_Os_desktop
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
 
-dbus-launch startplasma-x11
+Paste in Terminal: . ~/.bash_KDE_desktop
 
-----------------------------------------------------------------
-
-Endeavouros - 2024 - Mattias Vinberg - Sweden - KDE Plasma 6.0.5
+Paste in Terminal: dbus-launch startplasma-x11
 
 ----------------------------------------------------------------
 
+Regards Mattias Vinberg - EndeavourOS - Linux - KDE 6 - WSL - SweDen - X410 - Windows 11 - Endeavour - 2025
+
+----------------------------------------------------------------
