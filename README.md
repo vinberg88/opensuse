@@ -1304,37 +1304,38 @@ Regards Mattias Vinberg - Sweden - Manjaro - Xfce 4 - WSL - GWSL - Windows 11 - 
 
 ---------------------------------------------
 
-EndeavourOS and Xfce4 - WSL - How to install XFCE 4 via EndeavourOS and Windows 11 - GWSL - Linux - 2025
+Endeavouros - Endeavour - WSL - Xfce Desktop - How to install Xfce via Endeavour - Windows 11 - 2025
 
-You can find EndeavourOS via this link: https://github.com/sileshn/EndeavourOSWSL2
-
-GWSL is an XServer that lets you easily run graphical Linux apps and desktop on Windows 11
-
-GWSL here: https://apps.microsoft.com/detail/9nl6kd1h33v3?hl=en-US&gl=US
-
-How to install Xfce4 via Endeavour and Microsoft - WSL - TEXT
+How to install Xfce desktop via Endeavouros / Endeavour and Windows 11 - TEXT
 
 https://github.com/vinberg88/opensuse/blob/main/EndeavourOS-Xfce.txt
 
-How to install Xfce4 via Endeavour and Microsoft - WSL - MOVIE
+How to install Xfce desktop via Endeavouros / Endeavour and Windows 11 - MOVIE
 
-https://www.youtube.com/watch?v=-fh2hs7pKK8
+https://www.youtube.com/watch?v=HEaT2PY0yVk
 
-![EndeavourOS-Xfce](https://github.com/user-attachments/assets/1fbe3a91-b00f-4cd1-8fdd-b89317639744)
+You can find EndeavourOS here for WSL - https://github.com/sileshn/EndeavourOSWSL2
+
+Use X410 - X Server for Windows 11 in this video and it works well. Find it in Micorsoft store. 
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+![EndeavourOS-Xfce](https://github.com/user-attachments/assets/0c7ba857-0cbd-4b67-a5ef-af81b8329e9b)
 
 About EndeavourOS - https://endeavouros.com
 
-When the popular Arch-based distro Antergos ended its run in May 2019,
-it left a friendly and extremely helpful community behind. Within a
-matter of days after the announcement, Bryan Poerwoatmodjo opted for
-the idea to continue the community feeling on a new forum that would
-invite any Arch or Arch-based Linux user into the group. The idea 
-received a lot of enthusiastic response, more than enough for him
-to get the project going. Quickly, Johannes Kamprad, Fernando
-Omiechuk Frozi and Manuel joined him to set up the project and
-when that happened, the plan changed from preserving the former
-community on a new forum to creating a new distro with that vibrant
-community at its core. Endeavour is like god as Arch...
+EndeavourOS is an Arch-based distro that provides an Arch 
+experience without the hassle of installing it manually for
+x86_64 and ARM devices. After installation, you’re provided
+with a lightweight and almost bare-bones environment ready to
+be explored with your terminal, along with our home-built
+Welcome App as a powerful guide to help you along.
 
 Xfce 4 Desktop Environment - https://www.xfce.org
 
@@ -1351,9 +1352,7 @@ Xfce can be installed on several UNIX platforms. It is known to
 compile on Linux, NetBSD, FreeBSD, OpenBSD, Solaris, Cygwin and
 MacOS X, on x86, PPC, Sparc, Alpha...
 
-Want to see more WSL and Linux for Windows: https://github.com/vinberg88/opensuse
-
-Regards Mattias Vinberg - Endeavour - Xfce4 - Xfce - GWSL - WSL - Linux - Windows 11 - SWEDEN - 2025
+Regards Mattias Vinberg - EndeavourOS - Linux - xfce 4 - WSL - SweDen - X410 - Windows 11 - Endeavour - 2025
 
 ---------------------------------------------
 
