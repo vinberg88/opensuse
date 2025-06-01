@@ -5656,47 +5656,51 @@ Arco Linux - 2024 - Mattias Vinberg - Sweden - KDE Plasma 6 - WSL
 
 ---------------------------------------------
 
-EndeavourOS - How to Install KDE plasma 6.0.5 via WSL - GWSL - Windows 11 - EndeavourOS
+Endeavouros - Endeavour - WSL - KDE 6 - How to install KDE via Endeavour - Windows 11 - 2025
 
-You Can Find EndeavourOS for WSL Here - 2024
-
-https://github.com/sileshn/EndeavourOSWSL2
-
-![EndeavourOS-KDE-6](https://github.com/vinberg88/opensuse/assets/94398623/0119f9ec-d27c-4610-ae0e-6f0c702a145a)
-
-How to install Plasma KDE 6 on EndeavourOS - TEXT
+How to install KDE 6 via Endeavouros / Endeavour and Windows 11 - TEXT
 
 https://github.com/vinberg88/opensuse/blob/main/EndeavourOS-KDE-6.txt
 
-How to install Plasma KDE 6 on EndeavourOS - Movie
+How to install KDE 6 via Endeavouros / Endeavour and Windows 11 - MOVIE
 
-https://www.youtube.com/watch?v=vcVB_HaZJSo
+https://www.youtube.com/watch?v=JFGt01hEg2E
 
-About KDE plasma 6.0.5
+You can find EndeavourOS here for WSL - https://github.com/sileshn/EndeavourOSWSL2
+
+Use X410 - X Server for Windows 11 in this video and it works well. Find it in Micorsoft store.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+![EndeavourOS-KDE-6](https://github.com/user-attachments/assets/33aa6cdc-2118-49e0-825f-29ac3e2e7817)
+
+About EndeavourOS - https://endeavouros.com
+
+EndeavourOS is an Arch-based distro that provides an Arch 
+experience without the hassle of installing it manually for
+x86_64 and ARM devices. After installation, you’re provided
+with a lightweight and almost bare-bones environment ready to
+be explored with your terminal, along with our home-built
+Welcome App as a powerful guide to help you along.
+
+About KDE 6 PLASMA - https://kde.org
 
 Plasma is a Desktop - Use Plasma to surf the
 web; keep in touch with colleagues, friends and family; manage your
 files, enjoy music and videos; and get creative and productive at work.
 Do it all in a beautiful environment that adapts to your needs, and
 with the safety, privacy-protection and peace of mind that the best
-Free Open Source Software has to offer - https://kde.org
+Free Open Source Software has to offer.
 
-About EndeavourOS
+Find More Stuff here for WSL - X410 - WINDOWS 11: https://github.com/vinberg88/opensuse
 
-EndeavourOS is an Arch-based distro that provides
-an Arch experience without the hassle of installing
-it manually for x86_64 machines. After installation, you’re
-provided with a lightweight and almost bare-bones
-environment ready to be explored with your terminal, along
-with our home-built Welcome App as a powerful
-guide to help you along - https://endeavouros.com
-
-You will find more stuff here for WSL
-
-https://github.com/vinberg88/opensuse
-
-Regards,
-Endeavouros - 2024 - Mattias Vinberg - Sweden - KDE Plasma 6
+Regards Mattias Vinberg - EndeavourOS - Linux - KDE 6 - WSL - SweDen - X410 - Windows 11 - Endeavour - 2025
 
 ---------------------------------------------
 
@@ -7497,29 +7501,51 @@ Mattias Vinberg
 
 ----------------------------------------------
 
-How to setup EndeavourOS via Windwos 11 whit KDE Desktop - WSL - KDE PLasmA
+Endeavouros - Endeavour - WSL - KDE 6 - How to install KDE via Endeavour - Windows 11 - 2025
 
-Tutorial: https://github.com/vinberg88/opensuse/blob/main/EndeavourOS.txt
+How to install KDE 6 via Endeavouros / Endeavour and Windows 11 - TEXT
 
-Movie - How to install kde plasma on EndeavourOS : https://www.youtube.com/watch?v=qackVXfqpTU
+https://github.com/vinberg88/opensuse/blob/main/EndeavourOS-KDE-6.txt
 
-![EndeavourOS](https://github.com/vinberg88/opensuse/assets/94398623/ad38bab6-3f43-4d65-9286-8d8414e37471)
+How to install KDE 6 via Endeavouros / Endeavour and Windows 11 - MOVIE
 
-Thank you for Watching,
-Mattias Vinberg
+https://www.youtube.com/watch?v=JFGt01hEg2E
 
-----------------------------------------------
+You can find EndeavourOS here for WSL - https://github.com/sileshn/EndeavourOSWSL2
 
-How to install Deepin Desktop with Ubuntu 22.04 via windows 11 - WSL - Easy setup!
+Use X410 - X Server for Windows 11 in this video and it works well. Find it in Micorsoft store.
 
-Tutorial: https://github.com/vinberg88/opensuse/blob/main/UbuntuDeepin.txt
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
 
-New Video: https://www.youtube.com/watch?v=DH74PSH-4AU
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
 
-![Deepin](https://github.com/vinberg88/opensuse/assets/94398623/5c68bbbf-df7f-4e22-8d03-08ae6f58d998)
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
 
-Thank you for looking,
-Mattias Vinberg
+![EndeavourOS-KDE-6](https://github.com/user-attachments/assets/33aa6cdc-2118-49e0-825f-29ac3e2e7817)
+
+About EndeavourOS - https://endeavouros.com
+
+EndeavourOS is an Arch-based distro that provides an Arch 
+experience without the hassle of installing it manually for
+x86_64 and ARM devices. After installation, you’re provided
+with a lightweight and almost bare-bones environment ready to
+be explored with your terminal, along with our home-built
+Welcome App as a powerful guide to help you along.
+
+About KDE 6 PLASMA - https://kde.org
+
+Plasma is a Desktop - Use Plasma to surf the
+web; keep in touch with colleagues, friends and family; manage your
+files, enjoy music and videos; and get creative and productive at work.
+Do it all in a beautiful environment that adapts to your needs, and
+with the safety, privacy-protection and peace of mind that the best
+Free Open Source Software has to offer.
+
+Find More Stuff here for WSL - X410 - WINDOWS 11: https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - EndeavourOS - Linux - KDE 6 - WSL - SweDen - X410 - Windows 11 - Endeavour - 2025
 
 ----------------------------------------------
 
