@@ -1,3 +1,8 @@
+UKUI DONT WORK SO GOD SO PLEASE TRY ANOTHER INSTALL =]
+
+REGARDS,
+Mattias Vinberg
+
 Endeavouros - UkUI Desktop - How to install UkUI via EndeavourOS - WSL - GWSL - Windows 11 - 2024
 
 You can find EndeavourOS here for WSL - https://github.com/sileshn/EndeavourOSWSL2
