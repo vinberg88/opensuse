@@ -1,0 +1,50 @@
+Endeavour - Install Mate Desktop via WSL - GWSL - Windows 11 - EndeavourOS - Linux - 2024
+
+You Can Find EndeavourOS for WSL Here - 2024
+https://github.com/sileshn/EndeavourOSWSL2
+
+------------------------------------------------------------
+
+
+                     ./o.                                      ./o.
+                   ./sssso-                                  ./sssso-
+                 `:osssssss+-                              `:osssssss+-
+               `:+sssssssssso/.                          `:+sssssssssso/.
+             `-/ossssssssssssso/.                      `-/ossssssssssssso/.
+           `-/+sssssssssssssssso+:`                  `-/+sssssssssssssssso+:`
+         `-:/+sssssssssssssssssso+/.               `-:/+sssssssssssssssssso+/.
+       `.://osssssssssssssssssssso++-            `.://osssssssssssssssssssso++-
+      .://+ssssssssssssssssssssssso++:          .://+ssssssssssssssssssssssso++:
+    .:///ossssssssssssssssssssssssso++:       .:///ossssssssssssssssssssssssso++:
+  `:////ssssssssssssssssssssssssssso+++.    `:////ssssssssssssssssssssssssssso+++.
+`-////+ssssssssssssssssssssssssssso++++-  `-////+ssssssssssssssssssssssssssso++++-
+ `..-+oosssssssssssssssssssssssso+++++/`   `..-+oosssssssssssssssssssssssso+++++/`
+   ./++++++++++++++++++++++++++++++/:.       ./++++++++++++++++++++++++++++++/:.
+  `:::::::::::::::::::::::::------``        `:::::::::::::::::::::::::------``
+
+
+------------------------------------------------------------
+
+
+How to install Mate Desktop on EndeavourOS - TEXT
+https://github.com/vinberg88/opensuse/blob/main/EndvaorusOS-MATE.txt
+
+How to install Mate Desktop on EndeavourOS - Movie
+https://www.youtube.com/watch?v=XljxgqrqgoU
+
+About MATE Desktop for Endeavour - https://mate-desktop.org
+
+The MATE Desktop Environment is the continuation of GNOME 2.
+It provides an intuitive and attractive desktop environment
+using traditional metaphors for Linux and other Unix-like
+operating systems. MATE is under active development to add
+support for new technologies while preserving a traditional
+desktop experience. 
+
+About EndeavourOS - Endeavour - https://endeavouros.com
+
+EndeavourOS is an Arch-based distro that provides
+an Arch experience without the hassle of installing
+it manually for x86_64 machines. After installation, you’re
+provided with a lightweight and almost bare-bones
+environment ready to be explored with your terminal, along
