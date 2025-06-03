@@ -1937,21 +1937,38 @@ Regards Mattias Vinberg - Ubuntu 24.04 - KDE 6 - Neon 6.2 - WSL - GWSL - WINDOWS
 
 ---------------------------------------------
 
-Endeavour - Install Mate Desktop via WSL - GWSL - Windows 11 - EndeavourOS - Linux - 2024
+Endeavouros - Endeavour - WSL - Mate Desktop - How to install Mate via Endeavour - Windows 11 - 2025
 
-You Can Find EndeavourOS for WSL Here - 2024
+How to install Mate Desktop via Endeavouros / Endeavour and Windows 11 - TEXT
 
-https://github.com/sileshn/EndeavourOSWSL2
+https://github.com/vinberg88/opensuse/blob/main/Endeavouros-MATE.txt
 
-How to install Mate Desktop on EndeavourOS - Endeavour - TEXT
+How to install Mate Desktop via Endeavouros / Endeavour and Windows 11 - MOVIE
 
-https://github.com/vinberg88/opensuse/blob/main/EndvaorusOS-MATE.txt
+https://www.youtube.com/watch?v=s3JSdQpPbxc
 
-How to install Mate Desktop on EndeavourOS - Endeavour - Movie
+You can find EndeavourOS here for WSL - https://github.com/sileshn/EndeavourOSWSL2
 
-https://www.youtube.com/watch?v=XljxgqrqgoU
+Use X410 - X Server for Windows 11 in this video and it works well. Find it in Micorsoft store. 
 
-![EndvaorusOS-MATE](https://github.com/user-attachments/assets/d73770d4-97c0-4027-af64-022bd2ccedbf)
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+![Endeavouros-MATE](https://github.com/user-attachments/assets/947e5d8c-8200-421b-afe8-df32790abc09)
+
+About EndeavourOS - Endeavour - https://endeavouros.com
+
+EndeavourOS is an Arch-based distro that provides an Arch 
+experience without the hassle of installing it manually for
+x86_64 and ARM devices. After installation, you’re provided
+with a lightweight and almost bare-bones environment ready to
+be explored with your terminal, along with our home-built
+Welcome App as a powerful guide to help you along.
 
 About MATE Desktop for Endeavour - https://mate-desktop.org
 
@@ -1960,19 +1977,9 @@ It provides an intuitive and attractive desktop environment
 using traditional metaphors for Linux and other Unix-like
 operating systems. MATE is under active development to add
 support for new technologies while preserving a traditional
-desktop experience. 
+desktop experience.
 
-About EndeavourOS - Endeavour - https://endeavouros.com
-
-EndeavourOS is an Arch-based distro that provides
-an Arch experience without the hassle of installing
-it manually for x86_64 machines. After installation, you’re
-provided with a lightweight and almost bare-bones
-environment ready to be explored with your terminal, along
-with our home-built Welcome App as a powerful
-guide to help you along
-
-Regards Mattias Vinberg - Mate Desktop - Endeavour - Linux - GWSL - WSL - Windows 11 - Endeavouros - Sweden - 2024
+Regards Mattias Vinberg - EndeavourOS - Linux - Mate - WSL - SweDen - X410 - Windows 11 - Endeavour - 2025
 
 ---------------------------------------------
 
