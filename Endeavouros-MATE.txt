@@ -1,36 +1,53 @@
-Endeavour - Install Mate Desktop via WSL - GWSL - Windows 11 - EndeavourOS - Linux - 2024
+Endeavouros - Endeavour - WSL - Mate Desktop - How to install Mate via Endeavour - Windows 11 - 2025
 
-You Can Find EndeavourOS for WSL Here - 2024
-https://github.com/sileshn/EndeavourOSWSL2
+How to install Mate Desktop via Endeavouros / Endeavour and Windows 11 - TEXT
+https://github.com/vinberg88/opensuse/blob/main/Endeavouros-MATE.txt
 
-------------------------------------------------------------
+How to install Mate Desktop via Endeavouros / Endeavour and Windows 11 - MOVIE
+https://www.youtube.com/watch?v=s3JSdQpPbxc
+
+You can find EndeavourOS here for WSL - https://github.com/sileshn/EndeavourOSWSL2
+
+Use X410 - X Server for Windows 11 in this video and it works well. Find it in Micorsoft store. 
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+                                   (                       
+                                 #///#                     
+                               #///////#                   
+                             ##/////////##                 
+                           ##/////////////##                  Welcome to EndeavourOS and WSL and MATE Desktop.
+                         ###///////////////###             
+                       ###(//////////////////##               
+                      ###/////////////////////###             UPDATED INSTALLATION - 2025-06-03 - Endeavour OS
+                    ####///////////////////////####        
+                  ####///////////////////////////###          OS: EndeavourOS x86_64 - WINDOWS 11 / 10
+                #####/////////////////////////////####        Host: Windows Subsystem for Linux - Endeavour (2.5.7.0)
+              ######///////////////////////////////####       Kernel: Linux 6.6.87.1-microsoft-standard-WSL2
+            ######//////////////////////////////////####(     WM: WSLg 1.0.66 (Wayland)
+           ######///////////////////////////////////(#####    Desktop: MATE - Windows 11 - Microsoft and Endeavour
+         ######//////////////////////////////////////######
+       #######////////////////////////////////////////#####
+     ########/////////////////////////////////////////#####
+   ########//////////////////////////////////////////######   MEDIA: Mattias Vinberg - Sweden - Stockholm - 2025
+ /########///////////////////////////////////////////######
+     ####//////////////////////////////////////////########
+       #####################///////////////////########### 
+      #################################################
 
 
-                     ./o.                                      ./o.
-                   ./sssso-                                  ./sssso-
-                 `:osssssss+-                              `:osssssss+-
-               `:+sssssssssso/.                          `:+sssssssssso/.
-             `-/ossssssssssssso/.                      `-/ossssssssssssso/.
-           `-/+sssssssssssssssso+:`                  `-/+sssssssssssssssso+:`
-         `-:/+sssssssssssssssssso+/.               `-:/+sssssssssssssssssso+/.
-       `.://osssssssssssssssssssso++-            `.://osssssssssssssssssssso++-
-      .://+ssssssssssssssssssssssso++:          .://+ssssssssssssssssssssssso++:
-    .:///ossssssssssssssssssssssssso++:       .:///ossssssssssssssssssssssssso++:
-  `:////ssssssssssssssssssssssssssso+++.    `:////ssssssssssssssssssssssssssso+++.
-`-////+ssssssssssssssssssssssssssso++++-  `-////+ssssssssssssssssssssssssssso++++-
- `..-+oosssssssssssssssssssssssso+++++/`   `..-+oosssssssssssssssssssssssso+++++/`
-   ./++++++++++++++++++++++++++++++/:.       ./++++++++++++++++++++++++++++++/:.
-  `:::::::::::::::::::::::::------``        `:::::::::::::::::::::::::------``
+About EndeavourOS - Endeavour - https://endeavouros.com
 
-
-------------------------------------------------------------
-
-
-How to install Mate Desktop on EndeavourOS - TEXT
-https://github.com/vinberg88/opensuse/blob/main/EndvaorusOS-MATE.txt
-
-How to install Mate Desktop on EndeavourOS - Movie
-https://www.youtube.com/watch?v=XljxgqrqgoU
+EndeavourOS is an Arch-based distro that provides an Arch 
+experience without the hassle of installing it manually for
+x86_64 and ARM devices. After installation, you’re provided
+with a lightweight and almost bare-bones environment ready to
+be explored with your terminal, along with our home-built
+Welcome App as a powerful guide to help you along.
 
 About MATE Desktop for Endeavour - https://mate-desktop.org
 
@@ -41,10 +58,143 @@ operating systems. MATE is under active development to add
 support for new technologies while preserving a traditional
 desktop experience. 
 
-About EndeavourOS - Endeavour - https://endeavouros.com
+Find More Stuff here for WSL - X410 - WINDOWS 11
 
-EndeavourOS is an Arch-based distro that provides
-an Arch experience without the hassle of installing
-it manually for x86_64 machines. After installation, you’re
-provided with a lightweight and almost bare-bones
-environment ready to be explored with your terminal, along
+https://github.com/vinberg88/opensuse
+
+-------------------------
+
+Run this to get faster Mirrors - Repos
+
+rate-mirrors arch | sudo tee /etc/pacman.d/mirrorlist
+
+------------------------------------------------------------
+
+Paste in terminal: sudo nano /etc/pacman.conf
+
+And change to 20 ParallelDownloads - Faster download and faster install.
+
+ParallelDownloads = 20
+
+------------------------------------------------------------
+
+Update All via terminal for EndeavourOS - Endeavour
+
+sudo pacman -Syu
+
+------------------------------------------------------------
+
+Some programs for EndeavourOS - Copy and paste one by one.
+
+git clone https://github.com/endeavouros-team/EndeavourOS-packages-lists.git
+cd EndeavourOS-packages-lists
+sudo pacman -S --needed - < eos-base-group
+sudo pacman -S --needed - < eos-apps
+sudo pacman -S --needed - < mate
+cd
+
+------------------------------------------------------------
+
+Paste all in terminal - One by One!
+
+sudo pacman -S xorg xorg-server xorg-xinit mesa xterm xorg-twm xorg-xrandr
+
+sudo pacman -S xorg-twm xterm xorg-xclock lightdm bluedevil libqtxdg
+
+sudo pacman -S xorg-xfontsel xorg-xlsfonts xorg-xkill xorg-xinput xorg-xwininfo
+
+sudo pacman -S bash git npm wget curl dialog go fakeroot dbus ibus networkmanager glxinfo
+
+sudo pacman -S lightdm-gtk-greeter -y
+
+------------------------------------------------------------
+ 
+Install Hyfetch to see where we are =]
+
+yay -S hyfetch fastfetch
+
+Test by type thie in Bash after install: hyfetch
+
+----------------------------------------------------------------
+
+Install Google Chrome - Favorite!
+
+yay -S google-chrome
+
+----------------------------------------------------------------
+
+Install Blanket - Listen to sounds.
+
+yay -S blanket
+
+---------------------------------------------------------
+
+Install Gimp - LibreOffice - Code
+
+yay -S gimp libreoffice code
+
+------------------------------------------------------------
+
+Time to installing MATE Desktop Environment in EndeavourOS - WSL
+
+sudo pacman -S mate mate-extra
+
+------------------------------------------------------------
+
+Paste all in terminal to start lightdm
+
+sudo systemctl enable lightdm
+sudo systemctl set-default graphical
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+----------------------------------------------------------------
+
+Fix IP problem GWSL or X410. Cant find screen problems. Look ip adress in windows terminal / PowerShell
+
+TYPE THIS IN TERMINAL / BASH / CONSOLE for windows: ipconfig
+
+NOTE - Importent to look for ip. Last lines are right IP for WSL...
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.28.32.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed =]
+
+---------------------------------------------------------
+
+Type in terminal: sudo nano ~/.bash_mate_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------------------------
+
+Reboot Linux - Reboot Linux - Reboot Linux - Reboot Linux - Endeavour - EndeavourOS
+
+----------------------------------------------------------------
+
+Time to start Mate Desktop. First start X410 then you start Endeavour via terminal -  Done =]
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Paste in Terminal: . ~/.bash_mate_desktop
+
+Paste in Terminal: mate-session
+
+----------------------------------------------------------------
+
+Regards Mattias Vinberg - EndeavourOS - Linux - Mate - WSL - SweDen - X410 - Windows 11 - Endeavour - 2025
+
+----------------------------------------------------------------
