@@ -1,13 +1,26 @@
-AOSC OS - Install KDE plasma on AOSC OS via Windows 11 - GWSL - WSL
+AOSC OS and KDE Plasma - WSL - Install KDE plasma on AOSC OS via Windows 11 - X410 - Linux - YouTube - 2025
 
-Here you can find AOSC OS for WSL - GWSL - WSL
-https://wiki.aosc.io/aosc-os/installation/wsl/
+Here you can find AOSC OS for - WSL - https://wiki.aosc.io/aosc-os/installation/wsl/
 
-How to install KDE plasma via AOSC OS and Windows 11 - TEXT
+Find AOSC OS via Microsoft store: https://apps.microsoft.com/detail/9nmdf21nv65z?hl=sv-SE&gl=SE
+
+How to install KDE plasma via AOSC OS and Windows 11 - WSL - TEXT
 https://github.com/vinberg88/opensuse/blob/main/AOSCOS-KDE-PLASMA.txt
 
-How to install KDE plasma via AOSC OS and Windows 11 - MOVIE
-https://www.youtube.com/watch?v=RVGPbOCB8bw
+How to install KDE plasma via AOSC OS and Windows 11 - WSL - MOVIE
+https://www.youtube.com/watch?v=lbZ0CPX4MVQ
+
+Use X410 - X Server for Windows 11 in this video and it works well. Find it in Micorsoft store. 
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+           WELCOME TO AOSC OS SYSTEM AND KDE PLASMA FOR WSL - 2025
+               MEDIA: MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2025
+                       UPDATED INSTALLATION - 2025/06/03
 
                   __                                          __                      
                gpBBBBBBBBBP                                gpBBBBBBBBBP               
@@ -28,7 +41,7 @@ https://www.youtube.com/watch?v=RVGPbOCB8bw
            `"\"\""\"\""                                `"\"\""\"\""                   
                                                                    
 
-About AOSC OS - https://aosc.io
+About AOSC OS - https://aosc.io - https://wiki.aosc.io <-- English
 
 AOSC OS is a general purpose Linux distribution that
 strives to simplify user experience and improve free 
@@ -49,19 +62,38 @@ for Linux-based operating systems. Known for its
 sleek design, customizable interface, and extensive 
 set of applications, it is also open source, devoid of ads, and
 makes protecting your privacy and personal data a priority.
-
+The Plasma Launcher lets you quickly and easily launch 
+applications, but it can do much more -- convenient tasks like
+bookmarking applications, searching for documents as you type, or
+navigating to common places help you get straight to the point.
+With a history of recently started programs and opened 
+files, you can return to where you left off. It even remembers
+previously entered search terms so you don't have to.
+Plasma is made to stay out of the way as it helps you get things
+done. But under its light and intuitive surface, it's a
+powerhouse. So you're free to choose ways of usage right
+as you need them and when you need them. With KDE Plasma the user
+is king.
 
 You Can Find More Stuff here About WSL
 https://github.com/vinberg88/opensuse
 
-----------------------------------------------
+-------------------------
 
-Update all after install - First step.
+First thing you need to do is copy this file to C:\Users\user  <-- user is not your name =]
 
-sudo apt update
-sudo apt dist-upgrade
+Its easy use Explorer and copy and past. Download this file.
 
-----------------------------------------------
+https://drive.proton.me/urls/G602NV0DFG#Rn5D1Tny3TpQ
+
+-------------------------
+
+Update all after install - Press ENTER if asked during UPDATE.
+
+sudo apt update -y
+sudo apt dist-upgrade -y
+
+------------------------------------------------------
 
 Please Reboot Reboot Reboot Linux - AOSC OS
 
@@ -69,77 +101,90 @@ Please Reboot Reboot Reboot Linux - AOSC OS
 
 Install programs:
 
-sudo apt install bash git wget curl dracut
-sudo apt install sddm
+sudo apt install bash git wget curl dracut pipx dbus sudo nano -y
+sudo apt install sddm -y
+sudo apt install timidity++  gnome-keyring  alsa-plugins  qt-5-doc  qt-6-doc -y
 sudo systemctl set-default graphical
 
 ----------------------------------------------
 
-sudo apt install desktop-base
+Time to install KDE plasma for AOSC OS
+
+sudo apt install desktop-base -y
+sudo apt install kdeplasma* -y
 
 ----------------------------------------------
 
 Install this small program for hyfetch.
 
-pip install hyfetch
+pipx install hyfetch
+pipx ensurepath
 
-To test type: hyfetch
+Restart terminal to test - type: hyfetch
 
 Like Noefetch but more gay =]
 
 ----------------------------------------------
 
-Please Reboot Linux...
+Type this in terminal to fix ip problem for X server - X410 - Open Microsoft Powershell and type as admin: ipconfig 
+That will give you ip adress for WSL - Last line is WSL IP in terminal.
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.28.32.1  <-- add this and put your ip there
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
 
 ----------------------------------------------
 
-Config GWSL and Reboot start from there - GWSL Shell/Bash
-
-----------------------------------------------
-
-Install Chrome
+Install Chrome Browser for AOSC OS.
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb -y
 
+----------------------------------------------
+
+Install Gimp - LibreOffice for AOSC OS and KDE PLASMA.
+
+sudo apt install gimp libreoffice -y
+
 ----------------------------------
 
-10. Time to install KDE plasma
+Login as root and run this commands. More stuff for KDE.
 
-sudo apt install kdeplasma*
+Copy and paste in terminal: sudo -i
 
-----------------------------------
+oma install plasma-workspace kwin kscreen sddm  <-- press q to install 
+oma install plasma-desktop plasma-nm <-- press q to install
+oma install kde-baseapps <-- press q to install
+oma install discover <-- press q to install
+oma install konsole dolphin dolphin-plugins gwenview ark kwrite okular spectacle filelight ffmpegthumbs kdegraphics-thumbnailers svgpart <-- press q to install
+oma install systemsettings <-- press q to install
+oma install gnome-terminal <-- press q to install
+oma install aosc-community-wallpapers-extras-2024 <-- press q to install - this is extra if you want.
 
-Login as root and run this commands. More stuff for kde plasma - sudo -i
-
-oma install plasma-workspace kwin kscreen sddm
-oma install plasma-desktop plasma-nm sddm-theme-breeze
-oma install kde-baseapps
-
-Extra to install
-
-oma install discover
-oma install konsole dolphin dolphin-plugins gwenview ark kwrite okular okular-extra-backends spectacle filelight ffmpegthumbs kdegraphics-thumbnailers svgpart
-oma install systemsettings
-oma install gnome-terminal
-
-After this login as normal user - type exit in Console/bash
+After this login as normal user - type exit in Console/ Bash / Terminal
 
 ----------------------------------------------
 
 Paste all in Console/Bash
 
+xdg-user-dirs-update
 sudo systemctl set-default multi-user.target
 sudo systemctl set-default graphical.target
 sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
 
 ----------------------------------------------
 
-12. Type this in terminal and put your user there - loginctl enable-linger user
+Type this in terminal and put your user there - sudo loginctl enable-linger user
 
 ----------------------------------------------
 
-11. Copy this and paste in terminal: sudo nano ~/.bash_deepin_desktop
+11. Copy this and paste in terminal: sudo nano ~/.bash_aosc_desktop
 
 Then add this script to terminal
 
@@ -160,26 +205,18 @@ export LIBGL_ALWAYS_SOFTWARE=1
 
 ----------------------------------------------
 
-Please Reboot Linux - AOSC OS
+Please Reboot Linux - AOSC OS - Please Reboot Linux
 
 ----------------------------------------------
 
-Paste in terminal: . ~/.bash_deepin_desktop
+Start X410 for Windows and then start AOSC OS via terminal - Time to start KDE PLASMA.
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+Paste in terminal: . ~/.bash_aosc_desktop
 Paste in terminal: dbus-launch startplasma-x11
 
-It take some time to start... Just Wait!
-
 ----------------------------------------------
 
-Extra to install in Bash for AOSC OS - Wallpapers
-
-Login as root - sudo -i
-
-oma install aosc-community-wallpapers-extras-2024
-
-----------------------------------------------
-
-Regards, 
-Mattias Vinberg - SwEdeN - 2024 - AOSC OS
+Regards Mattias Vinberg - SwEdeN - Stockholm - AOSC OS - KDE - X410 - MICROSOFT - Linux - GitHub - 2025
 
 ----------------------------------------------
