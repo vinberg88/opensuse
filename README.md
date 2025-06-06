@@ -5800,51 +5800,6 @@ Regards - Nattias Vinberg - SwedeN - 2024 - PoP_OS 76 - KDE
 
 ---------------------------------------------
 
-AOSC OS - How to install MATE Desktop on AOSC OS via Windows 11 - GWSL - WSL
-
-Here you can find AOSC OS for WSL - GWSL - Windows 11
-https://wiki.aosc.io/aosc-os/installation/wsl/
-
-How to install MATE Desktop via AOSC OS and Windows 11 - WSL - TEXT
-https://github.com/vinberg88/opensuse/blob/main/AOSCOS-MATE.txt
-
-How to install MATE Desktop via AOSC OS and Windows 11 - GWSL - MOVIE
-https://www.youtube.com/watch?v=nlAh-unzHyg
-
-![AOSCOS-MATE](https://github.com/vinberg88/opensuse/assets/94398623/f2e9fc73-f9f0-4e1b-a53c-2cc8a49a55bf)
-
-About AOSC OS - https://aosc.io
-
-AOSC OS is a general purpose Linux distribution that
-strives to simplify user experience and improve free 
-and open source software for day-to-day productivity.
-AOSC OS is an independently maintained operating system
-based on the Linux kernel and various software 
-components, using APT and dpkg for package management. 
-AOSC OS is targeted at experienced Linux users 
-and optimised for use on personal devices. 
-Moreover, AOSC OS aims to provide good out-of-the-box 
-experience, simplified system administration, and 
-a reliable work environment.
-
-About MATE - https://mate-desktop.org
-
-The MATE Desktop Environment is the continuation
-of GNOME 2. It provides an intuitive and 
-attractive desktop environment using traditional
-metaphors for Linux and other Unix-like
-operating systems. MATE is composed of a number of
-applications. The renaming is necessary to avoid
-conflicts with GNOME components.
-
-You Can Find More Stuff here About WSL
-https://github.com/vinberg88/opensuse
-
-Regards,
-Mattias Vinberg . SweDen - 2024
-
----------------------------------------------
-
 AOSC OS - Install Gnome Desktop on AOSC OS via Windows 11 - GWSL - WSL
 
 Here you can find AOSC OS for WSL - GWSL - Windows 11
@@ -5895,22 +5850,38 @@ Mattias Vinberg . SweDen - 2024
 
 ---------------------------------------------
 
-AOSC OS - Install KDE plasma on AOSC OS via Windows 11 - GWSL - WSL
+AOSC OS and KDE Plasma - WSL - Install KDE plasma on AOSC OS via Windows 11 - X410 - Linux - YouTube - 2025
 
-Here you can find AOSC OS for WSL - GWSL - WSL
-https://wiki.aosc.io/aosc-os/installation/wsl/
+Here you can find AOSC OS for - WSL - https://wiki.aosc.io/aosc-os/installation/wsl/
 
-How to install KDE plasma via AOSC OS and Windows 11 - TEXT
+Find AOSC OS via Microsoft store: https://apps.microsoft.com/detail/9nmdf21nv65z?hl=sv-SE&gl=SE
+
+How to install KDE plasma via AOSC OS and Windows 11 - WSL - TEXT
+
 https://github.com/vinberg88/opensuse/blob/main/AOSCOS-KDE-PLASMA.txt
 
-How to install KDE plasma via AOSC OS and Windows 11 - MOVIE
-https://www.youtube.com/watch?v=RVGPbOCB8bw
+How to install KDE plasma via AOSC OS and Windows 11 - WSL - MOVIE
 
+https://www.youtube.com/watch?v=lbZ0CPX4MVQ
+
+Use X410 - X Server for Windows 11 in this video and it works well. Find it in Micorsoft store. 
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+           WELCOME TO AOSC OS SYSTEM AND KDE PLASMA FOR WSL - 2025
+               MEDIA: MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2025
+                       UPDATED INSTALLATION - 2025/06/03
 
 ![AOSCOS-KDE-PLASMA](https://github.com/vinberg88/opensuse/assets/94398623/954d8e44-a9d5-4632-8146-881677fbbba4)
 
 
-About AOSC OS - https://aosc.io
+About AOSC OS - https://aosc.io - https://wiki.aosc.io <-- English
 
 AOSC OS is a general purpose Linux distribution that
 strives to simplify user experience and improve free 
@@ -5931,12 +5902,20 @@ for Linux-based operating systems. Known for its
 sleek design, customizable interface, and extensive 
 set of applications, it is also open source, devoid of ads, and
 makes protecting your privacy and personal data a priority.
+The Plasma Launcher lets you quickly and easily launch 
+applications, but it can do much more -- convenient tasks like
+bookmarking applications, searching for documents as you type, or
+navigating to common places help you get straight to the point.
+With a history of recently started programs and opened 
+files, you can return to where you left off. It even remembers
+previously entered search terms so you don't have to.
+Plasma is made to stay out of the way as it helps you get things
+done. But under its light and intuitive surface, it's a
+powerhouse. So you're free to choose ways of usage right
+as you need them and when you need them. With KDE Plasma the user
+is king.
 
-You Can Find More Stuff here About WSL
-https://github.com/vinberg88/opensuse
-
-Kind Regards,
-Mattias Vinberg
+Regards Mattias Vinberg - SwEdeN - Stockholm - AOSC OS - KDE - X410 - MICROSOFT - Linux - GitHub - 2025
 
 ---------------------------------------------
 
