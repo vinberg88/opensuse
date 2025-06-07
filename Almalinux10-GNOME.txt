@@ -1,4 +1,4 @@
-AlmaLinux 10 - Install Gnome desktop via Windows 11 - WSL - GWSL - Linux - 2024
+AlmaLinux 10 - Install Gnome desktop via Windows 11 - WSL - X410 - Linux - github - Youtube - 2025
 
 You can find AlmaLinux 10 for WSL here: https://github.com/AlmaLinux/wsl-images
 Download AlmaLinux 10 an push on blue file.. Now you have working AlmaLinux 10.
