@@ -1,0 +1,229 @@
+AlmaLinux 10 - Install Gnome desktop via Windows 11 - WSL - GWSL - Linux - 2024
+
+You can find AlmaLinux 10 for WSL here: https://github.com/AlmaLinux/wsl-images
+Download AlmaLinux 10 an push on blue file.. Now you have working AlmaLinux 10.
+
+Use X410 - X Server for Windows 11 in this video and it works well. Find in Micorsoft store. 
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+        WELCOME TO AlmaLinux 10 AND GNOME DESKTOP FOR WSL
+        MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2025
+
+    About me Mattias Vinberg - Anarchist from Sweden - Developer        
+
+         'c:.                                      'c:.
+        lkkkx, ..       ..   ,cc,                 lkkkx, ..       ..   ,cc,
+        okkkk:ckkx'  .lxkkx.okkkkd                okkkk:ckkx'  .lxkkx.okkkkd
+        .:llcokkx'  :kkkxkko:xkkd,                .:llcokkx'  :kkkxkko:xkkd,
+      .xkkkkdood:  ;kx,  .lkxlll;               .xkkkkdood:  ;kx,  .lkxlll;
+       xkkx.       xk'     xkkkkk:               xkkx.       xk'     xkkkkk:
+       'xkx.       xd      .....,.               'xkx.       xd      .....,.
+      .. :xkl'     :c      ..''..               .. :xkl'     :c      ..''..
+    .dkx'  .:ldl:'. '  ':lollldkkxo;          .dkx'  .:ldl:'. '  ':lollldkkxo;
+  .''lkkko'                     ckkkx.      .''lkkko'                     ckkkx.
+'xkkkd:kkd.       ..  ;'        :kkxo.    'xkkkd:kkd.       ..  ;'        :kkxo.
+,xkkkd;kk'      ,d;    ld.   ':dkd::cc,   ,xkkkd;kk'      ,d;    ld.   ':dkd::cc,
+ .,,.;xkko'.';lxo.      dx,  :kkk'xkkkkc   .,,.;xkko'.';lxo.      dx,  :kkk'xkkkkc
+     'dkkkkkxo:.        ;kx  .kkk:;xkkd.       'dkkkkkxo:.        ;kx  .kkk:;xkkd.
+       .....   .;dk:.   lkk.  :;,                .....   .;dk:.   lkk.  :;,
+             :kkkkkkkdoxkkx                            :kkkkkkkdoxkkx
+              ,c,,;;;:xkkd.                             ,c,,;;;:xkkd.
+                ;kkkkl...                                 ;kkkkl...
+                ;kkkkl                                    ;kkkkl
+                 ,od;                                      ,od;
+
+
+
+How to install Gnome via AlmaLinux 10 och Windows 11 - WSL - TEXT
+Comming Zone...
+
+How to install Gnome via AlmaLinux 10 och Windows 11 - WSL - MOVIE
+https://www.youtube.com/watch?v=UYsWbiizvfo
+
+
+About AlmaLinux OS 10 for WSL - https://almalinux.org
+
+AlmaLinux OS is an open-source, community-driven Linux 
+operating system that fills the gap left by the discontinuation
+of the CentOS Linux stable release. AlmaLinux OS is an Enterprise
+Linux distro, binary compatible with RHEL®, and guided and built
+by the community. As a standalone, completely free OS, AlmaLinux OS
+enjoys $1M in annual sponsorship from CloudLinux Inc. and support
+from more than 25 other sponsors. Ongoing development efforts
+are governed by the members of the community. The AlmaLinux OS 
+Foundation is a 501(c)(6) non-profit created for the benefit of
+the AlmaLinux OS community.
+
+About GNOME Desktop for WSL - https://www.gnome.org
+
+GNOME is designed to help you have the best possible computing
+experience. Every aspect of GNOME has been crafted to fit together
+as a harmonious whole, providing a consistent and integrated 
+experience. Our attention to detail means a smooth and polished
+product that lets you do the things you want without getting
+in the way. GNOME is satisfying to use and beautiful to behold.
+GNOME provides a focused working environment that helps you get
+things done. It is packed with features that will make you more
+productive: a powerful search feature that helps you access all
+your work from one place; side-by-side windows that make it easy
+to view several documents at the same time; seamless integration
+with online accounts which allows you to access all your data in
+one place; and a messaging system that comfortably deals with 
+notifications, letting you quickly respond in place or return to 
+them in a convenient time. Gnome desktop is my favorite!
+
+Want more stuff for WSL look here: https://github.com/vinberg88/opensuse
+
+--------------------------------
+
+Add this Repos to AlmaLinux 10
+
+sudo dnf install \
+https://dl.fedoraproject.org/pub/epel/epel-release-latest-10.noarch.rpm
+sudo /usr/bin/crb enable
+
+-----------------------------------
+
+Paste in terminal - Update AlmaLinux 10
+
+sudo dnf upgrade --refresh
+
+-----------------------------------
+
+Install some basic programs. You Need it =)
+
+sudo dnf install git wget curl bash pipx dracut net-tools dbus-x11 dbus* yum -y
+
+-----------------------------------
+
+Install Hyfetch - like Neofetch but more FUN =)
+
+pipx install hyfetch
+pipx ensurepath
+
+Put this in terminal to Test after Quick restart of terminal: hyfetch
+
+-----------------------------------
+
+Install Chromium Browser - paste all under this paragraph in terminal.
+
+sudo dnf install epel-release -y
+sudo dnf install chromium -y
+
+------------------------------------------------------
+
+Install CODE Visual studio code - 2025 - MicroSoft
+
+wget https://www.knulla.org/scripts/code-1.95.3-1731513157.el8.x86_64.rpm
+sudo dnf install ./code-1.95.3-1731513157.el8.x86_64.rpm -y
+
+-----------------------------------------------------
+
+Install Blanket - Listen to sounds.
+
+sudo dnf install https://www.knulla.org/scripts/blanket79.rpm
+
+-------------------------------------------------------------
+
+Install Gimp for AlmaLinux 10
+
+Copy and paste: sudo dnf install flatpak -y
+
+Copy and paste: sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+Copy and paste: sudo flatpak install flathub org.gimp.GIMP
+
+-------------------------------------------------------------
+
+Install LibreOffice for AlmaLinux 10
+
+sudo flatpak install flathub org.libreoffice.LibreOffice
+
+-------------------------------------------------------------
+
+Grafic manager for Gnome and AlmaLinux 10.
+
+sudo dnf install gdm* -y
+
+----------------------------------
+
+GNOME - full installation - AlmaLinux 10 - 2025
+
+sudo dnf install -y systemd procps bind-utils iproute iputils nmap-ncat
+sudo dnf install -y gnome-extensions-app gnome-shell-extension-dash-to-dock
+sudo dnf install -y gnome-shell-extension-window-list dconf-editor xhost
+sudo dnf check-update -y
+sudo dnf install -y ffmpeg*
+sudo dnf groupinstall "Server with GUI" -y
+sudo dnf install gnome* -y
+
+-----------------------------------
+
+Copy and Paste in terminal for AlmaLinux 10: 
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-----------------------------------
+
+Type in terminal: sudo nano ~/.bash_AlmaLinux_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------------------------
+
+Paste this one time in Console
+
+sudo mkdir /run/user/1000 && sudo chmod 700 /run/user/1000 && sudo chown $(whoami): /run/user/1000
+sudo systemctl set-default multi-user.target
+
+------------------------------------------------------
+
+Fix IP problem for X410. Cant find screen problem. Look for ip adress in windows terminal / PowerShell: ipconfig
+
+NOTE - Importent to look for ip. Last lines are IP-numbers for WSL.
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.28.32.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed =] IF YOU SEE SOME RED TEXT DON WORRY IT WORKS =]
+
+------------------------------------------------------
+
+Time to start Gnome and AlmaLinux 10 - Paste One by One!
+
+NOTE - FIRST START X410 THEN YOU START ALMALINUX 10 VIA TERMINAL
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Copy and paste This: . ~/.bash_AlmaLinux_desktop
+
+Copy and paste This: xhost +
+
+Copy and paste This: dbus-launch gnome-session
+
+----------------------------------------------------------------
+
+Regards Mattias Vinberg - AlmaLinux 10 - Gnome - Windows 11 - Linux - WSL - X410 - 2025 - SWEDEN
+
+----------------------------------------------------------------
