@@ -1,14 +1,24 @@
-AlmaLinux 9 and how to install Cinnamon desktop via Windows 11 - WSL - GWSL - Linux - 2024
+AlmaLinux 9 and how to install Cinnamon desktop via Windows 11 - WSL - X410 - Linux - 2024
 
 AlmaLinux 9 - You can find AlmaLinux in Microsoft Store for WSL or here.
 https://apps.microsoft.com/detail/9p5rwlm70sn9?hl=en-US&gl=US
 
-How to install Cinnamon via AlmaLinux and Windows 11 - TEXT
+How to install Cinnamon Desktop via AlmaLinux 9 and Windows 11 - TEXT
 https://github.com/vinberg88/opensuse/blob/main/AlmaLinux-Cinnamon.txt
 
-How to install Cinnamon via AlmaLinux and Windows 11 - MOVIE
-https://www.youtube.com/watch?v=ihBz_yEwVp0
+How to install Cinnamon Desktop via AlmaLinux 9 and Windows 11 - MOVIE
+https://www.youtube.com/watch?v=Hrmsxbj5ReI
 
+Use X410 - X Server for Windows 11 in this video and it works well. Find in Micorsoft store. 
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+       WELCOME TO AlmaLinux 9.5 AND Cinnamon DESKTOP - 2025
+         MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2025
 
          'c:.                                      'c:.
         lkkkx, ..       ..   ,cc,                 lkkkx, ..       ..   ,cc,
@@ -61,15 +71,6 @@ https://github.com/vinberg88/opensuse
 
 ------------------------------------------------------
 
-Copy and paste in Terminal: sudo nano /etc/wsl.conf
-
-And add this to console.
-
-[boot]
-systemd=true
-
-------------------------------------------------------
-
 Add repos to AlmaLinux.
 
  sudo dnf install \
@@ -80,19 +81,15 @@ Run this after: sudo /usr/bin/crb enable
 
 ------------------------------------------------------
 
-Reboot Reboot Reboot Reboot AlmaLinux 9 and Cinnamon
-
-------------------------------------------------------
-
 Time to update all.
 
-sudo dnf update
+sudo dnf update -y
 
 ------------------------------------------------------
 
 Install some Programs for AlmaLinux and Cinnamon desktop.
 
-sudo dnf install git wget curl nano bash pipx dracut net-tools dbus-x11 dbus*
+sudo dnf install git wget curl nano bash pipx dracut net-tools dbus-x11 dbus* yum -y
 
 --------------------------------
 
@@ -103,25 +100,55 @@ pipx ensurepath
 
 Test by reboot terminal and copy and paste: hyfetch
 
---------------------------------
+------------------------------------------------------
+
+Fix IP problem whit GWSL or X410. Cant find screen problems. Look ip adress in windows terminal / PowerShell and type : ipconfig
+NOTE - Importent to look for ip..... Last lines are ip for WSL
+
+Type this in terminal and copy and paste: sudo nano /etc/wsl.conf
+
+[network]
+generateHosts = true
+generateResolvConf = false
+
+-----------
+
+Next copy and paste this in Console / terminal
+
+sudo chown stig /etc/resolv.conf   <--- put your username there =] dont forget please.
+sudo chown root /etc/resolv.conf
+
+------------
+
+Next Type this in terminal: sudo nano /etc/resolv.conf
+
+Delete all text and paste: nameserver 172.28.32.1  <-- put your ip here from IPCONFIG
+
+Reboot and do this again…
+
+Next Type this in terminal: sudo nano /etc/resolv.conf
+
+Delete all text and paste: nameserver 172.28.32.1  <-- put your ip here from IPCONFIG 
+
+DONE - alot of problem fixed =] 
+
+------------------------------------------------------
 
 Time to install Cinnamon Desktop via AlmaLinux 9 
 
 sudo dnf repoquery *cinnamon*
 
 sudo dnf install cinnamon cinnamon-calendar-server cinnamon-control-center cinnamon-control-center-filesystem
-cinnamon-desktop cinnamon-menus cinnamon-screensaver cinnamon-session cinnamon-settings-daemon cinnamon-themes
-cinnamon-translations slick-greeter-cinnamon
-
-sudo dnf install cinnamon*
-
-sudo dnf install gnome-terminal
+sudo dnf install cinnamon-desktop cinnamon-menus cinnamon-screensaver cinnamon-session cinnamon-settings-daemon cinnamon-themes
+sudo dnf install cinnamon-translations slick-greeter-cinnamon
+sudo dnf install cinnamon* -y
+sudo dnf install gnome-terminal -y
 
 --------------------------------
 
-Install GRAFISCH handler for Cinnamon desktop
+Install GRAFISCH handler for Cinnamon desktop and ALMALINUX.
 
-sudo dnf install lightdm* lightdm-settings slick-greeter-cinnamon
+sudo dnf install lightdm* lightdm-settings slick-greeter-cinnamon -y
 sudo systemctl enable lightdm
 
 ------------------------------------------------------
@@ -134,15 +161,18 @@ sudo yum update google-chrome-stable
 
 --------------------------------
 
-Reboot Linux... Reboot Linux... Reboot Linux... AlmaLinux 9
+Install LIBREOFFICE and GIMP for AlmaLinux
 
---------------------------------
+sudo dnf install gimp libreoffice -y
 
-Start GWSL and Config GWSL and start from there GWSL Shell
+------------------------------------------------------
 
-             " Take an extra Reboot " 
+Install Visual Studio Code - 2025 - Microsoft Engine for Code.
 
---------------------------------
+wget https://www.knulla.org/scripts/code-1.95.3-1731513157.el8.x86_64.rpm
+sudo dnf install ./code-1.95.3-1731513157.el8.x86_64.rpm -y
+
+-----------------------------------------------------
 
 Copy and Paste in Terminal: 
 
@@ -167,21 +197,23 @@ Type this on Time in Terminal - Alma Linux 9
 
 sudo mkdir /run/user/1000 && sudo chmod 700 /run/user/1000 && sudo chown $(whoami): /run/user/1000
 
-----------------------------------------------
+------------------------------------------------------
 
-Reboot Reboot Reboot Reboot Reboot Reboot
+AlmaLinux 9 - Reboot Reboot Reboot Reboot Reboot Reboot - AlmaLinux 9
 
 ----------------------------------------------
 
 And we are done - Time to start Cinnamon Desktop for AlmaLinux 9
 
-Copy and Paste to Shell / Bash / Console.
+Start X410 for windows and then start AlmaLinux 9 - Time to start Cinnamon.
 
-Take this on First: . ~/.bash_almaLinux_desktop
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
 
-Copy and paste This: xhost +
+Paste in terminal: . ~/.bash_almaLinux_desktop
 
-Then This on: dbus-launch cinnamon-session
+Paste in terminal: xhost +
+
+Paste in terminal: dbus-launch cinnamon-session
 
 ----------------------------------------------
 
