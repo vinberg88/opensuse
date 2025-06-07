@@ -3610,21 +3610,34 @@ Regards Mattias Vinberg - AlmaLinux 9 - Xfce4 - Xfce - WSL - GWSL - Windows 11 -
 
 ---------------------------------------------
 
-AlmaLinux 9 and how to install Cinnamon desktop via Windows 11 - WSL - GWSL - Linux - 2024
+AlmaLinux 9 and how to install Cinnamon desktop via Windows 11 - WSL - X410 - Linux - 2025
 
 AlmaLinux 9 - You can find AlmaLinux in Microsoft Store for WSL or here.
 
 https://apps.microsoft.com/detail/9p5rwlm70sn9?hl=en-US&gl=US
 
-How to install Cinnamon via AlmaLinux and Windows 11 - TEXT
+How to install Cinnamon Desktop via AlmaLinux 9 and Windows 11 - TEXT
 
 https://github.com/vinberg88/opensuse/blob/main/AlmaLinux-Cinnamon.txt
 
-How to install Cinnamon via AlmaLinux and Windows 11 - MOVIE
+How to install Cinnamon Desktop via AlmaLinux 9 and Windows 11 - MOVIE
 
-https://www.youtube.com/watch?v=ihBz_yEwVp0
+https://www.youtube.com/watch?v=Hrmsxbj5ReI
 
-![AlmaLinux-Cinnamon](https://github.com/user-attachments/assets/8548d218-58da-4faf-ae76-f9a4875170db)
+Use X410 - X Server for Windows 11 in this video and it works well. Find in Micorsoft store. 
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+       WELCOME TO AlmaLinux 9.5 AND Cinnamon DESKTOP - 2025
+         MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2025
+
+![AlmaLinux-Cinnamon](https://github.com/user-attachments/assets/49bd9d8f-fc7c-4441-8c9d-ba6d60afe4c7)
 
 About AlmaLinux OS - https://almalinux.org
 
@@ -3650,11 +3663,9 @@ to Gnome 2 with underlying technology forked from Gnome Shell. Cinnamon
 makes users feel at home with an easy-to-use and comfortable desktop 
 experience.
 
-Want more stuff for WSL and Linux and Windows 11
+Want more stuff for WSL and Linux and Windows 11: https://github.com/vinberg88/opensuse
 
-https://github.com/vinberg88/opensuse
-
-Regards Mattias Vinberg - AlmaLinux 9 - Cinnamon - WSL - GWSL - Windows 11 - Linux - 2024 - SWEDEN!
+Regards Mattias Vinberg - AlmaLinux 9 - Cinnamon - WSL - GWSL - Windows 11 - Linux - 2025 - SWEDEN!
 
 ---------------------------------------------
 
