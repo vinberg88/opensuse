@@ -32,6 +32,72 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+AlmaLinux 10 - Install Gnome desktop via Windows 11 - WSL - X410 - Linux - github - Youtube - 2025
+
+You can find AlmaLinux 10 for WSL here: https://github.com/AlmaLinux/wsl-images
+Download AlmaLinux 10 an push on blue file.. Now you have working AlmaLinux 10.
+
+Use X410 - X Server for Windows 11 in this video and it works well. Find in Micorsoft store.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+        WELCOME TO AlmaLinux 10 AND GNOME DESKTOP FOR WSL
+        MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2025
+
+    About me Mattias Vinberg - Anarchist from Sweden - Developer 
+
+![Almalinux10-GNOME](https://github.com/user-attachments/assets/ef97d325-c318-4546-a0db-9b997b3c821c)
+
+How to install Gnome via AlmaLinux 10 och Windows 11 - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Almalinux10-GNOME.txt
+
+How to install Gnome via AlmaLinux 10 och Windows 11 - WSL - MOVIE
+
+https://www.youtube.com/watch?v=UYsWbiizvfo
+
+
+About AlmaLinux OS 10 for WSL - https://almalinux.org
+
+AlmaLinux OS is an open-source, community-driven Linux 
+operating system that fills the gap left by the discontinuation
+of the CentOS Linux stable release. AlmaLinux OS is an Enterprise
+Linux distro, binary compatible with RHEL®, and guided and built
+by the community. As a standalone, completely free OS, AlmaLinux OS
+enjoys $1M in annual sponsorship from CloudLinux Inc. and support
+from more than 25 other sponsors. Ongoing development efforts
+are governed by the members of the community. The AlmaLinux OS 
+Foundation is a 501(c)(6) non-profit created for the benefit of
+the AlmaLinux OS community.
+
+About GNOME Desktop for WSL - https://www.gnome.org
+
+GNOME is designed to help you have the best possible computing
+experience. Every aspect of GNOME has been crafted to fit together
+as a harmonious whole, providing a consistent and integrated 
+experience. Our attention to detail means a smooth and polished
+product that lets you do the things you want without getting
+in the way. GNOME is satisfying to use and beautiful to behold.
+GNOME provides a focused working environment that helps you get
+things done. It is packed with features that will make you more
+productive: a powerful search feature that helps you access all
+your work from one place; side-by-side windows that make it easy
+to view several documents at the same time; seamless integration
+with online accounts which allows you to access all your data in
+one place; and a messaging system that comfortably deals with 
+notifications, letting you quickly respond in place or return to 
+them in a convenient time. Gnome desktop is my favorite!
+
+Regards Mattias Vinberg - AlmaLinux 10 - Gnome - Windows 11 - Linux - WSL - X410 - 2025 - SWEDEN
+
+---------------------------------------------
+
 EndeavourOS and Gnome 48 - Install Gnome via EndeavourOS - Linux - WSL - Windows 11 - Youtube - 2025
 
 How to install EndeavourOS - TEXT - https://github.com/vinberg88/opensuse/blob/main/EndeavourOS-Gnome.txt
