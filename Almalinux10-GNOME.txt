@@ -40,7 +40,7 @@ https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
 
 
 How to install Gnome via AlmaLinux 10 och Windows 11 - WSL - TEXT
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/Almalinux10-GNOME.txt
 
 How to install Gnome via AlmaLinux 10 och Windows 11 - WSL - MOVIE
 https://www.youtube.com/watch?v=UYsWbiizvfo
