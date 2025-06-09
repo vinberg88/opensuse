@@ -20,7 +20,7 @@ control, and seamless integration with Windows tools.
 https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
 
 How to install Gnome 46 via Ubuntu 22.04 and Windows 11 - TEXT
-https://github.com/vinberg88/opensuse/blob/main/Ubuntu24.04-GNOME.txt
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu22.04-Gnome.txt
 
 How to install Gnome 46 via Ubuntu 22.04 and Windows 11 - MOVIE
 https://www.youtube.com/watch?v=cAFmNr18Yxc
