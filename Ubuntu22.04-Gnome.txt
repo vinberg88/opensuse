@@ -1,39 +1,57 @@
-Ubuntu - Gnome - How to install Gnome via Ubuntu 22.04 via Windows 11 - WSL - GWSL - Linux - 2024
+UPDATED 2025-06-09 - Ubuntu 24.04 AND GNOME 46
 
-You can find Ubuntu 22.04 here via this link or in Microsoft store for WSL - GWSL - Linux - Windows 11
-https://apps.microsoft.com/detail/9pn20msr04dw?rtc=1&hl=sv-se&gl=SE
+Ubuntu 24.04 - Gnome 46 via Ubuntu 24.04 via Windows 11 - GWSL - WSL - Linux - How to install - 2025
 
-How to install Gnome desktop via Ubuntu 22.04 and Windows 11 - TEXT
-https://github.com/vinberg88/opensuse/blob/main/Ubuntu22.04-Gnome.txt
+Here you can find Ubuntu 24.04 for WSL - GWSL
+https://apps.microsoft.com/detail/9nz3klhxdjp5?hl=en-us&gl=US
 
-How to install Gnome desktop via Ubuntu 22.04 and Windows 11 - MOVIE
-https://www.youtube.com/watch?v=vbKOBlpisNA
+GWSL - find it here. GWSL is an XServer that lets you easily run
+graphical Linux apps on Windows . . . AND it lets you run 
+graphical applications located on remote Linux machines on Windows
+. . . AND it lets you manage these apps graphically, create
+Windows shortcuts for them, customize these shortcuts, and even
+manage/configure WSL distros! All at the click of a button!
+No memorization of commands necessary! Easy!!!
+https://apps.microsoft.com/detail/9nl6kd1h33v3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+How to install Gnome 46 via Ubuntu 24.04 and Windows 11 - TEXT
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu24.04-GNOME.txt
+
+How to install Gnome 46 via Ubuntu 24.04 and Windows 11 - MOVIE
+https://www.youtube.com/watch?v=cAFmNr18Yxc
+
+        WELCOME TO Ubuntu 24.04 AND GNOME DESKTOP FOR WSL
+        MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2025
+
+                             ....                                         ....
+              .',:clooo:  .:looooo:.                       .',:clooo:  .:looooo:.
+           .;looooooooc  .oooooooooo'                   .;looooooooc  .oooooooooo'
+        .;looooool:,''.  :ooooooooooc                .;looooool:,''.  :ooooooooooc
+       ;looool;.         'oooooooooo,               ;looool;.         'oooooooooo,
+      ;clool'             .cooooooc.  ,,           ;clool'             .cooooooc.  ,,
+         ...                ......  .:oo,             ...                ......  .:oo,
+  .;clol:,.                        .loooo'     .;clol:,.                        .loooo'
+ :ooooooooo,                        'ooool    :ooooooooo,                        'ooool
+'ooooooooooo.                        loooo.  'ooooooooooo.                        loooo.
+'ooooooooool                         coooo.  'ooooooooool                         coooo.
+ ,loooooooc.                        .loooo.   ,loooooooc.                        .loooo.
+   .,;;;'.                          ;ooooc      .,;;;'.                          ;ooooc
+       ...                         ,ooool.          ...                         ,ooool.
+    .cooooc.              ..',,'.  .cooo.        .cooooc.              ..',,'.  .cooo.
+      ;ooooo:.           ;oooooooc.  :l.           ;ooooo:.           ;oooooooc.  :l.
+       .coooooc,..      coooooooooo.                .coooooc,..      coooooooooo.
+         .:ooooooolc:. .ooooooooooo'                  .:ooooooolc:. .ooooooooooo'
+           .':loooooo;  ,oooooooooc                     .':loooooo;  ,oooooooooc
+               ..';::c'  .;loooo:'                          ..';::c'  .;loooo:'
+                             .                                            .
 
 
-                             ....
-              .',:clooo:  .:looooo:.
-           .;looooooooc  .oooooooooo
-        .;looooool:,''.  :ooooooooooc
-       ;looool;.         'oooooooooo,
-      ;clool'             .cooooooc.  ,,
-         ...                ......  .:oo,
-  .;clol:,.                        .loooo'
- :ooooooooo,                        'ooool
-'ooooooooooo.                        loooo. - OS Windows 11 Pro
-'ooooooooool                         coooo. - Ubuntu 22.04 - Gnome Desktop 
- ,loooooooc.                        .loooo. - Host - Mattias Vinberg - Sweden - Ubuntu - Canonical
-   .,;;;'.                          ;ooooc
-       ...                         ,ooool.
-    .cooooc.              ..',,'.  .cooo.
-      ;ooooo:.           ;oooooooc.  :l.
-       .coooooc,..      coooooooooo.
-         .:ooooooolc:. .ooooooooooo'
-           .':loooooo;  ,oooooooooc
-               ..';::c'  .;loooo:'
-                             .
-
-
-About Ubuntu 22.04 - https://ubuntu.com/desktop/wsl - https://ubuntu.com
+About Ubuntu 24.04 - https://ubuntu.com/desktop/wsl
 
 Run your choice of Linux text editors, including vim, emacs, and nano.
 Install applications, compilers and libraries from the Ubuntu 
@@ -43,121 +61,112 @@ of free and open-source software. Ubuntu is officially
 released in multiple editions: Desktop, Server, and Core
 for Internet of things devices and robots.
 
-About Gnome - https://www.gnome.org
+About Gnome 46 - https://www.gnome.org
 
-Every aspect of GNOME has been crafted to fit together
-as a harmonious whole, providing a consistent and integrated
-experience. Our attention to detail means a smooth and
-polished product that lets you do the things you want
-without getting in the way. GNOME is satisfying to use
-and beautiful to behold. Every part of GNOME has been
-designed to make it simple and easy to use. The Activities
-Overview is a simple way to access all your basic tasks.
-A press of a button is all it takes to view your open 
-windows, launch applications, or check if you have new 
-messages. Having everything in one convenient place means
-you don’t have to learn your way around a maze
-of different technologies. An easy and elegant way to use
-your computer, GNOME is designed to help you have the best
-possible computing experience. 
+Every part of GNOME has been designed to make it simple 
+and easy to use. The Activities Overview is a simple way 
+to access all your basic tasks. A press of a button is
+all it takes to view your open windows, launch applications, or 
+check if you have new messages. Having everything in 
+one convenient place means you don’t have to learn your way 
+around a maze of different technologies. 
 
-You Can Find More Stuff here About WSL - GWSL - Windows 11 - Linux
+You Can Find More Stuff here About WSL
 https://github.com/vinberg88/opensuse
 
---------------------------------
+----------------------------------------------
 
-Paste in terminal
+Update All: sudo apt update && sudo apt upgrade -y
 
-sudo nano /etc/wsl.conf 
+----------------------------------------------
 
-and add this to terminal
+Install programs:
 
-[boot]
-systemd=true
-
---------------------------------
-
-Reboot Ubuntu Reboot Ubuntu Reboot Ubuntu Reboot Ubuntu
-
---------------------------------
-
-Update All
-
-sudo apt update && sudo apt upgrade
-
---------------------------------
-
-Install programs
-
-sudo apt install bash git npm wget curl dbus pipx dracut -y
+sudo apt install ibus bash git npm wget curl pipx dracut dbus* -y
 sudo apt install gdm3* -y
 sudo apt install gdm* -y
 sudo systemctl set-default graphical
 
---------------------------------
+----------------------------------------------
 
-Install this small program.
+Install this small program for hyfetch.
 
 pipx install hyfetch
 pipx ensurepath
 
-Test by just reboot terminal and copy and paste: hyfetch
+To test type this in terminal after quick restart terminal: hyfetch
+
+Like Noefetch but more gay =]
+
+------------------------------------------------------
+
+Fix IP problem for GWSL. Cant find screen problem. Look for ip adress in windows terminal / PowerShell: ipconfig
+
+NOTE - Importent to look for ip. Last lines are IP-numbers for WSL.
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.28.32.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed =] IF YOU SEE SOME RED TEXT DON WORRY IT WORKS =]
+
+------------------------------------------------------
+
+Please Reboot Linux... Please Reboot Linux...
+
+----------------------------------------------
+
+Config GWSL and Reboot - Start terminal from there - GWSL Shell
+ 
+           " Take an extra Reboot " 
+
+----------------------------------------------
+
+Paste in Terminal: 
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+
+----------------------------------------------
+
+Install FireFox before Gnome. Faster install. Gnome will take alot of time....
+
+sudo snap install firefox
+
+----------------------------------
+
+Install Chrome - its a must for Ubuntu...
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+----------------------------------
+
+Install blanket - Sounds
+
+wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb -y
 
 --------------------------------
 
-Paste This in terminal - Remove Acpid Errors from Ubuntu 22.04
+Paste This in terminal - Remove Acpid Error from Ubuntu 22.04
 
 sudo ln -s /dev/null /etc/systemd/system/acpid.service
 sudo ln -s /dev/null /etc/systemd/system/acpid.path
 
 --------------------------------
 
-Save some time when you install Gnome Desktop
+Time to install Gnome.
 
-sudo snap install firefox
+sudo apt install gnome ubuntu-desktop gnome* -y
 
---------------------------------
-
-Install Chrome
-
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo apt install ./google-chrome-stable_current_amd64.deb -y
-
--------------------------------
-
-Install Blanket if you Want! - Listen to Sounds =]
-
-wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
-sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
-
---------------------------------
-
-Reboot Linux... Reboot Linux... Reboot Linux... Ubuntu 22.04
-
---------------------------------
-
-Start GWSL and Config GWSL
-
-" Take an extra Reboot " 
-
---------------------------------
-
-Start Terminal - Shell - Console from GWSL....
-
---------------------------------
-
-Copy and Paste in Terminal: 
-
-xdg-user-dirs-update
-sudo systemctl set-default multi-user.target
-
---------------------------------
-
-Time to install Gnome
-
-Paste this in Terminal: sudo apt install ubuntu-desktop
-
---------------------------------
+----------------------------------------------
 
 Copy this and paste in terminal: sudo nano ~/.bash_ubuntu_desktop
 
@@ -169,31 +178,32 @@ export GDK_BACKEND=x11
 
 export LIBGL_ALWAYS_SOFTWARE=1
 
---------------------------------
+----------------------------------------------
 
-Reboot Reboot Reboot Reboot Reboot Reboot - Ubuntu 22.04
-
---------------------------------
-
-Install this script - Follow instructions in terminal.
+Paste in terminal and follow instruction!
 
 git clone https://github.com/DamionGans/ubuntu-wsl2-systemd-script.git
 cd ubuntu-wsl2-systemd-script/
 bash ubuntu-wsl2-systemd-script.sh
 
---------------------------------
+------------------------------------------------------
 
-Please Reboot Please Reboot Please Reboot - Ubuntu 22.04
+Please Reboot Ubuntu - Please Reboot Ubuntu - Dont forget to start from GWSL shell / terminal.
 
---------------------------------
-
-Time to start Gnome Desktop via Ubuntu 22.04
+------------------------------------------------------
 
 Paste in terminal: . ~/.bash_ubuntu_desktop
 Paste in terminal: dbus-launch gnome-session
 
---------------------------------
+It take some time to start all in beginning... Just Wait!
 
-Regards Mattias Vinberg - Ubuntu - Gnome - Canonical - WSL - GWSL - Windows 11 - Linux - 2024 - SWEDEN!
+Always start Gnome like this...
 
---------------------------------
+. ~/.bash_ubuntu_desktop
+dbus-launch gnome-session
+
+----------------------------------------------
+
+Regards Mattias Vinberg - SwEden - GNOME - Ubuntu 24.04 - Linux - WSL - GWSL - WINDOWS 11 - 2025
+
+----------------------------------------------
