@@ -1,9 +1,11 @@
-UPDATED 2025-06-09 - Ubuntu 22.04 AND GNOME 46
+Ubuntu 22.04 and Gnome via Ubuntu 22.04 via Windows 11 - GWSL - WSL - Linux - How to install - 2025
 
-Ubuntu 22.04 - Gnome 46 via Ubuntu 22.04 via Windows 11 - GWSL - WSL - Linux - How to install - 2025
+UPDATED 2025-06-09 - Ubuntu 22.04 AND GNOME.
 
-Here you can find Ubuntu 22.04 for WSL - GWSL
-https://apps.microsoft.com/detail/9nz3klhxdjp5?hl=en-us&gl=US
+Here you can find Ubuntu 22.04 for WSL. Access the power of
+a full Ubuntu terminal environment on Windows with Windows
+Subsystem for Linux (WSL).
+https://apps.microsoft.com/detail/9pn20msr04dw?hl=en-US&gl=US
 
 GWSL - find it here. GWSL is an XServer that lets you easily run
 graphical Linux apps on Windows . . . AND it lets you run 
@@ -19,11 +21,11 @@ for Linux (WSL) distributions, enabling installation, snapshots, version
 control, and seamless integration with Windows tools.
 https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
 
-How to install Gnome 46 via Ubuntu 22.04 and Windows 11 - TEXT
+How to install Gnome via Ubuntu 22.04 and Windows 11 - TEXT
 https://github.com/vinberg88/opensuse/blob/main/Ubuntu22.04-Gnome.txt
 
-How to install Gnome 46 via Ubuntu 22.04 and Windows 11 - MOVIE
-https://www.youtube.com/watch?v=cAFmNr18Yxc
+How to install Gnome via Ubuntu 22.04 and Windows 11 - MOVIE
+https://www.youtube.com/watch?v=qteZnStISG4
 
         WELCOME TO Ubuntu 22.04 AND GNOME DESKTOP FOR WSL
         MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2025
@@ -51,7 +53,7 @@ https://www.youtube.com/watch?v=cAFmNr18Yxc
                              .                                            .
 
 
-About Ubuntu 22.04 - https://ubuntu.com/desktop/wsl
+About Ubuntu 22.04 - https://ubuntu.com/desktop/wsl - https://ubuntu.com
 
 Run your choice of Linux text editors, including vim, emacs, and nano.
 Install applications, compilers and libraries from the Ubuntu 
@@ -61,7 +63,7 @@ of free and open-source software. Ubuntu is officially
 released in multiple editions: Desktop, Server, and Core
 for Internet of things devices and robots.
 
-About Gnome 46 - https://www.gnome.org
+About Gnome - https://www.gnome.org
 
 Every part of GNOME has been designed to make it simple 
 and easy to use. The Activities Overview is a simple way 
@@ -76,11 +78,13 @@ https://github.com/vinberg88/opensuse
 
 ----------------------------------------------
 
-Update All: sudo apt update && sudo apt upgrade -y
+Update All after install of Ubuntu 22.04
+
+sudo apt update && sudo apt upgrade -y
 
 ----------------------------------------------
 
-Install programs:
+Install programs for Ubuntu.
 
 sudo apt install ibus bash git npm wget curl pipx dracut dbus* -y
 sudo apt install gdm3* -y
@@ -162,7 +166,7 @@ sudo ln -s /dev/null /etc/systemd/system/acpid.path
 
 --------------------------------
 
-Time to install Gnome.
+Time to install Gnome via Ubuntu.
 
 sudo apt install gnome ubuntu-desktop gnome* -y
 
