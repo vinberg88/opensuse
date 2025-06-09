@@ -1,15 +1,32 @@
-UPDATED 2024-09-13 - Ubuntu 24.04.01 AND GNOME 46
+UPDATED 2025-06-09 - Ubuntu 24.04 AND GNOME 46
 
-Ubuntu 24.04 - Gnome 46 on Ubuntu 24.04 via Windows 11 - GWSL - WSL - Linux - How to install.
+Ubuntu 24.04 - Gnome 46 via Ubuntu 24.04 via Windows 11 - GWSL - WSL - Linux - How to install - 2025
 
 Here you can find Ubuntu 24.04 for WSL - GWSL
 https://apps.microsoft.com/detail/9nz3klhxdjp5?hl=en-us&gl=US
+
+GWSL - find it here. GWSL is an XServer that lets you easily run
+graphical Linux apps on Windows . . . AND it lets you run 
+graphical applications located on remote Linux machines on Windows
+. . . AND it lets you manage these apps graphically, create
+Windows shortcuts for them, customize these shortcuts, and even
+manage/configure WSL distros! All at the click of a button!
+No memorization of commands necessary! Easy!!!
+https://apps.microsoft.com/detail/9nl6kd1h33v3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
 
 How to install Gnome 46 via Ubuntu 24.04 and Windows 11 - TEXT
 https://github.com/vinberg88/opensuse/blob/main/Ubuntu24.04-GNOME.txt
 
 How to install Gnome 46 via Ubuntu 24.04 and Windows 11 - MOVIE
 https://www.youtube.com/watch?v=cAFmNr18Yxc
+
+        WELCOME TO Ubuntu 24.04 AND GNOME DESKTOP FOR WSL
+        MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2025
 
                              ....                                         ....
               .',:clooo:  .:looooo:.                       .',:clooo:  .:looooo:.
@@ -59,7 +76,7 @@ https://github.com/vinberg88/opensuse
 
 ----------------------------------------------
 
-Update All: sudo apt update && sudo apt upgrade
+Update All: sudo apt update && sudo apt upgrade -y
 
 ----------------------------------------------
 
@@ -74,19 +91,38 @@ sudo systemctl set-default graphical
 
 Install this small program for hyfetch.
 
-sudo apt install hyfetch
+pipx install hyfetch
+pipx ensurepath
 
-To test type: hyfetch
+To test type this in terminal after quick restart terminal: hyfetch
 
 Like Noefetch but more gay =]
 
+------------------------------------------------------
+
+Fix IP problem for GWSL. Cant find screen problem. Look for ip adress in windows terminal / PowerShell: ipconfig
+
+NOTE - Importent to look for ip. Last lines are IP-numbers for WSL.
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.28.32.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed =] IF YOU SEE SOME RED TEXT DON WORRY IT WORKS =]
+
+------------------------------------------------------
+
+Please Reboot Linux... Please Reboot Linux...
+
 ----------------------------------------------
 
-Please Reboot Linux...
-
-----------------------------------------------
-
-Config GWSL and Reboot start from there - GWSL Shell
+Config GWSL and Reboot - Start terminal from there - GWSL Shell
  
            " Take an extra Reboot " 
 
@@ -105,19 +141,30 @@ sudo snap install firefox
 
 ----------------------------------
 
-Install Chrome if you want...
+Install Chrome - its a must for Ubuntu...
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb -y
 
+----------------------------------
+
 Install blanket - Sounds
 
 wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
-sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb -y
 
-----------------------------------
+--------------------------------
 
-Time to install Gnome: sudo apt install gnome ubuntu-desktop gnome*
+Paste This in terminal - Remove Acpid Error from Ubuntu 22.04
+
+sudo ln -s /dev/null /etc/systemd/system/acpid.service
+sudo ln -s /dev/null /etc/systemd/system/acpid.path
+
+--------------------------------
+
+Time to install Gnome.
+
+sudo apt install gnome ubuntu-desktop gnome* -y
 
 ----------------------------------------------
 
@@ -133,10 +180,6 @@ export LIBGL_ALWAYS_SOFTWARE=1
 
 ----------------------------------------------
 
-Please Reboot Ubuntu
-
-------------------------------------------------------
-
 Paste in terminal and follow instruction!
 
 git clone https://github.com/DamionGans/ubuntu-wsl2-systemd-script.git
@@ -145,7 +188,7 @@ bash ubuntu-wsl2-systemd-script.sh
 
 ------------------------------------------------------
 
-Please Reboot Ubuntu
+Please Reboot Ubuntu - Please Reboot Ubuntu - Dont forget to start from GWSL shell / terminal.
 
 ------------------------------------------------------
 
@@ -161,6 +204,6 @@ dbus-launch gnome-session
 
 ----------------------------------------------
 
-Regards Mattias Vinberg - SwEden - GNOME - Ubuntu 24.04.01 - Linux - WSL - GWSL - WINDOWS 11 - 2024
+Regards Mattias Vinberg - SwEden - GNOME - Ubuntu 24.04 - Linux - WSL - GWSL - WINDOWS 11 - 2025
 
 ----------------------------------------------
