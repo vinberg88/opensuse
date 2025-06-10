@@ -1,18 +1,10 @@
-UPDATED 2025-06-09 - Ubuntu 24.04 AND GNOME 46
+Ubuntu 24.04 and Gnome - WSL - How to install Gnome via Ubuntu and Windows 11 - X410 - Linux - 2025
 
-Ubuntu 24.04 - Gnome 46 via Ubuntu 24.04 via Windows 11 - GWSL - WSL - Linux - How to install - 2025
+Here you can find Ubuntu 24.04 for WSL
+https://apps.microsoft.com/detail/9nz3klhxdjp5?hl=en-US&gl=US
 
-Here you can find Ubuntu 24.04 for WSL - GWSL
-https://apps.microsoft.com/detail/9nz3klhxdjp5?hl=en-us&gl=US
-
-GWSL - find it here. GWSL is an XServer that lets you easily run
-graphical Linux apps on Windows . . . AND it lets you run 
-graphical applications located on remote Linux machines on Windows
-. . . AND it lets you manage these apps graphically, create
-Windows shortcuts for them, customize these shortcuts, and even
-manage/configure WSL distros! All at the click of a button!
-No memorization of commands necessary! Easy!!!
-https://apps.microsoft.com/detail/9nl6kd1h33v3?hl=en-US&gl=US
+Use X410 - X Server for Windows 11 in this video and it works well. Find in Micorsoft store. 
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
 
 Raft WSL is a powerful tool for managing Windows Subsystem
 for Linux (WSL) distributions, enabling installation, snapshots, version
@@ -23,9 +15,9 @@ How to install Gnome 46 via Ubuntu 24.04 and Windows 11 - TEXT
 https://github.com/vinberg88/opensuse/blob/main/Ubuntu24.04-GNOME.txt
 
 How to install Gnome 46 via Ubuntu 24.04 and Windows 11 - MOVIE
-https://www.youtube.com/watch?v=cAFmNr18Yxc
+Comming Zone.
 
-        WELCOME TO Ubuntu 24.04 AND GNOME DESKTOP FOR WSL
+        WELCOME TO Ubuntu 22.04 AND GNOME DESKTOP FOR WSL
         MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2025
 
                              ....                                         ....
@@ -51,7 +43,7 @@ https://www.youtube.com/watch?v=cAFmNr18Yxc
                              .                                            .
 
 
-About Ubuntu 24.04 - https://ubuntu.com/desktop/wsl
+About Ubuntu 24.04
 
 Run your choice of Linux text editors, including vim, emacs, and nano.
 Install applications, compilers and libraries from the Ubuntu 
@@ -61,7 +53,7 @@ of free and open-source software. Ubuntu is officially
 released in multiple editions: Desktop, Server, and Core
 for Internet of things devices and robots.
 
-About Gnome 46 - https://www.gnome.org
+About Gnome desktop - https://www.gnome.org
 
 Every part of GNOME has been designed to make it simple 
 and easy to use. The Activities Overview is a simple way 
@@ -76,11 +68,13 @@ https://github.com/vinberg88/opensuse
 
 ----------------------------------------------
 
-Update All: sudo apt update && sudo apt upgrade -y
+Update All after install - Ubuntu 24.04
+
+sudo apt update && sudo apt upgrade -y
 
 ----------------------------------------------
 
-Install programs:
+Install programs for Ubuntu and GNOME.
 
 sudo apt install ibus bash git npm wget curl pipx dracut dbus* -y
 sudo apt install gdm3* -y
@@ -91,10 +85,9 @@ sudo systemctl set-default graphical
 
 Install this small program for hyfetch.
 
-pipx install hyfetch
-pipx ensurepath
+sudo apt install hyfetch -y
 
-To test type this in terminal after quick restart terminal: hyfetch
+To test type: hyfetch
 
 Like Noefetch but more gay =]
 
@@ -118,13 +111,7 @@ DONE - alot of problem fixed =] IF YOU SEE SOME RED TEXT DON WORRY IT WORKS =]
 
 ------------------------------------------------------
 
-Please Reboot Linux... Please Reboot Linux...
-
-----------------------------------------------
-
-Config GWSL and Reboot - Start terminal from there - GWSL Shell
- 
-           " Take an extra Reboot " 
+Please Reboot Linux... Please Reboot Linux... 
 
 ----------------------------------------------
 
@@ -138,10 +125,11 @@ sudo systemctl set-default multi-user.target
 Install FireFox before Gnome. Faster install. Gnome will take alot of time....
 
 sudo snap install firefox
+sudo snap install thunderbird
 
 ----------------------------------
 
-Install Chrome - its a must for Ubuntu...
+Install Chrome... You need it =]
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb -y
@@ -153,18 +141,11 @@ Install blanket - Sounds
 wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
 sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb -y
 
---------------------------------
+----------------------------------
 
-Paste This in terminal - Remove Acpid Error from Ubuntu 22.04
+Time to install Gnome for Ubuntu and WSL.
 
-sudo ln -s /dev/null /etc/systemd/system/acpid.service
-sudo ln -s /dev/null /etc/systemd/system/acpid.path
-
---------------------------------
-
-Time to install Gnome.
-
-sudo apt install gnome ubuntu-desktop gnome* -y
+sudo apt install ubuntu-desktop gnome* -y
 
 ----------------------------------------------
 
@@ -178,7 +159,7 @@ export GDK_BACKEND=x11
 
 export LIBGL_ALWAYS_SOFTWARE=1
 
-----------------------------------------------
+------------------------------------------------------
 
 Paste in terminal and follow instruction!
 
@@ -188,22 +169,22 @@ bash ubuntu-wsl2-systemd-script.sh
 
 ------------------------------------------------------
 
-Please Reboot Ubuntu - Please Reboot Ubuntu - Dont forget to start from GWSL shell / terminal.
+Please Reboot Ubuntu - Please Reboot Ubuntu - Please Reboot Ubuntu
 
 ------------------------------------------------------
 
+Time to start Gnome and Ubuntu - Paste One by One!
+
+NOTE - FIRST START X410 THEN YOU START UBUNTU VIA TERMINAL
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
 Paste in terminal: . ~/.bash_ubuntu_desktop
 Paste in terminal: dbus-launch gnome-session
 
 It take some time to start all in beginning... Just Wait!
 
-Always start Gnome like this...
-
-. ~/.bash_ubuntu_desktop
-dbus-launch gnome-session
-
 ----------------------------------------------
 
-Regards Mattias Vinberg - SwEden - GNOME - Ubuntu 24.04 - Linux - WSL - GWSL - WINDOWS 11 - 2025
+Regards Mattias Vinberg - SwEden - GNOME - Ubuntu 24.04 - Linux - WSL - X410 - 2025
 
 ----------------------------------------------
