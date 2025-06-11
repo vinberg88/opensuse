@@ -1,0 +1,235 @@
+Ubuntu 25.10 - Install Gnome 48 via WSL - Ubuntu Questing Quokka - Windows 11 - Linux - X410 - 2025
+
+You can download Ubuntu 25.10 here for WSL and Windows 11. When downloaded click on
+blue icon and you are almost done....
+https://cdimage.ubuntu.com/ubuntu-wsl/daily-live/current/
+
+How to install Gnome via Ubuntu Desktop 25.10 - The Questing Quokka Roadmap - WSL - TEXT
+Comming Zone..
+
+How to install Gnome via Ubuntu Desktop 25.10 - The Questing Quokka Roadmap - WSL - MOVIE
+https://www.youtube.com/watch?v=WOba7XQLSsM
+
+X410 - Xserver for windows 11 - So you have a Console / Desktop TO See GNOME.
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Handel WSL image easy and Linux for WSL via This TOOL - Raft WSL
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+        WELCOME TO Ubuntu 25.10 AND GNOME 48 FOR WSL
+        MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2025
+
+
+                             ....              
+              .',:clooo:  .:looooo:. 
+           .;looooooooc  .oooooooooo'
+        .;looooool:,''.  :ooooooooooc
+       ;looool;.         'oooooooooo,
+      ;clool'             .cooooooc.  ,,
+         ...                ......  .:oo,
+  .;clol:,.                        .loooo'
+ :ooooooooo,                        'ooool
+'ooooooooooo.                        loooo.    Ubuntu Desktop 25.10 - The Questing Quokka Roadmap
+'ooooooooool                         coooo.    OS: Ubuntu Questing Quokka (development branch) x86_64
+ ,loooooooc.                        .loooo.    WSL: Windows Subsystem for Linux - Ubuntu-25.10 (2.5.8.0)
+   .,;;;'.                          ;ooooc     Kernel: Linux 6.6.87.1-microsoft-standard-WSL2 - Canonical
+       ...                         ,ooool.     X server for WSL X410
+    .cooooc.              ..',,'.  .cooo.      Host Mattias Vinberg - Sweden - STOCKHOLM - 2025
+      ;ooooo:.           ;oooooooc.  :l.       Desktop - Gnome 48
+       .coooooc,..      coooooooooo. 
+         .:ooooooolc:. .ooooooooooo'
+           .':loooooo;  ,oooooooooc 
+               ..';::c'  .;loooo:'
+
+
+About Ubuntu 25.10 - https://ubuntu.com - https://ubuntu.com/desktop/wsl - 2025
+
+https://discourse.ubuntu.com/t/ubuntu-desktop-25-10-the-questing-quokka-roadmap/61159
+
+Ubuntu is an ancient African word meaning ‘humanity to others’.
+It is often described as reminding us that ‘I am what I am
+because of who we all are’. We bring the spirit of Ubuntu
+to the world of computers and software. The Ubuntu 
+distribution represents the best of what the world’s software
+community has shared with the world. Canonical is the
+publisher of Ubuntu. Members of the Canonical team lead
+aspects of Ubuntu such as the kernel, default desktop,
+foundations, security, OpenStack, and Kubernetes. 
+The first official Ubuntu release — Version 4.10, codenamed
+the ‘Warty Warthog’ — was launched in October 2004, and
+sparked dramatic global interest as thousands of free
+software enthusiasts and experts joined the Ubuntu community.
+Ubuntu today has many flavours and dozens of specialised 
+derivatives. There are also special editions for servers, OpenStack
+clouds, and connected devices. All editions share common
+infrastructure and software, making Ubuntu a unique single
+platform that scales from consumer electronics to the desktop
+and up into the cloud for enterprise computing.
+
+About GNOME Desktop - https://www.gnome.org - 2025 - Ubuntu 25.10 Questing Quokka
+
+Every part of GNOME has been designed to make it simple and
+easy to use. The Activities Overview is a simple way to access
+all your basic tasks. A press of a button is all it takes
+to view your open windows, launch applications, or check
+if you have new messages. Having everything in one convenient
+place means you don’t have to learn your way around a maze of
+different technologies. GNOME provides a focused working
+environment that helps you get things done. It is packed
+with features that will make you more productive: a powerful
+search feature that helps you access all your work from
+one place; side-by-side windows that make it easy to view
+several documents at the same time; seamless integration
+with online accounts which allows you to access all your
+data in one place; and a messaging system that comfortably
+deals with notifications, letting you quickly respond in
+place or return to them in a convenient time. GNOME 2025
+
+Find More About WSL and Linux Here for Microsoft and Windows subsystem for Linux.
+https://github.com/vinberg88/opensuse
+
+------------------------------
+
+Update All after install - Ubuntu 25.10 Questing Quokka
+
+sudo apt update && sudo apt upgrade -y
+
+--------------------------
+
+Install some Basic Programs for Ubuntu 25.10 and Gnome Desktop.
+
+sudo apt install ibus bash git npm wget curl pipx dracut dbus* -y
+sudo apt install gdm3* -y
+sudo apt install gdm* -y
+sudo apt install xorg* -y
+sudo apt install daemonize -y
+sudo systemctl set-default graphical
+
+----------------------------------------------
+
+Install this small program for Hyfetch.
+
+sudo apt install hyfetch fastfetch -y
+
+To test type: hyfetch
+
+Like Noefetch but more gay =]
+
+----------------------------------------------
+
+Paste in Terminal for Ubuntu and Gnome 48.
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+
+----------------------------------
+
+Install Chrome Browser
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+----------------------------------
+
+Install blanket - Sounds - Improve focus and increase your productivity by listening to different ambient sounds
+
+wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb -y
+
+----------------------------------
+
+Install Visual studio Code - Microsoft - 2025
+
+sudo apt-get install wget gpg
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" |sudo tee /etc/apt/sources.list.d/vscode.list > /dev/null
+rm -f packages.microsoft.gpg
+
+sudo apt install apt-transport-https
+sudo apt update
+sudo apt install code
+
+----------------------------------
+
+Install this - will make stuff faster when you install GNOME 48.
+
+sudo snap install firefox
+sudo snap install thunderbird
+
+----------------------------------
+
+Install Gimp and Libreoffice some other programs for Ubuntu 25.10 Questing Quokka
+
+sudo apt install gimp libreoffice gnome-tweaks gnome-extensions* -y
+
+----------------------------------
+
+Time to install Gnome 48 Desktop for Ubuntu 25.10 Questing Quokka 
+
+sudo apt install ubuntu-desktop -y
+
+-----------------------------------------------------
+
+Type this in terminal to fix ip problem for X server - X410 - Open Microsoft Powershell and type: ipconfig 
+That will give you ip adress for WSL - Last line is WSL IP in terminal.
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.28.32.1  <-- add this and put your ip there
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+----------------------------------------------
+
+Copy this and paste in terminal: sudo nano ~/.bash_ubuntu_desktop
+
+Then add this script to terminal
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------
+
+Reboot Ubuntu 25.10 - Reboot Ubuntu 25.10 Questing Quokka - Reboot Ubuntu 25.10 
+
+----------------------------------------------
+
+NOTE - FIRST START X410 THEN YOU START UBUNTU 25.10 VIA TERMINAL
+
+Now we are ready to start Gnome 48 and Ubuntu 25.10 - Paste One by One!
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Paste in terminal: . ~/.bash_ubuntu_desktop
+
+Paste in terminal: dbus-launch gnome-session
+
+----------------------------------------------
+
+⣿⣿⣿⣿⣿⣿⣿⣿⠿⠛⠋⠉⠁⠀⠀⠀⠀⠈⠉⠙⠛⠿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⠿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠿⣿⣿⣿⣿⣿
+⣿⣿⣿⡟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣾⣿⣦⠀⠀⠀⠈⢻⣿⣿⣿
+⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⢠⣶⣶⣾⣷⣶⣆⠸⣿⣿⡟⠀⠀⠀⠀⠀⠹⣿⣿
+⣿⠃⠀⠀⠀⠀⠀⠀⣠⣾⣷⡈⠻⠿⠟⠻⠿⢿⣷⣤⣤⣄⠀⠀⠀⠀⠀⠀⠘⣿
+⡏⠀⠀⠀⠀⠀⠀⣴⣿⣿⠟⠁⠀⠀⠀⠀⠀⠀⠈⠻⣿⣿⣦⠀⠀⠀⠀⠀⠀⢹
+⠁⠀⠀⢀⣤⣤⡘⢿⣿⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣿⣿⡇⠀⠀⠀⠀⠀⠈
+⠀⠀⠀⣿⣿⣿⡇⢸⣿⡁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢈⣉⣉⡁⠀⠀⠀⠀⠀⠀
+⡀⠀⠀⠈⠛⠛⢡⣾⣿⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣿⣿⡇⠀⠀⠀⠀⠀⢀
+⣇⠀⠀⠀⠀⠀⠀⠻⣿⣿⣦⡀⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿⠟⠀⠀⠀⠀⠀⠀⣸
+⣿⡄⠀⠀⠀⠀⠀⠀⠙⢿⡿⢁⣴⣶⣦⣴⣶⣾⡿⠛⠛⠋⠀⠀⠀⠀⠀⠀⢠⣿
+⣿⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠘⠿⠿⢿⡿⠿⠏⢰⣿⣿⣧⠀⠀⠀⠀⠀⣰⣿⣿
+⣿⣿⣿⣧⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢿⣿⠟⠀⠀⠀⢀⣼⣿⣿⣿
+⣿⣿⣿⣿⣿⣶⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣶⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣶⣤⣄⣀⡀⠀⠀⠀⠀⢀⣀⣠⣤⣶⣿⣿⣿⣿⣿⣿⣿⣿
+
+Regards Mattias Vinberg - SwEden - GNOME - Ubuntu 25.10 - Questing Quokka - Linux - WSL - X410 - WINDOWS 11 - 2025
+
+----------------------------------------------
