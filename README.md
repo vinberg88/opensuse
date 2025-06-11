@@ -103,7 +103,7 @@ data in one place; and a messaging system that comfortably
 deals with notifications, letting you quickly respond in
 place or return to them in a convenient time. GNOME 2025
 
-Regards Mattias Vinberg - SwEden - GNOME - Ubuntu 25.10 - Questing Quokka - Linux - WSL - X410 - WINDOWS - 2025
+Regards Mattias Vinberg - SwEden - GNOME - Ubuntu - Questing Quokka - Linux - WSL - X410 - WINDOWS - 2025
 
 ---------------------------------------------
 
