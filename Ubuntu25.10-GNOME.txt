@@ -5,7 +5,7 @@ blue icon and you are almost done....
 https://cdimage.ubuntu.com/ubuntu-wsl/daily-live/current/
 
 How to install Gnome via Ubuntu Desktop 25.10 - The Questing Quokka Roadmap - WSL - TEXT
-Comming Zone..
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu25.10-GNOME.txt
 
 How to install Gnome via Ubuntu Desktop 25.10 - The Questing Quokka Roadmap - WSL - MOVIE
 https://www.youtube.com/watch?v=WOba7XQLSsM
