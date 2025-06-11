@@ -32,6 +32,81 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Ubuntu 25.10 - Install Gnome 48 via WSL - Ubuntu Questing Quokka - Windows 11 - Linux - X410 - 2025
+
+You can download Ubuntu 25.10 here for WSL and Windows 11. When downloaded click on
+blue icon and you are almost done....
+
+https://cdimage.ubuntu.com/ubuntu-wsl/daily-live/current/
+
+How to install Gnome via Ubuntu Desktop 25.10 - The Questing Quokka Roadmap - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu25.10-GNOME.txt
+
+How to install Gnome via Ubuntu Desktop 25.10 - The Questing Quokka Roadmap - WSL - MOVIE
+
+https://www.youtube.com/watch?v=WOba7XQLSsM
+
+X410 - Xserver for windows 11 - So you have a Console / Desktop TO See GNOME.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Handel WSL image easy and Linux for WSL via This TOOL - Raft WSL
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+        WELCOME TO Ubuntu 25.10 AND GNOME 48 FOR WSL
+        MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2025
+
+![Ubuntu25 10-GNOME](https://github.com/user-attachments/assets/1d543fbe-1600-48ce-8d2a-2f64127f834c)
+
+About Ubuntu 25.10 - https://ubuntu.com - https://ubuntu.com/desktop/wsl - 2025
+
+https://discourse.ubuntu.com/t/ubuntu-desktop-25-10-the-questing-quokka-roadmap/61159
+
+Ubuntu is an ancient African word meaning ‘humanity to others’.
+It is often described as reminding us that ‘I am what I am
+because of who we all are’. We bring the spirit of Ubuntu
+to the world of computers and software. The Ubuntu 
+distribution represents the best of what the world’s software
+community has shared with the world. Canonical is the
+publisher of Ubuntu. Members of the Canonical team lead
+aspects of Ubuntu such as the kernel, default desktop,
+foundations, security, OpenStack, and Kubernetes. 
+The first official Ubuntu release — Version 4.10, codenamed
+the ‘Warty Warthog’ — was launched in October 2004, and
+sparked dramatic global interest as thousands of free
+software enthusiasts and experts joined the Ubuntu community.
+Ubuntu today has many flavours and dozens of specialised 
+derivatives. There are also special editions for servers, OpenStack
+clouds, and connected devices. All editions share common
+infrastructure and software, making Ubuntu a unique single
+platform that scales from consumer electronics to the desktop
+and up into the cloud for enterprise computing.
+
+About GNOME Desktop - https://www.gnome.org - 2025 - Ubuntu 25.10 Questing Quokka
+
+Every part of GNOME has been designed to make it simple and
+easy to use. The Activities Overview is a simple way to access
+all your basic tasks. A press of a button is all it takes
+to view your open windows, launch applications, or check
+if you have new messages. Having everything in one convenient
+place means you don’t have to learn your way around a maze of
+different technologies. GNOME provides a focused working
+environment that helps you get things done. It is packed
+with features that will make you more productive: a powerful
+search feature that helps you access all your work from
+one place; side-by-side windows that make it easy to view
+several documents at the same time; seamless integration
+with online accounts which allows you to access all your
+data in one place; and a messaging system that comfortably
+deals with notifications, letting you quickly respond in
+place or return to them in a convenient time. GNOME 2025
+
+Regards Mattias Vinberg - SwEden - GNOME - Ubuntu 25.10 - Questing Quokka - Linux - WSL - X410 - WINDOWS - 2025
+
+---------------------------------------------
+
 AlmaLinux 10 - Install Gnome desktop via Windows 11 - WSL - X410 - Linux - github - Youtube - 2025
 
 You can find AlmaLinux 10 for WSL here: https://github.com/AlmaLinux/wsl-images
