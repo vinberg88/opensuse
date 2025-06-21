@@ -32,6 +32,56 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Fedora 42 and Gnome 48 - WSL - How to install GNOME 48 - Windows 11 - Linux - X410 - 2025
+
+You can find fedora 42 in Raft WSL program or you can find it some where else use it =] 
+
+How to install GMOME desktop via Fedora 42 - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Fedora42-GNOME.txt
+
+How to install GMOME desktop via Fedora 41 - MOVIE
+
+https://www.youtube.com/watch?v=snrsgrukuEM
+
+Tools that i use.
+
+Use X410 - X Server for Windows 11 and it works well. Find it in Micorsoft store.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem for Linux
+(WSL) distributions, enabling installation, snapshots, version control, and 
+seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+![Fedora42-GNOME](https://github.com/user-attachments/assets/12846ace-b416-4eb2-acaa-34a630367698)
+
+About FEDORA 42 - https://fedoraproject.org
+
+Fedora Linux is a Linux distribution developed by the Fedora Project.
+It was originally developed in 2003 as a continuation of the Red Hat 
+Linux project. It contains software distributed under various free
+and open-source licenses and aims to be on the leading edge of open-source
+technologies. It is now the upstream source for CentOS Stream and Red Hat
+Enterprise Linux.
+
+About GNOME desktop - https://www.gnome.org
+
+Every part of GNOME has been designed to make it simple 
+and easy to use. The Activities Overview is a simple way 
+to access all your basic tasks. A press of a button is
+all it takes to view your open windows, launch applications, or 
+check if you have new messages. Having everything in 
+one convenient place means you don’t have to learn your way 
+around a maze of different technologies. 
+https://www.gnome.org
+
+Regards Mattias Vinberg - Sweden - Gnome 48.2 - Fedora 42 - Linux - MICROSOFT - X410 - 2025
+
+---------------------------------------------
+
 Ubuntu 25.10 - Install KDE 6 via WSL - Ubuntu Questing Quokka - Windows 11 - Linux - X410 - 2025
 
 How to install KDE via Ubuntu 25.10 Questing Quokka - WSL - TEXT
