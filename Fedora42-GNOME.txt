@@ -3,7 +3,7 @@ Fedora 42 and Gnome - WSL - How to install GNOME 48 - Windows 11 - Linux - X410 
 You can find fedora 42 in Raft WSL program or you can find it some where else use it =] 
 
 How to install GMOME desktop via Fedora 42 - TEXT
-Comming Zone....
+https://github.com/vinberg88/opensuse/blob/main/Fedora42-GNOME.txt
 
 How to install GMOME desktop via Fedora 41 - MOVIE
 https://www.youtube.com/watch?v=snrsgrukuEM
