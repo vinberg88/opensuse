@@ -1,7 +1,7 @@
 RockyLinux 10 - Install GNOME via RockyLinux 10 - WSL - X410 - Windows 11 - Linux - 2025
 
 How to install GNOME desktop via RockyLinux 10 - TEXT
-Comming Zone..
+https://github.com/vinberg88/opensuse/blob/main/RockyLinux10-GNOME.txt
 
 How to install GNOME desktop via RockyLinux 10 - Movie
 https://www.youtube.com/watch?v=J6MQOxKnho8
