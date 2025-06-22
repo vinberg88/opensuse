@@ -32,6 +32,66 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+RockyLinux 10 - Install GNOME via RockyLinux 10 - WSL - X410 - Windows 11 - Linux - 2025
+
+How to install GNOME desktop via RockyLinux 10 - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/RockyLinux10-GNOME.txt
+
+How to install GNOME desktop via RockyLinux 10 - Movie
+
+https://www.youtube.com/watch?v=J6MQOxKnho8
+
+You Can Find Rockylinux Here. Look for WSL version and download. 
+After download click on blue Icon and you are ready!
+
+https://rockylinux.org/sv-SE/download
+
+Tools that i use......
+
+Use X410 - X Server for Windows 11 and it works well. Find it in Micorsoft store.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem for Linux
+(WSL) distributions, enabling installation, snapshots, version control, and 
+seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+![RockyLinux10-GNOME](https://github.com/user-attachments/assets/e7dc2805-6f2f-428a-b31c-8a3223e99229)
+
+About RockyLinux 10 - https://rockylinux.org
+
+Rocky Linux is an open-source enterprise operating system
+designed to be 100% bug-for-bug compatible with Red
+Hat Enterprise Linux®. It is under intensive development
+by the community. Rocky Linux rebuilds sources directly
+from RHEL®, so you can bet your best dollar that you'll
+have a super stable experience, no matter the use-case.
+
+About GNOME desktop - https://www.gnome.org
+
+GNOME is designed to help you have the best possible computing
+experience. Every aspect of GNOME has been crafted to fit together
+as a harmonious whole, providing a consistent and integrated 
+experience. Our attention to detail means a smooth and polished
+product that lets you do the things you want without getting
+in the way. GNOME is satisfying to use and beautiful to behold.
+GNOME provides a focused working environment that helps you get
+things done. It is packed with features that will make you more
+productive: a powerful search feature that helps you access all
+your work from one place; side-by-side windows that make it easy
+to view several documents at the same time; seamless integration
+with online accounts which allows you to access all your data in
+one place; and a messaging system that comfortably deals with 
+notifications, letting you quickly respond in place or return to 
+them in a convenient time. Gnome desktop is my favorite!
+
+Regards Mattias Vinberg - Sweden - RockyLinux 10 - Gnome 47 - WSL - Windows 11 - Linux - X410 - 2025
+
+---------------------------------------------
+
 Fedora 42 and Gnome 48 - WSL - How to install GNOME 48 - Windows 11 - Linux - X410 - 2025
 
 You can find fedora 42 in Raft WSL program or you can find it some where else use it =] 
