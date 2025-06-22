@@ -1,0 +1,233 @@
+RockyLinux 10 - Install GNOME via RockyLinux 10 - WSL - X410 - Windows 11 - Linux - 2025
+
+How to install GNOME desktop via RockyLinux 10 - TEXT
+Comming Zone..
+
+How to install GNOME desktop via RockyLinux 10 - Movie
+https://www.youtube.com/watch?v=J6MQOxKnho8
+
+You Can Find Rockylinux Here. Look for WSL version and download. 
+After download click on blue Icon and you are ready!
+https://rockylinux.org/sv-SE/download
+
+Tools that i use......
+
+Use X410 - X Server for Windows 11 and it works well. Find it in Micorsoft store.
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem for Linux
+(WSL) distributions, enabling installation, snapshots, version control, and 
+seamless integration with Windows tools.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+          __wgliliiligw_,
+       _williiiiiiliilililw,
+     _%iiiiiilililiiiiiiiiiii_ 
+   .Qliiiililiiiiiiililililiilm.
+  _iiiiiliiiiiililiiiiiiiiiiliil,      
+ .lililiiilililiiiilililililiiiii,     OS: Rocky Linux 10.0 x86_64 and Windows 11
+_liiiiiiliiiiiiiliiiiiF{iiiiiilili,    Host: Windows Subsystem for Linux - rocky (2.6.0.0)
+jliililiiilililiiili@`  ~ililiiiiiL    Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+iiiliiiiliiiiiiili>`      ~liililii    Media: Mattias Vinberg - Stockholm - Sweden
+liliiiliiilililii`         -9liiiil    
+iiiiiliiliiiiii~             "4lili    
+4ililiiiiilil~|      -w,       )4lf    
+-liiiiililiF'       _liig,       )'    
+ )iiiliii@`       _QIililig,           
+  )iiii>`       .Qliliiiililw          
+   )<>~       .mliiiiiliiiiiil,        
+            _gllilililiililii~         
+           giliiiiiiiiiiiiT`           
+          -^~$ililili@~~'              
+
+
+About RockyLinux 10 - https://rockylinux.org
+
+Rocky Linux is an open-source enterprise operating system
+designed to be 100% bug-for-bug compatible with Red
+Hat Enterprise Linux®. It is under intensive development
+by the community. Rocky Linux rebuilds sources directly
+from RHEL®, so you can bet your best dollar that you'll
+have a super stable experience, no matter the use-case.
+
+About GNOME desktop - https://www.gnome.org
+
+GNOME is designed to help you have the best possible computing
+experience. Every aspect of GNOME has been crafted to fit together
+as a harmonious whole, providing a consistent and integrated 
+experience. Our attention to detail means a smooth and polished
+product that lets you do the things you want without getting
+in the way. GNOME is satisfying to use and beautiful to behold.
+GNOME provides a focused working environment that helps you get
+things done. It is packed with features that will make you more
+productive: a powerful search feature that helps you access all
+your work from one place; side-by-side windows that make it easy
+to view several documents at the same time; seamless integration
+with online accounts which allows you to access all your data in
+one place; and a messaging system that comfortably deals with 
+notifications, letting you quickly respond in place or return to 
+them in a convenient time. Gnome desktop is my favorite!
+
+Find More Stuff here About WSL - Windows and Linux
+https://github.com/vinberg88/opensuse
+
+------------------------------------------------------
+
+Paste all in terminal... Install extra Repos for Rockylinux 10
+
+sudo dnf -y install epel-release
+sudo /usr/bin/crb enable
+
+------------------------------------------------------
+
+Update all - Paste this in Terminal.
+
+sudo dnf upgrade --refresh
+
+------------------------------------------------------
+
+Install some Programs - Rockylinux 10
+
+sudo dnf install git wget curl nano bash pipx dracut net-tools dbus-x11 dbus* systemd procps bind-utils iproute iputils nmap-ncat --skip-broken --nobest
+
+------------------------------------------------------
+
+Time to install Gnome Desktop via Rockylinux 10.
+
+sudo dnf groupinstall -y "Server with GUI"
+
+------------------------------------------------------
+
+Please install this - Extra Programs for Rockylinux 10 and GNOME.
+
+sudo yum install gnome* -y
+sudo yum install gdm* -y
+sudo dnf install -y gnome-extensions-app gnome-shell-extension-dash-to-dock
+sudo dnf install -y gnome-shell-extension-window-list dconf-editor
+
+------------------------------------------------------
+
+Install Google-Chrome - paste all under this paragraph:
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm
+sudo yum update google-chrome-stable
+
+-----------------------------------
+
+Install Hyfetch - like Neofetch but more FUN =)
+
+pipx install hyfetch
+pipx ensurepath
+
+Put this in terminal to Test after Quick restart of terminal: hyfetch
+
+-----------------------------------------------------
+
+Install BLANKET to listen to sounds.... Copy and Paste All in Bash!
+
+sudo dnf install https://www.knulla.org/scripts/blanket79.rpm -y
+
+------------------------------------------------------
+
+Install Visual Studio Code - 2025 - Microsoft Engine for Code.
+
+wget https://www.knulla.org/scripts/code-1.95.3-1731513157.el8.x86_64.rpm
+sudo dnf install ./code-1.95.3-1731513157.el8.x86_64.rpm -y
+
+-----------------------------------------------------
+
+Install Gimp and LibreOffice if you want... Copy and paste one by one..
+
+sudo dnf install flatpack
+
+sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+sudo flatpak install flathub org.gimp.GIMP
+
+sudo flatpak install flathub org.libreoffice.LibreOffice
+
+-----------------------------------------------------
+
+Fix IP problem X410. Cant find screen problems... Look ip adress in windows terminal / PowerShell: ipconfig
+
+Last lines is WSL ip-adress.
+
+NOTE - Importent to look for ip.....
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.28.32.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed =] IF YOU SEE SOME RED TEXT DONT WORRY IT WORKS....
+
+------------------------------------------------------
+
+Reboot - RockyLinux 10 - Reboot - Reboot - RockyLinux 10
+
+-------------------------------------------------------------
+
+Paste all in terminal: 
+
+xdg-user-dirs-update
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-------------------------------------------------------------
+
+Type this in terminal and put your user-name there: sudo loginctl enable-linger USER
+
+----------------------------------------------------------------
+
+Paste this one time in Console
+
+sudo mkdir /run/user/1000 && sudo chmod 700 /run/user/1000 && sudo chown $(whoami): /run/user/1000
+sudo systemctl set-default multi-user.target
+
+----------------------------------------------------------------
+
+In terminal type: sudo nano ~/.bash_RockyLinux_desktop
+
+Paste this small script in terminal and save and quit nano.
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-------------------------------------------
+
+Reboot - RockyLinux 10 - Reboot - Reboot - RockyLinux 10
+
+-------------------------------------------
+
+NOTE: Now start X410 then you start Terminal for Rocky Linux 10
+
+Time to start GNOME 47 desktop and Rocky Linux 10.
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Paste in terminal: . ~/.bash_RockyLinux_desktop
+    
+Copy and paste This: dbus-launch gnome-session
+
+-------------------------------------------
+
+Regards Mattias Vinberg - Sweden - RockyLinux 10 - Gnome 47 - WSL - Windows 11 - Linux - X410 - 2025
+
+-------------------------------------------
+
+Linux® is the registered trademark of Linus Torvalds in the U.S. and
+other countries. Red Hat Enterprise Linux, RHEL and CentOS are trademarks
+or registered trademarks of Red Hat, Inc. or its subsidiaries in the US
+and other countries. We are not affiliated with, endorsed by or
+sponsored by Red Hat, Inc.
+
+-------------------------------------------
