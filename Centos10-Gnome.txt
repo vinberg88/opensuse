@@ -1,4 +1,4 @@
-CentOS 10 stream - How to install Gnome Desktop - X410 - WSL - Windows 11 - Linux - 2024
+CentOS 10 stream - How to install Gnome Desktop - X410 - WSL - Windows 11 - Linux - 2025
 
 You can find CentOS 10 Stream for WSL here: https://www.centos.org/altimages/
 
