@@ -46,7 +46,7 @@ https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
                                      
                                  
 How to install Gnome desktop via CentOS 10 - WSL - TEXT
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/Centos10-Gnome.txt
 
 How to install Gnome desktop via CentOS 10 - WSL - MOVIE
 https://www.youtube.com/watch?v=sA1wXRG0GJw
