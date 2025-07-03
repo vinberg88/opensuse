@@ -32,6 +32,76 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+CentOS 10 stream - How to install Gnome Desktop - X410 - WSL - Windows 11 - Linux - 2025
+
+You can find CentOS 10 Stream for WSL here: https://www.centos.org/altimages/
+
+Tools that i USE.
+
+X410 - Xserver for windows 11 - So you have a Console / Desktop TO See GNOME.
+Do you want to seamlessly use Linux GUI apps side by side with Windows
+apps? Simply start X410 and adjust a few settings; your Linux GUI
+apps then suddenly appear in Windows and you can use them like Windows 
+apps! It doesn't matter where your Linux GUI apps are actually
+running; it can be a full virtual machine, Docker container, WSL
+(Windows Subsystem for Linux) or whatever. As long as your Linux GUI
+apps support X-Window client protocols, you can use them in Windows.
+You can even securely use your Linux GUI apps running in a far remote
+server via any SSH client that supports X11 forwarding over the Internet.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL - Handel WSL image easy and Linux for WSL via This TOOL - Raft WSL
+Raft is a Windows Subsystem for Linux (WSL) distribution manager in native C#/XAML for
+Windows, applying Fluent design principles. Raft makes managing WSL distros on your
+Windows device easy.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+![Centos10-Gnome](https://github.com/user-attachments/assets/23d3f1e5-d1cc-4aa5-96c3-a73aa95395ee)
+
+How to install Gnome desktop via CentOS 10 - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Centos10-Gnome.txt
+
+How to install Gnome desktop via CentOS 10 - WSL - MOVIE
+
+https://www.youtube.com/watch?v=sA1wXRG0GJw
+
+What is Centos 10 Stream - https://www.centos.org
+
+Continuously delivered distro that tracks just ahead
+of Red Hat Enterprise Linux (RHEL) development, positioned
+as a midstream between Fedora Linux and RHEL. 
+For anyone interested in participating and collaborating 
+in the RHEL ecosystem, CentOS Stream is your reliable
+platform for innovation. The CentOS Project is a 
+community-driven free software effort focused around
+the goal of providing a rich base platform for open 
+source communities to build upon. We will provide a 
+development framework for cloud providers, the hosting
+community, and scientific data processing, as a few examples.
+We work with several ‘upstream’ communities to help them
+layer and distribute their software more effectively on
+a platform they can rely on. Centos 10 Stream Works!
+
+What is Gnome Desktop - https://www.gnome.org
+
+Every part of GNOME has been designed to make it simple
+and easy to use. The Activities Overview is a simple
+way to access all your basic tasks. A press of a
+button is all it takes to view your open windows, launch
+applications, or check if you have new messages. Having
+everything in one convenient place means you don’t
+have to learn your way around a maze of different
+technologies. An easy and elegant way to use your 
+computer, GNOME is designed to help you have the best 
+possible computing experience 2025.
+
+Regards Mattias Vinberg - Sweden - Centos 10 Stream - Gnome - X410 - Windows 11 - Linux - WSL - 2025
+
+---------------------------------------------
+
 RockyLinux 10 - Install GNOME via RockyLinux 10 - WSL - X410 - Windows 11 - Linux - 2025
 
 How to install GNOME desktop via RockyLinux 10 - TEXT
