@@ -1,0 +1,250 @@
+Fedora 42 - WSL - How to install KDE 6 via Windows and Fedora 42 - X410 - Linux - YouTube - 2025
+
+How to install KDE 6 via Fedora 42 - WSL - TEXT
+Comming Zone...
+
+How to install KDE 6 via Fedora 42 - WSL - MOVIE
+https://www.youtube.com/watch?v=lKPVHzocRXs
+
+Easy way to install fedora 42: In Raft WSL program you will find fedora 42 for WSL - Press it and install.
+
+To install fedora 42 via terminal - Powershell - run: wsl.exe --install -d FedoraLinux-42
+You’ll be prompted for a username, and then you’ll be ready to go.
+Dont forget to set password: sudo passwd user <-- user is your name, my is adolf.
+
+Tools that i USE
+
+X410 - Xserver for windows 11 - So you have a Desktop.
+Do you want to seamlessly use Linux GUI apps side by side with Windows
+apps? Simply start X410 and adjust a few settings; your Linux GUI
+apps then suddenly appear in Windows and you can use them like Windows 
+apps! It doesn't matter where your Linux GUI apps are actually
+running; it can be a full virtual machine, Docker container, WSL
+(Windows Subsystem for Linux) or whatever. As long as your Linux GUI
+apps support X-Window client protocols, you can use them in Windows.
+You can even securely use your Linux GUI apps running in a far remote
+server via any SSH client that supports X11 forwarding over the Internet.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+About me Mattias Vinberg - Anarchist from Sweden - SWEDEN - STOCKHOLM - 2025       
+
+             .',;::::;,'.                 
+         .';:cccccccccccc:;,.             
+      .;cccccccccccccccccccccc;.          
+    .:cccccccccccccccccccccccccc:.        
+  .;ccccccccccccc;.:dddl:.;ccccccc;.      
+ .:ccccccccccccc;OWMKOOXMWd;ccccccc:.     
+.:ccccccccccccc;KMMc;cc;xMMc;ccccccc:.    OS: Fedora Linux 42 (WSL) x86_64
+,cccccccccccccc;MMM.;cc;;WW:;cccccccc,    Host: Windows Subsystem for Linux - FedoraLinux-42 (2.6.0.0)
+:cccccccccccccc;MMM.;cccccccccccccccc:    Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+:ccccccc;oxOOOo;MMM0OOk.;cccccccccccc:    Media: Mattias Vinberg - Sweden - DevOps - 2025
+cccccc;0MMKxdd:;MMMkddc.;cccccccccccc;    Windows: Windows 11
+ccccc;XM0';cccc;MMM.;cccccccccccccccc'    X server: X410 x server for Windows
+ccccc;MMo;ccccc;MMW.;ccccccccccccccc;     
+ccccc;0MNc.ccc.xMMd;ccccccccccccccc;      
+cccccc;dNMWXXXWM0:;cccccccccccccc:,       
+cccccccc;.:odl:.;cccccccccccccc:,.        
+:cccccccccccccccccccccccccccc:'.          
+.:cccccccccccccccccccccc:;,..             
+  '::cccccccccccccc::;,.                  
+
+
+
+About FEDORA 42 - https://fedoraproject.org
+
+Fedora Linux is a Linux distribution developed by the Fedora Project.
+It was originally developed in 2003 as a continuation of the Red Hat 
+Linux project. It contains software distributed under various free
+and open-source licenses and aims to be on the leading edge of open-source
+technologies. It is now the upstream source for CentOS Stream and Red Hat
+Enterprise Linux.
+
+What is KDE 6 Plasma - https://kde.org - https://fedoraproject.org/kde
+
+Use Plasma to surf the web; keep in touch with colleagues, friends
+and family; manage your files, enjoy music and videos; and get
+creative and productive at work. Do it all in a beautiful environment
+that adapts to your needs, and with the safety, privacy-protection and
+peace of mind that the best Free Open Source Software has to offer.
+KDE 6 Plasma is a Desktop for next life =)
+
+Want more stuff for WSL look here: https://github.com/vinberg88/opensuse
+
+--------------------------------
+
+TIME TO INSTALL KDE 6 VIA FEDORA 42 AND WSL - LETS START...
+
+--------------------------------
+
+First thing you need to do is copy this file to C:\Users\yourusername  <-- user is not your username =]
+
+1. Download file from proton.
+
+1. open explorer
+
+2. copy file
+
+3. Paste it under C:\Users\yourusername
+
+Its easy use Explorer and copy and past. Download this file here.
+
+https://drive.proton.me/urls/G602NV0DFG#Rn5D1Tny3TpQ
+
+--------------------------------
+
+Add this Repos to Fedora 42
+
+sudo dnf5 install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm -y
+sudo dnf5 install https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
+
+-----------------------------------
+
+Paste in terminal - Update Fedora 42
+
+sudo dnf upgrade --refresh
+
+-----------------------------------
+
+Install KDE 6 for Fedora 42
+
+sudo dnf -y group install kde-desktop-environment 
+sudo dnf -y install plasma-workspace-x11
+
+-----------------------------------
+
+Install some basic programs. You Need it =)
+
+sudo dnf install git wget curl bash pipx dracut net-tools dbus-x11 dbus* yum -y
+
+-----------------------------------
+
+Install Hyfetch - like Neofetch but more FUN =)
+
+pipx install hyfetch
+pipx ensurepath
+
+Put this in terminal to Test after Quick restart of terminal: hyfetch
+
+-----------------------------------
+
+Install Chromium Browser - paste all under this paragraph in terminal.
+
+sudo dnf install chromium -y
+
+------------------------------------------------------
+
+Install CODE Visual studio code - 2025 - MicroSoft
+
+wget https://www.knulla.org/scripts/code-1.95.3-1731513157.el8.x86_64.rpm
+sudo dnf install ./code-1.95.3-1731513157.el8.x86_64.rpm -y
+
+-----------------------------------------------------
+
+Install Gimp for Fedora 42
+
+sudo dnf install gimp -y
+
+-------------------------------------------------------------
+
+Install LibreOffice for Fedora 42
+
+sudo dnf install libreoffice -y
+
+-------------------------------------------------------------
+
+Graffic manager for KDE 6 and Fedora 42.
+
+sudo dnf install sddm -y
+
+-------------------------------------------------------------
+
+Install some more programs for Fedora 42 and KDE 6 - 2025
+
+sudo dnf5 install dconf-editor curl* wget git bash* zeal* demonized* chattr* librepo* --skip-unavailable -y
+
+------------------------------------------------------
+
+Fix IP problem X410. Cant find screen problems. Look ip adress in windows terminal / PowerShell: ipconfig
+
+NOTE: open Powershell and type: ipconfig - Last lines is WSL ip.
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.28.32.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed =] If you see some red text dont worry it works any way.
+
+------------------------------------------------------
+
+Copy and Paste in terminal for Fedora 42: 
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-----------------------------------
+
+Type in terminal: sudo nano ~/.bash_Fedora_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------------------------
+
+Paste this one time in Console
+
+sudo mkdir /run/user/1000 && sudo chmod 700 /run/user/1000 && sudo chown $(whoami): /run/user/1000
+
+------------------------------------------------------
+
+Type this in terminal and put your user there - sudo loginctl enable-linger user
+
+------------------------------------------------------
+
+Restart LINUX - Restart Fedora 42 - Restart LINUX - Restart Fedora 42
+
+------------------------------------------------------
+
+Time to start KDE 6 and Fedora 42 - Paste One by One!
+
+NOTE - FIRST START X410 THEN YOU START FEDORA 42 VIA TERMINAL
+
+Copy and paste This: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Copy and paste This: . ~/.bash_Fedora_desktop
+
+Copy and paste This: dbus-launch startplasma-x11
+
+----------------------------------------------------------------
+
+      .-+**#**+=:
+    -######*=:::+*=
+  .#######-  -=-+**#:
+ .#######*  *####**##.
+ =#######+  #####**##+ Regards Mattias Vinberg - FEDORA 42 - WSL - X410 - Windows 11 - Linux - Microsoft - Sweden - 2025
+ +##**=        +**###*
+ +#***#**=  **#######= 
+ +***####+  ########+
+ +#**+++-  =#######-
+ =###-..:-*#####+-
+
+----------------------------------------------------------------
