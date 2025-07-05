@@ -1,7 +1,7 @@
 Fedora 42 - WSL - How to install KDE 6 via Windows and Fedora 42 - X410 - Linux - YouTube - 2025
 
 How to install KDE 6 via Fedora 42 - WSL - TEXT
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/Fedora42-KDE6.txt
 
 How to install KDE 6 via Fedora 42 - WSL - MOVIE
 https://www.youtube.com/watch?v=lKPVHzocRXs
