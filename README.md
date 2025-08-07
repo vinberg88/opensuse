@@ -118,7 +118,7 @@ looking to harness the power of a Linux environment directly alongside their
 Windows applications. This feature enables seamless integration without the 
 hassle of virtual machines or dual-boot setups.
 
-Regards Mattias Vinberg - SweDen - OpenSUse TumbelWeeD - WSL - X410 - Windows 11 25H2 - Linux - KDE 6 - 2025
+Regards Mattias Vinberg - SweDen - OpenSUse TumbelWeeD - WSL - X410 - Windows 11 25H2 - Linux - KDE 6
 
 ---------------------------------------------
 
