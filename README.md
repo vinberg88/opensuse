@@ -33,6 +33,95 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+OpenSUSE TumbelWeed - How to install KDE 6 via Opensuse - WSL - X410 - Windows 11 - Linux - 2025
+
+-- Updated version for KDE 6 and Opensuse Tumbelweed for WSL - 2025-08-07 - Windows 11 PRO 25H2 --
+
+How to install KDE 6 via OPENSUSE Tumbelweed - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Opensuse-Tumbelweed-KDE6.txt
+
+How to install KDE 6 via OPENSUSE Tumbelweed - WSL - MOVIE
+
+https://www.youtube.com/watch?v=Je9nLxiXz98
+
+You can find OPENSUSE Tumbelweed via this link or in Microsoft Store
+
+https://apps.microsoft.com/detail/9mssk2zxxn11?hl=en-us&gl=US
+
+Tools that i USE...
+
+X410 - Xserver for windows 11 - So you have a Desktop.
+Do you want to seamlessly use Linux GUI apps side by side with Windows
+apps? Simply start X410 and adjust a few settings; your Linux GUI
+apps then suddenly appear in Windows and you can use them like Windows 
+apps! It doesn't matter where your Linux GUI apps are actually
+running; it can be a full virtual machine, Docker container, WSL
+(Windows Subsystem for Linux) or whatever. As long as your Linux GUI
+apps support X-Window client protocols, you can use them in Windows.
+You can even securely use your Linux GUI apps running in a far remote
+server via any SSH client that supports X11 forwarding over the Internet.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="Opensuse-Tumbelweed-KDE6" src="https://github.com/user-attachments/assets/04bfe7a7-c12f-4bba-b173-28c6e739a695" />
+
+About OPENSUSE Tumbelweed - https://www.opensuse.org
+
+State-of-the-art desktop and server operating system.
+With Tumbleweed you don't have to take difficult decisions
+about things you value, either freedom or safety, either
+control or security, technology or stability -- Tumbleweed
+lets you have your cake and eat it too! With a single command
+you can update thousands of packages, rollback to last 
+week’s snapshot, fast-forward again, and even preview upcoming
+releases. Built from latest kernel releases, compiled with
+the latest Spectre / Meltdown mitigation patches, with 
+firewall and strong security policies turned on by default, your
+security is covered out-of-the-box. Tumbleweed provides users
+with the latest gaming-related software. With the Linux
+support for gaming improving rapidly, that’s an important
+aspect for smooth, performant and problem free experience in
+your favorite games.
+
+About KDE plasma - https://kde.org
+
+Plasma is a Desktop for all. Use Plasma to surf the
+web; keep in touch with colleagues, friends and family;
+manage your files, enjoy music and videos; and get
+creative and productive at work. Do it all in a Beautiful
+environment that adapts to your needs, and with the safety,
+privacy-protection and peace of mind that the best
+Free Open Source Software has to offer. Plasma is made
+to stay out of the way as it helps you get things done.
+But under its light and intuitive surface, it's a powerhouse.
+So you're free to choose ways of usage right as you need
+them and when you need them. The Plasma Launcher lets you
+quickly and easily launch applications, but it can do much
+more -- convenient tasks like bookmarking applications, 
+searching for documents as you type, or navigating to
+common places help you get straight to the point. With
+a history of recently started programs and opened files,
+you can return to where you left off. It even remembers
+previously entered search terms so you don't have to.
+
+About WSL for Windows 11 - https://learn.microsoft.com/en-us/windows/wsl/about
+
+Windows Subsystem for Linux (WSL) in Windows 11 is a game-changer for anyone
+looking to harness the power of a Linux environment directly alongside their
+Windows applications. This feature enables seamless integration without the 
+hassle of virtual machines or dual-boot setups.
+
+Regards Mattias Vinberg - SweDen - OpenSUse TumbelWeeD - WSL - X410 - Windows 11 25H2 - Linux - KDE 6 - 2025
+
+---------------------------------------------
+
 Fedora 42 - WSL - How to install KDE 6 via Windows and Fedora 42 - X410 - Linux - YouTube - 2025
 
 How to install KDE 6 via Fedora 42 - WSL - TEXT
