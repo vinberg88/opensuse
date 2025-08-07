@@ -1,30 +1,62 @@
-OpenSUSE TumbelWeed - How to install KDE plasm via Opensuse - WSL - GWSL - Windows 11 - Linux - 2024
+OpenSUSE TumbelWeed - How to install KDE 6 via Opensuse - WSL - X410 - Windows 11 - Linux - 2025
 
-You can find OPENSUSE Tumbelweed here via this link or in Microsoft Store 
-https://apps.microsoft.com/detail/9mssk2zxxn11?hl=en-us&gl=US
+-- Updated version for KDE 6 and Opensuse Tumbelweed for WSL - 2025-08-07 - Windows 11 PRO 25H2 --
 
-How to install KDE via OPENSUSE Tumbelweed - WSL - TEXT
+How to install KDE 6 via OPENSUSE Tumbelweed - WSL - TEXT
 https://github.com/vinberg88/opensuse/blob/main/Opensuse-Tumbelweed-KDE6.txt
 
-How to install KDE via OPENSUSE Tumbelweed - WSL - MOVIE
-https://www.youtube.com/watch?v=418r2xhrBWQ
+How to install KDE 6 via OPENSUSE Tumbelweed - WSL - MOVIE
+https://www.youtube.com/watch?v=Je9nLxiXz98
 
-                                     ...... 
-     .,cdxxxoc,.               .:kKMMMNWMMMNk:. 
-    cKMMN0OOOKWMMXo. A        ;0MWk:'      ':OMMk. 
-  ;WMK;'       'lKMMNM,     :NMK'             'OMW;
- cMW;             WMMMN   ,XMK'                 oMM.
-.MMc             ''^*~l. xMN:                    KM0
-'MM.                   .NMO                      oMM
-.MM,                 .kMMl                       xMN
- KM0               .kMM0' .dl>~,.               .WMd
- 'XM0.           ,OMMK'    OMMM7'              .XMK 
-   *WMO:.    .;xNMMk'       NNNMKl.          .xWMx  
-     ^ONMMNXMMMKx;          V  'xNMWKkxllox0NMWk'
-         '''''                    ':dOOXXKOxl'
+You can find OPENSUSE Tumbelweed via this link or in Microsoft Store 
+https://apps.microsoft.com/detail/9mssk2zxxn11?hl=en-us&gl=US
+
+Tools that i USE...
+
+X410 - Xserver for windows 11 - So you have a Desktop.
+Do you want to seamlessly use Linux GUI apps side by side with Windows
+apps? Simply start X410 and adjust a few settings; your Linux GUI
+apps then suddenly appear in Windows and you can use them like Windows 
+apps! It doesn't matter where your Linux GUI apps are actually
+running; it can be a full virtual machine, Docker container, WSL
+(Windows Subsystem for Linux) or whatever. As long as your Linux GUI
+apps support X-Window client protocols, you can use them in Windows.
+You can even securely use your Linux GUI apps running in a far remote
+server via any SSH client that supports X11 forwarding over the Internet.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+          ,...,                                 
+     .,:lloooooc;.                              
+   ,ool'     oo,;oo:     OS: OpenSUSE Tumbleweed x86_64 - Windows 11 PRO 25H2 - Microsoft
+ .lo'        oo.   oo:   Host: Windows Subsystem for Linux - openSUSE-Tumbleweed (2.6.0.0) 
+.oo.         oo.    oo:  Kernel: Linux 6.6.87.2-microsoft-standard-WSL2 
+:ol          oo.    'oo                         
+:oo         .oo.    .oo. About Mattias Vinberg - Anarchist from Sweden - STOCKHOLM - 2025                       
+.oooooooooooooo.    .oo.                        
+ ;oo.               .oo.                       
+  'oo,              .oo.                        
+    "ooc,',,,,,,,,,,:ooc,,,,,,,,,,,             
+       ':cooooooooooooooooooooooooool;.         
+                    .oo.             .oo;       
+                    .oo.               .oo.     
+                    .oo.    'oooooooooo:ooo. 
+                    .oo.    'oo.         col 
+                    .oo'    'oo          col 
+                     coo    'oo          oo' 
+                      coc   'oo        .lo,
+                       `oo, 'oo      .:oo
+                         'ooooc,, ,:lol
+                            `''"clc"'
 
 
-About OPENSUSE Tumbelweed - https://get.opensuse.org/tumbleweed
+About OPENSUSE Tumbelweed - https://www.opensuse.org
 
 State-of-the-art desktop and server operating system.
 With Tumbleweed you don't have to take difficult decisions
@@ -63,34 +95,44 @@ a history of recently started programs and opened files,
 you can return to where you left off. It even remembers
 previously entered search terms so you don't have to.
 
+About WSL for Windows 11 - https://learn.microsoft.com/en-us/windows/wsl/about
 
-Want more stuff about WSL - GWSL - Linux - Windows look here
+Windows Subsystem for Linux (WSL) in Windows 11 is a game-changer for anyone
+looking to harness the power of a Linux environment directly alongside their
+Windows applications. This feature enables seamless integration without the 
+hassle of virtual machines or dual-boot setups.
+
+Want more stuff for WSL - X410 - Linux - Windows - LOOK HERE
+
 https://github.com/vinberg88/opensuse
 
 -----------------------------------------------------
 
-Add systemd (if nano not works. Install it: sudo zypper in nano)
+TIME TO START INSTALL BUT FIRST DO THIS
 
-Type in terminal: sudo nano /etc/wsl.conf
+First thing you need to do is copy this file to C:\Users\yourusername
 
-Copy to terminal and save:
+1. Download this file from proton: https://drive.proton.me/urls/G602NV0DFG#Rn5D1Tny3TpQ
 
-[boot]
-systemd=true
+1. Open explorer
+
+2. Copy file
+
+3. Paste it under C:\Users\yourusername <-- username is not your username =]
+
+Its easy use Explorer and copy and past - DONE.
 
 -----------------------------------------------------
 
-Reboot - Reboot - Reboot - Reboot - Reboot
+Update Opensuse Tumbelweed via terminal after install.
 
------------------------------------------------------
-
-Update Tumbelweed in terminal: sudo zypper ref -b && sudo zypper dup
+sudo zypper ref -b && sudo zypper dup
 
 -----------------------------------------------------
 
 Install this programs - good for you =)
 
-sudo zypper install bash git npm wget curl nano sudo dialog go dracut opi dbus* gnome-terminal
+sudo zypper install bash git npm wget curl nano sudo dialog go dracut opi nano gnome-terminal
 
 -----------------------------------------------------
 
@@ -99,17 +141,15 @@ Add extra Mirrors and install codecs.
 sudo zypper ar -cfp 90 https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumbleweed/ packman
 sudo zypper dup --from packman --allow-vendor-change  <-- press a in terminal
 
-opi codecs
+Copy and paste in terminal: opi codecs
 
 -----------------------------------------------------
 
-Install Hyfetch and Test from terminal.
+Install Fastfetch and Test from terminal.
 
-opi hyfetch
+sudo zypper in fastfetch
 
-sudo zypper install python310
-
-Type hyfetch in terminal to test: hyfetch
+Type Fastfetch in terminal to test: fastfetch
 
 -----------------------------------------------------
 
@@ -119,46 +159,96 @@ opi google-chrome
 
 -----------------------------------------------------
 
-Install Balnket - Listen to sounds my favorite.
+Install GIMP
 
-opi blanket
-
------------------------------------------------------
-
-Install this: sudo zypper in -t pattern wsl_gui wsl_base wsl_systemd
+sudo zypper in gimp
 
 -----------------------------------------------------
 
-Time to install kde Plasma Desktop via Tumbelweed
+Install LibreOffice
+
+sudo zypper in libreoffice
+
+-----------------------------------------------------
+
+Visual studio code from Microsoft =]
+
+wget https://vscode.download.prss.microsoft.com/dbazure/download/stable/488a1f239235055e34e673291fb8d8c810886f81/code-1.102.3-1753759619.el8.x86_64.rpm
+sudo zypper in ./code-1.102.3-1753759619.el8.x86_64.rpm
+
+Press: i - if you are asked during installation
+
+-----------------------------------------------------
+
+Install this programs.....
+
+sudo zypper in -t pattern wsl_gui wsl_base wsl_systemd
+
+-----------------------------------------------------
+
+Time to install kde Plasma Desktop via OpenSuse Tumbelweed
+
+If asked for problems press 1 and 1 again and install KDE 6
 
 sudo zypper install -t pattern kde kde_plasma
 
 -----------------------------------------------------
 
-Type sudo yast and update all and install xorg: sudo yast - look video!
+Type sudo yast in terminal and update all and install xorg: sudo yast - look video!
+
+1. sudo yast
+
+2. Update all via terminal / yast
+
+3. Install xorg via yast - all
+
+4. Install Recommended packages via yast							
 
 Importent after xorg install go to Dependencies and click on
 install Recommended packages and Already………………… This will take some
 time to install but its good programs that you need.
 
------------------------------------------------------
+------------------------------------------------------
 
-Setup GWSL and Reboot - Always start from GWSL Shell.
+Reboot - Reboot - Reboot - Reboot - Reboot - Reboot - Reboot - OPENSUSE TUMBELWEED
 
+------------------------------------------------------
 
-       "Take an extra Reboot please"
+Fix IP problem X410. Cant find screen problems. Look ip adress in windows terminal / PowerShell: ipconfig
 
------------------------------------------------------
+NOTE: open Powershell and type: ipconfig - Last lines is WSL ip.
+
+Type this in Opensuse Terminal.
+
+sudo ls -l /etc/resolv.conf
+
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+
+sudo nano /etc/resolv.conf
+
+nameserver 192.168.144.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+
+sudo systemctl restart systemd-resolved
+
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed =] If you see some RED text dont worry it works any way.
+
+------------------------------------------------------
 
 Paste in terminal: 
 
 xdg-user-dirs-update
+
 sudo systemctl set-default multi-user.target
+
 sudo systemctl set-default graphical.target
+
 sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
 
 -----------------------------------------------------
-
 
 In terminal type this to make a scirpt: sudo nano ~/.bash_opensuse_desktop
 
@@ -172,24 +262,43 @@ export LIBGL_ALWAYS_SOFTWARE=1
 
 ------------------------------------------------------
 
-Reboot - Reboot - Reboot - Reboot - Reboot - Reboot - Reboot
+Reboot - Reboot - Reboot - Reboot - Reboot - Reboot - Reboot - OPENSUSE TUMBELWEED
 
 ------------------------------------------------------
 
-Time to start KDE via OpenSUse TumbelWeeD - it will take some time first start.
+NOTE: FIRST START X410 THEN YOU START OPENSUSE VIA TERMINAL.
+
+Time to start KDE 6 via OpenSUse TumbelWeeD - it will take some time first start.
+
+Copy and paste: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
 
 Paste in terminal: . ~/.bash_opensuse_desktop
 
-Type in terminal: dbus-launch startplasma-x11
+Type in terminal: startplasma-x11
 
 ----------------------------------------------------------------------
 
-If you not can get systemsettings to work type this in Terminal: dbus-launch systemsettings 
+Regards Mattias Vinberg - SweDen - OpenSUse TumbelWeeD - WSL - X410 - Windows 11 25H2 - Linux - KDE 6 - 2025
 
 ----------------------------------------------------------------------
 
-Regards Mattias Vinberg - SweDen - OpenSUse TumbelWeeD - WSL - GWSL - Windows 11 - Linux - KDE - 2024
-
+             .;ldkO0000Okdl;.
+         .;d00xl:^''''''^:ok00d;.     
+       .d00l'                'o00d.
+     .d0K^'  Okxoc;:,.          ^O0d.
+    .OVVAK0kOKKKKKKKKKKOxo:,      lKO.     
+   ,0VVAKKKKKKKKKKKKK0P^,,,^dx:    ;00,      
+  .OVVAKKKKKKKKKKKKKk'.oOPPb.'0k.   cKO.  
+  :KVAKKKKKKKKKKKKKK: kKx..dd lKd   'OK:   OpenSUSE Tumbleweed - STOCKHOLM - 2025    
+  lKlKKKKKKKKKOx0KKKd ^0KKKO' kKKc   lKl   Sweden - KDE - Microsoft - Mattias Vinberg    
+  lKlKKKKKKKKKK;.;oOKx,..^..;kKKK0.  lKl   Windows 11 PRO 25H2 - MICROSOFT - LINUX - WSL
+  :KAlKKKKKKKKK0o;...^cdxxOK0O/^^'  .0K:
+   kKAVKKKKKKKKKKKK0x;,,......,;od  lKP
+   '0KAVKKKKKKKKKKKKKKKKKK00KKOo^  c00'
+    'kKAVOxddxkOO00000Okxoc;''   .dKV'
+      l0Ko.                    .c00l'
+       'l0Kk:.              .;xK0l'
+          'lkK0xc;:,,,,:;odO0kl'
+              '^:ldxkkkkxdl:^'
+     
 ----------------------------------------------------------------------
-
-
