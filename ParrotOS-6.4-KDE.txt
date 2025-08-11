@@ -6,7 +6,7 @@ Find Parrot OS here and download and press the exe file and you are done to star
 https://parrotsec.org/download/ look for WSL and download and install - DONE!
 
 How to install KDE via ParrotOS 6.4 LorikeeT and Windows - WSL - LINUX - TEXT
-Comming Zone..
+https://github.com/vinberg88/opensuse/blob/main/ParrotOS-6.4-KDE.txt
 
 How to install KDE via ParrotOS 6.4 LorikeeT and Windows - WSL - LINUX - MOVIE
 https://www.youtube.com/watch?v=_QLoA9sk1ik
@@ -486,3 +486,4 @@ Paste in terminal: dbus-launch startplasma-x11
 Thank you! ❤️ for watching and have a nice summer.
 
 ---------------------------------------------
+
