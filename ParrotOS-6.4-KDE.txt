@@ -1,0 +1,488 @@
+Parrot OS 6.4 and KDE - Install KDE via WSL2 and Parrot - Windows - WSL - Linux - YouTube - 2025
+
+--- Thank you for being a part of the Parrot OS 6.4 and KDE Project for WSL2 ---
+
+Find Parrot OS here and download and press the exe file and you are done to start build KDE.
+https://parrotsec.org/download/ look for WSL and download and install - DONE!
+
+How to install KDE via ParrotOS 6.4 LorikeeT and Windows - WSL - LINUX - TEXT
+Comming Zone..
+
+How to install KDE via ParrotOS 6.4 LorikeeT and Windows - WSL - LINUX - MOVIE
+https://www.youtube.com/watch?v=_QLoA9sk1ik
+
+Tools that i USE - Parrot OS 6.4 lorikeet and KDE
+
+Raft WSL is a powerful tool for managing Windows Subsystem for 
+Linux (WSL) distributions, enabling installation, snapshots,
+version control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+X410 - Xserver for windows 11 - So you have a Desktop.
+Do you want to seamlessly use Linux GUI apps side by side with Windows
+apps? Simply start X410 and adjust a few settings; your Linux GUI
+apps then suddenly appear in Windows and you can use them like Windows 
+apps! It doesn't matter where your Linux GUI apps are actually
+running; it can be a full virtual machine, Docker container, WSL
+(Windows Subsystem for Linux) or whatever. As long as your Linux GUI
+apps support X-Window client protocols, you can use them in Windows.
+You can even securely use your Linux GUI apps running in a far remote
+server via any SSH client that supports X11 forwarding over the Internet.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+  `:oho/-`    
+`mMMMMMMMMMMMNmmdhy-                       
+ dMMMMMMMMMMMMMMMMMMs`                     
+ +MMsohNMMMMMMMMMMMMMm/                    
+ .My   .+dMMMMMMMMMMMMMh.
+  +       :NMMMMMMMMMMMMNo                 
+           `yMMMMMMMMMMMMMm                OS: Parrot Security 6.4 (lorikeet) x86_64
+             /NMMMMMMMMMMMMMy`             Host: Windows Subsystem for Linux - ParrotOS (2.6.1.0)
+              .hMMMMMMMMMMMMMN+            Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+                  ``-NMMMMMMMMMd-          Xserver: X410 So we have a desktop for KDE
+                     /MMMMMMMMMMMs`        DESKTOP: KDE plasma - WINDOWS 11 PRO latest edition - 2025
+                      mMMMMMMMsyNMN/       
+                      +MMMMMMMo  :sNh.     Media: Mattias Vinberg - Sweden - DevOps - 2025
+                      `NMMMMMMm     -o/    
+                       oMMMMMMM.           
+                       `NMMMMMM+           Will install over a million files. Sorry for the long video - Parrot OS
+                        +MMd/NMh           
+                         mMm -mN`          
+                         /MM  `h:          
+                          dM`   .          
+                          :M-              
+                           d:
+
+
+About ParrotSEC or Parrot OS 6.4 - https://www.parrotsec.org - lorikeet
+
+Parrot Security provides a huge arsenal of tools, utilities and
+libraries that IT and security professionals can use to test and
+assess the security of their assets in a reliable, compliant and 
+reproducible way. From information gathering to the final report.
+The Parrot system gets you covered with the most flexible environment.
+The ultimate framework for your Cyber Security operations.
+Parrot Security (ParrotOS, Parrot) is a Free and Open source
+GNU/Linux distribution based on Debian Stable designed for
+security experts, developers and privacy aware people.
+It includes a full portable arsenal for IT security and
+digital forensics operations. It also includes everything
+you need to develop your own programs or protect your privacy
+while surfing the net. Parrot is based on top of Debian,
+the most advanced and recognized universal operating system
+that can run anywhere.
+
+About KDE Plasma Desktop - https://kde.org
+
+KDE Plasma is a Desktop - Use KDE Plasma to surf the
+web and keep in touch with colleagues, friends and family.
+Manage your files, enjoy music and videos and get creative
+and productive at work. Do it all in a beautiful Environment
+that adapts to your needs, and with the safety, privacy-protection
+and peace of mind that the best Free Open Source
+Software has to offer. Plasma is made to stay out of the way
+as it helps you get things done. But under its light and 
+intuitive surface, it's a powerhouse. So you're free to
+choose ways of usage right as you need them and when you
+need them. With KDE Plasma the user is king. Not happy
+with the color scheme? Change it! Want to have your panel
+on the left edge of the screen? Move it! Don't like 
+the font? Use a different one! Download custom widgets in
+one click and add them to your desktop or panel.
+
+What is WSL - Windows Subsystem for Linux
+
+WSL, or Windows Subsystem for Linux, is a compatibility
+layer developed by Microsoft that allows users to run
+a Linux environment directly on Windows, without the
+need for a virtual machine or dual-booting. It
+provides a way to access Linux command-line 
+tools, utilities, and applications within the Windows
+operating system.
+
+Read more here: https://learn.microsoft.com/en-us/windows/wsl/about
+
+You Can Find More Stuff here About WSL2 - Linux - Windows 11 - X410 - 2025
+
+https://github.com/vinberg88/opensuse
+
+-----------------------------
+
+NOW LETS START INSTALLATION FOR KDE AND PARROT OS 6.4 lorikeet
+
+-----------------------------------------------------
+
+First thing you need to do is copy this file to C:\Users\yourusername
+
+1. Download this file from proton: https://drive.proton.me/urls/G602NV0DFG#Rn5D1Tny3TpQ
+
+1. Open explorer
+
+2. Copy file
+
+3. Paste it under C:\Users\yourusername <-- username is not your username =]
+
+Its easy use Explorer and copy and past - DONE.
+
+-----------------------------------------------------
+
+Next start Parrot OS terminal and change...
+
+NOTE: you must do this… fix sudo: unable to resolve host parrot: Temporary failure in name resolution
+
+Copy and Paste in terminal and enable systemd and change hostname…
+
+sudo nano /etc/wsl.conf
+
+hostname = parrot to your hostnamn.. Your hostname is same for windows. Hostname for me is Fyren14
+
+hostname = Fyren14
+
+and change systemd to true
+
+[boot]
+systemd=true
+
+----------------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot - Parrot OS 6.4 LorikeeT
+
+----------------------------------------------
+
+Set password for root and user. You will be glad you did this =]
+
+Type this in terminal - normal user.
+
+sudo passwd root
+
+sudo passwd adolf
+
+----------------------------------------------
+
+Update PARROT OS LorikeeT.
+
+sudo apt update && sudo apt full-upgrade -y
+
+------------------------------------------------------
+
+Fix IP problem X410. Cant find screen problems. Look ip adress in windows terminal / PowerShell: ipconfig
+
+NOTE: open Powershell and type: ipconfig - Last lines is WSL ip.
+
+Type this in Parrots Terminal - Parrot OS
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 192.168.144.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed =] If you see some RED text dont worry it works any way.
+
+----------------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot - Parrot OS 6.4 LorikeeT - ParrotSEC - 2025
+
+----------------------------------------------
+
+This is a god hack. Install and see how fast it can go with installation. Parrot OS and Debian.
+
+Copy and paste in terminal....
+
+cd ~
+curl 'https://invent.kde.org/sdk/kde-builder/-/raw/master/scripts/initial_setup.sh' > initial_setup.sh
+bash initial_setup.sh
+
+sudo nano /etc/apt/sources.list
+
+deb https://deb.debian.org/debian bookworm main non-free-firmware
+deb-src https://deb.debian.org/debian bookworm main non-free-firmware
+
+deb https://security.debian.org/debian-security bookworm-security main non-free-firmware
+deb-src https://security.debian.org/debian-security bookworm-security main non-free-firmware
+
+deb https://deb.debian.org/debian bookworm-updates main non-free-firmware
+deb-src https://deb.debian.org/debian bookworm-updates main non-free-firmware
+
+sudo apt update
+
+sudo apt build-dep plasma-workspace
+
+----------------------------------------------
+
+Some extra Dev Tools - install all for fun - Parrot OS LorikeeT
+
+sudo apt install Qt5* -y
+sudo apt-get install libgl1-mesa-dev* -y
+sudo apt install qt6-declarative-dev qt6-scxml-dev qt6* -y
+sudo apt-get install qml* -y
+sudo apt-get install gmp-ecm* v
+sudo apt install build-essential* libvulkan-dev plasma-workspace-dev gstreamer1.0-libav liblz4-dev libmpv-dev python3-websockets -y
+sudo apt install qtbase5-private-dev libqt5x11extras5-dev qml-module-qtwebchannel qml-module-qtwebsockets cmake* -y
+sudo apt install qt6-base-* -y
+sudo apt install libgpg* -y
+sudo apt install libeis* -y
+sudo apt install libpyside* -y
+sudo apt install libshiboken* -y
+
+----------------------------------------------
+
+Install Zsh for terminal - Parrot OS - KDE - LorikeeT
+
+sudo apt install zsh -y
+
+zsh --version
+
+zsh <-- press 2
+
+chsh -s $(which zsh)
+
+Install Oh My Zsh by running the following command
+
+sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+
+sudo nano ~/.zshrc
+
+Locate the following line: ZSH_THEME="robbyrussell" and change to themes...
+
+https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+
+ZSH_THEME="bira"
+
+Restart the terminal to load the new theme...
+
+Add the auto-suggestion plugin repository
+
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+sudo nano ~/.zshrc
+
+scroll down in terminal and add
+
+plugins=(git zsh-autosuggestions)
+
+Restart the terminal.
+
+DONE =]
+
+Install this - DEV - TOOLS
+
+NOTE: Run this first in terminal: setopt noglob <-- NOTE
+
+sudo apt install socat python3-pip pipx x11-xserver-utils -y
+sudo apt install binutils-doc blt-demo bzip2-doc cpp-doc gcc-12-locales cpp-12-doc debian-keyring g++-multilib g++-12-multilib -y
+sudo apt install gcc-12-doc gcc-multilib autoconf automake libtool flex bison gdb gcc-doc gcc-12-multilib -y
+sudo apt install glibc-doc bzr libgd-tools libjs-es5-shim libstdc++-12-doc tcl8.6 tk8.6 make-doc mkdocs-doc nodejs python-attr-doc -y
+sudo apt install python-jinja2-doc coffeescript node-less python-livereload-doc python3-django python3-flask -y
+sudo apt install python3-slimmer python-lunr-doc python-markdown-doc gfortran python-psutil-doc subversion python-pygments-doc -y
+sudo apt install ttf-bitstream-vera python-pyinotify-doc python-setuptools-doc tix python3-tk-dbg python3-pycurl python-tornado-doc -y
+sudo apt install python3-twisted nickle cairo-5c xorg-docs-core -y
+sudo apt install autoconf-archive gnu-standards autoconf-doc gettext binutils-doc bison-doc cpp-doc gcc-12-locales cpp-12-doc -y
+sudo apt install build-essential flex-doc make doc-base gdb-doc gdbserver glibc-doc libgd-tools libtool-doc gfortran -y
+
+DONE =]
+
+---------------------------------------------
+
+Install this programs from terminal via Parrot OS 6.4 LorikeeT
+
+Run this first in terminal if you have restart terminal: setopt noglob
+
+NOTE: YOU NEED TO TYPE THIS IF YOU WANT TO INSTALL FILES * every time you restart console: setopt noglob
+
+sudo apt install bash xorg* git wget curl pipx net-tools dbus-x11 dbus* kwin* -y
+sudo apt install kde-style-qtcurve* secureboot-db* plasma-firewall plasma-welcome prover9* -y
+sudo apt install lxqt-sudo* dialog* knewstuff-dialog* gtk* kdialog* libqt6* x11* menulibre* shell* menu* -y
+sudo apt install anjuta docbook-dsssl psgml gawk-doc gimp-help-en -y
+sudo apt install gimp-data-extras graphviz-doc dblatex -y
+sudo apt install murrine-themes imagemagick faad lame mp3gain samba-common libaudio2 libsndio* devhelp gphoto2 -y
+sudo apt install libgtk-4-media-gstreamer -y
+sudo apt install libid3-tools libgnomeui-* libgamin0 libdigest-hmac-perl -y
+sudo apt install libjson-perl libtext-soundex-perl libnunit-doc monodoc-nunit-manual odbc-postgresql tdsodbc sg3-utils cups-bsd -y
+sudo apt install gstreamer1.0-libav gstreamer1.0-plugins-ugly ttf-mscorefonts-installer libwmf-0.2-7-gtk libxml-sax-expatxs-perl -y
+sudo apt install adwaita-qt faenza-icon-theme gnome-themes* -y
+sudo apt install obconf-qt synaptic osspd cdtool python3-genshi python-lxml-doc -y
+sudo apt install python-pyxdg-doc cmake gnome-software q4wine winbind winetricks playonlinux wine-binfmt dosbox wine64-preloader -y
+sudo apt install fortune kdm-gdmcompat* qcam* -y
+sudo apt install streamer xdaliclock xfishtank xscreensaver-data-extra xscreensaver-gl xscreensaver-gl-extra -y
+sudo apt install imagemagick inkscape latex-cjk-all dock* -y
+sudo apt install texlive-lang-cyrillic texlive-xetex transfig xindy libavalon-framework-java libcommons-logging-java-doc -y
+sudo apt install libexcalibur-logkit-java liblog4j1.2-java libdbd-csv-perl liblog-dispatch-filerotate-perl librrds-perl -y
+sudo apt install libxml-dom-perl libencode-eucjpascii-perl libencode-hanextra-perl libpod2-base-perl libmojolicious-perl -y
+sudo apt install libtest-fatal-perl fonts-ipafont-gothic fonts-ipafont-mincho fonts-wqy-microhei -y
+sudo apt install fonts-wqy-zenhei fonts-indic ri ruby-dev bundler debhelper perl-tk xpdf -y
+sudo apt install containernetworking-plugins aufs-* btrfs-progs debootstrap rinse rootlesskit xfsprogs zfs-fuse -y
+sudo apt install systemd libparted-dev libparted-i18n gtk-theme* gtk* -y
+sudo apt install libproperties-cpp-doc libxaw-doc parted-doc btrfs-progs f2fs-tools libblockdev-mdraid2 mdadm nilfs-tools -y
+sudo apt install reiserfsprogs udftools udisks2-bcache udisks2-btrfs udisks2-lvm2 udisks2-zram xfsprogs mesa-utils x11-xfs-utils -y
+sudo apt install gpointing-* touch* xfonts-* -y
+
+------------------------------------------------------
+
+Install some themes for Parrot OS LorikeeT
+
+NOTE: Run this first in terminal if you have restart terminal: setopt noglob
+
+sudo apt install papirus-icon-theme obsidian-icon-theme arc-kde arc-theme blackbird-gtk-theme bluebird-gtk-theme -y
+sudo apt install chameleon-cursor-theme darkcold-gtk-theme darkmint-gtk-theme elementary-icon-theme -y
+sudo apt install faba-icon-theme greybird-gtk-theme gtk2-engines-murrine materia-gtk-theme materia-kde moka-icon-theme numix-gtk-theme -y
+sudo apt install yaru-theme-gtk yaru-theme-icon papirus-icon-theme numix-icon-theme slim -y
+
+
+------------------------------------------------------
+
+Time to install KDE Plasma desktop for Parrot OS 6.4 LorikeeT
+
+NOTE: YOU NEED TO TYPE THIS IF YOU WANT TO INSTALL FILES * every time you restart console: setopt noglob
+
+NOTE: Run this first in terminal if you have restart terminal: setopt noglob
+
+sudo apt install sddm* llvm* yakuake* -y
+sudo apt install parrot-desktop-kde -y
+sudo apt install konsole dolphin codium filelight -y
+sudo apt install kate* darcs exuberant-ctags mercurial subversion npm theme* -y
+sudo apt install plasma* shell* -y
+sudo apt install dialog binutils-doc bluez-cups bluez-meshd bzip2-doc chromium-l10n chromium-shell chromium-driver debian-keyring -y
+sudo apt install g++-multilib g++-12-multilib gcc-12-doc gcc-multilib autoconf automake libtool flex bison gcc-doc gcc-12-multilib -y
+sudo apt install gcc-12-locales libvte9 doc-base autopoint gettext-doc libasprintf-dev libgettextpo-dev dmraid gpart jfsutils kpartx -y
+sudo apt install mtools reiser4progs reiserfsprogs udftools xfsprogs yelp libfont-freetype-perl bzr libenchant-2-voikko gvfs -y
+sudo apt install libbareword-filehandles-perl libindirect-perl libmultidimensional-perl gstreamer1.0-alsa -y
+sudo apt install libxml-sax-expatxs-perl xserver-xephyr binutils-multiarch libtext-template-perl make-doc mousetweaks -y
+sudo apt install parrot-interface* win10-icon-theme gtk2-engines gtk3-engines-breeze python3-openssl python3-socks -y
+sudo apt install python-requests-doc python3-brotli deborphan apt-xapian-index tasksel software-properties-gtk gnome-software -y
+sudo apt install zip vlc-plugin-fluidsynth vlc-plugin-jack vlc-plugin-pipewire vlc-plugin-svg ublock-origin-doc xinput wamerican marble* routino -y
+sudo apt install ffmpeg default-jdk htop locate p7zip p7zip-full unzip -y
+sudo apt install node-* node-esprima-fb node-inquirer guile-3.0-doc libjs-angularjs ncurses-doc readline-doc libssl-doc -y
+sudo apt install kdiff3 kdiff3-qt kompare meld tkcvs mgdiff qct* python3-mysqldb node-babel-plugin-polyfill-es-shims -y
+sudo apt install node-babel7-debug livescript chai node-jest-diff -y
+sudo apt install telepathy-* maliit-* plasma-systemmonitor signon-* signon* -y
+sudo apt install openjdk-17-demo openjdk-17-source visualvm kde* sofia-* npm* -y
+
+----------------------------------------------
+
+Fix Missing executable file kwin_rules_dialog in terminal for Parrot OS.
+
+Copy and paste: sudo rm /usr/share/applications/org.kde.kwin_rules_dialog.desktop
+
+----------------------------------------------
+
+Install Chrome Browser. Latest Edition for Web - Parrot OS 6.4
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+--------------------------------------------
+
+Install Blanket - Listen to sounds - When you are hacking - Parrot OS 6.4
+
+wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb -y
+
+or if you want latest build of blanket - Parrot OS 6.4
+
+wget https://code.launchpad.net/~apandada1/+archive/ubuntu/blanket/+build/28044026/+files/blanket_0.7.0-1~daily~202404100636~d1fde60~ubuntu24.04.1_all.deb
+sudo apt install ./blanket_0.7.0-1~daily~202404100636~d1fde60~ubuntu24.04.1_all.deb -y
+
+----------------------------------------------
+
+Visual studio code - Install for Parrot OS LorikeeT 6.4
+
+sudo apt-get install wget* gpg* -y
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" |sudo tee /etc/apt/sources.list.d/vscode.list > /dev/null
+rm -f packages.microsoft.gpg
+
+sudo apt install apt-transport-https* http* -y
+sudo apt update
+sudo apt install code -y
+
+----------------------------------------------
+
+Install Gimp and LibreOffice - ParrotSEC LorikeeT 6.4
+
+sudo apt install gimp libreoffice -y
+
+----------------------------------------------
+
+Install Fastfetch and Hyfetch like Neofetch but more fun! 
+
+wget https://github.com/fastfetch-cli/fastfetch/releases/download/2.49.0/fastfetch-linux-amd64.deb
+sudo apt install ./fastfetch-linux-amd64.deb -y
+
+sudo wget http://archive.ubuntu.com/ubuntu/pool/universe/h/hyfetch/neowofetch_1.4.11-1_all.deb
+sudo apt install ./neowofetch_1.4.11-1_all.deb -y
+
+sudo wget http://archive.ubuntu.com/ubuntu/pool/universe/h/hyfetch/hyfetch_1.4.11-1_all.deb
+sudo apt install ./hyfetch_1.4.11-1_all.deb -y
+
+Test by paste hyfetch in Console / Terminal: hyfetch 
+
+or
+
+Test by paste fastfetch in Console / Terminal: fastfetch
+
+----------------------------------------------
+
+Then Copy and Paste this in Terminal for Parrot OS 6.4 - LorikeeT
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+----------------------------------------------
+
+HACK - LorikeeT - Parrot OS - KDE - ParrotSEC
+
+Type this in terminal and put your user there - sudo loginctl enable-linger user
+
+----------------------------------------------
+
+Copy this and paste in terminal: sudo nano ~/.bash_parrot_desktop 
+
+Then add this script to terminal
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------
+
+Reboot Reboot Reboot Parrot OS LorikeeT - Reboot Reboot Reboot Parrot OS LorikeeT
+
+----------------------------------------------
+
+Time To Start KDE Desktop via ParrotOS 6.4 lorikeet.
+
+NOTE: FIRST START X410 THEN YOU START PARROT OS TERMINAL.
+
+Copy and paste: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Paste in terminal: . ~/.bash_parrot_desktop
+
+Paste in terminal: dbus-launch startplasma-x11
+
+----------------------------------------------
+
+       _------.
+      /  ,     \_
+    /   /  /{}\ |o\_
+   /    \  `--' /-' \
+  |      \      \    |
+ |              |`-, | Regards Mattias Vinberg - SwEden - Microsoft - Parrot OS LorikeeT - KDE - WSL - Windows 11 - 2025
+ /              /__/)/
+|              |
+
+
+Thank you! ❤️ for watching and have a nice summer.
+
+---------------------------------------------
