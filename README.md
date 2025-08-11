@@ -33,6 +33,97 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Parrot OS 6.4 and KDE - Install KDE via WSL2 and Parrot - Windows - WSL - Linux - YouTube - 2025
+
+--- Thank you for being a part of the Parrot OS 6.4 and KDE Project for WSL2 ---
+
+Find Parrot OS here and download and press the exe file and you are done to start build KDE.
+
+https://parrotsec.org/download/ look for WSL and download and install - DONE!
+
+How to install KDE via ParrotOS 6.4 LorikeeT and Windows - WSL - LINUX - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/ParrotOS-6.4-KDE.txt
+
+How to install KDE via ParrotOS 6.4 LorikeeT and Windows - WSL - LINUX - MOVIE
+
+https://www.youtube.com/watch?v=_QLoA9sk1ik
+
+Tools that i USE - Parrot OS 6.4 lorikeet and KDE
+
+Raft WSL is a powerful tool for managing Windows Subsystem for 
+Linux (WSL) distributions, enabling installation, snapshots,
+version control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+X410 - Xserver for windows 11 - So you have a Desktop.
+Do you want to seamlessly use Linux GUI apps side by side with Windows
+apps? Simply start X410 and adjust a few settings; your Linux GUI
+apps then suddenly appear in Windows and you can use them like Windows 
+apps! It doesn't matter where your Linux GUI apps are actually
+running; it can be a full virtual machine, Docker container, WSL
+(Windows Subsystem for Linux) or whatever. As long as your Linux GUI
+apps support X-Window client protocols, you can use them in Windows.
+You can even securely use your Linux GUI apps running in a far remote
+server via any SSH client that supports X11 forwarding over the Internet.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="ParrotOS-6 4-KDE" src="https://github.com/user-attachments/assets/d84eb855-2b4f-443b-9bf3-200085c91f1b" />
+
+About ParrotSEC or Parrot OS 6.4 - https://www.parrotsec.org - lorikeet
+
+Parrot Security provides a huge arsenal of tools, utilities and
+libraries that IT and security professionals can use to test and
+assess the security of their assets in a reliable, compliant and 
+reproducible way. From information gathering to the final report.
+The Parrot system gets you covered with the most flexible environment.
+The ultimate framework for your Cyber Security operations.
+Parrot Security (ParrotOS, Parrot) is a Free and Open source
+GNU/Linux distribution based on Debian Stable designed for
+security experts, developers and privacy aware people.
+It includes a full portable arsenal for IT security and
+digital forensics operations. It also includes everything
+you need to develop your own programs or protect your privacy
+while surfing the net. Parrot is based on top of Debian,
+the most advanced and recognized universal operating system
+that can run anywhere.
+
+About KDE Plasma Desktop - https://kde.org
+
+KDE Plasma is a Desktop - Use KDE Plasma to surf the
+web and keep in touch with colleagues, friends and family.
+Manage your files, enjoy music and videos and get creative
+and productive at work. Do it all in a beautiful Environment
+that adapts to your needs, and with the safety, privacy-protection
+and peace of mind that the best Free Open Source
+Software has to offer. Plasma is made to stay out of the way
+as it helps you get things done. But under its light and 
+intuitive surface, it's a powerhouse. So you're free to
+choose ways of usage right as you need them and when you
+need them. With KDE Plasma the user is king. Not happy
+with the color scheme? Change it! Want to have your panel
+on the left edge of the screen? Move it! Don't like 
+the font? Use a different one! Download custom widgets in
+one click and add them to your desktop or panel.
+
+What is WSL - Windows Subsystem for Linux
+
+WSL, or Windows Subsystem for Linux, is a compatibility
+layer developed by Microsoft that allows users to run
+a Linux environment directly on Windows, without the
+need for a virtual machine or dual-booting. It
+provides a way to access Linux command-line 
+tools, utilities, and applications within the Windows
+operating system.
+
+Read more here: https://learn.microsoft.com/en-us/windows/wsl/about
+
+Regards Mattias Vinberg - SwEden - Microsoft - Parrot OS LorikeeT - KDE - WSL - Windows 11 - 2025
+
+---------------------------------------------
+
 OpenSUSE TumbelWeed - How to install KDE 6 via Opensuse - WSL - X410 - Windows 11 - Linux - 2025
 
 -- Updated version for KDE 6 and Opensuse Tumbelweed for WSL - 2025-08-07 - Windows 11 PRO 25H2 --
