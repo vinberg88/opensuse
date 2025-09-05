@@ -33,6 +33,81 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Fedora 44 and KDE 6 - How to install KDE via WSL2 and Microsoft - X410 - YouTube - GitHUB - 2025
+
+- ❤ Thank you for being a part of the Fedora 44 and KDE 6 Project for WSL2 ❤ - 
+
+MOTE: Fedora 44 is a future version of the Fedora Linux, scheduled for release in 2026
+
+You can find FEDORA 44 here for WSL: https://drive.proton.me/urls/A1M5CJAR94#VuQf8KuK1q7Q
+
+How to install KDE 6 via Fedora 44 - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Fedora44-KDE6.txt
+
+How to install KDE 6 via Fedora 44 - MOVIE
+
+https://www.youtube.com/watch?v=YCLreH0WRMg
+
+Tools for work…
+
+Use X410 - X Server for Windows 11 in this video and it works well. Find it in Micorsoft store.
+ 
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem for Linux
+(WSL) distributions, enabling installation, snapshots, version control, and 
+seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="Fedora44-KDE6" src="https://github.com/user-attachments/assets/1fd6c32b-6cc6-4c4a-a56c-3b9aad9fbf22" />
+
+About FEDORA 44 - https://fedoraproject.org - 2025
+
+Fedora 44 is a future version of the Fedora Linux operating
+system, scheduled for release in 2026, which will introduce
+changes like dropping 32-bit (i686) package support, a delay
+of the reproducible builds mandate, and potentially other
+features that were deferred from the Fedora 43 release, such
+as Intel TDX support and a new live media experience. 
+
+Fedora, also known as Fedora Linux, is a popular Open
+Source Linux-based operating system (OS). Designed as
+a secure, general-purpose OS, Fedora is developed on a
+six-month to eight-month release cycle under the Fedora Project.
+Both the OS and the Fedora Project are financially
+sponsored and supported by Red Hat. Fedora is a free and open
+source OS platform for hardware, clouds and containers. Based on 
+the Linux OS kernel architecture, Fedora Linux is a user-friendly
+OS that enables users to perform their tasks easily and
+efficiently with minimal friction. The name Fedora refers to the
+characteristic fedora hat in Red Hat's Shadowman logo.
+
+About KDE Desktop - https://kde.org
+
+KDE is an international team co-operating on 
+development and distribution of Free, Open
+Source Software for desktop and portable
+computing. Our community has developed a
+wide variety of applications for communication, 
+work, education and entertainment. We have a
+strong focus on finding innovative solutions to
+old and new problems, creating a vibrant, open
+atmosphere for experimentation. KDE is The 
+next generation desktop for Linux. Use KDE
+software to surf the web, keep in touch with
+colleagues, friends and family, manage your
+files, enjoy music and videos; and get creative
+and productive at work. The KDE community develops
+and maintains more than 200 applications
+which run on any Linux desktop, and often
+other platforms too.
+
+Regards Mattias Vinberg - FEDORA 44 - X410 - Windows 11 - Linux - WSL - Sweden - 2025
+
+---------------------------------------------
+
 Parrot OS 6.4 and KDE - Install KDE via WSL2 and Parrot - Windows - WSL - Linux - YouTube - 2025
 
 --- Thank you for being a part of the Parrot OS 6.4 and KDE Project for WSL2 ---
