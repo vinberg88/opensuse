@@ -7,7 +7,7 @@ MOTE: Fedora 44 is a future version of the Fedora Linux, scheduled for release i
 You can find FEDORA 44 here for WSL: https://drive.proton.me/urls/A1M5CJAR94#VuQf8KuK1q7Q
 
 How to install KDE 6 via Fedora 44 - TEXT
-Lägg Till
+https://github.com/vinberg88/opensuse/blob/main/Fedora44-KDE6.txt
 
 How to install KDE 6 via Fedora 44 - MOVIE
 https://www.youtube.com/watch?v=YCLreH0WRMg
@@ -331,3 +331,4 @@ Copy and paste This: dbus-launch startplasma-x11
  =###-..:-*#####+-
 
 ---------------------------------------------------------------
+
