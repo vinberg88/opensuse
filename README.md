@@ -33,6 +33,83 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Ultramarine 42 and Gnome 48 for WSL - How to Install Gnome via Ultramarine 42 - Linux - Microsoft - X410 - 2025 - YouTube
+
+Ultramarine 42 - you will find it here for WSL or go to Microsoft Store.
+
+https://apps.microsoft.com/detail/9pbpg2rdmzb9?hl=en-US&gl=US
+
+TOOLS THAT I USE FOR WSL AND GNOME 48.4 - Ultramarine 42
+
+Use X410 - X Server for Windows 11 in this video and it works well. Find it in Micorsoft store. 
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+How to install GNOME desktop via Ultramarine 42 - TEXT - Fyra Labs - WSL2 - GITHUB
+
+https://github.com/vinberg88/opensuse/blob/main/Ultramarine42-GNOME.txt
+
+How to install GNOME desktop via Ultramarine 42 - VIDEO - Fyra Labs - WSL2 - YOUTUBE
+
+https://www.youtube.com/watch?v=o-QRa0vTvQc
+
+<img width="1920" height="1080" alt="Ultramarine42-GNOME" src="https://github.com/user-attachments/assets/167ec853-054c-4ab1-9953-159e652a2af9" />
+
+About GNOME desktop 48 - Gnome - https://www.gnome.org
+
+GNOME is designed to help you have the best possible computing
+experience. Every aspect of GNOME has been crafted to fit together
+as a harmonious whole, providing a consistent and integrated 
+experience. Our attention to detail means a smooth and polished
+product that lets you do the things you want without getting
+in the way. GNOME is satisfying to use and beautiful to behold.
+GNOME provides a focused working environment that helps you get
+things done. It is packed with features that will make you more
+productive: a powerful search feature that helps you access all
+your work from one place; side-by-side windows that make it easy
+to view several documents at the same time; seamless integration
+with online accounts which allows you to access all your data in
+one place; and a messaging system that comfortably deals with 
+notifications, letting you quickly respond in place or return to 
+them in a convenient time. Gnome desktop is my favorite!
+
+About UltraMarine 42 - https://ultramarine-linux.org - Fyra Labs
+
+Ultramarine Linux is an operating system designed for your personal
+workstation (or battlestation). It is designed to be intuitive and
+easy to use, shipping numerous simple environments. Ultramarine
+keeps up with the latest and greatest software in the open-source
+community, while staying stable and secure. Ultramarine is for
+everyone, from the beginner to the tech enthusiast, and even Windows
+dropouts! Based on Fedora Linux, Ultramarine offers
+the latest and greatest in open-source software, yet maintaining
+rock-solid stability. Making sure things don't break is our top priority.
+Ultramarine provides both developer-friendly and user-friendly tools
+to make sure you can get the most out of your system. We're making 
+it as easy and accessible as possible for everyone to create and
+package their software for Ultramarine (and in extension, Fedora!)
+Ultramarine applies pragmatic tweaks and settings to make sure your
+out-of-the-box experience is as smooth as it can be. We've tried
+to make sure that you'll be able to get started as quickly as possible.
+
+ABOUT WSL for WINDOWS via GITHUB - MY PAGE - https://vinberg88.github.io
+
+WSL stands for Windows Subsystem for Linux, a feature of Windows that
+allows users to run a Linux environment directly on their Windows
+machine without needing a separate virtual machine or dual-booting.
+
+Regards Mattias Vinberg - Sweden - Stockholm - GNOME 48.4 - Ultramarine 42 - MICROSOFT - X410 - Windows - 2025
+
+Made with ❤️ in Stockholm and Sweden - 2025
+
+---------------------------------------------
+
 Fedora 44 and KDE 6 - How to install KDE via WSL2 and Microsoft - X410 - YouTube - GitHUB - 2025
 
 - ❤ Thank you for being a part of the Fedora 44 and KDE 6 Project for WSL2 ❤ - 
