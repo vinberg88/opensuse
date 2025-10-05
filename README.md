@@ -104,7 +104,7 @@ WSL stands for Windows Subsystem for Linux, a feature of Windows that
 allows users to run a Linux environment directly on their Windows
 machine without needing a separate virtual machine or dual-booting.
 
-Regards Mattias Vinberg - Sweden - Stockholm - GNOME 48.4 - Ultramarine 42 - MICROSOFT - X410 - Windows - 2025
+Regards Mattias Vinberg - Sweden - Stockholm - GNOME 48.4 - Ultramarine 42 - MICROSOFT - X410 - Windows
 
 Made with ❤️ in Stockholm and Sweden - 2025
 
