@@ -14,7 +14,7 @@ control, and seamless integration with Windows tools.
 https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
 
 How to install GNOME desktop via Ultramarine 42 - TEXT - Fyra Labs - WSL2 - GITHUB
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/Ultramarine42-GNOME.txt
 
 How to install GNOME desktop via Ultramarine 42 - VIDEO - Fyra Labs - WSL2 - YOUTUBE
 https://www.youtube.com/watch?v=o-QRa0vTvQc
@@ -245,3 +245,4 @@ MORE EXTRA - ABOUT WSL for WINDOWS via GITHUB - MY PAGE - https://vinberg88.gith
 Made with ❤️ in Stockholm and Sweden. 
 
 -------------------------------------------
+
