@@ -33,7 +33,7 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
-Ultramarine 42 and Gnome 48 for WSL - How to Install Gnome via Ultramarine 42 - Linux - Microsoft - X410 - 2025 - YouTube
+Ultramarine 42 and Gnome 48 for WSL - How to Install Gnome via Ultramarine 42 - Linux - Microsoft - X410 - 2025
 
 Ultramarine 42 - you will find it here for WSL or go to Microsoft Store.
 
