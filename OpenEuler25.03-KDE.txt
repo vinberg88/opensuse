@@ -4,7 +4,7 @@ You can find openEuler 25.03 here or in Microsoft store.
 https://apps.microsoft.com/detail/9nj153x4m4v4?hl=sv-SE&gl=SE
 
 How to install KDE Desktop via openEuler 25.03 - WSL - Windows 11 - TEXT
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/OpenEuler25.03-KDE.txt
 
 How to install KDE Desktop via openEuler 25.03 - WSL - Windows 11 - MOVIE
 https://www.youtube.com/watch?v=7jsQVQdVFek
@@ -400,6 +400,7 @@ ____ ___  ____ _  _ ____ _  _ _    ____ ____
 |  | |__] |___ |\ | |___ |  | |    |___ |__/ 
 |__| |    |___ | \| |___ |__| |___ |___ |  \ 
                                              
-Made with ❤️ in Stockholm and Sweden - 2025
+Made with ❤️ in Stockholm / Sweden - 2025
 
 ----------------------------------------------------------------
+
