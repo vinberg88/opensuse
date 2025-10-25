@@ -61,16 +61,6 @@ https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
 
 MEDIA: Mattias Vinberg - Sweden - Stockholm - 2025
 
-OS: openEuler 25.03 on Windows x86_64 - WSL
-
-Windows: Windows 11 DEV PRO
-
-Desktop For Linux: KDE
-
-Kernel: 6.6.87.2-microsoft-standard-WSL2
-
-KDE - for openEuler 25.03 and Windows 11 / PRO
-
 About OpenEuler 25.03 - https://www.openeuler.org/en
 
 OpenEuler is an open source project incubated and operated by the
