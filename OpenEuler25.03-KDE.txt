@@ -1,4 +1,4 @@
-OpenEuler 25.03 - Install KDE Desktop via openEuler - WSL - Windows 11 - LINUX - 2024 - YouTube
+OpenEuler 25.03 - Install KDE Desktop via openEuler - WSL - Windows 11 - LINUX - 2025 - YouTube
 
 You can find openEuler 25.03 here or in Microsoft store.
 https://apps.microsoft.com/detail/9nj153x4m4v4?hl=sv-SE&gl=SE
@@ -403,4 +403,5 @@ ____ ___  ____ _  _ ____ _  _ _    ____ ____
 Made with ❤️ in Stockholm / Sweden - 2025
 
 ----------------------------------------------------------------
+
 
