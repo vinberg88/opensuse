@@ -33,6 +33,71 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+OpenEuler 25.03 - Install KDE Desktop via openEuler - WSL - Windows 11 - LINUX - 2025 - YouTube
+
+You can find openEuler 25.03 here or in Microsoft store.
+
+https://apps.microsoft.com/detail/9nj153x4m4v4?hl=sv-SE&gl=SE
+
+How to install KDE Desktop via openEuler 25.03 - WSL - Windows 11 - TEXT
+
+https://github.com/vinberg88/opensuse/edit/main/OpenEuler25.03-KDE.txt
+
+How to install KDE Desktop via openEuler 25.03 - WSL - Windows 11 - MOVIE
+
+https://www.youtube.com/watch?v=7jsQVQdVFek
+
+Use X410 - X Server for Windows in this video and it works well. Find in Micorsoft store. 
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="OpenEuler25 03-KDE" src="https://github.com/user-attachments/assets/0c39bbd8-9acd-41b5-abfd-7d0a64bda7eb" />
+
+MEDIA: Mattias Vinberg - Sweden - Stockholm - 2025
+OS: openEuler 25.03 on Windows x86_64 - WSL
+Windows: Windows 11 DEV PRO
+Desktop For Linux: KDE
+Kernel: 6.6.87.2-microsoft-standard-WSL2
+KDE - for openEuler 25.03 and Windows 11 / PRO
+
+About OpenEuler 25.03 - https://www.openeuler.org/en
+
+OpenEuler is an open source project incubated and operated by the
+OpenAtom Foundation. EulerOS is a commercial Linux distribution developed
+by Huawei based on Red Hat Enterprise Linux. To provide an operating system
+for server and cloud environments. Its open-source community version
+is known as openEuler, of which source code was released by Huawei at
+Gitee on December 31, 2019. OpenEuler became an open-source project 
+operated by OpenAtom Foundation after Huawei donated the source code 
+of openEuler to the foundation on November.  
+
+What is KDE - Desktop - https://kde.org
+
+Use Plasma to surf the web; keep in touch with colleagues, friends
+and family; manage your files, enjoy music and videos; and get
+creative and productive at work. Do it all in a beautiful environment
+that adapts to your needs, and with the safety, privacy-protection and
+peace of mind that the best Free Open Source Software has to offer.
+KDE 6 Plasma is a Desktop for next life =)
+
+Find More Stuff for WSL and Linux - https://github.com/vinberg88/opensuse
+
+ABOUT WSL for WINDOWS via GITHUB - MY PAGE - https://vinberg88.github.io
+
+WSL stands for Windows Subsystem for Linux, a feature of Windows that
+allows users to run a Linux environment directly on their Windows
+machine without needing a separate virtual machine or dual-booting.
+
+Regards Mattias Vinberg - OpenEuler - KDE - Linux - WSL - X410 - Windows 11 - Sweden - 2025
+
+---------------------------------------------
+
 Ultramarine 42 and Gnome 48 for WSL - How to Install Gnome via Ultramarine 42 - Linux - Microsoft - X410 - 2025
 
 Ultramarine 42 - you will find it here for WSL or go to Microsoft Store.
