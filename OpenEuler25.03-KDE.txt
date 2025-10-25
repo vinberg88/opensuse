@@ -1,0 +1,405 @@
+OpenEuler 25.03 - Install KDE Desktop via openEuler - WSL - Windows 11 - LINUX - 2024 - YouTube
+
+You can find openEuler 25.03 here or in Microsoft store.
+https://apps.microsoft.com/detail/9nj153x4m4v4?hl=sv-SE&gl=SE
+
+How to install KDE Desktop via openEuler 25.03 - WSL - Windows 11 - TEXT
+Comming Zone...
+
+How to install KDE Desktop via openEuler 25.03 - WSL - Windows 11 - MOVIE
+https://www.youtube.com/watch?v=7jsQVQdVFek
+
+Use X410 - X Server for Windows in this video and it works well. Find in Micorsoft store. 
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+
+                 `.cc.`                                    `.cc.`
+             ``.cccccccc..`                            ``.cccccccc..`
+          `.cccccccccccccccc.`                      `.cccccccccccccccc.`
+      ``.cccccccccccccccccccccc.``              ``.cccccccccccccccccccccc.``
+   `..cccccccccccccccccccccccccccc..`        `..cccccccccccccccccccccccccccc..`
+`.ccccccccccccccc/++/ccccccccccccccccc.`  `.ccccccccccccccc/++/ccccccccccccccccc.`
+.cccccccccccccccmNMMNdo+oso+ccccccccccc.  .cccccccccccccccmNMMNdo+oso+ccccccccccc.
+.cccccccccc/++odms+//+mMMMMm/:+syso/cccc  .cccccccccc/++odms+//+mMMMMm/:+syso/cccc
+.cccccccccyNNMMMs:::/::+o+/:cdMMMMMmcccc  .cccccccccyNNMMMs:::/::+o+/:cdMMMMMmcccc
+.ccccccc:+NmdyyhNNmNNNd:ccccc:oyyyo:cccc  .ccccccc:+NmdyyhNNmNNNd:ccccc:oyyyo:cccc
+.ccc:ohdmMs:cccc+mNMNmyccccccccccccccccc  .ccc:ohdmMs:cccc+mNMNmyccccccccccccccccc
+.cc/NMMMMMo////:c:///:cccccccccccccccccc  .cc/NMMMMMo////:c:///:cccccccccccccccccc - openEuler 25.03
+.cc:syysyNMNNNMNyccccccccccccccccccccccc  .cc:syysyNMNNNMNyccccccccccccccccccccccc
+.cccccccc+MMMMMNyc:/+++/cccccccccccccccc  .cccccccc+MMMMMNyc:/+++/cccccccccccccccc
+.cccccccccohhhs/comMMMMNhccccccccccccccc  .cccccccccohhhs/comMMMMNhccccccccccccccc
+.ccccccccccccccc:MMMMMMMM/cccccccccccccc  .ccccccccccccccc:MMMMMMMM/cccccccccccccc
+.ccccccccccccccccsNNNNNd+cccccccccccccc.  .ccccccccccccccccsNNNNNd+cccccccccccccc.
+`..cccccccccccccccc/+/:cccccccccccccc..`  `..cccccccccccccccc/+/:cccccccccccccc..`
+   ``.cccccccccccccccccccccccccccc.``        ``.cccccccccccccccccccccccccccc.``
+       `.cccccccccccccccccccccc.`                `.cccccccccccccccccccccc.`
+          ``.cccccccccccccc.``                      ``.cccccccccccccc.``
+              `.cccccccc.`                              `.cccccccc.`
+                 `....`                                    `....`
+
+MEDIA: Mattias Vinberg - Sweden - Stockholm - 2025
+OS: openEuler 25.03 on Windows x86_64 - WSL
+Windows: Windows 11 DEV PRO
+Desktop For Linux: KDE
+Kernel: 6.6.87.2-microsoft-standard-WSL2
+KDE - for openEuler 25.03 and Windows 11 / PRO
+
+About OpenEuler 25.03 - https://www.openeuler.org/en
+
+OpenEuler is an open source project incubated and operated by the
+OpenAtom Foundation. EulerOS is a commercial Linux distribution developed
+by Huawei based on Red Hat Enterprise Linux. To provide an operating system
+for server and cloud environments. Its open-source community version
+is known as openEuler, of which source code was released by Huawei at
+Gitee on December 31, 2019. OpenEuler became an open-source project 
+operated by OpenAtom Foundation after Huawei donated the source code 
+of openEuler to the foundation on November.  
+
+What is KDE - Desktop - https://kde.org
+
+Use Plasma to surf the web; keep in touch with colleagues, friends
+and family; manage your files, enjoy music and videos; and get
+creative and productive at work. Do it all in a beautiful environment
+that adapts to your needs, and with the safety, privacy-protection and
+peace of mind that the best Free Open Source Software has to offer.
+KDE 6 Plasma is a Desktop for next life =)
+
+Find More Stuff for WSL and Linux - https://github.com/vinberg88/opensuse
+
+ABOUT WSL for WINDOWS via GITHUB - MY PAGE - https://vinberg88.github.io
+
+WSL stands for Windows Subsystem for Linux, a feature of Windows that
+allows users to run a Linux environment directly on their Windows
+machine without needing a separate virtual machine or dual-booting.
+
+------------------------------------------------------
+
+LETS START INSTALL OF KDE DESKTOP FOR WSL AND OpenEuler 25.03 via WSL2.
+
+--------------------------------
+
+First thing you need to do is copy this file to C:\Users\yourusername  <-- user is not your username =]
+
+1. Download file from proton - https://drive.proton.me/urls/G602NV0DFG#Rn5D1Tny3TpQ
+
+1. open explorer
+
+2. copy file
+
+3. Paste it under C:\Users\yourusername
+
+Its easy use Explorer and copy and past. Download this file here.
+
+--------------------------------
+
+Install fast mirrors or repos for openEuler 25.03. We will also install nano - KDE
+
+Run this first
+
+sudo dnf install dnf-utils nano
+
+Then do this..
+
+sudo nano /etc/dnf/dnf.conf
+
+Add the following line: fastestmirror=True and max_parallel_downloads=10
+
+Like That..
+
+fastestmirror=True
+max_parallel_downloads=10
+
+-----------------------------------
+
+Add this repos - Not fast but more dnf package - OpenEuler 25.03 - KDE
+
+sudo nano /etc/yum.repos.d/openeuler-25.03.repo
+
+[openEuler-25.03-EPOL]
+name=openEuler-25.03 EPOL
+baseurl=https://mirrors.dotsrc.org/openeuler/openEuler-25.03/EPOL/main/x86_64/
+enabled=1
+gpgcheck=1
+gpgkey=https://mirrors.dotsrc.org/openeuler/openEuler-25.03/ISO/x86_64/RPM-GPG-KEY-openEuler
+
+[openEuler-25.03-everything]
+name=openEuler 25.03 Everything (dotsrc)
+baseurl=https://mirrors.dotsrc.org/openeuler/openEuler-25.03/everything/x86_64/
+enabled=1
+gpgcheck=1
+gpgkey=https://repo.openeuler.org/openEuler-25.03/ISO/x86_64/RPM-GPG-KEY-openEuler
+
+sudo dnf upgrade --refresh
+
+---------------------------------------
+
+Change all repos to Denmark. We need to a build script - OpenEuler 25.03 - KDE
+
+sudo nano byt-mirror.sh
+
+Copy and paste This script to terminal.
+
+----------------------------------------
+
+#!/bin/bash
+# Byt mirrors till dotsrc för openEuler 25.03 x86_64
+
+REPO_DIR="/etc/yum.repos.d"
+NEW_MIRROR="https://mirrors.dotsrc.org/openeuler/openEuler-25.03"
+
+echo "Byter mirrors i $REPO_DIR till $NEW_MIRROR för x86_64..."
+
+for repo in "$REPO_DIR"/*.repo; do
+    echo "Uppdaterar $repo..."
+    sed -i.bak -E \
+        "s|https://mirrors\.openeuler\.org/openeuler[^/]*/x86_64/|$NEW_MIRROR/x86_64/|g" \
+        "$repo"
+done
+
+echo "Klart! Backup-filer skapade med .bak-tillägg."
+
+---------------------------------------
+
+Run this in terminal: sudo chmod +x byt-mirror.sh
+
+Run Script: sudo ./byt-mirror.sh
+
+---------------------------------------
+
+check so all works…
+
+grep -r "dotsrc.org" /etc/yum.repos.d/
+
+If you see repos - all works =]
+
+sudo dnf upgrade --refresh
+
+-----------------------------------
+
+Reboot Reboot Reboot Reboot Reboot Reboot - OpenEuler 25.03
+
+-----------------------------------
+
+Install some basic programs for KDE Desktop and OpenEuler 25.03
+
+sudo dnf install wget git npm bash sudo curl npm dbus ibus xorg* kwin* x11* 
+
+-----------------------------------
+
+Install SDDM for KDE 5 and OpenEuler 25.03 and KDE
+
+sudo nano /etc/yum.repos.d/openEuler-everything.repo
+
+[copr:eur.openeuler.openatom.cn:yansheng1003:xrdp]
+name=Copr repo for xrdp owned by yansheng1003
+baseurl=https://eur.openeuler.openatom.cn/results/yansheng1003/xrdp/openeuler-24.09-$basearch/
+type=rpm-md
+skip_if_unavailable=True
+gpgcheck=1
+gpgkey=https://eur.openeuler.openatom.cn/results/yansheng1003/xrdp/pubkey.gpg
+repo_gpgcheck=0
+enabled=1
+enabled_metadata=1
+
+sudo dnf makecache
+
+sudo dnf upgrade --refresh
+
+sudo dnf install sddm
+
+sudo dnf install sddm*
+
+sudo systemctl set-default graphical.target
+
+sudo systemctl enable sddm
+
+-------------------------------------------------------
+
+Time to install KDE Desktop for OpenEuler 25.03 - KDE
+
+sudo dnf -y install kde*
+
+sudo dnf -y install plasma-workspace-x11
+
+sudo dnf -y install plasma-*
+
+sudo dnf -y install xorg-x11-server-Xorg xorg-x11-xauth xorg-x11-* xorg-x11-xinit xorg-x11-fonts
+
+sudo dnf install -y plasma-desktop kde-* kde-settings konsole dolphin ark kwrite*
+
+
+-------------------------------------------------------
+
+Install Hyfetch - Its a must =] Neofetch is Dead - RIP NEOFETCH - OpenEuler 25.03 - KDE
+
+sudo dnf -y install cargo
+
+Then copy and paste this: cargo install hyfetch
+
+Then copy and paste this: echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.bashrc
+
+Then copy and paste this: echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.profile
+
+Test by Restart of terminal and type: hyfetch
+
+-----------------------------------
+
+If you want fastfetch - Install this Repo and RPM program - OpenEuler 25.03 - KDE
+
+sudo nano /etc/yum.repos.d/openEuler-everything.repo
+
+[copr:eur.openeuler.openatom.cn:jchzhou:fastfetch]
+name=Copr repo for fastfetch owned by jchzhou
+baseurl=https://eur.openeuler.openatom.cn/results/jchzhou/fastfetch/openeuler-25.03-$basearch/
+type=rpm-md
+skip_if_unavailable=True
+gpgcheck=1
+gpgkey=https://eur.openeuler.openatom.cn/results/jchzhou/fastfetch/pubkey.gpg
+repo_gpgcheck=0
+enabled=1
+enabled_metadata=1
+
+sudo dnf makecache
+
+sudo dnf install fastfetch
+
+Now type this in terminal for test: fastfetch
+
+-----------------------------------
+
+Add more programs to KDE - You must do this... - OpenEuler 25.03 - KDE
+
+sudo nano /etc/yum.repos.d/openEuler-everything.repo
+
+[copr:eur.openeuler.openatom.cn:misaka00251:KDE]
+name=Copr repo for KDE owned by misaka00251
+baseurl=https://eur.openeuler.openatom.cn/results/misaka00251/KDE/openeuler-23.03-$basearch/
+type=rpm-md
+skip_if_unavailable=True
+gpgcheck=1
+gpgkey=https://eur.openeuler.openatom.cn/results/misaka00251/KDE/pubkey.gpg
+repo_gpgcheck=0
+enabled=1
+enabled_metadata=1
+
+-----------------------------------
+
+sudo dnf makecache
+
+sudo dnf install kde-*
+
+sudo dnf install system*
+
+sudo dnf install -y plasma-desktop kde-* kde-settings sddm konsole dolphin ark okular
+
+sudo dnf install -y firefox krdc
+
+sudo dnf groupinstall "Standard" "Base" "Core" --allowerasing --skip-broken --nobest
+
+-----------------------------------
+
+Install Visual Studio Code - Microsoft - OpenEuler 25.03 - KDE
+
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpg
+check=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" | sudo tee /etc/yum.repos.d/vscode.repo > /dev/null
+
+sudo dnf install code
+
+-----------------------------------
+
+Install Google-Chrome - paste all under this paragraph in terminal - OpenEuler 25.03 - KDE
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm
+sudo yum update google-chrome-stable
+
+-----------------------------------
+
+Install GIMP and Libreoffice and gnome-terminal - 2025 - OpenEuler 25.03 - KDE
+
+sudo yum install -y gimp libreoffice gnome-terminal
+
+-----------------------------------
+
+Install blanket 8 for nice sounds. YOU NEED THIS - LATEST BLANKET - OpenEuler 25.03
+
+wget https://www.swehub.com/blanket/blanket-0.8.0-1.noarch.rpm
+sudo dnf install ./blanket-0.8.0-1.noarch.rpm
+
+------------------------------------------------------
+
+Fix IP problem for GWSL or X410. Cant find screen problems. Look ip adress in windows terminal / PowerShell as root : ipconfig
+
+NOTE - Importent to look for ip. LAST LINES IN WINDOWS TERMINAL IS IP FOR WSL
+
+NOW GO BACK TO OpenEuler 25.03 TERMINAL AND ENTER THIS...
+
+sudo ls -l /etc/resolv.conf
+
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+
+sudo nano /etc/resolv.conf
+
+nameserver 172.20.208.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+
+sudo systemctl restart systemd-resolved
+
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed - OpenEuler =]
+
+------------------------------------------------------
+
+Type in terminal: sudo nano ~/.bash_KDE_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------------------------
+
+Reboot Linux - Reboot Linux - Reboot Linux - Reboot Linux - OpenEuler
+
+----------------------------------------------------------------
+
+Done - Time to start KDE Desktop.
+
+NOTE - START X410 FIRST THEN YOU START OpenEuler TERMINAL - NOTE
+
+Copy and Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Copy and paste this in Console: . ~/.bash_KDE_desktop
+
+Copy and paste this in Console: dbus-launch startplasma-x11
+
+   " Just wait it will start, it take some time "
+
+--------------------------------------------------------------
+
+Regards Mattias Vinberg - OpenEuler 25.03 - KDE - Linux - WSL - X410 - Windows 11 - Sweden - 2025
+
+ENJOY - FIND MORE DESKTOPS HERE VIA GITHUB FOR WSL AND MICROSOFT - https://github.com/vinberg88/opensuse
+
+MORE EXTRA - ABOUT WSL for WINDOWS via GITHUB - MY PAGE - https://vinberg88.github.io
+
+____ ___  ____ _  _ ____ _  _ _    ____ ____ 
+|  | |__] |___ |\ | |___ |  | |    |___ |__/ 
+|__| |    |___ | \| |___ |__| |___ |___ |  \ 
+                                             
+Made with ❤️ in Stockholm and Sweden - 2025
+
+----------------------------------------------------------------
