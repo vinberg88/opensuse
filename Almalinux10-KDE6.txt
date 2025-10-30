@@ -53,7 +53,7 @@ Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
 Windows: Windows 11 PRO/DEV LATEST EDITION
 
 How to install KDE 6 via AlmaLinux 10 och Windows 11 - WSL - TEXT
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/Almalinux10-KDE6.txt
 
 How to install KDE 6 via AlmaLinux 10 och Windows 11 - WSL - MOVIE
 https://www.youtube.com/watch?v=UM3fzRqP1Bg
@@ -347,3 +347,4 @@ and driven by the community, focused on long-term stability and
 a robust production grade platform - 2025
 
 ----------------------------------------------------------------
+
