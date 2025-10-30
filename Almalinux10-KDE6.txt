@@ -1,0 +1,349 @@
+AlmaLinux 10 - Install KDE 6 via Windows 11 - WSL - X410 - Linux - github - Youtube - 2025
+
+You can find AlmaLinux 10 for WSL here Download AlmaLinux 10 an push
+on blue file. Now you have working AlmaLinux 10 or install it via Raft WSL or via Microsoft store.
+
+Download AlmaLinux 10 -- https://github.com/AlmaLinux/wsl-images
+
+Use X410 - X Server for Windows 11 in this video and it works well. Find in Micorsoft store. 
+It doesn't matter where your Linux GUI apps are actually running; it can be a full virtual
+machine, Docker container, WSL (Windows Subsystem for Linux) or whatever. As long as
+your Linux GUI apps support X-Window client protocols, you can use them in Windows. 
+You can even securely use your Linux GUI apps running in a far remote server via any
+SSH client that supports X11 forwarding over the Internet.
+
+X410 -- https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+Raft WSL -- https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+            WELCOME TO AlmaLinux 10 AND KDE 6 FOR WSL2 
+        MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2025
+
+         'c:.                                      'c:.
+        lkkkx, ..       ..   ,cc,                 lkkkx, ..       ..   ,cc,
+        okkkk:ckkx'  .lxkkx.okkkkd                okkkk:ckkx'  .lxkkx.okkkkd
+        .:llcokkx'  :kkkxkko:xkkd,                .:llcokkx'  :kkkxkko:xkkd,
+      .xkkkkdood:  ;kx,  .lkxlll;               .xkkkkdood:  ;kx,  .lkxlll;
+       xkkx.       xk'     xkkkkk:               xkkx.       xk'     xkkkkk:
+       'xkx.       xd      .....,.               'xkx.       xd      .....,.
+      .. :xkl'     :c      ..''..               .. :xkl'     :c      ..''..
+    .dkx'  .:ldl:'. '  ':lollldkkxo;          .dkx'  .:ldl:'. '  ':lollldkkxo;
+  .''lkkko'                     ckkkx.      .''lkkko'                     ckkkx.
+'xkkkd:kkd.       ..  ;'        :kkxo.    'xkkkd:kkd.       ..  ;'        :kkxo.
+,xkkkd;kk'      ,d;    ld.   ':dkd::cc,   ,xkkkd;kk'      ,d;    ld.   ':dkd::cc,
+ .,,.;xkko'.';lxo.      dx,  :kkk'xkkkkc   .,,.;xkko'.';lxo.      dx,  :kkk'xkkkkc
+     'dkkkkkxo:.        ;kx  .kkk:;xkkd.       'dkkkkkxo:.        ;kx  .kkk:;xkkd.
+       .....   .;dk:.   lkk.  :;,                .....   .;dk:.   lkk.  :;,
+             :kkkkkkkdoxkkx                            :kkkkkkkdoxkkx
+              ,c,,;;;:xkkd.                             ,c,,;;;:xkkd.
+                ;kkkkl...                                 ;kkkkl...
+                ;kkkkl                                    ;kkkkl
+                 ,od;                                      ,od;
+
+
+
+About me: Mattias Vinberg - Anarchist from Sweden - DEvOpS
+OS: AlmaLinux 10.0 x86_64
+Host: Windows Subsystem for Linux - AlmaLinux-10 (2.5.10.0)
+Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+Windows: Windows 11 PRO/DEV LATEST EDITION
+
+How to install KDE 6 via AlmaLinux 10 och Windows 11 - WSL - TEXT
+Comming Zone...
+
+How to install KDE 6 via AlmaLinux 10 och Windows 11 - WSL - MOVIE
+https://www.youtube.com/watch?v=UM3fzRqP1Bg
+
+About AlmaLinux 10 for WSL - https://almalinux.org
+
+AlmaLinux OS is an open-source, community-driven Linux 
+operating system that fills the gap left by the discontinuation
+of the CentOS Linux stable release. AlmaLinux OS is an Enterprise
+Linux distro, binary compatible with RHEL®, and guided and built
+by the community. As a standalone, completely free OS, AlmaLinux OS
+enjoys $1M in annual sponsorship from CloudLinux Inc. and support
+from more than 25 other sponsors. Ongoing development efforts
+are governed by the members of the community. The AlmaLinux OS 
+Foundation is a 501(c)(6) non-profit created for the benefit of
+the AlmaLinux OS community.
+
+About KDE 6 Desktop - https://kde.org - 2025
+
+KDE is an international team co-operating on 
+development and distribution of Free, Open
+Source Software for desktop and portable
+computing. Our community has developed a
+wide variety of applications for communication, 
+work, education and entertainment. We have a
+strong focus on finding innovative solutions to
+old and new problems, creating a vibrant, open
+atmosphere for experimentation. KDE is The 
+next generation desktop for Linux. Use KDE
+software to surf the web, keep in touch with
+colleagues, friends and family, manage your
+files, enjoy music and videos; and get creative
+and productive at work. The KDE community develops
+and maintains more than 200 applications
+which run on any Linux desktop, and often
+other platforms too.
+
+Find More Stuff for WSL and Linux. Desktops for WSL - https://github.com/vinberg88/opensuse
+
+ABOUT WSL for WINDOWS via GITHUB - MY PAGE - https://vinberg88.github.io
+
+WSL stands for Windows Subsystem for Linux, a feature of Windows that
+allows users to run a Linux environment directly on their Windows
+machine without needing a separate virtual machine or dual-booting.
+
+--------------------------------
+
+TIME TO START INSTALL OF KDE 6 AND ALMALINUX VIA WINDOWS 11 PRO.
+
+--------------------------------
+
+Add this Repos to AlmaLinux 10 so you can get kwin and other tools.
+
+sudo dnf install dnf-plugins-core -y
+sudo dnf copr enable brandonlester/oreon10-kde centos-stream-10-x86_64
+sudo dnf copr enable mlampe/kde_x11 rhel+epel-10-x86_64
+
+sudo dnf install sudo -y
+sudo dnf install wget -y
+sudo dnf install nano -y
+
+--------------------------------
+
+Add this Repos to AlmaLinux 10. Rpmfusion and epel release latest and some other mirrors from ALMA LINUX.
+
+sudo dnf install \
+https://dl.fedoraproject.org/pub/epel/epel-release-latest-10.noarch.rpm
+sudo /usr/bin/crb enable
+
+sudo dnf install distribution-gpg-keys
+sudo rpmkeys --import /usr/share/distribution-gpg-keys/rpmfusion/RPM-GPG-KEY-rpmfusion-free-el-$(rpm -E %rhel)
+sudo rpmkeys --import /usr/share/distribution-gpg-keys/rpmfusion/RPM-GPG-KEY-rpmfusion-nonfree-el-$(rpm -E %rhel)
+sudo dnf --setopt=localpkg_gpgcheck=1 install  https://mirrors.rpmfusion.org/free/el/rpmfusion-free-release-$(rpm -E %rhel).noarch.rpm https://mirrors.rpmfusion.org/nonfree/el/rpmfusion-nonfree-release-$(rpm -E %rhel).noarch.rpm
+
+sudo dnf config-manager --set-enabled highavailability
+sudo dnf config-manager --set-enabled rt
+sudo dnf config-manager --set-enabled nfv
+sudo dnf config-manager --set-enabled extras
+
+-----------------------------------
+
+Paste in terminal - Update AlmaLinux 10
+
+sudo dnf upgrade --refresh
+
+-----------------------------------
+
+Install some basic Programs for ALMA LINUX and KDE 6.
+
+sudo dnf install git systemd* wget curl bash pipx xorg net-tools dbus-x11 dbus* yum --skip-broken
+sudo dnf install kwin* xorg* --nobest --allowerasing --skip-broken
+sudo dnf install llvm -y
+sudo dnf install sddm* -y --allowerasing --skip-broken --nobest
+sudo yum install xorg* --allowerasing --skip-broken --nobest -y
+
+sudo dnf install systemd* -y --allowerasing --skip-broken --nobest
+sudo dnf install dconf* git wget curl nano bash pipx net-tools dbus-x11 dbus* -y --allowerasing --skip-broken --nobest -y
+sudo dnf install curl git bash librepo pip system -y --allowerasing --skip-broken --nobest -y
+sudo dnf install wget curl net-tools dbus-x11 -y --allowerasing --skip-broken --nobest -y
+sudo dnf group install "System-Tools" --allowerasing --nobest --skip-broken -y
+
+-----------------------------------
+
+Reboot ALMA LINUX 10 - Reboot ALMALINUX 10 - Reboot ALMA LINUX 10
+
+-----------------------------------
+
+Run this as ROOT user so you get it all!
+
+sudo dnf install kwin-x11 plasma-workspace-x11 xsetroot
+echo -e "DESKTOP=KDE\nPREFERRED=startplasma-x11" >/etc/sysconfig/desktop
+
+-----------------------------------
+
+LOGIN AS NORMAL USER -- Install KDE 6 for AlmaLinux 10
+
+sudo dnf -y group install kde-desktop-environment --allowerasing --skip-broken --nobest
+sudo dnf install kde* -y --skip-broken --nobest
+sudo dnf install plasma* -y --allowerasing --skip-broken --nobest
+sudo dnf groupinstall "Workstation" -y
+sudo dnf groupinstall "KDE Applications" -y
+sudo dnf groupinstall "KDE Software Development" -y
+sudo dnf groupinstall "KDE Frameworks 6 Software Development" -y
+
+-----------------------------------
+
+Install qt6 and qt5 for Alma Linux 10 and KDE 6
+
+sudo dnf install qt6* -y
+sudo dnf install qt5* -y --allowerasing --nobest --skip-broken
+
+-----------------------------------
+
+Install Hyfetch - like Neofetch but more FUN =)
+
+pipx install hyfetch
+pipx ensurepath
+
+Put this in terminal to Test: hyfetch
+
+-----------------------------------
+
+Install Chromium Browser - Paste all under this paragraph in terminal.
+
+sudo dnf install chromium -y
+
+------------------------------------------------------
+
+Install CODE Visual studio code - 2025 - Microsoft - ALMA LINUX 10
+
+wget https://www.knulla.org/scripts/code-1.95.3-1731513157.el8.x86_64.rpm
+sudo dnf install ./code-1.95.3-1731513157.el8.x86_64.rpm -y
+
+-----------------------------------
+
+Listen to sounds -- Blanket -- Alma Linux 10 - 2025 - KDE 6
+
+wget https://www.swehub.com/blanket/blanket-0.8.0-1.noarch.rpm
+sudo dnf install ./blanket-0.8.0-1.noarch.rpm -y
+
+-----------------------------------
+
+Install Gimp for AlmaLinux 10
+
+Copy and paste: sudo dnf install flatpak* -y --skip-broken --nobest
+
+Copy and paste: sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+Copy and paste: sudo flatpak install flathub org.gimp.GIMP
+
+-------------------------------------------------------------
+
+Install LibreOffice for AlmaLinux 10
+
+sudo flatpak install flathub org.libreoffice.LibreOffice
+
+-------------------------------------------------------------
+
+Install some more programs for AlmaLinux 10 and KDE 6 - 2025
+
+sudo dnf install -y ffmpeg* dconf-editor xhost procps bind-utils iproute iputils nmap-ncat --allowerasing --skip-broken
+
+----------------------------------
+
+Copy and Paste in terminal for AlmaLinux 10.
+
+xdg-user-dirs-update
+
+sudo systemctl set-default graphical.target
+
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-----------------------------------
+
+Paste this one time in Console - ALMA LINUX 10
+
+sudo mkdir /run/user/1000 && sudo chmod 700 /run/user/1000 && sudo chown $(whoami): /run/user/1000
+
+------------------------------------------------------
+
+Type this in terminal and put your user there - sudo loginctl enable-linger user
+
+-------------------------------------------------------------
+
+Install some more programs for Alma Linux 10 and KDE 6 - 2025
+
+sudo dnf install dconf-editor curl wget git bash* zeal* librepo* -y
+
+-------------------------------------------------------------
+
+Restart LINUX - Restart AlmaLinux 10 - Restart LINUX - Restart AlmaLinux 10
+
+------------------------------------------------------
+
+Fix IP problem for X410. Cant find screen problem. Look for ip adress in windows terminal / PowerShell: ipconfig
+
+NOTE - Importent to look for ip. Last lines are IP-numbers for WSL.
+
+GO BACK TO ALMA LINUX 10 AND COPY AND PASTE THIS IN TERMINAL.
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.20.208.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed =] IF YOU SEE SOME RED TEXT DONT WORRY IT WORKS =]
+
+------------------------------------------------------
+
+Restart LINUX - Restart AlmaLinux 10 - Restart LINUX - Restart AlmaLinux 10
+
+------------------------------------------------------
+
+Install this for KDE 6 AND ALMA Linux 10 - fix so startplasma-x11 work.
+
+sudo dnf -y install rpm-build rpmdevtools
+
+grep -R --line-number -E '^\s*%dist' ~/.rpmmacros /etc/rpm/macros* 2>/dev/null || true
+
+wget https://www.swehub.com/rocky/plasma-wsl-starter-1.3.0-1.el10.noarch.rpm
+sudo dnf -y install ./plasma-wsl-starter-1.3.0-1.el10.noarch.rpm
+
+------------------------------------------------------
+
+Restart LINUX - Restart AlmaLinux 10 - Restart LINUX - Restart AlmaLinux 10
+
+------------------------------------------------------
+
+Time to start KDE 6 and AlmaLinux 10 - Paste One by One!
+
+NOTE - FIRST START X410 THEN YOU START ALMALINUX 10 VIA TERMINAL
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Copy and paste This: startplasma-x11
+
+        IT TAKE SOME TIME TO START FIRST ROUND - JUST WAIT.
+
+----------------------------------------------------------------
+
+ONLY USE THIS IF I WONT START.. BUT IT WILL WORK =]
+
+Copy and paste This: start-plasma-x11-wsl --fix-deps --disable-akonadi
+
+Start Shop from terminal - LINUX TOOLS: sudo plasma-discover
+
+----------------------------------------------------------------
+
+Regards Mattias Vinberg - AlmaLinux 10 - KDE 6 - Windows 11 - Linux - WSL - X410 - 2025 - SWEDEN
+
+ _______  _        _______  _______    _       _________ _                            __    _______ 
+(  ___  )( \      (       )(  ___  )  ( \      \__   __/( (    /||\     /||\     /|  /  \  (  __   )
+| (   ) || (      | () () || (   ) |  | (         ) (   |  \  ( || )   ( |( \   / )  \/) ) | (  )  |
+| (___) || |      | || || || (___) |  | |         | |   |   \ | || |   | | \ (_) /     | | | | /   |
+|  ___  || |      | |(_)| ||  ___  |  | |         | |   | (\ \) || |   | |  ) _ (      | | | (/ /) |
+| (   ) || |      | |   | || (   ) |  | |         | |   | | \   || |   | | / ( ) \     | | |   / | |
+| )   ( || (____/\| )   ( || )   ( |  | (____/\___) (___| )  \  || (___) |( /   \ )  __) (_|  (__) |
+|/     \|(_______/|/     \||/     \|  (_______/\_______/|/    )_)(_______)|/     \|  \____/(_______)
+                                                                                                    
+❤ Thank you for being a part of the Alma Linux 10 and KDE 6 Project for WSL2 ❤
+
+Red Hat and RHEL are trademarks or registered trademarks of Red Hat, Inc.
+or its subsidiaries in the United States and other countries. Alma Linux 10
+is an Open Source and forever-free enterprise Linux distribution, governed
+and driven by the community, focused on long-term stability and
+a robust production grade platform - 2025
+
+----------------------------------------------------------------
