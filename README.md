@@ -33,6 +33,81 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+AlmaLinux 10 and KDE 6 - Install KDE 6 via Windows 11 - WSL - X410 - Linux - github - Youtube - 2025
+
+You can find AlmaLinux 10 for WSL here Download AlmaLinux 10 an push
+on blue file. Now you have working AlmaLinux 10 or install it via Raft WSL or via Microsoft store.
+
+Download AlmaLinux 10 -- https://github.com/AlmaLinux/wsl-images
+
+Use X410 - X Server for Windows 11 in this video and it works well. Find in Micorsoft store. 
+It doesn't matter where your Linux GUI apps are actually running; it can be a full virtual
+machine, Docker container, WSL (Windows Subsystem for Linux) or whatever. As long as
+your Linux GUI apps support X-Window client protocols, you can use them in Windows. 
+You can even securely use your Linux GUI apps running in a far remote server via any
+SSH client that supports X11 forwarding over the Internet.
+
+X410 -- https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+Raft WSL -- https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="Almalinux10-KDE6" src="https://github.com/user-attachments/assets/c87f0d64-2fae-4acf-a61e-d75073453691" />
+
+How to install KDE 6 via AlmaLinux 10 och Windows 11 - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Almalinux10-KDE6.txt
+
+How to install KDE 6 via AlmaLinux 10 och Windows 11 - WSL - MOVIE
+
+https://www.youtube.com/watch?v=UM3fzRqP1Bg
+
+About AlmaLinux 10 for WSL - https://almalinux.org
+
+AlmaLinux OS is an open-source, community-driven Linux 
+operating system that fills the gap left by the discontinuation
+of the CentOS Linux stable release. AlmaLinux OS is an Enterprise
+Linux distro, binary compatible with RHEL®, and guided and built
+by the community. As a standalone, completely free OS, AlmaLinux OS
+enjoys $1M in annual sponsorship from CloudLinux Inc. and support
+from more than 25 other sponsors. Ongoing development efforts
+are governed by the members of the community. The AlmaLinux OS 
+Foundation is a 501(c)(6) non-profit created for the benefit of
+the AlmaLinux OS community.
+
+About KDE 6 Desktop - https://kde.org - 2025
+
+KDE is an international team co-operating on 
+development and distribution of Free, Open
+Source Software for desktop and portable
+computing. Our community has developed a
+wide variety of applications for communication, 
+work, education and entertainment. We have a
+strong focus on finding innovative solutions to
+old and new problems, creating a vibrant, open
+atmosphere for experimentation. KDE is The 
+next generation desktop for Linux. Use KDE
+software to surf the web, keep in touch with
+colleagues, friends and family, manage your
+files, enjoy music and videos; and get creative
+and productive at work. The KDE community develops
+and maintains more than 200 applications
+which run on any Linux desktop, and often
+other platforms too.
+
+ABOUT WSL for WINDOWS via GITHUB - MY PAGE - https://vinberg88.github.io
+
+WSL stands for Windows Subsystem for Linux, a feature of Windows that
+allows users to run a Linux environment directly on their Windows
+machine without needing a separate virtual machine or dual-booting.
+
+Regards Mattias Vinberg - AlmaLinux 10 - KDE 6 - Windows 11 - Linux - WSL - X410 - 2025 - SWEDEN
+
+---------------------------------------------
+
 OpenEuler 25.03 - Install KDE Desktop via openEuler - WSL - Windows 11 - LINUX - 2025 - YouTube
 
 You can find openEuler 25.03 here or in Microsoft store.
