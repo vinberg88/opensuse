@@ -33,6 +33,57 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Chimera and KDE - How to tnstall KDE via chimera OS - WSL - X410 - Windows 11 - Linux - YouTube - 2025
+
+Download Chimera OS via this link for WSL. Run exe file: https://github.com/tranzystorekk/ChimeraWSL
+
+How to install KDE 6 via Chimera - TEXT - for WSL.
+
+https://github.com/vinberg88/opensuse/blob/main/Chimera-KDE6.txt
+
+How to install KDE 6 via Chimera - MOVIE - for WSL.
+
+https://www.youtube.com/watch?v=xHQrb6EDOdk
+
+TOOLS THAT I USE FOR WSL - 2025
+
+Raft WSL is a powerful tool for managing Windows Subsystem for Linux distributions.
+
+Raft WSL -- https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+X410 - X Server for Windows 11 and it works well. Linux / windows 11 GUI program.
+
+X410 -- https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="Chimera-KDE6" src="https://github.com/user-attachments/assets/e76a4cef-7a80-4b3e-bd1d-cdf53233216f" />
+
+About Chimera Linux - A modern Linux distribution - https://chimera-linux.org
+
+Chimera is a general-purpose Linux-based OS born from unhappiness
+with the status quo. We aim to create a system that is 
+simple, transparent, and easy to pick up, without having to give
+up practicality and a rich feature set. It is built from scratch
+using novel tooling, approaches, and userland. Instead of
+intentionally limiting ourselves, we strive to achieve both 
+conceptual simplicity and convenience with careful and high quality
+software design. Chimera aims to eliminate legacy cruft where
+possible to deliver a modern, general purpose, fully featured
+operating system that is simple but complete. 
+
+About KDE 6 desktop - https://kde.org
+
+KDE Plasma is a modern, feature-rich desktop environment 
+for Linux-based operating systems. Known for its 
+sleek design, customizable interface, and extensive 
+set of applications, it is also open source, devoid of ads, and
+makes protecting your privacy and personal data a priority
+
+ABOUT WSL for WINDOWS via GITHUB - MY PAGE - https://vinberg88.github.io
+
+Regards Mattias Vinberg - Sweden - Chimera Linux - KDE Plasma - WSL - X410 - Windows - Stockkolm - 2025
+
+---------------------------------------------
+
 AlmaLinux 10 and KDE 6 - Install KDE 6 via Windows 11 - WSL - X410 - Linux - github - Youtube - 2025
 
 You can find AlmaLinux 10 for WSL here Download AlmaLinux 10 an push
