@@ -4,7 +4,7 @@ Download Chimera OS via this link for WSL. Pack up and run exe file: https://git
 
 
 How to install KDE 6 via Chimera - TEXT - for WSL.
-Comming Zone
+https://github.com/vinberg88/opensuse/blob/main/Chimera-KDE6.txt
 
 How to install KDE 6 via Chimera - MOVIE - for WSL.
 https://www.youtube.com/watch?v=xHQrb6EDOdk
@@ -346,3 +346,4 @@ Regards Mattias Vinberg - Sweden - Chimera Linux - KDE Plasma - WSL - X410 - Win
 Copyright 2021-2025 Chimera Linux developers; Linux® is the registered trademark of Linus Torvalds.
 
 ----------------------------------------------
+
