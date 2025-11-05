@@ -1,0 +1,348 @@
+Chimera and KDE - How to tnstall KDE via chimera OS - WSL - X410 - Windows 11 - Linux - YouTube - 2025
+
+Download Chimera OS via this link for WSL. Pack up and run exe file: https://github.com/tranzystorekk/ChimeraWSL
+
+
+How to install KDE 6 via Chimera - TEXT - for WSL.
+Comming Zone
+
+How to install KDE 6 via Chimera - MOVIE - for WSL.
+https://www.youtube.com/watch?v=xHQrb6EDOdk
+
+
+TOOLS THAT I USE FOR WSL - 2025
+
+Raft WSL is a powerful tool for managing Windows Subsystem for Linux distributions.
+
+Raft WSL -- https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+X410 - X Server for Windows 11 and it works well. Linux / windows 11 GUI program.
+
+X410 -- https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+
+ddddddddddddddc  ,cc:
+ddddddddddddddc  ,cc:
+ddddddddddddddd  ,cc:
+ddddddddddddl:'  ,cc:                   Media: Mattias Vinberg - Sweden - Stockholm - 2025
+dddddddddl'    ..;cc:        
+dddddddo.   ,:cccccc:                   
+ddddddl   ,ccc:'''''                
+dddddo.  ;ccc.          ............    OS: Chimera Linux x86_64
+        .ccc.           cccccccccccc    Host: Windows Subsystem for Linux - chimera (2.5.10.0)
+......  .ccc.          .ccc'''''''''    Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+OOOOOk.  ;ccc.        .ccc;   ......    KDE desktop: KDE plasma 6.5.1
+OOOOOOd   'ccc:,....,:ccc'   coooooo    Windows 11: Windows 11 Pro - Dev - Latest version
+OOOOOOOx.   ':cccccccc:'   .looooooo    Microsoft Loves Linux - Microsoft Loves Linux
+OOOOOOOOOd,     `'''`     .coooooooo
+OOOOOOOOOOOOdc,.    ..,coooooooooooo
+OOOOOOOOOOOOOOOO'  .oooooooooooooooo
+OOOOOOOOOOOOOOOO'  .oooooooooooooooo
+OOOOOOOOOOOOOOOO'  .oooooooooooooooo
+
+
+About Chimera Linux - A modern Linux distribution - https://chimera-linux.org
+
+Chimera is a general-purpose Linux-based OS born from unhappiness
+with the status quo. We aim to create a system that is 
+simple, transparent, and easy to pick up, without having to give
+up practicality and a rich feature set. It is built from scratch
+using novel tooling, approaches, and userland. Instead of
+intentionally limiting ourselves, we strive to achieve both 
+conceptual simplicity and convenience with careful and high quality
+software design. Chimera aims to eliminate legacy cruft where
+possible to deliver a modern, general purpose, fully featured
+operating system that is simple but complete. 
+
+About KDE 6 desktop - https://kde.org
+
+KDE Plasma is a modern, feature-rich desktop environment 
+for Linux-based operating systems. Known for its 
+sleek design, customizable interface, and extensive 
+set of applications, it is also open source, devoid of ads, and
+makes protecting your privacy and personal data a priority
+
+Find More Stuff for WSL here - DESKTOPS - https://github.com/vinberg88/opensuse
+
+ABOUT WSL for WINDOWS via GITHUB - MY PAGE - https://vinberg88.github.io
+
+WSL, which stands for Windows Subsystem for Linux, is a compatibility
+layer created by Microsoft that permits users to operate a Linux environment
+directly on a Windows system without requiring a virtual machine or a
+dual-boot configuration. This feature allows developers and system administrators
+to access and use Linux command-line tools, utilities, and applications natively
+within the Windows operating system. WSL supports a variety of Linux
+distributions, offering smooth integration between Windows and Linux platforms.
+This integration significantly boosts productivity and streamlines workflows
+for users who frequently work across both operating systems, making it easier
+to manage tasks that involve both Windows and Linux environments.
+
+--------------------------------
+
+TIME TO START INSTALL OF KDE 6 AND Chimera OS VIA WINDOWS 11 - WSL
+
+------------------------------
+
+After install do this for Chimera Linux as ROOT user.
+
+apk update
+
+apk upgrade
+
+apk add chimera-repo-contrib
+
+apk add chimera-repo-user
+
+apk update
+
+apk add linux-lts
+
+passwd root
+
+Add user and set password - Change adolf to your user.
+
+useradd adolf
+
+passwd adolf
+
+usermod -a -G wheel,kvm,plugdev,audio,video adolf   <-- change adolf to your user
+
+echo fyren14 > /etc/hostname  <-- change fyren14 to your hostname.
+
+apk add systemd-boot ucode-amd chrony zsh git curl tmux wget nano bash git
+
+-------------------------------
+
+Paste in terminal and enable systemd för Chimera.
+
+nano /etc/wsl.conf 
+
+and add
+
+[boot]
+systemd=true
+
+[user]
+default=adolf
+
+Replace adolf with your username.
+
+-------------------------------
+
+REBOOT CHIMERA LINUX - REBOOT CHIMERA LINUX - REBOOT CHIMERA LINUX - REBOOT CHIMERA LINUX
+
+-------------------------------
+
+Test so sudo works and setup some small things.
+
+doas apk update
+
+If it ask for password we are done =]
+
+doas update-initramfs -c -k all
+
+doas dinitctl enable syslog-ng
+
+-------------------------------
+
+Install fastfetch for CHIMERA
+
+doas apk add fastfetch
+
+Test via terminal: fastfetch
+
+-------------------------------
+
+Install blanket for Chimera Linux - Listen to different sounds
+
+doas apk add blanket
+
+-------------------------------
+
+Time to install KDE 6 via Chimera.
+
+doas apk add plasma-desktop kwin xorgproto
+
+Now install SDDM.
+
+doas apk add sddm
+
+Enable sddm via terminal.
+
+doas dinitctl enable sddm
+
+-------------------------------
+
+Install xorg for CHIMERA Linux and KDE 6.5...
+
+doas apk add xserver-xorg
+
+-------------------------------
+
+Login as ROOT and paste this - Chimera Linux and KDE
+
+echo needs_root_rights = yes > /etc/X11/Xwrapper.config
+
+-------------------------------
+
+REBOOT CHIMERA LINUX - REBOOT CHIMERA LINUX - REBOOT CHIMERA LINUX - REBOOT CHIMERA LINUX
+
+-------------------------------
+
+Login as normal user and install Chromium browser.
+
+doas apk add chromium
+
+-------------------------------
+
+Install Gimp for CHIMERA
+
+doas apk add gimp
+
+-------------------------------
+
+Install Libre Office for CHIMERA linux
+
+doas apk add libreoffice
+
+-------------------------------
+
+Install flatpak - CHIMERA - KDE 6
+
+doas apk add flatpak
+
+doas flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+Now test flatpak installation. We vill install Visual studio code from Microsoft.
+
+doas flatpak install flathub com.visualstudio.code
+
+----------------------------------------------
+
+Then Copy and Paste this in Terminal for CHIMERA Linux and KDE 6
+
+doas loginctl enable-linger adolf  <-- change adolf to your username.
+
+-----------------------------------
+
+Fix IP problem for X410. Cant find screen problem. Look for ip adress
+in windows terminal / PowerShell: ipconfig
+
+NOTE - Importent to look for ip adress. Last lines are IP-numbers for WSL.
+
+GO BACK TO CHIMERA AND COPY AND PASTE THIS IN TERMINAL.
+
+doas ls -l /etc/resolv.conf
+
+doas mv /etc/resolv.conf /tmp/resolv.conf.bak
+
+doas nano /etc/resolv.conf
+
+nameserver 172.20.208.1 <-- put your ip here and add nameserver.
+
+doas chattr +i /etc/resolv.conf
+
+doas systemctl restart systemd-resolved
+
+doas cat /etc/resolv.conf
+
+DONE - Alot of problem fixed =] If you see some errors dont worry it works.
+
+-------------------------------
+
+REBOOT CHIMERA LINUX - REBOOT CHIMERA LINUX - REBOOT CHIMERA LINUX - REBOOT CHIMERA LINUX
+
+-------------------------------
+
+Test ip change by this after reboot: doas cat /etc/resolv.conf
+
+If you see ip and nameserver all works.
+
+----------------------------------------------
+
+Create a small script för chimera linux and KDE 6
+
+Copy this and paste in terminal: doas nano ~/.bash_OS_desktop 
+
+Then add this script to terminal
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-------------------------------
+
+REBOOT CHIMERA LINUX - REBOOT CHIMERA LINUX - REBOOT CHIMERA LINUX - REBOOT CHIMERA LINUX
+
+-------------------------------
+
+Time To Start KDE Desktop via Chimera and Windows 11 =]
+
+NOTE: START X410 FIRST THEN YOU START CHIMERA TERMINAL!
+
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Paste in terminal: . ~/.bash_OS_desktop
+
+Paste in terminal: dbus-launch startplasma-x11
+
+
+Take some time to start KDE 6 so just WAIT! - IF you get a black screen restart all....
+
+----------------------------------------------
+
+EXTRA FIX SUDO - so you not need to use doas
+
+Paste in terminal: doas nano ~/.bashrc
+
+Paste and save: alias sudo='doas'
+
+Rebbot Rebbot Rebbot Rebbot
+
+Paste in terminal: doas ln -s /usr/bin/doas /usr/bin/sudo
+
+Paste in console: which sudo
+
+If you see: /usr/bin/sudo - Works...
+
+Paste in console: sudo whoami
+
+If you see: root - Works...
+
+Rebbot Rebbot Rebbot Rebbot
+
+Now test install of sudo: sudo apk update 
+
+NICE WORK! ☕💻✨
+
+----------------------------------------------
+
+Made whit love from Sweden / Stockholm ❤️ 2025
+
+ddddddddddddddc  ,cc:               
+ddddddddddddddc  ,cc:                 
+ddddddddddddddd  ,cc:                
+ddddddddddddl:'  ,cc:                
+dddddddddl'    ..;cc:                
+dddddddo.   ,:cccccc:               
+ddddddl   ,ccc:'''''                
+dddddo.  ;ccc.          ............
+        .ccc.           cccccccccccc
+......  .ccc.          .ccc'''''''''
+OOOOOk.  ;ccc.        .ccc;   ......
+OOOOOOd   'ccc:,....,:ccc'   coooooo
+OOOOOOOx.   ':cccccccc:'   .looooooo
+OOOOOOOOOd,     `'''`     .coooooooo
+OOOOOOOOOOOOdc,.    ..,coooooooooooo
+OOOOOOOOOOOOOOOO'  .oooooooooooooooo
+OOOOOOOOOOOOOOOO'  .oooooooooooooooo
+OOOOOOOOOOOOOOOO'  .oooooooooooooooo
+
+Regards Mattias Vinberg - Sweden - Chimera Linux - KDE Plasma - WSL - X410 - Windows 11 - Stockkolm - 2025
+
+Copyright 2021-2025 Chimera Linux developers; Linux® is the registered trademark of Linus Torvalds.
+
+----------------------------------------------
