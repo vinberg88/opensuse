@@ -33,6 +33,56 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Rockylinux 10 and KDE 6 - How to install via Rockylinux and KDE - Windows 11 - WSL - Linux - 2025
+
+RockyLinux 10 can be downlode via this link: https://rockylinux.org/sv-SE/download
+
+How to install KDE 6 via Rockylinux 10 for WSL - TEXT via Gihub
+
+https://github.com/vinberg88/opensuse/blob/main/Rockylinux10-kde6.txt
+
+How to install KDE 6 via Rockylinux 10 for WSL - MOVIE via Youtube
+ 
+https://www.youtube.com/watch?v=6WURWQz7LyM
+
+<img width="1920" height="1080" alt="Rockylinux10-kde6" src="https://github.com/user-attachments/assets/b6f96656-46fd-47ff-98c8-134aca27ddfe" />
+
+Tools that i use......
+
+Use X410 - X Server for Windows 11 and it works well. Find it in Micorsoft store.
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem for Linux
+(WSL) distributions, enabling installation, snapshots, version control, and 
+seamless integration with Windows tools.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+About RockyLinux 10 - https://rockylinux.org
+
+Rocky Linux is an open-source enterprise operating system
+designed to be 100% bug-for-bug compatible with Red
+Hat Enterprise Linux®. It is under intensive development
+by the community. Rocky Linux rebuilds sources directly
+from RHEL®, so you can bet your best dollar that you'll
+have a super stable experience, no matter the use-case.
+
+About KDE - https://kde.org
+
+Use Plasma to surf the web; keep in touch with 
+colleagues, friends and family; manage your files,
+enjoy music and videos; and get creative and 
+productive at work. Do it all in a beautiful 
+environment that adapts to your needs, and with the
+safety, privacy-protection and peace of mind that the
+best Free Open Source Software has to offer. Plasma is
+a Desktop =)
+
+ABOUT WSL for WINDOWS via GITHUB - My SITE - https://vinberg88.github.io
+
+Regards Mattias Vinberg - Sweden - Linux - Micrsoft - KDE - Rockylinux - 2025
+
+---------------------------------------------
+
 Chimera and KDE - How to tnstall KDE via chimera OS - WSL - X410 - Windows 11 - Linux - YouTube - 2025
 
 Download Chimera OS via this link for WSL. Run exe file: https://github.com/tranzystorekk/ChimeraWSL
