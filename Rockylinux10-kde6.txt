@@ -2,7 +2,9 @@ Rockylinux 10 and KDE 6 - How to install via Rockylinux and KDE - Windows 11 - W
 
 RockyLinux 10 can be downlode via this link: https://rockylinux.org/sv-SE/download
 
-How to install KDE 6 via Rockylinux 10 for WSL - TEXT via Gihub: Cooming Zone...
+How to install KDE 6 via Rockylinux 10 for WSL - TEXT via Gihub
+
+https://github.com/vinberg88/opensuse/blob/main/Rockylinux10-kde6.txt
 
 How to install KDE 6 via Rockylinux 10 for WSL - MOVIE via Youtube
  
@@ -323,3 +325,4 @@ countries. Red Hat Enterprise Linux, RHEL and CentOS are trademarks
 or registered trademarks of Red Hat, Inc. or its subsidiaries in the
 US and other countries. We are not affiliated with, endorsed
 by or sponsored by Red Hat, Inc.
+
