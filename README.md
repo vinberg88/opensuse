@@ -50,14 +50,6 @@ just takes a little time...
 
 <img width="1920" height="1080" alt="Redhat10-KDE6" src="https://github.com/user-attachments/assets/85a488f8-06bb-4f83-83e5-d70c64322e10" />
 
-
-OS: Red Hat Enterprise Linux 10.0 x86_64
-Host: Windows Subsystem for Linux - RedHatEnterpriseLinux-10.0 (2.5.10.0)
-Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
-Windows: Windows 11 Pro - Dev - Latest edition
-Desktop for Linux: KDE 6
-Desktop GUI: GWSL 
-
 TOOLS THAT I USE FOR WSL
 
 Raft WSL is a powerful tool for managing Windows Subsystem for Linux distributions.
