@@ -1,7 +1,7 @@
 Redhat 10 and KDE 6 - Install KDE 6 via Redhat 10 - WSL - GWSL - Windows 11 - Linux - 2025
 
 How to install KDE 6 via Red Hat Enterprise Linux 10.0 - TEXT - for WSL.
-Comming Zone
+https://github.com/vinberg88/opensuse/blob/main/Redhat10-KDE6.txt
 
 How to install KDE 6 via Red Hat Enterprise Linux 10.0 - MOVIE - for WSL.
 https://www.youtube.com/watch?v=sKbGrUHaZ2o
@@ -396,3 +396,4 @@ MMMMMMMMMMM.                     MMMM
 Red Hat and RHEL are trademarks or registered trademarks of Red Hat, Inc.
                                         
 -----------------------------------
+
