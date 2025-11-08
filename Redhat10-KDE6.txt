@@ -1,0 +1,398 @@
+Redhat 10 and KDE 6 - Install KDE 6 via Redhat 10 - WSL - GWSL - Windows 11 - Linux - 2025
+
+How to install KDE 6 via Red Hat Enterprise Linux 10.0 - TEXT - for WSL.
+Comming Zone
+
+How to install KDE 6 via Red Hat Enterprise Linux 10.0 - MOVIE - for WSL.
+https://www.youtube.com/watch?v=sKbGrUHaZ2o
+
+Download Redhat 10 Enterprise via this link: https://console.redhat.com/insights/image-builder
+
+NOTE: You need to build Red Hat Enterprise Linux 10.0 for WSL via redhat.com - It
+just takes a little time...
+
+
+
+           .MMM..:MMMMMMM                            .MMM..:MMMMMMM
+          MMMMMMMMMMMMMMMMMM                        MMMMMMMMMMMMMMMMMM
+          MMMMMMMMMMMMMMMMMMMM.                     MMMMMMMMMMMMMMMMMMMM.
+         MMMMMMMMMMMMMMMMMMMMMM                    MMMMMMMMMMMMMMMMMMMMMM
+        ,MMMMMMMMMMMMMMMMMMMMMM:                  ,MMMMMMMMMMMMMMMMMMMMMM:
+        MMMMMMMMMMMMMMMMMMMMMMMM                  MMMMMMMMMMMMMMMMMMMMMMMM
+  .MMMM'  MMMMMMMMMMMMMMMMMMMMMM            .MMMM'  MMMMMMMMMMMMMMMMMMMMMM
+ MMMMMM    `MMMMMMMMMMMMMMMMMMMM.          MMMMMM    `MMMMMMMMMMMMMMMMMMMM.
+MMMMMMMM      MMMMMMMMMMMMMMMMMM .        MMMMMMMM      MMMMMMMMMMMMMMMMMM .
+MMMMMMMMM.       `MMMMMMMMMMMMM' MM.      MMMMMMMMM.       `MMMMMMMMMMMMM' MM.
+MMMMMMMMMMM.                     MMMM     MMMMMMMMMMM.                     MMMM
+`MMMMMMMMMMMMM.                 ,MMMMM.   `MMMMMMMMMMMMM.                 ,MMMMM.
+ `MMMMMMMMMMMMMMMMM.          ,MMMMMMMM.   `MMMMMMMMMMMMMMMMM.          ,MMMMMMMM.
+    MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM      MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+      MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM:        MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM:
+         MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM            MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+            `MMMMMMMMMMMMMMMMMMMMMMMM:                `MMMMMMMMMMMMMMMMMMMMMMMM:
+                ``MMMMMMMMMMMMMMMMM'                      ``MMMMMMMMMMMMMMMMM''              
+
+
+
+MEDIA: MATTIAS VINBERG - SWEDEN - STOCKHOLM - DEvOpS - REDHAT - 2025
+
+OS: Red Hat Enterprise Linux 10.0 x86_64
+Host: Windows Subsystem for Linux - RedHatEnterpriseLinux-10.0 (2.5.10.0)
+Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+Windows: Windows 11 Pro - Dev - Latest edition
+Desktop for Linux: KDE 6
+Desktop GUI: GWSL 
+
+TOOLS THAT I USE FOR WSL
+
+Raft WSL is a powerful tool for managing Windows Subsystem for Linux distributions.
+
+Raft WSL -- https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+GWSL - X Server for Windows 11 and it works well. Linux / windows 11 GUI app.
+
+GWSL -- https://apps.microsoft.com/detail/9nl6kd1h33v3?hl=en-US&gl=US
+
+
+About Red Hat Enterprise Linux 10.0 - https://www.Redhat.com/en
+
+Red Hat is the leading provider of enterprise open source
+software—including Linux®, hybrid cloud, AI, and automation
+technologies. We work alongside a community of contributors,
+customers, and partners to build technology that unlocks
+opportunities for innovation, everywhere. With engineers
+connected to open source communities, the freedom of our
+subscription model, and a broad portfolio of Products
+that's constantly expanding, Red Hat is here to help
+you face your business challenges head-on. We're 
+successful because we stay true to the original intent
+of open source. Red Hat taps into the collective talent
+and innovation of open source communities to produce
+better software. Red Hatters are empowered to
+contribute their ideas and skills, no matter their
+job title. Passionate, diverse groups of people are
+free to debate, collaborate, and take action.
+Together, we create an environment where the best
+ideas thrive. Red Hat delivers hardened, open source
+solutions that make it easier for enterprises to work
+across platforms and environments, from the core datacenter
+to the network edge. By operating transparently and 
+responsibly, we continue to be a catalyst in open 
+source communities, helping you build flexible, powerful
+IT infrastructure solutions.
+
+About KDE 6 - https://kde.org
+
+KDE Plasma is a modern, feature-rich desktop environment 
+for Linux-based operating systems. Known for its 
+sleek design, customizable interface, and extensive 
+set of applications, it is also open source, devoid of ads, and
+makes protecting your privacy and personal data a priority
+
+Find More Stuff for WSL and Linux. Desktops for WSL - https://github.com/vinberg88/opensuse
+
+ABOUT WSL for WINDOWS via GITHUB - MY PAGE - https://vinberg88.github.io
+
+--------------------------------
+
+TIME TO START INSTALL OF KDE 6 AND Red Hat Enterprise Linux 10 VIA WINDOWS 11 - WSL
+
+-------------------------
+
+First thing you need to do is copy this file to C:\Users\user  <-- user is not your name =]
+
+Its easy use Explorer and copy and past. Download this file.
+
+https://drive.proton.me/urls/G602NV0DFG#Rn5D1Tny3TpQ
+
+--------------------------------
+
+First things to do after REDHAT 10 is installd. Login as
+ROOT and install nano, sudo, wget and dnf-plugins-core
+
+dnf install dnf-plugins-core -y
+dnf install sudo -y
+dnf install wget -y
+dnf install nano -y
+
+Next add your user to visudo file.
+
+sudo EDITOR=nano visudo
+
+Like this - Change adolf to your user...
+
+root ALL=(ALL) ALL
+adolf ALL=(ALL) ALL
+
+after that set password for user and root...
+
+passwd adolf
+
+passwd
+
+-----------------------------------
+
+Restart Redhat 10 and login as normal user - Restart Redhat 10 and login as normal user.
+
+-----------------------------------
+
+Add this Repos to terminal for Redhat 10 .....
+
+sudo subscription-manager repos --enable codeready-builder-for-rhel-10-$(arch)-rpms
+
+sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-10.noarch.rpm
+sudo /usr/bin/crb enable
+
+sudo dnf install --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terrael$releasever' terra-release
+
+sudo dnf install distribution-gpg-keys
+sudo rpmkeys --import /usr/share/distribution-gpg-keys/rpmfusion/RPM-GPG-KEY-rpmfusion-free-el-$(rpm -E %rhel)
+sudo rpmkeys --import /usr/share/distribution-gpg-keys/rpmfusion/RPM-GPG-KEY-rpmfusion-nonfree-el-$(rpm -E %rhel)
+sudo dnf --setopt=localpkg_gpgcheck=1 install  https://mirrors.rpmfusion.org/free/el/rpmfusion-free-release-$(rpm -E %rhel).noarch.rpm https://mirrors.rpmfusion.org/nonfree/el/rpmfusion-nonfree-release-$(rpm -E %rhel).noarch.rpm
+
+-----------------------------------
+
+Paste in terminal - Update RedHat 10
+
+sudo dnf upgrade --refresh
+
+-----------------------------------
+
+Basic Programs för KDE 6 and RedHat 10 - Install all programs.
+
+sudo dnf install git systemd* wget curl bash pipx xorg net-tools dbus-x11 dbus* yum --skip-broken
+sudo dnf install kwin* xorg* --nobest --allowerasing --skip-broken
+sudo dnf install llvm -y
+sudo dnf install sddm* -y --allowerasing --skip-broken --nobest
+
+sudo dnf install systemd* -y --allowerasing --skip-broken --nobest
+sudo dnf install dconf* git wget curl nano bash pipx net-tools dbus-x11 dbus* -y --allowerasing --skip-broken --nobest -y
+sudo dnf install curl git bash librepo pip system -y --allowerasing --skip-broken --nobest -y
+sudo dnf install wget curl net-tools dbus-x11 -y --allowerasing --skip-broken --nobest -y
+sudo dnf group install "System-Tools" --allowerasing --nobest --skip-broken -y
+
+-----------------------------------
+
+Reboot Redhat 10 - Reboot Redhat 10 - Reboot Redhat 10
+
+-----------------------------------
+
+Run this as ROOT user so you get it all to WORK. So you can get kwin and tools for KDE 6.
+
+sudo dnf copr enable mlampe/kde_x11 rhel+epel-10-x86_64
+
+sudo dnf upgrade --refresh
+
+sudo dnf install kwin-x11 plasma-workspace-x11 xsetroot
+
+echo -e "DESKTOP=KDE\nPREFERRED=startplasma-x11" >/etc/sysconfig/desktop
+
+-----------------------------------
+
+Reboot Redhat 10 - Reboot Redhat 10 - Reboot Redhat 10
+
+-----------------------------------
+
+LOGIN AS NORMAL USER and Install KDE 6 for Red Hat Enterprise Linux 10.0
+
+sudo dnf -y group install kde-desktop-environment --allowerasing --skip-broken --nobest
+sudo dnf install kde* -y --skip-broken --nobest
+sudo dnf install plasma* -y --allowerasing --skip-broken --nobest
+sudo dnf groupinstall "Workstation" -y --allowerasing --nobest --skip-broken
+sudo dnf groupinstall "KDE Applications" -y
+sudo dnf groupinstall "KDE Software Development" -y
+sudo dnf groupinstall "KDE Frameworks 6 Software Development" -y
+
+-----------------------------------
+
+Install qt5 / ffmpeg for Red Hat Enterprise Linux 10.0 and KDE 6 desktop
+
+sudo dnf install qt5 ffmpeg* -y --allowerasing --nobest --skip-broken
+
+-----------------------------------
+
+Install Hyfetch - like Neofetch but more FUN for RedHat 10 and kde 6
+
+pipx install hyfetch
+pipx ensurepath
+
+Put this in terminal to Test: hyfetch
+
+-----------------------------------
+
+Install Chromium Browser for RedHat 10 and Red Hat Enterprise Linux 10.0
+
+sudo dnf install chromium -y
+
+------------------------------------------------------
+
+Install CODE Visual studio code - 2025 - Microsoft - RedHat 10
+
+wget https://www.knulla.org/scripts/code-1.95.3-1731513157.el8.x86_64.rpm
+sudo dnf install ./code-1.95.3-1731513157.el8.x86_64.rpm -y
+
+-----------------------------------
+
+Listen to sounds -- Blanket -- RedHat 10 -- KDE 6 -- 2025
+
+wget https://www.swehub.com/blanket/blanket-0.8.0-1.noarch.rpm
+sudo dnf install ./blanket-0.8.0-1.noarch.rpm -y
+
+-----------------------------------
+
+Install Gimp for RedHat 10 via snapd.
+
+Copy and paste: sudo dnf install snapd*
+
+Copy and paste all...
+
+sudo systemctl enable --now snapd.socket
+sudo systemctl enable snapd.socket --now
+sudo systemctl enable snapd
+sudo ln -s /var/lib/snapd/snap /snap
+
+-----------------------------------
+
+Restart REDHAT 10 - RESTART redhat 10 - RESTART redhat 🔟 
+
+-----------------------------------
+
+Continue installing GIMP for Redhat 10
+
+Copy and paste: sudo snap install core
+
+Copy and paste: sudo snap install gimp
+
+-----------------------------------
+
+Install LibreOffice for RedHat 10 via flatpak
+
+Copy and paste: sudo dnf install flatpak* -y --skip-broken --nobest
+
+Copy and paste: sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+Copy and paste: sudo flatpak install flathub org.libreoffice.LibreOffice
+
+-----------------------------------
+
+Copy and Paste in terminal for RedHat 10
+
+xdg-user-dirs-update
+
+sudo systemctl set-default graphical.target
+
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-----------------------------------
+
+Paste this one time in Console - RedHat 10
+
+sudo mkdir /run/user/1000 && sudo chmod 700 /run/user/1000 && sudo chown $(whoami): /run/user/1000
+
+-----------------------------------
+
+Redhat 10 - Type this in terminal and put your user there - sudo loginctl enable-linger user
+
+-----------------------------------
+
+Install some more programs for KDE 6 and RedHat 10
+
+sudo dnf install dconf-editor curl wget git bash* zeal* librepo* -y
+
+-----------------------------------
+
+Reboot Redhat 10 - Reboot Redhat 10 - Reboot Redhat 10
+
+-----------------------------------
+
+Fix IP problem for GWSL. Cant find screen problem. Look for ip adress in windows terminal / PowerShell
+
+TYPE this in Powershell Terminal: ipconfig
+
+NOTE - Importent to look for ip. Last lines are IP-numbers for WSL.
+
+GO BACK TO Redhat 10 AND COPY AND PASTE THIS IN TERMINAL.
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.20.208.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed =] IF YOU SEE SOME RED TEXT DONT WORRY IT WORKS =]
+
+-----------------------------------
+
+Reboot Redhat 10 - Reboot Redhat 10 - Reboot Redhat 10
+
+-----------------------------------
+
+Install this for KDE 6 AND Redhat 10 - fix so startplasma-x11 work.
+
+sudo dnf -y install rpm-build rpmdevtools
+
+grep -R --line-number -E '^\s*%dist' ~/.rpmmacros /etc/rpm/macros* 2>/dev/null || true
+
+wget https://www.swehub.com/rocky/plasma-wsl-starter-1.3.0-1.el10.noarch.rpm
+sudo dnf -y install ./plasma-wsl-starter-1.3.0-1.el10.noarch.rpm
+
+-----------------------------------
+
+SETUP GWSL for windows 11. Remember to set GWSL in SINGEL Window MODE.. Try some times.
+
+-----------------------------------
+
+Reboot Redhat 10 - Reboot Red Hat Enterprise Linux 10.0 - Reboot Redhat 10
+
+-----------------------------------
+
+Time to start KDE 6 and Redhat 10
+
+NOTE - FIRST START GWSL THEN YOU START Redhat 10 VIA GWSL TERMINAL
+
+Copy and paste in Terminal: startplasma-x11
+
+NOTE -- IT TAKE SOME TIME TO START FIRST ROUND - JUST WAIT. Try again if not working....
+
+-----------------------------------
+
+ONLY USE THIS IF I WONT START.. BUT IT WILL WORK =]
+
+Copy and paste This: start-plasma-x11-wsl --fix-deps --disable-akonadi
+
+Start Shop from terminal: sudo plasma-discover
+
+-----------------------------------
+
+Regards Mattias Vinberg - Red Hat Enterprise Linux 10.0 - KDE 6 - GWSL - Linux - Microsoft - Windows 11 - Sweden - 2025
+
+
+           .MMM..:MMMMMMM             
+          MMMMMMMMMMMMMMMMMM          
+          MMMMMMMMMMMMMMMMMMMM.       
+         MMMMMMMMMMMMMMMMMMMMMM       
+        ,MMMMMMMMMMMMMMMMMMMMMM:      
+        MMMMMMMMMMMMMMMMMMMMMMMM      
+  .MMMM'  MMMMMMMMMMMMMMMMMMMMMM      
+ MMMMMM    `MMMMMMMMMMMMMMMMMMMM.
+MMMMMMMM      MMMMMMMMMMMMMMMMMM . 
+MMMMMMMMM.       `MMMMMMMMMMMMM' MM.   Red Hat Enterprise Linux 10.0
+MMMMMMMMMMM.                     MMMM  
+`MMMMMMMMMMMMM.                 ,MMMMM.
+ `MMMMMMMMMMMMMMMMM.          ,MMMMMMMM.
+    MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM 
+      MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM: 
+         MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM  
+            `MMMMMMMMMMMMMMMMMMMMMMMM:  
+                ``MMMMMMMMMMMMMMMMM'   
+                                         
+
+❤ Thank you for being a part of the Red Hat Enterprise and KDE 6 Project for WSL2 ❤
+
+Red Hat and RHEL are trademarks or registered trademarks of Red Hat, Inc.
+                                        
+-----------------------------------
