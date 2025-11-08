@@ -33,6 +33,82 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Redhat 10 and KDE 6 - Install KDE 6 via Redhat 10 - WSL - GWSL - Windows 11 - Linux - 2025
+
+How to install KDE 6 via Red Hat Enterprise Linux 10.0 - TEXT - for WSL.
+
+https://github.com/vinberg88/opensuse/blob/main/Redhat10-KDE6.txt
+
+How to install KDE 6 via Red Hat Enterprise Linux 10.0 - MOVIE - for WSL.
+
+https://www.youtube.com/watch?v=sKbGrUHaZ2o
+
+Download Redhat 10 Enterprise via this link: https://console.redhat.com/insights/image-builder
+
+NOTE: You need to build Red Hat Enterprise Linux 10.0 for WSL via redhat.com - It
+just takes a little time...
+
+<img width="1920" height="1080" alt="Redhat10-KDE6" src="https://github.com/user-attachments/assets/85a488f8-06bb-4f83-83e5-d70c64322e10" />
+
+
+OS: Red Hat Enterprise Linux 10.0 x86_64
+Host: Windows Subsystem for Linux - RedHatEnterpriseLinux-10.0 (2.5.10.0)
+Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+Windows: Windows 11 Pro - Dev - Latest edition
+Desktop for Linux: KDE 6
+Desktop GUI: GWSL 
+
+TOOLS THAT I USE FOR WSL
+
+Raft WSL is a powerful tool for managing Windows Subsystem for Linux distributions.
+
+Raft WSL -- https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+GWSL - X Server for Windows 11 and it works well. Linux / windows 11 GUI app.
+
+GWSL -- https://apps.microsoft.com/detail/9nl6kd1h33v3?hl=en-US&gl=US
+
+About Red Hat Enterprise Linux 10.0 - https://www.Redhat.com/en
+
+Red Hat is the leading provider of enterprise open source
+software—including Linux®, hybrid cloud, AI, and automation
+technologies. We work alongside a community of contributors,
+customers, and partners to build technology that unlocks
+opportunities for innovation, everywhere. With engineers
+connected to open source communities, the freedom of our
+subscription model, and a broad portfolio of Products
+that's constantly expanding, Red Hat is here to help
+you face your business challenges head-on. We're 
+successful because we stay true to the original intent
+of open source. Red Hat taps into the collective talent
+and innovation of open source communities to produce
+better software. Red Hatters are empowered to
+contribute their ideas and skills, no matter their
+job title. Passionate, diverse groups of people are
+free to debate, collaborate, and take action.
+Together, we create an environment where the best
+ideas thrive. Red Hat delivers hardened, open source
+solutions that make it easier for enterprises to work
+across platforms and environments, from the core datacenter
+to the network edge. By operating transparently and 
+responsibly, we continue to be a catalyst in open 
+source communities, helping you build flexible, powerful
+IT infrastructure solutions.
+
+About KDE 6 - https://kde.org
+
+KDE Plasma is a modern, feature-rich desktop environment 
+for Linux-based operating systems. Known for its 
+sleek design, customizable interface, and extensive 
+set of applications, it is also open source, devoid of ads, and
+makes protecting your privacy and personal data a priority
+
+ABOUT WSL for WINDOWS via GITHUB - MY PAGE - https://vinberg88.github.io
+
+Regards Mattias Vinberg - Red Hat Linux 10.0 - KDE - GWSL - Linux - Microsoft - Windows - Sweden - 2025
+
+---------------------------------------------
+
 Rockylinux 10 and KDE 6 - How to install via Rockylinux and KDE - Windows 11 - WSL - Linux - 2025
 
 RockyLinux 10 can be downlode via this link: https://rockylinux.org/sv-SE/download
