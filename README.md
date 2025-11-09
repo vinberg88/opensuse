@@ -33,6 +33,87 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Opensuse Tumbelweed and XFCE - How to Install XFCE via Windows 11 - WSL - Linux - GWSL - YouTube - 2025
+
+How to install XFCE via OPENSUSE Tumbelweed - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Opensuse-XFCE.txt
+
+How to install XFCE via OPENSUSE Tumbelweed - WSL - MOVIE
+
+https://www.youtube.com/watch?v=nkGW5xt_f6c
+
+You can find OPENSUSE Tumbelweed via this link or in Microsoft Store 
+
+https://apps.microsoft.com/detail/9mssk2zxxn11?hl=en-us&gl=US
+
+Tools that i USE...
+
+GWSL is an XServer that lets you easily run graphical Linux apps
+on Windows . . . AND it lets you run graphical applications
+located on remote Linux machines on Windows . . . AND it lets
+you manage these apps graphically, create Windows shortcuts for
+them, customize these shortcuts, and even manage/configure WSL
+distros! All at the click of a button! No memorization of
+commands necessary! Easy!!!
+
+https://apps.microsoft.com/detail/9nl6kd1h33v3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="Opensuse-XFCE" src="https://github.com/user-attachments/assets/0339e379-c2b8-4479-a45b-907559f90222" />
+
+About OPENSUSE TumbelweeD - https://www.opensuse.org
+
+State-of-the-art desktop and server operating system.
+With Tumbleweed you don't have to take difficult decisions
+about things you value, either freedom or safety, either
+control or security, technology or stability -- Tumbleweed
+lets you have your cake and eat it too! With a single command
+you can update thousands of packages, rollback to last 
+week’s snapshot, fast-forward again, and even preview upcoming
+releases. Built from latest kernel releases, compiled with
+the latest Spectre / Meltdown mitigation patches, with 
+firewall and strong security policies turned on by default, your
+security is covered out-of-the-box. Tumbleweed provides users
+with the latest gaming-related software. With the Linux
+support for gaming improving rapidly, that’s an important
+aspect for smooth, performant and problem free experience in
+your favorite games.
+
+About XFCE Desktop - https://www.xfce.org
+
+Xfce is a lightweight, fast, and stable desktop
+environment for Unix-like operating systems such
+as Linux and BSD. It’s designed to be modular
+and resource-efficient, making it an excellent
+choice for systems where performance matters — or
+where you just want a clean, classic desktop look
+without unnecessary visual effects. The name “Xfce” 
+originally stood for XForms Common Environment, but
+today it’s just known as “Xfce,” pronounced
+“eks-eff-see-ee.” . Xfce is a nice desktop.
+
+Find More Stuff for WSL and Linux. Desktops for WSL - https://github.com/vinberg88/opensuse
+
+About WSL for Windows 11 / 10 via GITHUB - MY PAGE - https://vinberg88.github.io
+
+WSL is a feature built by Microsoft for Windows 10/11 that
+lets you run a Linux environment directly on your Windows
+machine—without the need to create a separate virtual
+machine or dual-boot. You can install a Linux distribution
+(e.g., Ubuntu, Debian, openSUSE) and use Linux command-line
+tools, utilities, and applications side-by-side with your
+Windows applications.
+
+Regards Mattias Vinberg - Opensuse - XFCE - GWSL - Linux - Microsoft - Windows - Sweden - 2025
+
+---------------------------------------------
+
 Redhat 10 and KDE 6 - Install KDE 6 via Redhat 10 - WSL - GWSL - Windows 11 - Linux - 2025
 
 How to install KDE 6 via Red Hat Enterprise Linux 10.0 - TEXT - for WSL.
