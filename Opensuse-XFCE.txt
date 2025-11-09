@@ -1,0 +1,301 @@
+Opensuse Tumbelweed and XFCE - How to Install XFCE via Windows 11 - WSL - Linux - GWSL - YouTube - 2025
+
+How to install XFCE via OPENSUSE Tumbelweed - WSL - TEXT
+Cooming Zone...
+
+How to install XFCE via OPENSUSE Tumbelweed - WSL - MOVIE
+https://www.youtube.com/watch?v=nkGW5xt_f6c
+
+You can find OPENSUSE Tumbelweed via this link or in Microsoft Store 
+https://apps.microsoft.com/detail/9mssk2zxxn11?hl=en-us&gl=US
+
+Tools that i USE...
+
+GWSL is an XServer that lets you easily run graphical Linux apps
+on Windows . . . AND it lets you run graphical applications
+located on remote Linux machines on Windows . . . AND it lets
+you manage these apps graphically, create Windows shortcuts for
+them, customize these shortcuts, and even manage/configure WSL
+distros! All at the click of a button! No memorization of
+commands necessary! Easy!!!
+
+https://apps.microsoft.com/detail/9nl6kd1h33v3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+
+
+         JJJJJJJJ
+      JJJJJJJJJJJJJJ
+    JJJJJJ   =JJJJJJJ
+   JJJJ      =JJJ JJJJ
+   JJJ       =JJJ   JJJ                       Media: Mattias Vinberg - Opensuse Tumbelweed - Sweden - 2025
+  JJJJ       =JJJ   JJJ
+  JJJJJJJJJJJJJJJ   JJJJ
+   JJJJJJJJJJJJJJ   JJJJ                      OS: openSUSE Tumbleweed 20251106 x86_64
+   JJJJ             JJJJ                      Host: Windows Subsystem for Linux - openSUSE-Tumbleweed (2.5.10.0)
+    JJJJJ=          JJJJ                      Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+      JJJJJJJJJJJJJJJJJJJJJJJJJJJJJ=          Windows 11 Pro Dev version - Latest Editionen 
+        =JJJJJJJJJJJJJJJJJJJJJJJJJJJJJ        X server - GWSL
+                    JJJJ         =JJJJJJ
+                    JJJJ            =JJJJ
+                    JJJJ   JJJJJJJJJJJJJJ
+                    JJJJ   JJJJJJJJJJJJJJJ
+                    JJJJ   JJJJ       JJJJ
+                     JJJ   JJJJ       JJJ
+                     JJJJJ JJJJ      JJJJ
+                      =JJJJJJJJ   JJJJJJ
+                        JJJJJJJJJJJJJJ 
+                           JJJJJJJ=
+
+
+About OPENSUSE TumbelweeD - https://www.opensuse.org
+
+State-of-the-art desktop and server operating system.
+With Tumbleweed you don't have to take difficult decisions
+about things you value, either freedom or safety, either
+control or security, technology or stability -- Tumbleweed
+lets you have your cake and eat it too! With a single command
+you can update thousands of packages, rollback to last 
+week’s snapshot, fast-forward again, and even preview upcoming
+releases. Built from latest kernel releases, compiled with
+the latest Spectre / Meltdown mitigation patches, with 
+firewall and strong security policies turned on by default, your
+security is covered out-of-the-box. Tumbleweed provides users
+with the latest gaming-related software. With the Linux
+support for gaming improving rapidly, that’s an important
+aspect for smooth, performant and problem free experience in
+your favorite games.
+
+About XFCE Desktop - https://www.xfce.org
+
+Xfce is a lightweight, fast, and stable desktop
+environment for Unix-like operating systems such
+as Linux and BSD. It’s designed to be modular
+and resource-efficient, making it an excellent
+choice for systems where performance matters — or
+where you just want a clean, classic desktop look
+without unnecessary visual effects. The name “Xfce” 
+originally stood for XForms Common Environment, but
+today it’s just known as “Xfce,” pronounced
+“eks-eff-see-ee.” . Xfce is a nice desktop.
+
+Find More Stuff for WSL and Linux. Desktops for WSL - https://github.com/vinberg88/opensuse
+
+About WSL for Windows 11 / 10 via GITHUB - MY PAGE - https://vinberg88.github.io
+
+WSL is a feature built by Microsoft for Windows 10/11 that
+lets you run a Linux environment directly on your Windows
+machine—without the need to create a separate virtual
+machine or dual-boot. You can install a Linux distribution
+(e.g., Ubuntu, Debian, openSUSE) and use Linux command-line
+tools, utilities, and applications side-by-side with your
+Windows applications.
+
+-----------------------------------------------------
+
+First thing you need to do is copy this file to C:\Users\user  <-- user is not your name =]
+
+Its easy use Explorer and copy and past. Download this file.
+
+https://drive.proton.me/urls/G602NV0DFG#Rn5D1Tny3TpQ
+
+-----------------------------------------------------
+
+Time to start installation of xfce desktop via Opensuse TumbelWeed and WSL.
+
+Update Tumbelweed via terminal
+
+sudo zypper ref -b && sudo zypper dup
+
+-----------------------------------------------------
+
+Install this programs
+
+sudo zypper install bash git npm wget curl nano sudo dialog go dracut opi yast* 
+
+Press 1 if asked. You me need to press 1 more then one time.
+
+-----------------------------------------------------
+
+Extra Programs install this to...
+
+sudo zypper ar -cfp 90 https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumbleweed/ packman
+sudo zypper dup --from packman --allow-vendor-change  <-- press a in terminal
+
+Then copy and paste this to Terminal: opi codecs
+
+-----------------------------------------------------
+
+Install this - WSL Tools
+
+sudo zypper in -t pattern wsl_gui wsl_base wsl_systemd
+
+-----------------------------------------------------
+
+Install Chrome - wright: opi google-chrome
+
+-----------------------------------------------------
+
+Install Hyfetch - like Neofetch but more gay =)
+
+sudo zypper install fastfetch hyfetch
+
+Put this in terminal to Test: hyfetch
+
+-----------------------------------
+
+Install GIMP
+
+sudo zypper in gimp
+
+-----------------------------------
+
+Listen to sounds via Blanket.
+
+sudo zypper in blanket
+
+-----------------------------------
+
+Libre office is a must =]
+
+sudo zypper in libreoffice
+
+-----------------------------------
+
+Install Visual Studio code from Microsoft =)
+
+opi code
+
+-----------------------------------
+
+Install xfce desktop for Opensuse Tumbelweed
+
+sudo zypper in -t pattern xfce
+
+Press 1 if asked and enter.
+
+-----------------------------------
+
+Reboot tumbleweed - Reboot tumbleweed - Reboot tumbleweed 
+
+-----------------------------------
+
+Setup GWSL and start terminal from there....
+
+-----------------------------------
+
+sudo yast and update all plus "dependencies menu" and install all from yast.
+
+Type in Terminal: sudo yast
+
+Install xorg via yast.
+
+-----------------------------------
+
+Paste in terminal: 
+
+xdg-user-dirs-update
+
+sudo systemctl set-default multi-user.target
+
+sudo systemctl set-default graphical.target
+
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-----------------------------------
+
+Type this in terminal and put your user there - sudo loginctl enable-linger user
+
+-----------------------------------
+
+Fix IP problem for GWSL. Cant find screen problem. Look for ip adress in windows terminal / PowerShell
+
+TYPE this in Powershell Terminal: ipconfig
+
+NOTE - Importent to look for ip. Last lines are IP-numbers for WSL.
+
+GO BACK TO Opensuse Tumbelweed AND COPY AND PASTE THIS IN TERMINAL.
+
+sudo ls -l /etc/resolv.conf
+
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+
+sudo nano /etc/resolv.conf
+
+nameserver 172.20.208.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+
+sudo systemctl restart systemd-resolved
+
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed =] IF YOU SEE SOME RED TEXT DONT WORRY IT WORKS =]
+
+-----------------------------------
+
+Type in terminal: sudo nano ~/.bash_xfce_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-----------------------------------
+
+Reboot Reboot Reboot Reboot Reboot Reboot Opensuse Tumbelweed
+
+-----------------------------------
+
+Done - Time to start from terminal and XFCE Desktop will start!
+
+NOTE - START GWSL FIRST THEN YOU START TERMINAL FOR OPENSUSE Tumbelweed.
+
+Copy and paste this in Console: . ~/.bash_xfce_desktop
+
+Copy and paste this in Console: startxfce4
+
+-----------------------------------
+
+Regards Mattias Vinberg - Opensuse Tumbelweed - XFCE - GWSL - Linux - Microsoft - Windows 11 - Sweden - 2025
+
+         JJJJJJJJ
+      JJJJJJJJJJJJJJ
+    JJJJJJ   =JJJJJJJ
+   JJJJ      =JJJ JJJJ
+   JJJ       =JJJ   JJJ
+  JJJJ       =JJJ   JJJ
+  JJJJJJJJJJJJJJJ   JJJJ
+   JJJJJJJJJJJJJJ   JJJJ
+   JJJJ             JJJJ
+    JJJJJ=          JJJJ
+      JJJJJJJJJJJJJJJJJJJJJJJJJJJJJ=
+        =JJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
+                    JJJJ         =JJJJJJ
+                    JJJJ            =JJJJ
+                    JJJJ   JJJJJJJJJJJJJJ
+                    JJJJ   JJJJJJJJJJJJJJJ
+                    JJJJ   JJJJ       JJJJ
+                     JJJ   JJJJ       JJJ
+                     JJJJJ JJJJ      JJJJ
+                      =JJJJJJJJ   JJJJJJ
+                        JJJJJJJJJJJJJJ 
+                           JJJJJJJ=
+
+
+Find More Stuff for WSL and Linux. Desktops for WSL - https://github.com/vinberg88/opensuse
+
+ABOUT WSL for WINDOWS via GITHUB - MY PAGE - https://vinberg88.github.io
+
+© 2001–2025 SUSE LLC, © 2005–2025 openSUSE contributors & others. ❤️
+
+-----------------------------------
+
