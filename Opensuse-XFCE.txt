@@ -1,7 +1,7 @@
 Opensuse Tumbelweed and XFCE - How to Install XFCE via Windows 11 - WSL - Linux - GWSL - YouTube - 2025
 
 How to install XFCE via OPENSUSE Tumbelweed - WSL - TEXT
-Cooming Zone...
+https://github.com/vinberg88/opensuse/blob/main/Opensuse-XFCE.txt
 
 How to install XFCE via OPENSUSE Tumbelweed - WSL - MOVIE
 https://www.youtube.com/watch?v=nkGW5xt_f6c
@@ -298,4 +298,5 @@ ABOUT WSL for WINDOWS via GITHUB - MY PAGE - https://vinberg88.github.io
 © 2001–2025 SUSE LLC, © 2005–2025 openSUSE contributors & others. ❤️
 
 -----------------------------------
+
 
