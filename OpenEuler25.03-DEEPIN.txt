@@ -1,0 +1,285 @@
+OpenEuler and Deepin - Install DEEPIN Desktop via openEuler 25.03 - WSL - Windows 11 - GWSL - LINUX - 2025
+
+How to install DEEPIN Desktop via openEuler 25.03 - WSL - TEXT
+Comming Zone....
+
+How to install DEEPIN Desktop via openEuler 25.03 - WSL - MOVIE
+https://www.youtube.com/watch?v=yIyhZfQmKWM
+
+You can find openEuler 25.03 here or in Microsoft store
+
+Download here - https://apps.microsoft.com/detail/9nj153x4m4v4?hl=sv-SE&gl=SE
+
+TOOLS THAT I USE FOR WSL and WINDOWS 11 - 2025
+
+Raft WSL is a powerful tool for managing Windows Subsystem for Linux distributions.
+
+Raft WSL -- https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+GWSL - X Server for Windows 11 and it works well. Linux / windows 11 GUI app.
+
+GWSL -- https://apps.microsoft.com/detail/9nl6kd1h33v3?hl=en-US&gl=US
+
+
+                 `.cc.`                                    `.cc.`
+             ``.cccccccc..`                            ``.cccccccc..`
+          `.cccccccccccccccc.`                      `.cccccccccccccccc.`
+      ``.cccccccccccccccccccccc.``              ``.cccccccccccccccccccccc.``
+   `..cccccccccccccccccccccccccccc..`        `..cccccccccccccccccccccccccccc..`
+`.ccccccccccccccc/++/ccccccccccccccccc.`  `.ccccccccccccccc/++/ccccccccccccccccc.`
+.cccccccccccccccmNMMNdo+oso+ccccccccccc.  .cccccccccccccccmNMMNdo+oso+ccccccccccc.
+.cccccccccc/++odms+//+mMMMMm/:+syso/cccc  .cccccccccc/++odms+//+mMMMMm/:+syso/cccc
+.cccccccccyNNMMMs:::/::+o+/:cdMMMMMmcccc  .cccccccccyNNMMMs:::/::+o+/:cdMMMMMmcccc
+.ccccccc:+NmdyyhNNmNNNd:ccccc:oyyyo:cccc  .ccccccc:+NmdyyhNNmNNNd:ccccc:oyyyo:cccc
+.ccc:ohdmMs:cccc+mNMNmyccccccccccccccccc  .ccc:ohdmMs:cccc+mNMNmyccccccccccccccccc
+.cc/NMMMMMo////:c:///:cccccccccccccccccc  .cc/NMMMMMo////:c:///:cccccccccccccccccc
+.cc:syysyNMNNNMNyccccccccccccccccccccccc  .cc:syysyNMNNNMNyccccccccccccccccccccccc
+.cccccccc+MMMMMNyc:/+++/cccccccccccccccc  .cccccccc+MMMMMNyc:/+++/cccccccccccccccc
+.cccccccccohhhs/comMMMMNhccccccccccccccc  .cccccccccohhhs/comMMMMNhccccccccccccccc
+.ccccccccccccccc:MMMMMMMM/cccccccccccccc  .ccccccccccccccc:MMMMMMMM/cccccccccccccc
+.ccccccccccccccccsNNNNNd+cccccccccccccc.  .ccccccccccccccccsNNNNNd+cccccccccccccc.
+`..cccccccccccccccc/+/:cccccccccccccc..`  `..cccccccccccccccc/+/:cccccccccccccc..`
+   ``.cccccccccccccccccccccccccccc.``        ``.cccccccccccccccccccccccccccc.``
+       `.cccccccccccccccccccccc.`                `.cccccccccccccccccccccc.`
+          ``.cccccccccccccc.``                      ``.cccccccccccccc.``
+              `.cccccccc.`                              `.cccccccc.`
+                 `....`                                    `....`
+
+
+OS: openEuler 25.03 x86_64
+Host: Windows Subsystem for Linux - openEuler-25.03 (2.5.10.0)
+Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+Desktop: Deepin for WSL and Windows 11
+Origin: Huawei, China
+First release: 2019
+Base: RHEL/CentOS (RPM-based)
+Maintained by: OpenAtom Foundation
+
+Media: Mattias Vinberg - Stockholm / Sweden - 2025
+
+About openEuler 25.03 - https://www.openeuler.org/en
+
+OpenEuler is an open source project incubated and operated by the
+OpenAtom Foundation. EulerOS is a commercial Linux distribution developed
+by Huawei based on Red Hat Enterprise Linux. To provide an operating system
+for server and cloud environments. Its open-source community version
+is known as openEuler, of which source code was released by Huawei at
+Gitee on December 31, 2019. OpenEuler became an open-source project 
+operated by OpenAtom Foundation after Huawei donated the source code 
+of openEuler to the foundation on November.  
+
+About DEEPIN Desktop for openEuler 25.03 - https://www.deepin.org/en/dde
+
+Deepin is an elegant, easy to use and reliable desktop
+operating system released by Deepin Technology Co., Ltd.
+Featured applications are preinstalled in deepin. 
+It caters to a variety of recreational activities while
+also fulfilling your daily needs. With continually
+improved and perfected functions, we believe deepin
+will be loved and used by more and more users.
+
+Find More Stuff for WSL here: https://github.com/vinberg88/opensuse
+
+ABOUT WSL for WINDOWS via GITHUB - MY PAGE - https://vinberg88.github.io
+
+WSL, which stands for Windows Subsystem for Linux, is a compatibility
+layer created by Microsoft that permits users to operate a Linux environment
+directly on a Windows system without requiring a virtual machine or a
+dual-boot configuration. This feature allows developers and system administrators
+to access and use Linux command-line tools, utilities, and applications natively
+within the Windows operating system. WSL supports a variety of Linux
+distributions, offering smooth integration between Windows and Linux platforms.
+This integration significantly boosts productivity and streamlines workflows
+for users who frequently work across both operating systems, making it easier
+to manage tasks that involve both Windows and Linux environments.
+
+------------------------------------------------------
+
+Install Nano for openEuler 25.03
+
+sudo dnf install nano
+
+-----------------------------------
+
+Install fast mirrors or repos for openEuler 25.03
+
+Run this first
+
+sudo dnf install dnf-utils
+
+Then do this..
+
+sudo nano /etc/dnf/dnf.conf
+
+Add the following line: fastestmirror=True
+
+Like That..
+
+fastestmirror=True
+
+-----------------------------------
+
+Reboot Reboot Reboot Reboot Reboot Reboot - OpenEuler openEuler 25.03
+
+-----------------------------------
+
+Update All by paste this in Console - openEuler 25.03
+
+sudo dnf upgrade --refresh
+
+-----------------------------------
+
+Install some basic programs for DEEPIN Desktop and openEuler 25.03.
+
+sudo dnf install wget git nano bash sudo curl npm dbus
+
+-----------------------------------
+
+Time to install DEEPIN Desktop for openEuler 25.03 - Will take some time...
+
+sudo dnf install dde
+
+---------------------------------
+
+Install Fastfetch - Its a must =] Neofetch is Dead - openEuler 25.03
+
+wget https://github.com/fastfetch-cli/fastfetch/releases/download/2.54.0/fastfetch-linux-amd64.rpm
+sudo dnf install ./fastfetch-linux-amd64.rpm
+
+Test by typing fastfetch in terminal: fastfetch
+
+-----------------------------------
+
+Install Visual Studio Code - Microsoft - openEuler 25.03
+
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpg
+check=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" | sudo tee /etc/yum.repos.d/vscode.repo > /dev/null
+
+sudo dnf install code
+
+-----------------------------------
+
+Install Google-Chrome - paste all under this paragraph in terminal - openEuler 25.03
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm
+sudo yum update google-chrome-stable
+
+-----------------------------------
+
+Install Gimp so you can paint - openEuler 25.03
+
+sudo dnf install gimp
+
+-----------------------------------
+
+Best Office App =) Install now - openEuler 25.03
+
+sudo dnf install libreoffice
+
+-------------------------------------------------------------
+
+Restart LINUX - Restart openEuler 25.03 - Restart LINUX - Restart openEuler 25.03
+
+------------------------------------------------------
+
+Fix IP problem for GWSL. Cant find screen problem. Look for ip adress in windows terminal / PowerShell: ipconfig
+
+NOTE - Importent to look for ip. Last lines are IP-numbers for WSL. Save that...
+and change to your ip-number in OpenEuler. 
+
+GO BACK TO openEuler 25.03 AND COPY AND PASTE THIS IN TERMINAL.
+
+sudo ls -l /etc/resolv.conf
+
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+
+sudo nano /etc/resolv.conf
+
+nameserver 172.20.208.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+
+sudo systemctl restart systemd-resolved
+
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed =] IF YOU SEE SOME RED TEXT DONT WORRY IT WORKS =]
+
+------------------------------------------------------
+
+Reboot Linux - Reboot Linux - Reboot Linux - Reboot Linux - openEuler 25.03
+
+----------------------------------------------------------------
+
+Start from GWSL and config - Then Reboot and start from GWSL SHELL.
+
+     " NOTE - TAKE AN EXTRA REBOOT - Start Shell from GWSL "
+
+------------------------------------------------------
+
+Copy and Paste in Terminal - openEuler 25.03
+
+sudo systemctl set-default graphical.target
+
+----------------------------------------------------------------
+
+openEuler 25.03 - Type in terminal: sudo nano ~/.bash_dde_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------------------------
+
+Reboot Linux - Reboot Linux - Reboot Linux - Reboot Linux - openEuler 25.03
+
+                      " Start Shell from GWSL "
+
+-----------------------------------
+
+Done =] Time to start DEEPIN Desktop and it will start - openEuler 25.03
+
+NOTE - ALWAYS START FROM GWSL SHELL / TERMINAL - THEN YOU START DEEPIN DESKTOP!
+
+Copy and paste this in Console: . ~/.bash_dde_desktop
+Copy and paste this in Console: exec dbus-run-session /usr/bin/startdde
+
+              " Just wait it will start, it take some time "
+
+--------------------------------------------------------------
+
+Regards Mattias Vinberg - openEuler 25.03 - DEEPIN - Linux - WSL - GWSL - Windows 11 - Sweden - 2025
+
+                 `.cc.`       
+             ``.cccccccc..`   
+          `.cccccccccccccccc.`
+      ``.cccccccccccccccccccccc.``      
+   `..cccccccccccccccccccccccccccc..`   
+`.ccccccccccccccc/++/ccccccccccccccccc.`
+.cccccccccccccccmNMMNdo+oso+ccccccccccc.
+.cccccccccc/++odms+//+mMMMMm/:+syso/cccc
+.cccccccccyNNMMMs:::/::+o+/:cdMMMMMmcccc
+.ccccccc:+NmdyyhNNmNNNd:ccccc:oyyyo:cccc
+.ccc:ohdmMs:cccc+mNMNmyccccccccccccccccc
+.cc/NMMMMMo////:c:///:cccccccccccccccccc - openEuler 25.03 x86_64
+.cc:syysyNMNNNMNyccccccccccccccccccccccc
+.cccccccc+MMMMMNyc:/+++/cccccccccccccccc
+.cccccccccohhhs/comMMMMNhccccccccccccccc
+.ccccccccccccccc:MMMMMMMM/cccccccccccccc
+.ccccccccccccccccsNNNNNd+cccccccccccccc.
+`..cccccccccccccccc/+/:cccccccccccccc..`
+   ``.cccccccccccccccccccccccccccc.``
+       `.cccccccccccccccccccccc.`
+          ``.cccccccccccccc.``
+              `.cccccccc.`
+                 `....`
+
+Copyright © 2025 openEuler. All rights reserved. 
+
+----------------------------------------------------------------
