@@ -1,7 +1,7 @@
 OpenEuler and Deepin - Install DEEPIN Desktop via openEuler 25.03 - WSL - Windows 11 - GWSL - LINUX - 2025
 
 How to install DEEPIN Desktop via openEuler 25.03 - WSL - TEXT
-Comming Zone....
+https://github.com/vinberg88/opensuse/blob/main/OpenEuler25.03-DEEPIN.txt
 
 How to install DEEPIN Desktop via openEuler 25.03 - WSL - MOVIE
 https://www.youtube.com/watch?v=yIyhZfQmKWM
@@ -283,3 +283,4 @@ Regards Mattias Vinberg - openEuler 25.03 - DEEPIN - Linux - WSL - GWSL - Window
 Copyright © 2025 openEuler. All rights reserved. 
 
 ----------------------------------------------------------------
+
