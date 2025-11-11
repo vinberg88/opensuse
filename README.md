@@ -33,6 +33,72 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+OpenEuler 25.03  and Deepin - Install DEEPIN Desktop via openEuler - WSL - Windows 11 - GWSL - LINUX - 2025
+
+How to install DEEPIN Desktop via openEuler 25.03 - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/OpenEuler25.03-DEEPIN.txt
+
+How to install DEEPIN Desktop via openEuler 25.03 - WSL - MOVIE
+
+https://www.youtube.com/watch?v=yIyhZfQmKWM
+
+You can find openEuler 25.03 here or in Microsoft store
+
+Download here - https://apps.microsoft.com/detail/9nj153x4m4v4?hl=sv-SE&gl=SE
+
+TOOLS THAT I USE FOR WSL and WINDOWS 11 - 2025
+
+Raft WSL is a powerful tool for managing Windows Subsystem for Linux distributions.
+
+Raft WSL -- https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+GWSL - X Server for Windows 11 and it works well. Linux / windows 11 GUI app.
+
+GWSL -- https://apps.microsoft.com/detail/9nl6kd1h33v3?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="OpenEuler25 03-DEEPIN" src="https://github.com/user-attachments/assets/870e396b-3463-40ba-a052-c9a9b762f0a9" />
+
+About openEuler 25.03 - https://www.openeuler.org/en
+
+OpenEuler is an open source project incubated and operated by the
+OpenAtom Foundation. EulerOS is a commercial Linux distribution developed
+by Huawei based on Red Hat Enterprise Linux. To provide an operating system
+for server and cloud environments. Its open-source community version
+is known as openEuler, of which source code was released by Huawei at
+Gitee on December 31, 2019. OpenEuler became an open-source project 
+operated by OpenAtom Foundation after Huawei donated the source code 
+of openEuler to the foundation on November.  
+
+About DEEPIN Desktop for openEuler 25.03 - https://www.deepin.org/en/dde
+
+Deepin is an elegant, easy to use and reliable desktop
+operating system released by Deepin Technology Co., Ltd.
+Featured applications are preinstalled in deepin. 
+It caters to a variety of recreational activities while
+also fulfilling your daily needs. With continually
+improved and perfected functions, we believe deepin
+will be loved and used by more and more users.
+
+Find More Stuff for WSL here: https://github.com/vinberg88/opensuse
+
+ABOUT WSL for WINDOWS via GITHUB - MY PAGE - https://vinberg88.github.io
+
+WSL, which stands for Windows Subsystem for Linux, is a compatibility
+layer created by Microsoft that permits users to operate a Linux environment
+directly on a Windows system without requiring a virtual machine or a
+dual-boot configuration. This feature allows developers and system administrators
+to access and use Linux command-line tools, utilities, and applications natively
+within the Windows operating system. WSL supports a variety of Linux
+distributions, offering smooth integration between Windows and Linux platforms.
+This integration significantly boosts productivity and streamlines workflows
+for users who frequently work across both operating systems, making it easier
+to manage tasks that involve both Windows and Linux environments.
+
+Regards Mattias Vinberg - openEuler 25.03 - DEEPIN - Linux - WSL - GWSL - Windows 11 - Sweden - 2025
+
+---------------------------------------------
+
 Opensuse Tumbelweed and XFCE - How to Install XFCE via Windows 11 - WSL - Linux - GWSL - YouTube - 2025
 
 How to install XFCE via OPENSUSE Tumbelweed - WSL - TEXT
