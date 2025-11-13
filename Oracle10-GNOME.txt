@@ -1,7 +1,7 @@
 Oracle 10 and Gnome 47 - Install Gnome desktop via Windows 11 - WSL - X410 - Linux - Youtube - 2025
 
 How to install Gnome via Oracle 10 och Windows 11 - WSL - TEXT
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/Oracle10-GNOME.txt
 
 How to install Gnome via Oracle 10 och Windows 11 - WSL - MOVIE
 https://www.youtube.com/watch?v=d9UZdlOXneQ
@@ -307,5 +307,6 @@ Regards Mattias Vinberg - Oracle Linux 10 - Gnome - Windows 11 - Linux - WSL - X
 © 2025 Oracle Sweden.
 
 ----------------------------------------------------------------
+
 
 
