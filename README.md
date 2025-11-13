@@ -33,6 +33,73 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Oracle 10 and Gnome 47 - Install Gnome desktop via Windows 11 - WSL - X410 - Linux - Youtube - 2025
+
+How to install Gnome via Oracle 10 och Windows 11 - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Oracle10-GNOME.txt
+
+How to install Gnome via Oracle 10 och Windows 11 - WSL - MOVIE
+
+https://www.youtube.com/watch?v=d9UZdlOXneQ
+
+Download Oracle 10 here for WSL: https://drive.proton.me/urls/8Y0WW985N0#ESP4daWQcZiP
+
+Tools that i use...
+
+Use X410 - X Server for Windows 11 and it works well or find it Micorsoft store.
+ 
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="Oracle10-GNOME" src="https://github.com/user-attachments/assets/b3327fd1-b157-40be-9323-e8361299363a" />
+
+About Oracle for WSL - https://www.oracle.com - 2025
+
+Oracle Corporation is an integrated technology company based
+in Austin, Texas. Oracle offers a collection of cloud
+technologies, applications, databases, storage and servers
+to empower modern business. Oracle was founded by Larry
+Ellison in 1977. The workforce is becoming increasingly
+mobile. Flexibility is critical for companies to meet 
+shifting market demands. For more than four decades,
+businesses of all sizes have trusted Oracle to provide
+modern, comprehensive, and scalable technology solutions
+that enable technical agility and sharpen competitive edge. 
+
+About GNOME Desktop for WSL - https://www.gnome.org
+
+GNOME is designed to help you have the best possible computing
+experience. Every aspect of GNOME has been crafted to fit together
+as a harmonious whole, providing a consistent and integrated 
+experience. Our attention to detail means a smooth and polished
+product that lets you do the things you want without getting
+in the way. GNOME is satisfying to use and beautiful to behold.
+GNOME provides a focused working environment that helps you get
+things done. It is packed with features that will make you more
+productive: a powerful search feature that helps you access all
+your work from one place; side-by-side windows that make it easy
+to view several documents at the same time; seamless integration
+with online accounts which allows you to access all your data in
+one place; and a messaging system that comfortably deals with 
+notifications, letting you quickly respond in place or return to 
+them in a convenient time. Gnome desktop is my favorite!
+
+WSL stands for Windows Subsystem for Linux, a feature of Windows that
+allows users to run a Linux environment directly on their Windows
+machine without needing a separate virtual machine or dual-booting.
+
+ABOUT WSL for WINDOWS via GITHUB - MY PAGE - https://vinberg88.github.io
+
+Regards Mattias Vinberg - Oracle 10 - Gnome - Windows 11 - Linux - WSL - X410 - 2025 - SWEDEN
+
+---------------------------------------------
+
 OpenEuler 25.03  and Deepin - Install DEEPIN Desktop via openEuler - WSL - Windows 11 - GWSL - LINUX - 2025
 
 How to install DEEPIN Desktop via openEuler 25.03 - WSL - TEXT
