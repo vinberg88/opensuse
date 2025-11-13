@@ -1,0 +1,311 @@
+Oracle 10 and Gnome 47 - Install Gnome desktop via Windows 11 - WSL - X410 - Linux - Youtube - 2025
+
+How to install Gnome via Oracle 10 och Windows 11 - WSL - TEXT
+Comming Zone...
+
+How to install Gnome via Oracle 10 och Windows 11 - WSL - MOVIE
+https://www.youtube.com/watch?v=d9UZdlOXneQ
+
+Download Oracle 10 here for WSL: https://drive.proton.me/urls/8Y0WW985N0#ESP4daWQcZiP
+
+Tools that i use...
+
+Use X410 - X Server for Windows 11 and it works well or find it Micorsoft store.
+ 
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+
+      `-/+++++++++++++++++/-.`
+   `/syyyyyyyyyyyyyyyyyyyyyyys/.
+  :yyyyo/-...............-/oyyyy/      MEDIA - MATTIAS VINBERG - STOCKHOLM - SWEDEN - 2025
+ /yyys-                     .oyyy+
+.yyyy`                       `syyy-
+:yyyo                         /yyy/    OS: Oracle Linux 10.0 x86_64 - 2025
+.yyyy`                       `syyy-    Host: Windows Subsystem for Linux - Oracle10 (2.5.10.0)
+ /yyys.                     .oyyyo     Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+  /yyyyo:-...............-:oyyyy/`     Desktop: Gnome 47 and Windows 11
+   `/syyyyyyyyyyyyyyyyyyyyyyys+.       Windows 11 Pro - Dev Version - 25H2
+     `.:/+ooooooooooooooo+/:.`         Xserver: x410 X server
+
+
+About Oracle for WSL - https://www.oracle.com - 2025
+
+Oracle Corporation is an integrated technology company based
+in Austin, Texas. Oracle offers a collection of cloud
+technologies, applications, databases, storage and servers
+to empower modern business. Oracle was founded by Larry
+Ellison in 1977. The workforce is becoming increasingly
+mobile. Flexibility is critical for companies to meet 
+shifting market demands. For more than four decades,
+businesses of all sizes have trusted Oracle to provide
+modern, comprehensive, and scalable technology solutions
+that enable technical agility and sharpen competitive edge. 
+
+About GNOME Desktop for WSL - https://www.gnome.org
+
+GNOME is designed to help you have the best possible computing
+experience. Every aspect of GNOME has been crafted to fit together
+as a harmonious whole, providing a consistent and integrated 
+experience. Our attention to detail means a smooth and polished
+product that lets you do the things you want without getting
+in the way. GNOME is satisfying to use and beautiful to behold.
+GNOME provides a focused working environment that helps you get
+things done. It is packed with features that will make you more
+productive: a powerful search feature that helps you access all
+your work from one place; side-by-side windows that make it easy
+to view several documents at the same time; seamless integration
+with online accounts which allows you to access all your data in
+one place; and a messaging system that comfortably deals with 
+notifications, letting you quickly respond in place or return to 
+them in a convenient time. Gnome desktop is my favorite!
+
+Want more stuff for WSL: https://github.com/vinberg88/opensuse
+
+WSL stands for Windows Subsystem for Linux, a feature of Windows that
+allows users to run a Linux environment directly on their Windows
+machine without needing a separate virtual machine or dual-booting.
+
+ABOUT WSL for WINDOWS via GITHUB - MY PAGE - https://vinberg88.github.io
+
+--------------------------
+
+Lets begin install of Gnome desktop via Oracle 10 för WSL.
+
+--------------------------
+
+Install this programs as ROOT user
+
+dnf install sudo nano
+
+--------------------------
+
+Add user for Oracle 10 - Change adolf to your name..
+
+adduser adolf 
+
+passwd adolf
+
+passwd <-- root
+
+--------------------------
+
+Open this file in terminal: nano /etc/wsl.conf and add this 2 lines.
+
+[boot]
+systemd=true
+
+[user]
+default=adolf
+
+Replace adolf whit you username.
+
+--------------------------
+
+Add user to sudoers file: nano /etc/sudoers
+
+LIKE THIS.... change adolf to your name
+
+root  ALL=(ALL:ALL) ALL
+adolf ALL=(ALL:ALL) ALL
+
+-----------------------------
+
+Reboot Oracle Linux 10 and login as normal user.
+
+-----------------------------
+
+Install some Repos for Oracle Linux 10
+
+sudo dnf install \
+https://dl.fedoraproject.org/pub/epel/epel-release-latest-10.noarch.rpm
+sudo /usr/bin/crb enable
+
+sudo dnf install distribution-gpg-keys
+sudo rpmkeys --import /usr/share/distribution-gpg-keys/rpmfusion/RPM-GPG-KEY-rpmfusion-free-el-$(rpm -E %rhel)
+sudo rpmkeys --import /usr/share/distribution-gpg-keys/rpmfusion/RPM-GPG-KEY-rpmfusion-nonfree-el-$(rpm -E %rhel)
+sudo dnf --setopt=localpkg_gpgcheck=1 install  https://mirrors.rpmfusion.org/free/el/rpmfusion-free-release-$(rpm -E %rhel).noarch.rpm
+https://mirrors.rpmfusion.org/nonfree/el/rpmfusion-nonfree-release-$(rpm -E %rhel).noarch.rpm
+
+-----------------------------------
+
+Paste in terminal to Update Oracle Linux 10
+
+sudo dnf upgrade --refresh
+
+-----------------------------------
+
+Install some basic programs for Oracle Linux 10. You Need it =)
+
+sudo dnf install xorg* systemd* git wget curl bash pipx dracut net-tools dbus-x11 dbus* yum -y
+
+-----------------------------------
+
+Install Hyfetch - like Neofetch but more FUN =) - Oracle Linux 10
+
+pipx install hyfetch
+pipx ensurepath
+
+Put this in terminal to Test after Quick restart of terminal: hyfetch
+
+-----------------------------------
+
+Install Chromium Browser - paste all under this paragraph in terminal - Oracle Linux 10
+
+sudo dnf install chromium -y
+
+------------------------------------------------------
+
+Install CODE Visual studio code - 2025 - MicroSoft - Oracle Linux 10
+
+wget https://www.knulla.org/scripts/code-1.95.3-1731513157.el8.x86_64.rpm
+sudo dnf install ./code-1.95.3-1731513157.el8.x86_64.rpm -y
+
+-----------------------------------
+
+Listen to sounds -- Blanket -- Oracle Linux 10 - 2025 - GNOME 47
+
+wget https://www.swehub.com/blanket/blanket-0.8.0-1.noarch.rpm
+sudo dnf install ./blanket-0.8.0-1.noarch.rpm -y
+
+-------------------------------------------------------------
+
+Install LibreOffice for Oracle Linux 10
+
+Copy and paste: sudo dnf install flatpak* -y --skip-broken --nobest
+
+Copy and paste: sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+Copy and paste: sudo flatpak install flathub org.libreoffice.LibreOffice
+
+-------------------------------------------------------------
+
+Install Terminal that works - Oracle Linux 10 - 2025
+
+sudo dnf install -y https://github.com/wezterm/wezterm/releases/download/20240203-110809-5046fc22/wezterm-20240203_110809_5046fc22-1.fedora39.x86_64.rpm
+
+-------------------------------------------------------------
+
+Install Gimp for Oracle Linux 10 - 2025
+
+Copy and paste: sudo flatpak install flathub org.gimp.GIMP
+
+-------------------------------------------------------------
+
+Install some more programs for Oracle Linux 10 and Gnome - 2025
+
+sudo dnf install -y kwin* ffmpeg* dconf-editor* xhost* procps* bind-utils* iproute* iputils* nmap-ncat* --allowerasing --skip-broken
+
+----------------------------------
+
+Paste this one time in Console - Oracle Linux 10
+
+sudo mkdir /run/user/1000 && sudo chmod 700 /run/user/1000 && sudo chown $(whoami): /run/user/1000
+
+------------------------------------------------------
+
+Oracle Linux 10 - Type this in terminal and put your user there - sudo loginctl enable-linger user
+
+-------------------------------------------------------------
+
+Install some more programs for Oracle Linux 10 and Gnome - 2025
+
+sudo dnf install dconf-editor curl wget git bash* zeal* librepo* -y --skip-broken --nobest
+
+-------------------------------------------------------------
+
+Restart LINUX - Restart Oracle Linux 10 - Restart LINUX - Restart Oracle Linux 10
+
+-------------------------------------------------------------
+
+Grafic manager for Gnome and Oracle Linux 10.
+
+sudo dnf install gdm* -y
+
+----------------------------------
+
+GNOME - full installation - Oracle Linux 10 - 2025
+
+sudo dnf install -y gnome-extensions-app gnome-shell-extension-dash-to-dock
+sudo dnf install -y gnome-shell-extension-window-list dconf-editor xhost
+sudo dnf check-update -y
+sudo dnf groupinstall "Server with GUI" -y
+sudo dnf install gnome* -y
+
+-----------------------------------
+
+Copy and Paste in terminal for Oracle Linux 10: 
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-----------------------------------
+
+Type in terminal: sudo nano ~/.bash_Oracle_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+------------------------------------------------------
+
+Fix IP problem for X410. Cant find screen problem. Look for ip adress in windows terminal / PowerShell: ipconfig
+
+NOTE - Importent to look for ip. Last lines are IP-numbers for WSL.
+
+Now go back to Oracle Linux 10 terminal and paste this: 
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.20.208.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed =] IF YOU SEE SOME RED TEXT DON WORRY IT WORKS =]
+
+-------------------------------------------------------------
+
+Restart LINUX - Restart Oracle Linux 10 - Restart LINUX - Restart Oracle Linux 10
+
+-------------------------------------------------------------
+
+Time to start Gnome desktop and Oracle Linux 10 - Paste One by One!
+
+NOTE - FIRST START X410 THEN YOU START Oracle Linux 10 VIA TERMINAL
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Copy and paste This: . ~/.bash_Oracle_desktop
+
+Copy and paste This: dbus-launch gnome-session
+
+----------------------------------------------------------------
+
+        o   ^__^
+         o  (oo)\_______
+            (__)\       )\/\ Oracle - 2025
+                ||----w |
+                ||     ||
+
+Regards Mattias Vinberg - Oracle Linux 10 - Gnome - Windows 11 - Linux - WSL - X410 - 2025 - SWEDEN
+
+© 2025 Oracle Sweden.
+
+----------------------------------------------------------------
+
+
