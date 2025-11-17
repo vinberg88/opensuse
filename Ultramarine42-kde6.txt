@@ -5,7 +5,7 @@ Ultramarine 41 - we will update to 42 - you will find it in Microsoft store for 
 https://apps.microsoft.com/detail/9pbpg2rdmzb9?hl=en-US&gl=US
 
 How to install KDE 6 via Ultramarine 42 - TEXT - Fyra Labs - WSL2 - GITHUB
-Comming Zone....
+https://github.com/vinberg88/opensuse/blob/main/Ultramarine42-kde6.txt
 
 How to install KDE 6 via Ultramarine 42 - VIDEO - Fyra Labs - WSL2 - YOUTUBE
 https://www.youtube.com/watch?v=9yIBttdpYMA
@@ -362,3 +362,4 @@ It takes a little time to start at the beginning so leave it for a minute if not
 Made with ❤️ in Stockholm and Sweden - 2025
 
 -------------------------------------------
+
