@@ -1,0 +1,364 @@
+Ultramarine 42 and KDE 6 for WSL - How to Install KDE 6 via Ultramarine 42 - Linux - Microsoft - X410 - 2025 - YouTube
+
+Ultramarine 41 - we will update to 42 - you will find it in Microsoft store for WSL2.
+
+https://apps.microsoft.com/detail/9pbpg2rdmzb9?hl=en-US&gl=US
+
+How to install KDE 6 via Ultramarine 42 - TEXT - Fyra Labs - WSL2 - GITHUB
+Comming Zone....
+
+How to install KDE 6 via Ultramarine 42 - VIDEO - Fyra Labs - WSL2 - YOUTUBE
+https://www.youtube.com/watch?v=9yIBttdpYMA
+
+TOOLS THAT I USE FOR WSL and KDE 6 - 2025
+
+Raft WSL is a powerful tool for managing Windows Subsystem for Linux distributions.
+
+Raft WSL -- https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+X410 - X Server for Windows 11 and it works well. Linux / windows 11 GUI program.
+
+X410 -- https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+
+
+            .cd0NNNNNNNXOdc.          
+        .:xKNNNNNNNNNNNNNNNNKd;.      
+      ,dXNNNNNNNNNNNNNNNNNNNNNNNd,    
+    'ONNNNNNNNNNNNNNNNNNNNNNNNNNNNO'  
+  .xNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNk.
+ .0NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN0.     
+.0NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN0.    
+dNNNNNNNNNNNNWWWWWWWWNNNNNNNNNNNNNNNNNNd    
+NNNNNNNNNNNNNWMMMMMMMMWWNNNNNNNNNNNNNNNN    Media: Mattias Vinberg - Stockholm - Sweden - DEVopS
+NNNNNNNNNNNNNNWMMMMMMMMMWWNNNNNNNNNNNNNN    
+NNNNNNNNNNNNNNWMMMMMMMMMMMMWNNNNNNNNNNNN    OS: Ultramarine Linux 42 (WSL Edition) x86_64
+NNNNNNNNNNWWWMMMMMMMMMMMMMMMMWWWNNNNNNNX    Host: Windows Subsystem for Linux - Ultramarine (2.5.10.0)
+oNWWWWMMMMMMMMMMMMMMMMMMMMMMMMMMMMWWWNNo    Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+ OWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWO     KDE 6.5.2 - Latest Edition for WSL.
+ .OWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWO.     
+   lNWMMMMMMMMMMMMMMMMMMMMMMMMMMMMWNl       
+    .dNWMMMMMMMMMMMMMMMMMMMMMMMMWNd.        
+      .cKWMMMMMMMMMMMMMMMMMMMMWKc.          
+         'oOXWWWMMMMMMMMWWWXOl.             
+             ;lkXNNNNNNXkl'                 
+
+
+About KDE 6 for UltraMarine - https://kde.org
+
+KDE is an international team co-operating on 
+development and distribution of Free, Open
+Source Software for desktop and portable
+computing. Our community has developed a
+wide variety of applications for communication, 
+work, education and entertainment. We have a
+strong focus on finding innovative solutions to
+old and new problems, creating a vibrant, open
+atmosphere for experimentation. KDE is The 
+next generation desktop for Linux. Use KDE
+software to surf the web, keep in touch with
+colleagues, friends and family, manage your
+files, enjoy music and videos; and get creative
+and productive at work. The KDE community develops
+and maintains more than 200 applications
+which run on any Linux desktop, and often
+other platforms too.
+
+About UltraMarine 42 - https://ultramarine-linux.org - Fyra Labs
+
+Ultramarine Linux is an operating system designed
+for your personal workstation (or battlestation). It
+is designed to be intuitive and easy to use, shipping
+numerous simple environments. Ultramarine keeps up with
+the latest and greatest software in the open-source
+community, while staying stable and secure. Ultramarine
+is for everyone, from the beginner to the tech enthusiast, and
+even Windows dropouts! Based on Fedora Linux, Ultramarine offers
+the latest and greatest in open-source software, yet maintaining
+rock-solid stability. Making sure things don't break is our top
+priority. Ultramarine provides both developer-friendly 
+and user-friendly tools to make sure you can get the most
+out of your system. We're making it as easy and accessible
+as possible for everyone to create and package their software
+for Ultramarine (and in extension, Fedora!) Ultramarine applies
+pragmatic tweaks and settings to make sure your out-of-the-box
+experience is as smooth as it can be. We've tried to make
+sure that you'll be able to get started as quickly as possible.
+
+ABOUT WSL for WINDOWS via GITHUB - MY PAGE - https://vinberg88.github.io
+
+WSL stands for Windows Subsystem for Linux, a feature of Windows that
+allows users to run a Linux environment directly on their Windows
+machine without needing a separate virtual machine or dual-booting.
+
+Here you have more stuff about WSL and other desktops for Linux and Windows 11/10
+
+https://github.com/vinberg88/opensuse
+
+--------------------------------
+
+TIME TO START INSTALL OF KDE 6.5 AND UltraMARINE 42 VIA WINDOWS 11.
+
+--------------------------------
+
+First thing you need to do is copy this file to C:\Users\user  <-- user is not your name =]
+
+Its easy use Explorer and copy and past. Download this file.
+
+https://drive.proton.me/urls/G602NV0DFG#Rn5D1Tny3TpQ
+
+--------------------------------
+
+Install Fastmirrors or Repos for Ultramarine 41
+
+Type this in terminal: sudo nano /etc/dnf/dnf.conf
+
+Add the following line: max_parallel_downloads=10 and fastestmirror=True
+
+Like That..
+
+max_parallel_downloads=10
+fastestmirror=True
+
+--------------------------------
+
+Run this for ULTRAMARINE 41 for update =]
+
+sudo dnf5 upgrade --refresh
+
+----------------------------------
+
+Reboot Ultramarine 41 - Reboot Ultramarine 41 - Reboot Ultramarine 41
+
+----------------------------------
+
+Upgrade Ultramarine from 41 to 42 as ROOT user. Login as ROOT and do below..
+
+Copy and paste in terminal and press y if asked.
+
+sudo dnf upgrade --refresh
+sudo dnf distro-sync --releasever=42
+
+----------------------------------
+
+Reboot Ultramarine 42 - Reboot Ultramarine 42 - Reboot Ultramarine 42
+
+----------------------------------
+
+LOGIN AS NORMAL USER IN TERMINAL AND INSTALL PROGRAMS and KDE 6......
+
+------------------------------------------------------
+
+Install some small programs for Ultramarine 42
+
+sudo dnf install git wget curl nano bash pipx sudo dracut net-tools dbus-x11 -y
+
+------------------------------------------------------
+
+Install Hyfetch - like Neofetch so we cane se where we are…
+
+pipx install hyfetch
+
+Run from Terminal to test - you maybe need to restart terminal: hyfetch
+
+------------------------------------------------------
+
+Install some other programs for Ultramarine 42
+
+sudo dnf5 install curl wget git bash zeal demonized chattr librepo --skip-unavailable -y
+
+------------------------------------------------------
+
+Fix IP problem whit GWSL or X410. Cant find screen problems. Look ip adress in windows terminal / PowerShell as root : ipconfig
+
+NOTE - Importent to look for ip adress POWERSHELL.
+
+NOW GO BACK TO ULTRAMARINE AND COPY AND PASTE THIS IN CONSOLE.
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.20.208.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed =]
+
+----------------------------------
+
+Reboot Ultramarine 42 - Reboot Ultramarine 42 - Reboot Ultramarine 42
+
+------------------------------------------------------
+
+Install some programs for KDE 6 and Ultramarine 41
+
+sudo dnf5 install daemonize mesa git wget curl nano bash pipx sudo kwin dbus net-tools x11 dbus-x11 menu gmenu --no-best --allowerasing --skip-broken --skip-unavailable -y
+sudo dnf5 install sddm --allowerasing --skip-broken -y
+
+-----------------------------------------------------
+
+Time to install KDE 6 Plasma for Ultramarine 42 - KDE 6
+
+sudo dnf5 install plasma-workspace-x11 -y
+sudo dnf5 install pipewire plasma-desktop plasma-workspace plasma-workspace-wayland plasma-settings sddm-wayland-plasma kde-baseapps kscreen --no-best --allowerasing --skip-broken -y
+sudo dnf5 group install "kde-desktop" --allowerasing --no-best -y
+
+-----------------------------------------------------
+
+Now take this and install this - final step for KDE 6 - almost =]
+
+sudo dnf5 install kactivitymanagerd -y
+sudo dnf5 install bluedevil -y
+sudo dnf5 install breeze-gtk -y
+sudo dnf5 install breeze-grub -y
+sudo dnf5 install breeze-plymouth -y
+sudo dnf5 install qqc2-breeze-style -y
+sudo dnf5 install kde-gtk-config -y
+sudo dnf5 install kgamma -y
+sudo dnf5 install kglobalacceld -y
+sudo dnf5 install kinfocenter --skip-broken --nobest -y
+sudo dnf5 install kmenuedit -y
+sudo dnf5 install kpipewire -y
+sudo dnf5 install kscreenlocker -y
+sudo dnf5 install ksshaskpass -y
+sudo dnf5 install ksystemstats -y
+sudo dnf5 install kwrited -y
+sudo dnf5 install layer-shell-qt -y
+sudo dnf5 install libkscreen -y
+sudo dnf5 install libksysguard -y
+sudo dnf5 install libplasma -y
+sudo dnf5 install oxygen-sounds -y
+sudo dnf5 install plasma5support -y
+sudo dnf5 install plasma-nm -y
+sudo dnf5 install plasma-firewall -y
+sudo dnf5 install plasma-mobile -y
+sudo dnf5 install plasma-welcome -y
+sudo dnf5 install sddm-kcm -y
+sudo dnf5 install powerdevil -y
+sudo dnf5 install polkit-kde-agent-1 -y
+sudo dnf5 install plymouth-kcm -y
+sudo dnf5 install plasma-workspace-wallpapers -y
+sudo dnf5 install plasma-vault -y
+sudo dnf5 install plasma-thunderbolt -y
+sudo dnf5 install plasma-sdk -y
+sudo dnf5 install plasma-pa -y
+sudo dnf5 install plasma-pass -y
+sudo dnf5 install plasma-nano -y
+sudo dnf5 install plasma-integration --skip-broken --nobest -y
+sudo dnf5 install plasma-disks -y
+sudo dnf5 install plasma-desktop -y
+sudo dnf5 install plasma-browser-integration -y
+sudo dnf5 install breeze --allowerasing --nobest --skip-broken -y
+sudo dnf5 install plasma- --allowerasing --nobest --skip-broken -y
+sudo dnf5 install kdeplasma-addons -y
+sudo dnf5 install plasma-activities-stats -y
+sudo dnf5 install plasma-activities -y
+sudo dnf5 install kwin -y
+sudo dnf5 install kwayland-integration -y
+sudo dnf5 install kwayland -y
+sudo dnf5 install kwallet-pam -y
+sudo dnf5 install kscreen -y
+sudo dnf5 install krdp --allowerasing --nobest --skip-broken -y
+sudo dnf5 install xdg-desktop-portal-kde -y
+sudo dnf5 install kdecoration --allowerasing --nobest --skip-broken -y
+sudo dnf5 install kde-cli-tools -y
+sudo dnf5 install flatpak-kcm -y
+sudo dnf5 install plasma-discover --skip-broken --nobest -y
+
+And we are DONE. Fast install for KDE 6 and Ultramarine 42 =]
+
+---------------------------------------
+
+Install Google-Chrome web browser
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm -y
+sudo yum update google-chrome-stable
+
+------------------------------------------------------
+
+Install Visual Studio Code - 2025 - Microsoft Engine for Code.
+
+wget https://www.knulla.org/scripts/code-1.95.3-1731513157.el8.x86_64.rpm
+sudo dnf install ./code-1.95.3-1731513157.el8.x86_64.rpm -y
+
+-----------------------------------
+
+Listen to sounds -- Blanket -- RedHat 10 -- KDE 6 -- 2025
+
+wget https://www.swehub.com/blanket/blanket-0.8.0-1.noarch.rpm
+sudo dnf install ./blanket-0.8.0-1.noarch.rpm -y
+
+-----------------------------------
+
+Install Gimp for Ultramarine 42
+
+sudo dnf install gimp -y
+
+-----------------------------------
+
+Install LibreOffice for Ultramarine OS
+
+sudo dnf install libreoffice -y
+
+-------------------------------------------------------------
+
+Paste this in Bash / terminal / Console / Shell for Ultramarine and KDE 6
+
+xdg-user-dirs-update
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-------------------------------------------------------------
+
+Type this in terminal and put your user-name there: sudo loginctl enable-linger user
+
+-------------------------------------------------------------
+
+In terminal type: sudo nano ~/.bash_Ultra_desktop
+
+Paste this small script in terminal and save and quit nano.
+
+export XDG_SESSION_TYPE=X11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=X11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-------------------------------------------
+
+Reboot Ultramarine 42 - Reboot Ultramarine 42 - Reboot Ultramarine 42
+
+-------------------------------------------
+
+Time to start KDE 6.5 for Ultramarine 42
+
+NOTE FIRST START X410 THEN YOU START ULTRAMARINE 42 FOR WSL
+
+Copy and Paste in Console: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Copy and Paste in Console: . ~/.bash_Ultra_desktop
+
+Copy and Paste in Console: dbus-launch startplasma-x11
+
+It takes a little time to start at the beginning so leave it for a minute if nothing happens.
+
+-------------------------------------------
+
+      .-+**#**+=:
+    -######*=:::+*=
+  .#######-  -=-+**#:
+ .#######*  *####**##.
+ =#######+  #####**##+ Regards Mattias Vinberg - Ultramarine 42 - KDE 6 - Microsoft - Linux - WSL - X410 - Sweden - 2025
+ +##**=        +**###*
+ +#***#**=  **#######= 
+ +***####+  ########+
+ +#**+++-  =#######-
+ =###-..:-*#####+-
+
+Made with ❤️ in Stockholm and Sweden - 2025
+
+-------------------------------------------
