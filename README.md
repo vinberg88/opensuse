@@ -33,6 +33,89 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Ultramarine 42 and KDE 6 for WSL - How to Install KDE 6 via Ultramarine 42 - Linux - Microsoft - X410 - 2025 - YouTube
+
+Ultramarine 41 - we will update to 42 - you will find it in Microsoft store for WSL2.
+
+https://apps.microsoft.com/detail/9pbpg2rdmzb9?hl=en-US&gl=US
+
+How to install KDE 6 via Ultramarine 42 - TEXT - Fyra Labs - WSL2 - GITHUB
+
+https://github.com/vinberg88/opensuse/blob/main/Ultramarine42-kde6.txt
+
+How to install KDE 6 via Ultramarine 42 - VIDEO - Fyra Labs - WSL2 - YOUTUBE
+
+https://www.youtube.com/watch?v=9yIBttdpYMA
+
+TOOLS THAT I USE FOR WSL and KDE 6 - 2025
+
+Raft WSL is a powerful tool for managing Windows Subsystem for Linux distributions.
+
+Raft WSL -- https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+X410 - X Server for Windows 11 and it works well. Linux / windows 11 GUI program.
+
+X410 -- https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="Ultramarine42-kde6" src="https://github.com/user-attachments/assets/ad710e14-e685-4f98-9cb7-e90dc309a6c3" />
+
+About KDE 6 for UltraMarine - https://kde.org
+
+KDE is an international team co-operating on 
+development and distribution of Free, Open
+Source Software for desktop and portable
+computing. Our community has developed a
+wide variety of applications for communication, 
+work, education and entertainment. We have a
+strong focus on finding innovative solutions to
+old and new problems, creating a vibrant, open
+atmosphere for experimentation. KDE is The 
+next generation desktop for Linux. Use KDE
+software to surf the web, keep in touch with
+colleagues, friends and family, manage your
+files, enjoy music and videos; and get creative
+and productive at work. The KDE community develops
+and maintains more than 200 applications
+which run on any Linux desktop, and often
+other platforms too.
+
+About UltraMarine 42 - https://ultramarine-linux.org - Fyra Labs
+
+Ultramarine Linux is an operating system designed
+for your personal workstation (or battlestation). It
+is designed to be intuitive and easy to use, shipping
+numerous simple environments. Ultramarine keeps up with
+the latest and greatest software in the open-source
+community, while staying stable and secure. Ultramarine
+is for everyone, from the beginner to the tech enthusiast, and
+even Windows dropouts! Based on Fedora Linux, Ultramarine offers
+the latest and greatest in open-source software, yet maintaining
+rock-solid stability. Making sure things don't break is our top
+priority. Ultramarine provides both developer-friendly 
+and user-friendly tools to make sure you can get the most
+out of your system. We're making it as easy and accessible
+as possible for everyone to create and package their software
+for Ultramarine (and in extension, Fedora!) Ultramarine applies
+pragmatic tweaks and settings to make sure your out-of-the-box
+experience is as smooth as it can be. We've tried to make
+sure that you'll be able to get started as quickly as possible.
+
+ABOUT WSL for WINDOWS via GITHUB - MY PAGE - https://vinberg88.github.io
+
+WSL stands for Windows Subsystem for Linux, a feature of Windows that
+allows users to run a Linux environment directly on their Windows
+machine without needing a separate virtual machine or dual-booting.
+
+Here you have more stuff about WSL and other desktops for Linux and Windows 11/10
+
+https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - Ultramarine 42 - KDE 6 - Microsoft - Linux - WSL - X410 - Sweden - 2025
+
+Made with ❤️ in Stockholm and Sweden - 2025
+
+---------------------------------------------
+
 Parrot OS 6.4 and GNOME - Install GNOME via WSL2 and Parrot - Windows 11 - Linux - YouTube - 2025
 
 Find Parrot OS here and download and press the exe file and you are done to start build GNOME.
