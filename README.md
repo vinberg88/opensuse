@@ -33,6 +33,81 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+OpenSUSE LEAP 16 - How to install KDE plasm via OpenSUSE LEAP - WSL - X410 - Windows 11 - Linux - 2025
+
+You can find OpenSUSE LEAP 16 via Raft WSL TOOL or
+via powershell by typing this in console: wsl --install openSUSE-Leap-16.0
+
+How to install KDE via OpenSUSE LEAP 16 - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Opensuse-Leap16-KDE.txt
+
+How to install KDE via OpenSUSE LEAP 16 - WSL - MOVIE
+
+https://www.youtube.com/watch?v=E5PPwtoEE-k
+
+TOOLS that i USE.
+
+X410 - Xserver for windows 11 - So you have a Console / Desktop TO See KDE 6.
+Do you want to seamlessly use Linux GUI apps side by side with Windows
+apps? Simply start X410 and adjust a few settings; your Linux GUI
+apps then suddenly appear in Windows and you can use them like Windows 
+apps! It doesn't matter where your Linux GUI apps are actually
+running; it can be a full virtual machine, Docker container, WSL
+(Windows Subsystem for Linux) or whatever. As long as your Linux GUI
+apps support X-Window client protocols, you can use them in Windows.
+You can even securely use your Linux GUI apps running in a far remote
+server via any SSH client that supports X11 forwarding over the Internet.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL - Handel WSL image easy and Linux for WSL via This TOOL.
+Raft is a Windows Subsystem for Linux (WSL) distribution manager in
+native C#/XAML for Windows, applying Fluent design principles.
+Raft makes managing WSL distros on your Windows device easy.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="Opensuse-Leap16-KDE" src="https://github.com/user-attachments/assets/20e7c0b7-ddd6-40dc-a0af-eb9fb1fd3040" />
+
+About OpenSUSE LEAP 16 - https://get.opensuse.org/leap/16.0/
+
+A brand new way of building openSUSE with a longer lifecycle.
+Leap 16.0 builds on its hybrid approach of combining source from
+SUSE Linux Enterprise (SLE) with community developments, delivering
+a level of stability unmatched by other Linux distributions.
+With a newly extended support period of 24 months, Leap gives
+users, developers, and sysadmins one of the best and most
+reliable Linux experiences available.
+
+About KDE plasma - https://kde.org
+
+openSUSE comes in two versions. Leap, a stable
+distribution with regular releases, comes with LTS
+versions of Linux, Qt and Plasma. Tumbleweed, a
+rolling distribution with the latest versions of
+all packages. The next generation desktop for Linux.
+Use KDE software to surf the web, keep in touch with
+colleagues, friends and family, manage your files, enjoy
+music and videos; and get creative and productive at
+work. The KDE community develops and maintains more
+than 200 applications which run on any Linux
+desktop, and often other platforms too.
+
+You Can Find More Stuff here About WSL - X410 - Windows 11 - Linux - 2025
+
+https://github.com/vinberg88/opensuse
+
+ABOUT WSL for WINDOWS via GITHUB - MY PAGE - https://vinberg88.github.io
+
+WSL stands for Windows Subsystem for Linux, a feature of Windows that
+allows users to run a Linux environment directly on their Windows
+machine without needing a separate virtual machine or dual-booting.
+
+Best, Mattias Vinberg - SweDen - OpenSUSE LEAP 16.0 - WSL - X410 - Windows - Linux - KDE - 2025
+
+---------------------------------------------
+
 LINUX MINT DEBIAN EDITION - LMDE - Install GNOME via Linux Mint via WSL - Windows 11 - X410 - Linux - 2025
 
 You can find Linux Mint DEBIAN for WSL here - https://github.com/sileshn/LinuxmintWSL2
