@@ -4,7 +4,7 @@ You can find OpenSUSE LEAP 16 via Raft WSL TOOL or
 via powershell by typing this in console: wsl --install openSUSE-Leap-16.0
 
 How to install KDE via OpenSUSE LEAP 16 - WSL - TEXT
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/Opensuse-Leap16-KDE.txt
 
 How to install KDE via OpenSUSE LEAP 16 - WSL - MOVIE
 https://www.youtube.com/watch?v=E5PPwtoEE-k
@@ -258,3 +258,4 @@ Type in terminal: startplasma-x11
 Best, Mattias Vinberg - SweDen - OpenSUSE LEAP 16.0 - WSL - X410 - Windows 11 - Linux - KDE 6 - 2025
 
 ----------------------------------------------------------------------
+
