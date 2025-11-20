@@ -5,7 +5,7 @@ You can find Linux Mint DEBIAN for WSL here - https://github.com/sileshn/Linuxmi
 DOWNLOAD: LinuxmintlmdeWSL2.zip so you get right version of LINUX MINT DEBIAN EDITION. 
 
 How to install GNOME DESKTOP via Linux Mint Debian and Windows 11 - WSL - TEXT
-Comming Zone....
+https://github.com/vinberg88/opensuse/blob/main/LinuxMintDebian-GNOME.txt
 
 How to install GNOME DESKTOP via Linux Mint Debian and Windows 11 - WSL - MOVIE     
 https://www.youtube.com/watch?v=pgB2tmmkEEA
@@ -254,3 +254,4 @@ Time to start Gnome: dbus-launch gnome-session
 Regards Mattias Vinberg - GNOME - LINUX MINT Debian - WSL - X410 - Windows 11 - Linux - 2025 - SWEDEN
 
 --------------------------------------------
+
