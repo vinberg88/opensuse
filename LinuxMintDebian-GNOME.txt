@@ -1,0 +1,256 @@
+LINUX MINT DEBIAN EDITION - Install GNOME via Linux Mint via WSL - Windows 11 - X410 - Linux - YouTube - 2025
+
+You can find Linux Mint DEBIAN for WSL here - https://github.com/sileshn/LinuxmintWSL2
+
+DOWNLOAD: LinuxmintlmdeWSL2.zip so you get right version of LINUX MINT DEBIAN EDITION. 
+
+How to install GNOME DESKTOP via Linux Mint Debian and Windows 11 - WSL - TEXT
+Comming Zone....
+
+How to install GNOME DESKTOP via Linux Mint Debian and Windows 11 - WSL - MOVIE     
+https://www.youtube.com/watch?v=pgB2tmmkEEA
+
+
+          `.-::---..                      `.-::---..                      `.-::---..
+      .:++++ooooosssoo:.              .:++++ooooosssoo:.              .:++++ooooosssoo:.
+    .+o++::.      `.:oos+.          .+o++::.      `.:oos+.          .+o++::.      `.:oos+.
+   :oo:.`             -+oo:        :oo:.`             -+oo:        :oo:.`             -+oo:
+ `+o/`    .::::::-.    .++-`     `+o/`    .::::::-.    .++-`     `+o/`    .::::::-.    .++-`
+`/s/    .yyyyyyyyyyo:   +o-`    `/s/    .yyyyyyyyyyo:   +o-`    `/s/    .yyyyyyyyyyo:   +o-`
+`so     .ss       ohyo` :s-:    `so     .ss       ohyo` :s-:    `so     .ss       ohyo` :s-:
+`s/     .ss  h  m  myy/ /s``    `s/     .ss  h  m  myy/ /s``    `s/     .ss  h  m  myy/ /s``
+`s:     `oo  s  m  Myy+-o:`     `s:     `oo  s  m  Myy+-o:`     `s:     `oo  s  m  Myy+-o:`
+`oo      :+sdoohyoydyso/.       `oo      :+sdoohyoydyso/.       `oo      :+sdoohyoydyso/.
+ :o.      .:////////++:          :o.      .:////////++:          :o.      .:////////++:
+ `/++        -:::::-             `/++        -:::::-             `/++        -:::::-
+  `++-                            `++-                            `++-
+   `/+-                            `/+-                            `/+-
+     .+/.                            .+/.                            .+/.
+       .:+-.                           .:+-.                           .:+-.
+          `--.``                          `--.``                          `--.``                                       
+
+
+MEDIA - MATTIAS VINBERG - SWEDEN - STOCKHOLM - DEVOPS - 2025
+
+OS: LMDE gigi 7 x86_64  - Linux Mint Debian Edition
+Host: Windows Subsystem for Linux - Mint-Debian (2.5.10.0)
+Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+Windows: Windows 11 PRO / DEV - 25H2
+DE: GNOME DESKTOP and Windows 11
+
+TOOLS that i USE...
+
+X410 - Xserver for windows 11 - So you have a Console / Desktop TO See GNOME.
+Do you want to seamlessly use Linux GUI apps side by side with Windows
+apps? Simply start X410 and adjust a few settings; your Linux GUI
+apps then suddenly appear in Windows and you can use them like Windows 
+apps! It doesn't matter where your Linux GUI apps are actually
+running; it can be a full virtual machine, Docker container, WSL
+(Windows Subsystem for Linux) or whatever. As long as your Linux GUI
+apps support X-Window client protocols, you can use them in Windows.
+You can even securely use your Linux GUI apps running in a far remote
+server via any SSH client that supports X11 forwarding over the Internet.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL - Handel WSL image easy and Linux for WSL via This TOOL - Raft WSL
+Raft is a Windows Subsystem for Linux (WSL) distribution manager in native C#/XAML for
+Windows, applying Fluent design principles. Raft makes managing WSL distros on your
+Windows device easy.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+About Linux Mint Debian - https://linuxmint.com
+
+LMDE is a Linux Mint project which stands for "Linux Mint Debian Edition".
+Its goal is to ensure Linux Mint can continue to deliver the same user
+experience if Ubuntu was ever to disappear. It allows us to assess how
+much we depend on Ubuntu and how much work would be involved in such
+an event. LMDE is also one of our development targets, as such it
+guarantees the software we develop is compatible outside of Ubuntu.
+The purpose of Linux Mint is to produce a modern, elegant
+and comfortable operating system which is both powerful
+and easy to use. In 2021 Linux Mint celebrated its 15th anniversary.
+Let's take a look back at how it all started and some of the events
+which have helped shape what it is today.
+
+About GNOME desktop - https://www.gnome.org
+
+Every part of GNOME has been designed to make it simple 
+and easy to use. The Activities Overview is a simple way 
+to access all your basic tasks. A press of a button is
+all it takes to view your open windows, launch applications, or 
+check if you have new messages. Having everything in 
+one convenient place means you don’t have to learn your way 
+around a maze of different technologies.
+
+You Can Find More Stuff here About WSL - X410 - Windows 11 - Linux - 2025
+
+https://github.com/vinberg88/opensuse
+
+ABOUT WSL for WINDOWS via GITHUB - MY PAGE - https://vinberg88.github.io
+
+WSL stands for Windows Subsystem for Linux, a feature of Windows that
+allows users to run a Linux environment directly on their Windows
+machine without needing a separate virtual machine or dual-booting.  
+
+--------------------------------------------
+
+LETS START INSTALL OF GNOME VIA LINUX MINT DEBIAN FOR WSL - 2025
+
+--------------------------------------------
+
+Time to update all after install of Debian MINT Linux =]
+
+sudo apt update
+sudo apt upgrade
+
+--------------------------------------------
+
+Next install Gnome Desktop for LINUX MINT Debian - WSL - LMDE
+
+sudo apt install gnome-*
+
+--------------------------------------------
+
+Install some programs and setup GDM for Gnome desktop and Debian Mint.
+
+sudo apt install systemd dbus bash git npm ibus wget curl nano sudo pipx dracut -y
+sudo service dbus start
+sudo apt install gdm3* -y
+sudo apt install gdm* -y
+sudo systemctl set-default graphical
+
+--------------------------------------------
+
+Time to install Hyfetch - Like Neofetch - Linux Mint Debian
+
+pipx install hyfetch
+pipx ensurepath
+
+Restart terminal and type: hyfetch
+
+--------------------------------------------
+
+Install Google Chrome Browser - Linux Mint Debian
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+--------------------------------------------
+
+Install Blanket if you Want! - Listen to Sounds - Linux Mint Debian
+
+wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb  -y
+
+--------------------------------------------
+
+Install Gimp and Libre Office for Linux Mint Debian.
+
+sudo apt install gimp libreoffice -y
+
+----------------------------------
+
+Install Visual studio Code - Microsoft - Linux Mint Debian
+
+sudo apt-get install wget gpg
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" |sudo tee /etc/apt/sources.list.d/vscode.list > /dev/null
+rm -f packages.microsoft.gpg
+
+sudo apt install apt-transport-https apt -y
+sudo apt update
+sudo apt install code -y
+
+----------------------------------
+
+Paste all in terminal
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-------------------------------------
+
+Type this in terminal and put your user there - sudo loginctl enable-linger user
+
+-------------------------------------
+
+Copy this and paste in terminal: sudo nano ~/.bash_mint_desktop
+
+Then add this script to terminal
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+------------------------------------------------------
+
+Fix IP problem for X410. Cant find screen problem. Look for ip adress in windows terminal / PowerShell: ipconfig
+
+NOTE - Importent to look for ip. Last lines are IP-numbers for WSL.
+
+GO BACK TO Linux Mint Debian AND COPY AND PASTE THIS IN TERMINAL.
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.20.208.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed =] IF YOU SEE SOME RED TEXT DONT WORRY IT WORKS =]
+
+------------------------------------------------------
+
+Install this to and we are done =] Linux Mint Debian
+
+sudo apt install dbus*
+
+------------------------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot - Linux Mint Debian and Gnome desktop
+
+-------------------------------------
+
+Now we can start GNOME Desktop via Linux Mint Debian.
+
+NOTE: FIRST START x410 THEN YOU START LINUX MINT DEBIAN TERMINAL.
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Paste in terminal: . ~/.bash_mint_desktop
+
+Time to start Gnome: dbus-launch gnome-session
+
+-------------------------------------
+
+          `.-::---..
+      .:++++ooooosssoo:.
+    .+o++::.      `.:oos+.
+   :oo:.`             -+oo:
+ `+o/`    .::::::-.    .++-`
+`/s/    .yyyyyyyyyyo:   +o-`
+`so     .ss       ohyo` :s-: Linux Mint Debian Edition - 2025
+`s/     .ss  h  m  myy/ /s``
+`s:     `oo  s  m  Myy+-o:`
+`oo      :+sdoohyoydyso/.
+ :o.      .:////////++:
+ `/++        -:::::-
+  `++-
+   `/+-
+     .+/.
+       .:+-.
+          `--.``
+
+Regards Mattias Vinberg - GNOME - LINUX MINT Debian - WSL - X410 - Windows 11 - Linux - 2025 - SWEDEN
+
+--------------------------------------------
