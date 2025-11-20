@@ -33,6 +33,80 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+LINUX MINT DEBIAN EDITION - LMDE - Install GNOME via Linux Mint via WSL - Windows 11 - X410 - Linux - YouTube - 2025
+
+You can find Linux Mint DEBIAN for WSL here - https://github.com/sileshn/LinuxmintWSL2
+
+DOWNLOAD: LinuxmintlmdeWSL2.zip so you get right version of LINUX MINT DEBIAN EDITION. 
+
+How to install GNOME DESKTOP via Linux Mint Debian and Windows 11 - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/LinuxMintDebian-GNOME.txt
+
+How to install GNOME DESKTOP via Linux Mint Debian and Windows 11 - WSL - MOVIE 
+
+https://www.youtube.com/watch?v=pgB2tmmkEEA
+
+<img width="1920" height="1080" alt="LinuxMintDebian-GNOME" src="https://github.com/user-attachments/assets/fdc1018d-7e6d-4bd8-88dc-9485a25a17f9" />
+
+X410 - Xserver for windows 11 - So you have a Console / Desktop TO See GNOME.
+Do you want to seamlessly use Linux GUI apps side by side with Windows
+apps? Simply start X410 and adjust a few settings; your Linux GUI
+apps then suddenly appear in Windows and you can use them like Windows 
+apps! It doesn't matter where your Linux GUI apps are actually
+running; it can be a full virtual machine, Docker container, WSL
+(Windows Subsystem for Linux) or whatever. As long as your Linux GUI
+apps support X-Window client protocols, you can use them in Windows.
+You can even securely use your Linux GUI apps running in a far remote
+server via any SSH client that supports X11 forwarding over the Internet.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL - Handel WSL image easy and Linux for WSL via This TOOL - Raft WSL
+Raft is a Windows Subsystem for Linux (WSL) distribution manager in native C#/XAML for
+Windows, applying Fluent design principles. Raft makes managing WSL distros on your
+Windows device easy.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+About Linux Mint Debian - https://linuxmint.com
+
+LMDE is a Linux Mint project which stands for "Linux Mint Debian Edition".
+Its goal is to ensure Linux Mint can continue to deliver the same user
+experience if Ubuntu was ever to disappear. It allows us to assess how
+much we depend on Ubuntu and how much work would be involved in such
+an event. LMDE is also one of our development targets, as such it
+guarantees the software we develop is compatible outside of Ubuntu.
+The purpose of Linux Mint is to produce a modern, elegant
+and comfortable operating system which is both powerful
+and easy to use. In 2021 Linux Mint celebrated its 15th anniversary.
+Let's take a look back at how it all started and some of the events
+which have helped shape what it is today.
+
+About GNOME desktop - https://www.gnome.org
+
+Every part of GNOME has been designed to make it simple 
+and easy to use. The Activities Overview is a simple way 
+to access all your basic tasks. A press of a button is
+all it takes to view your open windows, launch applications, or 
+check if you have new messages. Having everything in 
+one convenient place means you don’t have to learn your way 
+around a maze of different technologies.
+
+You Can Find More Stuff here About WSL - X410 - Windows 11 - Linux - 2025
+
+https://github.com/vinberg88/opensuse
+
+ABOUT WSL for WINDOWS via GITHUB - MY PAGE - https://vinberg88.github.io
+
+WSL stands for Windows Subsystem for Linux, a feature of Windows that
+allows users to run a Linux environment directly on their Windows
+machine without needing a separate virtual machine or dual-booting. 
+
+Regards Mattias Vinberg - GNOME - LINUX MINT Debian - WSL - X410 - Windows 11 - Linux - 2025 - LMDE - SWEDEN
+
+---------------------------------------------
+
 Ultramarine 42 and KDE 6 for WSL - How to Install KDE 6 via Ultramarine 42 - Linux - Microsoft - X410 - 2025 - YouTube
 
 Ultramarine 41 - we will update to 42 - you will find it in Microsoft store for WSL2.
