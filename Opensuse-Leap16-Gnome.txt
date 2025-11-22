@@ -4,7 +4,7 @@ You can find OpenSUSE LEAP 16 via Raft WSL TOOL or
 via powershell by typing this in console: wsl --install openSUSE-Leap-16.0
 
 How to install Gnome via OpenSUSE LEAP 16.0 - WSL - TEXT
-Comming Zone....
+https://github.com/vinberg88/opensuse/blob/main/Opensuse-Leap16-Gnome.txt
 
 How to install Gnome via OpenSUSE LEAP 16.0 - WSL - MOVIE
 https://www.youtube.com/watch?v=1Jgj5B-JTVs
@@ -261,3 +261,4 @@ Type in terminal: gnome-session
 Best Regards, Mattias Vinberg - OpenSUSE LEAP 16 - WSL - X410 - Windows - Linux - GNOME - 2025
 
 ----------------------------------------------------------------------
+
