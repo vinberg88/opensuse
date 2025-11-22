@@ -31,6 +31,86 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+OpenSUSE LEAP 16.0 - How to install Gnome via Opensuse Leap - WSL - X410 - Windows 11 - Linux - 2025
+
+You can find OpenSUSE LEAP 16 via Raft WSL TOOL or
+via powershell by typing this in console: wsl --install openSUSE-Leap-16.0
+
+How to install Gnome via OpenSUSE LEAP 16.0 - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Opensuse-Leap16-Gnome.txt
+
+How to install Gnome via OpenSUSE LEAP 16.0 - WSL - MOVIE
+
+https://www.youtube.com/watch?v=1Jgj5B-JTVs
+
+<img width="1920" height="1080" alt="Opensuse-Leap16-Gnome" src="https://github.com/user-attachments/assets/4d1a783a-bc20-476c-bcf8-579de517448a" />
+
+TOOLS that i USE - WSL - Windows 11 - Linux - OpenSUSE LEAP 16.0
+
+X410 - Xserver for windows 11 - So you have a Console / Desktop TO See KDE 6.
+Do you want to seamlessly use Linux GUI apps side by side with Windows
+apps? Simply start X410 and adjust a few settings; your Linux GUI
+apps then suddenly appear in Windows and you can use them like Windows 
+apps! It doesn't matter where your Linux GUI apps are actually
+running; it can be a full virtual machine, Docker container, WSL
+(Windows Subsystem for Linux) or whatever. As long as your Linux GUI
+apps support X-Window client protocols, you can use them in Windows.
+You can even securely use your Linux GUI apps running in a far remote
+server via any SSH client that supports X11 forwarding over the Internet.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL - Handel WSL image easy and Linux for WSL via This TOOL.
+Raft is a Windows Subsystem for Linux (WSL) distribution manager in
+native C#/XAML for Windows, applying Fluent design principles.
+Raft makes managing WSL distros on your Windows device easy.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+About OpenSUSE LEAP 16.0 - https://get.opensuse.org/leap/16.0
+
+A brand new way of building openSUSE and a new
+type of a hybrid Linux distribution. Leap uses
+source from SUSE Linux Enterprise (SLE), which
+gives Leap a level of stability unmatched by
+other Linux distributions, and combines that with
+community developments to give users, developers
+and sysadmins the best stable Linux experience
+available. OpenSUSE LEAP is not a Rolling releas.
+
+About Gnome Desktop - https://www.gnome.org
+
+Every part of GNOME has been designed to make it
+simple and easy to use. The Activities Overview is
+a simple way to access all your basic tasks. A press
+of a button is all it takes to view your open
+windows, launch applications, or check if you have new
+messages. Having everything in one convenient place
+means you don’t have to learn your way around
+a maze of different technologies. Every aspect of GNOME
+has been crafted to fit together as a harmonious
+whole, providing a consistent and integrated experience.
+Our attention to detail means a smooth and polished 
+product that lets you do the things you want without 
+getting in the way. GNOME is satisfying to use and
+beautiful to behold.
+
+You Can Find More Stuff here About WSL - X410 - Windows 11 - Linux - 2025
+Desktops for Linux and Descriptions how to build it via WSL.
+
+https://github.com/vinberg88/opensuse
+
+ABOUT WSL for WINDOWS.
+
+WSL stands for Windows Subsystem for Linux, a feature of Windows that
+allows users to run a Linux environment directly on their Windows
+machine without needing a separate virtual machine or dual-booting.
+
+Best Regards, Mattias Vinberg - OpenSUSE LEAP 16 - WSL - X410 - Windows - Linux - GNOME - 2025
+
+---------------------------------------------
+
 OpenSUSE LEAP 16 - How to install KDE plasm via OpenSUSE LEAP - WSL - X410 - Windows 11 - Linux - 2025
 
 You can find OpenSUSE LEAP 16 via Raft WSL TOOL or
