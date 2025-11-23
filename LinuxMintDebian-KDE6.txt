@@ -8,7 +8,7 @@ How to install KDE 6 via Linux Mint Debian and Windows 11 - WSL - TEXT
 https://github.com/vinberg88/opensuse/blob/main/LinuxMintDebian-KDE6.txt
 
 How to install KDE 6 via Linux Mint Debian and Windows 11 - WSL - MOVIE     
-Comming Zone....
+https://www.youtube.com/watch?v=JyynVIIW274
 
 
           `.-::---..                      `.-::---..                      `.-::---..
@@ -263,4 +263,5 @@ Time to start Gnome: startplasma-x11
 Regards Mattias Vinberg - KDE Plasma - LINUX MINT Debian - WSL - X410 - Windows 11 - Linux - 2025 - SWEDEN
 
 --------------------------------------------
+
 
