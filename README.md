@@ -31,7 +31,7 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
-LINUX MINT DEBIAN EDITION - How to install KDE 6 on Mint Debian via WSL - Windows 11 - X410 - Linux - YouTube - 2025
+LINUX MINT DEBIAN EDITION - How to install KDE 6 on Mint Debian via WSL - Windows 11 - X410 - Linux - 2025
 
 You can find Linux Mint DEBIAN for WSL here - https://github.com/sileshn/LinuxmintWSL2
 
