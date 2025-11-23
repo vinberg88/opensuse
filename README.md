@@ -31,6 +31,92 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+LINUX MINT DEBIAN EDITION - How to install KDE 6 on Mint Debian via WSL - Windows 11 - X410 - Linux - YouTube - 2025
+
+You can find Linux Mint DEBIAN for WSL here - https://github.com/sileshn/LinuxmintWSL2
+
+DOWNLOAD: LinuxmintlmdeWSL2.zip so you get right version of LINUX MINT DEBIAN EDITION. 
+
+How to install KDE 6 via Linux Mint Debian and Windows 11 - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/LinuxMintDebian-KDE6.txt
+
+How to install KDE 6 via Linux Mint Debian and Windows 11 - WSL - MOVIE  
+
+https://www.youtube.com/watch?v=JyynVIIW274
+
+<img width="1920" height="1080" alt="LinuxMintDebian-KDE6" src="https://github.com/user-attachments/assets/f9522b26-67fb-4257-9426-28dae919e527" />
+
+TOOLS that i USE...
+
+X410 - Xserver for windows 11 - So you have a Console / Desktop TO See GNOME.
+Do you want to seamlessly use Linux GUI apps side by side with Windows
+apps? Simply start X410 and adjust a few settings; your Linux GUI
+apps then suddenly appear in Windows and you can use them like Windows 
+apps! It doesn't matter where your Linux GUI apps are actually
+running; it can be a full virtual machine, Docker container, WSL
+(Windows Subsystem for Linux) or whatever. As long as your Linux GUI
+apps support X-Window client protocols, you can use them in Windows.
+You can even securely use your Linux GUI apps running in a far remote
+server via any SSH client that supports X11 forwarding over the Internet.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL - Handel WSL image easy and Linux for WSL via This TOOL - Raft WSL
+Raft is a Windows Subsystem for Linux (WSL) distribution manager in native C#/XAML for
+Windows, applying Fluent design principles. Raft makes managing WSL distros on your
+Windows device easy.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+About Linux Mint Debian - https://linuxmint.com
+
+LMDE is a Linux Mint project which stands for "Linux Mint Debian Edition".
+Its goal is to ensure Linux Mint can continue to deliver the same user
+experience if Ubuntu was ever to disappear. It allows us to assess how
+much we depend on Ubuntu and how much work would be involved in such
+an event. LMDE is also one of our development targets, as such it
+guarantees the software we develop is compatible outside of Ubuntu.
+The purpose of Linux Mint is to produce a modern, elegant
+and comfortable operating system which is both powerful
+and easy to use. In 2021 Linux Mint celebrated its 15th anniversary.
+Let's take a look back at how it all started and some of the events
+which have helped shape what it is today.
+
+What is KDE desktop - https://kde.org 
+
+Use KDE to surf the web; keep in touch with colleagues, friends
+and family; manage your files, enjoy music and videos; and get
+creative and productive at work. Do it all in a beautiful environment
+that adapts to your needs, and with the safety, privacy-protection and
+peace of mind that the best Free Open Source Software has to offer.
+With Plasma, our technology stack has undergone two major 
+upgrades: a transition to the latest version of our application 
+framework, Qt, and a migration to the modern Linux graphics 
+platform, Wayland. We have done our best to ensure that these 
+changes are as smooth and unnoticeable to the users as possible, 
+so when you install this update, you will see the same familiar 
+desktop environment that you know and love. But these 
+under-the-hood upgrades benefit Plasma's security, 
+efficiency, and performance, and improve support for modern
+hardware. Thus Plasma delivers an overall more reliable
+user experience, while paving the way for many more
+improvements in the future. Kde Plasma is a good Desktop.
+
+You Can Find More Stuff here About WSL - X410 - Windows 11 - Linux - 2025
+
+https://github.com/vinberg88/opensuse
+
+ABOUT WSL for WINDOWS
+
+WSL stands for Windows Subsystem for Linux, a feature of Windows that
+allows users to run a Linux environment directly on their Windows
+machine without needing a separate virtual machine or dual-booting.
+
+Regards Mattias Vinberg - KDE Plasma - LINUX MINT Debian - WSL - X410 - Windows 11 - 2025 - SWEDEN
+
+---------------------------------------------
+
 OpenSUSE LEAP 16.0 - How to install Gnome via Opensuse Leap - WSL - X410 - Windows 11 - Linux - 2025
 
 You can find OpenSUSE LEAP 16 via Raft WSL TOOL or
