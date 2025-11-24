@@ -31,6 +31,75 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Debian13 And Cinnamon Desktop - WSL -  How to install via Windows 11 - Linux - X410 - Microsoft - 2025
+
+Updated 2025-11-24 - Updated 2025-11-24 - Updated 2025-11-24 - Updated 2025-11-24
+
+How to install Cinnamon Desktop on Debian 13 - TEXT
+https://github.com/vinberg88/opensuse/blob/main/Debian13-cinnamon.txt
+
+How to install Cinnamon on Debian 13 - Movie
+https://www.youtube.com/watch?v=qbjiNnxMN4I
+
+You can find Debian here or in Microsoft Store
+https://apps.microsoft.com/detail/9msvkqc78pk6?hl=en-US&gl=US
+
+TOOLS that i USE for WSL and Debian 13
+
+X410 - Xserver for windows 11 - So you have a Console / Desktop TO See GNOME.
+Do you want to seamlessly use Linux GUI apps side by side with Windows
+apps? Simply start X410 and adjust a few settings; your Linux GUI
+apps then suddenly appear in Windows and you can use them like Windows 
+apps! It doesn't matter where your Linux GUI apps are actually
+running; it can be a full virtual machine, Docker container, WSL
+(Windows Subsystem for Linux) or whatever. As long as your Linux GUI
+apps support X-Window client protocols, you can use them in Windows.
+You can even securely use your Linux GUI apps running in a far remote
+server via any SSH client that supports X11 forwarding over the Internet.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL - Handel WSL image easy and Linux for WSL via This TOOL - Raft WSL
+Raft is a Windows Subsystem for Linux (WSL) distribution manager in native C#/XAML for
+Windows, applying Fluent design principles. Raft makes managing WSL distros on your
+Windows device easy.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="Debian13-cinnamon" src="https://github.com/user-attachments/assets/85dc0165-7b48-48fc-bbb7-f054a6167833" />
+
+About Debian - 2025 - https://www.debian.org
+
+Debian is a popular and freely available computer
+operating system (OS) that uses a Unix-like
+kernel-- typically Linux -- alongside other program
+components, many of which come from GNU Project. 
+Debian can be downloaded over the internet or, for
+a small charge, obtained on CD, DVD, Blu-ray disc or
+USB flash drive.
+
+About Cinnamon Desktop https://projects.linuxmint.com/cinnamon
+
+Cinnamon, forked from GNOME Shell, is the "shell" of
+Cinnamon. It provides the user interface such as 
+panels, hot corners, menus etc. The ui is
+written in JavaScript, while its core libraries
+are written in C. 
+
+Find More Here About WSL and Linux for Windows 11..
+
+https://github.com/vinberg88/opensuse
+
+ABOUT WSL for WINDOWS
+
+WSL stands for Windows Subsystem for Linux, a feature of Windows that
+allows users to run a Linux environment directly on their Windows
+machine without needing a separate virtual machine or dual-booting. 
+
+Regards Mattias Viberg - SWEDEN - Debian 13 - Cinnamon - X410 - Linux - Microsoft - Windows 11 - 2025
+
+---------------------------------------------
+
 LINUX MINT DEBIAN EDITION - How to install KDE 6 on Mint Debian via WSL - Windows 11 - X410 - Linux - 2025
 
 You can find Linux Mint DEBIAN for WSL here - https://github.com/sileshn/LinuxmintWSL2
