@@ -31,6 +31,75 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Debian 13 And Gnome Desktop - How to install Gnome 48 via Windows 11 - WSL - X410 - Debian - Youtube - 2025
+
+How to install Gnome 48 on Debian 13 - WSL - TEXT
+https://github.com/vinberg88/opensuse/blob/main/Debian13-Gnome.txt
+
+How to install Gnome 48 on Debian 13 - WSL - Movie
+https://www.youtube.com/watch?v=R-Hb_-RYbk0
+
+You can find Debian here via link or in Microsoft Store.
+https://apps.microsoft.com/detail/9msvkqc78pk6?hl=en-US&gl=US
+
+TOOLS that i USE for WSL and Debian 13
+
+X410 - Xserver for windows 11 - So you have a Console / Desktop TO See GNOME.
+Do you want to seamlessly use Linux GUI apps side by side with Windows
+apps? Simply start X410 and adjust a few settings; your Linux GUI
+apps then suddenly appear in Windows and you can use them like Windows 
+apps! It doesn't matter where your Linux GUI apps are actually
+running; it can be a full virtual machine, Docker container, WSL
+(Windows Subsystem for Linux) or whatever. As long as your Linux GUI
+apps support X-Window client protocols, you can use them in Windows.
+You can even securely use your Linux GUI apps running in a far remote
+server via any SSH client that supports X11 forwarding over the Internet.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL - Handel WSL image easy and Linux for WSL via
+This TOOL - Raft WSL Raft is a Windows Subsystem for
+Linux (WSL) distribution manager in native C#/XAML
+for Windows, applying Fluent design principles. Raft
+makes managing WSL distros on your Windows device easy.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="Debian13-Gnome" src="https://github.com/user-attachments/assets/d46dd529-af1a-429d-8235-46a594cea894" />
+
+About Debian - 2025 - https://www.debian.org
+
+Debian is a popular and freely available computer
+operating system (OS) that uses a Unix-like
+kernel-- typically Linux -- alongside other program
+components, many of which come from GNU Project. 
+Debian can be downloaded over the internet or, for
+a small charge, obtained on CD, DVD, Blu-ray disc or
+USB flash drive.
+
+About Gnome Desktop - 2025 - https://www.gnome.org
+
+Get things done with ease, comfort, and control.
+An easy and elegant way to use your 
+computer, GNOME is designed to help you 
+have the best possible computing experience. 
+Every aspect of GNOME has been crafted to fit 
+together as a harmonious whole, providing a 
+consistent and integrated experience. 
+Our attention to detail means a smooth and 
+polished product that lets you do the things you 
+want without getting in the way. 
+GNOME is satisfying to use and beautiful 
+to behold.
+
+Find More Here About WSL and Linux for Windows 11..
+
+https://github.com/vinberg88/opensuse
+
+Warm Regards Mattias Vinberg - Debian 13 - Gnome 48 - X410 - Microsoft - Windows 11 - SwEden - 2025 
+
+---------------------------------------------
+
 Debian13 And Cinnamon Desktop - WSL -  How to install via Windows 11 - Linux - X410 - Microsoft - 2025
 
 Updated 2025-11-24 - Updated 2025-11-24 - Updated 2025-11-24 - Updated 2025-11-24
