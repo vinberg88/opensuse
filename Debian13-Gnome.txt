@@ -1,20 +1,57 @@
-Debian 13 And Gnome 46 Desktop - How to install via Windows 11 - WSL - GWSL - 2024
+Debian 13 And Gnome Desktop - How to install Gnome 48 via Windows 11 - WSL - X410 - Debian - Youtube - 2025
 
-How to install Gnome 46 on Debian 13 - TEXT
+How to install Gnome 48 on Debian 13 - WSL - TEXT
 https://github.com/vinberg88/opensuse/blob/main/Debian13-Gnome.txt
 
-How to install Gnome 46 on Debian 13 - Movie
-https://www.youtube.com/watch?v=2up5k3N4kpw
+How to install Gnome 48 on Debian 13 - WSL - Movie
+https://www.youtube.com/watch?v=R-Hb_-RYbk0
 
-You can find Debian here or in Microsoft Store
+You can find Debian here via link or in Microsoft Store.
 https://apps.microsoft.com/detail/9msvkqc78pk6?hl=en-US&gl=US
 
-8888b.  888888 88""Yb 88    db    88b 88
- 8I  Yb 88__   88__dP 88   dPYb   88Yb88
- 8I  dY 88""   88""Yb 88  dP__Yb  88 Y88
-8888Y"  888888 88oodP 88 dP""""Yb 88  Y8 - Trixie 13 - Gnome - 2024
+TOOLS that i USE for WSL and Debian 13
 
-About Debian - 2024
+X410 - Xserver for windows 11 - So you have a Console / Desktop TO See GNOME.
+Do you want to seamlessly use Linux GUI apps side by side with Windows
+apps? Simply start X410 and adjust a few settings; your Linux GUI
+apps then suddenly appear in Windows and you can use them like Windows 
+apps! It doesn't matter where your Linux GUI apps are actually
+running; it can be a full virtual machine, Docker container, WSL
+(Windows Subsystem for Linux) or whatever. As long as your Linux GUI
+apps support X-Window client protocols, you can use them in Windows.
+You can even securely use your Linux GUI apps running in a far remote
+server via any SSH client that supports X11 forwarding over the Internet.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL - Handel WSL image easy and Linux for WSL via
+This TOOL - Raft WSL Raft is a Windows Subsystem for
+Linux (WSL) distribution manager in native C#/XAML
+for Windows, applying Fluent design principles. Raft
+makes managing WSL distros on your Windows device easy.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+
+          `.-::---..
+      .:++++ooooosssoo:.
+    .+o++::.      `.:oos+.
+   :oo:.`             -+oo:
+ `+o/`    .::::::-.    .++-` Media: Mattias Vinberg - Stockholm - Sweden - 2025
+`/s/    .yyyyyyyyyyo:   +o-`
+`so     .ss       ohyo` :s-: OS: DEBIAN Trixie 13 - 2025
+`s/     .ss  h  m  myy/ /s`` Desktop: Gnome 48
+`s:     `oo  s  m  Myy+-o:`
+`oo      :+sdoohyoydyso/.
+ :o.      .:////////++:
+ `/++        -:::::-
+  `++-
+   `/+- 
+     .+/.          
+       .:+-. 
+          `--.`` 
+
+About Debian - 2025 - https://www.debian.org
 
 Debian is a popular and freely available computer
 operating system (OS) that uses a Unix-like
@@ -24,7 +61,7 @@ Debian can be downloaded over the internet or, for
 a small charge, obtained on CD, DVD, Blu-ray disc or
 USB flash drive.
 
-About Gnome Desktop - 2024
+About Gnome Desktop - 2025 - https://www.gnome.org
 
 Get things done with ease, comfort, and control.
 An easy and elegant way to use your 
@@ -40,53 +77,23 @@ GNOME is satisfying to use and beautiful
 to behold.
 
 Find More Here About WSL and Linux for Windows 11..
-https://github.com/vinberg88/opensuse
 
-⢀⣴⠾⠻⢶⣦⠀
-⣾⠁⢠⠒⠀⣿⡁ Debian - The universal operating system
-⢿⡄⠘⠷⠚⠋⠀ https://www.debian.org/
-⠈⠳⣄⠀⠀    Mattias Viberg - SWEDEN 2024
+https://github.com/vinberg88/opensuse
 
 -------------------------------
 
-To upgrade Debian 12 (Bookworm) to Debian 13 (Trixie)
+Upgrade Debian 13 (Trixie) after install
 
 Type in Terminal....
 
 sudo apt update
 sudo apt full-upgrade
 
-Then change Modify your /etc/apt/sources.list file
-to point to the Debian 13 repositories. Replace all instances of "bookworm" with "trixie"
-
-sudo nano /etc/apt/sources.list
-
-deb http://deb.debian.org/debian trixie main
-deb http://deb.debian.org/debian trixie-updates main
-deb http://security.debian.org/debian-security trixie-security main
-deb http://ftp.debian.org/debian trixie-backports main
-
-Replace all instances of "bookworm" with "trixie"
-
-sudo apt update
-sudo apt full-upgrade
-
--------------------------------
-
-Paste in terminal
-
-sudo nano /etc/wsl.conf 
-
-and add
-
-[boot]
-systemd=true
-
 -------------------------------
 
 In terminal type: sudo nano ~/.bash_debian_desktop
 
-Paste this in terminal and save and quit.
+Paste this in terminal and save and quit nano.
 
 export XDG_SESSION_TYPE=x11
 export XDG_SESSION_CLASS=user
@@ -96,37 +103,37 @@ export LIBGL_ALWAYS_SOFTWARE=1
 
 -------------------------------
 
-Reboot Reboot Reboot....
+Reboot Reboot Reboot.... Debian Reboot Reboot Reboot.... Debian
 
 -------------------------------
 
-Config GWSL and Start from there - Linux Shell from GWSL!
+Install Hyfetch - like Neofetch but better =]
 
--------------------------------
-
-sudo apt install hyfetch
+sudo apt install hyfetch fastfetch -y
 
 Type in terminal: hyfetch
 
-And we are on Debian 13 - Trixie
+And we are on Debian 13 - Trixie =]
 
 -------------------------------
 
-sudo apt install task-gnome-desktop
+Lets install gnome desktop for Debian.
+
+sudo apt install task-gnome-desktop -y
 
 -------------------------------
 
-Install some basic programs:
+Install some basic programs for Debian:
 
 sudo apt install bash git npm wget curl dracut dbus* -y
 sudo apt install gdm3* -y
 sudo systemctl set-default graphical
 
-Always use gdm...
+Always use gdm for Gnome Desktop...
 
 -------------------------------
 
-Paste In Terminal - All
+Paste In Terminal for Debian 13 - All
 
 xdg-user-dirs-update
 sudo systemctl set-default multi-user.target
@@ -139,22 +146,54 @@ Install Google-Chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb -y
 
+-------------------------------
+
 Install Blanket if you Want! - Listen to Sound =]
 
 wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
-sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb -y
 
 -------------------------------
 
-Type this in terminal and put your user there - loginctl enable-linger user
+Install Gimp and Libre Office
+
+sudo apt install gimp libreoffice -y
 
 -------------------------------
 
-Reboot Reboot Reboot Debian 13
+Fix IP problem for X410. Cant find screen problem. Look for ip adress in windows terminal / PowerShell: ipconfig
+
+NOTE - Importent to look for ip. Last lines are IP-numbers for WSL.
+
+GO BACK TO Debian Terminal AND COPY AND PASTE THIS IN TERMINAL.
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.20.208.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed =] IF YOU SEE SOME RED TEXT DONT WORRY IT WORKS =]
 
 -------------------------------
 
-Time to start Terminal
+Type this in terminal and put your user there - sudo loginctl enable-linger user
+
+-------------------------------
+
+Reboot Reboot Reboot Debian 13 - Reboot Reboot Reboot Debian 13
+
+-------------------------------
+
+Time to start Gnome 48 via Debian 13 and Windows 11.
+
+NOTE: FIRST START x410 THEN YOU START Debian 13 terminal.
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
 
 Paste in terminal: . ~/.bash_debian_desktop
 
@@ -162,8 +201,13 @@ Start Desktop: dbus-launch gnome-session
 
 -------------------------------
 
-Regards,
-Mattias Viberg - SWEDEN 2024
+Warm Regards Mattias Vinberg - Debian 13 - Gnome 48 - X410 - Microsoft - Windows 11 - SwEden - 2025 
+
+⢀⣴⠾⠻⢶⣦⠀
+⣾⠁⢠⠒⠀⣿⡁ Debian - The universal operating system
+⢿⡄⠘⠷⠚⠋⠀ https://www.debian.org/
+⠈⠳⣄⠀⠀    Mattias Viberg - SWEDEN 2025
+
+Debian is a registered trademark of Software in the Public Interest, Inc.
 
 -------------------------------
-
