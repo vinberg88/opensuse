@@ -34,12 +34,15 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 Debian 13 And Gnome Desktop - How to install Gnome 48 via Windows 11 - WSL - X410 - Debian - Youtube - 2025
 
 How to install Gnome 48 on Debian 13 - WSL - TEXT
+
 https://github.com/vinberg88/opensuse/blob/main/Debian13-Gnome.txt
 
 How to install Gnome 48 on Debian 13 - WSL - Movie
+
 https://www.youtube.com/watch?v=R-Hb_-RYbk0
 
 You can find Debian here via link or in Microsoft Store.
+
 https://apps.microsoft.com/detail/9msvkqc78pk6?hl=en-US&gl=US
 
 TOOLS that i USE for WSL and Debian 13
