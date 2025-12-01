@@ -31,7 +31,7 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
-Ubuntu 25.10 and KDE 6 - Install KDE 6 via WSL - Ubuntu Resolute Raccoon - Windows 11 - Linux - X410 - 2025
+Ubuntu 26.04 and KDE 6 - Install KDE 6 via WSL - Ubuntu Resolute Raccoon - Windows 11 - Linux - X410 - 2025
 
 How to install KDE via Ubuntu 26.04 Resolute Raccoon - WSL - TEXT
 
