@@ -1,7 +1,7 @@
 Ubuntu 25.10 and KDE 6 - Install KDE 6 via WSL - Ubuntu Resolute Raccoon - Windows 11 - Linux - X410 - 2025
 
 How to install KDE via Ubuntu 26.04 Resolute Raccoon - WSL - TEXT
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu26.04-KDE.txt
 
 How to install KDE via Ubuntu 26.04 Resolute Raccoon - WSL - MOVIE
 https://www.youtube.com/watch?v=KEBweD-1kx4
@@ -290,3 +290,4 @@ Regards Mattias Vinberg - SwEden - KDE 6 - Ubuntu 26.04 Resolute Raccoon  - Linu
 © 2025 Canonical Ltd - Ubuntu and Canonical are registered trademarks of Canonical Ltd.
 
 ----------------------------------------------
+
