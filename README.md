@@ -31,6 +31,74 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Ubuntu 24.04 and BUDGIE - How to install BUDGIE via Windows 11 - WSL - X410 - Linux - YouTube - 2025
+
+Updated version of Ubuntu and BUDGIE DESKTOP 2025-12-01.
+
+You can find ubuntu 24.04 here via link or via Microsoft store.
+
+Link to WSL version - https://apps.microsoft.com/detail/9p7bdvkvnxz6?hl=sv-SE&gl=SE
+
+How to install Budgie Desktop via Windows 11 / Ubuntu 24.04 and WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu24.04-BUDGIE.txt
+
+How to install Budgie Desktop via Windows 11 / Ubuntu 24.04 and WSL - MOVIE
+
+https://www.youtube.com/watch?v=gDze-VHw_Cc
+
+TOOLS that i USE for WSL and Ubuntu 2025
+
+X410 - Xserver for windows 11 - So you have a Console / Desktop TO See GNOME.
+Do you want to seamlessly use Linux GUI apps side by side with Windows
+apps? Simply start X410 and adjust a few settings; your Linux GUI
+apps then suddenly appear in Windows and you can use them like Windows 
+apps! It doesn't matter where your Linux GUI apps are actually
+running; it can be a full virtual machine, Docker container, WSL
+(Windows Subsystem for Linux) or whatever. As long as your Linux GUI
+apps support X-Window client protocols, you can use them in Windows.
+You can even securely use your Linux GUI apps running in a far remote
+server via any SSH client that supports X11 forwarding over the Internet.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL - Handel WSL image easy and Linux for WSL via
+This TOOL - Raft WSL Raft is a Windows Subsystem for
+Linux (WSL) distribution manager in native C#/XAML
+for Windows, applying Fluent design principles. Raft
+makes managing WSL distros on your Windows device easy.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="Ubuntu24 04-BUDGIE" src="https://github.com/user-attachments/assets/24762810-4b61-49c9-807d-9d2eb8799d22" />
+
+About Ubuntu 24.04 - https://ubuntu.com/desktop/wsl - https://ubuntu.com
+
+Run your choice of Linux text editors, including vim, emacs, and nano.
+Install applications, compilers and libraries from the Ubuntu 
+repository, securely maintained by Canonical. Ubuntu is a
+Linux distribution derived from Debian and composed mostly
+of free and open-source software. Ubuntu is officially
+released in multiple editions: Desktop, Server, and Core
+for Internet of things devices and robots.
+
+ABOUT BUDGIE DESKTOP - 2025 - https://buddiesofbudgie.org
+
+Budgie Menu shows you all your installed applications,
+neatly organized into categories to improve discoverability,
+and with lightning fast application searching! No more
+diving into sub-menus to find the app you need. Make Budgie Your Own
+With our Budgie Desktop Settings application, you can make
+Budgie feel like home. Whether you want a dock or multiple
+panels, you can do it with just a few clicks. Budgie is
+available on a wide variety of operating systems, from Arch
+Linux to Ubuntu, and everything in between. Try it out today
+on the flavor of Linux of your choosing.
+
+Regards Mattias Vinberg - BUDGIE - Ubuntu 24.04 LTS - WSL - X410 - Windows 11 - Linux - 2025 - SWEDEN
+
+---------------------------------------------
+
 Ubuntu 26.04 and KDE 6 - Install KDE 6 via WSL - Ubuntu Resolute Raccoon - Windows 11 - Linux - X410 - 2025
 
 How to install KDE via Ubuntu 26.04 Resolute Raccoon - WSL - TEXT
