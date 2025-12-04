@@ -1,10 +1,38 @@
-Ubuntu 24.04 - BUDGIE - How to install BUDGIE Desktop via Windows 11 - WSL - GWSL - Linux - YouTube - 2024
+Ubuntu 24.04 and BUDGIE - How to install BUDGIE via Windows 11 - WSL - X410 - Linux - YouTube - 2025
+
+Updated version of Ubuntu and BUDGIE DESKTOP 2025-12-01.
+
+You can find ubuntu 24.04 here via link or via Microsoft store.
+Link to WSL version - https://apps.microsoft.com/detail/9p7bdvkvnxz6?hl=sv-SE&gl=SE
 
 How to install Budgie Desktop via Windows 11 / Ubuntu 24.04 and WSL - TEXT
 https://github.com/vinberg88/opensuse/blob/main/Ubuntu24.04-BUDGIE.txt
 
 How to install Budgie Desktop via Windows 11 / Ubuntu 24.04 and WSL - MOVIE
-https://www.youtube.com/watch?v=mKn5WuNLMFo
+https://www.youtube.com/watch?v=gDze-VHw_Cc
+
+TOOLS that i USE for WSL and Ubuntu 2025
+
+X410 - Xserver for windows 11 - So you have a Console / Desktop TO See GNOME.
+Do you want to seamlessly use Linux GUI apps side by side with Windows
+apps? Simply start X410 and adjust a few settings; your Linux GUI
+apps then suddenly appear in Windows and you can use them like Windows 
+apps! It doesn't matter where your Linux GUI apps are actually
+running; it can be a full virtual machine, Docker container, WSL
+(Windows Subsystem for Linux) or whatever. As long as your Linux GUI
+apps support X-Window client protocols, you can use them in Windows.
+You can even securely use your Linux GUI apps running in a far remote
+server via any SSH client that supports X11 forwarding over the Internet.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL - Handel WSL image easy and Linux for WSL via
+This TOOL - Raft WSL Raft is a Windows Subsystem for
+Linux (WSL) distribution manager in native C#/XAML
+for Windows, applying Fluent design principles. Raft
+makes managing WSL distros on your Windows device easy.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
 
                              ....             
               .',:clooo:  .:looooo:.
@@ -17,7 +45,7 @@ https://www.youtube.com/watch?v=mKn5WuNLMFo
  :ooooooooo,                        'ooool       
 'ooooooooooo.                        loooo.      OS: Ubuntu trixie/sid (noble) on Windows x86_64
 'ooooooooool                         coooo.      Kernel: 5.15.153.1-microsoft-standard-WSL2
- ,loooooooc.                        .loooo.      Windows 11 PRO Latest - 24H2
+ ,loooooooc.                        .loooo.      Windows 11 PRO Latest - 25H2
    .,;;;'.                          ;ooooc 
        ...                         ,ooool.
     .cooooc.              ..',,'.  .cooo.
@@ -27,10 +55,6 @@ https://www.youtube.com/watch?v=mKn5WuNLMFo
            .':loooooo;  ,oooooooooc
                ..';::c'  .;loooo:'
                              .
-
-You can find ubuntu 24.04.01 here or via Microsoft store.
-
-Link to WSL version - https://apps.microsoft.com/detail/9nz3klhxdjp5?hl=en-US&gl=US
 
 About Ubuntu 24.04 - https://ubuntu.com/desktop/wsl - https://ubuntu.com
 
@@ -42,7 +66,7 @@ of free and open-source software. Ubuntu is officially
 released in multiple editions: Desktop, Server, and Core
 for Internet of things devices and robots.
 
-ABOUT BUDGIE DESKTOP - 2024 - https://buddiesofbudgie.org
+ABOUT BUDGIE DESKTOP - 2025 - https://buddiesofbudgie.org
 
 Budgie Menu shows you all your installed applications,
 neatly organized into categories to improve discoverability,
@@ -59,10 +83,9 @@ on the flavor of Linux of your choosing.
 WANT MORE STUFF FOR WSL - GWSL - LINUX - WINDOWS 11 - LOOK HERE
           https://github.com/vinberg88/opensuse
 
-
 --------------------------------------------
 
-After install of Ubuntu 24.04 - Update all =]
+After install of Ubuntu 24.04 - Update all =] - 2025
 
 sudo apt update
 sudo apt upgrade
@@ -71,7 +94,7 @@ sudo apt upgrade
 
 Install some programs and setup GDM for BUDGIE - Ubuntu 24.04
 
-sudo apt install dbus* bash git npm wget curl pipx dracut -y
+sudo apt install dbus* bash git npm wget curl pipx dracut systemd pipewire* -y
 sudo service dbus start
 sudo apt install gdm3* -y
 sudo apt install gdm* -y
@@ -94,53 +117,48 @@ sudo apt install ./google-chrome-stable_current_amd64.deb -y
 
 --------------------------------------------
 
-Install Blanket if you Want! - Listen to Sounds.
-
-wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
-sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
-
---------------------------------------------
-
-Reboot Linux Reboot Linux Reboot Linux Reboot Linux - Ubuntu - 2024
-
-START GWSL SHELL - TERMINAL - BASH And CONFIG - TAKE AN EXTRA REBOOT!
-
---------------------------------------------
-
-Start from GWSL - Always start terminal from GWSL - Please do a reboot after setup
-
---------------------------------------------
-
 Save time by install firefox now via snap...
  
-sudo snap install firefox <-- recommended..
-
-or 
-
-sudo apt install firefox
+sudo snap install firefox
 
 --------------------------------------------
 
 Next install BUDGIE Desktop for Ubuntu - WSL - BUDGIE latest.
 
-sudo apt install ubuntu-budgie-desktop
-sudo apt install budgie*
+sudo apt install ubuntu-budgie-desktop -y
+sudo apt install budgie* -y
 
 NOTE: Select GDM3 if prompted in Console.
 
 -------------------------------
 
-Install some fonts For Ubuntu 24.04 LTS - Well take time....
+Install Gimp for Ubuntu and Budgie
 
-sudo apt install ttf-mscorefonts-installer
-
-Update all after installation .... Ubuntu 24.04 - BUDGIE DESKTOP.
-
-sudo fc-cache -f -v
+sudo apt install gimp -y
 
 -------------------------------
 
-Paste in Terminal and Press enter - BUDGIE - Ubuntu 24.04 LTS - 2024
+Fix IP problem for X410. Cant find screen problem. Look for ip adress in windows terminal / PowerShell: ipconfig
+
+NOTE - Importent to look for ip. Last lines are IP-numbers for WSL.
+
+GO BACK TO Ubuntu Terminal AND COPY AND PASTE THIS IN TERMINAL.
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.20.208.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed =] IF YOU SEE SOME RED TEXT DONT WORRY IT WORKS =]
+
+-------------------------------
+
+Paste in Terminal and Press enter - BUDGIE - Ubuntu 24.04 LTS - 2025
 
 xdg-user-dirs-update
 sudo systemctl set-default multi-user.target
@@ -180,11 +198,15 @@ sudo apt install daemonize <-- if not login as ROOT and install daemonize.
 
 -------------------------------
 
-Reboot Reboot Reboot Reboot Reboot - Ubuntu 24.04 LTS - 2024
+Reboot Reboot Reboot Reboot Reboot - Ubuntu 24.04 LTS - 2025
 
 -------------------------------
 
-Start BUDGIE Desktop via this line - Ubuntu 24.04 LTS - BUDGIE DESKTOP
+Start BUDGIE Desktop via this lines - Ubuntu 24.04 LTS - BUDGIE DESKTOP
+
+NOTE: FIRST START x410 THEN YOU START UBUNTU terminal.
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
 
 Copy and Paste: . ~/.bash_Ubuntu_desktop
 
@@ -194,6 +216,6 @@ Start Terminal or Desktop: budgie-desktop
 
 -------------------------------
 
-Regards Mattias Vinberg - BUDGIE - Ubuntu 24.04 LTS - WSL - GWSL - Windows 11 - Linux - 2024 - SWEDEN
+Regards Mattias Vinberg - BUDGIE - Ubuntu 24.04 LTS - WSL - X410 - Windows 11 - Linux - 2025 - SWEDEN
 
 --------------------------------------------
