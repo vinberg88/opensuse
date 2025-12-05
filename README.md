@@ -42,6 +42,7 @@ https://www.youtube.com/watch?v=qDibA89wOZ0
 Easy way to install fedora 43 use Raft WSL Tool. 
 
 To install fedora 43 via terminal - Powershell from microsoft - run: wsl --install FedoraLinux-43
+
 You’ll be prompted for a username, and then you’ll be ready to go.
 
 Tools that i USE for WSL - Microsoft - Linux - 2025
