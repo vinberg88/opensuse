@@ -3,10 +3,10 @@ Fedora 43 - WSL - How to install KDE 6 via Windows and Fedora 43 - X410 - Linux 
 ------------
 
 How to install KDE 6 via Fedora 43 - WSL - TEXT
-Comming Zone....
+https://github.com/vinberg88/opensuse/blob/main/Fedora43-KDE6.txt
 
 How to install KDE 6 via Fedora 43 - WSL - MOVIE
-Comming Zone....
+https://www.youtube.com/watch?v=qDibA89wOZ0
 
 --------------
 
@@ -266,3 +266,4 @@ Copy and paste This: dbus-launch startplasma-x11
 💖 Build with love in Stockholm for WSL - 2025 - Maintained by Mattias Vinberg
 
 ----------------------------------------------------------------
+
