@@ -31,6 +31,68 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Fedora 43 - WSL - How to install KDE 6 via Windows and Fedora 43 - X410 - Linux - YouTube - 2025
+
+How to install KDE 6 via Fedora 43 - WSL - TEXT
+https://github.com/vinberg88/opensuse/blob/main/Fedora43-KDE6.txt
+
+How to install KDE 6 via Fedora 43 - WSL - MOVIE
+https://www.youtube.com/watch?v=qDibA89wOZ0
+
+Easy way to install fedora 43 use Raft WSL Tool. 
+
+To install fedora 43 via terminal - Powershell from microsoft - run: wsl --install FedoraLinux-43
+You’ll be prompted for a username, and then you’ll be ready to go.
+
+Tools that i USE for WSL - Microsoft - Linux - 2025
+
+X410 - Xserver for windows 11 - So you have a Desktop.
+Do you want to seamlessly use Linux GUI apps side by side with Windows
+apps? Simply start X410 and adjust a few settings; your Linux GUI
+apps then suddenly appear in Windows and you can use them like Windows 
+apps! It doesn't matter where your Linux GUI apps are actually
+running; it can be a full virtual machine, Docker container, WSL
+(Windows Subsystem for Linux) or whatever. As long as your Linux GUI
+apps support X-Window client protocols, you can use them in Windows.
+You can even securely use your Linux GUI apps running in a far remote
+server via any SSH client that supports X11 forwarding over the Internet.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="Fedora43-KDE6" src="https://github.com/user-attachments/assets/36d444e0-5327-4472-bda1-ec5dfd9c1d51" />
+
+About FEDORA 43  https://fedoraproject.org
+
+If you want to test full iso - KDE 6 and Fedora 43 - https://fedoraproject.org/kde/
+
+Fedora Linux is a Linux distribution developed by the Fedora Project.
+It was originally developed in 2003 as a continuation of the Red Hat 
+Linux project. It contains software distributed under various free
+and open-source licenses and aims to be on the leading edge of open-source
+technologies. It is now the upstream source for CentOS Stream and Red Hat
+Enterprise Linux.
+
+What is KDE 6 Plasma - https://kde.org
+
+Use Plasma to surf the web; keep in touch with colleagues, friends
+and family; manage your files, enjoy music and videos; and get
+creative and productive at work. Do it all in a beautiful environment
+that adapts to your needs, and with the safety, privacy-protection and
+peace of mind that the best Free Open Source Software has to offer.
+KDE 6 Plasma is a Desktop for next life =)
+
+Regards Mattias Vinberg - FEDORA 43 - WSL - X410 - Windows 11 - Linux - Microsoft - Sweden - 2025
+
+💖 Build with love in Stockholm for WSL - 2025 - Maintained by Mattias Vinberg
+
+---------------------------------------------
+
 Ubuntu 24.04 and BUDGIE - How to install BUDGIE via Windows 11 - WSL - X410 - Linux - YouTube - 2025
 
 Updated version of Ubuntu and BUDGIE DESKTOP 2025-12-01.
