@@ -1,7 +1,7 @@
 Fedora 43 - How to install XFCE4 desktop via Fedora 43 - WSL - windows 11 - X410 - 2025
 
 How to install XFCE4 desktop on Fedora 43 - TEXT
-Comming Zone ******
+https://github.com/vinberg88/opensuse/blob/main/Fedora43-xfce4.txt
 
 How to install XFCE4 desktop on Fedora 43 - Movie 
 https://www.youtube.com/watch?v=p0FwOynveSc
@@ -244,3 +244,4 @@ MMMMMMMMMMM.                     MMMM
 Fedora is sponsored by Red Hat Linux - 2025
 
 ----------------------------------------------
+
