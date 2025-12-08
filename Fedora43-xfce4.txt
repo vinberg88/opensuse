@@ -1,0 +1,246 @@
+Fedora 43 - How to install XFCE4 desktop via Fedora 43 - WSL - windows 11 - X410 - 2025
+
+How to install XFCE4 desktop on Fedora 43 - TEXT
+Comming Zone ******
+
+How to install XFCE4 desktop on Fedora 43 - Movie 
+https://www.youtube.com/watch?v=p0FwOynveSc
+
+----------------------------------------------------------
+
+Easy way to install fedora 43 use Raft WSL Tool. 
+
+To install fedora 43 via terminal - Powershell from microsoft and run: wsl --install FedoraLinux-43
+You’ll be prompted for a username, and then you’ll be ready to go.
+
+-----------------------------------------------------------
+
+
+             .',;::::;,'.              
+         .';:cccccccccccc:;,.          
+      .;cccccccccccccccccccccc;.       
+    .:cccccccccccccccccccccccccc:.     
+  .;ccccccccccccc;.:dddl:.;ccccccc;.    
+ .:ccccccccccccc;OWMKOOXMWd;ccccccc:.  
+.:ccccccccccccc;KMMc;cc;xMMc;ccccccc:.  
+,cccccccccccccc;MMM.;cc;;WW:;cccccccc,  OS: Fedora Linux 43 (WSL) x86_64
+:cccccccccccccc;MMM.;cccccccccccccccc:  Host: Windows Subsystem for Linux - FedoraLinux-43 (2.5.10.0)
+:ccccccc;oxOOOo;MMM0OOk.;cccccccccccc:  Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+cccccc;0MMKxdd:;MMMkddc.;cccccccccccc;  Desktop: XFCE4 and Windows 11 Pro - 25H2
+ccccc;XM0';cccc;MMM.;cccccccccccccccc'  
+ccccc;MMo;ccccc;MMW.;ccccccccccccccc;   MEDIA: MATTIAS VINBERG - STOCKHOLM - SWEDEN - FEDORA 43
+ccccc;0MNc.ccc.xMMd;ccccccccccccccc;    
+cccccc;dNMWXXXWM0:;cccccccccccccc:,     
+cccccccc;.:odl:.;cccccccccccccc:,.      
+:cccccccccccccccccccccccccccc:'.        
+.:cccccccccccccccccccccc:;,..           
+  '::cccccccccccccc::;,.                
+                                        
+
+TOOLS that i USE for WSL and Fedora 43
+
+X410 - Xserver for windows 11 - So you have a Console / Desktop TO See GNOME.
+Do you want to seamlessly use Linux GUI apps side by side with Windows
+apps? Simply start X410 and adjust a few settings; your Linux GUI
+apps then suddenly appear in Windows and you can use them like Windows 
+apps! It doesn't matter where your Linux GUI apps are actually
+running; it can be a full virtual machine, Docker container, WSL
+(Windows Subsystem for Linux) or whatever. As long as your Linux GUI
+apps support X-Window client protocols, you can use them in Windows.
+You can even securely use your Linux GUI apps running in a far remote
+server via any SSH client that supports X11 forwarding over the Internet.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL - Handel WSL image easy and Linux for WSL via
+This TOOL - Raft WSL Raft is a Windows Subsystem for
+Linux (WSL) distribution manager in native C#/XAML
+for Windows, applying Fluent design principles. Raft
+makes managing WSL distros on your Windows device easy.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+                                        
+About Fedora 43 - https://fedoraproject.org
+
+Fedora is developed by the Fedora Project and sponsored by Red Hat. 
+It follows its own release schedule, with a new version approximately
+every six months. Fedora provides a modern Linux operating system utilizing
+many of the latest technologies. It is free for all users and
+supported via the Fedora community 2024. 
+
+About xfce4 -  https://www.xfce.org
+
+Xfce or XFCE4 (pronounced as four individual letters) is
+a free and open-source desktop environment for Linux and
+other Unix-like operating systems. Linux, FreeBSD, NetBSD,
+OpenBSD and GNU/Hurd. Xfce aims to be fast and 
+lightweight while still being visually appealing 
+and easy to use.
+
+You cand find more about WSL desktops here - Linux and Windows
+        
+         https://github.com/vinberg88/opensuse
+
+-----------------------------------
+
+Install Repos if you dont have that...
+
+sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+
+--------------------------------------------------------
+
+Copy and paste one by one in terminal - No stress - Fedora 32
+
+sudo dnf -y upgrade --refresh
+
+--------------------------------------------------------
+
+Install some basic programs.
+
+sudo dnf install bash wget curl git pipx lightdm systemd
+
+--------------------------------------------------------
+
+Install Hyfetch - like neofetch.
+
+pipx install hyfetch
+
+To test type hyfetch in terminal: hyfetch
+
+--------------------------------------------------------
+
+Time to install XFCE desktop for fedora 43
+
+sudo dnf install @xfce-desktop-environment
+
+--------------------------------------------------------
+
+Extra Programs for XFCE and Fedora 43
+
+sudo dnf install xfce*
+
+--------------------------------------------------------
+
+Install Google-Chrome - paste all under this paragraph in terminal for fedora 43
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm
+sudo yum update google-chrome-stable
+
+--------------------------------------------------------
+
+Install jgmenu and Gnome-Terminal.
+
+sudo dnf install jgmenu gnome-terminal
+
+--------------------------------------------------------
+
+Reboot Reboot Reboot Fedora 43 - Reboot Reboot Reboot Fedora 43
+
+--------------------------------------------------------
+
+Copy and paste in terminal - ALL - Fedora 43
+
+sudo systemctl set-default graphical.target
+sudo systemctl set-default multi-user.target
+sudo systemctl enable lightdm
+
+-------------------------------
+
+Install CODE Visual studio code - 2025 - MicroSoft
+
+wget https://www.knulla.org/scripts/code-1.95.3-1731513157.el8.x86_64.rpm
+sudo dnf5 install ./code-1.95.3-1731513157.el8.x86_64.rpm -y
+
+-------------------------------
+
+Install Gimp and Libre Office for Fedora 43
+
+sudo dnf install gimp libreoffice -y
+
+-------------------------------
+
+Fix IP problem for X410. Cant find screen problem. Look for ip adress in windows terminal / PowerShell: ipconfig
+
+NOTE - Importent to look for ip. Last lines are IP-numbers for WSL.
+
+GO BACK TO FEDORA 43 Terminal AND COPY AND PASTE THIS IN TERMINAL.
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.20.208.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed =] IF YOU SEE SOME RED TEXT DONT WORRY IT WORKS =]
+
+-------------------------------
+
+Type this in terminal and put your user there - sudo loginctl enable-linger user
+
+-------------------------------
+
+Type in terminal: sudo nano ~/.bash_ubuntu_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+--------------------------------------------------------
+
+Final install dbus for fedora 43
+
+sudo dnf install dbus*
+
+--------------------------------------------------------
+
+Reboot Reboot Reboot Fedora 43 - Reboot Reboot Reboot Fedora 43
+
+--------------------------------------------------------
+
+Time to start XFCE4 and Fedora 43 - Paste One by One!
+
+NOTE - FIRST START X410 THEN YOU START FEDORA 43 VIA TERMINAL
+
+Copy and paste This: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Paste in terminal: . ~/.bash_ubuntu_desktop
+
+Start Desktop: dbus-launch startxfce4
+
+----------------------------------------------
+ 
+Warm Regards Mattias Vinberg - XFCE4 - WSL - Windows 11 - Linux - X410 - SwEden 2025
+
+           .MMM..:MMMMMMM             
+          MMMMMMMMMMMMMMMMMM          
+          MMMMMMMMMMMMMMMMMMMM.       
+         MMMMMMMMMMMMMMMMMMMMMM       
+        ,MMMMMMMMMMMMMMMMMMMMMM:      
+        MMMMMMMMMMMMMMMMMMMMMMMM      
+  .MMMM'  MMMMMMMMMMMMMMMMMMMMMM      
+ MMMMMM    `MMMMMMMMMMMMMMMMMMMM.
+MMMMMMMM      MMMMMMMMMMMMMMMMMM . 
+MMMMMMMMM.       `MMMMMMMMMMMMM' MM.
+MMMMMMMMMMM.                     MMMM  
+`MMMMMMMMMMMMM.                 ,MMMMM.
+ `MMMMMMMMMMMMMMMMM.          ,MMMMMMMM.
+    MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM 
+      MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM: 
+         MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM  
+            `MMMMMMMMMMMMMMMMMMMMMMMM:  
+                ``MMMMMMMMMMMMMMMMM' 
+
+
+Fedora is sponsored by Red Hat Linux - 2025
+
+----------------------------------------------
