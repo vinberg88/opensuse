@@ -31,6 +31,67 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Fedora 43 - How to install XFCE4 desktop via Fedora 43 - WSL - windows 11 - X410 - 2025
+
+How to install XFCE4 desktop on Fedora 43 - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Fedora43-xfce4.txt
+
+How to install XFCE4 desktop on Fedora 43 - Movie 
+
+https://www.youtube.com/watch?v=p0FwOynveSc
+
+Easy way to install fedora 43 use Raft WSL Tool. 
+
+To install fedora 43 via terminal - Powershell from microsoft and run: wsl --install FedoraLinux-43
+You’ll be prompted for a username, and then you’ll be ready to go.
+
+<img width="1920" height="1080" alt="Fedora43-xfce4" src="https://github.com/user-attachments/assets/792ba46e-f4ff-41aa-9a0c-aaa4e9407c1f" />
+
+TOOLS that i USE for WSL and Fedora 43
+
+X410 - Xserver for windows 11 - So you have a Console / Desktop TO See GNOME.
+Do you want to seamlessly use Linux GUI apps side by side with Windows
+apps? Simply start X410 and adjust a few settings; your Linux GUI
+apps then suddenly appear in Windows and you can use them like Windows 
+apps! It doesn't matter where your Linux GUI apps are actually
+running; it can be a full virtual machine, Docker container, WSL
+(Windows Subsystem for Linux) or whatever. As long as your Linux GUI
+apps support X-Window client protocols, you can use them in Windows.
+You can even securely use your Linux GUI apps running in a far remote
+server via any SSH client that supports X11 forwarding over the Internet.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL - Handel WSL image easy and Linux for WSL via
+This TOOL - Raft WSL Raft is a Windows Subsystem for
+Linux (WSL) distribution manager in native C#/XAML
+for Windows, applying Fluent design principles. Raft
+makes managing WSL distros on your Windows device easy.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+                                        
+About Fedora 43 - https://fedoraproject.org
+
+Fedora is developed by the Fedora Project and sponsored by Red Hat. 
+It follows its own release schedule, with a new version approximately
+every six months. Fedora provides a modern Linux operating system utilizing
+many of the latest technologies. It is free for all users and
+supported via the Fedora community 2024. 
+
+About xfce4 -  https://www.xfce.org
+
+Xfce or XFCE4 (pronounced as four individual letters) is
+a free and open-source desktop environment for Linux and
+other Unix-like operating systems. Linux, FreeBSD, NetBSD,
+OpenBSD and GNU/Hurd. Xfce aims to be fast and 
+lightweight while still being visually appealing 
+and easy to use.
+
+Warm Regards Mattias Vinberg - XFCE4 - WSL - Windows 11 - Linux - X410 - SwEden - 2025
+
+---------------------------------------------
+
 Fedora 43 - WSL - How to install KDE 6 via Windows and Fedora 43 - X410 - Linux - YouTube - 2025
 
 How to install KDE 6 via Fedora 43 - WSL - TEXT
