@@ -3,7 +3,7 @@ Fedora 43 and Cinnamon - How to install Cinnamon via Windows and Fedora 43 - X41
 ======================================================================
 
 How to install Cinnamon Desktop via Fedora 43 - WSL - TEXT
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/Fedora43-Cinnamon.txt
 
 How to install Cinnamon Desktop via Fedora 43 - WSL - MOVIE
 https://www.youtube.com/watch?v=oys3egPZ_Hc
@@ -327,4 +327,5 @@ utilizing many of the latest technologies. It is free for all users
 and supported via the Fedora community.
 
 ----------------------------------------------
+
 
