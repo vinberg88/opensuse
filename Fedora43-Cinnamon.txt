@@ -1,0 +1,330 @@
+Fedora 43 and Cinnamon - How to install Cinnamon via Windows and Fedora 43 - X410 - Linux - YouTube - 2025
+
+======================================================================
+
+How to install Cinnamon Desktop via Fedora 43 - WSL - TEXT
+Comming Zone...
+
+How to install Cinnamon Desktop via Fedora 43 - WSL - MOVIE
+https://www.youtube.com/watch?v=oys3egPZ_Hc
+
+======================================================================
+
+Easy way to install fedora 43 use Raft WSL Tool or Powershell.
+
+To install fedora 43 via terminal. Open Powershell from microsoft and run: wsl --install FedoraLinux-43
+You’ll be prompted for a username, and then you’ll be ready to go. Or install from Raft WSL.
+
+======================================================================
+
+Tools that i USE for WSL - Microsoft - Linux - Windows 11 - 2025
+
+X410 - Xserver for windows 11 - So you have a Desktop.
+Do you want to seamlessly use Linux GUI apps side by side with Windows
+apps? Simply start X410 and adjust a few settings; your Linux GUI
+apps then suddenly appear in Windows and you can use them like Windows 
+apps! It doesn't matter where your Linux GUI apps are actually
+running; it can be a full virtual machine, Docker container, WSL
+(Windows Subsystem for Linux) or whatever. As long as your Linux GUI
+apps support X-Window client protocols, you can use them in Windows.
+You can even securely use your Linux GUI apps running in a far remote
+server via any SSH client that supports X11 forwarding over the Internet.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+
+             .',;::::;,'.                 
+         .';:cccccccccccc:;,.             
+      .;cccccccccccccccccccccc;.          OS: Fedora Linux 43 (WSL) x86_64
+    .:cccccccccccccccccccccccccc:.        Host: Windows Subsystem for Linux - FedoraLinux-43 (2.5.10.0)
+  .;ccccccccccccc;.:dddl:.;ccccccc;.      Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+ .:ccccccccccccc;OWMKOOXMWd;ccccccc:.     Linux Desktop: Cinnamon
+.:ccccccccccccc;KMMc;cc;xMMc;ccccccc:.    
+,cccccccccccccc;MMM.;cc;;WW:;cccccccc,    Media - Mattias Vinberg - Stockholm - Sweden - 2025
+:cccccccccccccc;MMM.;cccccccccccccccc:    
+:ccccccc;oxOOOo;MMM0OOk.;cccccccccccc:    Windows 11 Pro - 25H2 - Latest edition 
+cccccc;0MMKxdd:;MMMkddc.;cccccccccccc;    
+ccccc;XM0';cccc;MMM.;cccccccccccccccc'    
+ccccc;MMo;ccccc;MMW.;ccccccccccccccc;     
+ccccc;0MNc.ccc.xMMd;ccccccccccccccc;      
+cccccc;dNMWXXXWM0:;cccccccccccccc:,       
+cccccccc;.:odl:.;cccccccccccccc:,.        
+:cccccccccccccccccccccccccccc:'.          
+.:cccccccccccccccccccccc:;,..             
+  '::cccccccccccccc::;,.                  
+
+
+About Cinnamon Desktop - https://www.fedoraproject.org/spins/cinnamon
+
+Cinnamon is a Linux desktop which provides advanced innovative
+features and a traditional user experience. The desktop layout
+is similar to GNOME 2. The underlying technology is forked from
+GNOME Shell. The emphasis is put on making users feel at home
+and providing them with an easy to use and comfortable desktop
+experience. Cinnamon is a popular desktop alternative to
+GNOME 3 and this spin provides the option to quickly try and
+install this desktop. Cinnamon is a popular, modern Linux
+desktop environment developed by the Linux Mint team, offering
+a traditional, user-friendly interface (like Windows or older
+GNOME) with innovative features, modern effects, and extensive
+customization through themes, applets, and extensions, making
+it a favorite for users seeking a familiar yet powerful
+experience on Unix-like system.
+
+About Fedora and Red Hat Enterprise Linux.
+
+https://www.fedoraproject.org
+
+Fedora Linux is one of the world's most respected,
+influential, and innovative open-source operating
+systems. It serves as a dynamic platform for 
+hardware, clouds, and containers, enabling software
+developers and community members to build tailored
+solutions for their users. While the project is
+sponsored by the technology giant Red Hat 
+(now a subsidiary of IBM), it is governed and developed
+independently by The Fedora Project—a global community
+of volunteers and employed engineers working in unison.
+Fedora Linux is the operating system for those who want
+to stand on the frontline of technology. It is generally
+not the choice for someone who wants to install a computer
+once and forget about it for five years. It is the choice
+for the developer, the engineer, and the enthusiast who
+wants to experience the latest the open-source world
+has to offer, backed by the resources of the world's
+largest open-source company.
+
+Want more stuff for WSL look here. Diffrent desktops for Linux.
+
+https://github.com/vinberg88/opensuse
+
+Build, manage, and scale Windows Subsystem for Linux without
+guesswork. From your first distro install to enterprise
+governance, this guide bundles field-tested workflows,
+automation scripts, and deep dives so your Linux-on-Windows experience
+feels effortless. My page for WSL.
+
+https://vinberg88.github.io
+
+======================================================================
+
+LETS START INSTALLATION FEDORA 43 AND Cinnamon Desktop.
+
+======================================================================
+
+Install fastmirrors or Repos for Fedora 43
+
+Run this first
+
+sudo dnf check-update
+sudo dnf install dnf-utils
+sudo yum install sudo git nano wget bash
+
+Then do this..
+
+sudo nano /etc/dnf/dnf.conf
+
+Add the following line: max_parallel_downloads=10 and fastestmirror=True
+
+Like That..
+
+max_parallel_downloads=10
+fastestmirror=True
+
+--------------------------------------------------------
+
+Reboot Fedora 43 - Reboot Fedora 43 - Reboot Fedora 43
+
+--------------------------------------------------------
+
+Install Repos or extra packages for fedora 43...
+
+sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+
+--------------------------------------------------------
+
+Copy and paste in terminal - No stress - Fedora 43 update.
+
+sudo dnf -y upgrade --refresh
+
+------------------------------------------------------
+
+Install some missing programs - Copy and Paste in terminal for Rocky Linux 9
+
+sudo dnf install git wget curl nano bash pipx sudo dracut net-tools dbus-x11 --skip-broken --nobest
+
+------------------------------------------------------
+
+Install Hyfetch - Like Neofetch.
+
+Paste in Bash
+
+pipx install hyfetch
+pipx ensurepath
+
+Just restart terminal and test: hyfetch
+
+------------------------------------------------------
+
+Time to install Cinnamon Desktop on Fedora 43
+
+sudo dnf install cinnamon*
+
+sudo dnf install @cinnamon-desktop
+
+sudo dnf install gnome-terminal
+
+sudo dnf install gdm
+
+sudo systemctl enable gdm
+
+------------------------------------------------------
+
+Install Google-Chrome - paste all under this paragraph:
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm
+sudo yum update google-chrome-stable
+
+-------------------------------
+
+Fix IP problem for X410. Cant find screen problem. Look for ip adress in windows terminal / PowerShell: ipconfig
+
+NOTE - Importent to look for ip. Last lines are IP-numbers for WSL.
+
+GO BACK TO FEDORA 43 Terminal AND COPY AND PASTE THIS IN TERMINAL.
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.20.208.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed =] IF YOU SEE SOME RED TEXT DONT WORRY IT WORKS =]
+
+-------------------------------
+
+Install CODE Visual studio code - 2025 - MicroSoft
+
+wget https://www.knulla.org/scripts/code-1.95.3-1731513157.el8.x86_64.rpm
+sudo dnf5 install ./code-1.95.3-1731513157.el8.x86_64.rpm -y
+
+-------------------------------
+
+Install Gimp and Libre Office for Fedora 43
+
+sudo dnf install gimp libreoffice -y
+
+------------------------------------------------------
+
+Install BLANKET =] for Fedora 43 and Cinnamon
+
+Improve focus and increase your productivity by listening to
+different sounds. Blanket can also be used to help you to fall
+asleep in a noisy environment.
+
+wget https://www.swehub.com/blanket/blanket-0.8.0-1.noarch.rpm
+sudo dnf install ./blanket-0.8.0-1.noarch.rpm
+
+------------------------------------------------------
+
+Copy and Paste in Terminal for Fedora 43
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+
+------------------------------------------------------
+
+Type this in terminal and put your user there - sudo loginctl enable-linger user
+
+------------------------------------------------------
+
+Create this script via Terminal for fedora 43
+
+Type in terminal: sudo nano ~/.bash_fedora_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+--------------------------------------------------------
+
+Final install dbus for fedora 43
+
+sudo dnf install dbus*
+
+--------------------------------------------------------
+
+Reboot Reboot Reboot Fedora 43 - Reboot Reboot Reboot Fedora 43
+
+--------------------------------------------------------
+
+Time to start Cinnamon Desktop and Fedora 43 - Paste One by One!
+
+NOTE - FIRST START X410 THEN YOU START FEDORA 43 VIA TERMINAL
+
+Copy and paste This: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Paste in terminal: . ~/.bash_fedora_desktop
+
+Start Desktop: dbus-launch cinnamon-session
+
+----------------------------------------------
+ 
+Warm Regards Mattias Vinberg - Fedora - Cinnamon - WSL - Windows 11 - Linux - X410 - SwEden - 2025
+
+           .MMM..:MMMMMMM             
+          MMMMMMMMMMMMMMMMMM          
+          MMMMMMMMMMMMMMMMMMMM.       
+         MMMMMMMMMMMMMMMMMMMMMM       
+        ,MMMMMMMMMMMMMMMMMMMMMM:      
+        MMMMMMMMMMMMMMMMMMMMMMMM      
+  .MMMM'  MMMMMMMMMMMMMMMMMMMMMM      
+ MMMMMM    `MMMMMMMMMMMMMMMMMMMM.
+MMMMMMMM      MMMMMMMMMMMMMMMMMM . 
+MMMMMMMMM.       `MMMMMMMMMMMMM' MM.
+MMMMMMMMMMM.                     MMMM  
+`MMMMMMMMMMMMM.                 ,MMMMM.
+ `MMMMMMMMMMMMMMMMM.          ,MMMMMMMM.
+    MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM 
+      MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM: 
+         MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM  
+            `MMMMMMMMMMMMMMMMMMMMMMMM:  
+                ``MMMMMMMMMMMMMMMMM' 
+
+
+Fedora is sponsored by Red Hat Linux and IBM - 2025
+
+Relationship between Fedora and RHEL - Red Hat Enterprise Linux
+
+Red Hat Enterprise Linux (RHEL) and Fedora both are open source operating
+systems. They are related projects, with Fedora being "upstream" of Red
+Hat Enterprise Linux. Whereas Fedora is a community-supported
+project suitable for different kinds of users, Red Hat Enterprise
+Linux is enterprise business-oriented software supported via commercial
+subscription options.
+
+Fedora is developed by the Fedora Project and sponsored by Red Hat.
+It follows its own release schedule, with a new version approximately
+every six months. Fedora provides a modern Linux operating system
+utilizing many of the latest technologies. It is free for all users
+and supported via the Fedora community.
+
+----------------------------------------------
+
