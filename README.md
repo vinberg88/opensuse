@@ -31,6 +31,100 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Fedora 43 and Cinnamon - How to install Cinnamon via Windows and Fedora 43 - X410 - Linux - YouTube - 2025
+
+How to install Cinnamon Desktop via Fedora 43 - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Fedora43-Cinnamon.txt
+
+How to install Cinnamon Desktop via Fedora 43 - WSL - MOVIE
+
+https://www.youtube.com/watch?v=oys3egPZ_Hc
+
+Easy way to install fedora 43 use Raft WSL Tool or Powershell.
+
+To install fedora 43 via terminal. Open Powershell from microsoft and run: wsl --install FedoraLinux-43
+You’ll be prompted for a username, and then you’ll be ready to go. Or install from Raft WSL.
+
+Tools that i USE for WSL - Microsoft - Linux - Windows 11 - 2025
+
+X410 - Xserver for windows 11 - So you have a Desktop.
+Do you want to seamlessly use Linux GUI apps side by side with Windows
+apps? Simply start X410 and adjust a few settings; your Linux GUI
+apps then suddenly appear in Windows and you can use them like Windows 
+apps! It doesn't matter where your Linux GUI apps are actually
+running; it can be a full virtual machine, Docker container, WSL
+(Windows Subsystem for Linux) or whatever. As long as your Linux GUI
+apps support X-Window client protocols, you can use them in Windows.
+You can even securely use your Linux GUI apps running in a far remote
+server via any SSH client that supports X11 forwarding over the Internet.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="Fedora43-Cinnamon" src="https://github.com/user-attachments/assets/34406b4d-c1f3-47fb-9c87-3021ab75ad2f" />
+
+About Cinnamon Desktop - https://www.fedoraproject.org/spins/cinnamon
+
+Cinnamon is a Linux desktop which provides advanced innovative
+features and a traditional user experience. The desktop layout
+is similar to GNOME 2. The underlying technology is forked from
+GNOME Shell. The emphasis is put on making users feel at home
+and providing them with an easy to use and comfortable desktop
+experience. Cinnamon is a popular desktop alternative to
+GNOME 3 and this spin provides the option to quickly try and
+install this desktop. Cinnamon is a popular, modern Linux
+desktop environment developed by the Linux Mint team, offering
+a traditional, user-friendly interface (like Windows or older
+GNOME) with innovative features, modern effects, and extensive
+customization through themes, applets, and extensions, making
+it a favorite for users seeking a familiar yet powerful
+experience on Unix-like system.
+
+About Fedora and Red Hat Enterprise Linux.
+
+https://www.fedoraproject.org
+
+Fedora Linux is one of the world's most respected,
+influential, and innovative open-source operating
+systems. It serves as a dynamic platform for 
+hardware, clouds, and containers, enabling software
+developers and community members to build tailored
+solutions for their users. While the project is
+sponsored by the technology giant Red Hat 
+(now a subsidiary of IBM), it is governed and developed
+independently by The Fedora Project—a global community
+of volunteers and employed engineers working in unison.
+Fedora Linux is the operating system for those who want
+to stand on the frontline of technology. It is generally
+not the choice for someone who wants to install a computer
+once and forget about it for five years. It is the choice
+for the developer, the engineer, and the enthusiast who
+wants to experience the latest the open-source world
+has to offer, backed by the resources of the world's
+largest open-source company.
+
+Want more stuff for WSL look here. Diffrent desktops for Linux.
+
+https://github.com/vinberg88/opensuse
+
+Build, manage, and scale Windows Subsystem for Linux without
+guesswork. From your first distro install to enterprise
+governance, this guide bundles field-tested workflows,
+automation scripts, and deep dives so your Linux-on-Windows experience
+feels effortless. My page for WSL.
+
+https://vinberg88.github.io
+
+Warm Regards Mattias Vinberg - Fedora - Cinnamon - WSL - Windows 11 - Linux - X410 - SwEden - 2025
+
+---------------------------------------------
+
 Fedora 43 - How to install XFCE4 desktop via Fedora 43 - WSL - windows 11 - X410 - 2025
 
 How to install XFCE4 desktop on Fedora 43 - TEXT
