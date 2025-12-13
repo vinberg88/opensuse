@@ -1,13 +1,35 @@
-NixOS - How To install KDE 6 via NixOS 24.11 and Windows 11 - WSL - GWSL - Linux - 2024
+NixOS and KDE 6 - How To install KDE 6 via NixOS and Windows 11 - WSL - Linux - YouTube - GitHub - 2025
+
+---------
 
 How to install KDE 6 via NIXOS - WSL - TEXT
-https://github.com/vinberg88/opensuse/blob/main/NIXOS-KDE-6.txt
+Comming Zone...
 
 How to install KDE 6 via NIXOS - WSL - MOVIE
-https://www.youtube.com/watch?v=MJyIkZpSW2c
+https://www.youtube.com/watch?v=OptlWSuKHSw
 
-You can find NixOS here For WSL - You will update to NIXOS 24.11
-https://github.com/nix-community/NixOS-WSL/releases/tag/2311.5.3
+You can find NixOS here For WSL HERE - https://github.com/nix-community/NixOS-WSL
+
+Tools that i USE for WSL - NixOS - Microsoft - Linux - Windows 11 - KDE 6 - 2025
+
+X410 - Xserver for windows 11 - So you have a Desktop.
+Do you want to seamlessly use Linux GUI apps side by side with Windows
+apps? Simply start X410 and adjust a few settings; your Linux GUI
+apps then suddenly appear in Windows and you can use them like Windows 
+apps! It doesn't matter where your Linux GUI apps are actually
+running; it can be a full virtual machine, Docker container, WSL
+(Windows Subsystem for Linux) or whatever. As long as your Linux GUI
+apps support X-Window client protocols, you can use them in Windows.
+You can even securely use your Linux GUI apps running in a far remote
+server via any SSH client that supports X11 forwarding over the Internet.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
 
 
           ▗▄▄▄       ▗▄▄▄▄    ▄▄▄▖
@@ -32,7 +54,7 @@ https://github.com/nix-community/NixOS-WSL/releases/tag/2311.5.3
          ▝▀▀▀    ▀▀▀▀▘       ▀▀▀▘
 
 
-About NixOS 24.11 - https://nixos.org/explore
+About NixOS - https://nixos.org - LINUX - WSL
 
 Nix is a tool that takes a unique approach to package
 management and system configuration. Learn how to make
@@ -51,159 +73,344 @@ simplify system administration tasks and reduce
 maintenance overhead. If you want to try Linux
 use other sort =)
 
-About KDE 6 Plasma - https://nixos.org/explore
+About KDE Desktop - https://kde.org
 
-KDE Plasma 6 is the latest major release of the popular
-KDE Plasma desktop environment for Linux-based operating
-systems. It was released in February 2024 and brings
-a number of improvements and refinements over Plasma 5.
-KDE Plasma 6 is a solid upgrade that builds on the strengths
-of Plasma 5. It's not a radical departure, but rather
-a refinement of the existing experience. The switch to
-Wayland is a major improvement, and the performance 
-enhancements are welcome. The new default settings may take
-some getting used to for existing users, but they are designed
-to make Plasma more accessible to newcomers.
+KDE is an international team co-operating on 
+development and distribution of Free, Open
+Source Software for desktop and portable
+computing. Our community has developed a
+wide variety of applications for communication, 
+work, education and entertainment. We have a
+strong focus on finding innovative solutions to
+old and new problems, creating a vibrant, open
+atmosphere for experimentation. KDE is The 
+next generation desktop for Linux. Use KDE
+software to surf the web, keep in touch with
+colleagues, friends and family, manage your
+files, enjoy music and videos; and get creative
+and productive at work. The KDE community develops
+and maintains more than 200 applications
+which run on any Linux desktop, and often
+other platforms too.
 
-Find more stuff here for WSL and Windows 11 via WSL - GWSL - Linux
+Find more stuff here for WSL and Windows 11 via WSL - Diffrent Desktops - Linux
+
 https://github.com/vinberg88/opensuse
 
-------------------------------------------------------------------------
+Want more for WSL go here - My Page - https://vinberg88.github.io
 
-Get NixOS for WSL - You will update to latest so dont worry.
+Build, manage, and scale Windows Subsystem for Linux without
+guesswork. From your first distro install to enterprise
+governance, this guide bundles field-tested workflows,
+automation scripts, and deep dives so your Linux-on-Windows
+experience feels effortless.
 
-Get the nixos-wsl-legacy.tar.gz release - https://github.com/nix-community/NixOS-WSL/releases/tag/2311.5.3
+--------------------------------------
 
-------------------------------------------------------------------------
+NOW LETS START INSTALL OF NIXOS AND KDE 6 FOR WSL - "Windows Subsystem for Linux"
 
-Install it and go to your dowbload dir and run this in PowerShell.
+--------------------------------------
 
-wsl --import NixOS .\NixOS\ .\nixos-wsl-legacy.tar.gz --version 2
+First thing you need to do is copy this file to C:\Users\yourusername
 
-------------------------------------------------------------------------
+1. Download this file from proton: https://drive.proton.me/urls/G602NV0DFG#Rn5D1Tny3TpQ
 
-Type this so its run under installation
+1. Open explorer
 
-sudo /nix/var/nix/profiles/system/activate
+2. Copy file
 
-------------------------------------------------------------------------
+3. Paste it under C:\Users\yourusername <-- username is not your username =]
 
-Open a Console and type this.
+Its easy, use Explorer and copy and past - DONE.
+
+--------------------------------------
+
+Open NIXOS terminal and add
+
+NOTE THIS IS MAYBE DONE.......
+
+sudo nano /etc/wsl.conf
+
+[boot]
+systemd=true
+
+--------------------------------------
+
+Add below files for more memory for NixOS and setup username and KDE6 - 2025
 
 sudo nano /etc/nixos/configuration.nix
 
-Remove line in Bash: wsl.nativeSystemd = false;
+Copy and paste in File.
 
-change version to 24.11
+# Edit this configuration file to define what should be installed on
+# your system. Help is available in the configuration.nix(5) man page, on
+# https://search.nixos.org/options and in the NixOS manual (`nixos-help`).
 
-------------------------------------------------------------------------
+# NixOS-WSL specific options are documented on the NixOS-WSL repository:
+# https://github.com/nix-community/NixOS-WSL
 
-Update NIXOS to 24.11 - Latest Version.
+{ config, lib, pkgs, ... }:
 
-sudo nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixos
+{
+  imports = [
+    # include NixOS-WSL modules
+    <nixos-wsl/modules>
+];
+
+  users.users.erebor = {
+  isNormalUser = true;
+  description = "Mattias Vinberg";
+  extraGroups = [ "wheel" "networkmanager" ];
+  shell = pkgs.bash;  # eller pkgs.bash, pkgs.fish pkgs.zsh – välj favoriten
+  password = "kuken";  # funkar, men mindre säkert
+  # passwordFile = "/etc/nixos/mattias.pass";  # säkrare alternativ
+};
+
+  wsl.enable = true;
+  wsl.defaultUser = "erebor";
+  networking.hostName = "hosts";
+  
+   services.xserver.enable = true;
+   services.xserver.displayManager.sddm.enable = true;
+   services.xserver.desktopManager.plasma6.enable = true;
+
+  # För WSLg (Windows 11) behövs ofta detta:
+   services.xserver.videoDrivers = [ "modesetting" ];
+
+  # Enable DBUS
+  services.dbus.enable = true;
+
+  # Enable systemd-resolved
+  services.resolved.enable = true;
+
+    # Install KDE programs
+    environment.systemPackages = with pkgs; [
+    pkgs.gnome-terminal
+    nano
+    wget
+    git
+    gnupg
+    pinentry
+    kdePackages.discover
+    kdePackages.kcalc
+    kdePackages.kcharselect
+    kdePackages.kclock
+    kdePackages.kcolorchooser
+    kdePackages.kolourpaint
+    kdePackages.ksystemlog
+    kdePackages.sddm-kcm
+    vlc
+    wayland-utils
+    wl-clipboard
+    kdePackages.konsole
+    kdePackages.dolphin
+    kdePackages.kcalc
+    tre-command
+    zoxide
+    libnotify
+    hunspellDicts.cs-cz
+    ffmpeg
+  ];
+
+  # This value determines the NixOS release from which the default
+  # settings for stateful data, like file locations and database versions
+  # on your system were taken. It's perfectly fine and recommended to leave
+  # this value at the release version of the first install of this system.
+  # Before changing this value read the documentation for this option
+  # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
+  system.stateVersion = "25.05"; # Did you read the comment?
+  nix.settings.download-buffer-size = 468435456; # 558 MB
+  programs.zsh.enable = true;
+
+}
+
+------------------------------------
+
+Update all and nixos-rebuild switch - KDE 6 AND NIXOS.
+
+sudo nix-channel --add https://nixos.org/channels/nixos-25.05 nixos
+sudo nix-channel --add https://github.com/nix-community/NixOS-WSL/archive/refs/heads/release-25.05.tar.gz nixos-wsl
 sudo nix-channel --update
-sudo nixos-rebuild switch --upgrade
+sudo nixos-rebuild switch
 
-------------------------------------------------------------------------
+--------------------------------------
 
-Install git and some other programs for KDE 6
+NIXOS - Reboot Reboot Reboot Reboot Reboot - NIXOS
 
-It take some Time.. Just Wait!
+To restart nixos type this in terminal: sudo reboot
 
-nix-env -iA nixos.git     - 53.18 MiB download, 119.48 MiB unpacked
-nix-env -iA nixos.hyfetch - 1.80 MiB download, 14.05 MiB unpacked
-nix-shell -p kdePackages.plasma-workspace - 1028.37 MiB download, 2834.11 MiB unpacked
-nix-shell -p kdePackages.sddm      - 3.49 MiB download, 5.62 MiB unpacked
-nix-shell -p kdePackages.full      - 74.62 MiB download, 232.35 MiB unpacked
-nix-env -iA nixos.kdePackages.kwin - 188.33 MiB download, 195.40 MiB unpacked
+------------------------------------
 
-You can find many programs here for NIX OS
-https://search.nixos.org/packages?channel=unstable
+Install some programs for NIXOS and KDE 6
 
-------------------------------------------------------------------------
+Copy and paste ALL in Terminal.
 
-Lets see where we are =]
+nix-env -iA nixos.update-systemd-resolved
+nix-env -iA nixos.git
+nix-env -iA nixos.gitFull
+nix-env -iA nixos.gitMinimal
+nix-env -iA nixos.gitSVN
+nix-env -iA nixos.home-manager
+nix-env -iA nixos.flake-edit
+nix-env -iA nixos.flake-checker
+nix-env -iA nixos.zsh
+nix-env -iA nixos.dbus
+nix-env -iA nixos.systemdUkify
+nix-env -iA nixos.justbuild
+nix-env -iA nixos.just
+nix-env -iA nixos.xorg.xorgserver
+nix-env -iA nixos.xorg.xf86inputevdev
+nix-env -iA nixos.xorg.xf86inputsynaptics
+nix-env -iA nixos.xorg.xf86inputlibinput
+nix-env -iA nixos.xorg.xf86videointel
+nix-env -iA nixos.xorg.xf86videoati
+nix-env -iA nixos.xorg.xf86videonouveau
 
-Type in Consol: hyfetch
+--------------------------------------
 
-------------------------------------------------------------------------
+Install flakes for NixOS - You can use it later - KDE 6
 
-Open this in terminal - No stress!
+nix develop github:TophC7/dot.nix --extra-experimental-features "flakes nix-command"
 
-sudo nano /etc/nixos/configuration.nix
+HOMEMANGER IS INSTALLD AND FLASKES =)
 
-And add this lines to config file under wsl.defaultUser = "nixos";
+--------------------------------------
 
-services.xserver.enable = true;
-
-services.xserver.displayManager.sddm.enable = true;
-services.xserver.desktopManager.plasma6.enable = true;
-
-services.xserver.displayManager.defaultSession = "plasmax11";
-
-------------------------------------------------------------------------
-
-Run this in Terminal/Bash
+Rebuild DISRO for NixOS and KDE6.
 
 sudo nixos-rebuild switch
 
-Just wait it take some time...
+--------------------------------------
+
+Fix IP problem X410. Cant find screen problems. Look ip adress in windows terminal / PowerShell: ipconfig
+
+NOTE: open Powershell and type: ipconfig - Last lines is WSL ip.
+
+LIKE THIS..
+
+Ethernet adapter vEthernet (WSL (Hyper-V firewall)):
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe88::41C6:b18a:da60:7336%32
+   IPv4 Address. . . . . . . . . . . : 188.20.208.1
+   Subnet Mask . . . . . . . . . . . : 255.255.240.0
+   Default Gateway . . . . . . . . . :
+
+GO BACK TO NIXOS TERMINAL AND COPY AND PASTE THIS.....
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.20.208.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed =] If you see some red text dont worry it works any way.
+
+------------------------------------------------
+
+TEST SO IP IS CHANGED - THIS IS IMPORTEN FOR WSL TO WORK.
+
+Copy and PASTE in terminal: sudo cat /etc/resolv.conf
+
+nameserver 172.20.208.1 <-- if you se this all works =] Your ip there...
+
+------------------------------------------------
+
+Install FIREFOX for NIXOS - Freeware web browser developed by FIREFOX
+
+IT TAKE SOME TIME TO INSTALL.
+
+nix-env -iA nixos.firefox-unwrapped
+
+------------------------------------------------
+
+Install gimp For NIXOS and KDE 6
+
+nix-env -iA nixos.gimp3-with-plugins
+
+------------------------------------------------
+
+Install some programs for KDE 6 and NixOS
+
+nix-env -iA nixos.kdePackages.plasma-workspace
+nix-env -iA nixos.kdePackages.sddm
+nix-env -iA nixos.kdePackages.full 
+nix-env -iA nixos.kdePackages.kwin
 
 ------------------------------------
 
-Reboot Reboot Reboot Reboot Reboot
+Install Hyfetch - Like Neofetch but more GAY =]
+
+nix-env -iA nixos.hyfetch
+nix-env -iA nixos.fastfetch
+
+Lets see where we are in NIXOS =]
+
+Type in Consol: hyfetch
+
+------------------------------------------------
+
+Install LibreOffice for Nixos and KDE 6
+
+Comprehensive, professional-quality productivity suite, a variant of openoffice.org
+
+nix-env -iA nixos.libreoffice-qt-fresh
+
+------------------------------------------------
+
+RUN THIS: sudo nixos-rebuild switch
+
+--------------------------------------
+
+NIXOS - Reboot Reboot Reboot Reboot Reboot - NIXOS
 
 ------------------------------------
 
-Start GWSL and run config. Start later from Shell in GWSL.
+Time to start KDE 6 via NixOS and WSL - 2025
 
-( always start from GWSL shell / bash / Console / terminal )
+NOTE FIRST START X410 THEN YOU START NIXOS TERMINAL.
 
-------------------------------------
+Copy and paste in Terminal - all
 
-Reboot Reboot Reboot Reboot Reboot
+export DISPLAY=$(grep -m 1 nameserver /etc/resolv.conf | awk '{print $2}'):0
+export LIBGL_ALWAYS_INDIRECT=1
+export QT_XCB_GL_INTEGRATION=none
 
-Dont forgett to start Bash from GWSL!
+Copy and paste in Bash: startplasma-x11
 
-------------------------------------
+IT TAKE SOME TIME TO START. JUST WAIT 1 min or 2 min.
 
-Type in terminal: sudo nano ~/.bash_NixOS_desktop
-
-Paste this in terminal and save:
-
-export XDG_SESSION_TYPE=x11
-export XDG_SESSION_CLASS=user
-export GDK_BACKEND=x11
-
-export LIBGL_ALWAYS_SOFTWARE=1
+PASSWORD FOR NIXOS AND KDE 6 IS "kuken" IF YOU NEED IT =]
 
 ------------------------------------
 
-Reboot Reboot Reboot Reboot Reboot
+Regards Mattias Vinberg - NixOS - KDE 6 - SweDen - WSL - X410 - Linux - Microsoft - 2025 
 
-Dont forgett to start Bash from GWSL!
+          ▗▄▄▄       ▗▄▄▄▄    ▄▄▄▖
+          ▜███▙       ▜███▙  ▟███▛
+           ▜███▙       ▜███▙▟███▛ 
+            ▜███▙       ▜██████▛ 
+     ▟█████████████████▙ ▜████▛     ▟▙ 
+    ▟███████████████████▙ ▜███▙    ▟██▙ 
+           ▄▄▄▄▖           ▜███▙  ▟███▛
+          ▟███▛             ▜██▛ ▟███▛
+         ▟███▛               ▜▛ ▟███▛
+▟███████████▛                  ▟██████████▙
+▜██████████▛                  ▟███████████▛ 
+      ▟███▛ ▟▙               ▟███▛
+     ▟███▛ ▟██▙             ▟███▛
+    ▟███▛  ▜███▙           ▝▀▀▀▀
+    ▜██▛    ▜███▙ ▜██████████████████▛
+     ▜▛     ▟████▙ ▜████████████████▛
+           ▟██████▙       ▜███▙
+          ▟███▛▜███▙       ▜███▙
+         ▟███▛  ▜███▙       ▜███▙
+         ▝▀▀▀    ▀▀▀▀▘       ▀▀▀▘
+
+MEDIA: MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2025 - NIXOS & WSL
 
 ------------------------------------
-
-Time to start KDE 6 via NixOS 24.11
-
-IMPORTANT! - dont use this first
-This is just if you have problems to start GWSL xServer
-
-export DISPLAY=$(route.exe print | grep 0.0.0.0 | head -1 | awk '{print $4}'):0.0
-
-------------------------------------------------------------------------
-
-USE THIS TO START KDE 6 VIA NixOS 24.11 - FIRST!
-
-Copy and paste in Bash: . ~/.bash_NixOS_desktop
-
-Copy and paste in Bash: dbus-launch startplasma-x11
-
-------------------------------------------------------------------------
-
-Best Regards,
-Mattias Vinerg - NixOS - KDE 6 - SweDen - WSL - GWSL - 2024 
-
-------------------------------------------------------------------------
-
