@@ -1,0 +1,354 @@
+PARROT OS 7 and KDE 6 - How To install KDE 6 via ParrotOS 7 and Windows 11 - WSL - Linux - YouTube - GitHub - 2025
+
+How to install KDE 6 via PARROT OS 7 - WSL - TEXT
+Comming Zone...
+
+How to install KDE 6 via PARROT OS 7 - WSL - MOVIE
+Comming Zone...
+
+You can find PARROT OS here For WSL HERE - https://parrotsec.org/download/
+
+DOWNLOAD parrot-core_6.4.wsl for wsl. We will update to Parrot 7.
+
+Tools that i USE for WSL - PARROT OS 7 - Microsoft - Linux - Windows 11 - KDE 6 - 2025
+
+X410 - Xserver for windows 11 - So you have a Desktop.
+Do you want to seamlessly use Linux GUI apps side by side with Windows
+apps? Simply start X410 and adjust a few settings; your Linux GUI
+apps then suddenly appear in Windows and you can use them like Windows 
+apps! It doesn't matter where your Linux GUI apps are actually
+running; it can be a full virtual machine, Docker container, WSL
+(Windows Subsystem for Linux) or whatever. As long as your Linux GUI
+apps support X-Window client protocols, you can use them in Windows.
+You can even securely use your Linux GUI apps running in a far remote
+server via any SSH client that supports X11 forwarding over the Internet.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+
+  `:oho/-`                                 
+`mMMMMMMMMMMMNmmdhy-                       
+ dMMMMMMMMMMMMMMMMMMs`                     
+ +MMsohNMMMMMMMMMMMMMm/                    
+ .My   .+dMMMMMMMMMMMMMh.                  
+  +       :NMMMMMMMMMMMMNo                 
+           `yMMMMMMMMMMMMMm:               
+             /NMMMMMMMMMMMMMy`             
+              .hMMMMMMMMMMMMMN+            Desktop for Parrot Security 7.0 - KDE 6.3.6
+                  ``-NMMMMMMMMMd-          OS: Parrot Security 7.0 (echo) x86_64
+                     /MMMMMMMMMMMs`        Host: Windows Subsystem for Linux - parrot (2.5.10.0)
+                      mMMMMMMMsyNMN/       Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+                      +MMMMMMMo  :sNh.     Windows 11 Latest PRO edition 
+                      `NMMMMMMm     -o/ 
+                       oMMMMMMM.           MEDIA: Mattias Vinberg - Sweden - Stockholm - 2025
+                       `NMMMMMM+          
+                        +MMd/NMh           
+                         mMm -mN`          
+                         /MM  `h:          
+                          dM`   .          
+                          :M-              
+                           d:
+                           -+
+                            -
+
+About Parrot 7 for WSL - https://parrotsec.org
+
+https://parrotsec.org/blog/2025-12-09-parrot-7.0-beta-release-notes
+
+Parrot Security provides a huge arsenal of tools, utilities and
+libraries that IT and security professionals can use to test and
+assess the security of their assets in a reliable, compliant and 
+reproducible way. From information gathering to the final report.
+The Parrot system gets you covered with the most flexible environment.
+The ultimate framework for your Cyber Security operations.
+Parrot Security (ParrotOS, Parrot) is a Free and Open source
+GNU/Linux distribution based on Debian Stable designed for
+security experts, developers and privacy aware people.
+It includes a full portable arsenal for IT security and
+digital forensics operations. It also includes everything
+you need to develop your own programs or protect your privacy
+while surfing the net. Parrot is based on top of Debian,
+the most advanced and recognized universal operating system
+that can run anywhere.
+
+About KDE Desktop - https://kde.org
+
+KDE is an international team co-operating on 
+development and distribution of Free, Open
+Source Software for desktop and portable
+computing. Our community has developed a
+wide variety of applications for communication, 
+work, education and entertainment. We have a
+strong focus on finding innovative solutions to
+old and new problems, creating a vibrant, open
+atmosphere for experimentation. KDE is The 
+next generation desktop for Linux. Use KDE
+software to surf the web, keep in touch with
+colleagues, friends and family, manage your
+files, enjoy music and videos; and get creative
+and productive at work. The KDE community develops
+and maintains more than 200 applications
+which run on any Linux desktop, and often
+other platforms too.
+
+Find more stuff here for WSL and Windows 11 via WSL - Diffrent Desktops - Linux
+
+https://github.com/vinberg88/opensuse
+
+Want more for WSL go here - My Page - https://vinberg88.github.io
+
+Build, manage, and scale Windows Subsystem for Linux without
+guesswork. From your first distro install to enterprise
+governance, this guide bundles field-tested workflows,
+automation scripts, and deep dives so your Linux-on-Windows
+experience feels effortless.
+
+-----------------------------------------------------
+
+NOW LETS START INSTALLATION FOR KDE 6 AND PARROT OS 7.0
+
+-----------------------------------------------------
+
+First thing you need to do is copy this file to C:\Users\yourusername
+
+1. Download this file from proton: https://drive.proton.me/urls/G602NV0DFG#Rn5D1Tny3TpQ
+
+1. Open explorer
+
+2. Copy file
+
+3. Paste it under C:\Users\yourusername <-- username is not your username =]
+
+Its easy use Explorer and copy and past - DONE.
+
+-----------------------------------------------------
+
+Next start Parrot OS 7 terminal and change...
+
+NOTE: you must do this… fix sudo: unable to resolve host parrot: Temporary failure in name resolution
+
+Copy and Paste in terminal and enable systemd and change hostname…
+
+sudo nano /etc/wsl.conf
+
+hostname = parrot to your hostnamn.. Your hostname is same for windows. Hostname for me is Fyren14
+
+hostname = Fyren14
+
+and change systemd to true
+
+[boot]
+systemd=true
+
+----------------------------------------------
+
+Reboot Reboot Reboot Reboot Reboot - Parrot OS 7.
+
+----------------------------------------------
+
+Set password for root and user. You will be glad you did this =]
+
+Type this in terminal - normal user.
+
+sudo passwd root
+
+sudo passwd adolf
+
+----------------------------------------------
+
+Update Parrot 6 to Parrot 7
+
+Delete all in this file
+
+sudo nano /etc/apt/sources.list.d/parrot.list
+
+After that copy and paste this in file
+
+# Parrot OS 7 (echo) APT repositories
+deb https://deb.parrot.sh/parrot echo main contrib non-free non-free-firmware
+deb https://deb.parrot.sh/direct/parrot echo-security main contrib non-free non-free-firmware
+deb https://deb.parrot.sh/parrot echo-backports main contrib non-free non-free-firmware
+
+# Uncomment if you want source packages
+# deb-src https://deb.parrot.sh/parrot echo main contrib non-free non-free-firmware
+# deb-src https://deb.parrot.sh/direct/parrot echo-security main contrib non-free non-free-firmware
+# deb-src https://deb.parrot.sh/parrot echo-backports main contrib non-free non-free-firmware
+
+Now update parrot os 6 to 7 =] 
+
+sudo apt update && sudo apt full-upgrade -y
+
+If asked under UPDATE press Enter in terminal.
+
+Here you can find Parrot Repo list.
+
+https://github.com/ParrotSec/parrot-core/blob/master/system_configs/apt/sources.list.d/parrot.list
+
+-------------------------------
+
+Install hyfetch to look where you are.
+
+sudo apt install hyfetch fastfetch
+
+Type in terminal: hyfetch
+
+And we are on Parrot OS 7
+
+-------------------------------
+
+Install programs for Parrot OS ECHO 7 and KDE 6
+
+sudo apt install bash git npm wget curl dracut dbus -y
+sudo apt install sddm* -y
+sudo systemctl set-default graphical
+sudo systemctl enable sddm.service
+
+-------------------------------
+
+TIME TO INSTALL KDE 6 for PARROT OS 7 ECHO
+
+sudo apt install parrot-desktop-kde
+
+sudo apt install kde*
+
+sudo apt install codium
+
+sudo apt install kio*
+
+--------------------------------------
+
+Fix IP problem X410. Cant find screen problems. Look ip adress in windows terminal / PowerShell: ipconfig
+
+NOTE: open Powershell and type: ipconfig - Last lines is WSL ip.
+
+LIKE THIS..
+
+Ethernet adapter vEthernet (WSL (Hyper-V firewall)):
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe88::41C6:b18a:da60:7336%32
+   IPv4 Address. . . . . . . . . . . : 188.20.208.1
+   Subnet Mask . . . . . . . . . . . : 255.255.240.0
+   Default Gateway . . . . . . . . . :
+
+GO BACK TO PARROT 7 TERMINAL AND COPY AND PASTE THIS.....
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.20.208.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed =] If you see some RED text dont worry it works any way.
+
+----------------------------------------------
+
+REBOOT PARROT OS 7 - REBOOT PARROT OS 7 - REBOOT PARROT OS 7
+
+----------------------------------------------
+
+Install Chrome Browser. Latest Edition for Web - Parrot OS 7.0
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+--------------------------------------------
+
+Install Blanket - Listen to sounds - When you are hacking - Parrot OS 7.0
+
+wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb -y
+
+or if you want latest build of blanket - Parrot OS 7.0
+
+wget https://code.launchpad.net/~apandada1/+archive/ubuntu/blanket/+build/28044026/+files/blanket_0.7.0-1~daily~202404100636~d1fde60~ubuntu24.04.1_all.deb
+sudo apt install ./blanket_0.7.0-1~daily~202404100636~d1fde60~ubuntu24.04.1_all.deb -y
+
+----------------------------------------------
+
+Visual studio code - Install for Parrot OS 7.0
+
+sudo apt-get install wget* gpg* -y
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" |sudo tee /etc/apt/sources.list.d/vscode.list > /dev/null
+rm -f packages.microsoft.gpg
+
+sudo apt install apt-transport-https* http* -y
+sudo apt update
+sudo apt install code -y
+
+----------------------------------------------
+
+Install Gimp and LibreOffice - ParrotSEC 7.0
+
+sudo apt install gimp libreoffice -y
+
+----------------------------------------------
+
+Then Copy and Paste this in Terminal for Parrot OS 7.0
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+----------------------------------------------
+
+Parrot OS 7 - KDE 6 - ParrotSEC 7
+
+Type this in terminal and put your user there - sudo loginctl enable-linger user
+
+----------------------------------------------
+
+Copy this and paste in terminal: sudo nano ~/.bash_parrot_desktop 
+
+Then add this script to terminal
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------
+
+Reboot Reboot Reboot Parrot OS 7 - Reboot Reboot Reboot Parrot OS 7
+
+----------------------------------------------
+
+Time To Start KDE Desktop via ParrotOS 7.0
+
+NOTE: FIRST START X410 THEN YOU START PARROT OS TERMINAL.
+
+Copy and paste: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Paste in terminal: . ~/.bash_parrot_desktop
+
+Paste in terminal: startplasma-x11
+
+If you miss icons etc go to settning and change theme to Echo in KDE settnings.
+
+----------------------------------------------
+
+       _------.
+      /  ,     \_
+    /   /  /{}\ |o\_
+   /    \  `--' /-' \
+  |      \      \    |
+ |              |`-, | Regards Mattias Vinberg - SwEden - Microsoft - Parrot OS 7 - KDE - WSL - Windows 11 - 2025
+ /              /__/)/
+|              |
+
+---------------------------------------------
+
