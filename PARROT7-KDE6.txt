@@ -8,9 +8,9 @@ Comming Zone...
 
 You can find PARROT OS here For WSL HERE - https://parrotsec.org/download/
 
-HERE YOU CAN DOWNLOAD FULL ISO - Parrot OS 7 - https://deb.parrot.sh/parrot/iso/7.0-beta
-
 DOWNLOAD parrot-core_6.4.wsl for wsl. We will update to Parrot 7 distro later...
+
+HERE YOU CAN DOWNLOAD FULL ISO - Parrot OS 7 - https://deb.parrot.sh/parrot/iso/7.0-beta
 
 Tools that i USE for WSL - PARROT OS 7 - Microsoft - Linux - Windows 11 - KDE 6 - 2025
 
@@ -353,6 +353,7 @@ If you miss icons etc go to settning and change theme to Echo in KDE settnings.
 |              |
 
 ---------------------------------------------
+
 
 
 
