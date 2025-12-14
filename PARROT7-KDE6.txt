@@ -162,6 +162,8 @@ sudo passwd root
 
 sudo passwd adolf
 
+NOTE: SET SAME PASSWORD FOR ROOT AND USER.
+
 ----------------------------------------------
 
 Update Parrot 6 to Parrot 7
@@ -169,6 +171,8 @@ Update Parrot 6 to Parrot 7
 Delete all in this file
 
 sudo nano /etc/apt/sources.list.d/parrot.list
+
+Press Alt + \ and then Alt + T in nano to remove all TEXT.
 
 After that copy and paste this in file
 
@@ -353,6 +357,7 @@ If you miss icons etc go to settning and change theme to Echo in KDE settnings.
 |              |
 
 ---------------------------------------------
+
 
 
 
