@@ -1,3 +1,6 @@
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F1F51QTD56)
+
 ![featured-image](https://github.com/user-attachments/assets/3ba4e833-0cc6-44aa-b1a0-1fb2559cf2de)
 
 How to install WSL GUI desktop on Opensuse - Arch - Ubuntu - Fedora - Debian and some more distros.... KDE - Plasma - Gnome via Windows 11!
