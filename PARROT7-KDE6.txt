@@ -1,12 +1,14 @@
-PARROT OS 7 and KDE 6 - How To install KDE 6 via ParrotOS 7 and Windows 11 - WSL - Linux - YouTube - GitHub - 2025
+PARROT OS 7 and KDE 6 - How To install KDE via ParrotOS 7 and Windows 11 - WSL - Linux - YouTube - GitHub - 2025
+
+-- THIS IS BETA SO ITS NOT PERFECT BUT WORKS - PARROT OS 7 AND KDE 6 FOR WSL --
 
 How to install KDE 6 via PARROT OS 7 - WSL - TEXT
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/PARROT7-KDE6.txt
 
 How to install KDE 6 via PARROT OS 7 - WSL - MOVIE
 Comming Zone...
 
-You can find PARROT OS here For WSL HERE - https://parrotsec.org/download/
+You can find PARROT OS here. For WSL HERE - https://parrotsec.org/download/
 
 DOWNLOAD parrot-core_6.4.wsl for wsl. We will update to Parrot 7 distro later...
 
@@ -168,11 +170,11 @@ NOTE: SET SAME PASSWORD FOR ROOT AND USER.
 
 Update Parrot 6 to Parrot 7
 
-Delete all in this file
+Delete all in this file 
 
 sudo nano /etc/apt/sources.list.d/parrot.list
 
-Press Alt + \ and then Alt + T in nano to remove all TEXT.
+Press Alt + \ and then Alt + T in nano to remove all.
 
 After that copy and paste this in file
 
@@ -190,7 +192,7 @@ Now update parrot os 6 to 7 =]
 
 sudo apt update && sudo apt full-upgrade -y
 
-If asked under UPDATE press Enter in terminal.
+If asked under UPDATE press Enter in terminal. Blue screen use YES and enter.
 
 Here you can find Parrot Repo list.
 
@@ -204,20 +206,26 @@ sudo apt install hyfetch fastfetch
 
 Type in terminal: hyfetch
 
-And we are on Parrot OS 7
+And we are on Parrot Security 7.0 (echo)
 
 -------------------------------
 
 Install programs for Parrot OS ECHO 7 and KDE 6
 
+THIS WILL TAKE SOME TIME....JUST PRESS ENTER IF ASKED.
+
 sudo apt install bash git npm wget curl dracut dbus -y
+
 sudo apt install sddm* -y
+
 sudo systemctl set-default graphical
 sudo systemctl enable sddm.service
 
 -------------------------------
 
-TIME TO INSTALL KDE 6 for PARROT OS 7 ECHO
+TIME TO INSTALL KDE 6 for PARROT OS 7 ECHO 
+
+THIS WILL TAKE SOME TIME.... JUST PRESS ENTER IF ASKED.
 
 sudo apt install parrot-desktop-kde
 
@@ -258,6 +266,8 @@ sudo cat /etc/resolv.conf
 DONE - alot of problem fixed =] If you see some RED text dont worry it works any way.
 
 ----------------------------------------------
+
+YOU MUST DO THIS =] YOU MUST DO THIS =] YOU MUST DO THIS =] 
 
 REBOOT PARROT OS 7 - REBOOT PARROT OS 7 - REBOOT PARROT OS 7
 
@@ -311,21 +321,9 @@ sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default
 
 ----------------------------------------------
 
-Parrot OS 7 - KDE 6 - ParrotSEC 7
+Parrot OS 7 - KDE 6 - ParrotSEC 7 - ParrotOS 7 - Parrot OS ECHO
 
 Type this in terminal and put your user there - sudo loginctl enable-linger user
-
-----------------------------------------------
-
-Copy this and paste in terminal: sudo nano ~/.bash_parrot_desktop 
-
-Then add this script to terminal
-
-export XDG_SESSION_TYPE=x11
-export XDG_SESSION_CLASS=user
-export GDK_BACKEND=x11
-
-export LIBGL_ALWAYS_SOFTWARE=1
 
 ----------------------------------------------
 
@@ -337,28 +335,30 @@ Time To Start KDE Desktop via ParrotOS 7.0
 
 NOTE: FIRST START X410 THEN YOU START PARROT OS TERMINAL.
 
-Copy and paste: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+Copy and paste in TERMINAL.
 
-Paste in terminal: . ~/.bash_parrot_desktop
+export DISPLAY=$(grep -m 1 nameserver /etc/resolv.conf | awk '{print $2}'):0
+export LIBGL_ALWAYS_INDIRECT=1
+export QT_XCB_GL_INTEGRATION=none
 
-Paste in terminal: startplasma-x11
+Copy and paste in Bash: startplasma-x11
 
-If you miss icons etc go to settning and change theme to Echo in KDE settnings.
+IT TAKE SOME TIME TO START. JUST WAIT 1 min or 2 min.
+
+NOTE --- MISSING TASKBAR JUST RESTART ---
+
+If you miss icons etc go to settnings and change theme to Echo in KDE settnings.
 
 ----------------------------------------------
-
        _------.
       /  ,     \_
     /   /  /{}\ |o\_
    /    \  `--' /-' \
   |      \      \    |
- |              |`-, | Regards Mattias Vinberg - SwEden - Microsoft - Parrot OS 7 - KDE - WSL - Windows 11 - 2025
+ |              |`-, | Regards Mattias Vinberg - SwEdeN - Parrot OS 7 - KDE - Windows 11 - 2025
  /              /__/)/
 |              |
 
+Thanks you for watching this Parrot OS project for WSL. 
+
 ---------------------------------------------
-
-
-
-
-
