@@ -6,7 +6,7 @@ How to install KDE 6 via PARROT OS 7 - WSL - TEXT
 https://github.com/vinberg88/opensuse/blob/main/PARROT7-KDE6.txt
 
 How to install KDE 6 via PARROT OS 7 - WSL - MOVIE
-Comming Zone...
+https://www.youtube.com/watch?v=CR-5X0pMNYU
 
 You can find PARROT OS here. For WSL HERE - https://parrotsec.org/download/
 
@@ -362,3 +362,4 @@ If you miss icons etc go to settnings and change theme to Echo in KDE settnings.
 Thanks you for watching this Parrot OS project for WSL. 
 
 ---------------------------------------------
+
