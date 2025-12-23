@@ -34,7 +34,7 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
-PARROT OS 7 and KDE 6 - How To install KDE via ParrotOS 7 and Windows 11 - WSL - Linux - YouTube - GitHub - 2025
+PARROT OS 7 and KDE 6 - How To install KDE via ParrotOS 7 and Windows 11 - WSL - Linux - YouTube - GitHub
 
 -- THIS IS BETA SO ITS NOT PERFECT BUT WORKS - PARROT OS 7 AND KDE 6 FOR WSL --
 
