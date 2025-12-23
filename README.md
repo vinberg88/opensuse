@@ -34,6 +34,103 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+PARROT OS 7 and KDE 6 - How To install KDE via ParrotOS 7 and Windows 11 - WSL - Linux - YouTube - GitHub - 2025
+
+-- THIS IS BETA SO ITS NOT PERFECT BUT WORKS - PARROT OS 7 AND KDE 6 FOR WSL --
+
+How to install KDE 6 via PARROT OS 7 - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/PARROT7-KDE6.txt
+
+How to install KDE 6 via PARROT OS 7 - WSL - MOVIE
+
+https://www.youtube.com/watch?v=CR-5X0pMNYU
+
+You can find PARROT OS here. For WSL HERE - https://parrotsec.org/download/
+
+DOWNLOAD parrot-core_6.4.wsl for wsl. We will update to Parrot 7 distro later...
+
+HERE YOU CAN DOWNLOAD FULL ISO - Parrot OS 7 - https://deb.parrot.sh/parrot/iso/7.0-beta
+
+Tools that i USE for WSL - PARROT OS 7 - Microsoft - Linux - Windows 11 - KDE 6 - 2025
+
+X410 - Xserver for windows 11 - So you have a Desktop.
+Do you want to seamlessly use Linux GUI apps side by side with Windows
+apps? Simply start X410 and adjust a few settings; your Linux GUI
+apps then suddenly appear in Windows and you can use them like Windows 
+apps! It doesn't matter where your Linux GUI apps are actually
+running; it can be a full virtual machine, Docker container, WSL
+(Windows Subsystem for Linux) or whatever. As long as your Linux GUI
+apps support X-Window client protocols, you can use them in Windows.
+You can even securely use your Linux GUI apps running in a far remote
+server via any SSH client that supports X11 forwarding over the Internet.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="PARROT7-KDE6" src="https://github.com/user-attachments/assets/274b296b-ced4-40f3-81a8-a4c7ae0c03ab" />
+
+About Parrot 7 for WSL - https://parrotsec.org
+
+https://parrotsec.org/blog/2025-12-09-parrot-7.0-beta-release-notes
+
+Parrot Security provides a huge arsenal of tools, utilities and
+libraries that IT and security professionals can use to test and
+assess the security of their assets in a reliable, compliant and 
+reproducible way. From information gathering to the final report.
+The Parrot system gets you covered with the most flexible environment.
+The ultimate framework for your Cyber Security operations.
+Parrot Security (ParrotOS, Parrot) is a Free and Open source
+GNU/Linux distribution based on Debian Stable designed for
+security experts, developers and privacy aware people.
+It includes a full portable arsenal for IT security and
+digital forensics operations. It also includes everything
+you need to develop your own programs or protect your privacy
+while surfing the net. Parrot is based on top of Debian,
+the most advanced and recognized universal operating system
+that can run anywhere.
+
+About KDE Desktop - https://kde.org
+
+KDE is an international team co-operating on 
+development and distribution of Free, Open
+Source Software for desktop and portable
+computing. Our community has developed a
+wide variety of applications for communication, 
+work, education and entertainment. We have a
+strong focus on finding innovative solutions to
+old and new problems, creating a vibrant, open
+atmosphere for experimentation. KDE is The 
+next generation desktop for Linux. Use KDE
+software to surf the web, keep in touch with
+colleagues, friends and family, manage your
+files, enjoy music and videos; and get creative
+and productive at work. The KDE community develops
+and maintains more than 200 applications
+which run on any Linux desktop, and often
+other platforms too.
+
+Find more stuff here for WSL and Windows 11 via WSL - Diffrent Desktops - Linux
+
+https://github.com/vinberg88/opensuse
+
+Want more for WSL go here - My Page - https://vinberg88.github.io
+
+Build, manage, and scale Windows Subsystem for Linux without
+guesswork. From your first distro install to enterprise
+governance, this guide bundles field-tested workflows,
+automation scripts, and deep dives so your Linux-on-Windows
+experience feels effortless.
+
+Regards Mattias Vinberg - SwEdeN - Parrot OS 7 - KDE - Windows 11 - 2025
+
+---------------------------------------------
+
 NixOS and KDE 6 - How To install KDE 6 via NixOS and Windows 11 - WSL - Linux - YouTube - GitHub - 2025
 
 How to install KDE 6 via NIXOS - WSL - TEXT
