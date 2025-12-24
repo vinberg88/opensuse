@@ -1,0 +1,229 @@
+NixOS and MATE - How To install MATE via NixOS and Windows 11 - WSL - Linux - GitHub - YouTube - 2025
+
+How to install MATE via NIXOS - WSL - TEXT
+Comming Zone...
+
+How to install MATE via NIXOS - WSL - MOVIE
+https://www.youtube.com/watch?v=qHSrHECCJDE
+
+You can find NixOS here For WSL HERE - https://github.com/nix-community/NixOS-WSL
+
+Tools that i USE for WSL - Microsoft - Linux - Windows 11 - 2025
+
+X410 - Xserver for windows 11 - So you have a Desktop.
+Do you want to seamlessly use Linux GUI apps side by side with Windows
+apps? Simply start X410 and adjust a few settings; your Linux GUI
+apps then suddenly appear in Windows and you can use them like Windows 
+apps! It doesn't matter where your Linux GUI apps are actually
+running; it can be a full virtual machine, Docker container, WSL
+(Windows Subsystem for Linux) or whatever. As long as your Linux GUI
+apps support X-Window client protocols, you can use them in Windows.
+You can even securely use your Linux GUI apps running in a far remote
+server via any SSH client that supports X11 forwarding over the Internet.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+
+          ▗▄▄▄       ▗▄▄▄▄    ▄▄▄▖
+          ▜███▙       ▜███▙  ▟███▛
+           ▜███▙       ▜███▙▟███▛ 
+            ▜███▙       ▜██████▛ 
+     ▟█████████████████▙ ▜████▛     ▟▙ 
+    ▟███████████████████▙ ▜███▙    ▟██▙ 
+           ▄▄▄▄▖           ▜███▙  ▟███▛
+          ▟███▛             ▜██▛ ▟███▛
+         ▟███▛               ▜▛ ▟███▛
+▟███████████▛                  ▟██████████▙
+▜██████████▛                  ▟███████████▛ 
+      ▟███▛ ▟▙               ▟███▛
+     ▟███▛ ▟██▙             ▟███▛
+    ▟███▛  ▜███▙           ▝▀▀▀▀
+    ▜██▛    ▜███▙ ▜██████████████████▛
+     ▜▛     ▟████▙ ▜████████████████▛
+           ▟██████▙       ▜███▙
+          ▟███▛▜███▙       ▜███▙
+         ▟███▛  ▜███▙       ▜███▙
+         ▝▀▀▀    ▀▀▀▀▘       ▀▀▀▘
+
+
+About NixOS - https://nixos.org - LINUX - WSL
+
+Nix is a tool that takes a unique approach to package
+management and system configuration. Learn how to make
+reproducible, declarative and reliable systems. NixOS 
+is a unique Linux distribution that stands out due
+to its innovative approach to package management and
+system configuration. 
+
+Who should consider NixOS - NIXOS is not for all!
+
+Developers - The reproducible build environment and ease
+of managing development dependencies make NixOS an excellent
+choice for developers. System Administrators - The
+declarative configuration and robust upgrade model
+simplify system administration tasks and reduce 
+maintenance overhead. If you want to try Linux
+use other sort =)
+
+About MATE - https://mate-desktop.org - LINUX - WSL
+
+MATE Desktop is a lightweight and fast desktop environment
+that continues the GNOME 2 legacy. It offers a classic,
+intuitive, and feature-rich interface that is easy to use
+for both beginners and advanced users. With a focus on 
+stability, compatibility, and long-term support, MATE Desktop
+is a reliable choice for various use cases—from personal setups
+to professional environments.
+
+Find more stuff here for WSL and Windows 11.
+
+https://github.com/vinberg88/opensuse
+
+Please visit my WSL page 
+
+https://vinberg88.github.io/
+
+--------------------------------------
+
+First thing install some programs for NIXOS and MATE desktop
+
+nix-env -iA nixos.update-systemd-resolved
+nix-env -iA nixos.git
+nix-env -iA nixos.gitFull
+nix-env -iA nixos.gitMinimal
+nix-env -iA nixos.gitSVN
+nix-env -iA nixos.home-manager
+nix-env -iA nixos.flake-edit
+nix-env -iA nixos.flake-checker
+nix-env -iA nixos.dbus
+nix-env -iA nixos.systemdUkify
+nix-env -iA nixos.justbuild
+nix-env -iA nixos.just
+nix-env -iA nixos.xorg.xorgserver
+nix-env -iA nixos.xorg.xf86inputevdev
+nix-env -iA nixos.xorg.xf86inputsynaptics
+nix-env -iA nixos.xorg.xf86inputlibinput
+nix-env -iA nixos.xorg.xf86videointel
+nix-env -iA nixos.xorg.xf86videoati
+nix-env -iA nixos.xorg.xf86videonouveau
+nix-env -iA nixos.xorg.x11perf
+nix-env -iA nixos.x11basic
+
+--------------------------------------
+
+INSTALL MATE DESKTOP VIA GITHUB =]
+
+git clone https://github.com/vinberg88/nixos-mate-wsl.git
+
+cd nixos-mate-wsl
+
+sudo nixos-rebuild switch --flake .#nixos
+
+IF you want to read config files: https://github.com/vinberg88/nixos-mate-wsl
+Packed by me self for NIXOS - 2025
+
+--------------------------------------
+
+REBOOT NIXOS AND LOGIN AS ROOT USER...
+
+Now paste this terminal: passwd nixos
+
+Next paste this in terminal: passwd root
+
+Use same password for root and nixos.
+
+--------------------------------------
+
+LOGOUT FROM ROOT AND LOGIN AS NORMAL USER.
+
+--------------------------------------
+
+Fix IP problem X410. Cant find screen problems. Look ip adress in windows terminal / PowerShell: ipconfig
+
+NOTE: open Powershell and type: ipconfig - Last lines is WSL ip.
+
+LIKE THIS..
+
+Ethernet adapter vEthernet (WSL (Hyper-V firewall)):
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe88::41C6:b18a:da60:7336%32
+   IPv4 Address. . . . . . . . . . . : 188.20.208.1
+   Subnet Mask . . . . . . . . . . . : 255.255.240.0
+   Default Gateway . . . . . . . . . :
+
+GO BACK TO NIXOS TERMINAL AND COPY AND PASTE THIS.....
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.20.208.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed =] If you see some RED text dont worry it works any way.
+
+------------------------------------
+
+Install Hyfetch - Like Neofetch but more GAY =]
+
+nix-env -iA nixos.hyfetch
+nix-env -iA nixos.fastfetch
+
+Lets see where we are =]
+
+Type in Consol: hyfetch
+
+------------------------------------
+
+NIXOS - Reboot Reboot Reboot Reboot Reboot - NIXOS
+
+------------------------------------
+
+Time to start MATE via NixOS and WSL.
+
+NOTE FIRST START X410 THEN YOU START NIXOS TERMINAL.
+
+Copy and Paste:
+
+export DISPLAY=$(grep -m 1 nameserver /etc/resolv.conf | awk '{print $2}'):0
+export LIBGL_ALWAYS_INDIRECT=1
+export QT_XCB_GL_INTEGRATION=none
+
+Copy and paste: mate-session
+
+------------------------------------
+
+Regards Mattias Vinberg - NixOS - MATE - SweDen - WSL - X410 - Microsoft - Windows 11 - 2025 
+
+          ▗▄▄▄       ▗▄▄▄▄    ▄▄▄▖
+          ▜███▙       ▜███▙  ▟███▛
+           ▜███▙       ▜███▙▟███▛ 
+            ▜███▙       ▜██████▛ 
+     ▟█████████████████▙ ▜████▛     ▟▙ 
+    ▟███████████████████▙ ▜███▙    ▟██▙ 
+           ▄▄▄▄▖           ▜███▙  ▟███▛
+          ▟███▛             ▜██▛ ▟███▛
+         ▟███▛               ▜▛ ▟███▛
+▟███████████▛                  ▟██████████▙
+▜██████████▛                  ▟███████████▛ 
+      ▟███▛ ▟▙               ▟███▛
+     ▟███▛ ▟██▙             ▟███▛
+    ▟███▛  ▜███▙           ▝▀▀▀▀
+    ▜██▛    ▜███▙ ▜██████████████████▛
+     ▜▛     ▟████▙ ▜████████████████▛
+           ▟██████▙       ▜███▙
+          ▟███▛▜███▙       ▜███▙
+         ▟███▛  ▜███▙       ▜███▙
+         ▝▀▀▀    ▀▀▀▀▘       ▀▀▀▘
+
+------------------------------------
