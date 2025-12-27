@@ -1,7 +1,5 @@
 PARROT OS 7 and KDE 6 - How To install KDE via ParrotOS 7 and Windows 11 - WSL - Linux - YouTube - GitHub - 2025
 
--- THIS IS BETA SO ITS NOT PERFECT BUT WORKS - PARROT OS 7 AND KDE 6 FOR WSL --
-
 How to install KDE 6 via PARROT OS 7 - WSL - TEXT
 https://github.com/vinberg88/opensuse/blob/main/PARROT7-KDE6.txt
 
@@ -10,9 +8,7 @@ https://www.youtube.com/watch?v=CR-5X0pMNYU
 
 You can find PARROT OS here. For WSL HERE - https://parrotsec.org/download/
 
-DOWNLOAD parrot-core_6.4.wsl for wsl. We will update to Parrot 7 distro later...
-
-HERE YOU CAN DOWNLOAD FULL ISO - Parrot OS 7 - https://deb.parrot.sh/parrot/iso/7.0-beta
+HERE YOU CAN DOWNLOAD FULL ISO - Parrot OS 7 - https://deb.parrot.sh/parrot/iso/7.0/
 
 Tools that i USE for WSL - PARROT OS 7 - Microsoft - Linux - Windows 11 - KDE 6 - 2025
 
@@ -167,38 +163,6 @@ sudo passwd adolf
 NOTE: SET SAME PASSWORD FOR ROOT AND USER.
 
 ----------------------------------------------
-
-Update Parrot 6 to Parrot 7
-
-Delete all in this file 
-
-sudo nano /etc/apt/sources.list.d/parrot.list
-
-Press Alt + \ and then Alt + T in nano to remove all.
-
-After that copy and paste this in file
-
-# Parrot OS 7 (echo) APT repositories
-deb https://deb.parrot.sh/parrot echo main contrib non-free non-free-firmware
-deb https://deb.parrot.sh/direct/parrot echo-security main contrib non-free non-free-firmware
-deb https://deb.parrot.sh/parrot echo-backports main contrib non-free non-free-firmware
-
-# Uncomment if you want source packages
-# deb-src https://deb.parrot.sh/parrot echo main contrib non-free non-free-firmware
-# deb-src https://deb.parrot.sh/direct/parrot echo-security main contrib non-free non-free-firmware
-# deb-src https://deb.parrot.sh/parrot echo-backports main contrib non-free non-free-firmware
-
-Now update parrot os 6 to 7 =] 
-
-sudo apt update && sudo apt full-upgrade -y
-
-If asked under UPDATE press Enter in terminal. Blue screen use YES and enter.
-
-Here you can find Parrot Repo list.
-
-https://github.com/ParrotSec/parrot-core/blob/master/system_configs/apt/sources.list.d/parrot.list
-
--------------------------------
 
 Install hyfetch to look where you are.
 
@@ -362,4 +326,5 @@ If you miss icons etc go to settnings and change theme to Echo in KDE settnings.
 Thanks you for watching this Parrot OS project for WSL. 
 
 ---------------------------------------------
+
 
