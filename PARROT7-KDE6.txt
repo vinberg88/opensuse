@@ -152,6 +152,12 @@ Reboot Reboot Reboot Reboot Reboot - Parrot OS 7.
 
 ----------------------------------------------
 
+Update all =)
+
+sudo apt update && sudo apt full-upgrade -y
+
+----------------------------------------------
+
 Set password for root and user. You will be glad you did this =]
 
 Type this in terminal - normal user.
@@ -326,5 +332,6 @@ If you miss icons etc go to settnings and change theme to Echo in KDE settnings.
 Thanks you for watching this Parrot OS project for WSL. 
 
 ---------------------------------------------
+
 
 
