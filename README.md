@@ -11,6 +11,12 @@ of Windows that allows you to run a Linux environment on your Windows machine, w
 virtual machine or dual booting. WSL is designed to provide a seamless and productive experience for developers who
 want to use both Windows and Linux at the same time.
 
+Other Projects - Please visit =)
+
+https://github.com/vinberg88/nixos-mate-wsl
+
+https://github.com/vinberg88/wsl-kde6-nixos
+
 ----------------------------------------------
 
 What you need for WSL.. Basic stuff
