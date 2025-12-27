@@ -118,8 +118,6 @@ Regards Mattias Vinberg - NixOS - MATE - SweDen - WSL - X410 - Microsoft - Windo
 
 PARROT OS 7 and KDE 6 - How To install KDE via ParrotOS 7 and Windows 11 - WSL - Linux - YouTube - GitHub
 
--- THIS IS BETA SO ITS NOT PERFECT BUT WORKS - PARROT OS 7 AND KDE 6 FOR WSL --
-
 How to install KDE 6 via PARROT OS 7 - WSL - TEXT
 
 https://github.com/vinberg88/opensuse/blob/main/PARROT7-KDE6.txt
@@ -130,9 +128,7 @@ https://www.youtube.com/watch?v=CR-5X0pMNYU
 
 You can find PARROT OS here. For WSL HERE - https://parrotsec.org/download/
 
-DOWNLOAD parrot-core_6.4.wsl for wsl. We will update to Parrot 7 distro later...
-
-HERE YOU CAN DOWNLOAD FULL ISO - Parrot OS 7 - https://deb.parrot.sh/parrot/iso/7.0-beta
+HERE YOU CAN DOWNLOAD FULL ISO - Parrot OS 7 - https://deb.parrot.sh/parrot/iso/7.0/
 
 Tools that i USE for WSL - PARROT OS 7 - Microsoft - Linux - Windows 11 - KDE 6 - 2025
 
