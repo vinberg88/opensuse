@@ -205,6 +205,10 @@ sudo apt install codium
 
 sudo apt install kio*
 
+sudo apt install knewstuff-dialog
+
+sudo apt install sqlitebrowser
+
 --------------------------------------
 
 Fix IP problem X410. Cant find screen problems. Look ip adress in windows terminal / PowerShell: ipconfig
@@ -332,6 +336,3 @@ If you miss icons etc go to settnings and change theme to Echo in KDE settnings.
 Thanks you for watching this Parrot OS project for WSL. 
 
 ---------------------------------------------
-
-
-
