@@ -94,7 +94,7 @@ sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default
 
 -------------------------------------------------------------
 
-Type in terminal: sudo nano ~/.bash_opensuse_desktop
+Type in terminal: sudo nano ~/.wsl_x11_env
 
 Paste this in terminal and save:
 
@@ -116,7 +116,7 @@ Reboot - Linux - Reboot - Linux - Reboot
 
 Time to start Mate desktop - Tumbelweed.
 
-. ~/.bash_opensuse_desktop
+. ~/.wsl_x11_env
 mate-session
 
 -------------------------------------------------------------

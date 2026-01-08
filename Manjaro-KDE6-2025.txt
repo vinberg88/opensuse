@@ -165,7 +165,7 @@ Type this in terminal and put your user there: sudo loginctl enable-linger user
 
 -------------------------
 
-Type in terminal: sudo nano ~/.bash_Manjaro_desktop
+Type in terminal: sudo nano ~/.wsl_x11_env
 
 Paste this in terminal and save:
 
@@ -185,7 +185,7 @@ Time to start KDE Plasma 6 via Manjaro. Start X410 then you start Manjaro from t
 
 Copy and Paste in Console: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
 
-Copy and Paste in Console: . ~/.bash_Manjaro_desktop
+Copy and Paste in Console: . ~/.wsl_x11_env
 
 Copy and Paste in Console: dbus-launch startplasma-x11
 

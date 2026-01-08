@@ -496,7 +496,7 @@ Type this in terminal and put your user-name there: sudo loginctl enable-linger 
 
 -------------------------------------------------------------
 
-17. In terminal type: sudo nano ~/.bash_Fedora_desktop
+17. In terminal type: sudo nano ~/.wsl_x11_env
 
 Paste this small script in terminal and save and quit nano.
 
@@ -519,7 +519,7 @@ NOW START X410 AND THEN START TERMINAL / BASH / CONSOLE
 Time to start KDE 6 for Fedora 41
 
 Copy and Paste in Console: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
-Copy and Paste in Console: . ~/.bash_Fedora_desktop
+Copy and Paste in Console: . ~/.wsl_x11_env
 Copy and Paste in Console: dbus-launch startplasma-x11
 
 It takes a little time to start at the beginning so leave it for a minute if nothing happens.

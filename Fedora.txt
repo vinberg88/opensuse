@@ -140,7 +140,7 @@ Setup GWSL and reboot and start from GWSL Shell.
 
 -----------------------------------
 
-In terminal type: sudo nano ~/.bash_fedora_desktop
+In terminal type: sudo nano ~/.wsl_x11_env
 
 Paste this in terminal and save and quit.
 
@@ -156,7 +156,7 @@ Reboot
 
 -----------------------------------
 
-Paste in terminal: . ~/.bash_fedora_desktop
+Paste in terminal: . ~/.wsl_x11_env
 
 Type in terminal: gnome-session
 

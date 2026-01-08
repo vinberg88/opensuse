@@ -150,7 +150,7 @@ Type this in terminal and put your user there - loginctl enable-linger user
 
 -------------------------------------
 
-Copy this and paste in terminal: sudo nano ~/.bash_mint_desktop
+Copy this and paste in terminal: sudo nano ~/.wsl_x11_env
 
 Then add this script to terminal
 
@@ -168,7 +168,7 @@ Reboot Reboot Reboot Reboot Reboot
 
 Now we can start KDE desktop via Linux Mint
 
-Paste in terminal: . ~/.bash_mint_desktop
+Paste in terminal: . ~/.wsl_x11_env
 
 Time to start Gnome: startplasma-x11
 

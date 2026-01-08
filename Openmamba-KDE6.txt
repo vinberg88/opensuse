@@ -256,7 +256,7 @@ sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default
 
 -------------------------------------------------------------
 
-In terminal type: sudo nano ~/.bash_Mamba_desktop
+In terminal type: sudo nano ~/.wsl_x11_env
 
 Paste this small script in terminal and save and quit nano.
 
@@ -278,7 +278,7 @@ FIRST START X410 XSERVER THEN YOU START TERMINAL / CONSOLE / BASH FOR OpenMamba
 
 Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
 
-Paste in terminal: . ~/.bash_Mamba_desktop
+Paste in terminal: . ~/.wsl_x11_env
 
 Type in terminal and start plasma: dbus-launch startplasma-x11
 

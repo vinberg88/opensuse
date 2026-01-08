@@ -156,7 +156,7 @@ Type this in terminal and put your user there: sudo loginctl enable-linger user
 
 ----------------------------------------------------------------
 
-Type in terminal: sudo nano ~/.bash_Arch_desktop
+Type in terminal: sudo nano ~/.wsl_x11_env
 
 Paste this in terminal and save:
 
@@ -175,7 +175,7 @@ Reboot Reboot Reboot - BlackArch - Reboot Reboot Reboot
 Start X410 for windows 11 and start Arch - Time to start Gnome Desktop.
 
 Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
-Paste in terminal: . ~/.bash_Arch_desktop
+Paste in terminal: . ~/.wsl_x11_env
 Paste in terminal: dbus-launch gnome-session
 
 NOTE - It take some time to start Gnome 47. You may have to try more than one to start Gnome via: dbus-launch gnome-session

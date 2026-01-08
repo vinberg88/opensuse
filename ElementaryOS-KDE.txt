@@ -158,7 +158,7 @@ Type this in terminal and put your user there - sudo loginctl enable-linger user
 
 -------------------------------
 
-Copy this and paste in terminal: sudo nano ~/.bash_OS_desktop
+Copy this and paste in terminal: sudo nano ~/.wsl_x11_env
 
 Then add this script to terminal
 
@@ -174,7 +174,7 @@ Reboot Reboot Reboot Elementary OS and KDE desktop
 
 -------------------------------
 
-Paste in terminal: . ~/.bash_OS_desktop
+Paste in terminal: . ~/.wsl_x11_env
 
 Type in terminal and start plasma: dbus-launch startplasma-x11
 

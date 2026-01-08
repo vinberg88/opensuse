@@ -142,7 +142,7 @@ Type this in terminal and put your user there: sudo loginctl enable-linger user
 
 --------------------------------------------
 
-Copy this and paste in terminal: sudo nano ~/.bash_ubuntu_desktop
+Copy this and paste in terminal: sudo nano ~/.wsl_x11_env
 
 Then add this script to terminal
 
@@ -169,7 +169,7 @@ Reboot… Reboot… Reboot…  Reboot… Ubuntu
 
 Now we can start KDE desktop for Ubuntu
 
-Paste in terminal: . ~/.bash_ubuntu_desktop
+Paste in terminal: . ~/.wsl_x11_env
 
 Type in terminal and start plasma: dbus-launch startplasma-x11
 

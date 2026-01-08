@@ -166,7 +166,7 @@ Reboot Linux an extra time and start CONSOLE FROM GWSL - Always start from there
 
 ---------------------
 
-Type in terminal: sudo nano ~/.bash_fedora_desktop
+Type in terminal: sudo nano ~/.wsl_x11_env
 
 Paste this in terminal and save:
 
@@ -184,7 +184,7 @@ Reboot Linux - Fedora 41 and start from GWSL SHELL / BASH / Terminal / Console
 
 We are done - Paste in Shell - Terminal - Console - Bash and lxqt will start =]
 
-First: . ~/.bash_fedora_desktop
+First: . ~/.wsl_x11_env
 
 Then: startlxqt
 

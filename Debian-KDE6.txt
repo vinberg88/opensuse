@@ -202,7 +202,7 @@ Type this in terminal and put your user there - sudo loginctl enable-linger user
 
 -------------------------------
 
-Copy this and paste in terminal: sudo nano ~/.bash_debian_desktop
+Copy this and paste in terminal: sudo nano ~/.wsl_x11_env
 
 Then add this script to terminal
 
@@ -221,7 +221,7 @@ Reboot Reboot Reboot Debian 13
 Start X410 for windows 11 and start Debian 13 via WSL - Time to start KDE 6
 
 Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
-Paste in terminal: . ~/.bash_debian_desktop
+Paste in terminal: . ~/.wsl_x11_env
 Start kde plasma 6: startplasma-x11
 
 Just wait it will start.. Take some time... 

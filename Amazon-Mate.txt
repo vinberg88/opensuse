@@ -164,7 +164,7 @@ Type this in terminal and put your user there: sudo loginctl enable-linger user
 
 ----------------------------------------------
 
-Copy this and paste in terminal: sudo nano ~/.bash_Amazon_desktop
+Copy this and paste in terminal: sudo nano ~/.wsl_x11_env
 
 Then add this script to terminal
 
@@ -182,7 +182,7 @@ Please Reboot Linux - Amazon Linux - WSL
 
 Time to start Mate Desktop.
 
-Paste in terminal: . ~/.bash_Amazon_desktop
+Paste in terminal: . ~/.wsl_x11_env
 Paste in terminal: dbus-launch mate-session
 
 ----------------------------------------------

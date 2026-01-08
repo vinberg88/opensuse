@@ -182,7 +182,7 @@ sudo systemctl set-default graphical
 
 ----------------------------------------------------------------------
 
-In terminal type via OpenSUSE LEAP 16: sudo nano ~/.bash_opensuse_desktop
+In terminal type via OpenSUSE LEAP 16: sudo nano ~/.wsl_x11_env
 
 Paste this in terminal and save:
 
@@ -230,7 +230,7 @@ NOTE: FIRST START x410 THEN YOU START OpenSUSE LEAP 16 TERMINAL.
 
 Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
 
-Paste in terminal: . ~/.bash_opensuse_desktop
+Paste in terminal: . ~/.wsl_x11_env
 
 Type in terminal: startplasma-x11
 

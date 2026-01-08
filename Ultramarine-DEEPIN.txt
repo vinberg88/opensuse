@@ -262,7 +262,7 @@ Setup GWSL and reboot and start from GWSL Shell -- Ultramarine Linux
 
 -----------------------------------
 
-In terminal type: sudo nano ~/.bash_Ultramarine_desktop
+In terminal type: sudo nano ~/.wsl_x11_env
 
 Paste this in terminal and save and quit.
 
@@ -286,7 +286,7 @@ Reboot Ultramarine - Reboot Ultramarine - Reboot Ultramarine 40 - DEEPIN DESKTOP
 
 Time to start Deepin Desktop. It take some time to start so just wait =]
 
-Paste in terminal: . ~/.bash_Ultramarine_desktop
+Paste in terminal: . ~/.wsl_x11_env
 
 Type in terminal: exec dbus-run-session /usr/bin/startdde
 

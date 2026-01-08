@@ -130,7 +130,7 @@ Type this in terminal and put your user there: sudo loginctl enable-linger user
 
 --------------------------------------------
 
-Copy this and paste in terminal: sudo nano ~/.bash_Wilma88_desktop
+Copy this and paste in terminal: sudo nano ~/.wsl_x11_env
 
 Then add this script to terminal
 
@@ -146,7 +146,7 @@ Reboot… Reboot… Reboot… Reboot… Reboot… Reboot… Reboot…
 
 ---------------------------------------------------------
 
-Paste in terminal: . ~/.bash_Wilma88_desktop
+Paste in terminal: . ~/.wsl_x11_env
 
 Type in terminal and start cinnamon: cinnamon-session
 

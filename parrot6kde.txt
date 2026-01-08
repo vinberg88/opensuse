@@ -157,7 +157,7 @@ Start GWSL and Config and start from there - GWSL Shell / Terminal
 
 ----------------------------------------------
 
-Copy this and paste in terminal: sudo nano ~/.bash_parrot_desktop 
+Copy this and paste in terminal: sudo nano ~/.wsl_x11_env 
 
 Then add this script to terminal
 
@@ -175,7 +175,7 @@ Reboot Reboot Reboot Parrot OS and start from GWSL SHELL / Terminal
 
 Time To Start KDE Desktop via ParrotOS and Windows 11 =]
 
-Paste in terminal: . ~/.bash_parrot_desktop
+Paste in terminal: . ~/.wsl_x11_env
 Paste in terminal: dbus-launch startplasma-x11
 
 It take some time to start KDE so just WAIT!

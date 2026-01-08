@@ -144,7 +144,7 @@ Type this in terminal and put your user there: sudo loginctl enable-linger user
 
 --------------------------------------------
 
-Copy this and paste in terminal: sudo nano ~/.bash_Rhino_desktop
+Copy this and paste in terminal: sudo nano ~/.wsl_x11_env
 
 Then add this script to terminal
 
@@ -176,7 +176,7 @@ NOW START X410 AND THEN TERMINAL FOR LINUX...
 Now we can start KDE 6 for Rhino Linux
 
 Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
-Paste in terminal: . ~/.bash_Rhino_desktop
+Paste in terminal: . ~/.wsl_x11_env
 Type in terminal and start KDE 6: dbus-launch startplasma-x11
 
 ------------------------------------------------------

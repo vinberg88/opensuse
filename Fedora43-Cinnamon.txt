@@ -253,7 +253,7 @@ Type this in terminal and put your user there - sudo loginctl enable-linger user
 
 Create this script via Terminal for fedora 43
 
-Type in terminal: sudo nano ~/.bash_fedora_desktop
+Type in terminal: sudo nano ~/.wsl_x11_env
 
 Paste this in terminal and save:
 
@@ -281,7 +281,7 @@ NOTE - FIRST START X410 THEN YOU START FEDORA 43 VIA TERMINAL
 
 Copy and paste This: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
 
-Paste in terminal: . ~/.bash_fedora_desktop
+Paste in terminal: . ~/.wsl_x11_env
 
 Start Desktop: dbus-launch cinnamon-session
 

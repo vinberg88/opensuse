@@ -71,7 +71,7 @@ sudo apt install xubuntu-desktop
 
 -----------------------------------
 
-7. Type in terminal: sudo nano ~/.bash_ubuntu_desktop
+7. Type in terminal: sudo nano ~/.wsl_x11_env
 
 Paste this in terminal and save:
 
@@ -98,7 +98,7 @@ export LIBGL_ALWAYS_SOFTWARE=1
 
 9. Done - Time to start from terminal. Paste all in console and xfce4 will start!
 
-. ~/.bash_ubuntu_desktop
+. ~/.wsl_x11_env
 xfce4-session
 
 --------------------------------------------------------------

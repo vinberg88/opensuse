@@ -109,7 +109,7 @@ sudo eopkg it google-chrome-*.eopkg
 
 ----------------------------------
 
-Copy this and paste in terminal: sudo nano ~/.bash_solus_desktop
+Copy this and paste in terminal: sudo nano ~/.wsl_x11_env
 
 Then add this script to terminal and save!
 
@@ -129,7 +129,7 @@ Time to Start KDE6 via Solus.
 
 So just copy this small lines and GNOME will start from terminal.
 
-. ~/.bash_solus_desktop
+. ~/.wsl_x11_env
 gnome-session
 
 ----------------------------------

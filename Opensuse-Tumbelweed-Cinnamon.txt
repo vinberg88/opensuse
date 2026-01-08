@@ -151,7 +151,7 @@ Type this in terminal and put your user there - loginctl enable-linger user
 
 ------------------------
 
-In terminal type: sudo nano ~/.bash_suse_desktop
+In terminal type: sudo nano ~/.wsl_x11_env
 
 Paste this in terminal and save:
 
@@ -169,7 +169,7 @@ Reboot Reboot Reboot and start from GWSL Bash/Shell
 
 Time to start Cinnamon desktop via OpenSuse Tumbelweed!
 
-Paste in terminal: . ~/.bash_suse_desktop
+Paste in terminal: . ~/.wsl_x11_env
 
 Type in terminal: cinnamon-session
 

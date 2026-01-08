@@ -98,7 +98,7 @@ Copy and Paste in terminal - one by one.
 ---------------------
 
 
-11. Type in terminal: sudo nano ~/.bash_ubuntu_desktop
+11. Type in terminal: sudo nano ~/.wsl_x11_env
 
 Paste this in terminal and save:
 
@@ -114,7 +114,7 @@ export LIBGL_ALWAYS_SOFTWARE=1
 
 We are done - Paste all in Shell (GWSL) and LXDE will start =]
 
-. ~/.bash_ubuntu_desktop
+. ~/.wsl_x11_env
 startlxde
 
 ---------------------------------------------------

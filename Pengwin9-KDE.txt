@@ -164,7 +164,7 @@ Type this in terminal and put your user-name there: sudo loginctl enable-linger 
 
 -------------------------------------------------------------
    
-In terminal type: sudo nano ~/.bash_white88_desktop
+In terminal type: sudo nano ~/.wsl_x11_env
 
 Paste this small script in terminal and save and quit.
 
@@ -180,7 +180,7 @@ Reboot Reboot Reboot Reboot Reboot
 
 -------------------------------------------
 
-Paste in terminal: . ~/.bash_white88_desktop
+Paste in terminal: . ~/.wsl_x11_env
 
 Type in terminal: dbus-launch startplasma-x11
 

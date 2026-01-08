@@ -55,7 +55,7 @@ Type this in terminal and put your user there - loginctl enable-linger user
 
 ------------------------------------------------------------
 
-Type in terminal: sudo nano ~/.bash_ubuntu_desktop
+Type in terminal: sudo nano ~/.wsl_x11_env
 
 Paste this in terminal and save:
 
@@ -75,7 +75,7 @@ Time to start Mate Desktop - WSL - Windows 11
 
 Paste all in terminal
 
-. ~/.bash_ubuntu_desktop
+. ~/.wsl_x11_env
 mate-session
 
 ------------------------------------------------------------

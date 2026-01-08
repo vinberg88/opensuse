@@ -37,7 +37,7 @@ Copy and paste one by one - No stress
 
 10. Reboot Reboot Linux Reboot Reboot
 
-11. Type in terminal: sudo nano ~/.bash_ubuntu_desktop
+11. Type in terminal: sudo nano ~/.wsl_x11_env
 
 Paste this in terminal and save:
 
@@ -55,7 +55,7 @@ Reboot Linux Reboot Linux Reboot Linux Reboot Linux
 
 And we are done - Time to start Cinnamon Desktop - Fedora 39
 
-. ~/.bash_ubuntu_desktop
+. ~/.wsl_x11_env
 cinnamon-session
 
 ----------------------------------------------

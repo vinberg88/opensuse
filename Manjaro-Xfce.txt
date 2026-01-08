@@ -175,7 +175,7 @@ Type this in terminal and put your user there - sudo loginctl enable-linger user
 
 -------------------------------------------------------
 
-Type in terminal: sudo nano ~/.bash_manjaro_desktop
+Type in terminal: sudo nano ~/.wsl_x11_env
 
 Paste this in terminal and save:
 
@@ -193,7 +193,7 @@ Reboot - and start from GWSL shell.. Just saying. Reboot Manjaro
 
 Time to start Xfce Desktop. Copy and paste this in Terminal.
 
-Copy and paste in bash: . ~/.bash_manjaro_desktop
+Copy and paste in bash: . ~/.wsl_x11_env
 
 Copy and paste in bash: dbus-launch xfce4-session
 

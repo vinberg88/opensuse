@@ -225,7 +225,7 @@ sudo systemctl set-default graphical.target
 
 ----------------------------------------------------------------
 
-openEuler 25.03 - Type in terminal: sudo nano ~/.bash_dde_desktop
+openEuler 25.03 - Type in terminal: sudo nano ~/.wsl_x11_env
 
 Paste this in terminal and save:
 
@@ -247,7 +247,7 @@ Done =] Time to start DEEPIN Desktop and it will start - openEuler 25.03
 
 NOTE - ALWAYS START FROM GWSL SHELL / TERMINAL - THEN YOU START DEEPIN DESKTOP!
 
-Copy and paste this in Console: . ~/.bash_dde_desktop
+Copy and paste this in Console: . ~/.wsl_x11_env
 Copy and paste this in Console: exec dbus-run-session /usr/bin/startdde
 
               " Just wait it will start, it take some time "

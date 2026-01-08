@@ -164,7 +164,7 @@ DONE - alot of problem fixed =]
 
 ---------------------------------------------------------
 
-Type in terminal: sudo nano ~/.bash_KDE_desktop
+Type in terminal: sudo nano ~/.wsl_x11_env
 
 Paste this in terminal and save:
 
@@ -184,7 +184,7 @@ Time to start KDE 6. First start X410 then you start Endeavour via terminal -  D
 
 Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
 
-Paste in Terminal: . ~/.bash_KDE_desktop
+Paste in Terminal: . ~/.wsl_x11_env
 
 Paste in Terminal: dbus-launch startplasma-x11
 

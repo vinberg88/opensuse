@@ -178,7 +178,7 @@ Start from GWSL and config - Then Reboot and start from GWSL SHELL.
 
 ----------------------------------------------------------------
 
-Type in terminal: sudo nano ~/.bash_ukui_desktop
+Type in terminal: sudo nano ~/.wsl_x11_env
 
 Paste this in terminal and save:
 
@@ -198,7 +198,7 @@ Start Shell from GWSL...
 
 Done - Time to start from terminal. Paste in console and UKUI desktop will start!
 
-Copy and paste this in Console: . ~/.bash_ukui_desktop
+Copy and paste this in Console: . ~/.wsl_x11_env
 Copy and paste this in Console: ukui-session
 
 If screen crash typ "kwin_x11" in desk that shows after a moment......

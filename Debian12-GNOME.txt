@@ -153,7 +153,7 @@ If you want all after install gnome: sudo apt install gnome*
 
 ------------------------------------------------
 
-In terminal type: sudo nano ~/.bash_debian_desktop
+In terminal type: sudo nano ~/.wsl_x11_env
 
 Paste this in terminal and save.
 
@@ -179,7 +179,7 @@ Reboot Debian - Reboot Debian - Reboot Debian - Reboot Debian
 
 Now we can start GNOME via Debian 12
 
-Paste in terminal: . ~/.bash_debian_desktop
+Paste in terminal: . ~/.wsl_x11_env
 
 Type in terminal: dbus-launch gnome-session
 

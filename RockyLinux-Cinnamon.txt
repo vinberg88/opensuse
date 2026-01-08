@@ -196,7 +196,7 @@ Type this in terminal and put your user there - loginctl enable-linger user
 
 ------------------------------------------------------
 
-Type in terminal: sudo nano ~/.bash_ubuntu_desktop
+Type in terminal: sudo nano ~/.wsl_x11_env
 
 Paste this in terminal and save:
 
@@ -216,7 +216,7 @@ And we are done - Time to start Cinnamon Desktop for Rocky Linux 9
 
 Copy and Paste all in terminal / Shell / bash / Console.
 
-. ~/.bash_ubuntu_desktop
+. ~/.wsl_x11_env
 dbus-launch cinnamon-session
 
 ----------------------------------------------

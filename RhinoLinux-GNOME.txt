@@ -144,7 +144,7 @@ if you are asked under install: https://archive.ubuntu.com/ubuntu/
 
 ----------------------------------------------
 
-Copy this and paste in terminal: sudo nano ~/.bash_Rhino_desktop
+Copy this and paste in terminal: sudo nano ~/.wsl_x11_env
 
 Then add this script to terminal
 
@@ -167,7 +167,7 @@ Warning - Start x410 then Console
 Time to start GNOME desktop and RHINO Linux.
 
 Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
-Paste in terminal: . ~/.bash_Rhino_desktop
+Paste in terminal: . ~/.wsl_x11_env
 Paste in terminal: dbus-launch gnome-session
 
 It take some time to start all in beginning... Just Wait!

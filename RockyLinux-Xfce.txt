@@ -188,7 +188,7 @@ Type this in terminal and put your user-name there: sudo loginctl enable-linger 
 
 -------------------------------------------------------------
 
-In terminal type: sudo nano ~/.bash_RockyLinux_desktop
+In terminal type: sudo nano ~/.wsl_x11_env
 
 Paste this small script in terminal and save and quit nano.
 
@@ -204,7 +204,7 @@ Reboot RockyLinux 9 and start from GWSL Shell.
 
 -------------------------------------------
 
-19. Paste in terminal: . ~/.bash_RockyLinux_desktop
+19. Paste in terminal: . ~/.wsl_x11_env
     
 Type in terminal: startxfce4
 
