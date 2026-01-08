@@ -189,7 +189,7 @@ Start from GWSL and config - Then Reboot and start from GWSL SHELL.
 
 ----------------------------------------------------------------
 
-Type in terminal: sudo nano ~/.bash_xfce_desktop
+Type in terminal: sudo nano ~/.wsl_x11_env
 
 Paste this in terminal and save:
 
@@ -209,7 +209,7 @@ Reboot Linux - Reboot Linux - Reboot Linux - Reboot Linux - OpenEuler 24.03
 
 Done - Time to start from terminal and XFCE Desktop will start!
 
-Copy and paste this in Console: . ~/.bash_xfce_desktop
+Copy and paste this in Console: . ~/.wsl_x11_env
 Copy and paste this in Console: startxfce4
 
 --------------------------------------------------------------

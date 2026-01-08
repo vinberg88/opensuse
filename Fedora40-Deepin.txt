@@ -116,7 +116,7 @@ sudo systemctl set-default graphical.target
 
 --------------------------------------------------------
 
-7. Type in terminal: sudo nano ~/.bash_fedora_desktop
+7. Type in terminal: sudo nano ~/.wsl_x11_env
 
 Paste this in terminal and save:
 
@@ -134,7 +134,7 @@ Reboot and start from GWSL SHELL
 
 Time to Start Deepin Desktop - This will take some time.. Just wait.
 
-. ~/.bash_fedora_desktop
+. ~/.wsl_x11_env
 exec dbus-run-session /usr/bin/startdde
 
 -----------------------------------------------------------

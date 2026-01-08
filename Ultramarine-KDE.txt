@@ -128,7 +128,7 @@ sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default
 
 -------------------------------------------------------------
 
-17. In terminal type: sudo nano ~/.bash_Marine_desktop
+17. In terminal type: sudo nano ~/.wsl_x11_env
 
 Paste this small script in terminal and save and quit nano.
 
@@ -150,7 +150,7 @@ sudo yum install plasma-workspace-x11
 
 -------------------------------------------
 
-19. Paste in terminal: . ~/.bash_Marine_desktop
+19. Paste in terminal: . ~/.wsl_x11_env
     
 Type in terminal: startplasma-x11
 

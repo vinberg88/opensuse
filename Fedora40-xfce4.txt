@@ -117,7 +117,7 @@ sudo dnf install jgmenu
 
 --------------------------------------------------------
 
-11. Type in terminal: sudo nano ~/.bash_ubuntu_desktop
+11. Type in terminal: sudo nano ~/.wsl_x11_env
 
 Paste this in terminal and save:
 
@@ -135,7 +135,7 @@ export LIBGL_ALWAYS_SOFTWARE=1
 
 13. Paste all in Shell. Done =]
 
-. ~/.bash_ubuntu_desktop
+. ~/.wsl_x11_env
 startxfce4
 
 ----------------------------------------------

@@ -237,7 +237,7 @@ sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.
 
 ----------------------------------------------
 
-Copy this and paste in terminal: sudo nano ~/.bash_popOS_desktop
+Copy this and paste in terminal: sudo nano ~/.wsl_x11_env
 
 Then add this script to terminal
 
@@ -280,7 +280,7 @@ Please Reboot - Please Reboot - Please Reboot
 
 ----------------------------------------------
 
-Paste in terminal: . ~/.bash_popOS_desktop
+Paste in terminal: . ~/.wsl_x11_env
 
 Paste in terminal: gnome-session --session=ubuntu
 

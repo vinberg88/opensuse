@@ -250,7 +250,7 @@ sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default
 
 -----------------------------------------------------
 
-In terminal type this to make a scirpt: sudo nano ~/.bash_opensuse_desktop
+In terminal type this to make a scirpt: sudo nano ~/.wsl_x11_env
 
 Paste this in terminal and save:
 
@@ -272,7 +272,7 @@ Time to start KDE 6 via OpenSUse TumbelWeeD - it will take some time first start
 
 Copy and paste: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
 
-Paste in terminal: . ~/.bash_opensuse_desktop
+Paste in terminal: . ~/.wsl_x11_env
 
 Type in terminal: startplasma-x11
 

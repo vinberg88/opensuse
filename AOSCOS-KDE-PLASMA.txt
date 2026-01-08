@@ -184,7 +184,7 @@ Type this in terminal and put your user there - sudo loginctl enable-linger user
 
 ----------------------------------------------
 
-11. Copy this and paste in terminal: sudo nano ~/.bash_aosc_desktop
+11. Copy this and paste in terminal: sudo nano ~/.wsl_x11_env
 
 Then add this script to terminal
 
@@ -212,7 +212,7 @@ Please Reboot Linux - AOSC OS - Please Reboot Linux
 Start X410 for Windows and then start AOSC OS via terminal - Time to start KDE PLASMA.
 
 Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
-Paste in terminal: . ~/.bash_aosc_desktop
+Paste in terminal: . ~/.wsl_x11_env
 Paste in terminal: dbus-launch startplasma-x11
 
 ----------------------------------------------

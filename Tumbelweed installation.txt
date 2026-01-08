@@ -160,7 +160,7 @@ sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default
 -----------------------------------------------------
 
 
-In terminal type this to make a scirpt: sudo nano ~/.bash_opensuse_desktop
+In terminal type this to make a scirpt: sudo nano ~/.wsl_x11_env
 
 Paste this in terminal and save:
 
@@ -178,7 +178,7 @@ Reboot - Reboot - Reboot - Reboot - Reboot - Reboot - Reboot
 
 Time to start KDE via OpenSUse TumbelWeeD - it will take some time first start.
 
-Paste in terminal: . ~/.bash_opensuse_desktop
+Paste in terminal: . ~/.wsl_x11_env
 
 Type in terminal: dbus-launch startplasma-x11
 

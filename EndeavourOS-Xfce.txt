@@ -168,7 +168,7 @@ DONE - alot of problem fixed =]
 
 ---------------------------------------------------------
 
-Type in terminal: sudo nano ~/.bash_xfce_desktop
+Type in terminal: sudo nano ~/.wsl_x11_env
 
 Paste this in terminal and save:
 
@@ -188,7 +188,7 @@ Time to start xfce / xfce4 desktop. First start X410 then you start Endeavour vi
 
 Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
 
-Paste in Terminal: . ~/.bash_xfce_desktop
+Paste in Terminal: . ~/.wsl_x11_env
 
 Paste in Terminal: dbus-launch startxfce4
 

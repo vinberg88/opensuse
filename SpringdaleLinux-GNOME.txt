@@ -182,7 +182,7 @@ Type this in terminal and put your user there - sudo loginctl enable-linger user
 
 -----------------------------------
 
-In terminal type: sudo nano ~/.bash_dale_desktop
+In terminal type: sudo nano ~/.wsl_x11_env
 
 Paste this in terminal and save and quit.
 
@@ -200,7 +200,7 @@ Reboot Reboot Reboot Reboot SpringDale Linux
 
 Time to start Gnome Desktop
 
-Paste in terminal: . ~/.bash_dale_desktop
+Paste in terminal: . ~/.wsl_x11_env
 
 Type in terminal: gnome-session
 

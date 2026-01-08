@@ -86,7 +86,7 @@ sudo apt full-upgrade
 
 -------------------------------
 
-In terminal type: sudo nano ~/.bash_debian_desktop
+In terminal type: sudo nano ~/.wsl_x11_env
 
 Paste this in terminal and save and quit.
 
@@ -192,7 +192,7 @@ NOTE: FIRST START x410 THEN YOU START Debian 13.
 
 Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
 
-Paste in terminal: . ~/.bash_debian_desktop
+Paste in terminal: . ~/.wsl_x11_env
 
 Type in terminal and start cinnamon: dbus-launch cinnamon-session
 

@@ -321,7 +321,7 @@ Type this in terminal and put your user-name there: sudo loginctl enable-linger 
 
 -------------------------------------------------------------
 
-In terminal type: sudo nano ~/.bash_Centos_desktop
+In terminal type: sudo nano ~/.wsl_x11_env
 
 Paste this small script in terminal and save and quit nano.
 
@@ -345,7 +345,7 @@ export LIBGL_ALWAYS_INDIRECT=1
 
 Time to Start KDE 6 for Centos 9 stream - Latest Version.
 
-Paste in terminal: . ~/.bash_Centos_desktop
+Paste in terminal: . ~/.wsl_x11_env
 Paste in terminal: dbus-launch startplasma-x11
 
 -------------------------------------------

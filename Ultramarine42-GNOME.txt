@@ -210,7 +210,7 @@ Type this in terminal and put your username there - sudo loginctl enable-linger 
 
 -------------------------------------------------------------
 
-In terminal type: sudo nano ~/.bash_Ultramarine_desktop
+In terminal type: sudo nano ~/.wsl_x11_env
 
 Paste this small script in terminal and save and quit nano.
 
@@ -230,7 +230,7 @@ Now start X410 then you start Terminal for Ultramarine 42 and GNOME 48 desktop.
 
 Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
 
-Paste in terminal: . ~/.bash_Ultramarine_desktop
+Paste in terminal: . ~/.wsl_x11_env
     
 Paste in terminal: dbus-launch gnome-session
 

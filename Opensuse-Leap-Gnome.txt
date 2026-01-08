@@ -158,7 +158,7 @@ sudo systemctl set-default graphical
 
 ----------------------------------------------------------------------
 
-In terminal type: sudo nano ~/.bash_opensuse_desktop
+In terminal type: sudo nano ~/.wsl_x11_env
 
 Paste this in terminal and save:
 
@@ -174,7 +174,7 @@ Reboot - Reboot - Reboot - Reboot - Reboot - Reboot - Reboot
 
 ----------------------------------------------------------------------
 
-Paste in terminal: . ~/.bash_opensuse_desktop
+Paste in terminal: . ~/.wsl_x11_env
 
 Type in terminal: gnome-session
 

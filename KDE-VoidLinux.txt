@@ -122,7 +122,7 @@ sudo ln -s /etc/sv/{bluetoothd,NetworkManager,sddm} /var/service/
 
 ------------------------------------------
 
-9. Copy this and paste in terminal: sudo nano ~/.bash_void_desktop
+9. Copy this and paste in terminal: sudo nano ~/.wsl_x11_env
 
 Then add this script to terminal
 
@@ -155,7 +155,7 @@ export LIBGL_ALWAYS_SOFTWARE=1
 
 12. Time to start KDE plasma via Void-Linux
 
-Paste in terminal: . ~/.bash_void_desktop
+Paste in terminal: . ~/.wsl_x11_env
 
 Type in terminal and start plasma: startplasma-x11
 

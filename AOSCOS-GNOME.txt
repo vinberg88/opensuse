@@ -156,7 +156,7 @@ Type this in terminal and put your user there - loginctl enable-linger user
 
 ----------------------------------------------
 
-11. Copy this and paste in terminal: sudo nano ~/.bash_aosc_desktop
+11. Copy this and paste in terminal: sudo nano ~/.wsl_x11_env
 
 Then add this script to terminal
 
@@ -181,7 +181,7 @@ Please Reboot Linux - AOSC OS
 
 ----------------------------------------------
 
-Paste in terminal: . ~/.bash_aosc_desktop
+Paste in terminal: . ~/.wsl_x11_env
 Paste in terminal: dbus-launch gnome-session
 
 It take some time to start... Just Wait!

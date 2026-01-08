@@ -173,7 +173,7 @@ sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default
 
 -----------------------------------
 
-Type in terminal: sudo nano ~/.bash_AlmaLinux_desktop
+Type in terminal: sudo nano ~/.wsl_x11_env
 
 Paste this in terminal and save:
 
@@ -216,7 +216,7 @@ NOTE - FIRST START X410 THEN YOU START ALMALINUX 10 VIA TERMINAL
 
 Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
 
-Copy and paste This: . ~/.bash_AlmaLinux_desktop
+Copy and paste This: . ~/.wsl_x11_env
 
 Copy and paste This: xhost +
 

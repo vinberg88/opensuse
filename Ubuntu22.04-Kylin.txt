@@ -155,7 +155,7 @@ Type this in terminal and put your user there at the end - loginctl enable-linge
 --------------------------------------------
 
 
-13. Copy this and paste in terminal: sudo nano ~/.bash_ubuntu_desktop
+13. Copy this and paste in terminal: sudo nano ~/.wsl_x11_env
 
 Then add this lines and save in terminal
 
@@ -196,7 +196,7 @@ sudo apt install kwin*
 
 ------------------------------------------------------
 
-Paste in terminal: . ~/.bash_ubuntu_desktop
+Paste in terminal: . ~/.wsl_x11_env
 
 Type in terminal and start UkUI: dbus-launch ukui-session
 

@@ -192,7 +192,7 @@ Type this in terminal and put your user there for Linux: loginctl enable-linger 
 
 -------------------------------------------------------------
 
-In terminal type: sudo nano ~/.bash_Debian_desktop
+In terminal type: sudo nano ~/.wsl_x11_env
 
 Paste this small script in terminal and save and quit nano.
 
@@ -225,7 +225,7 @@ Reboot Reboot Reboot Reboot Reboot - DEBIAN DE 12 - 2024
 
 Start BUDGIE Desktop via this line - DEBIAN - BUDGIE DESKTOP
 
-Copy and Paste: . ~/.bash_Debian_desktop
+Copy and Paste: . ~/.wsl_x11_env
 
 Paste in terminal: xhost +
 

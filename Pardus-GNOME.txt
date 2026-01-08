@@ -251,7 +251,7 @@ sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default
 
 --------------------------------------------
 
-Copy this and paste in terminal: sudo nano ~/.bash_pardus_desktop
+Copy this and paste in terminal: sudo nano ~/.wsl_x11_env
 
 Then add this script to terminal / Bash
 
@@ -278,7 +278,7 @@ Always start Shell / terminal / Bash / Console from GWSL
 
 --------------------------------------------
 
-Paste in terminal: . ~/.bash_pardus_desktop
+Paste in terminal: . ~/.wsl_x11_env
 
 Type in terminal and start Gnome Desktop: gnome-session
 

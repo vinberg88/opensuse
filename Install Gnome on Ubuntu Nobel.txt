@@ -127,7 +127,7 @@ If you get any questions, copy and paste this and press ok: http://archive.ubunt
 
 ----------------------------------------------
 
-Copy this and paste in terminal: sudo nano ~/.bash_ubuntu_desktop
+Copy this and paste in terminal: sudo nano ~/.wsl_x11_env
 
 Then add this script to terminal
 
@@ -155,14 +155,14 @@ Please Reboot Ubuntu
 
 ------------------------------------------------------
 
-Paste in terminal: . ~/.bash_ubuntu_desktop
+Paste in terminal: . ~/.wsl_x11_env
 Paste in terminal: dbus-launch gnome-session
 
 It take some time to start all in beginning... Just Wait!
 
 Always start Gnome like this...
 
-. ~/.bash_ubuntu_desktop
+. ~/.wsl_x11_env
 dbus-launch gnome-session
 
 ----------------------------------------------

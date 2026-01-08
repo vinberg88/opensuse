@@ -194,7 +194,7 @@ Reboot - Reboot - Reboot - Reboot - Reboot - Reboot - Fedora Rawhide
 
 -------------------------------------------------------------
 
-In terminal type: sudo nano ~/.bash_Fedora_desktop
+In terminal type: sudo nano ~/.wsl_x11_env
 
 Paste this small script in terminal and save and quit nano.
 
@@ -218,7 +218,7 @@ You may try a few times before GNOME starts with: gnome-session
 
 /////////////////////////////
 
-Type in terminal: . ~/.bash_Fedora_desktop
+Type in terminal: . ~/.wsl_x11_env
     
 Type in terminal: gnome-session
 

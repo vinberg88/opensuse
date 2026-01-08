@@ -153,7 +153,7 @@ sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default
 
 -------------------------------------
 
-11. Copy this and paste in terminal: sudo nano ~/.bash_mint_desktop
+11. Copy this and paste in terminal: sudo nano ~/.wsl_x11_env
 
 Then add this script to terminal
 
@@ -181,11 +181,11 @@ Reboot Reboot Reboot Reboot Reboot
 
 -------------------------------------
 
-Paste in terminal: . ~/.bash_mint_desktop
+Paste in terminal: . ~/.wsl_x11_env
 
 Time to start Gnome: gnome-session
 
-You always need to type . ~/.bash_ubuntu_desktop and then gnome-session to start gnome.
+You always need to type . ~/.wsl_x11_env and then gnome-session to start gnome.
 
 -------------------------------------
 

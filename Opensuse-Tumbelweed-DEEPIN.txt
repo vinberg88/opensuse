@@ -161,7 +161,7 @@ Type this in terminal and put your user there - loginctl enable-linger user
 
 ------------------------
 
-In terminal type: sudo nano ~/.bash_suse_desktop
+In terminal type: sudo nano ~/.wsl_x11_env
 
 Paste this in terminal and save:
 
@@ -181,7 +181,7 @@ Wait 5 sec and reboot and start Bash.
 
 Time to start DEEPIN desktop via OpenSuse Tumbelweed!
 
-Paste in terminal: . ~/.bash_suse_desktop
+Paste in terminal: . ~/.wsl_x11_env
 
 Type in terminal: dde-session
 

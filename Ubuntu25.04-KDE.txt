@@ -286,7 +286,7 @@ Type this in terminal and put your user there: sudo loginctl enable-linger user
 
 --------------------------------------------
 
-Copy this and paste in terminal: sudo nano ~/.bash_ubuntu_desktop
+Copy this and paste in terminal: sudo nano ~/.wsl_x11_env
 
 Then add this script to terminal
 
@@ -317,7 +317,7 @@ FIRST START X410 XSERVER THEN YOU START TERMINAL / CONSOLE / BSAH FOR Ubuntu
 
 Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
 
-Paste in terminal: . ~/.bash_ubuntu_desktop
+Paste in terminal: . ~/.wsl_x11_env
 
 Type in terminal and start plasma: dbus-launch startplasma-x11
 

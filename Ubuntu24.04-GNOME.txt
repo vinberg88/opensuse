@@ -149,7 +149,7 @@ sudo apt install ubuntu-desktop gnome* -y
 
 ----------------------------------------------
 
-Copy this and paste in terminal: sudo nano ~/.bash_ubuntu_desktop
+Copy this and paste in terminal: sudo nano ~/.wsl_x11_env
 
 Then add this script to terminal
 
@@ -178,7 +178,7 @@ Time to start Gnome and Ubuntu - Paste One by One!
 NOTE - FIRST START X410 THEN YOU START UBUNTU VIA TERMINAL
 
 Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
-Paste in terminal: . ~/.bash_ubuntu_desktop
+Paste in terminal: . ~/.wsl_x11_env
 Paste in terminal: dbus-launch gnome-session
 
 It take some time to start all in beginning... Just Wait!

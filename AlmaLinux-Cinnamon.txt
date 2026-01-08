@@ -181,7 +181,7 @@ sudo systemctl set-default graphical.target
 
 --------------------------------
 
-Copy this and paste in terminal: sudo nano ~/.bash_almaLinux_desktop
+Copy this and paste in terminal: sudo nano ~/.wsl_x11_env
 
 Then add this script to terminal
 
@@ -209,7 +209,7 @@ Start X410 for windows and then start AlmaLinux 9 - Time to start Cinnamon.
 
 Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
 
-Paste in terminal: . ~/.bash_almaLinux_desktop
+Paste in terminal: . ~/.wsl_x11_env
 
 Paste in terminal: xhost +
 

@@ -71,7 +71,7 @@ sudo systemctl enable NetworkManager
 
 ---------------------------------------------------------------------------
 
-7. Type in terminal: sudo nano ~/.bash_arch_desktop
+7. Type in terminal: sudo nano ~/.wsl_x11_env
 
 Paste this script in terminal and save.
 
@@ -113,7 +113,7 @@ export LIBGL_ALWAYS_SOFTWARE=1
 
 11. Time to start Cinnamon Desktop.... Just wait  =]
 
-. ~/.bash_arch_desktop
+. ~/.wsl_x11_env
 dbus-launch cinnamon-session
 
 ---------------------------------------------------------------------------

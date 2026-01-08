@@ -167,7 +167,7 @@ sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default
 
 --------------------------------------------
 
-Copy this and paste in terminal: sudo nano ~/.bash_wsl_desktop
+Copy this and paste in terminal: sudo nano ~/.wsl_x11_env
 
 Then add this script to terminal / Bash
 
@@ -196,7 +196,7 @@ Always start Shell / terminal / Bash / Console from GWSL
 
 Time to start KDE desktop.
 
-Paste in terminal: . ~/.bash_wsl_desktop
+Paste in terminal: . ~/.wsl_x11_env
 
 Type in terminal and start kde plasma 5: dbus-launch startplasma-x11
 

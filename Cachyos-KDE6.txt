@@ -142,7 +142,7 @@ Reboot CachyOS - Reboot CachyOS - CachyOS From GWSL and start Shell.
 
 ----------------------------------------------------------------
 
-Type in terminal: sudo nano ~/.bash_arch_desktop
+Type in terminal: sudo nano ~/.wsl_x11_env
 
 Paste this in terminal and save:
 
@@ -160,7 +160,7 @@ Reboot CachyOS - Reboot CachyOS - Start CachyOS From GWSL and start Shell.
 
 Time to start KDE Plasma 6 on Cachy OS and ARCH.
 
-Paste in terminal: . ~/.bash_arch_desktop
+Paste in terminal: . ~/.wsl_x11_env
 
 Paste in terminal: dbus-launch startplasma-x11
 

@@ -145,7 +145,7 @@ Type this in terminal and put your user there - sudo loginctl enable-linger user
 
 ---------------------------------------------
 
-In terminal type: sudo nano ~/.bash_opensuse_desktop
+In terminal type: sudo nano ~/.wsl_x11_env
 
 Paste this in terminal and save:
 
@@ -164,7 +164,7 @@ Reboot Reboot Reboot Reboot - Tumbelweed
 Now we cane start Gnome desktop via OpenSuse TumbelWeeD
 
 Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
-Paste in terminal: . ~/.bash_opensuse_desktop
+Paste in terminal: . ~/.wsl_x11_env
 Type in terminal: dbus-launch gnome-session
 
 ---------------------------------------------

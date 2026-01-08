@@ -166,7 +166,7 @@ Setup GWSL and reboot and start from GWSL Shell.
 
 -----------------------------------
 
-In terminal type: sudo nano ~/.bash_ultramarine_desktop
+In terminal type: sudo nano ~/.wsl_x11_env
 
 Paste this in terminal and save and quit.
 
@@ -190,7 +190,7 @@ Reboot Reboot Reboot Reboot Reboot Reboot and start from GWSL Shell.
 
 -----------------------------------
 
-Paste in terminal: . ~/.bash_ultramarine_desktop
+Paste in terminal: . ~/.wsl_x11_env
 
 Type in terminal: dbus-launch cosmic-session
 

@@ -134,7 +134,7 @@ sudo systemctl enable lightdm
 
 -----------------------------------------------------------
 
-Type in terminal: sudo nano ~/.bash_Arch_desktop
+Type in terminal: sudo nano ~/.wsl_x11_env
 
 Paste this in terminal and save:
 
@@ -153,7 +153,7 @@ Reboot - Reboot - Reboot - Reboot - Reboot - Reboot - Arch
 Start X410 for windows 11 and start Arch now its Time to start xfce4
 
 Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
-Paste in terminal: . ~/.bash_Arch_desktop
+Paste in terminal: . ~/.wsl_x11_env
 Paste in terminal: dbus-launch startxfce4
 
 ------------------------------------------------------------

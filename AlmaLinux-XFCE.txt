@@ -145,7 +145,7 @@ sudo systemctl set-default graphical
 
 --------------------------------
 
-Copy this and paste in terminal: sudo nano ~/.bash_almaLinux_desktop
+Copy this and paste in terminal: sudo nano ~/.wsl_x11_env
 
 Then add this script to terminal
 
@@ -169,7 +169,7 @@ Reboot Reboot Reboot Reboot Reboot Reboot
 
 And we are done - Time to start Xfce for AlmaLinux 9
 
-Take this on First: . ~/.bash_almaLinux_desktop
+Take this on First: . ~/.wsl_x11_env
 
 Then This on: dbus-launch startxfce4
 

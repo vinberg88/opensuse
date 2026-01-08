@@ -262,7 +262,7 @@ If you see ip and nameserver all works.
 
 Create a small script för chimera linux and KDE 6
 
-Copy this and paste in terminal: doas nano ~/.bash_OS_desktop 
+Copy this and paste in terminal: doas nano ~/.wsl_x11_env 
 
 Then add this script to terminal
 
@@ -285,7 +285,7 @@ NOTE: START X410 FIRST THEN YOU START CHIMERA TERMINAL!
 
 Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
 
-Paste in terminal: . ~/.bash_OS_desktop
+Paste in terminal: . ~/.wsl_x11_env
 
 Paste in terminal: dbus-launch startplasma-x11
 

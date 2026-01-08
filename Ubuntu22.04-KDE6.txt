@@ -144,7 +144,7 @@ Type this in terminal and put your user there - loginctl enable-linger user
 
 --------------------------------------------
 
-Copy this and paste in terminal: sudo nano ~/.bash_ubuntu_desktop
+Copy this and paste in terminal: sudo nano ~/.wsl_x11_env
 
 Then add this script to terminal / Bash
 
@@ -171,7 +171,7 @@ Always start Shell / terminal / Bash / Console from GWSL
 
 --------------------------------------------
 
-Paste in terminal: . ~/.bash_ubuntu_desktop
+Paste in terminal: . ~/.wsl_x11_env
 
 Type in terminal and start kde plasma 6: dbus-launch startplasma-x11
 

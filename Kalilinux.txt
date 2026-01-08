@@ -40,7 +40,7 @@ sudo apt install ./google-chrome-stable_current_amd64.deb -y
 
 10. Time to install Gnome: sudo apt-get install kali-desktop-gnome
 
-11. Copy this and paste in terminal: sudo nano ~/.bash_ubuntu_desktop
+11. Copy this and paste in terminal: sudo nano ~/.wsl_x11_env
 
 Then add this script to terminal
 
@@ -81,7 +81,7 @@ bash ubuntu-wsl2-systemd-script.sh
 
 10.5. Please Reboot.
 
-11. Paste in terminal: . ~/.bash_ubuntu_desktop
+11. Paste in terminal: . ~/.wsl_x11_env
 
 12. Type in terminal: dbus-launch gnome-session
 
