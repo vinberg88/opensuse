@@ -1,0 +1,382 @@
+PikaOS and KDE 6 - How to install KDE via WSL and Microsoft - X410 - YouTube - GitHUB - PikaOS - 2026
+
+You can find PikaOS For WSL here: https://drive.proton.me/urls/RR627VP8FC#luT2cEm50rIn
+
+
+How to install PIKA OS and KDE 6 via WSL - TEXT
+Comming Sone...
+
+How to install PIKA OS and KDE 6 via WSL - MOVIE
+https://www.youtube.com/watch?v=RK0aU_-LmsE
+
+
+Tools that i USE for WSL - PIKA OS - Microsoft - Linux - Windows 11 - KDE 6 - 2026
+
+X410 - Xserver for windows 11 - So you have a Desktop.
+Do you want to seamlessly use Linux GUI apps side by side with Windows
+apps? Simply start X410 and adjust a few settings; your Linux GUI
+apps then suddenly appear in Windows and you can use them like Windows 
+apps! It doesn't matter where your Linux GUI apps are actually
+running; it can be a full virtual machine, Docker container, WSL
+(Windows Subsystem for Linux) or whatever. As long as your Linux GUI
+apps support X-Window client protocols, you can use them in Windows.
+You can even securely use your Linux GUI apps running in a far remote
+server via any SSH client that supports X11 forwarding over the Internet.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+                  -                                   
+                   ----------------                   
+                    ------------------                OS: PikaOS 4 x86_64 FOR WSL
+                    -------------------               Host: Windows Subsystem for Linux - PikaOS (2.6.3.0)
+    --               -----------=*-=----#####         Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+   -----------------------------####--=######         Desktop - KDE 6 Plasma
+   ------------------------------++---+####           
+   =============----------------=+=-----              
+   =================-----------####+----              MEDIA - MATTIAS VINBERG - STOCKHOLM - SWEDEN - 2026
+   ==================----------*###=----              
+   ===================-----------------               Windows 11 - Microsoft - WSL - Windows Subsystem for Linux
+    ==================-----------------               
+     =================----------------                PikaOS - Your new Linux distro for gaming and beyond!
+      ===============------------::::                 
+       ============-:::::::::::::::                   
+         =======--:::::::::::::::                     
+            .::::::::::::::::.                        
+                 :::::::                              
+                                                      
+                                                      
+About PIKA OS 4 for WSL - https://wiki.pika-os.com/en/home
+
+PikaOS is a gaming/optimization-focused Linux distribution
+that emphasizes ease of use and high compatibility. Built
+on a Debian base but with cherry picked and custom compiled
+packages ensures that Pika is stable whilst being bang
+up to date!
+
+Gaming Out of the Box: Setup for pain-free Linux gaming from the start.
+Excellent Performance: Combines up-to-date drivers with a
+custom-tweaked kernel for speed. We also optimize every
+package with O3, LTO and avx2 for extra speed! 
+High Compatibility: Debian sid base with custom patches ensures
+broad software and hardware support. PIKA OS is the future..
+
+About KDE 6 Desktop - https://kde.org
+
+KDE is an international team co-operating on 
+development and distribution of Free, Open
+Source Software for desktop and portable
+computing. Our community has developed a
+wide variety of applications for communication, 
+work, education and entertainment. We have a
+strong focus on finding innovative solutions to
+old and new problems, creating a vibrant, open
+atmosphere for experimentation. KDE is The 
+next generation desktop for Linux. Use KDE
+software to surf the web, keep in touch with
+colleagues, friends and family, manage your
+files, enjoy music and videos; and get creative
+and productive at work. The KDE community develops
+and maintains more than 200 applications
+which run on any Linux desktop, and often
+other platforms too.
+
+Find More Here About WSL and Linux for Windows 11 - DESKTOPS FOR WSL.
+
+https://github.com/vinberg88/opensuse
+
+Please Visit My page for WSL - Windows Subsystem for Linux
+
+https://vinberg88.github.io                                               
+
+-----------------------------------------------------
+
+NOW LETS START INSTALLATION FOR KDE 6 AND PIKAOS - 2026
+
+-----------------------------------------------------
+
+First thing you need to do is copy this file to C:\Users\yourusername
+
+1. Download this file from proton: https://drive.proton.me/urls/G602NV0DFG#Rn5D1Tny3TpQ
+
+1. Open explorer
+
+2. Copy file
+
+3. Paste it under C:\Users\yourusername <-- username is not your username =]
+
+Its easy, use Explorer and copy and past - DONE.
+
+-----------------------------------------------------
+
+Next start Pika OS and change this in terminal - IMPORTENT...
+
+NOTE: LOGIN AS ROOT USER - NOTE: LOGIN AS ROOT USER - NOTE
+ 
+Copy and Paste in terminal and enable systemd and change your username for PikaOS.
+
+CHANGE adolf FOR URE USER.
+
+useradd -m -s /bin/bash adolf
+
+echo "adolf ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/wsl
+
+chmod 0440 /etc/sudoers.d/wsl
+
+----------------------------------------------
+
+NOW OPEN THIS FILE.. And add your username and systemd.
+
+sudo nano /etc/wsl.conf
+
+[boot]
+systemd=true
+
+[user]
+default=adolf
+
+----------------------------------------------
+
+Set password for root and user. You will be glad you did this =]
+
+Type this in terminal as ROOT user.
+
+sudo passwd root
+
+sudo passwd adolf  <-- change adolf to your name.
+
+USE SAME PASSWORD FOR USER AND ROOT.
+
+----------------------------------------------
+
+Pika OS - Reboot Reboot Reboot Reboot Reboot - Pika OS
+
+----------------------------------------------
+
+LOGIN IN AS NORMAL USER - LOGIN IN AS NORMAL USER
+
+----------------------------------------------
+
+Update all - dont care if you se errors - WSL
+
+sudo apt update && sudo apt upgrade
+
+----------------------------------------------
+
+Setup Lang for for your USER - Swedish SV Svenska for me.
+
+Change lang in Terminal...
+
+sudo apt update
+sudo apt install -y locales pikman
+
+sudo locale-gen sv_SE sv_SE.UTF-8
+sudo dpkg-reconfigure locales
+
+Paste this in terminal to get all fixed: sudo nano .bashrc
+
+export LC_ALL="sv_SE.UTF-8"
+
+----------------------------------------------
+
+Now Open terminal and Paste this...
+
+sudo nano /etc/default/locale
+
+Copy and paste this in Console
+
+LANG=sv_SE.UTF-8
+LC_ALL=sv_SE.UTF-8
+
+----------------------------------------------
+
+ Pika OS - Reboot Reboot Reboot Reboot Reboot - Pika OS
+
+----------------------------------------------
+
+Run this to update all for PikaOS - PIKMAN IS A POWERFUL TOOL =] 
+
+pikman update
+
+pikman upgrade
+
+READ HERE IF YOU WANT TO USE IT LATER: https://git.pika-os.com/general-packages/pikman
+
+MORE TO READ - https://wiki.pika-os.com/en/custom-utils-wiki/pikman-manager-cli
+
+Pikman Also allows you to install from other Linux variants such as
+arch, fedora, alpine and flatpack. Another one of our innovative features
+is our package manager, pikman, with its apx, apt and flatpak support.
+This allows you to easily install packages from other distributions 
+without compromising your system's stability. It's like having the best
+of all worlds at your fingertips.
+
+----------------------------------------------
+
+Now weed need to fix some files - ERRORS - Dbus-broker need help from PikaOS - 2026
+
+COPY AND PASTE ONE BY ONE - NO STRESS - PikaOS
+
+sudo apt install dbus-* dbus-broker* dbus-daemon* dbus*
+
+sudo systemctl disable --now dbus
+
+sudo systemctl enable --now dbus-broker
+
+sudo systemctl restart dbus-broker
+
+And We are done :) Go to next step.
+
+----------------------------------------------
+
+Install all programs for PikaOS - 2026 
+
+sudo apt install bluez* avahi* polkitd gradle* systemd squid-deb-proxy-client ubuntu-archive-keyring zstd shunit2
+
+----------------------------------------------
+
+Install some more programs for PikaOS - 2026 - KDE 6
+
+sudo apt install bash-completion tzdata less iproute2 iputils-ping ca-certificates curl debootstrap file unzip
+
+----------------------------------------------
+
+Lets install fastfetch and Hyfetch - Like Neofetch butt better.
+
+sudo apt install hyfetch fastfetch imagemagick-7-doc cups-bsd enscript ffmpeg dict-wn dictd w3m-el xsel brotli dict
+
+To test type this in terminal: hyfetch
+
+----------------------------------------------
+
+Install this programs from terminal - You need it - PikaOS
+
+sudo apt install bash git npm wget curl pipx net-tools dbus-x11 systemd-resolved unrar zip unzip p7zip-full p7zip-rar rar file-roller
+
+---------------------------------
+
+Reboot PikaOS - Reboot PikaOS - Reboot PikaOS - Reboot PikaOS - Reboot PikaOS 
+
+---------------------------------
+
+Time to install KDE desktop for PikaOS - WORKS WELL FOR PikaOS - 2026 - KDE 6
+
+sudo apt install kde-full
+
+sudo apt install sddm* build-essential aptitude apt-xapian-index aptitude-doc-en debtags
+
+----------------------------------------------
+
+Install Googel Chrome Browser - 2026 - Latest Edition for PikaOS and KDE 6
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+----------------------------------------------
+
+Install Blanket - Listen to sounds - When you are hacking hehe.
+
+sudo apt install blanket
+
+----------------------------------------------
+
+Install GIMPE and LibreOffice - Must have programs
+
+sudo apt install gimp libreoffice
+
+----------------------------------------------
+
+Visual studio code from Microsoft - Install for Pika OS and KDE 6
+
+sudo apt-get install wget* gpg* -y
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" |sudo tee /etc/apt/sources.list.d/vscode.list > /dev/null
+rm -f packages.microsoft.gpg
+
+sudo apt install apt-transport-https* http* -y
+sudo apt update
+sudo apt install code -y
+
+----------------------------------------------
+
+Fix IP problem X410. Cant find screen problems. Look ip adress in windows terminal / PowerShell: ipconfig
+
+NOTE: open Powershell and type: ipconfig - Last lines is WSL ip.
+
+Now go back to Terminal for PikaOS
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 192.168.240.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed =] If you see some RED text dont worry it works any ways.
+
+----------------------------------------------
+
+Then Copy and Paste this in Terminal - PikaOS
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+----------------------------------------------
+
+Create this script that is used when we start KDE and PikaOS.
+
+Type in terminal: sudo nano ~/.bash_linux_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+------------------------------------------------------
+
+Restart PIKA OS - Restart PIKA OS - Restart PIKA OS - Restart PIKA OS - It will take one min - JUST WAIT.
+
+------------------------------------------------------
+
+Time to start KDE Plasma 6 and PIKS OS - Paste One by One!
+
+NOTE - FIRST START X410 THEN YOU START PIKA OS 4 VIA TERMINAL
+
+Copy and paste This: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Copy and paste This: . ~/.bash_linux_desktop
+
+Copy and paste This: dbus-launch startplasma-x11
+
+----------------------------------------------------------------
+
+Regards Mattias Vinberg - PIKA OS - WSL - X410 - Windows 11 - Linux - Microsoft - Sweden - 2026
+
+
+ /🐦🐦🐦$ /🐦/🐦                /🐦🐦🐦  /🐦🐦🐦 
+| 🐦__  $|__| 🐦               /🐦__  🐦/🐦__  🐦
+| 🐦  \ 🐦/$| 🐦   /🐦 /🐦🐦🐦| 🐦  \ $| 🐦  \__/
+| 🐦🐦🐦$| $| 🐦  /🐦/|____  $| 🐦  | $|  🐦🐦🐦 
+| 🐦____/| $| 🐦🐦🐦/  /🐦🐦🐦| 🐦  | 🐦\____  🐦
+| 🐦     | $| 🐦_  🐦 /🐦__  $| 🐦  | 🐦/🐦  \ 🐦 
+| 🐦     | $| 🐦 \  $|  🐦🐦🐦|  🐦🐦🐦|  🐦🐦🐦/
+|__/     |__|__/  \__/\_______/\______/ \______/  
+
+
+❤ Thank you for being a part of the Pika OS and KDE 6 Project for WSL2 - ❤
+
+---------------------------------------------------------------
