@@ -4,7 +4,7 @@ You can find PikaOS For WSL here: https://drive.proton.me/urls/RR627VP8FC#luT2cE
 
 
 How to install PIKA OS and KDE 6 via WSL - TEXT
-Comming Sone...
+https://github.com/vinberg88/opensuse/blob/main/PiksOS-KDE.txt
 
 How to install PIKA OS and KDE 6 via WSL - MOVIE
 https://www.youtube.com/watch?v=RK0aU_-LmsE
@@ -380,3 +380,4 @@ Regards Mattias Vinberg - PIKA OS - WSL - X410 - Windows 11 - Linux - Microsoft 
 ❤ Thank you for being a part of the Pika OS and KDE 6 Project for WSL2 - ❤
 
 ---------------------------------------------------------------
+
