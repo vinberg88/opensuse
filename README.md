@@ -40,6 +40,86 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+PikaOS and KDE 6 - How to install KDE via WSL and Microsoft - X410 - YouTube - GitHUB - PikaOS - 2026
+
+You can find PikaOS For WSL here: https://drive.proton.me/urls/RR627VP8FC#luT2cEm50rIn
+
+How to install PIKA OS and KDE 6 via WSL - TEXT
+https://github.com/vinberg88/opensuse/blob/main/PiksOS-KDE.txt
+
+How to install PIKA OS and KDE 6 via WSL - MOVIE
+https://www.youtube.com/watch?v=RK0aU_-LmsE
+
+Tools that i USE for WSL - PIKA OS - Microsoft - Linux - Windows 11 - KDE 6 - 2026
+
+X410 - Xserver for windows 11 - So you have a Desktop.
+Do you want to seamlessly use Linux GUI apps side by side with Windows
+apps? Simply start X410 and adjust a few settings; your Linux GUI
+apps then suddenly appear in Windows and you can use them like Windows 
+apps! It doesn't matter where your Linux GUI apps are actually
+running; it can be a full virtual machine, Docker container, WSL
+(Windows Subsystem for Linux) or whatever. As long as your Linux GUI
+apps support X-Window client protocols, you can use them in Windows.
+You can even securely use your Linux GUI apps running in a far remote
+server via any SSH client that supports X11 forwarding over the Internet.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="PiksOS-KDE" src="https://github.com/user-attachments/assets/d7453eac-2f1d-44d8-a210-6de4e7828dfd" />
+
+About PIKA OS 4 for WSL - https://wiki.pika-os.com/en/home
+
+PikaOS is a gaming/optimization-focused Linux distribution
+that emphasizes ease of use and high compatibility. Built
+on a Debian base but with cherry picked and custom compiled
+packages ensures that Pika is stable whilst being bang
+up to date!
+
+Gaming Out of the Box: Setup for pain-free Linux gaming from the start.
+Excellent Performance: Combines up-to-date drivers with a
+custom-tweaked kernel for speed. We also optimize every
+package with O3, LTO and avx2 for extra speed! 
+High Compatibility: Debian sid base with custom patches ensures
+broad software and hardware support. PIKA OS is the future..
+
+About KDE 6 Desktop - https://kde.org
+
+KDE is an international team co-operating on 
+development and distribution of Free, Open
+Source Software for desktop and portable
+computing. Our community has developed a
+wide variety of applications for communication, 
+work, education and entertainment. We have a
+strong focus on finding innovative solutions to
+old and new problems, creating a vibrant, open
+atmosphere for experimentation. KDE is The 
+next generation desktop for Linux. Use KDE
+software to surf the web, keep in touch with
+colleagues, friends and family, manage your
+files, enjoy music and videos; and get creative
+and productive at work. The KDE community develops
+and maintains more than 200 applications
+which run on any Linux desktop, and often
+other platforms too.
+
+Find More Here About WSL and Linux for Windows 11 - DESKTOPS FOR WSL.
+
+https://github.com/vinberg88/opensuse
+
+Please Visit My page for WSL - Windows Subsystem for Linux
+
+https://vinberg88.github.io 
+
+Regards Mattias Vinberg - PIKA OS - WSL - X410 - Windows 11 - Linux - Microsoft - Sweden - 2026
+
+---------------------------------------------
+
 NixOS and MATE - How To install MATE via NixOS and Windows 11 - WSL - Linux - GitHub - YouTube - 2025
 
 How to install MATE via NIXOS - WSL - TEXT
