@@ -3,7 +3,7 @@ PikaOS and GNOME - How to install GNOME via WSL and Microsoft - X410 - YouTube -
 You can find PikaOS For WSL here: https://drive.proton.me/urls/RR627VP8FC#luT2cEm50rIn
 
 How to install PIKA OS and GNOME via WSL - TEXT
-Comming...
+https://github.com/vinberg88/opensuse/blob/main/PiksOS-GNOME.txt
 
 How to install PIKA OS and GNOME via WSL - MOVIE
 https://www.youtube.com/watch?v=2uIq9-yad5U
@@ -373,3 +373,4 @@ Regards Mattias Vinberg - PIKA OS - WSL - X410 - Windows 11 - GNOME - Microsoft 
 ❤ Thank you for being a part of the Pika OS and GNOME 48 Project for WSL2 - ❤
 
 ---------------------------------------------------------------
+
