@@ -1,0 +1,375 @@
+PikaOS and GNOME - How to install GNOME via WSL and Microsoft - X410 - YouTube - GitHUB - PikaOS - 2026
+
+You can find PikaOS For WSL here: https://drive.proton.me/urls/RR627VP8FC#luT2cEm50rIn
+
+How to install PIKA OS and GNOME via WSL - TEXT
+Comming...
+
+How to install PIKA OS and GNOME via WSL - MOVIE
+https://www.youtube.com/watch?v=2uIq9-yad5U
+
+Tools that i USE for WSL - PIKA OS - Microsoft - Linux - Windows 11 - GNOME - 2026
+
+X410 - Xserver for windows 11 - So you have a Desktop.
+Do you want to seamlessly use Linux GUI apps side by side with Windows
+apps? Simply start X410 and adjust a few settings; your Linux GUI
+apps then suddenly appear in Windows and you can use them like Windows 
+apps! It doesn't matter where your Linux GUI apps are actually
+running; it can be a full virtual machine, Docker container, WSL
+(Windows Subsystem for Linux) or whatever. As long as your Linux GUI
+apps support X-Window client protocols, you can use them in Windows.
+You can even securely use your Linux GUI apps running in a far remote
+server via any SSH client that supports X11 forwarding over the Internet.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+                  -                                   
+                   ----------------                   
+                    ------------------                OS: PikaOS 4 x86_64 FOR WSL
+                    -------------------               Host: Windows Subsystem for Linux - PikaOS (2.6.3.0)
+    --               -----------=*-=----#####         Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+   -----------------------------####--=######         Desktop - GNOME
+   ------------------------------++---+####           
+   =============----------------=+=-----              
+   =================-----------####+----              MEDIA - MATTIAS VINBERG - STOCKHOLM - SWEDEN - 2026
+   ==================----------*###=----              
+   ===================-----------------               Windows 11 - Microsoft - WSL - Windows Subsystem for Linux
+    ==================-----------------               
+     =================----------------                PikaOS - Your new Linux distro for gaming and beyond!
+      ===============------------::::                 
+       ============-:::::::::::::::                   
+         =======--:::::::::::::::                     
+            .::::::::::::::::.                        
+                 :::::::                              
+                                                      
+                                                      
+About PIKA OS 4 for WSL - https://wiki.pika-os.com/en/home
+
+PikaOS is a gaming/optimization-focused Linux distribution
+that emphasizes ease of use and high compatibility. Built
+on a Debian base but with cherry picked and custom compiled
+packages ensures that Pika is stable whilst being bang
+up to date!
+
+Gaming Out of the Box: Setup for pain-free Linux gaming from the start.
+Excellent Performance: Combines up-to-date drivers with a
+custom-tweaked kernel for speed. We also optimize every
+package with O3, LTO and avx2 for extra speed! 
+High Compatibility: Debian sid base with custom patches ensures
+broad software and hardware support. PIKA OS is the future..
+
+About GNOME Desktop - https://www.gnome.org
+
+Every part of GNOME has been designed to make it simple 
+and easy to use. The Activities Overview is a simple way 
+to access all your basic tasks. A press of a button is
+all it takes to view your open windows, launch applications, or 
+check if you have new messages. Having everything in 
+one convenient place means you don’t have to learn your way 
+around a maze of different technologies. 
+
+Find More Here About WSL and Linux for Windows 11 - DESKTOPS FOR WSL.
+
+https://github.com/vinberg88/opensuse
+
+Please Visit My page for WSL - Windows Subsystem for Linux
+
+https://vinberg88.github.io                                               
+
+-----------------------------------------------------
+
+NOW LETS START INSTALLATION FOR GNOME AND PIKAOS - 2026
+
+-----------------------------------------------------
+
+Next start Pika OS and change this in terminal - IMPORTENT...
+
+NOTE: LOGIN AS ROOT USER - NOTE: LOGIN AS ROOT USER - NOTE
+ 
+Copy and Paste in terminal and enable your username for PikaOS.
+
+CHANGE adolf FOR Your USER.
+
+useradd -m -s /bin/bash adolf
+
+echo "adolf ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/wsl
+
+chmod 0440 /etc/sudoers.d/wsl
+
+----------------------------------------------
+
+NOW OPEN THIS FILE.. And add your username and systemd.
+
+sudo nano /etc/wsl.conf
+
+[boot]
+systemd=true
+
+[user]
+default=adolf <-- change adolf to your name.
+
+----------------------------------------------
+
+Set password for root and user. You will be glad you did this =]
+
+Type this in terminal as ROOT user.
+
+sudo passwd root
+
+sudo passwd adolf  <-- change adolf to your name.
+
+USE SAME PASSWORD FOR USER AND ROOT.
+
+----------------------------------------------
+
+Pika OS - Reboot Reboot Reboot Reboot Reboot - Pika OS
+
+----------------------------------------------
+
+LOGIN IN AS NORMAL USER - LOGIN IN AS NORMAL USER
+
+----------------------------------------------
+
+Update all - dont care if you se errors - WSL
+
+sudo apt update && sudo apt upgrade
+
+NOTE - PRESS ENTER IF ASKED IN TERMINAL. WHEN YOU SEE BLUE SCREEN SELECT YES.
+
+----------------------------------------------
+
+Setup Lang for for your USER - Swedish SV Svenska for me.
+
+Change lang in Terminal...
+
+sudo apt update
+sudo apt install locales pikman kexec-tools efibootmgr* bsdextrautils e2fsprogs-l10n systemd-timesyncd daemon* libnss-systemd
+
+sudo locale-gen sv_SE sv_SE.UTF-8
+sudo dpkg-reconfigure locales
+
+Paste this in terminal to get all fixed: sudo nano .bashrc
+
+export LC_ALL="sv_SE.UTF-8"
+
+----------------------------------------------
+
+Now Open terminal and Paste this...
+
+sudo nano /etc/default/locale
+
+Copy and paste this in Console
+
+LANG=sv_SE.UTF-8
+LC_ALL=sv_SE.UTF-8
+
+----------------------------------------------
+
+Important - Install this =) fix systemd-resolved
+
+sudo apt install low-memory-monitor libtss2-rc0t64 libarchive13t64 libdw1t64 libelf1t64 libfido2-1 libpwquality1 libqrencode4 sgml-base-doc libtss2-tcti-device0 debhelper
+sudo apt install systemd-resolved bsdextrautils systemd-timesyncd libnss-systemd systemd-container systemd-homed systemd-userdbd systemd-boot systemd-repart systemd-ukify
+
+----------------------------------------------
+
+ Pika OS - Reboot Reboot Reboot Reboot Reboot - Pika OS - Reboot Reboot Pika OS
+
+----------------------------------------------
+
+Run this to update all for PikaOS - PIKMAN IS A POWERFUL TOOL =] 
+
+pikman update
+
+pikman upgrade
+
+READ HERE IF YOU WANT TO USE IT LATER: https://git.pika-os.com/general-packages/pikman
+
+MORE TO READ - https://wiki.pika-os.com/en/custom-utils-wiki/pikman-manager-cli
+
+Pikman Also allows you to install from other Linux variants such as
+arch, fedora, alpine and flatpack. Another one of our innovative features
+is our package manager, pikman, with its apx, apt and flatpak support.
+This allows you to easily install packages from other distributions 
+without compromising your system's stability. It's like having the best
+of all worlds at your fingertips.
+
+----------------------------------------------
+
+Now weed need to fix some files - ERRORS - Dbus-broker need help from PikaOS - 2026
+
+COPY AND PASTE ONE BY ONE - NO STRESS - PikaOS
+
+sudo apt install dbus-* dbus-broker* dbus-daemon* dbus* bustle gcc-14-base
+
+sudo systemctl disable --now dbus
+
+sudo systemctl enable --now dbus-broker
+
+sudo systemctl restart dbus-broker
+
+And We are done :) Go to next step.
+
+----------------------------------------------
+
+ Pika OS - Reboot Reboot Reboot Reboot Reboot - Pika OS - Reboot Reboot Pika OS
+
+----------------------------------------------
+
+Lets install fastfetch and Hyfetch - Like Neofetch butt better.
+
+sudo apt install hyfetch fastfetch imagemagick-7-doc cups-bsd enscript ffmpeg dict-wn dictd w3m-el xsel brotli dict adwaita-icon-theme-legacy colord
+
+To test type this in terminal: hyfetch
+
+----------------------------------------------
+
+Install this programs from terminal - You need it - PikaOS - GNOME - This will take some TIME =)
+
+sudo apt install bluez* avahi* polkitd gradle* systemd squid-deb-proxy-client ubuntu-archive-keyring zstd shunit2 -y
+sudo apt install bash-completion tzdata less iproute2 iputils-ping ca-certificates curl debootstrap file unzip mksh -y
+sudo apt install bash git npm wget curl pipx net-tools dbus-x11 unrar zip unzip p7zip-full p7zip-rar rar file-roller -y
+sudo apt install 7zip-standalone libjs-angularjs aspell-doc git-doc parted-doc xdg-desktop-portal-gnome npm -y
+sudo apt install spellutils git-email notification-daemon git-gui nvme-cli docbook gitk libparted-dev opensp livescript -y
+sudo apt install docbook-defguide gitweb libxml2-utils docbook-dsssl git-cvs pipewire fluid-soundfont-gm docbook-xsl -y
+sudo apt install libssl-doc btrfs-progs libsub-name-perl f2fs-tools node-esprima-fb frei0r-plugins libbusiness-isbn-perl -y             
+sudo apt install nilfs-tools node-inquirer gvfs-backends libmime-base32-perl reiserfsprogs arj hunspell libregexp-ipv6-perl udftools -y        
+sudo apt install libuv1-doc udisks2-btrfs lzip gstreamer1.0-alsa udisks2-lvm2 lzop isoquery alsa-utils dialog tasksel -y
+sudo apt install libwildmidi-config xfsprogs ncompress libdigest-hmac-perl libauthen-ntlm-perl mesa-utils rpm2cpio -y
+sudo apt install nickle rzip mdadm cairo-5c sharutils libdv-bin xml-twig-tools xorg-docs-core squashfs-tools oss-compat -y
+sudo apt install node-babel-plugin-polyfill-es-shims accountsservice unace libenchant-2-voikko node-babel7-debug evince unalz libvisual-0.4-plugins -y
+sudo apt install osspd sharutils-doc xorg-docs nautilus-sendto xorg* rpm-i18n xfsdump attr quota osspd sharutils-doc xorg-docs -y
+
+---------------------------------
+
+Time to install programs for Gnome 48 - PikaOS - 2026
+
+sudo apt install ibus bash git npm wget curl pipx dracut dbus* build-essential aptitude apt-xapian-index debtags keyutils -y
+sudo apt install gdm3* -y
+sudo apt install gdm* -y
+sudo apt install xorg* x11* -y
+sudo apt install daemonize -y
+sudo systemctl set-default graphical
+
+---------------------------------
+
+Time to install GNOME desktop for PikaOS - WORKS WELL FOR PikaOS - 2026 - GNOME
+
+sudo apt install gnome -y
+sudo apt install task-gnome-desktop powermgmt-base -y
+sudo apt install gnome-desktop* -y
+
+----------------------------------------------
+
+Install Googel Chrome Browser - 2026 - Latest Edition for PikaOS and GNOME
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+----------------------------------------------
+
+Install Blanket - Listen to sounds - When you are hacking hehe.
+
+sudo apt install blanket mpv yt-dlp bidiv libfribidi-bin 
+
+----------------------------------------------
+
+Install GIMPE and LibreOffice - Must have programs
+
+sudo apt install gimp libreoffice gimp-data-extras -y
+
+----------------------------------------------
+
+Visual studio code from Microsoft - Install for Pika OS and GNOME
+
+sudo apt-get install wget* gpg* -y
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" |sudo tee /etc/apt/sources.list.d/vscode.list > /dev/null
+rm -f packages.microsoft.gpg
+
+sudo apt install apt-transport-https* http* -y
+sudo apt update
+sudo apt install code -y
+
+----------------------------------------------
+
+Fix IP problem X410. Cant find screen problems. Look ip adress in windows terminal / PowerShell: ipconfig
+
+NOTE: open Powershell and type: ipconfig - Last lines is WSL ip.
+
+Now go back to Terminal for PikaOS
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 192.168.240.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed =] If you see some RED text dont worry it works any ways.
+
+-------------------------------
+
+Paste In Terminal for Debian PikaOS - All
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+
+-------------------------------
+
+Create this script that is used when we start GNOME and PikaOS.
+
+Type in terminal: sudo nano ~/.bash_linux_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+------------------------------------------------------
+
+Restart PIKA OS - Restart PIKA OS - Restart PIKA OS - Restart PIKA OS - Restart PIKA OS
+
+------------------------------------------------------
+
+Time to start GNOME 48 and PIKS OS - Paste One by One!
+
+NOTE - FIRST START X410 THEN YOU START PIKA OS 4 VIA TERMINAL
+
+Copy and paste This: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Copy and paste This: . ~/.bash_linux_desktop
+
+Copy and paste This: dbus-launch gnome-session
+
+----------------------------------------------------------------
+
+Regards Mattias Vinberg - PIKA OS - WSL - X410 - Windows 11 - GNOME - Microsoft - Sweden - 2026
+
+
+ /🐦🐦🐦$ /🐦/🐦                /🐦🐦🐦  /🐦🐦🐦 
+| 🐦__  $|__| 🐦               /🐦__  🐦/🐦__  🐦
+| 🐦  \ 🐦/$| 🐦   /🐦 /🐦🐦🐦| 🐦  \ $| 🐦  \__/
+| 🐦🐦🐦$| $| 🐦  /🐦/|____  $| 🐦  | $|  🐦🐦🐦 
+| 🐦____/| $| 🐦🐦🐦/  /🐦🐦🐦| 🐦  | 🐦\____  🐦
+| 🐦     | $| 🐦_  🐦 /🐦__  $| 🐦  | 🐦/🐦  \ 🐦 
+| 🐦     | $| 🐦 \  $|  🐦🐦🐦|  🐦🐦🐦|  🐦🐦🐦/
+|__/     |__|__/  \__/\_______/\______/ \______/  
+
+
+❤ Thank you for being a part of the Pika OS and GNOME 48 Project for WSL2 - ❤
+
+---------------------------------------------------------------
