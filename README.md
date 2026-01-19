@@ -43,12 +43,16 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 Parrot Security 7.1 and GNOME - Install GNOME via WSL2 and Parrot OS 7.1 - Windows - Linux - YouTube - 2026
 
 Find Parrot OS here and download and press the exe file and you are done to start build GNOME.
-https://parrotsec.org/download/ look for WSL and download and install - DONE!
+Look for WSL and download and install - DONE!
+
+https://parrotsec.org/download
 
 How to inställ GNOME via Parrot Security 7.1 and Windows - WSL - LINUX - TEXT
+
 https://github.com/vinberg88/opensuse/blob/main/PARROT7-GNOME.txt
 
 How to install GNOME via Parrot Security 7.1 and Windows - WSL - LINUX - MOVIE
+
 https://www.youtube.com/watch?v=hAIUVKo_fkw
 
 Tools that i USE - Parrot Security 7.1 and GNOME desktop
