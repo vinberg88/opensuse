@@ -40,6 +40,92 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Parrot Security 7.1 and GNOME - Install GNOME via WSL2 and Parrot OS 7.1 - Windows - Linux - YouTube - 2026
+
+Find Parrot OS here and download and press the exe file and you are done to start build GNOME.
+https://parrotsec.org/download/ look for WSL and download and install - DONE!
+
+How to inställ GNOME via Parrot Security 7.1 and Windows - WSL - LINUX - TEXT
+https://github.com/vinberg88/opensuse/blob/main/PARROT7-GNOME.txt
+
+How to install GNOME via Parrot Security 7.1 and Windows - WSL - LINUX - MOVIE
+https://www.youtube.com/watch?v=hAIUVKo_fkw
+
+Tools that i USE - Parrot Security 7.1 and GNOME desktop
+
+Raft WSL is a powerful tool for managing Windows Subsystem for 
+Linux (WSL) distributions, enabling installation, snapshots,
+version control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+X410 - Xserver for windows 11 - So you have a Desktop.
+Do you want to seamlessly use Linux GUI apps side by side with Windows
+apps? Simply start X410 and adjust a few settings; your Linux GUI
+apps then suddenly appear in Windows and you can use them like Windows 
+apps! It doesn't matter where your Linux GUI apps are actually
+running; it can be a full virtual machine, Docker container, WSL
+(Windows Subsystem for Linux) or whatever. As long as your Linux GUI
+apps support X-Window client protocols, you can use them in Windows.
+You can even securely use your Linux GUI apps running in a far remote
+server via any SSH client that supports X11 forwarding over the Internet.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="PARROT7-GNOME" src="https://github.com/user-attachments/assets/1fb89836-96f0-48fc-bc52-581f9bbc47f3" />
+
+About ParrotSEC or Parrot Security 7.1 - https://www.parrotsec.org
+
+Parrot Security provides a huge arsenal of tools, utilities and
+libraries that IT and security professionals can use to test and
+assess the security of their assets in a reliable, compliant and 
+reproducible way. From information gathering to the final report.
+The Parrot system gets you covered with the most flexible environment.
+The ultimate framework for your Cyber Security operations.
+Parrot Security (ParrotOS, Parrot) is a Free and Open source
+GNU/Linux distribution based on Debian Stable designed for
+security experts, developers and privacy aware people.
+It includes a full portable arsenal for IT security and
+digital forensics operations. It also includes everything
+you need to develop your own programs or protect your privacy
+while surfing the net. Parrot is based on top of Debian,
+the most advanced and recognized universal operating system
+that can run anywhere.
+
+About GNOME desktop for Parrot OS 7.1 - https://www.gnome.org
+
+GNOME is designed to help you have the best possible computing
+experience. Every aspect of GNOME has been crafted to fit together
+as a harmonious whole, providing a consistent and integrated 
+experience. Our attention to detail means a smooth and polished
+product that lets you do the things you want without getting
+in the way. GNOME is satisfying to use and beautiful to behold.
+GNOME provides a focused working environment that helps you get
+things done. It is packed with features that will make you more
+productive: a powerful search feature that helps you access all
+your work from one place; side-by-side windows that make it easy
+to view several documents at the same time; seamless integration
+with online accounts which allows you to access all your data in
+one place; and a messaging system that comfortably deals with 
+notifications, letting you quickly respond in place or return to 
+them in a convenient time. Gnome desktop is my favorite!
+
+What is WSL - Windows Subsystem for Linux - 2026 - Sweden.
+
+https://vinberg88.github.io
+
+WSL, or Windows Subsystem for Linux, is a compatibility
+layer developed by Microsoft that allows users to run
+a Linux environment directly on Windows, without the
+need for a virtual machine or dual-booting. It
+provides a way to access Linux command-line 
+tools, utilities, and applications within the Windows
+operating system.
+
+Regards Mattias Vinberg - SwEden - Parrot Security 7.1 - GNOME - WSL - Windows 11 - 2026
+
+---------------------------------------------
+
 PikaOS and KDE 6 - How to install KDE via WSL and Microsoft - X410 - YouTube - GitHUB - PikaOS - 2026
 
 You can find PikaOS For WSL here: https://drive.proton.me/urls/RR627VP8FC#luT2cEm50rIn
