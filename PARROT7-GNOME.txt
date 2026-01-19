@@ -7,7 +7,7 @@ How to inställ GNOME via Parrot Security 7.1 and Windows - WSL - LINUX - TEXT
 Comming Sone...
 
 How to install GNOME via Parrot Security 7.1 and Windows - WSL - LINUX - MOVIE
-Comming Sone...
+https://www.youtube.com/watch?v=hAIUVKo_fkw
 
 Tools that i USE - Parrot Security 7.1 and GNOME desktop
 
@@ -338,4 +338,5 @@ Thank you! ❤️ for watching - 2026
 Thank you for being a part of the Parrot Security 7.1 and GNOME for WSL2.
 
 ---------------------------------------------
+
 
