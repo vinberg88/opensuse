@@ -220,3 +220,4 @@ Paste in terminal: dbus-launch startplasma-x11
 Regards Mattias Vinberg - SwEdeN - Stockholm - AOSC OS - KDE - X410 - MICROSOFT - Linux - GitHub - 2025
 
 ----------------------------------------------
+
