@@ -7,7 +7,7 @@ How to install GNOME 48 via ARCH - WSL - MOVIE
 https://www.youtube.com/watch?v=h6nCOEpFkV0
 
 ARCH Linux for WSL - you will find it here for WSL or go to Microsoft Store.
-https://apps.microsoft.com/detail/9mznmnksm73x?hl=sv-SE&gl=US
+https://apps.microsoft.com/detail/9mznmnksm73x?hl=sv-SE&gl=US 
 
 Use X410 - X Server for Windows 11 in this video and it works well. Find it in Micorsoft store. 
 https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
@@ -227,3 +227,4 @@ Paste in terminal: dbus-launch gnome-session
 Regards Mattias Vinberg - ARCH - Gnome 48 - X410 - WSL - Linux - Windows 11 - SWEDEN - 2025
 
 ------------------------------------------------------------
+
