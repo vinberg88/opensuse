@@ -188,7 +188,7 @@ It take some time to start... Just Wait!
 
 ----------------------------------------------
 
-Regards, 
-Mattias Vinberg - SwEdeN - 2024 - AOSC OS - GNOME
+Regards Mattias Vinberg - SwEdeN - 2025 - AOSC OS - GNOME
 
 ----------------------------------------------
+
