@@ -1,6 +1,6 @@
 Arch and Xfce4 - WSL - How to install Xfce via Arch - Windows 11 - X410 - Linux - 2024
 
-How to install Xfce4 via Arch - TEXT
+How to install Xfce4 via Arch - TEXT 
 https://github.com/vinberg88/opensuse/blob/main/Arch-XFCE.txt
 
 How to install Xfce4 via Arch - Movie
@@ -161,4 +161,5 @@ Paste in terminal: dbus-launch startxfce4
 Regards Mattias Vinberg - ARCH - Xfce4 - Xfce - X410 - WSL - Linux - Windows 11 - SWEDEN - 2024
 
 ------------------------------------------------------------
+
 
