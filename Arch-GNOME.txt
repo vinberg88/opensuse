@@ -1,4 +1,4 @@
-ARCH and GNOME 48 - WSL - Install Gnome 48 via ARCH - Windows 11 - X410 - Linux - 2025
+ARCH and GNOME 48 - WSL - Install Gnome 48 via ARCH - Windows 11 - X410 - Linux YouTube - github - 2025
 
 How to install GNOME 48 via ARCH - WSL - TEXT
 https://github.com/vinberg88/opensuse/blob/main/ARCH-GNOME-2025.txt
@@ -227,3 +227,4 @@ Paste in terminal: dbus-launch gnome-session
 Regards Mattias Vinberg - ARCH - Gnome 48 - X410 - WSL - Linux - Windows 11 - SWEDEN - 2025
 
 ------------------------------------------------------------
+
