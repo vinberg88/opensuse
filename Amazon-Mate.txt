@@ -1,4 +1,4 @@
-Amazon Linux 2 and Mate Desktop - How to install Mate via Windows 11 and Amazon Liux - WSL - GWSL - 2024
+Amazon Linux 2 and Mate Desktop - How to install Mate via Windows 11 and Amazon Liux - WSL - GWSL - YouTube - github - 2024
 
 You will find Amazon Linux 2 for WSL here - NEW SETUP!
 https://drive.proton.me/urls/QYFEAA3BRC#ZECxhrbg9nsH
@@ -203,4 +203,5 @@ Regards Mattias Vinberg - SwEdeN - 2024 - Amazon Linux 2 - WSL - GWSL - MATE des
        _/m/'
 
 ----------------------------------------------
+
 
