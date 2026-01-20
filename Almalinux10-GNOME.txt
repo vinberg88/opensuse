@@ -112,7 +112,6 @@ Put this in terminal to Test after Quick restart of terminal: hyfetch
 
 Install Chromium Browser - paste all under this paragraph in terminal.
 
-sudo dnf install epel-release -y
 sudo dnf install chromium -y
 
 ------------------------------------------------------
@@ -218,8 +217,6 @@ Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk
 
 Copy and paste This: . ~/.wsl_x11_env
 
-Copy and paste This: xhost +
-
 Copy and paste This: dbus-launch gnome-session
 
 ----------------------------------------------------------------
@@ -227,3 +224,4 @@ Copy and paste This: dbus-launch gnome-session
 Regards Mattias Vinberg - AlmaLinux 10 - Gnome - Windows 11 - Linux - WSL - X410 - 2025 - SWEDEN
 
 ----------------------------------------------------------------
+
