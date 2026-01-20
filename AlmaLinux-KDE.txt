@@ -25,11 +25,11 @@ AlmaLinux - Install KDE Plasma via AlmaLinux - Windows 11 - WSL - GWSL - Linux -
 AlmaLinux - You can find AlmaLinux in Microsoft Store for WSL or here.
 https://apps.microsoft.com/detail/9p5rwlm70sn9?hl=en-US&gl=US
 
-How to install KDE desktop via AlmaLinux och Windows 11 - TEXT
-https://github.com/vinberg88/opensuse/blob/main/AlmaLinux-KDE.txt
-
 How to install KDE desktop via AlmaLinux och Windows 11 - MOVIE
 https://www.youtube.com/watch?v=thgS6wxZ2nI
+
+How to install KDE desktop via AlmaLinux och Windows 11 - TEXT
+https://github.com/vinberg88/opensuse/blob/main/AlmaLinux-KDE.txt
 
 About AlmaLinux OS - https://almalinux.org
 
@@ -185,3 +185,4 @@ It takes a little time to start at the beginning so leave it for a minute if not
 Regards Mattias Vinberg - AlmaLinux - KDE - Windows 11 - WSL - GWSL - Linux - Sweden - 2024
 
 -------------------------------------------
+
