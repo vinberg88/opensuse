@@ -1,4 +1,4 @@
-ARCH and KDE 6 - How to install KDE 6 via ARCH - X410 - Windows 11 - WSL - Linux - YouTube - 2025
+ARCH and KDE 6 - How to install KDE 6 via ARCH - X410 - Windows 11 - WSL - Linux - YouTube - github - 2025
 
 Updated - 2025/05/28
 
@@ -178,3 +178,4 @@ Copy and Paste in Console: dbus-launch startplasma-x11
 Regards Mattias Vinberg - Arch - KDE 6 Plasma - SWEDEN - WSL - Microsoft - Linux - X410 - Stockholm - 2025 
 
 ----------------------------------------------------------------
+
