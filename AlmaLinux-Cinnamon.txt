@@ -1,4 +1,4 @@
-AlmaLinux 9 and how to install Cinnamon desktop via Windows 11 - WSL - X410 - Linux - 2025
+AlmaLinux 9 and how to install Cinnamon desktop via Windows 11 - WSL - X410 - Linux - 2025 - YouTube
 
 AlmaLinux 9 - You can find AlmaLinux in Microsoft Store for WSL or here.
 https://apps.microsoft.com/detail/9p5rwlm70sn9?hl=en-US&gl=US
@@ -220,3 +220,4 @@ Paste in terminal: dbus-launch cinnamon-session
 Regards Mattias Vinberg - AlmaLinux 9 - Cinnamon - WSL - GWSL - Windows 11 - Linux - 2024 - SWEDEN!
 
 --------------------------------
+
