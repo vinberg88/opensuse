@@ -1,7 +1,6 @@
 AOSC OS and KDE Plasma - WSL - Install KDE plasma on AOSC OS via Windows 11 - X410 - Linux - YouTube - 2025
 
 Here you can find AOSC OS for - WSL - https://wiki.aosc.io/aosc-os/installation/wsl/
-
 Find AOSC OS via Microsoft store: https://apps.microsoft.com/detail/9nmdf21nv65z?hl=sv-SE&gl=SE
 
 How to install KDE plasma via AOSC OS and Windows 11 - WSL - TEXT
@@ -220,4 +219,5 @@ Paste in terminal: dbus-launch startplasma-x11
 Regards Mattias Vinberg - SwEdeN - Stockholm - AOSC OS - KDE - X410 - MICROSOFT - Linux - GitHub - 2025
 
 ----------------------------------------------
+
 
