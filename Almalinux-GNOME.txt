@@ -197,7 +197,7 @@ Time to start Gnome and AlmaLinux 9 - Paste One by Ons!
 
 Copy and paste This: . ~/.wsl_x11_env
 
-Copy and paste This: xhost +
+Copy and paste This: xhost + <-- tro to start whitout that =)
 
 Copy and paste This: dbus-launch gnome-session
 
@@ -206,3 +206,4 @@ Copy and paste This: dbus-launch gnome-session
 Regards Mattias Vinberg - AlmaLinux 9 - Gnome Desktop - Windows 11 - Linux - WSL - GWSL - 2024 - SWEDEN
 
 ----------------------------------------------------------------
+
