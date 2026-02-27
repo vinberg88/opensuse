@@ -1,0 +1,269 @@
+Oracle 9.7 - Install Kde Plasma Desktop - WSL - Oracle 9.7 via Windows 11 - X410 - Linux - 2026
+
+-----------------------------------------
+
+How to install KDE plasma Desktop via ORACLE 9.7 - WSL - GitHUB - TEXT
+Comming Zone..
+
+How to install KDE plasma Desktop via ORACLE 9.7 - WSL - YouTube - MOVIE
+https://www.youtube.com/watch?v=PuEWP3kx2fw
+
+-----------------------------------------
+
+You can find ORACEL Linux 9.7 via Microsoft Store or via RAFT WSL tool.
+
+It says 9.5 but it is 9.7
+
+https://apps.microsoft.com/detail/9nl3f53jz3hx?hl=sv-SE&gl=US
+
+-----------------------------------------
+
+TOOLS THAT I USE for Windows 11 and WSL - 2026
+
+X410 - Xserver for windows 11 - So you have a Console / Desktop TO See GNOME.
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL - Handel WSL images easy and Linux for WSL via This TOOL
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+-----------------------------------------
+
+        WELCOME TO ORACEL 9.7 FOR WSL - KDE Desktop Install - 2026
+
+      `-/+++++++++++++++++/-.`       
+   `/syyyyyyyyyyyyyyyyyyyyyyys/.
+  :yyyyo/-...............-/oyyyy/     OS: Oracle Linux Server 9.7 x86_64
+ /yyys-                     .oyyy+    Host: Windows Subsystem for Linux - OracleLinux_9_5 (2.6.3.0)
+.yyyy`                       `syyy-   Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+:yyyo                         /yyy/
+.yyyy`                       `syyy-
+ /yyys.                     .oyyyo    MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+  /yyyyo:-...............-:oyyyy/`
+   `/syyyyyyyyyyyyyyyyyyyyyyys+.
+     `.:/+ooooooooooooooo+/:.`
+
+-----------------------------------------
+
+About Oracle Linux 9.7 - https://www.oracle.com
+
+Read More Here https://docs.oracle.com/en/operating-systems/oracle-linux/9/
+
+Oracle Linux is compiled from Red Hat Enterprise Linux. 
+Oracle Corporation is an integrated technology company based
+in Austin, Texas. Oracle offers a collection of cloud technologies, applications,
+databases, storage and servers to empower modern business. 
+Oracle was founded by Larry Ellison in 1977. The workforce is becoming
+increasingly mobile. Flexibility is critical for companies to meet
+shifting market demands. For more than four decades, businesses of all
+sizes have trusted Oracle to provide modern, comprehensive, and scalable
+technology solutions that enable technical agility and sharpen competitive edge.
+
+About KDE plasma - https://kde.org
+
+The next generation desktop for Linux. Use KDE 
+software to surf the web, keep in touch with 
+colleagues, friends and family, manage your files, enjoy
+music and videos; and get creative and productive at work.
+The KDE community develops and maintains more than 200
+applications which run on any Linux desktop, and often
+other platforms too.
+
+------------------------------------------------------
+
+Find More About WSL and Linux Here for Microsoft and Windows subsystem for Linux.
+
+https://github.com/vinberg88/opensuse
+
+Visit my page for WSL if you want =]
+
+https://vinberg88.github.io
+
+------------------------------------------------------
+
+LETS START INSTALL - ORACEL 9.7 AND KDE DESKTOP VIA WSL AND WINDOWS 11.
+
+------------------------------------------------------
+
+First thing you need to do is copy this file to C:\Users\user  <-- user is not your name =]
+
+Its easy use Explorer and copy and past. Download this file.
+
+https://drive.proton.me/urls/G602NV0DFG#Rn5D1Tny3TpQ
+
+------------------------------------------------------
+
+NEXT install nano....
+
+sudo dnf install nano
+
+------------------------------------------------------
+
+Paste in terminal and add systemd.
+
+Copy and paste this in terminal: sudo nano /etc/wsl.conf
+
+NEXT PASTE THIS TO TERMINAL
+
+[boot]
+systemd=true
+
+SAVE....
+
+------------------------------------------------------
+
+ORACEL 9.7 - Reboot Reboot Reboot Reboot Reboot Reboot Reboot - ORACEL 9.7
+
+------------------------------------------------------
+
+Time to Update All - Copy and paste to terminal.
+
+sudo dnf update
+
+------------------------------------------------------
+
+Install some extra repos.
+
+   sudo dnf install \
+    https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm \
+    https://dl.fedoraproject.org/pub/epel/epel-next-release-latest-9.noarch.rpm
+
+------------------------------------------------------
+
+Run this after repo are added: sudo /usr/bin/crb enable
+
+------------------------------------------------------
+
+Update all agian.
+
+sudo dnf upgrade --refresh
+
+------------------------------------------------------
+
+Install some programs ORACEL.
+
+sudo dnf install git wget curl nano bash pipx sudo dracut net-tools dbus-x11
+
+------------------------------------------------------
+
+Time to install kde plasma desktop for ORACEL 9.7
+
+sudo dnf --enablerepo=epel,epel-next,ol9_codeready_builder group -y install "KDE Plasma Workspaces"
+
+------------------------------------------------------
+
+Install Google-Chrome - paste all under this paragraph:
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm
+sudo yum update google-chrome-stable
+
+------------------------------------------------------
+
+Install gimp for ORACEL 9.7
+
+sudo dnf install gimp
+
+------------------------------------------------------
+
+Install LibreOffice for ORACEL 9.7
+
+sudo dnf install libreoffice
+
+------------------------------------------------------
+
+Install Hyfetch like Neofetch.
+
+pipx install hyfetch
+
+Type hyfetch in terminal to test: hyfetch
+
+-----------------------------------------------------
+
+Type this in terminal to fix ip problem for X server - X410 - Open Microsoft Powershell and type: ipconfig 
+
+That will give you ip adress for WSL - Last line is WSL IP in terminal.
+
+GO BACK TO ORACEL TERMINAL AND PASTE THIS...
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.23.144.1  <-- add this to terminal and put your ip here...
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+IF YOU SEE SOME RED TEXT DONT WORRY IT WORKS ANY WAY.
+
+----------------------------------------------
+
+ORACEL 9.7 - Reboot Reboot Reboot Reboot Reboot Reboot Reboot - ORACEL 9.7
+
+----------------------------------------------
+
+Paste in terminal: 
+
+xdg-user-dirs-update
+
+----------------------------------------------
+
+Paste all in terminal: 
+
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-------------------------------------------------------------
+
+Type this in terminal and put your user-name there: sudo loginctl enable-linger adolf
+   
+-------------------------------------------
+
+In terminal type: sudo nano ~/.wsl_x11_env
+
+Paste this small script in terminal and save and quit.
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-------------------------------------------
+
+ORACEL 9.7 - Reboot Reboot Reboot Reboot Reboot Reboot Reboot - ORACEL 9.7
+
+-------------------------------------------
+
+Now we cane start KDE plasma via ORACEL 9.7
+
+NOTE: FIRST START X410 THEN YOU START ORACEL 9.7 VIA TERMINAL
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Paste in terminal: . ~/.wsl_x11_env
+
+Paste in terminal: dbus-launch startplasma-x11
+
+IT TAKE SOME TIME TO START, JUST WAIT =]
+
+-------------------------------------------
+
+Regards Mattias Vinberg - kDE - ORACEL 9.7 - WSL - WINDOWS 11 - X410 - LINUX - SWEDEN - 2026
+
+      `-/+++++++++++++++++/-.`       
+   `/syyyyyyyyyyyyyyyyyyyyyyys/.
+  :yyyyo/-...............-/oyyyy/     OS: Oracle Linux Server 9.7 x86_64
+ /yyys-                     .oyyy+    Host: Windows Subsystem for Linux - OracleLinux_9_5 (2.6.3.0)
+.yyyy`                       `syyy-   Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+:yyyo                         /yyy/
+.yyyy`                       `syyy-
+ /yyys.                     .oyyyo    MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+  /yyyyo:-...............-:oyyyy/`
+   `/syyyyyyyyyyyyyyyyyyyyyyys+.
+     `.:/+ooooooooooooooo+/:.`
+
+
+-------------------------------------------
