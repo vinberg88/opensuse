@@ -3,7 +3,7 @@ Oracle 9.7 - Install Kde Plasma Desktop - WSL - Oracle 9.7 via Windows 11 - X410
 -----------------------------------------
 
 How to install KDE plasma Desktop via ORACLE 9.7 - WSL - GitHUB - TEXT
-Comming Zone..
+https://github.com/vinberg88/opensuse/blob/main/ORACEL9.7-KDE.txt
 
 How to install KDE plasma Desktop via ORACLE 9.7 - WSL - YouTube - MOVIE
 https://www.youtube.com/watch?v=PuEWP3kx2fw
@@ -267,3 +267,4 @@ Regards Mattias Vinberg - kDE - ORACEL 9.7 - WSL - WINDOWS 11 - X410 - LINUX - S
 
 
 -------------------------------------------
+
