@@ -40,6 +40,66 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Oracle 9.7 - Install Kde Plasma Desktop - WSL - Oracle 9.7 via Windows 11 - X410 - Linux - 2026
+
+How to install KDE plasma Desktop via ORACLE 9.7 - WSL - GitHUB - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/ORACEL9.7-KDE.txt
+
+How to install KDE plasma Desktop via ORACLE 9.7 - WSL - YouTube - MOVIE
+
+https://www.youtube.com/watch?v=PuEWP3kx2fw
+
+You can find ORACEL Linux 9.7 via Microsoft Store or via RAFT WSL tool.
+
+It says 9.5 but it is 9.7
+
+https://apps.microsoft.com/detail/9nl3f53jz3hx?hl=sv-SE&gl=US
+
+TOOLS THAT I USE for Windows 11 and WSL - 2026
+
+X410 - Xserver for windows 11 - So you have a Console / Desktop TO See GNOME.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL - Handel WSL images easy and Linux for WSL via This TOOL
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="ORACEL9 7-KDE" src="https://github.com/user-attachments/assets/60938ed0-8b40-4134-bdaa-645e52fc7876" />
+
+About Oracle Linux 9.7 - https://www.oracle.com
+
+Read More Here https://docs.oracle.com/en/operating-systems/oracle-linux/9/
+
+Oracle Linux is compiled from Red Hat Enterprise Linux. 
+Oracle Corporation is an integrated technology company based
+in Austin, Texas. Oracle offers a collection of cloud technologies, applications,
+databases, storage and servers to empower modern business. 
+Oracle was founded by Larry Ellison in 1977. The workforce is becoming
+increasingly mobile. Flexibility is critical for companies to meet
+shifting market demands. For more than four decades, businesses of all
+sizes have trusted Oracle to provide modern, comprehensive, and scalable
+technology solutions that enable technical agility and sharpen competitive edge.
+
+About KDE plasma - https://kde.org
+
+The next generation desktop for Linux. Use KDE 
+software to surf the web, keep in touch with 
+colleagues, friends and family, manage your files, enjoy
+music and videos; and get creative and productive at work.
+The KDE community develops and maintains more than 200
+applications which run on any Linux desktop, and often
+other platforms too.
+
+Visit my page for WSL if you want =]
+
+https://vinberg88.github.io
+
+Regards Mattias Vinberg - kDE - ORACEL 9.7 - WSL - WINDOWS 11 - X410 - LINUX - SWEDEN - 2026
+
+---------------------------------------------
+
 Parrot Security 7.1 and GNOME - Install GNOME via WSL2 and Parrot OS 7.1 - Windows - Linux - YouTube - 2026
 
 Find Parrot OS here and download and press the exe file and you are done to start build GNOME.
