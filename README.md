@@ -40,6 +40,64 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Ubuntu 24.04 and GNOME - Install GNOME via WSL and Ubuntu - Windows 11 - Linux - 2026
+
+No tools required - No tools required - No tools required - No tools required 
+
+How to install Gnome via Ubuntu Desktop 24.04 - GITHUB - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu24.04-GNOME-NO-Tool.txt
+
+How to install Gnome via Ubuntu Desktop 24.04 - YOUTUBE - WSL - MOVIE
+
+https://www.youtube.com/watch?v=Jw62vT4ofHk
+
+Here you can find Ubuntu 24.04 for WSL oR in Microsoft Store.
+
+https://apps.microsoft.com/detail/9nz3klhxdjp5?hl=en-US&gl=US
+
+Tool that you can use if you want.
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+<img width="1442" height="865" alt="ubuntu" src="https://github.com/user-attachments/assets/ddfa7f12-a8ec-44b1-9e25-8112ec8e11dd" />
+
+About Ubuntu 24.04 - https://ubuntu.com - https://ubuntu.com/desktop/wsl
+
+Run your choice of Linux text editors, including vim, emacs, and nano.
+Install applications, compilers and libraries from the Ubuntu 
+repository, securely maintained by Canonical. Ubuntu is a
+Linux distribution derived from Debian and composed mostly
+of free and open-source software. Ubuntu is officially
+released in multiple editions: Desktop, Server, and Core
+for Internet of things devices and robots.
+
+About Gnome desktop - https://www.gnome.org
+
+Every part of GNOME has been designed to make it simple 
+and easy to use. The Activities Overview is a simple way 
+to access all your basic tasks. A press of a button is
+all it takes to view your open windows, launch applications, or 
+check if you have new messages. Having everything in 
+one convenient place means you don’t have to learn your way 
+around a maze of different technologies. 
+
+You Can Find More Stuff here About WSL
+
+https://github.com/vinberg88/opensuse
+
+Please visit my page about WSL
+
+https://vinberg88.github.io
+
+Regards Mattias Vinberg - SwEden - GNOME - Ubuntu 24.04  - Linux - WSL - WINDOWS - 2026
+
+---------------------------------------------
+
 Oracle 9.7 - Install Kde Plasma Desktop - WSL - Oracle 9.7 via Windows 11 - X410 - Linux - 2026
 
 How to install KDE plasma Desktop via ORACLE 9.7 - WSL - GitHUB - TEXT
