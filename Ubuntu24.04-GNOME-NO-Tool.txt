@@ -3,7 +3,7 @@ Ubuntu 24.04 and GNOME - Install GNOME via WSL and Ubuntu - Windows 11 - Linux -
 No tools required - No tools required - No tools required - No tools required 
 
 How to install Gnome via Ubuntu Desktop 24.04 - GITHUB - WSL - TEXT
-Comming Zone..
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu24.04-GNOME-NO-Tool.txt
 
 How to install Gnome via Ubuntu Desktop 24.04 - YOUTUBE - WSL - MOVIE
 https://www.youtube.com/watch?v=Jw62vT4ofHk
@@ -207,3 +207,4 @@ Regards Mattias Vinberg - SwEden - GNOME - Ubuntu 24.04  - Linux - WSL - WINDOWS
 © 2025 Canonical Ltd - Ubuntu and Canonical are registered trademarks of Canonical Ltd.
 
 --------------------------------
+
