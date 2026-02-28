@@ -1,0 +1,209 @@
+Ubuntu 24.04 and GNOME - Install GNOME via WSL and Ubuntu - Windows 11 - Linux - 2026
+
+No tools required - No tools required - No tools required - No tools required 
+
+How to install Gnome via Ubuntu Desktop 24.04 - GITHUB - WSL - TEXT
+Comming Zone..
+
+How to install Gnome via Ubuntu Desktop 24.04 - YOUTUBE - WSL - MOVIE
+https://www.youtube.com/watch?v=Jw62vT4ofHk
+
+Here you can find Ubuntu 24.04 for WSL oR in Microsoft Store.
+
+https://apps.microsoft.com/detail/9nz3klhxdjp5?hl=en-US&gl=US
+
+Tool that you can use if you want.
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+                       
+                             ....             
+              .',:clooo:  .:looooo:.
+           .;looooooooc  .oooooooooo'
+        .;looooool:,''.  :ooooooooooc         WELCOME TO Ubuntu 24.04 AND GNOME DESKTOP FOR WSL
+       ;looool;.         'oooooooooo,         
+      ;clool'             .cooooooc.  ,,      
+         ...                ......  .:oo,     MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+  .;clol:,.                        .loooo'    
+ :ooooooooo,                        'ooool    
+'ooooooooooo.                        loooo.   
+'ooooooooool                         coooo.   OS: Ubuntu trixie/sid (noble) on Windows x86_64
+ ,loooooooc.                        .loooo.   Kernel: 6.6.87.2-microsoft-standard-WSL2
+   .,;;;'.                          ;ooooc    Desktop: GNOME
+       ...                         ,ooool.    Windows 11 Pro - Windows 11 home - 2026
+    .cooooc.              ..',,'.  .cooo.
+      ;ooooo:.           ;oooooooc.  :l.
+       .coooooc,..      coooooooooo.
+         .:ooooooolc:. .ooooooooooo'
+           .':loooooo;  ,oooooooooc
+               ..';::c'  .;loooo:'
+                             .
+
+About Ubuntu 24.04 - https://ubuntu.com - https://ubuntu.com/desktop/wsl
+
+Run your choice of Linux text editors, including vim, emacs, and nano.
+Install applications, compilers and libraries from the Ubuntu 
+repository, securely maintained by Canonical. Ubuntu is a
+Linux distribution derived from Debian and composed mostly
+of free and open-source software. Ubuntu is officially
+released in multiple editions: Desktop, Server, and Core
+for Internet of things devices and robots.
+
+About Gnome desktop - https://www.gnome.org
+
+Every part of GNOME has been designed to make it simple 
+and easy to use. The Activities Overview is a simple way 
+to access all your basic tasks. A press of a button is
+all it takes to view your open windows, launch applications, or 
+check if you have new messages. Having everything in 
+one convenient place means you don’t have to learn your way 
+around a maze of different technologies. 
+
+You Can Find More Stuff here About WSL
+
+https://github.com/vinberg88/opensuse
+
+Please visit my page about WSL
+
+https://vinberg88.github.io
+
+--------------------------------
+
+NOW LETS INSTALL GNOME AND OTHER STUFF FOR UBUNTU 24.04
+
+--------------------------------
+
+First of all, we need to make sure everything is up to date.
+
+sudo apt update
+sudo apt upgrade
+
+--------------------------------
+
+Install snap-store...
+
+sudo snap install snap-store
+
+--------------------------------
+
+Now we can install GNOME. This may take a long time, so be patient.
+
+sudo apt install ubuntu-desktop
+
+--------------------------------
+
+Now we have everything installed, we must configure some things
+before using the GNOME Shell. First, we need to deactivate the
+GDM service, because unfortunately it doesn't work with WSLg yet
+(at least I didn't figure it out how to make it work).
+
+sudo systemctl mask gdm.service
+
+--------------------------------
+
+Now we need to fix the directory /tmp/.X11-unix/, because it's
+mounted as read-only by default. We will create a new systemd unit.
+
+sudo systemctl edit --full --force wslg-fix.service
+
+--------------------------------
+
+Paste the code below in Terminal.
+
+[Service]
+Type=oneshot
+ExecStart=-/usr/bin/umount /tmp/.X11-unix
+ExecStart=/usr/bin/rm -rf /tmp/.X11-unix
+ExecStart=/usr/bin/mkdir /tmp/.X11-unix
+ExecStart=/usr/bin/chmod 1777 /tmp/.X11-unix
+ExecStart=/usr/bin/ln -s /mnt/wslg/.X11-unix/X0 /tmp/.X11-unix/X0
+ExecStart=/usr/bin/chmod 0777 /mnt/wslg/runtime-dir
+ExecStart=/usr/bin/chmod 0666 /mnt/wslg/runtime-dir/wayland-0.lock
+
+[Install]
+WantedBy=multi-user.target
+
+--------------------------------
+
+Now we have to enable this service. Paste this in terminal..
+
+sudo systemctl enable wslg-fix.service
+
+--------------------------------
+
+Last step is to configure the GNOME Shell to start in nested mode.
+
+sudo mkdir /etc/systemd/user/org.gnome.Shell@wayland.service.d/
+sudo nano /etc/systemd/user/org.gnome.Shell@wayland.service.d/override.conf
+
+--------------------------------
+
+Paste the code below in the editor.
+
+[Service]
+ExecStart=
+ExecStart=/usr/bin/gnome-shell --nested
+
+--------------------------------
+
+Restart Ubuntu 24.04 - Restart Ubuntu 24.04 - Restart Ubuntu 24.04 - Restart Ubuntu 24.04
+
+--------------------------------
+
+Now open again your distro terminal, then paste the command below.
+
+DESKTOP_SESSION=ubuntu \
+GDMSESSION=ubuntu \
+GNOME_SHELL_SESSION_MODE=ubuntu \
+GTK_IM_MODULE=ibus \
+GTK_MODULES=gail:atk-bridge \
+IM_CONFIG_CHECK_ENV=1 \
+IM_CONFIG_PHASE=1 \
+QT_ACCESSIBILITY=1 \
+QT_IM_MODULE=ibus \
+XDG_CURRENT_DESKTOP=ubuntu:GNOME \
+XDG_DATA_DIRS=/usr/share/ubuntu:$XDG_DATA_DIRS \
+XDG_SESSION_TYPE=wayland \
+XMODIFIERS=@im=ibus \
+MUTTER_DEBUG_DUMMY_MODE_SPECS=1920x1080 \
+gnome-session
+
+--------------------------------
+
+Just wait it take some time to start =]
+
+--------------------------------
+
+After install open terminal in Ubuntu and install blanket…
+
+TO TEST SOUND.
+
+snap install blanket
+
+--------------------------------
+
+⣿⣿⣿⣿⣿⣿⣿⣿⠿⠛⠋⠉⠁⠀⠀⠀⠀⠈⠉⠙⠛⠿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⠿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠿⣿⣿⣿⣿⣿
+⣿⣿⣿⡟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣾⣿⣦⠀⠀⠀⠈⢻⣿⣿⣿
+⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⢠⣶⣶⣾⣷⣶⣆⠸⣿⣿⡟⠀⠀⠀⠀⠀⠹⣿⣿
+⣿⠃⠀⠀⠀⠀⠀⠀⣠⣾⣷⡈⠻⠿⠟⠻⠿⢿⣷⣤⣤⣄⠀⠀⠀⠀⠀⠀⠘⣿
+⡏⠀⠀⠀⠀⠀⠀⣴⣿⣿⠟⠁⠀⠀⠀⠀⠀⠀⠈⠻⣿⣿⣦⠀⠀⠀⠀⠀⠀⢹
+⠁⠀⠀⢀⣤⣤⡘⢿⣿⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣿⣿⡇⠀⠀⠀⠀⠀⠈
+⠀⠀⠀⣿⣿⣿⡇⢸⣿⡁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢈⣉⣉⡁⠀⠀⠀⠀⠀⠀ Ubuntu 24.04 - Canonical LTD - 2026
+⡀⠀⠀⠈⠛⠛⢡⣾⣿⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣿⣿⡇⠀⠀⠀⠀⠀⢀
+⣇⠀⠀⠀⠀⠀⠀⠻⣿⣿⣦⡀⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿⠟⠀⠀⠀⠀⠀⠀⣸
+⣿⡄⠀⠀⠀⠀⠀⠀⠙⢿⡿⢁⣴⣶⣦⣴⣶⣾⡿⠛⠛⠋⠀⠀⠀⠀⠀⠀⢠⣿
+⣿⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠘⠿⠿⢿⡿⠿⠏⢰⣿⣿⣧⠀⠀⠀⠀⠀⣰⣿⣿
+⣿⣿⣿⣧⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢿⣿⠟⠀⠀⠀⢀⣼⣿⣿⣿
+⣿⣿⣿⣿⣿⣶⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣶⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣶⣤⣄⣀⡀⠀⠀⠀⠀⢀⣀⣠⣤⣶⣿⣿⣿⣿⣿⣿⣿⣿
+
+Regards Mattias Vinberg - SwEden - GNOME - Ubuntu 24.04  - Linux - WSL - WINDOWS - 2026
+
+© 2025 Canonical Ltd - Ubuntu and Canonical are registered trademarks of Canonical Ltd.
+
+--------------------------------
