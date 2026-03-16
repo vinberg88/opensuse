@@ -1,0 +1,633 @@
+CentOS 9 stream - Github - How to install xfce via WSL and Windows 11 - Linux - X410 - YouTube - 2026 ⚖️
+
+You can find CentOS 9 Stream here for WSL - Click on the blue ICON and all works =) https://www.centos.org/altimages/
+
+
+                 ..                                    ..                                    ..
+               .PLTJ.                                .PLTJ.                                .PLTJ.
+              <><><><>                              <><><><>                              <><><><>
+     KKSSV' 4KKK LJ KKKL.'VSSKK            KKSSV' 4KKK LJ KKKL.'VSSKK            KKSSV' 4KKK LJ KKKL.'VSSKK
+     KKV' 4KKKKK LJ KKKKAL 'VKK            KKV' 4KKKKK LJ KKKKAL 'VKK            KKV' 4KKKKK LJ KKKKAL 'VKK
+     V' ' 'VKKKK LJ KKKKV' ' 'V            V' ' 'VKKKK LJ KKKKV' ' 'V            V' ' 'VKKKK LJ KKKKV' ' 'V
+     .4MA.' 'VKK LJ KKV' '.4Mb.            .4MA.' 'VKK LJ KKV' '.4Mb.            .4MA.' 'VKK LJ KKV' '.4Mb.
+   . KKKKKA.' 'V LJ V' '.4KKKKK .        . KKKKKA.' 'V LJ V' '.4KKKKK .        . KKKKKA.' 'V LJ V' '.4KKKKK .
+ .4D KKKKKKKA.'' LJ ''.4KKKKKKK FA.    .4D KKKKKKKA.'' LJ ''.4KKKKKKK FA.    .4D KKKKKKKA.'' LJ ''.4KKKKKKK FA.
+<QDD ++++++++++++  ++++++++++++ GFD>  <QDD ++++++++++++  ++++++++++++ GFD>  <QDD ++++++++++++  ++++++++++++ GFD>
+ 'VD KKKKKKKK'.. LJ ..'KKKKKKKK FV     'VD KKKKKKKK'.. LJ ..'KKKKKKKK FV     'VD KKKKKKKK'.. LJ ..'KKKKKKKK FV
+   ' VKKKKK'. .4 LJ K. .'KKKKKV '        ' VKKKKK'. .4 LJ K. .'KKKKKV '        ' VKKKKK'. .4 LJ K. .'KKKKKV '
+      'VK'. .4KK LJ KKA. .'KV'              'VK'. .4KK LJ KKA. .'KV'              'VK'. .4KK LJ KKA. .'KV'
+     A. . .4KKKK LJ KKKKA. . .4            A. . .4KKKK LJ KKKKA. . .4            A. . .4KKKK LJ KKKKA. . .4
+     KKA. 'KKKKK LJ KKKKK' .4KK            KKA. 'KKKKK LJ KKKKK' .4KK            KKA. 'KKKKK LJ KKKKK' .4KK
+     KKSSA. VKKK LJ KKKV .4SSKK            KKSSA. VKKK LJ KKKV .4SSKK            KKSSA. VKKK LJ KKKV .4SSKK
+              <><><><>                              <><><><>                              <><><><>
+               'MKKM'                                'MKKM'                                'MKKM'
+                 ''                                    ''                                    ''
+                                     
+                                 
+How to install xfce desktop via CentOS 9 - WSL - TEXT VIA GITHUB
+Comming Zone...
+
+How to install xfce desktop via CentOS 9 - WSL - MOVIE VIA YOUTUBE
+https://www.youtube.com/watch?v=q0fFlwCMkI8
+
+
+TOOLS FOR WSL AND CENTOS 9 - 2026
+
+Use X410 - X Server for Windows 11 in this video and it works well. Find in Micorsoft store. 
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+
+What is Centos 9 Stream - https://www.centos.org
+
+Continuously delivered distro that tracks just ahead
+of Red Hat Enterprise Linux (RHEL) development, positioned
+as a midstream between Fedora Linux and RHEL. 
+For anyone interested in participating and collaborating 
+in the RHEL ecosystem, CentOS Stream is your reliable
+platform for innovation. The CentOS Project is a 
+community-driven free software effort focused around
+the goal of providing a rich base platform for open 
+source communities to build upon. We will provide a 
+development framework for cloud providers, the hosting
+community, and scientific data processing, as a few examples.
+We work with several ‘upstream’ communities to help them
+layer and distribute their software more effectively on
+a platform they can rely on. Centos 9 Stream Works!
+
+About Xfce - https://www.xfce.org
+
+Xfce is a lightweight desktop environment for UNIX-like operating
+systems. It aims to be fast and low on system resources, while
+still being visually appealing and user friendly.
+Xfce embodies the traditional UNIX philosophy of modularity and 
+re-usability. It consists of a number of components that provide
+the full functionality one can expect of a modern desktop environment.
+They are packaged separately and you can pick among the available
+packages to create the optimal personal working environment.
+
+You can finde more Stuff here About WSL for Desktops - Centos 9 Stream
+
+https://github.com/vinberg88/opensuse
+
+Please visit my page about WSL - Centos 9 Stream and XFCE =]
+
+https://vinberg88.github.io
+
+------------------------------------------------------
+
+LETS START INSTALL - CENTOS 9 AND XFCE DESKTOP FOR WSL - 2026
+
+------------------------------------------------------
+
+After install setup password for user and root. Use same password.
+
+Change adolf to your user.
+
+sudo passwd adolf
+sudo passwd root
+
+------------------------------------------------------
+
+Install faster mirrors or repos for Centos 9 Stream - XFCE
+
+Run this first
+
+sudo dnf check-update
+sudo dnf install wget git dnf-utils x11* dnf* yum-utils* dnf-plugins-core xorg* --allowerasing --skip-broken --nobest -y
+
+Then do this in terminal for Centos 9.
+
+sudo nano /etc/dnf/dnf.conf
+
+Add the following line: max_parallel_downloads=10 and fastestmirror=True
+
+Like That in Console.
+
+max_parallel_downloads=10
+fastestmirror=True
+
+------------------------------------------------------
+
+Paste in terminal for Extra Repos / Mirrors for CENTOS 9 - We can install Steam...
+
+wget -q -O - http://www.atomicorp.com/installers/atomic | sudo sh
+
+sudo dnf install -y https://repo.almalinux.org/almalinux/almalinux-release-synergy-latest-$(rpm -E %rhel).noarch.rpm
+
+sudo dnf config-manager --set-enabled crb
+sudo dnf install epel-release epel-next-release
+sudo /usr/bin/crb enable
+sudo dnf config-manager --set-enabled crb
+
+sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo -y
+sudo dnf install terraform -y
+sudo dnf install --nogpgcheck https://mirrors.rpmfusion.org/free/el/rpmfusion-free-release-9.noarch.rpm -y
+sudo dnf install --nogpgcheck https://mirrors.rpmfusion.org/nonfree/el/rpmfusion-nonfree-release-9.noarch.rpm -y
+
+sudo dnf install https://rpms.remirepo.net/enterprise/remi-release-9.rpm
+sudo dnf config-manager --set-enabled remi
+
+sudo yum install https://repo.osg-htc.org/osg/25-main/osg-25-main-el9-release-latest.rpm
+
+sudo yum config-manager --add-repo https://negativo17.org/repos/epel-multimedia.repo
+
+IF YOU WANT TO LOOK AT REPOS =)
+
+sudo dnf repolist
+
+------------------------------------------------------
+
+Update all For CENTOS 9 and XFCE DESKTOP.
+
+sudo dnf upgrade --refresh -y
+
+------------------------------------------------------
+
+
+Centos 9 - Reboot Reboot - Centos 9 - Reboot - Centos 9 Stream - XFCE - 2026
+
+
+----------------------------------------------------
+
+LETS INSTALL FIREFOX - FTP - INTERNET FRIENDS - 2026 - ThunderBIRD FOR CENTOS 9 - MAIL 🙏
+
+sudo yum install firefox -y
+sudo yum install thunderbird -y
+sudo yum install filezilla -y
+
+For media use MPV for Centos 9
+
+sudo yum install mpv -y
+
+----------------------------------------------------
+
+Install extra programs for Centos 9 and XFCE
+
+sudo dnf install git wget curl bash pipx dracut net-tools dbus-x11 dbus* fuse3* systemd* procps bind-utils iproute iputils nmap-ncat libsquash* squashfuse* fuse* zenity* -y
+
+------------------------------------------------------
+
+Install snapd - just for fun - CENTOS 9 STREAM - NOT WORKING BUT WE WILL INSTALL IT - CENTOS 9
+
+sudo dnf install appstream* snapd* kernel-modules* dkms* linux-firmware* snapd-glib* libs* sna* snap* gtk* selinux-policy-base* base* selinux* --skip-broken --nobest -y
+
+------------------------------------------------------
+
+Extra INSTALL JUST FOR FUN.
+
+sudo dnf install gtk4* autoconf automake gtk* gtk3* inkscape gdk-pixbuf2-devel glib2-devel libsass libxml2 pkgconfig sassc parallel gtk-murrine-engine gtk2-engines -y
+
+------------------------------------------------------
+
+INSTALL THEMES FOR XFCE Desktop AND CENTOS 9
+
+sudo dnf install papirus-icon-theme -y
+sudo dnf install emerald-themes -y
+sudo dnf install material* -y
+sudo dnf install desktop-backgrounds-Waves -y
+sudo dnf install elementary-theme -y
+sudo dnf install oxygen-cursor-themes -y
+sudo dnf install noggin-theme-centos -y
+sudo dnf install cinnamon-themes -y
+sudo dnf install mate-themes -y
+sudo dnf install xfwm4-themes -y
+sudo dnf install arc* ninja* python ps* -y
+sudo dnf install adwaita-cursor-theme -y
+sudo dnf install breeze-cursor-theme -y
+sudo dnf install oxygen-cursor-themes -y
+sudo dnf install centos-backgrounds -y
+
+------------------------------------------------------
+
+RUN THIS 2 MAYBE 3 TIMES IN CONSOLE. RUN FOR SNAPD - 💸
+
+sudo service snapd start
+sudo systemctl enable --now snapd.socket
+sudo systemctl enable snapd
+sudo systemctl enable --now snapd.service snapd.socket
+sudo systemctl enable snapd.socket --now
+sudo systemctl enable snapd --now
+sudo systemctl start snapd.service
+sudo ln -s /var/lib/snapd/snap /snap
+sudo ls -l /snap
+
+------------------------------------------------------
+
+NEXT WE WILL INSTALL SNAPD FOR CENTOS 9 - SOME PROGRAMS. SNAPD RUN BAD VIA CENTOS 9.
+
+sudo snap install snapd
+sudo snap install core
+sudo snap install vlc
+sudo snap install pop-themes
+sudo snap install bibata-modern-ice-cursor
+sudo snap install gtk-theme-zorin
+sudo snap install icon-theme-cat
+
+------------------------------------------------------
+
+Cool Program installer for LINUX and CENTOS 9 - 🚀
+
+sudo dnf install xdg-desktop* curl grep jq wget xdg-utils* -y
+
+Now install script for Centos 9
+
+curl https://raw.githubusercontent.com/srevinsaju/zap/main/install.sh | sudo bash -s
+
+To test run..
+
+zap install --github --from vscodium/vscodium
+
+Run Program direct via APPIMAGE
+
+zap install --from https://github.com/aandrew-me/ytDownloader/releases/download/v3.20.2/YTDownloader_Linux.AppImage ytDownloader
+
+READ MORE HERE - https://github.com/srevinsaju/zap?tab=readme-ov-file
+
+PROGRAMS SEE HERE: https://appimage.github.io/apps/
+
+------------------------------------------------------
+
+Time to install Desktop for Centos 9.
+
+First install Base X11 Packages
+
+sudo dnf groupinstall "base-x" "System Tools" "Fonts" "Headless Management" -y
+
+------------------------------------------------------
+
+Install Xfce Desktop For Centos 9
+
+sudo dnf groupinstall "Xfce" "Graphical Internet" "Custom Operating System" -y
+
+------------------------------------------------------
+
+Next UPDATE ALL FOR CENTOS 9
+
+sudo dnf check-update -y
+
+------------------------------------------------------
+
+Install extra programs for Centod 9
+
+sudo dnf install -y ffmpeg* dconf-editor cups* --allowerasing --skip-broken
+
+------------------------------------------------------
+
+Add extra rpm for Centos 9 and XFCE
+
+sudo dnf install xfce* -y
+
+------------------------------------------------------
+
+More Programs for Centos 9 and xfce Desktop - 2026
+
+sudo dnf install xfce4-session xfce4-panel* xfwm4* xfdesktop* thunar* gnome-terminal gnome* -y
+
+------------------------------------------------------
+
+Install Development Tools so we can build rpms - Centos 9 apps
+
+sudo dnf groupinstall "RPM Development Tools" "Fedora Packager" "Development Tools" -y 
+
+------------------------------------------------------
+
+Install a display manager for graphical login - CENTOS 9 Stream
+
+sudo dnf install lightdm lightdm-gtk -y
+
+sudo systemctl disable gdm
+
+sudo systemctl enable lightdm
+
+------------------------------------------------------
+
+Install Google-Chrome - paste all under this paragraph:
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm -y
+sudo yum update google-chrome-stable
+
+-----------------------------------
+
+Install Hyfetch - like Neofetch but more FUN =)
+
+pipx install hyfetch
+pipx ensurepath
+sudo dnf install fastfetch -y
+
+Put this in terminal to Test after Quick restart of terminal: hyfetch
+
+-----------------------------------
+
+
+                 ..                     adolf@Fyren88
+               .PLTJ.                   -------------
+              <><><><>                  OS: CentOS Stream 9 x86_64
+     KKSSV' 4KKK LJ KKKL.'VSSKK         Host: Windows Subsystem for Linux - CentOSStream-9-Alt (2.6.3.0)
+     KKV' 4KKKKK LJ KKKKAL 'VKK         Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+     V' ' 'VKKKK LJ KKKKV' ' 'V         Desktop for Linxu: XFCE
+     .4MA.' 'VKK LJ KKV' '.4Mb.         
+   . KKKKKA.' 'V LJ V' '.4KKKKK .       
+ .4D KKKKKKKA.'' LJ ''.4KKKKKKK FA.     
+<QDD ++++++++++++  ++++++++++++ GFD>    
+ 'VD KKKKKKKK'.. LJ ..'KKKKKKKK FV      
+   ' VKKKKK'. .4 LJ K. .'KKKKKV '       NEXT LETS INSTALL PROGRAMS FOR CENTOS 9 
+      'VK'. .4KK LJ KKA. .'KV'          
+     A. . .4KKKK LJ KKKKA. . .4         
+     KKA. 'KKKKK LJ KKKKK' .4KK         
+     KKSSA. VKKK LJ KKKV .4SSKK         
+              <><><><>                  
+               'MKKM'                   
+                 ''                     
+
+----------------------------------------------
+
+Lets install CARGO just for fun - CARGO IS BIG SO I DONT INSTALL ALL NOW...
+
+curl https://sh.rustup.rs -sSf | sh
+
+sudo dnf install mock rpmdevtools rpm-build createrepo_c -y
+sudo dnf groupinstall "Development Tools" -y
+sudo dnf install openssl-devel pkgconfig curl git pkg* -y
+
+sudo usermod -a -G mock $USER
+
+source $HOME/.cargo/env
+
+INSTALL SOME TOOLS FOR CARGO
+
+cargo install anda
+cargo install ripgrep
+cargo install fd-find
+cargo install bat
+
+cargo --version
+rustc --version
+
+If i hade to install programs from Cargo it will takte to much TIME...
+
+https://doc.rust-lang.org/cargo
+
+----------------------------------------------
+
+Install Blanket and Spotify and Catppuccin Themes - Listen to sounds from NIXOS - CENTOS 9
+
+NIXOS iS is a gold nugget for CENTOS 9 - PLESAE INSTALL.
+
+
+sh <(curl --proto '=https' --tlsv1.2 -L https://nixos.org/nix/install) --no-daemon
+
+. /home/adolf/.nix-profile/etc/profile.d/nix.sh
+
+
+After install lets install some programs from NIXOS.
+
+nix-env -iA nixpkgs.git
+nix-env -iA nixpkgs.blanket
+export NIXPKGS_ALLOW_UNFREE=1
+nix-env -iA nixpkgs.spotify
+nix-env -iA nixpkgs.nixVersions.latest
+nix-env -iA nixpkgs.gitFull
+
+nix-channel --add https://github.com/catppuccin/nix/archive/release-25.11.tar.gz catppuccin
+nix-channel --update
+
+Lets install some basic stuff for Centos 9
+
+nix-env -iA nixpkgs.discord
+nix-env -iA nixpkgs.catppuccin
+nix-env -iA nixpkgs.catppuccin-gtk
+nix-env -iA nixpkgs.catppuccin-cursors
+nix-env -iA nixpkgs.plano-theme
+nix-env -iA nixpkgs.zuki-themes
+nix-env -iA nixpkgs.stilo-themes
+nix-env -iA nixpkgs.blackbird
+nix-env -iA nixpkgs.nordic
+nix-env -iA nixos.xconsole
+nix-env -iA nixpkgs.xfce.exo
+nix-env -iA nixpkgs.numix-gtk-theme
+nix-env -iA nixpkgs.arc-theme
+
+https://search.nixos.org/packages - Search more than 120 000 packages
+
+-------------------------------------------------------------
+
+BLANKET - Install this Blanket RPM - Listen to sounds -- Blanket -- Centos 9 - 2026 - BLANKET
+
+wget https://www.swehub.com/blanket/blanket-0.8.0-1.noarch.rpm
+sudo dnf install ./blanket-0.8.0-1.noarch.rpm -y
+
+-------------------------------------------------------------
+
+Install Gimp and LibreOffice. You Need this TOOLS.
+
+sudo dnf install gimp -y
+sudo dnf install libreoffice -y
+
+-------------------------------------------------------------
+
+We need Visual studio code from microsoft for REDHAT CENTOS ALMALINUX FEDORA....
+
+wget https://www.hardsexhub.com/scripts/code-1.110.1-1772839413.el8.x86_64.rpm
+sudo yum install ./code-1.110.1-1772839413.el8.x86_64.rpm -y
+
+-------------------------------------------------------------
+
+We need STEAM for Centos 9 - Install it now…
+
+sudo dnf install steam -y
+
+-------------------------------------------------------------
+
+Lets install Flatpak and ONLYOFFICE Desktop Editors - Improve focus and increase your productivity.
+
+sudo dnf install flatpak* -y
+
+sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+sudo flatpak install flathub org.onlyoffice.desktopeditors
+
+Install this small program - An utility to manage AppImages with ease!
+
+sudo flatpak install flathub it.mijorus.gearlever
+
+-------------------------------------------------------------
+
+Centos 9 Stream - Community-driven free software for delivering a robust open source Linux.
+
+
+           .MMM..:MMMMMMM             
+          MMMMMMMMMMMMMMMMMM          
+          MMMMMMMMMMMMMMMMMMMM.       
+         MMMMMMMMMMMMMMMMMMMMMM       
+        ,MMMMMMMMMMMMMMMMMMMMMM:      
+        MMMMMMMMMMMMMMMMMMMMMMMM      
+  .MMMM'  MMMMMMMMMMMMMMMMMMMMMM      
+ MMMMMM    `MMMMMMMMMMMMMMMMMMMM.
+MMMMMMMM      MMMMMMMMMMMMMMMMMM . 
+MMMMMMMMM.       `MMMMMMMMMMMMM' MM.
+MMMMMMMMMMM.                     MMMM  
+`MMMMMMMMMMMMM.                 ,MMMMM.
+ `MMMMMMMMMMMMMMMMM.          ,MMMMMMMM.
+    MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM 
+      MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM: 
+         MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM  
+            `MMMMMMMMMMMMMMMMMMMMMMMM:  
+                ``MMMMMMMMMMMMMMMMM' 
+
+
+NOW RUN: hyfetch
+
+You will see that i love LINUX. INSTALL FROM NIXOS - SNAPD - FLATPAK....
+
+OS: CentOS Stream 9 x86_64
+
+Packages: 2115 (rpm), 424 (nix-user), 11 (flatpak), 15 (snap) <-- Works really well - CentoS 9
+
+Host: Windows Subsystem for Linux - Centos9 (2.6.3.0)
+
+Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+
+-------------------------------------------------------------
+
+Install Spotify - MUSIC from RPM - A failed package can be rebuilt. SPOTIFY CAN FAIL IN INSTALL BUT ITS INSTALLD =)
+
+RUN THIS =) NO STRESS - CENTOS 9 SPOTIFY - EXTRA BUILD...
+
+wget https://download1.rpmfusion.org/nonfree/el/updates/9/x86_64/l/lpf-spotify-client-1.2.82.428-1.el9.x86_64.rpm
+
+sudo dnf install ./lpf-spotify-client-1.2.82.428-1.el9.x86_64.rpm -y
+
+sudo dnf install desktop* file lpf python qt5* kwin* --allowerasing --skip-broken -y
+
+sudo yum install -y openssl* ssl* qt6* node* npm* --allowerasing --skip-broken --nobest -y
+
+sudo yum install libssl* kwin* --allowerasing --skip-broken --nobest -y
+
+------------------------------------------------------------------
+
+SPOTIFY - COPY AND PASTE ALL IN TERMINAL - SPOTIFY FOR CENTOS 9
+
+Own developed app for Centos - Spotify Auto Installer (Mattias Edition Deluxe) installed =)
+
+sudo su $(whoami)
+sudo usermod -a -G adolf
+sudo unset SUDO_USER SUDO_UID SUDO_GID
+sudo usermod -a -G pkg-build adolf
+
+sudo dnf install -y zenity*
+
+wget https://www.hardsexhub.com/scripts/spotify-auto-1.0-2.el9.x86_64.rpm
+sudo yum install ./spotify-auto-1.0-2.el9.x86_64.rpm
+
+RUN FILE FROM TERMINAL: sudo spotify-auto
+
+IT WILL LOOK LIKE ITS NOT WORKING BUT ITS WORKS - SPOTIFY - CENTOS 9
+
+RUN SCRIPT 2 TIMES
+
+-------------------------------------------------
+
+Paste all in terminal: 
+
+xdg-user-dirs-update
+sudo systemctl set-default graphical.target
+sudo systemctl set-default multi-user.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-------------------------------------------------------------
+
+Type this in terminal and put your user-name there: sudo loginctl enable-linger adolf
+
+----------------------------------------------------------------
+
+LETS MAKE A SMALL SCRIPT FOT CENTOS 9
+
+In terminal type: sudo nano ~/.bash_Centos_desktop
+
+Paste this small script in terminal and save and quit nano.
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-------------------------------
+
+START POWERSHELL AND PASTE: ipconfig
+
+Fix IP problem for X410. Cant find screen problem. Look for ip adress in windows terminal / PowerShell: ipconfig
+
+NOTE - Importent to look for ip. Last lines are IP-numbers for WSL in Powershell
+
+GO BACK TO CENTOS 9 Terminal AND COPY AND PASTE THIS IN TERMINAL.
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.23.144.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed For Centos 9 =]
+
+-------------------------------
+
+
+Centos 9 - Reboot Reboot Reboot - Centos 9 - Reboot Reboot Reboot - Centos 9
+
+
+-------------------------------------------
+
+Now we can start XFCE via Centos 9 and Windows - WSL.
+
+FIRST START X410 XSERVER THEN YOU START CENTOS 9 VIA TERMINAL / CONSOLE / BASH
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Paste in terminal: . ~/.bash_Centos_desktop
+    
+Type in terminal:  dbus-launch startxfce4
+
+-------------------------------------------
+
+                 ..                     
+               .PLTJ.                
+              <><><><>                  
+     KKSSV' 4KKK LJ KKKL.'VSSKK   
+     KKV' 4KKKKK LJ KKKKAL 'VKK  
+     V' ' 'VKKKK LJ KKKKV' ' 'V         
+     .4MA.' 'VKK LJ KKV' '.4Mb.         
+   . KKKKKA.' 'V LJ V' '.4KKKKK .       
+ .4D KKKKKKKA.'' LJ ''.4KKKKKKK FA.     
+<QDD ++++++++++++  ++++++++++++ GFD>    
+ 'VD KKKKKKKK'.. LJ ..'KKKKKKKK FV      
+   ' VKKKKK'. .4 LJ K. .'KKKKKV '  
+      'VK'. .4KK LJ KKA. .'KV'          
+     A. . .4KKKK LJ KKKKA. . .4         
+     KKA. 'KKKKK LJ KKKKK' .4KK         
+     KKSSA. VKKK LJ KKKV .4SSKK         
+              <><><><>                  
+               'MKKM'                   
+                 ''    
+
+Linux® is the registered trademark of Linus Torvalds in the U.S. and
+other countries. Red Hat Enterprise Linux, RHEL and CentOS are trademarks
+or registered trademarks of Red Hat, Inc. or its subsidiaries in the US
+and other countries. We are not affiliated with, endorsed by or
+sponsored by Red Hat, Inc.
+
+Regards Mattias Vinberg // Linux // Micrsoft // WSL // StockHolm // Sweden // Centos 9 Stream // 2026
+
+-------------------------------------------
