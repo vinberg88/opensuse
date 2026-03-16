@@ -25,7 +25,7 @@ You can find CentOS 9 Stream here for WSL - Click on the blue ICON and all works
                                      
                                  
 How to install xfce desktop via CentOS 9 - WSL - TEXT VIA GITHUB
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/Centos9-xfce.txt
 
 How to install xfce desktop via CentOS 9 - WSL - MOVIE VIA YOUTUBE
 https://www.youtube.com/watch?v=q0fFlwCMkI8
