@@ -40,6 +40,68 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+CentOS 9 stream - Github - How to install xfce via WSL and Windows 11 - Linux - X410 - YouTube - 2026 ⚖️
+
+You can find CentOS 9 Stream here for WSL - Click on the blue ICON and all works =) https://www.centos.org/altimages/
+
+How to install xfce desktop via CentOS 9 - WSL - TEXT VIA GITHUB
+
+https://github.com/vinberg88/opensuse/blob/main/Centos9-xfce.txt
+
+How to install xfce desktop via CentOS 9 - WSL - MOVIE VIA YOUTUBE
+
+https://www.youtube.com/watch?v=q0fFlwCMkI8
+
+TOOLS FOR WSL AND CENTOS 9 - 2026
+
+Use X410 - X Server for Windows 11 in this video and it works well. Find in Micorsoft store. 
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="Centos9-xfce" src="https://github.com/user-attachments/assets/1f398fb4-d784-45dc-8549-dcb657ba6d26" />
+
+What is Centos 9 Stream - https://www.centos.org
+
+Continuously delivered distro that tracks just ahead
+of Red Hat Enterprise Linux (RHEL) development, positioned
+as a midstream between Fedora Linux and RHEL. 
+For anyone interested in participating and collaborating 
+in the RHEL ecosystem, CentOS Stream is your reliable
+platform for innovation. The CentOS Project is a 
+community-driven free software effort focused around
+the goal of providing a rich base platform for open 
+source communities to build upon. We will provide a 
+development framework for cloud providers, the hosting
+community, and scientific data processing, as a few examples.
+We work with several ‘upstream’ communities to help them
+layer and distribute their software more effectively on
+a platform they can rely on. Centos 9 Stream Works!
+
+About Xfce - https://www.xfce.org
+
+Xfce is a lightweight desktop environment for UNIX-like operating
+systems. It aims to be fast and low on system resources, while
+still being visually appealing and user friendly.
+Xfce embodies the traditional UNIX philosophy of modularity and 
+re-usability. It consists of a number of components that provide
+the full functionality one can expect of a modern desktop environment.
+They are packaged separately and you can pick among the available
+packages to create the optimal personal working environment.
+
+Please visit my page about WSL - Centos 9 Stream and XFCE =]
+
+https://vinberg88.github.io
+
+Regards Mattias Vinberg // Linux // Micrsoft // WSL // Sweden // Centos 9 // 2026
+
+---------------------------------------------
+
 Ultramarine 43 and KDE 6 for WSL - How to Install KDE 6 via Ultramarine 43 - Linux - Microsoft - X410 - 2026 - YouTube
 
 We will install Ultramarine 41 and we will update to Ultramarine 43 - you will find it in Microsoft store for WSL.
