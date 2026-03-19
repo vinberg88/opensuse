@@ -1,7 +1,7 @@
 Fedora 43 - WSL - How to install GNOME via Windows and Fedora 43 - X410 - Linux - YouTube - 2026
 
 How to install GNOME 49 via Fedora 43 - WSL - TEXT
-Comming Sone...
+https://github.com/vinberg88/opensuse/blob/main/Fedora43-GNOME.txt
 
 How to install GNOME 49 via Fedora 43 - WSL - MOVIE
 https://www.youtube.com/watch?v=8qnm-OrRsv8
