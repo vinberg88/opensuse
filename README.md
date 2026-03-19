@@ -40,6 +40,82 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Fedora 43 - WSL - How to install GNOME 49 via Windows and Fedora 43 - X410 - Linux - YouTube - 2026
+
+How to install GNOME 49 via Fedora 43 - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Fedora43-GNOME.txt
+
+How to install GNOME 49 via Fedora 43 - WSL - MOVIE
+
+https://www.youtube.com/watch?v=8qnm-OrRsv8
+
+To install fedora 43 via Terminal - Open Powershell from microsoft and run: wsl.exe --install FedoraLinux-43 --name Fedora43
+
+Tools that i USE for WSL - Microsoft - Linux - 2026
+
+X410 - Xserver for windows 11 - So you have a Desktop.
+Do you want to seamlessly use Linux GUI apps side by side with Windows
+apps? Simply start X410 and adjust a few settings; your Linux GUI
+apps then suddenly appear in Windows and you can use them like Windows 
+apps! It doesn't matter where your Linux GUI apps are actually
+running; it can be a full virtual machine, Docker container, WSL
+(Windows Subsystem for Linux) or whatever. As long as your Linux GUI
+apps support X-Window client protocols, you can use them in Windows.
+You can even securely use your Linux GUI apps running in a far remote
+server via any SSH client that supports X11 forwarding over the Internet.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="Fedora43-GNOME" src="https://github.com/user-attachments/assets/3095b291-fda0-402c-92a3-2d242e702ff9" />
+
+About FEDORA 43 -- https://fedoraproject.org
+
+If you want to test full iso - GNOME and Fedora 43 - https://fedoraproject.org
+
+Fedora Linux is a Linux distribution developed by the Fedora Project.
+It was originally developed in 2003 as a continuation of the Red Hat 
+Linux project. It contains software distributed under various free
+and open-source licenses and aims to be on the leading edge of open-source
+technologies. It is now the upstream source for CentOS Stream and Red Hat
+Enterprise Linux.
+
+About GNOME desktop 49 - Gnome - https://www.gnome.org
+
+GNOME is designed to help you have the best possible computing
+experience. Every aspect of GNOME has been crafted to fit together
+as a harmonious whole, providing a consistent and integrated 
+experience. Our attention to detail means a smooth and polished
+product that lets you do the things you want without getting
+in the way. GNOME is satisfying to use and beautiful to behold.
+GNOME provides a focused working environment that helps you get
+things done. It is packed with features that will make you more
+productive: a powerful search feature that helps you access all
+your work from one place; side-by-side windows that make it easy
+to view several documents at the same time; seamless integration
+with online accounts which allows you to access all your data in
+one place; and a messaging system that comfortably deals with 
+notifications, letting you quickly respond in place or return to 
+them in a convenient time. Gnome desktop is my favorite =]
+
+ABOUT WSL for WINDOWS via GITHUB - MY PAGE - https://vinberg88.github.io
+
+WSL stands for Windows Subsystem for Linux, a feature of Windows that
+allows users to run a Linux environment directly on their Windows
+machine without needing a separate virtual machine or dual-booting.
+
+Want more stuff for WSL look here: https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - FEDORA 43 - WSL - X410 - Windows 11 - Linux - Microsoft - Sweden - 2026
+
+---------------------------------------------
+
 CentOS 9 stream - Github - How to install xfce via WSL and Windows 11 - Linux - X410 - YouTube - 2026 ⚖️
 
 You can find CentOS 9 Stream here for WSL - Click on the blue ICON and all works =) https://www.centos.org/altimages/
