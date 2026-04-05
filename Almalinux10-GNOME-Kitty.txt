@@ -5,7 +5,7 @@ You can find AlmaLinux 10 kitty here. Open powershell and install: wsl --install
 
 
 How to install Gnome via AlmaLinux 10 kitty and Windows 11 - WSL - TEXT
-Comming Zone....
+https://github.com/vinberg88/opensuse/blob/main/Almalinux10-GNOME-Kitty.txt
 
 How to install Gnome via AlmaLinux 10 Kitty and Windows 11 - WSL - MOVIE
 https://www.youtube.com/watch?v=nbIVBBygqcQ
