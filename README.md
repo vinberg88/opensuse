@@ -40,6 +40,77 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+AlmaLinux 10 KITTY - Install Gnome desktop via Windows 11 - WSL - X410 - Linux - GitHub - YoutubE - 2026
+
+You can find AlmaLinux 10 kitty here. Open powershell and install: wsl --install AlmaLinux-Kitten-10
+
+How to install Gnome via AlmaLinux 10 kitty and Windows 11 - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Almalinux10-GNOME-Kitty.txt
+
+How to install Gnome via AlmaLinux 10 Kitty and Windows 11 - WSL - MOVIE
+
+https://www.youtube.com/watch?v=nbIVBBygqcQ
+
+TOOLS THAT I USE FOR WSL AND ALAMLINUX 10 KITTY.
+
+Use X410 - X Server for Windows 11 in this video and it works well. Find in Micorsoft store. 
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="Almalinux10-GNOME-Kitty" src="https://github.com/user-attachments/assets/03928e52-81a0-40c6-a5a7-13260256c1a2" />
+
+About AlmaLinux KITTY 10 for WSL - https://almalinux.org - 2026
+
+AlmaLinux OS is an open-source, community-driven Linux 
+operating system that fills the gap left by the discontinuation
+of the CentOS Linux stable release. AlmaLinux OS is an Enterprise
+Linux distro, binary compatible with RHEL®, and guided and built
+by the community. As a standalone, completely free OS, AlmaLinux OS
+enjoys $1M in annual sponsorship from CloudLinux Inc. and support
+from more than 25 other sponsors. Ongoing development efforts
+are governed by the members of the community. The AlmaLinux OS 
+Foundation is a 501(c)(6) non-profit created for the benefit of
+the AlmaLinux OS community.
+
+About GNOME Desktop for WSL and ALMALINUX Kitty - https://www.gnome.org
+
+GNOME is designed to help you have the best possible computing
+experience. Every aspect of GNOME has been crafted to fit together
+as a harmonious whole, providing a consistent and integrated 
+experience. Our attention to detail means a smooth and polished
+product that lets you do the things you want without getting
+in the way. GNOME is satisfying to use and beautiful to behold.
+GNOME provides a focused working environment that helps you get
+things done. It is packed with features that will make you more
+productive: a powerful search feature that helps you access all
+your work from one place; side-by-side windows that make it easy
+to view several documents at the same time; seamless integration
+with online accounts which allows you to access all your data in
+one place; and a messaging system that comfortably deals with 
+notifications, letting you quickly respond in place or return to 
+them in a convenient time. Gnome desktop is my favorite!
+
+Want more stuff for WSL look here: https://github.com/vinberg88/opensuse
+
+Want more look here.
+
+https://vinberg88.github.io
+
+WSL stands for Windows Subsystem for Linux, a feature of Windows that
+allows users to run a Linux environment directly on their Windows
+machine without needing a separate virtual machine or dual-booting.
+
+Regards Mattias Vinberg - AlmaLinux 10 KITTY - Gnome - Windows 11 - Linux - WSL - X410 - 2025 - SWEDEN
+
+---------------------------------------------
+
 Fedora 43 - WSL - How to install GNOME 49 via Windows and Fedora 43 - X410 - Linux - YouTube - 2026
 
 How to install GNOME 49 via Fedora 43 - WSL - TEXT
