@@ -1,0 +1,372 @@
+AlmaLinux 10 KITTY - Install Gnome desktop via Windows 11 - WSL - X410 - Linux - GitHub - YoutubE - 2026
+
+
+You can find AlmaLinux 10 kitty here. Open powershell and install: wsl --install AlmaLinux-Kitten-10
+
+
+How to install Gnome via AlmaLinux 10 kitty and Windows 11 - WSL - TEXT
+Comming Zone....
+
+How to install Gnome via AlmaLinux 10 Kitty and Windows 11 - WSL - MOVIE
+https://www.youtube.com/watch?v=nbIVBBygqcQ
+
+
+TOOLS THAT I USE FOR WSL AND ALAMLINUX 10 KITTY.
+
+Use X410 - X Server for Windows 11 in this video and it works well. Find in Micorsoft store. 
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+       
+         'c:.                                      'c:.
+        lkkkx, ..       ..   ,cc,                 lkkkx, ..       ..   ,cc,
+        okkkk:ckkx'  .lxkkx.okkkkd                okkkk:ckkx'  .lxkkx.okkkkd
+        .:llcokkx'  :kkkxkko:xkkd,                .:llcokkx'  :kkkxkko:xkkd,
+      .xkkkkdood:  ;kx,  .lkxlll;               .xkkkkdood:  ;kx,  .lkxlll;
+       xkkx.       xk'     xkkkkk:               xkkx.       xk'     xkkkkk:
+       'xkx.       xd      .....,.               'xkx.       xd      .....,.
+      .. :xkl'     :c      ..''..               .. :xkl'     :c      ..''..
+    .dkx'  .:ldl:'. '  ':lollldkkxo;          .dkx'  .:ldl:'. '  ':lollldkkxo;
+  .''lkkko'                     ckkkx.      .''lkkko'                     ckkkx.
+'xkkkd:kkd.       ..  ;'        :kkxo.    'xkkkd:kkd.       ..  ;'        :kkxo.
+,xkkkd;kk'      ,d;    ld.   ':dkd::cc,   ,xkkkd;kk'      ,d;    ld.   ':dkd::cc,
+ .,,.;xkko'.';lxo.      dx,  :kkk'xkkkkc   .,,.;xkko'.';lxo.      dx,  :kkk'xkkkkc
+     'dkkkkkxo:.        ;kx  .kkk:;xkkd.       'dkkkkkxo:.        ;kx  .kkk:;xkkd.
+       .....   .;dk:.   lkk.  :;,                .....   .;dk:.   lkk.  :;,
+             :kkkkkkkdoxkkx                            :kkkkkkkdoxkkx
+              ,c,,;;;:xkkd.                             ,c,,;;;:xkkd.
+                ;kkkkl...                                 ;kkkkl...
+                ;kkkkl                                    ;kkkkl
+                 ,od;                                      ,od;
+
+
+        WELCOME TO AlmaLinux 10 KITTY AND GNOME DESKTOP FOR WSL
+            MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+
+
+About AlmaLinux KITTY 10 for WSL - https://almalinux.org - 2026
+
+AlmaLinux OS is an open-source, community-driven Linux 
+operating system that fills the gap left by the discontinuation
+of the CentOS Linux stable release. AlmaLinux OS is an Enterprise
+Linux distro, binary compatible with RHEL®, and guided and built
+by the community. As a standalone, completely free OS, AlmaLinux OS
+enjoys $1M in annual sponsorship from CloudLinux Inc. and support
+from more than 25 other sponsors. Ongoing development efforts
+are governed by the members of the community. The AlmaLinux OS 
+Foundation is a 501(c)(6) non-profit created for the benefit of
+the AlmaLinux OS community.
+
+About GNOME Desktop for WSL and ALMALINUX Kitty - https://www.gnome.org
+
+GNOME is designed to help you have the best possible computing
+experience. Every aspect of GNOME has been crafted to fit together
+as a harmonious whole, providing a consistent and integrated 
+experience. Our attention to detail means a smooth and polished
+product that lets you do the things you want without getting
+in the way. GNOME is satisfying to use and beautiful to behold.
+GNOME provides a focused working environment that helps you get
+things done. It is packed with features that will make you more
+productive: a powerful search feature that helps you access all
+your work from one place; side-by-side windows that make it easy
+to view several documents at the same time; seamless integration
+with online accounts which allows you to access all your data in
+one place; and a messaging system that comfortably deals with 
+notifications, letting you quickly respond in place or return to 
+them in a convenient time. Gnome desktop is my favorite!
+
+Want more stuff for WSL look here: https://github.com/vinberg88/opensuse
+
+Want more look here.
+
+https://vinberg88.github.io
+
+WSL stands for Windows Subsystem for Linux, a feature of Windows that
+allows users to run a Linux environment directly on their Windows
+machine without needing a separate virtual machine or dual-booting.
+
+--------------------------------
+
+First Thing to do is ADD Repos for GNOME 47 and ALMALINUX KITTY 10
+
+sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-10.noarch.rpm
+sudo dnf config-manager --set-enabled crb
+sudo /usr/bin/crb enable
+
+sudo dnf install https://dl.fedoraproject.org/pub/epel/epel{,-next}-release-latest-9.noarch.rpm
+
+-----------------------------------
+
+Now lets install Spotify From Sweden.
+
+sudo dnf config-manager --add-repo=https://negativo17.org/repos/epel-spotify.repo
+
+sudo dnf -y install spotify-client
+
+-----------------------------------
+
+Paste in terminal - Update AlmaLinux 10 KITTY
+
+sudo dnf upgrade --refresh --allowerasing  --skip-broken --nobest
+
+-----------------------------------
+
+Install some basic programs. You Need it - AlmaLinux 10 KITTY
+
+
+sudo dnf install git systemd* wget curl bash pipx dracut net-tools dbus-x11 dbus* yum xorg* -y --skip-broken
+
+wget https://rpmfind.net/linux/almalinux-kitten/10-kitten/AppStream/x86_64/os/Packages/gnome-control-center-47.7-4.el10.x86_64.rpm
+sudo dnf install ./gnome-control-center-47.7-4.el10.x86_64.rpm
+
+wget https://www.rpmfind.net/linux/almalinux-kitten/10-kitten/AppStream/x86_64/os/Packages/gnome-control-center-filesystem-47.7-4.el10.noarch.rpm
+sudo dnf install ./gnome-control-center-filesystem-47.7-4.el10.noarch.rpm
+
+sudo dnf install unzip p7zip p7zip-plugins xz unrar curl wget git bash zeal librepo qt6* --skip-broken --nobest
+
+-----------------------------------
+
+Install fastfetch - like Neofetch but more FUN - AlmaLinux 10 KITTY
+
+sudo dnf install fastfetch
+
+Put this in terminal to Test in terminal: fastfetch
+
+
+         'c:.                               
+        lkkkx, ..       ..   ,cc,           
+        okkkk:ckkx'  .lxkkx.okkkkd
+        .:llcokkx'  :kkkxkko:xkkd, 
+      .xkkkkdood:  ;kx,  .lkxlll;         
+       xkkx.       xk'     xkkkkk:         
+       'xkx.       xd      .....,.          
+      .. :xkl'     :c      ..''..           
+    .dkx'  .:ldl:'. '  ':lollldkkxo;        OS: AlmaLinux Kitten 10 (Lion Cub) x86_64
+  .''lkkko'                     ckkkx.      Host: Windows Subsystem for Linux - AlmaLinux-Kitten-10 (2.6.3.0)
+'xkkkd:kkd.       ..  ;'        :kkxo.      
+,xkkkd;kk'      ,d;    ld.   ':dkd::cc,     Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+ .,,.;xkko'.';lxo.      dx,  :kkk'xkkkkc    
+     'dkkkkkxo:.        ;kx  .kkk:;xkkd.    
+       .....   .;dk:.   lkk.  :;,           
+             :kkkkkkkdoxkkx                 
+              ,c,,;;;:xkkd.              
+                ;kkkkl...                   
+                ;kkkkl                      
+                 ,od;                       
+                                            
+-----------------------------------
+
+Install google-chrome - paste all under this paragraph in terminal - AlmaLinux 10 KITTY
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm -y
+sudo yum update google-chrome-stable
+
+------------------------------------------------------
+
+Install CODE Visual studio code - 2025 - MicroSoft - AlmaLinux 10 KITTY
+
+wget https://www.knulla.org/scripts/code-1.95.3-1731513157.el8.x86_64.rpm
+sudo dnf install ./code-1.95.3-1731513157.el8.x86_64.rpm -y
+
+-----------------------------------------------------
+
+Install Blanket - Listen to sounds for ALMALINUX 10 KITTY
+
+wget https://www.swehub.com/blanket/blanket-0.8.0-1.noarch.rpm
+sudo dnf install ./blanket-0.8.0-1.noarch.rpm -y
+
+-------------------------------------------------------------
+
+Install Gimp for AlmaLinux 10 KITTY via FLATPAK.
+
+Copy and paste: sudo dnf install flatpak -y
+
+Copy and paste: sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+Copy and paste: sudo flatpak install flathub org.gimp.GIMP
+
+-------------------------------------------------------------
+
+Install LibreOffice for AlmaLinux 10 KITTY from flatpak.
+
+sudo flatpak install flathub org.libreoffice.LibreOffice
+
+-------------------------------------------------------------
+
+Grafic manager for Gnome and AlmaLinux 10 KITTY
+
+sudo dnf install gdm* -y
+
+sudo dnf install gnome-shell-extension-system-monitor libwbclient* 
+
+----------------------------------
+
+GNOME - full installation - AlmaLinux 10 KITTY - 2026
+
+sudo dnf install @workstation-product-environment -y
+
+sudo dnf install gnome* --allowerasing -y 
+
+sudo dnf install -y systemd procps bind-utils iproute iputils nmap-ncat
+sudo dnf install -y gnome-extensions-app gnome-shell-extension-dash-to-dock
+sudo dnf install -y gnome-shell-extension-window-list dconf-editor xhost
+
+sudo dnf groupinstall "Server with GUI"
+sudo dnf groupinstall "Workstation"
+sudo dnf groupinstall "base-x"
+
+sudo systemctl set-default graphical.target
+
+sudo dnf install gnome* --exclude=gnome-shell-extension-system-monitor-49.0-4.el10.noarch --skip-broken
+
+sudo echo export GSK_RENDERER=gl | sudo tee /etc/profile.d/gtk_renderer.sh > /dev/null
+
+wget https://mirror.de.leaseweb.net/epel/10/Everything/x86_64/Packages/g/gnome-tweaks-46.1-1.el10_0.noarch.rpm
+sudo dnf install ./gnome-tweaks-46.1-1.el10_0.noarch.rpm
+
+-----------------------------------
+
+Paste in terminal - Update AlmaLinux 10 KITTY
+
+sudo dnf upgrade --refresh --allowerasing  --skip-broken --nobest
+
+-----------------------------------
+
+Now lets install DISCORD for AlmaLinux 10 KITTY
+
+wget https://download1.rpmfusion.org/nonfree/fedora/releases/43/Everything/x86_64/os/Packages/d/discord-0.0.112-1.fc43.x86_64.rpm
+sudo dnf install ./discord-0.0.112-1.fc43.x86_64.rpm -y
+
+--------------------------------------------------
+
+Install some Themes for Alma LINUX kitten 10 and GNOME 47
+
+sudo dnf install papirus-icon-theme -y
+sudo dnf install material* -y
+sudo dnf install oxygen-cursor-themes -y
+sudo dnf install cinnamon-themes -y
+sudo dnf install xfwm4-themes -y
+sudo dnf install arc* ninja* python ps* lua* qt5* --skip-broken --nobest  -y
+sudo dnf install adwaita-cursor-theme -y
+sudo dnf install breeze-cursor-theme -y
+sudo dnf install oxygen-cursor-themes -y
+
+--------------------------------------------------
+
+Copy and Paste in terminal for AlmaLinux 10 KITTY and GNOME.
+
+xdg-user-dirs-update
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-----------------------------------
+
+CREATE THIS SCRIPT FOR ALMALINUX 10 KITTY.
+
+Type in terminal: sudo nano ~/.bash_AlmaLinux_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------------------------
+
+Paste this one time in Console - AlmaLinux 10 KITTY
+
+sudo mkdir /run/user/1000 && sudo chmod 700 /run/user/1000 && sudo chown $(whoami): /run/user/1000
+
+------------------------------------------------------
+
+Fix IP problem for X410. Cant find screen problem. Look for ip adress in windows terminal / PowerShell: ipconfig
+
+NOTE - Importent to look for ip. Last lines are IP-numbers for WSL in POWERSHELL,
+
+NOW GO BACK TO AlmaLinux 10 KITTY Terminal and paste this.
+
+sudo systemctl unmask systemd-resolved.service
+
+sudo systemctl enable systemd-resolved.service
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.23.144.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed =] IF YOU SEE SOME RED TEXT DON WORRY IT WORKS =]
+
+-------------------------------------------------------------
+
+              ALMALINUX 10 KITTY AND GNOME DESKTOP 47.
+
+Type this in terminal and put your user there: sudo loginctl enable-linger adolf
+
+-------------------------------------------------------------
+
+Reboot AlmaLinux 10 KITTY - Reboot - AlmaLinux 10 KITTY - Reboot.
+
+------------------------------------------------------
+
+Time to start Gnome and AlmaLinux 10 KITTY - Paste One by One!
+
+NOTE - FIRST START X410 THEN YOU START ALMALINUX 10 VIA TERMINAL - NOTE
+
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Copy and paste This: . ~/.bash_AlmaLinux_desktop
+
+Copy and paste This: xhost +
+
+Copy and paste: gnome-session
+
+
+
+IF IT NOT START USE THIS UNDER. WAIT I MIN TO START GNOME DESKTOP
+
+Copy and paste This: MUTTER_DEBUG_DUMMY_MODE_SPECS=1920x1080 gnome-shell
+
+SETTNINS MUST BE OPEN VIA THIS IN TERMINAL VIA ALMALINUX: env XDG_CURRENT_DESKTOP=GNOME gnome-control-center
+
+
+----------------------------------------------------------------
+
+
+           .MMM..:MMMMMMM             
+          MMMMMMMMMMMMMMMMMM          
+          MMMMMMMMMMMMMMMMMMMM.       
+         MMMMMMMMMMMMMMMMMMMMMM       
+        ,MMMMMMMMMMMMMMMMMMMMMM:      
+        MMMMMMMMMMMMMMMMMMMMMMMM      
+  .MMMM'  MMMMMMMMMMMMMMMMMMMMMM  
+ MMMMMM    `MMMMMMMMMMMMMMMMMMMM.
+MMMMMMMM      MMMMMMMMMMMMMMMMMM .     GNOME AND AlmaLinux 10 KITTY - 2026
+MMMMMMMMM.       `MMMMMMMMMMMMM' MM.
+MMMMMMMMMMM.                     MMMM  
+`MMMMMMMMMMMMM.                 ,MMMMM.
+ `MMMMMMMMMMMMMMMMM.          ,MMMMMMMM.
+    MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM 
+      MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM: 
+         MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM  
+            `MMMMMMMMMMMMMMMMMMMMMMMM:  
+                ``MMMMMMMMMMMMMMMMM' 
+
+
+Regards Mattias Vinberg - AlmaLinux 10 KITTY - Gnome - Windows 11 - Linux - WSL - X410 - 2025 - SWEDEN
+
+----------------------------------------------------------------
