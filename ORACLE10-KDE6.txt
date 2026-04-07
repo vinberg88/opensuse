@@ -3,7 +3,7 @@ ORACLE 10 - How to install Kde Plasma 6 - WSL - ORACLE 10 via Windows 11 - Linux
 DOWNLOAD ORACLE 10 HERE FOR WSL - https://drive.proton.me/urls/K3M03RNQA4#WUEVk29WjWJO
 
 How to install KDE 6 via ORACLE 10 - WSL - GITHUB - TEXT
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/ORACLE10-KDE6.txt
 
 How to install KDE 6 via ORACLE 10 - WSL - YouTUBE - MOVIE
 https://www.youtube.com/watch?v=Ukas7oYjO50
