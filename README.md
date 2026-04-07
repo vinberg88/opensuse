@@ -40,6 +40,63 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+ORACLE 10 - How to install Kde Plasma 6 - WSL - ORACLE 10 via Windows 11 - Linux - 2026
+
+DOWNLOAD ORACLE 10 HERE FOR WSL - https://drive.proton.me/urls/K3M03RNQA4#WUEVk29WjWJO
+
+How to install KDE 6 via ORACLE 10 - WSL - GITHUB - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/ORACLE10-KDE6.txt
+
+How to install KDE 6 via ORACLE 10 - WSL - YouTUBE - MOVIE
+
+https://www.youtube.com/watch?v=Ukas7oYjO50
+
+<img width="1920" height="1080" alt="ORACLE10-KDE6" src="https://github.com/user-attachments/assets/b4b72d7a-f82b-4728-aa70-a6d24ac5b759" />
+
+TOOLS THAT I USE FOR WSL AND ORACLE 10 - KDE 6 - 2026
+
+Use X410 - X Server for Windows 11 and it works well.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem Linux Distros.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+About ORACLE 10 - https://www.oracle.com - 2026
+
+REDA MORE HERE - https://www.oracle.com/linux/technologies/oracle-linux-downloads.html
+
+ORACLE 10 Linux combines the fundamental building blocks
+of modern IT infrastructure: operating system, containers, and
+virtualization into one integrated offering. Oracle
+Linux provides the reliability, scalability, security, and
+performance to run demanding SaaS, PaaS, and traditional
+enterprise workloads. 
+
+About KDE 6 plasma - https://kde.org
+
+The next generation desktop for Linux. Use KDE 
+software to surf the web, keep in touch with 
+colleagues, friends and family, manage your files, enjoy
+music and videos; and get creative and productive at work.
+The KDE community develops and maintains more than 200
+applications which run on any Linux desktop, and often
+other platforms too. 
+
+Want more stuff about WSL - Windows 11 - MICROSOFT - Linux
+
+https://github.com/vinberg88/opensuse
+
+Want more look here.
+
+https://vinberg88.github.io
+
+Regards Mattias Vinberg - KDE 6 - ORACLE 10 - WSL - WINDOWS 11 - LINUX - SWEDEN - 2026
+
+---------------------------------------------
+
 AlmaLinux 10 KITTY - Install Gnome desktop via Windows 11 - WSL - X410 - Linux - GitHub - YoutubE - 2026
 
 You can find AlmaLinux 10 kitty here. Open powershell and install: wsl --install AlmaLinux-Kitten-10
