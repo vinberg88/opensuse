@@ -1,0 +1,418 @@
+ORACLE 10 - How to install Kde Plasma 6 - WSL - ORACLE 10 via Windows 11 - Linux - 2026
+
+DOWNLOAD ORACLE 10 HERE FOR WSL - https://drive.proton.me/urls/K3M03RNQA4#WUEVk29WjWJO
+
+How to install KDE 6 via ORACLE 10 - WSL - GITHUB - TEXT
+Comming Zone...
+
+How to install KDE 6 via ORACLE 10 - WSL - YouTUBE - MOVIE
+https://www.youtube.com/watch?v=Ukas7oYjO50
+
+
+      `-/+++++++++++++++++/-.`       
+   `/syyyyyyyyyyyyyyyyyyyyyyys/.
+  :yyyyo/-...............-/oyyyy/
+ /yyys-                     .oyyy+
+.yyyy`                       `syyy-
+:yyyo                         /yyy/ - ORACLE 10 AND KDE 6 via WSL.
+.yyyy`                       `syyy- - MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+ /yyys.                     .oyyyo
+  /yyyyo:-...............-:oyyyy/`
+   `/syyyyyyyyyyyyyyyyyyyyyyys+.
+     `.:/+ooooooooooooooo+/:.`
+
+
+
+TOOLS THAT I USE FOR WSL AND ORACLE 10 - KDE 6 - 2026
+
+Use X410 - X Server for Windows 11 and it works well.
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem Linux Distros.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+About ORACLE 10 - https://www.oracle.com - 2026
+
+REDA MORE HERE - https://www.oracle.com/linux/technologies/oracle-linux-downloads.html
+
+ORACLE 10 Linux combines the fundamental building blocks
+of modern IT infrastructure: operating system, containers, and
+virtualization into one integrated offering. Oracle
+Linux provides the reliability, scalability, security, and
+performance to run demanding SaaS, PaaS, and traditional
+enterprise workloads. 
+
+About KDE 6 plasma - https://kde.org
+
+The next generation desktop for Linux. Use KDE 
+software to surf the web, keep in touch with 
+colleagues, friends and family, manage your files, enjoy
+music and videos; and get creative and productive at work.
+The KDE community develops and maintains more than 200
+applications which run on any Linux desktop, and often
+other platforms too. 
+
+Want more stuff about WSL - Windows 11 - MICROSOFT - Linux
+
+https://github.com/vinberg88/opensuse
+
+Want more look here.
+
+https://vinberg88.github.io
+
+WSL stands for Windows Subsystem for Linux, a feature of Windows that
+allows users to run a Linux environment directly on their Windows
+machine without needing a separate virtual machine or dual-booting.
+
+------------------------------------------------------
+
+NOW LETS START INSTALL KDE 6 VIA ORACLE 10 - WSL.
+
+------------------------------------------------------
+
+First thing you need to do is copy this file to C:\Users\yourusername
+
+1. Download this file from proton: https://drive.proton.me/urls/G602NV0DFG#Rn5D1Tny3TpQ
+
+1. Open explorer
+
+2. Copy file
+
+3. Paste it under C:\Users\yourusername <-- username is not your username =]
+
+Its easy, use Explorer and copy and past - DONE.
+
+------------------------------------------------------
+
+First thing for ORACLE 10 install this, nano and sudo and wget: dnf install nano sudo wget 
+
+------------------------------------------------------
+
+Next setup user for ORACLE 10 - CHANGE ADOLF TO YOUR USER.
+
+Add password for root: passwd
+
+Now add new user: adduser adolf
+
+Add password for user: passwd adolf
+
+------------------------------------------------------
+
+Paste in terminal in ORACLE 10: nano /etc/wsl.conf
+
+Add this to TERMINAL. CHANGE ADOLF TO YOUR USERNAME.
+
+[boot]
+systemd=true
+
+[user]
+default=adolf
+
+------------------------------------------------------
+
+Add user to sudoers file in terminal for ORACLE 10: sudo nano /etc/sudoers
+
+LIKE THIS.... CHANGE ADOLF TO YOUR USER.
+
+root    ALL=(ALL:ALL) ALL
+adolf   ALL=(ALL:ALL) ALL
+
+------------------------------------------------------
+
+NOW REBOOT ORACLE 10 AND LOGIN AS NORMAL USER - REBOOT ORACLE 10
+
+------------------------------------------------------
+
+Time to Update ALL for ORACLE 10
+
+sudo dnf update
+
+------------------------------------------------------
+
+Install some extra repos for ORACLE 10 - MORE PROGRAM FOR ORACLE 10.
+
+sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-10.noarch.rpm
+sudo dnf config-manager --set-enabled crb
+sudo /usr/bin/crb enable
+
+sudo dnf config-manager --enable ol10_codeready_builder
+
+sudo dnf install -y oracle-epel-release-el10.x86_64
+sudo dnf install -y oraclelinux-developer-release-el10
+sudo dnf install oraclelinux-release-el10.x86_64
+
+sudo dnf install --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terrael$releasever' terra-release
+
+sudo dnf copr enable mlampe/kde_x11 rhel+epel-10-x86_64 -y
+
+------------------------------------------------------
+
+Update all after repo add are there - ORACLE 10
+
+sudo dnf upgrade --refresh
+
+-----------------------------------
+
+So you can get kwin - x11 and tools for KDE 6 and ORACLE 10
+
+sudo dnf install kwin-x11 plasma-workspace-x11 xsetroot --nobest
+
+-----------------------------------
+
+LOGIN AS ROOT AND RUN THIS IN TERMINAL FOR ORACLE 10 - LOGIN AS ROOT
+
+sudo echo -e "DESKTOP=KDE\nPREFERRED=startplasma-x11" >/etc/sysconfig/desktop
+
+-----------------------------------
+
+REBOOT ORACLE 10 - REBOOT ORACLE 10 - REBOOT ORACLE 10 - REBOOT ORACLE 10
+
+-----------------------------------
+
+LOGIN AS NORMAL USER - Install some programs for ORACLE 10.
+
+sudo dnf install systemd* git wget curl nano bash pipx dracut net-tools dbus-x11
+
+-----------------------------------
+
+Now lets install Spotify From Sweden - ORACLE 10
+
+sudo dnf config-manager --add-repo=https://negativo17.org/repos/epel-spotify.repo
+
+sudo dnf -y install spotify-client
+
+-----------------------------------
+
+Install some more programs for ORACLE 10.
+
+sudo dnf install dbus* yum xorg* -y
+
+sudo dnf install unzip p7zip p7zip-plugins xz unrar curl wget git bash zeal librepo qt6* --nobest
+
+------------------------------------------------------
+
+Install Hyfetch like Neofetch fast bettar =]
+
+pipx install hyfetch
+
+Type hyfetch in terminal to test: hyfetch
+
+                                       
+      `-/+++++++++++++++++/-.`   
+   `/syyyyyyyyyyyyyyyyyyyyyyys/.       OS: Oracle Linux Server 10.1 x86_64 - 2026
+  :yyyyo/-...............-/oyyyy/      Host: Windows Subsystem for Linux - ORACEL10 (2.6.3.0)
+ /yyys-                     .oyyy+     Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+.yyyy`                       `syyy-
+:yyyo                         /yyy/ 
+.yyyy`                       `syyy- 
+ /yyys.                     .oyyyo 
+  /yyyyo:-...............-:oyyyy/` 
+   `/syyyyyyyyyyyyyyyyyyyyyyys+. 
+     `.:/+ooooooooooooooo+/:.`  
+
+------------------------------------------------------
+
+Install google-chrome - paste all under this paragraph in terminal - ORACLE 10 AND KDE 6.
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm -y
+sudo yum update google-chrome-stable
+
+------------------------------------------------------
+
+Install CODE Visual studio code - 2025 - MicroSoft - ORACLE 10
+
+wget https://www.knulla.org/scripts/code-1.95.3-1731513157.el8.x86_64.rpm
+sudo dnf install ./code-1.95.3-1731513157.el8.x86_64.rpm -y
+
+-----------------------------------------------------
+
+Install Blanket - Listen to sounds for ORACLE 10
+
+wget https://www.swehub.com/blanket/blanket-0.8.0-1.noarch.rpm
+sudo dnf install ./blanket-0.8.0-1.noarch.rpm -y
+
+-------------------------------------------------------------
+
+Install Gimp for ORACLE 10 via FLATPAK.
+
+Copy and paste: sudo dnf install flatpak -y
+
+Copy and paste: sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+Copy and paste: sudo flatpak install flathub org.gimp.GIMP
+
+OR install RPM PACKAGE FOR GIMP VIA ORACLE 10. WORKS WELL.....
+
+sudo dnf copr enable jridky/gimp10 rhel-10-x86_64 -y
+
+sudo dnf install gimp -y
+
+-------------------------------------------------------------
+
+
+Install LibreOffice for ORACLE 10 from flatpak.
+
+sudo flatpak install flathub org.libreoffice.LibreOffice
+
+
+OR INSTALL RPM VERSION FOR ORACLE 10. Better to install from FLATPAK but works..
+
+wget https://www.hardsexhub.com/scripts/LibreOffice_26.2.1_Linux_x86-64_rpm.tar.gz
+
+tar -xzvf LibreOffice_*.tar.gz
+
+cd LibreOffice_*/RPMS
+
+sudo dnf install *.rpm -y
+
+cd
+
+-------------------------------------------------------------
+
+Time to install kde Programs for ORACLE 10
+
+sudo dnf install sddm pipewire kwin* dbus* net-tools dbus-x11 --allowerasing --nobest --skip-broken -y
+
+sudo dnf install arc* ninja* python ps* qt5* lua* -y
+
+------------------------------------------------------
+
+INSTALL THEMES FOR KDE 6 via WSL and ORACLE 10
+
+sudo dnf install papirus-icon-theme -y
+sudo dnf install oxygen-cursor-themes -y
+sudo dnf install breeze-cursor-theme -y
+sudo dnf install oxygen-cursor-themes -y
+
+sudo dnf install gtk* sassc gnome-shell -y --nobest --skip-broken
+
+git clone https://github.com/Fausto-Korpsvart/Tokyonight-GTK-Theme.git Tokyonight
+cd Tokyonight
+cd themes
+./install.sh
+cd
+
+THIS IS A NICE THEME FOR YOU and ORACLE 10 and KDE 6
+
+-----------------------------------
+
+Install KDE 6 desktop for ORACLE 10 - NOW its TIME - NO STRESS.
+
+sudo dnf -y group install kde-desktop-environment --allowerasing --nobest
+
+sudo dnf -y install plasma* --allowerasing --nobest --skip-broken
+
+sudo dnf install kde* -y --skip-broken --nobest
+
+sudo dnf groupinstall "KDE Applications" --nobest
+
+sudo dnf groupinstall "KDE Software Development" --nobest --skip-broken
+
+sudo dnf groupinstall "KDE Frameworks 6 Software Development" --nobest
+
+sudo systemctl daemon-reload
+
+-----------------------------------
+
+Now lets install DISCORD for ORACLE 10
+
+wget https://download1.rpmfusion.org/nonfree/fedora/releases/43/Everything/x86_64/os/Packages/d/discord-0.0.112-1.fc43.x86_64.rpm
+sudo dnf install ./discord-0.0.112-1.fc43.x86_64.rpm -y
+
+--------------------------------------------------
+
+Copy and Paste in terminal for ORACLE 10.
+
+xdg-user-dirs-update
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-----------------------------------
+
+CREATE THIS SCRIPT FOR ORACLE 10.
+
+Type in terminal: sudo nano ~/.bash_ORACEL_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+------------------------------------------------------
+
+Fix IP problem for X410. Cant find screen problem. Look for ip adress in windows terminal / PowerShell: ipconfig
+
+NOTE - Importent to look for ip. Last lines are IP-numbers for WSL in POWERSHELL so x410 works.
+
+NOW GO BACK TO ORACLE 10 Terminal and paste this.
+
+sudo systemctl unmask systemd-resolved.service
+
+sudo systemctl enable systemd-resolved.service
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.23.144.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed =]
+
+-------------------------------------------------------------
+
+                  ORACLE 10 AND KDE 6 DESKTOP.
+
+Type this in terminal and put your user there: sudo loginctl enable-linger adolf
+
+-------------------------------------------------------------
+
+ORACLE 10 - Reboot Reboot Reboot Reboot Reboot Reboot Reboot - ORACLE 10
+
+-------------------------------------------
+
+Now we cane start KDE plasma 6 and ORACLE 10 via WSL.
+
+NOTE - FIRST START X410 THEN YOU START ORACLE 10 VIA TERMINAL - NOTE
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Paste in terminal: . ~/.bash_ORACEL_desktop
+
+Type in terminal: dbus-launch startplasma-x11
+
+-------------------------------------------
+
+
+           .MMM..:MMMMMMM             
+          MMMMMMMMMMMMMMMMMM          
+          MMMMMMMMMMMMMMMMMMMM.       
+         MMMMMMMMMMMMMMMMMMMMMM       
+        ,MMMMMMMMMMMMMMMMMMMMMM:      
+        MMMMMMMMMMMMMMMMMMMMMMMM      
+  .MMMM'  MMMMMMMMMMMMMMMMMMMMMM      
+ MMMMMM    `MMMMMMMMMMMMMMMMMMMM.
+MMMMMMMM      MMMMMMMMMMMMMMMMMM . 
+MMMMMMMMM.       `MMMMMMMMMMMMM' MM.    ORACLE 10 AND KDE DESKTOP - PLASMA 6 - 2026
+MMMMMMMMMMM.                     MMMM  
+`MMMMMMMMMMMMM.                 ,MMMMM.
+ `MMMMMMMMMMMMMMMMM.          ,MMMMMMMM.
+    MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM 
+      MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM: 
+         MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM  
+            `MMMMMMMMMMMMMMMMMMMMMMMM:  
+                ``MMMMMMMMMMMMMMMMM'   
+
+
+Regards Mattias Vinberg - KDE 6 - ORACLE 10 - WSL - WINDOWS 11 - LINUX - SWEDEN - 2026
+
+Oracle Linux is free to download, use and distribute and is provided in a variety of installation and deployment methods.
+
+-------------------------------------------
