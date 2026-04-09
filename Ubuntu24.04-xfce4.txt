@@ -10,7 +10,7 @@ Ubuntu 24.04 and xfce4 - How To Install xfce4 via Windows 11 and Ubuntu 24.04 - 
 
 
 How to install xfce4 via Ubuntu 24.04 - WSL - GITHUB - TEXT
-Comming Zone…
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu24.04-xfce4.txt
 
 How to install xfce4 via Ubuntu 24.04  - WSL - YouTUBE - MOVIE
 https://www.youtube.com/watch?v=hs3-I-W_HnA
