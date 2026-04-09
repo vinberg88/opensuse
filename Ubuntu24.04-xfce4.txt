@@ -1,0 +1,405 @@
+Ubuntu 24.04 and xfce4 - How To Install xfce4 via Windows 11 and Ubuntu 24.04 - WSL - X410 - 2026
+
+
+██╗   ██╗██████╗ ██╗   ██╗███╗   ██╗████████╗██╗   ██╗
+██║   ██║██╔══██╗██║   ██║████╗  ██║╚══██╔══╝██║   ██║
+██║   ██║██████╔╝██║   ██║██╔██╗ ██║   ██║   ██║   ██║
+██║   ██║██╔══██╗██║   ██║██║╚██╗██║   ██║   ██║   ██║
+╚██████╔╝██████╔╝╚██████╔╝██║ ╚████║   ██║   ╚██████╔╝
+ ╚═════╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝   ╚═╝    ╚═════╝   24.04 LTS and XFCE4 - WSL
+
+
+How to install xfce4 via Ubuntu 24.04 - WSL - GITHUB - TEXT
+Comming Zone…
+
+How to install xfce4 via Ubuntu 24.04  - WSL - YouTUBE - MOVIE
+https://www.youtube.com/watch?v=hs3-I-W_HnA
+
+You can find Ubuntu 24.04 in Microsoft Store - Now go to Microsoft store and install from there.
+https://apps.microsoft.com/detail/9nz3klhxdjp5?hl=en-US&gl=US 
+
+
+              .',:clooo:  .:looooo:.          
+           .;looooooooc  .oooooooooo' 
+        .;looooool:,''.  :ooooooooooc
+       ;looool;.         'oooooooooo,         
+      ;clool'             .cooooooc.  ,,      
+         ...                ......  .:oo,     
+  .;clol:,.                        .loooo'    OS: Ubuntu trixie/sid (noble) on Windows x86_64
+ :ooooooooo,                        'ooool    Host: Windows Subsystem for Linux - Ubuntu 24.04 (2.6.3.0)
+'ooooooooooo.                        loooo.   Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+'ooooooooool                         coooo.   Ubuntu 24.04 - Latest Core - Latest XFCE4 for WSL 
+ ,loooooooc.                        .loooo.   
+   .,;;;'.                          ;ooooc    
+       ...                         ,ooool.    MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - UBUNTU 24.04
+    .cooooc.              ..',,'.  .cooo.
+      ;ooooo:.           ;oooooooc.  :l.
+       .coooooc,..      coooooooooo.
+         .:ooooooolc:. .ooooooooooo'
+           .':loooooo;  ,oooooooooc
+               ..';::c'  .;loooo:'
+                             .
+
+                             
+TOOLS THAT I USE FOR WSL AND Ubuntu 24.04 - 2026
+
+Use X410 - X Server for Windows 11 and it works well.
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem Linux Distros.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+About Ubuntu - https://ubuntu.com
+
+Ubuntu is an ancient African word meaning ‘humanity to others’.
+It is often described as reminding us that ‘I am what I am
+because of who we all are’. We bring the spirit of Ubuntu
+to the world of computers and software. The Ubuntu 
+distribution represents the best of what the world’s software
+community has shared with the world. Canonical is the
+publisher of Ubuntu. Members of the Canonical team lead
+aspects of Ubuntu such as the kernel, default desktop,
+foundations, security, OpenStack, and Kubernetes. 
+The first official Ubuntu release — Version 4.10, codenamed
+the ‘Warty Warthog’ — was launched in October 2004, and
+sparked dramatic global interest as thousands of free
+software enthusiasts and experts joined the Ubuntu community.
+Ubuntu today has many flavours and dozens of specialised 
+derivatives. There are also special editions for servers, OpenStack
+clouds, and connected devices. All editions share common
+infrastructure and software, making Ubuntu a unique single
+platform that scales from consumer electronics to the desktop
+and up into the cloud for enterprise computing.
+
+About Xfce - Xfce4 - https://www.xfce.org - 2026
+
+Xfce is a lightweight desktop environment for UNIX-like operating
+systems. It aims to be fast and low on system resources, while
+still being visually appealing and user friendly. Xfce embodies
+the traditional UNIX philosophy of modularity and re-usability.
+It consists of a number of components that provide the full
+functionality one can expect of a modern desktop environment.
+They are packaged separately and you can pick among the 
+available packages to create the optimal personal working 
+environment. Xfce can be installed on several UNIX platforms.
+It is known to compile on Linux, NetBSD, FreeBSD, OpenBSD, Solaris,
+Cygwin and MacOS X, on x86, PPC, Sparc, Alpha… Xfce contains a
+number of core components for the minimum tasks you'd expect
+from a desktop Environment - XFCE is a good desktop.
+
+Want more stuff about WSL - Windows 11 - MICROSOFT - Linux
+
+https://github.com/vinberg88/opensuse
+
+Want more look here.
+
+https://vinberg88.github.io
+
+WSL stands for Windows Subsystem for Linux, a feature of Windows that
+allows users to run a Linux environment directly on their Windows
+machine without needing a separate virtual machine or dual-booting.
+
+-------------------------------------------------------------
+
+NOW WE CAN START TO INSTALL UBUNTU 24.04 FOR WSL - XFCE4
+
+-------------------------------------------------------------
+
+Update All after install and install XFCE4 - UBUNTU 24.04
+
+sudo apt update
+sudo apt upgrade -y
+
+sudo apt install xubuntu-desktop -y  <-- this may take some time. Just wait….
+
+sudo apt install xubuntu* libgtk2* appmenu* ubuntu-system-service* systemd-services* luit* gnome-software gnome-software-plugin-flatpak -y
+
+---------------------------------------------------------------
+
+Install ffmpeg, MPV and other stuff for MEDIA for UBUNTU 24.04
+
+sudo apt install celluloid -y
+sudo apt install yt-dlp -y
+sudo apt install mpv-mpris -y
+sudo apt install mpv -y
+sudo apt install ffmpeg* -y
+
+---------------------------------------------------------------
+
+Install some programs for UBUNTU 24.04
+
+sudo apt install dbus-broker*
+
+sudo apt install dbus-daemon*
+sudo systemctl disable dbus-broker
+sudo systemctl enable dbus
+
+sudo mkdir -p /run/dbus
+sudo chown messagebus:messagebus /run/dbus
+
+sudo apt install git wget curl bash pipx dracut net-tools dbus-x11 dbus* systemd ibus npm pip dialog -y
+
+sudo apt install xorg* kwin* x11* qt5* gtk* papirus-icon-theme fonts-firacode -y
+
+sudo apt install network-manager-gnome gvfs* build-essential unzip -y
+
+---------------------------------------------------------------
+
+Network for UBUNTU 24.04 and XFCE4
+
+sudo apt install \
+openssh-client openssh-server \
+mosh net-tools nmap \
+wireguard openvpn
+
+---------------------------------------------------------------
+
+Install Hyfetch - like Neofetch but more FUN - DEBIAN OS
+
+wget https://github.com/fastfetch-cli/fastfetch/releases/download/2.61.0/fastfetch-linux-amd64.deb
+sudo apt install ./fastfetch-linux-amd64.deb
+
+sudo apt install hyfetch -y
+
+Put this in terminal to test in terminal: hyfetch                              
+
+    
+                               
+              .',:clooo:  .:looooo:.          
+           .;looooooooc  .oooooooooo' 
+        .;looooool:,''.  :ooooooooooc
+       ;looool;.         'oooooooooo,         
+      ;clool'             .cooooooc.  ,,      
+         ...                ......  .:oo,     
+  .;clol:,.                        .loooo'    OS: Ubuntu trixie/sid (noble) on Windows x86_64
+ :ooooooooo,                        'ooool    Host: Windows Subsystem for Linux - Ubuntu 24.04 (2.6.3.0)
+'ooooooooooo.                        loooo.   Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+'ooooooooool                         coooo.   
+ ,loooooooc.                        .loooo.   
+   .,;;;'.                          ;ooooc    
+       ...                         ,ooool.    MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - UBUNTU 24.04
+    .cooooc.              ..',,'.  .cooo.
+      ;ooooo:.           ;oooooooc.  :l.
+       .coooooc,..      coooooooooo.
+         .:ooooooolc:. .ooooooooooo'
+           .':loooooo;  ,oooooooooc
+               ..';::c'  .;loooo:'
+                             .
+
+
+-------------------------------
+
+Install Chrome for UBUNTU 24.04
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+-------------------------------
+
+Install Blanket if you Want! - Listen to Sounds for UBUNTU 24.04
+
+sudo add-apt-repository ppa:apandada1/blanket-daily
+sudo apt-get update
+sudo apt install blanket
+
+----------------------------------
+
+Install Visual studio Code - Microsoft - UBUNTU 24.04
+
+sudo apt-get install wget gpg
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" |sudo tee /etc/apt/sources.list.d/vscode.list > /dev/null
+rm -f packages.microsoft.gpg
+
+sudo apt install apt-transport-https apt -y
+sudo apt update
+sudo apt install code -y
+
+----------------------------------
+
+Install Gimp 3 and Libre Office for UBUNTU 24.04
+
+sudo apt install gimp libreoffice -y
+
+----------------------------------
+
+Install Spotify for UBUNTU 24.04
+
+curl -sS https://download.spotify.com/debian/pubkey_5384CE82BA52C83A.asc | sudo gpg --dearmor --yes -o /etc/apt/trusted.gpg.d/spotify.gpg
+echo "deb https://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+
+sudo apt-get update
+sudo apt-get install spotify-client
+
+--------------------------------------------
+
+Next install XFCE4 Desktop for UBUNTU 24.04 - WSL - 2026
+
+sudo apt install -y xfce4 xfce4-goodies xfce4-panel-profiles xfce4-indicator-plugin
+
+sudo apt install gnome-icon-theme xfce4-mpc-plugin xsensors branding-ubuntu xubuntu-artwork
+
+sudo apt install xfce*
+
+sudo apt install bluez*
+
+sudo apt install \
+xfce4-whiskermenu-plugin \
+xfce4-cpugraph-plugin xfce4-netload-plugin \
+xfce4-systemload-plugin xfce4-pulseaudio-plugin \
+thunar-archive-plugin thunar-media-tags-plugin \
+arc-theme papirus-icon-theme rofi picom dunst
+
+--------------------------------------------
+
+Install some extra THEMES for UBUNTU 24.04 and XFCE desktop.
+
+sudo apt install papirus-icon-theme ace-of-penguins adwaita-icon-theme arctica-greeter bibata-cursor-theme crystalcursors darkcold-gtk-theme -y
+sudo apt install blackbird-gtk-theme blackbox-themes bluebird-gtk-theme breeze* chameleon-cursor-theme desktop-base ubuntustudio-wallpapers-noble -y
+
+git clone https://github.com/dracula/gtk.git dracula-gtk
+sudo mkdir -p ~/.themes
+sudo cp -r dracula-gtk ~/.themes/Dracula
+
+Read here - https://github.com/addy-dclxvi/xfwm4-theme-collections
+
+git clone https://github.com/addy-dclxvi/Xfwm4-Theme-Collections ~/.themes
+
+sudo apt install fonts-noto xubuntu-artwork xubuntu-icon-theme yuyo-gtk-theme tango-icon-theme-extras suru-icon-theme oxygen-cursor-theme-extra
+sudo apt install lightdm-settings tango-icon-theme tango-icon-theme-common tcl-awthemes tropic-theme tropic-gdm-theme oxygen-cursor-theme orchis-gtk-theme
+sudo apt install numix-gtk-theme materia-gtk-theme human-theme humanity-icon-theme greybird-gtk-theme elpa-doom-themes darkblood-gtk-theme
+
+--------------------------------------------
+
+Install SNAPD for UBUNTU 24.04
+
+sudo apt update
+sudo apt install snapd* gnome-software-plugin-snap
+
+sudo snap install snap-store
+sudo snap install icon-theme-cat
+sudo snap install cursor-theme-catppuccin
+
+Find APS here - https://snapcraft.io/store?architecture=amd64
+
+--------------------------------------------
+
+Install some MORE programs for UBUNTU 24.04
+
+sudo apt install hunspell systemd-container systemd-homed systemd-userdbd systemd-boot systemd-resolved systemd-ukify
+
+--------------------------------------------
+
+Install FLATPAK for UBUNTU 24.04 - JUST FOR FUN!
+
+sudo apt install flatpak*
+
+sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+Install Video Downloader from flatpak.
+
+sudo flatpak install flathub com.github.unrud.VideoDownloader
+
+MORE PROGRAMS HERE - https://flathub.org
+
+--------------------------------------------
+
+Paste in Terminal and Press enter for UBUNTU 24.04 =]
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+--------------------------------------------
+
+Fix IP problem for X410. Cant find screen problem. Look for ip adress in windows terminal / PowerShell: ipconfig
+
+NOTE - Importent to look for ip. Last lines are IP-numbers for WSL in POWERSHELL so x410 works.
+
+NOW GO BACK TO UBUNTU 24.04 Terminal and paste this.
+
+sudo systemctl unmask systemd-resolved.service
+
+sudo systemctl enable systemd-resolved.service
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.23.144.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed =]
+
+-------------------------------------------------------------
+
+                     UBUNTU 24.04 AND xfce4 desktop Sript.
+
+Type this in terminal and put your user there: sudo loginctl enable-linger adolf
+
+------------------------------------------------------
+
+Make a small script for UBUNTU 24.04
+
+Copy this and paste in terminal: sudo nano ~/.bash_deepin_desktop
+
+Then add this script to terminal
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+------------------------------------------------------
+
+Reboot… Reboot… Reboot… Reboot… Ubuntu UBUNTU 24.04 - UBUNTU 24.04
+
+------------------------------------------------------
+
+Now we can start XFCE4 desktop for UBUNTU 24.04.
+
+
+FIRST START X410 XSERVER THEN YOU START UBUNTU 24.04 VIA TERMINAL / CONSOLE / BASH
+
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Paste in terminal: . ~/.bash_deepin_desktop
+
+Type in terminal and start: dbus-launch startxfce4
+
+
+------------------------------------------------------
+
+
+              .',:clooo:  .:looooo:.          
+           .;looooooooc  .oooooooooo' 
+        .;looooool:,''.  :ooooooooooc
+       ;looool;.         'oooooooooo,         
+      ;clool'             .cooooooc.  ,,      
+         ...                ......  .:oo,     
+  .;clol:,.                        .loooo'    OS: Ubuntu trixie/sid (noble) on Windows x86_64
+ :ooooooooo,                        'ooool    Host: Windows Subsystem for Linux - Ubuntu 24.04 (2.6.3.0)
+'ooooooooooo.                        loooo.   Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+'ooooooooool                         coooo.   
+ ,loooooooc.                        .loooo.   
+   .,;;;'.                          ;ooooc    
+       ...                         ,ooool.    MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - UBUNTU 24.04
+    .cooooc.              ..',,'.  .cooo.
+      ;ooooo:.           ;oooooooc.  :l.
+       .coooooc,..      coooooooooo.
+         .:ooooooolc:. .ooooooooooo'
+           .':loooooo;  ,oooooooooc
+               ..';::c'  .;loooo:'
+                             .
+
+
+Regards Mattias Vinberg - Xfce4 - UBUNTU 24.04 - WSL - WINDOWS 11 - LINUX - SWEDEN - 2026
+
+------------------------------------------------------
