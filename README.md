@@ -40,6 +40,86 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Ubuntu 24.04 and xfce4 - How To Install xfce4 via Windows 11 and Ubuntu 24.04 - WSL - X410 - 2026
+
+How to install xfce4 via Ubuntu 24.04 - WSL - GITHUB - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu24.04-xfce4.txt
+
+How to install xfce4 via Ubuntu 24.04  - WSL - YouTUBE - MOVIE
+
+https://www.youtube.com/watch?v=hs3-I-W_HnA
+
+You can find Ubuntu 24.04 in Microsoft Store - Now go to Microsoft store and install from there.
+
+https://apps.microsoft.com/detail/9nz3klhxdjp5?hl=en-US&gl=US 
+
+<img width="1920" height="1080" alt="Ubuntu24 04-xfce4" src="https://github.com/user-attachments/assets/f5a0f669-7e5e-4a85-b342-bd3c49a54e5c" />
+
+TOOLS THAT I USE FOR WSL AND Ubuntu 24.04 - 2026
+
+Use X410 - X Server for Windows 11 and it works well.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem Linux Distros.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+About Ubuntu - https://ubuntu.com
+
+Ubuntu is an ancient African word meaning ‘humanity to others’.
+It is often described as reminding us that ‘I am what I am
+because of who we all are’. We bring the spirit of Ubuntu
+to the world of computers and software. The Ubuntu 
+distribution represents the best of what the world’s software
+community has shared with the world. Canonical is the
+publisher of Ubuntu. Members of the Canonical team lead
+aspects of Ubuntu such as the kernel, default desktop,
+foundations, security, OpenStack, and Kubernetes. 
+The first official Ubuntu release — Version 4.10, codenamed
+the ‘Warty Warthog’ — was launched in October 2004, and
+sparked dramatic global interest as thousands of free
+software enthusiasts and experts joined the Ubuntu community.
+Ubuntu today has many flavours and dozens of specialised 
+derivatives. There are also special editions for servers, OpenStack
+clouds, and connected devices. All editions share common
+infrastructure and software, making Ubuntu a unique single
+platform that scales from consumer electronics to the desktop
+and up into the cloud for enterprise computing.
+
+About Xfce - Xfce4 - https://www.xfce.org - 2026
+
+Xfce is a lightweight desktop environment for UNIX-like operating
+systems. It aims to be fast and low on system resources, while
+still being visually appealing and user friendly. Xfce embodies
+the traditional UNIX philosophy of modularity and re-usability.
+It consists of a number of components that provide the full
+functionality one can expect of a modern desktop environment.
+They are packaged separately and you can pick among the 
+available packages to create the optimal personal working 
+environment. Xfce can be installed on several UNIX platforms.
+It is known to compile on Linux, NetBSD, FreeBSD, OpenBSD, Solaris,
+Cygwin and MacOS X, on x86, PPC, Sparc, Alpha… Xfce contains a
+number of core components for the minimum tasks you'd expect
+from a desktop Environment - XFCE is a good desktop.
+
+Want more stuff about WSL - Windows 11 - MICROSOFT - Linux
+
+https://github.com/vinberg88/opensuse
+
+Want more look here.
+
+https://vinberg88.github.io
+
+WSL stands for Windows Subsystem for Linux, a feature of Windows that
+allows users to run a Linux environment directly on their Windows
+machine without needing a separate virtual machine or dual-booting.
+
+Regards Mattias Vinberg - Xfce4 - UBUNTU 24.04 - WSL - WINDOWS 11 - LINUX - SWEDEN - 2026
+
+---------------------------------------------
+
 ORACLE 10 - How to install Kde Plasma 6 - WSL - ORACLE 10 via Windows 11 - Linux - 2026
 
 DOWNLOAD ORACLE 10 HERE FOR WSL - https://drive.proton.me/urls/K3M03RNQA4#WUEVk29WjWJO
