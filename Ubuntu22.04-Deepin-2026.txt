@@ -31,10 +31,10 @@ Or just install Ubuntu 22.04 via POWERSHELL: wsl --install Ubuntu-22.04
 
 
 How to install Deepin Desktop via Ubuntu 22.04 and Windows 11 - WSL - 2026 - TEXT via GitHuB
-Comming ZONE...
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu22.04-Deepin-2026.txt
 
 How to install Deepin Desktop via Ubuntu 22.04 and Windows 11 - WSL - 2026 - MOVIE via YouTube
-Comming ZONE...
+https://www.youtube.com/watch?v=xQbcgI_-hS0
 
 TOOLS THAT I USE FOR Ubuntu 22.04 / DEEPIN AND WSL.
 
