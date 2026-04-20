@@ -40,6 +40,69 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Ubuntu and DEEPIN - How to install Deepin Desktop on Ubuntu 22.04 - WSL - Windows 11 - x410 - 2026
+
+UPDATED DEEPIN DESKTOP FOR UBUNTU 22.04 - 2026-04-11
+
+You can find Ubuntu 22.04 here via this link or in Microsoft store for WSL - Linux - Windows 11
+
+https://apps.microsoft.com/detail/9pn20msr04dw?rtc=1&hl=sv-se&gl=SE
+
+Or just install Ubuntu 22.04 via POWERSHELL: wsl --install Ubuntu-22.04
+
+<img width="1920" height="1080" alt="Ubuntu22 04-Deepin-2026" src="https://github.com/user-attachments/assets/0a418015-0272-4a1c-b168-51f9ddeb2761" />
+
+How to install Deepin Desktop via Ubuntu 22.04 and Windows 11 - WSL - 2026 - TEXT via GitHuB
+
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu22.04-Deepin-2026.txt
+
+How to install Deepin Desktop via Ubuntu 22.04 and Windows 11 - WSL - 2026 - MOVIE via YouTube
+
+https://www.youtube.com/watch?v=xQbcgI_-hS0
+
+TOOLS THAT I USE FOR Ubuntu 22.04 / DEEPIN AND WSL.
+
+X410 - X Server for Windows 11. Find it in Micorsoft store. 
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Linux (WSL) distribution.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+About Ubuntu 22.04 - https://ubuntu.com - 2026
+
+Run your choice of Linux text editors, including vim, emacs, and nano.
+Install applications, compilers and libraries from the Ubuntu 
+repository, securely maintained by Canonical. Ubuntu is a
+Linux distribution derived from Debian and composed mostly
+of free and open-source software. Ubuntu is officially
+released in multiple editions: Desktop, Server, and Core
+for Internet of things devices and robots.
+
+About UbuntuDDE - DEEPIN - https://ubuntudde.com or https://www.deepin.org
+
+UbuntuDDE is a Remix flavor of Ubuntu system with Deepin Desktop
+Environment (DDE) . UbuntuDDE is a linux distribution based on
+Ubuntu with the most beautiful desktop environment. UbuntuDDE
+Remix is developed and maintained by the UbuntuDDE Community.
+UbuntuDDE is a Remix of the Ubuntu system with Deepin Desktop 
+Environment (DDE) as the default desktop environment. It is
+aIt aims to have a beautiful desktop experience with a modern
+design featuring both Dock and Modern Design. Its initial
+release is UbuntuDDE Remix 20.04 Focal Fossa based on Ubuntu
+22.04 LTS and will be supported by the UbuntuDDE Team and the community.
+Linux distribution based on Ubuntu with the most
+Beautiful desktop environment. 
+
+You Can Find More Stuff here About WSL - Windows - Linux https://github.com/vinberg88/opensuse
+
+ABOUT WSL for WINDOWS via GITHUB - MY PAGE - https://vinberg88.github.io
+
+Regards Mattias Vinberg - Deepin - UBUNTU 22.04 - WSL - X410 - Windows 11 - Linux - 2026 - SWEDEN
+
+---------------------------------------------
+
 Ubuntu 24.04 and xfce4 - How To Install xfce4 via Windows 11 and Ubuntu 24.04 - WSL - X410 - 2026
 
 How to install xfce4 via Ubuntu 24.04 - WSL - GITHUB - TEXT
