@@ -1,0 +1,280 @@
+Ubuntu and DEEPIN - How to install Deepin Desktop on Ubuntu 22.04 - WSL - Windows 11 - x410 - 2026
+
+UPDATED DEEPIN DESKTOP FOR UBUNTU 22.04 - 2026-04-11
+
+You can find Ubuntu 22.04 here via this link or in Microsoft store for WSL - Linux - Windows 11
+https://apps.microsoft.com/detail/9pn20msr04dw?rtc=1&hl=sv-se&gl=SE
+
+Or just install Ubuntu 22.04 via POWERSHELL: wsl --install Ubuntu-22.04
+
+                             ....              
+              .',:clooo:  .:looooo:.
+           .;looooooooc  .oooooooooo'
+        .;looooool:,''.  :ooooooooooc  
+       ;looool;.         'oooooooooo, 
+      ;clool'             .cooooooc.  ,,     Desktops: Windows 11 and DEEPIN Desktop via Ubuntu.
+         ...                ......  .:oo, 
+  .;clol:,.                        .loooo' 
+ :ooooooooo,                        'ooool
+'ooooooooooo.                        loooo.
+'ooooooooool                         coooo.  Ubuntu 22.04.05 - DEEPIN desktop - 2026
+ ,loooooooc.                        .loooo.
+   .,;;;'.                          ;ooooc 
+       ...                         ,ooool.
+    .cooooc.              ..',,'.  .cooo.    Canonical Academy 2026 - Self-driven learning
+      ;ooooo:.           ;oooooooc.  :l.  
+       .coooooc,..      coooooooooo.    
+         .:ooooooolc:. .ooooooooooo'         MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+           .':loooooo;  ,oooooooooc                                   
+               ..';::c'  .;loooo:'                                    
+                             .        
+
+
+How to install Deepin Desktop via Ubuntu 22.04 and Windows 11 - WSL - 2026 - TEXT via GitHuB
+Comming ZONE...
+
+How to install Deepin Desktop via Ubuntu 22.04 and Windows 11 - WSL - 2026 - MOVIE via YouTube
+Comming ZONE...
+
+TOOLS THAT I USE FOR Ubuntu 22.04 / DEEPIN AND WSL.
+
+X410 - X Server for Windows 11. Find it in Micorsoft store. 
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Linux (WSL) distribution.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+About Ubuntu 22.04 - https://ubuntu.com - 2026
+
+Run your choice of Linux text editors, including vim, emacs, and nano.
+Install applications, compilers and libraries from the Ubuntu 
+repository, securely maintained by Canonical. Ubuntu is a
+Linux distribution derived from Debian and composed mostly
+of free and open-source software. Ubuntu is officially
+released in multiple editions: Desktop, Server, and Core
+for Internet of things devices and robots.
+
+About UbuntuDDE - DEEPIN - https://ubuntudde.com or https://www.deepin.org
+
+UbuntuDDE is a Remix flavor of Ubuntu system with Deepin Desktop
+Environment (DDE) . UbuntuDDE is a linux distribution based on
+Ubuntu with the most beautiful desktop environment. UbuntuDDE
+Remix is developed and maintained by the UbuntuDDE Community.
+UbuntuDDE is a Remix of the Ubuntu system with Deepin Desktop 
+Environment (DDE) as the default desktop environment. It is
+aIt aims to have a beautiful desktop experience with a modern
+design featuring both Dock and Modern Design. Its initial
+release is UbuntuDDE Remix 20.04 Focal Fossa based on Ubuntu
+22.04 LTS and will be supported by the UbuntuDDE Team and the community.
+Linux distribution based on Ubuntu with the most
+Beautiful desktop environment. 
+
+You Can Find More Stuff here About WSL - Windows - Linux https://github.com/vinberg88/opensuse
+
+ABOUT WSL for WINDOWS via GITHUB - MY PAGE - https://vinberg88.github.io
+
+WSL, which stands for Windows Subsystem for Linux, is a compatibility
+layer created by Microsoft that permits users to operate a Linux environment
+directly on a Windows system without requiring a virtual machine or a
+dual-boot configuration. This feature allows developers and system administrators
+to access and use Linux command-line tools, utilities, and applications natively
+within the Windows operating system. WSL supports a variety of Linux
+distributions, offering smooth integration between Windows and Linux platforms.
+This integration significantly boosts productivity and streamlines workflows
+for users who frequently work across both operating systems, making it easier
+to manage tasks that involve both Windows and Linux environments.
+
+-----------------------------------
+
+First thing you need to do is copy this file to C:\Users\user  <-- user is not your name for windows =]
+
+Its easy use Explorer and copy and past. Download this file.
+
+https://drive.proton.me/urls/G602NV0DFG#Rn5D1Tny3TpQ
+
+-----------------------------------
+
+After install of Ubuntu pleas update all - UBUNTU 22.04
+
+sudo apt update
+sudo apt upgrade -y
+
+-------------------------------
+
+Install some Basic Programs for UBUNTU 22.04 and DEEPIN desktop.
+
+sudo apt install ibus bash git npm wget curl pipx pip dracut dbus* systemd tasksel -y
+sudo apt install xorg* x11* kwin* lightdm -y
+sudo apt install daemonize -y
+
+Run this if you want: sudo tasksel
+
+----------------------------------------------
+
+Install Chrome BROWSER FOR UBUNTU UBUNTU 22.04
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+-------------------------------
+
+Install Blanket if you Want! - Listen to Sounds - UBUNTU 22.04
+
+sudo snap install blanket
+
+--------------------------------------------
+
+Install this small program for Hyfetch and FASTFETCH - UBUNTU 22.04
+
+sudo add-apt-repository ppa:zhangsongcui3371/fastfetch
+
+sudo apt update
+
+sudo apt install fastfetch -y
+
+To test type this in terminal: fastfetch
+
+Like Neofetch but more fun =]
+
+
+                             ....              
+              .',:clooo:  .:looooo:.
+           .;looooooooc  .oooooooooo'
+        .;looooool:,''.  :ooooooooooc  
+       ;looool;.         'oooooooooo, 
+      ;clool'             .cooooooc.  ,, 
+         ...                ......  .:oo, 
+  .;clol:,.                        .loooo' 
+ :ooooooooo,                        'ooool
+'ooooooooooo.                        loooo.
+'ooooooooool                         coooo.  OS: UBUNTU 22.04 x86_64 FOR WSL - UBUNTU 22.04
+ ,loooooooc.                        .loooo.  Host: Windows Subsystem for Linux - UBUNTU 22.04
+   .,;;;'.                          ;ooooc   Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+       ...                         ,ooool.
+    .cooooc.              ..',,'.  .cooo.  
+      ;ooooo:.           ;oooooooc.  :l.  
+       .coooooc,..      coooooooooo.    
+         .:ooooooolc:. .ooooooooooo'       
+           .':loooooo;  ,oooooooooc                                   
+               ..';::c'  .;loooo:'                                    
+                             .        
+
+
+----------------------------------------------
+
+Install Gimp 3 and Libre Office for UBUNTU 22.04
+
+sudo apt install gimp libreoffice gnome-terminal -y
+
+----------------------------------
+
+Paste all in terminal - Timw to install DEEPIN Desktop via UBUNTU 22.04
+
+sudo add-apt-repository ppa:ubuntudde-dev/stable
+sudo apt update
+sudo apt upgrade -y
+sudo apt install ubuntudde-dde dde* dde-* -y
+sudo service dbus start
+
+---------------------------------------------------------
+
+Paste all in terminal - UBUNTU 22.04 And Deepin Desktop.
+
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+------------------------------------------------------
+
+Fix IP problem for X410. Cant find screen problem. Look for ip adress in windows terminal / PowerShell: ipconfig
+
+NOTE - Importent to look for ip. Last lines are IP-numbers for WSL in POWERSHELL so x410 works.
+
+NOW GO BACK TO UBUNTU 22.04 Terminal and paste this.
+
+sudo systemctl unmask systemd-resolved.service
+sudo systemctl enable systemd-resolved.service
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.23.144.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed UBUNTU 22.04 and DEEPIN.
+
+----------------------------------------------
+
+       UBUNTU 22.04 and DEEPIN desktop for WSL
+
+Type this in terminal and put your user there - sudo loginctl enable-linger adolf
+
+----------------------------------------------
+
+Make a small script for UBUNTU 22.04
+
+Type in terminal: sudo nano ~/.bash_deepin_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------------------------
+
+Paste all in terminal and wait for UBUNTU 22.04 to install.
+
+git clone https://github.com/DamionGans/ubuntu-wsl2-systemd-script.git
+cd ubuntu-wsl2-systemd-script/
+bash ubuntu-wsl2-systemd-script.sh
+
+-------------------------------
+
+UBUNTU 22.04 - Reboot Reboot Reboot Reboot Reboot - UBUNTU 22.04
+
+-------------------------------
+
+Time to start DEEPIN desktop via UBUNTU 22.04
+
+NOTE - First start X410 then you start UBUNTU 22.04 via terminal
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Paste in Terminal: . ~/.bash_deepin_desktop
+
+Paste in Terminal: dbus-run-session startdde
+
+-------------------------------
+
+                             ....              
+              .',:clooo:  .:looooo:.
+           .;looooooooc  .oooooooooo'
+        .;looooool:,''.  :ooooooooooc  
+       ;looool;.         'oooooooooo, 
+      ;clool'             .cooooooc.  ,,     MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+         ...                ......  .:oo, 
+  .;clol:,.                        .loooo' 
+ :ooooooooo,                        'ooool
+'ooooooooooo.                        loooo.
+'ooooooooool                         coooo.  OS: UBUNTU 22.04 x86_64 FOR WSL - UBUNTU 22.04
+ ,loooooooc.                        .loooo.  Host: Windows Subsystem for Linux - UBUNTU 22.04
+   .,;;;'.                          ;ooooc   Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+       ...                         ,ooool.
+    .cooooc.              ..',,'.  .cooo.  
+      ;ooooo:.           ;oooooooc.  :l.  
+       .coooooc,..      coooooooooo.    
+         .:ooooooolc:. .ooooooooooo'       
+           .':loooooo;  ,oooooooooc                                   
+               ..';::c'  .;loooo:'                                    
+                             .        
+
+Regards Mattias Vinberg - Deepin - UBUNTU 22.04 - WSL - X410 - Windows 11 - Linux - 2026 - SWEDEN
+
+-------------------------------
