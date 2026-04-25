@@ -40,6 +40,69 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+ParrotOS 7.2 and MATE - WSL - How to install MATE Desktop via Windows 11 - Linux - ParrotSec OS 7.2 - 2026
+
+How to install MATE Desktop via Parrot OS 7.2 and Windows 11 - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/ParrotOS7.2-MATE.txt
+
+How to install MATE Desktop via Parrot OS 7.2 and Windows 11 - WSL - MOVIE
+
+https://www.youtube.com/watch?v=GiYcZ0Qdyp0
+
+You can find Parrot OS 7.2 for WSL here: https://www.parrotsec.org/download
+
+Tools that i USE for WSL - Microsoft - Linux - 2026
+
+X410 - Xserver for windows 11 - So you have a Desktop.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="ParrotOS7 2-MATE" src="https://github.com/user-attachments/assets/bfa436c0-4c9d-4a14-91dd-a5795cf34afc" />
+
+About ParrotSEC 7.2 or Parrot OS 7.2 - https://www.parrotsec.org
+
+The ultimate framework for your Cyber Security operations.
+Parrot Security (ParrotOS, Parrot) is a Free and Open source
+GNU/Linux distribution based on Debian Stable designed for
+security experts, developers and privacy aware people.
+It includes a full portable arsenal for IT security and
+digital forensics operations. It also includes everything
+you need to develop your own programs or protect your privacy
+while surfing the net.
+
+About Mate - https://mate-desktop.org - https://ubuntu-mate.org/features
+
+The traditional desktop is Mate. New to some, a classic to
+others. MATE is an intuitive attractive desktop using 
+traditional metaphors. The legacy of GNOME 2 continues to
+be modern, lightweight and fast. It provides an intuitive
+and attractive desktop environment using traditional 
+metaphors for Linux and other Unix-like operating systems.
+According to the MATE team's manifesto, they aim to keep a
+traditional desktop look and feel, maintain an open development
+model, have an open relationship with GNU/Linux 
+distributions, and serve as a good alternative for lower-end
+hardware. Mate Desktop is for All.
+
+ABOUT WSL for WINDOWS via GITHUB - MY PAGE - https://vinberg88.github.io
+
+WSL stands for Windows Subsystem for Linux, a feature of Windows that
+allows users to run a Linux environment directly on their Windows
+machine without needing a separate virtual machine or dual-booting.
+
+Want more stuff for WSL look here: https://github.com/vinberg88/opensuse
+
+Regards Mattias Vinberg - SwEden - Parrot OS 7.2 - MATE - WSL - Windows 11 - 2026
+
+---------------------------------------------
+
 Ubuntu and DEEPIN - How to install Deepin Desktop on Ubuntu 22.04 - WSL - Windows 11 - x410 - 2026
 
 UPDATED DEEPIN DESKTOP FOR UBUNTU 22.04 - 2026-04-11
