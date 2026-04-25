@@ -1,7 +1,7 @@
 ParrotOS 7.2 and MATE - WSL - How to install MATE Desktop via Windows 11 - Linux - ParrotSec OS 7.2 - 2026
 
 How to install MATE Desktop via Parrot OS 7.2 and Windows 11 - WSL - TEXT
-Comming SOON...
+https://github.com/vinberg88/opensuse/blob/main/ParrotOS7.2-MATE.txt
 
 How to install MATE Desktop via Parrot OS 7.2 and Windows 11 - WSL - MOVIE
 https://www.youtube.com/watch?v=GiYcZ0Qdyp0
