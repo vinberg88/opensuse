@@ -1,0 +1,286 @@
+ParrotOS 7.2 and MATE - WSL - How to install MATE Desktop via Windows 11 - Linux - ParrotSec OS 7.2 - 2026
+
+How to install MATE Desktop via Parrot OS 7.2 and Windows 11 - WSL - TEXT
+Comming SOON...
+
+How to install MATE Desktop via Parrot OS 7.2 and Windows 11 - WSL - MOVIE
+https://www.youtube.com/watch?v=GiYcZ0Qdyp0
+
+You can find Parrot OS 7.2 for WSL here: https://www.parrotsec.org/download
+
+       _------.  
+      /  ,     \_
+    /   /  /{}\ |o\_   - Media: Mattias Vinberg - Sweden - 2026 - Stockholm
+   /    \  `--' /-' \
+  |      \      \    | - Parrot OS 7.2 and MATE desktop 
+ |              |`-, | - Host: Windows Subsystem for Linux - parrot (2.6.3.0)
+ /              /__/)/ - Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+|              |
+
+
+Tools that i USE for WSL - Microsoft - Linux - 2026
+
+X410 - Xserver for windows 11 - So you have a Desktop.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem
+for Linux (WSL) distributions, enabling installation, snapshots, version
+control, and seamless integration with Windows tools.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+About ParrotSEC 7.2 or Parrot OS 7.2 - https://www.parrotsec.org
+
+The ultimate framework for your Cyber Security operations.
+Parrot Security (ParrotOS, Parrot) is a Free and Open source
+GNU/Linux distribution based on Debian Stable designed for
+security experts, developers and privacy aware people.
+It includes a full portable arsenal for IT security and
+digital forensics operations. It also includes everything
+you need to develop your own programs or protect your privacy
+while surfing the net.
+
+About Mate - https://mate-desktop.org - https://ubuntu-mate.org/features
+
+The traditional desktop is Mate. New to some, a classic to
+others. MATE is an intuitive attractive desktop using 
+traditional metaphors. The legacy of GNOME 2 continues to
+be modern, lightweight and fast. It provides an intuitive
+and attractive desktop environment using traditional 
+metaphors for Linux and other Unix-like operating systems.
+According to the MATE team's manifesto, they aim to keep a
+traditional desktop look and feel, maintain an open development
+model, have an open relationship with GNU/Linux 
+distributions, and serve as a good alternative for lower-end
+hardware. Mate Desktop is for All.
+
+ABOUT WSL for WINDOWS via GITHUB - MY PAGE - https://vinberg88.github.io
+
+WSL stands for Windows Subsystem for Linux, a feature of Windows that
+allows users to run a Linux environment directly on their Windows
+machine without needing a separate virtual machine or dual-booting.
+
+Want more stuff for WSL look here: https://github.com/vinberg88/opensuse
+
+-----------------------------------------------------
+
+NOW LETS START INSTALLATION FOR Mate desktop AND Parrot Security OS 7.2
+
+-----------------------------------------------------
+
+Start Parrot OS terminal and change this - 2026
+
+NOTE: you must do this… fix sudo: unable to resolve host parrot: Temporary failure in name resolution
+
+Copy and Paste in terminal and enable systemd and change hostname…
+
+sudo nano /etc/wsl.conf
+
+hostname = parrot to your hostnamn.. Your hostname is same for windows. Hostname for me is Fyren14
+
+hostname = Fyren88
+
+and change systemd to true
+
+[boot]
+systemd=true
+
+----------------------------------------------
+
+Parrot OS 7.2 Reboot Reboot Reboot Reboot Reboot - Parrot OS 7.2
+
+----------------------------------------------
+
+Update all for Parrot OS 7.2
+
+sudo apt update && sudo apt full-upgrade -y
+
+-----------------------------------------------------
+
+Dbus problem fix =) install all. You will get an error but we fix that i next step. THIS WILL TAKE SOME TIME...
+
+sudo apt install systemd dbus-* dbus-broker* dbus-daemon* dbus* systemd-resolved -y
+
+----------------------------------------------
+
+Fix THIS error for Parrot OS 7.2
+
+Job for dbus-broker.service failed.
+See "systemctl status dbus-broker.service" and "journalctl -xeu dbus-broker.service" for details.
+
+Copy and paste in terminal. ONE BY ONE NO STRESS for Parrot OS 7.2
+
+sudo systemctl disable --now dbus-broker.service
+
+sudo systemctl enable --now dbus.service
+
+sudo systemctl restart dbus.service
+
+----------------------------------------------
+
+Parrot OS 7.2 - Reboot Reboot Reboot Reboot Reboot - Parrot OS 7.2
+
+----------------------------------------------
+
+Install some Programs for PARROT OS 7.2
+
+sudo apt install bash git npm wget curl pipx dracut -y
+
+----------------------------------------------
+
+Time to install MATE desktop for Parrot OS 7.2 - 2026
+
+sudo apt install gdm3* -y
+
+sudo apt update && sudo apt install parrot-desktop-mate -y
+
+sudo apt install mate* -y
+
+----------------------------------------------
+
+Install Chrome Browser if you want for Parrot OS 7.2
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+----------------------------------------------
+
+Install Blanket - Listen to sounds - When you are hacking hehe for Parrot OS 7.2
+
+sudo apt install blanket
+
+----------------------------------------------
+
+Install Hyfetch like Neofetch but more fun - MATE and PARROT OS 7.2
+
+pipx install hyfetch
+pipx ensurepath
+
+You will need to open a new terminal for changes to take effect then type: hyfetch
+
+
+  `:oho/-`                                 
+`mMMMMMMMMMMMNmmdhy-                       
+ dMMMMMMMMMMMMMMMMMMs`                     
+ +MMsohNMMMMMMMMMMMMMm/                    
+ .My   .+dMMMMMMMMMMMMMh. 
+  +       :NMMMMMMMMMMMMNo                 
+           `yMMMMMMMMMMMMMm:               
+             /NMMMMMMMMMMMMMy`             
+              .hMMMMMMMMMMMMMN+            OS: Parrot Security echo 7.2 x86_64
+                  ``-NMMMMMMMMMd-          Host: Windows Subsystem for Linux - parrot (2.6.3.0)
+                     /MMMMMMMMMMMs`        Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+                      mMMMMMMMsyNMN/       
+                      +MMMMMMMo  :sNh.     
+                      `NMMMMMMm     -o/    
+                       oMMMMMMM.           MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+                       `NMMMMMM+           
+                        +MMd/NMh           
+                         mMm -mN`          
+                         /MM  `h:          
+                          dM`   .  
+                          :M-              
+                           d:              
+                           -+              
+                            -
+
+
+----------------------------------------------
+
+Install Xorg and X11 for MATE desktop and Parrot OS 7.2
+
+sudo apt install x11* xorg*
+
+----------------------------------------------
+
+Install Gimp and LibreOffice - Parrot Security 7.2 and Gnome Desktop.
+
+sudo apt install gimp libreoffice -y
+
+--------------------------------------------
+
+Fix IP problem for X410. Cant find screen problem. Look for ip adress in windows terminal / PowerShell: ipconfig
+
+NOTE - Importent to look for ip. Last lines are IP-numbers for WSL in POWERSHELL so x410 works.
+
+NOW GO BACK TO Parrot OS 7.2 Terminal and paste this.
+
+sudo systemctl unmask systemd-resolved.service
+
+sudo systemctl enable systemd-resolved.service
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.23.144.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed Parrot OS =]
+
+-------------------------------------------------------------
+
+Then Copy and Paste this in Terminal for Parrot OS 7.2: 
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+----------------------------------------------
+
+PARROT OS 7.2 and MATE desktop.
+
+Type this in terminal and put your user there: sudo loginctl enable-linger adolf
+
+----------------------------------------------
+
+Make small script for PARROT OS 7.2
+
+Copy this and paste in terminal: sudo nano ~/.bash_parrot_desktop
+
+Then add this script to terminal
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------
+
+Reboot Reboot Reboot Parrot Security 7.2 - Reboot Reboot Reboot Parrot Security 7.2
+
+----------------------------------------------
+
+Nov we can Start MATE Desktop via Parrot Security 7.2
+
+NOTE: FIRST START X410 THEN YOU START PARROT OS via TERMINAL.
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Paste in terminal: . ~/.bash_parrot_desktop
+
+Paste in terminal: dbus-launch mate-session
+
+----------------------------------------------
+
+       _------.
+      /  ,     \_
+    /   /  /{}\ |o\_
+   /    \  `--' /-' \
+  |      \      \    |
+ |              |`-, | Regards Mattias Vinberg - SwEden - Parrot OS 7.2 - MATE - WSL - Windows 11 - 2026
+ /              /__/)/
+|              |
+
+
+Thank you! ❤️ for watching - 2026
+
+Thank you for being a part of the Parrot Security OS 7.2 and MATE for WSL2.
+
+---------------------------------------------
