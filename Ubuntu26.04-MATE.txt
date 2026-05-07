@@ -3,7 +3,7 @@ Ubuntu 26.04 and MATE - Install MATE via WSL - Ubuntu Resolute Raccoon - Windows
 Thank you for testing mate desktop via Ubuntu Resolute Raccoon 26.04 ❤️
 
 How to install MATE via Ubuntu 26.04 Resolute Raccoon - WSL - GITHUB - TEXT
-Comming Soon...
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu26.04-MATE.txt
 
 How to install MATE via Ubuntu 26.04 Resolute Raccoon - WSL - YouTUBE - MOVIE
 https://www.youtube.com/watch?v=TzASjgsU7OY
