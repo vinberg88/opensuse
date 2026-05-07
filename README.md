@@ -40,6 +40,80 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Ubuntu 26.04 and MATE - Install MATE via WSL - Ubuntu Resolute Raccoon - Windows 11 - Linux - X410 - 2026
+
+How to install MATE via Ubuntu 26.04 Resolute Raccoon - WSL - GITHUB - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu26.04-MATE.txt
+
+How to install MATE via Ubuntu 26.04 Resolute Raccoon - WSL - YouTUBE - MOVIE
+
+https://www.youtube.com/watch?v=TzASjgsU7OY
+
+Ubuntu 26.04 - download here via Powershell or via this link - https://ubuntu.com/download/wsl
+
+Open Powershell and type this: wsl --install Ubuntu-26.04
+
+TOOLS THAT I USE FOR WSL AND Ubuntu 26.04 - 2026
+
+Use X410 - X Server for Windows 11 and it works well.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem Linux Distros.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="Ubuntu26 04-MATE" src="https://github.com/user-attachments/assets/5a8f7632-389a-4058-8d60-ae3cfc83d5d9" />
+
+About Ubuntu 26.04 Resolute Raccoon - https://ubuntu.com
+
+Ubuntu is an ancient African word meaning ‘humanity to others’.
+It is often described as reminding us that ‘I am what I am
+because of who we all are’. We bring the spirit of Ubuntu
+to the world of computers and software. The Ubuntu 
+distribution represents the best of what the world’s software
+community has shared with the world. Canonical is the
+publisher of Ubuntu. Members of the Canonical team lead
+aspects of Ubuntu such as the kernel, default desktop,
+foundations, security, OpenStack, and Kubernetes. 
+The first official Ubuntu release — Version 4.10, codenamed
+the ‘Warty Warthog’ — was launched in October 2004, and
+sparked dramatic global interest as thousands of free
+software enthusiasts and experts joined the Ubuntu community.
+Ubuntu today has many flavours and dozens of specialised 
+derivatives. There are also special editions for servers, OpenStack
+clouds, and connected devices. All editions share common
+infrastructure and software, making Ubuntu a unique single
+platform that scales from consumer electronics to the desktop
+and up into the cloud for enterprise computing.
+
+About Mate - https://mate-desktop.org - https://ubuntu-mate.org/features
+
+The traditional desktop is Mate. New to some, a classic to
+others. MATE is an intuitive attractive desktop using 
+traditional metaphors. The legacy of GNOME 2 continues to
+be modern, lightweight and fast. It provides an intuitive
+and attractive desktop environment using traditional 
+metaphors for Linux and other Unix-like operating systems.
+According to the MATE team's manifesto, they aim to keep a
+traditional desktop look and feel, maintain an open development
+model, have an open relationship with GNU/Linux 
+distributions, and serve as a good alternative for lower-end
+hardware. Mate Desktop is for All Linux USERS.
+
+Want more stuff about WSL - Windows 11 - MICROSOFT - Linux - DESKTOPS
+
+https://github.com/vinberg88/opensuse
+
+Want more look here.
+
+https://vinberg88.github.io
+
+Regards Mattias Vinberg - SwEden - MATE - Ubuntu 26.04 Resolute Raccoon - Linux - WSL - X410 - 2026
+
+---------------------------------------------
+
 ParrotOS 7.2 and MATE - WSL - How to install MATE Desktop via Windows 11 - Linux - ParrotSec OS 7.2 - 2026
 
 How to install MATE Desktop via Parrot OS 7.2 and Windows 11 - WSL - TEXT
