@@ -40,6 +40,86 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Debian 14 forky and KDE 6 - How To Install KDE plasma 6 via Windows 11 and DEBIAN - WSL - X410 - 2026
+
+How to install KDE 6 on Debian 14 - GITHUB - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Debian14-KDE.txt
+
+How to install KDE 6 on Debian 14 - YouTube - Movie
+
+https://www.youtube.com/watch?v=Sp7rtTqdEwc
+
+You can find Debian in Raft WSL or in Microsoft Store
+
+https://apps.microsoft.com/detail/9msvkqc78pk6?hl=en-US&gl=US
+
+Open POWERSHELL TO INSTALL DEBIAN AND PASTE THIS in Terminal: wsl --install debian --name Debian14
+
+TOOLS THAT I USE FOR WSL AND DEBIAN 14 Forky - 2026 - KDE 6
+
+Use X410 - X Server for Windows 11 and it works well for KDE 6
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem Linux Distros.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="Debian14-KDE" src="https://github.com/user-attachments/assets/fce989ec-f2b4-4304-9b64-60e4a678a850" />
+
+About Debian - https://www.debian.org - 2026 - DEBIAN 14 Forky
+
+Debian is a popular and freely available computer 
+operating system (OS) that uses a Unix-like 
+kernel typically Linux alongside other program 
+components, many of which come from GNU Project. 
+Debian can be downloaded over the internet 
+or, for a small charge, obtained on CD, DVD, Blu-ray
+disc or USB flash drive. As Open Source 
+software, Debian is developed by nearly 1,000 active
+programmers from around the world who collectively
+form Debian Project. he name Debian -- pronounced
+deb-EE-uhn -- is a portmanteau that blends the
+creator's first name, Ian, with that of his 
+wife, Debra.
+
+About KDE 6 for Debian 14 - https://kde.org
+
+KDE is an international team co-operating on 
+development and distribution of Free, Open
+Source Software for desktop and portable
+computing. Our community has developed a
+wide variety of applications for communication, 
+work, education and entertainment. We have a
+strong focus on finding innovative solutions to
+old and new problems, creating a vibrant, open
+atmosphere for experimentation. KDE is The 
+next generation desktop for Linux. Use KDE
+software to surf the web, keep in touch with
+colleagues, friends and family, manage your
+files, enjoy music and videos; and get creative
+and productive at work. The KDE community develops
+and maintains more than 200 applications
+which run on any Linux desktop, and often
+other platforms too.
+
+Want more stuff about WSL - Windows 11 - MICROSOFT - Linux - DESKTOPS - KDE 6 - DEBIAN 14
+
+https://github.com/vinberg88/opensuse
+
+Want more look here for WSL.
+
+https://vinberg88.github.io
+
+WSL stands for Windows Subsystem for Linux, a feature of Windows that
+allows users to run a Linux environment directly on their Windows
+machine without needing a separate virtual machine or dual-booting.
+
+Warm Regards Mattias Vinberg - Debian 14 - KDE 6 - SwEden - Stockholm - Microsoft - WSL - Linux - 2026
+
+---------------------------------------------
+
 Ubuntu 26.04 and MATE - Install MATE via WSL - Ubuntu Resolute Raccoon - Windows 11 - Linux - X410 - 2026
 
 How to install MATE via Ubuntu 26.04 Resolute Raccoon - WSL - GITHUB - TEXT
