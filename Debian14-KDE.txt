@@ -2,7 +2,7 @@ Debian 14 forky and KDE 6 - How To Install KDE plasma 6 via Windows 11 and DEBIA
 
 
 How to install KDE 6 on Debian 14 - GITHUB - TEXT
-Comming SONE..
+https://github.com/vinberg88/opensuse/blob/main/Debian14-KDE.txt
 
 How to install KDE 6 on Debian 14 - YouTube - Movie
 https://www.youtube.com/watch?v=Sp7rtTqdEwc
