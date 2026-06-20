@@ -27,7 +27,7 @@ Here you can find video, how to install Cinnamon desktop via Opensuse LEAP 16.
 https://www.youtube.com/watch?v=4-WQi1Bb9ko
 
 Text - How to install Cinnamon via Opensuse LEAP 16 - GITHUB TEXT. 
-Comming SONE..
+https://github.com/vinberg88/opensuse/blob/main/Opensuse-LEAP16-Cinnamon.txt
 
 TOOLS that i USE - WSL - Windows 11 - Linux - OpenSUSE LEAP 16.0
 
