@@ -56,6 +56,68 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Opensuse LEAP 16 and Cinnamon desktop via WSL - 2026 - Sweden - Linux - Windows 11 - YouTube
+
+Install OpenSUSE LEAP 16 via Powershell: wsl --install openSUSE-Leap-16.0
+
+Here you can find video, how to install Cinnamon desktop via Opensuse LEAP 16.
+
+https://www.youtube.com/watch?v=4-WQi1Bb9ko
+
+Text - How to install Cinnamon via Opensuse LEAP 16 - GITHUB TEXT. 
+
+https://github.com/vinberg88/opensuse/blob/main/Opensuse-LEAP16-Cinnamon.txt
+
+TOOLS that i USE - WSL - Windows 11 - Linux - OpenSUSE LEAP 16.0
+
+X410 - Xserver for windows 11 - So you have a Console / Desktop TO See in Windows11.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL - Handel WSL image easy and Linux for WSL via This TOOL.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+About OpenSUSE LEAP 16.0 - https://get.opensuse.org/leap/16.0
+
+<img width="1920" height="1080" alt="Opensuse-LEAP16-Cinnamon" src="https://github.com/user-attachments/assets/7c9232d7-75ae-4d98-8b12-db66faa2e206" />
+
+A brand new way of building openSUSE and a new
+type of a hybrid Linux distribution. Leap uses
+source from SUSE Linux Enterprise (SLE), which
+gives Leap a level of stability unmatched by
+other Linux distributions, and combines that with
+community developments to give users, developers
+and sysadmins the best stable Linux experience
+available. OpenSUSE LEAP is not a Rolling releas.
+
+About Cinnamon - Download themes etc - https://cinnamon-spices.linuxmint.com
+
+Cinnamon Dont have much info. Look at Ubuntu Page.
+
+https://ubuntucinnamon.org
+
+Or Fedora pages if you want to read about Cinnamon desktop
+
+https://fedoraproject.org/spins/cinnamon
+
+Cinnamon is a Linux desktop that provides advanced 
+innovative features and a traditional user
+experience. The desktop layout is similar to Gnome 2 
+with underlying technology forked from Gnome Shell.
+Cinnamon makes users feel at home with an easy-to-use
+and comfortable desktop experience.
+
+Do you want more WSL stuff go here - Windows and Linux Desktops - 2026
+
+https://github.com/vinberg88/opensuse
+
+Read About WSL here - https://vinberg88.github.io
+
+Regards Mattias Vinberg - OpenSUSE LEAP 16 - Cinnamon - WSL - Windows 11 - Microsoft - 2026
+
+---------------------------------------------
+
 Debian 14 forky and KDE 6 - How To Install KDE plasma 6 via Windows 11 and DEBIAN - WSL - X410 - 2026
 
 How to install KDE 6 on Debian 14 - GITHUB - TEXT
