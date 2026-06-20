@@ -1,0 +1,474 @@
+Opensuse LEAP 16 and Cinnamon desktop via WSL - 2026 - Sweden - Linux - Windows 11 - YouTube
+
+Install OpenSUSE LEAP 16 via Powershell: wsl --install openSUSE-Leap-16.0
+
+
+            ====              
+           ======             
+         ==== ====+           OpenSUSE Leap 16.0 x86_64 for WSL and Cinnamon DE.
+       +====    +====         
+     +===+        ====        
+    ====            ====      
+  +===               +====    MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+  ====               +====    
+   =====            ====      
+     +===+        =====       OS: openSUSE Leap 16.0 x86_64
+  ==+  =====    +===+  ===    Host: Windows Subsystem for Linux - openSUSE-Leap-16.0 (2.6.3.0)
+  ====   ==== =====  =====    Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+    ====  =======   ====      
+      ====  ===   ====        
+       ====+    ====          
+         ==== =====           
+           ======             
+             ==               
+
+
+Here you can find video, how to install Cinnamon desktop via Opensuse LEAP 16.
+https://www.youtube.com/watch?v=4-WQi1Bb9ko
+
+Text - How to install Cinnamon via Opensuse LEAP 16 - GITHUB TEXT. 
+Comming SONE..
+
+TOOLS that i USE - WSL - Windows 11 - Linux - OpenSUSE LEAP 16.0
+
+X410 - Xserver for windows 11 - So you have a Console / Desktop TO See in Windows11.
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL - Handel WSL image easy and Linux for WSL via This TOOL.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+About OpenSUSE LEAP 16.0 - https://get.opensuse.org/leap/16.0
+
+A brand new way of building openSUSE and a new
+type of a hybrid Linux distribution. Leap uses
+source from SUSE Linux Enterprise (SLE), which
+gives Leap a level of stability unmatched by
+other Linux distributions, and combines that with
+community developments to give users, developers
+and sysadmins the best stable Linux experience
+available. OpenSUSE LEAP is not a Rolling releas.
+
+About Cinnamon - Download themes etc - https://cinnamon-spices.linuxmint.com
+
+Cinnamon Dont have much info. Look at Ubuntu Page.
+
+https://ubuntucinnamon.org
+
+Or Fedora pages if you want to read about Cinnamon desktop
+
+https://fedoraproject.org/spins/cinnamon
+
+Cinnamon is a Linux desktop that provides advanced 
+innovative features and a traditional user
+experience. The desktop layout is similar to Gnome 2 
+with underlying technology forked from Gnome Shell.
+Cinnamon makes users feel at home with an easy-to-use
+and comfortable desktop experience.
+
+Do you want more WSL stuff go here - Windows and Linux Desktops - 2026
+
+https://github.com/vinberg88/opensuse
+
+Read About WSL here - https://vinberg88.github.io
+
+------------------------
+
+Install OpenSuse LEAP 16 via this adress for Windows 11 - WSL
+
+wsl --install openSUSE-Leap-16.0
+
+List installed distributions via Powershell: wsl --list --verbose
+
+Check online available distros via Powershell: wsl --list --online
+
+TRY ISO OF OPENSUSE LEAP 16 - https://get.opensuse.org/leap/16.0/
+
+About OpenSUSE LEAP 16 SLOW UPDATES AND ALWAYS WORKING =]
+
+OpenSUSE Leap uses a stable-release model. Instead
+of constantly changing, it gets major updates just
+once a year, while day-to-day changes are limited to 
+essential security patches and bug fixes. This keeps
+the operating system highly reliable. OpenSuse
+Tumbelweed Always updates. Several times per day =)
+
+------------------------
+
+Add systemd (if nano not works. Install it: sudo zypper in nano)
+
+Type in terminal: sudo nano /etc/wsl.conf
+
+Copy to terminal and save:
+
+[boot]
+systemd=true
+
+------------------------
+
+UPDATE ALL AFTER INSTALL FOR OPENSUSE LEAP 16 - 2026
+
+Update Tumbelweed via Bash: sudo zypper ref -b && sudo zypper dup
+
+------------------------
+
+Install this programs - OpenSuse LEAP 16
+
+sudo zypper install bash git npm wget curl dialog go dracut opi yast2 ninja-build bash meson ninja curl npm jet* cmake* opensuse*
+
+------------------------
+
+Test GROK IF YOU WANT - AI FROM X - LETS BUILD SOME WALLPAPERS =]
+
+curl -fsSL https://x.ai/cli/install.sh | bash
+
+GROK is super fast image builder - wallpapers or what you want.
+
+RESTART TERMINAL FOR OPENSUSE LEAP 16 AND PUT GROK TO WORK.
+
+Type in Terminal: grok or agent and wait.
+
+Now tell what you want. Lets Build some wallpapers.
+
+Example: Build 10 wallpapers in true hd for Opensuse LEAP 16 i dark mode
+
+Now tell grok to move images to folder so we can use it for OPENSUSE LEAP 16.
+
+Move images so we can use it for OpenSUSE LEAP 16 please.
+
+ENJOAY NEW WALLPAPERS FOR OPENSUSEN LEAP 16 AND WSL.
+
+------------------------
+
+Install Hyfetch and Fastfetch - OpenSuse LEAP 16
+
+sudo zypper install fastfetch
+
+Type in terminal: opi pipx and press 1 and OK.
+
+pipx install hyfetch
+
+To test all type: hyfetch
+
+------------------------
+
+
+            ====              
+           ======             
+         ==== ====+           OpenSUSE Leap 16.0 x86_64 for WSL and Windows 11.
+       +====    +====         
+     +===+        ====        
+    ====            ====      
+  +===               +====    MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+  ====               +====    
+   =====            ====      
+     +===+        =====       OS: openSUSE Leap 16.0 x86_64 - WINDOWS 11 - WSL
+  ==+  =====    +===+  ===    Host: Windows Subsystem for Linux - openSUSE-Leap-16.0 (2.6.3.0)
+  ====   ==== =====  =====    Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+    ====  =======   ====      
+      ====  ===   ====        
+       ====+    ====          
+         ==== =====           Linux Desktop - Cinnamon Desktop for WSL - 2026
+           ======             
+             ==               
+                                                            
+
+------------------------
+
+Install this repos and press 2 in terminal - OpenSuse LEAP 16
+
+sudo zypper addrepo -cfp 90 'https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_$releasever/Essentials/' packman-essentials
+
+sudo zypper dup --from packman-essentials --allow-vendor-change
+
+sudo zypper in ffmpeg libavcodec* gstreamer-plugins-*
+
+------------------------
+
+Install some codecs for Sounds and VIDEO. EXTRA Video drivers for OpenSuse LEAP 16
+
+Paste in Terminal: opi codecs
+
+------------------------
+
+Enable snaps on openSUSE and install Claude AI Desktop - NICE LOVE AI.
+
+sudo zypper addrepo --refresh https://download.opensuse.org/repositories/system:/snappy/openSUSE_Leap_15.6 snappy
+
+sudo zypper --gpg-auto-import-keys refresh
+
+sudo zypper dup --from snappy
+
+sudo zypper install snapd
+
+sudo systemctl enable --now snapd
+
+sudo systemctl enable --now snapd.apparmor
+
+Install claude-AI
+
+sudo snap install claude-ai-desktop
+
+sudo snap connect claude-ai-desktop:audio-record
+
+sudo snap connect claude-ai-desktop:removable-media
+
+------------------------
+
+GTK themes for OPENSUSE LEAP 16 VIA SNAPD.
+
+sudo snap install cursor-theme-catppuccin
+sudo snap install icon-theme-cat
+sudo snap install dg-adw-gtk3-theme
+sudo snap install adw-gtk3-theme
+sudo snap install numix-gtk-themes
+sudo snap install gtk-theme-vimix
+sudo snap install gtk-theme-fluent
+sudo snap install gtk-theme-yaru-mate
+sudo snap install gtk-theme-elementary
+sudo snap install gtk-theme-zorin
+sudo snap install gtk-theme-colloid
+sudo snap install gtk-theme-qogirbudgie
+sudo snap install gtk-theme-greybird
+
+------------------------
+
+Use the force for DNF to install from FEDORA. THIS IS BETA FOR LEAP 16
+
+sudo zypper install dnf yum
+
+sudo dnf copr enable andersrh/MateDesktop-EL10 rhel+epel-10-x86_64
+
+sudo dnf install mate-icon-theme mate-backgrounds
+
+------------------------
+
+Install some THEMES from GITHUB and other stuff for OPENSUSE LEAP 16
+
+git clone https://github.com/vinceliuice/Colloid-gtk-theme.git
+cd Colloid-gtk-theme && ./install.sh
+
+git clone https://github.com/vinceliuice/Orchis-theme.git
+cd Orchis-theme && ./install.sh -t all
+
+git clone https://github.com/EliverLara/Nordic.git ~/.themes/Nordic
+
+git clone https://github.com/Fausto-Korpsvart/Tokyonight-GTK-Theme.git ~/.themes/Tokyonigh
+
+git clone https://github.com/catppuccin/gtk.git ~/.themes/Catppuccin
+
+git clone https://github.com/dracula/gtk.git ~/.themes/Dracula
+
+sudo zypper in materia-gtk-theme gnome-themes-extras xcursor-themes ubuntu-themes
+
+sudo zypper install papirus-icon-theme 
+
+sudo zypper addrepo https://download.opensuse.org/repositories/home:sfalken:catppuccin/openSUSE_Tumbleweed/home:sfalken:catppuccin.repo
+sudo zypper install catppuccin-macchiato-splash-theme
+sudo zypper install catppuccin-latte-splash-theme
+
+git clone https://github.com/Fausto-Korpsvart/Catppuccin-GTK-Theme.git
+cd Catppuccin-GTK-Theme
+cd themes
+./install.sh
+cd
+
+------------------------
+
+EXTRA FILES TO INSTALL FOR OpenSuse LEAP 16.
+
+Install this: sudo zypper in -t pattern wsl_gui wsl_base wsl_systemd
+
+------------------------
+
+Time to install Cinnamon - install all one by one - OpenSuse LEAP 16.
+
+sudo zypper ref && sudo zypper in -y cinnamon cinnamon-screensaver
+
+and next type this for OPENSUSE LEAP 16
+
+sudo zypper in cinnamon*
+
+------------------------
+
+         JJJJJJJJ
+      JJJJJJJJJJJJJJ
+    JJJJJJ   =JJJJJJJ
+   JJJJ      =JJJ JJJJ
+   JJJ       =JJJ   JJJ                       Media: Mattias Vinberg - OpenSUSE LEAP 16 - Sweden - 2026
+  JJJJ       =JJJ   JJJ
+  JJJJJJJJJJJJJJJ   JJJJ
+   JJJJJJJJJJJJJJ   JJJJ                      OS: openSUSE Leap 16.0 x86_64 - WINDOWS 11 - WSL
+   JJJJ             JJJJ                      Host: Windows Subsystem for Linux - openSUSE-Leap-16.0 (2.6.3.0)
+    JJJJJ=          JJJJ                      Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+      JJJJJJJJJJJJJJJJJJJJJJJJJJJJJ=          
+        =JJJJJJJJJJJJJJJJJJJJJJJJJJJJJ        
+                    JJJJ         =JJJJJJ
+                    JJJJ            =JJJJ
+                    JJJJ   JJJJJJJJJJJJJJ
+                    JJJJ   JJJJJJJJJJJJJJJ
+                    JJJJ   JJJJ       JJJJ    Windows 11 - Latest Editionen from Microsoft.
+                     JJJ   JJJJ       JJJ     X server - X410 and WINDOWS 11 - 2026
+                     JJJJJ JJJJ      JJJJ
+                      =JJJJJJJJ   JJJJJJ
+                        JJJJJJJJJJJJJJ 
+                           JJJJJJJ=
+
+------------------------
+
+Thing to install for OpenSUSE LEAP 16: sudo zypper in kwin6-x11 - PRESS 1 if asked from terminal.
+
+OpenSUSE LEAP 16 install this to: sudo zypper in x11*
+
+OpenSUSE LEAP 16 install this to: sudo zypper in xorg*
+
+------------------------
+
+Extra install Chrome Browser via Bash - OpenSuse LEAP 16
+
+opi google-chrome
+
+------------------------
+
+Install YAST 2 for OpenSuse LEAP 16 - 2026
+
+sudo zypper in yast2
+
+opi yast - and press 2 to install yast 2
+
+Type this in Bash: sudo yast 
+
+And update all and install from Yast 2
+
+INSTALL x11 from YAST 2 for OPENSUSE LEAP 16: x11 - dont take all - BIG FILES.
+
+THIS WILL TAKE SOME TIME.... SORRY...	
+
+------------------------
+
+Fix IP problem for X410. Cant find screen problem. Look for ip adress in windows terminal / PowerShell: ipconfig
+
+FIRST OPEN POWERSHELL AND TYPE: ipconfig - Last lines are IP-number for WSL.
+
+GO BACK TO OPENSUSE LEAP 16 Terminal AND COPY AND PASTE THIS IN TERMINAL.
+
+sudo zypper in systemd-resolved
+
+sudo systemctl unmask systemd-resolved.service
+
+sudo systemctl enable systemd-resolved.service
+
+sudo ls -l /etc/resolv.conf
+
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+
+sudo nano /etc/resolv.conf
+
+nameserver 172.23.144.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+
+sudo systemctl restart systemd-resolved
+
+sudo cat /etc/resolv.conf
+
+DONE - ALOT of problem FIXED FOR OPENSUSE LEAP 16 =]
+
+------------------------
+
+PAINT IMAGES BEFORE AI - OPENSUSE LEAP 16
+
+sudo zypper install gimp
+
+------------------------
+
+OFFICE OPENSUSE LEAP 16 - MUST HAVE THIS INSTALL.
+
+sudo zypper install libreoffice
+
+------------------------
+
+Listen to sounds from Blanket - OPENSUSE LEAP 16
+
+sudo zypper install blanket
+
+------------------------
+
+Install Visual studio code from Microsoft for OPENSUSE LEAP 16
+
+opi code
+
+PRESS 1 IN TERMINAL AND ENTER.
+
+------------------------
+
+Paste in terminal - Paste one by one. No stress - OpenSuse LEAP 16 and Cinnamon.
+
+xdg-user-dirs-update
+
+sudo systemctl set-default multi-user.target
+
+sudo systemctl set-default graphical.target
+
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+------------------------
+
+Install Display Manager for OpenSuse LEAP 16 - 2026
+
+sudo zypper in gdm*
+
+------------------------
+
+Small script for OPENSUSE LEAP 16 to install.
+
+Type this in terminal and put your user there - sudo loginctl enable-linger user
+
+------------------------
+
+Build a small script for OPENSUSE LEAP 16 - 2026 - Cinnamon Desktop
+
+In terminal type: sudo nano ~/.bash_suse_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+------------------------
+
+Reboot Reboot Reboot OpenSuse LEAP 16 - OpenSuse LEAP 16 - Reboot Reboot Reboot
+
+------------------------
+
+Time to start Cinnamon desktop via OpenSuse LEAP 16 - 2026
+
+FIRST START X410 XSERVER THEN YOU START OpenSUSE LEAP 16 VIA TERMINAL / CONSOLE / BASH
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Paste in terminal: . ~/.bash_suse_desktop
+
+Type in terminal: cinnamon-session
+
+------------------------
+
+Regards Mattias Vinberg - OpenSUSE LEAP 16 - Cinnamon Desktop - WSL - Windows 11 - Microsoft - 2026
+
+                                     ......       
+     .,cdxxxoc,.               .:kKMMMNWMMMNk:.    
+    cKMMN0OOOKWMMXo. A        ;0MWk:'      ':OMMk. 
+  ;WMK;'       'lKMMNM,     :NMK'             'OMW; 
+ cMW;             WMMMN   ,XMK'                 oMM. 
+.MMc             ''^*~l. xMN:                    KM0 
+'MM.                   .NMO                      oMM 
+.MM,                 .kMMl                       xMN
+ KM0               .kMM0' .dl>~,.               .WMd 
+ 'XM0.           ,OMMK'    OMMM7'              .XMK  
+   *WMO:.    .;xNMMk'       NNNMKl.          .xWMx   
+     ^ONMMNXMMMKx;          V  'xNMWKkxllox0NMWk' 
+         '''''                    ':dOOXXKOxl'  
+
+-------------------------
