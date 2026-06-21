@@ -3,7 +3,7 @@ EndeavourOS and KDE PLASMA 6.7.0 - How to install KDE 6 via EndeavourOS and Wind
 UPDATED 2026-06-21 - For EndeavourOS and KDE PLASMA 6.7.0 - WSL - 2026 - TEST LATEST KDE 6 FOR ARCH LINUX.
 
 How to install KDE PLASMA 6.7.0 via EndeavourOS / Endeavour via Windows 11 - TEXT
-Comming SONE...
+https://github.com/vinberg88/opensuse/blob/main/EndeavourOS-KDE-6.7.txt
 
 How to install KDE PLASMA 6.7.0 via EndeavourOS / Endeavour via Windows 11 - MOVIE
 https://www.youtube.com/watch?v=8b3LIo0hNqo
