@@ -56,6 +56,60 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+EndeavourOS and KDE PLASMA 6.7.0 - How to install KDE 6 via EndeavourOS and Windows 11 - WSL - 2026
+
+UPDATED 2026-06-21 - For EndeavourOS and KDE PLASMA 6.7.0 - WSL - 2026 - TEST LATEST KDE 6 FOR ARCH LINUX.
+
+How to install KDE PLASMA 6.7.0 via EndeavourOS / Endeavour via Windows 11 - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/EndeavourOS-KDE-6.7.txt
+
+How to install KDE PLASMA 6.7.0 via EndeavourOS / Endeavour via Windows 11 - MOVIE
+
+https://www.youtube.com/watch?v=8b3LIo0hNqo
+
+You can find EndeavourOS here for WSL - https://github.com/sileshn/EndeavourOSWSL2
+
+Tools for WSL and Microsoft - 2026
+
+Use X410 - X Server for Windows 11 in this video and it works well. Find it in Micorsoft store. 
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem for Linux (WSL).
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="EndeavourOS-KDE-6 7" src="https://github.com/user-attachments/assets/5ce9a65b-e400-4101-94be-36ecbc3c682b" />
+
+About EndeavourOS - https://endeavouros.com
+
+EndeavourOS is an Arch-based distro that provides an Arch 
+experience without the hassle of installing it manually for
+x86_64 and ARM devices. After installation, you’re provided
+with a lightweight and almost bare-bones environment ready to
+be explored with your terminal, along with our home-built
+Welcome App as a powerful guide to help you along.
+
+About KDE PLASMA 6.7.0 - https://kde.org
+
+Plasma is a Desktop - Use Plasma to surf the
+web; keep in touch with colleagues, friends and family; manage your
+files, enjoy music and videos; and get creative and productive at work.
+Do it all in a beautiful environment that adapts to your needs, and
+with the safety, privacy-protection and peace of mind that the best
+Free Open Source Software has to offer.
+
+Do you want more WSL stuff go here - Windows and Linux Desktops - 2026
+
+https://github.com/vinberg88/opensuse
+
+Read About WSL here - https://vinberg88.github.io
+
+Regards Mattias Vinberg - Endeavour OS - KDE PLASMA - WSL - SweDen - X410 - Windows - 2026
+
+---------------------------------------------
+
 Opensuse LEAP 16 and Cinnamon desktop via WSL - 2026 - Sweden - Linux - Windows 11 - YouTube
 
 Install OpenSUSE LEAP 16 via Powershell: wsl --install openSUSE-Leap-16.0
