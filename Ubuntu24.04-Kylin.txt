@@ -1,0 +1,275 @@
+Ubuntu 24.04 - Kylin - UKUI - How to Install Kylin desktop via Ubuntu and Windows 11 - WSL - x410 - Linux - 2026
+
+Install Ubuntu 24.04 LTS via POWERSHELL: wsl --install Ubuntu-24.04
+
+How to install Kylin desktop via windows 11 and Unbunt 24.04 LTS - TEXT
+Comming SONE....
+
+How to install Kylin desktop via windows 11 and Unbunt 24.04 LTS - MOVIE
+https://www.youtube.com/watch?v=NKdHJ7X4k3Y
+
+                             ....             
+              .',:clooo:  .:looooo:.          Ubuntu 24.04 Nobel and Windows 11 for WSL2
+           .;looooooooc  .oooooooooo'         
+        .;looooool:,''.  :ooooooooooc         
+       ;looool;.         'oooooooooo,         MEDIA: MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+      ;clool'             .cooooooc.  ,,      
+         ...                ......  .:oo,     
+  .;clol:,.                        .loooo'    OS: Ubuntu trixie/sid (noble) on Windows x86_64
+ :ooooooooo,                        'ooool    
+'ooooooooooo.                        loooo.   
+'ooooooooool                         coooo.   Kernel: 6.18.33.1-microsoft-standard-WSL2
+ ,loooooooc.                        .loooo.
+   .,;;;'.                          ;ooooc    DESKTOP: Ubuntu Kylin - UKUI desktop - 2026
+       ...                         ,ooool.
+    .cooooc.              ..',,'.  .cooo.
+      ;ooooo:.           ;oooooooc.  :l.
+       .coooooc,..      coooooooooo.
+         .:ooooooolc:. .ooooooooooo'
+           .':loooooo;  ,oooooooooc
+               ..';::c'  .;loooo:'
+                             .
+
+About Ubuntu - https://ubuntu.com/desktop/wsl
+
+Ubuntu 24.04 LTS brings more of everything you love about
+Ubuntu Desktop. More features and customisation options, more
+performance and power efficiency and more ways to integrate
+with your existing enterprise management tools. Combined with
+our LTS commitment of five years of updates and security 
+patching, we’re confident that this latest version of the
+Linux Desktop delivers everything needed to empower developers
+and creators in 2022 and beyond. Ubuntu WSL gives you a full
+Ubuntu environment, deeply integrated with Windows, for Linux
+application development and execution. Optimised for
+cloud, web, data science, IoT and fun!
+
+About Kylin Desktop - https://distrowatch.com/table.php?distribution=ubuntukylin
+
+Ubuntu Kylin is a beautiful Linux operating system optimized
+for Chinese users. Since its creation in 2013, the Ubuntu Kylin
+open source operating system has released 20 
+versions, downloaded more than 32 million times, contributed
+millions of lines of code and over 7400 patches to the open source
+community, and has been accepted by international open source
+communities such as Linux, Debian, Ubuntu, OpenStack, and Ceph.
+For now, we have hundreds of thousands of active users worldwide.
+
+You cane Find More Stuff here About WSL and desktop for linux - Windows 11
+
+https://github.com/vinberg88/opensuse
+
+Read About WSL here - https://vinberg88.github.io
+
+Tools that i use for WSL2 and Ubuntu 24.04 LTS - 2026
+
+Use X410 - X Server for Windows 11 and it works well.
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem Linux Distros.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+--------------------------------------------
+
+Update all after install - Ubuntu 24.04 LTS
+
+sudo apt update && sudo apt upgrade -y
+
+--------------------------------------------
+
+Install programs for Ubuntu 24.04 LTS
+
+sudo apt install bash git npm wget curl nano sudo pipx dbus* -y
+sudo apt install lightdm* -y
+sudo systemctl set-default graphical
+
+--------------------------------------------
+
+Install fastfetch for Ubuntu 24.04 LTS
+
+wget https://github.com/fastfetch-cli/fastfetch/releases/download/2.64.2/fastfetch-linux-amd64.deb
+sudo apt install ./fastfetch-linux-amd64.deb
+
+Test by paste this line in Console: fastfetch
+
+                             ....                                         ....
+              .',:clooo:  .:looooo:.                       .',:clooo:  .:looooo:.
+           .;looooooooc  .oooooooooo'                   .;looooooooc  .oooooooooo'
+        .;looooool:,''.  :ooooooooooc                .;looooool:,''.  :ooooooooooc
+       ;looool;.         'oooooooooo,               ;looool;.         'oooooooooo,
+      ;clool'             .cooooooc.  ,,           ;clool'             .cooooooc.  ,,
+         ...                ......  .:oo,             ...                ......  .:oo,
+  .;clol:,.                        .loooo'     .;clol:,.                        .loooo'
+ :ooooooooo,                        'ooool    :ooooooooo,                        'ooool
+'ooooooooooo.                        loooo.  'ooooooooooo.                        loooo.
+'ooooooooool                         coooo.  'ooooooooool                         coooo.
+ ,loooooooc.                        .loooo.   ,loooooooc.                        .loooo.
+   .,;;;'.                          ;ooooc      .,;;;'.                          ;ooooc
+       ...                         ,ooool.          ...                         ,ooool.
+    .cooooc.              ..',,'.  .cooo.        .cooooc.              ..',,'.  .cooo.
+      ;ooooo:.           ;oooooooc.  :l.           ;ooooo:.           ;oooooooc.  :l.
+       .coooooc,..      coooooooooo.                .coooooc,..      coooooooooo.
+         .:ooooooolc:. .ooooooooooo'                  .:ooooooolc:. .ooooooooooo'
+           .':loooooo;  ,oooooooooc                     .':loooooo;  ,oooooooooc
+               ..';::c'  .;loooo:'                          ..';::c'  .;loooo:'
+                             .                                            .
+
+--------------------------------------------
+
+Install Chrome for Ubuntu 24.04 LTS
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+--------------------------------------------
+
+Install Blanket for Ubuntu 24.04 LTS
+
+wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+
+--------------------------------------------
+
+Paste and Copy and install via console / bash - Ubuntu 24.04 LTS
+
+sudo snap install firefox
+
+--------------------------------------------
+
+Time to install UKUI / ubuntu kylin for Ubuntu 24.04 LTS.
+
+sudo apt install ubuntukylin-desktop -y
+
+--------------------------------------------
+
+Time to install gimp and LibreOffice - Ubuntu 24.04 LTS
+
+sudo apt install gimp libreoffice
+
+------------------------------------------------------
+
+Fix IP problem whit GWSL or X410. Cant find screen problems. Look ip adress in windows terminal / PowerShell as root : ipconfig
+
+OPEN MICROSOFT POWERSHELL AND TYPE: ipconfig
+
+NOTE - last lines are ip for WSL and Ubuntu 24.04 LTS and KYLIN Desktop -NOTE
+
+NOW GO BACK TO REDHAT TERMINAL AND COPY AND PASTE.
+
+sudo apt install systemd-resolved
+
+sudo systemctl unmask systemd-resolved.service
+sudo systemctl enable systemd-resolved.service
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.23.144.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+cat /etc/resolv.conf
+
+DONE - alot of problem fixed =]
+
+------------------------------------------------------
+
+Paste in terminal and klick enter - Ubuntu 24.04 LTS
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+--------------------------------------------
+
+Create this small script for Ubuntu 24.04 LTS
+
+Type this in terminal and put your user there at the end - sudo loginctl enable-linger adolf
+
+--------------------------------------------
+
+Make small script for Ubuntu 24.04 LTS and KYLIN desktop.
+
+Copy this and paste in terminal: sudo nano ~/.bash_ubuntu_desktop
+
+Then add this lines and save in terminal
+
+export XDG_CURRENT_DESKTOP=ubuntu:GNOME
+export XDG_SESSION_DESKTOP=ubuntu
+export DESKTOP_SESSION=ubuntu
+export GNOME_SHELL_SESSION_MODE=ubuntu
+
+export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+export XDG_MENU_PREFIX=gnome-
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+------------------------------------------------------
+
+Paste in terminal and follow instruction - Ubuntu 24.04 LTS
+
+git clone https://github.com/DamionGans/ubuntu-wsl2-systemd-script.git
+cd ubuntu-wsl2-systemd-script/
+bash ubuntu-wsl2-systemd-script.sh
+
+------------------------------------------------------
+
+Install this last Tools for Ubuntu 24.04 LTS
+
+sudo apt install kwin* xorg*
+
+------------------------------------------------------
+
+Reboot Ubuntu 24.04 - Reboot Ubuntu 24.04 - Reboot Ubuntu 24.04
+
+------------------------------------------------------
+
+TIME TO START DESKTOP Kylin desktop VIA Ubuntu 24.04 LTS - WSL - 2026.
+
+
+NOTE - First start x410 then you start Ubuntu 24.04 LTS terminal - NOTE
+ 
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Paste in terminal: . ~/.bash_ubuntu_desktop
+
+Type in terminal and start UkUI: dbus-launch ukui-session
+
+
+JUST WAIT IT TAKE SOME TIME TO START DESKTOP - Kylin Desktop - UKUI - JUST WAIT...
+
+------------------------------------------------------
+
+                             ....             
+              .',:clooo:  .:looooo:.          
+           .;looooooooc  .oooooooooo'
+        .;looooool:,''.  :ooooooooooc         
+       ;looool;.         'oooooooooo,         
+      ;clool'             .cooooooc.  ,,      
+         ...                ......  .:oo,     
+  .;clol:,.                        .loooo'    
+ :ooooooooo,                        'ooool 
+'ooooooooooo.                        loooo. 
+'ooooooooool                         coooo.  Ubuntu 24.04 LTS - KYLIN - UKUI - Windows 11 - WSL - 2026
+ ,loooooooc.                        .loooo.
+   .,;;;'.                          ;ooooc 
+       ...                         ,ooool.
+    .cooooc.              ..',,'.  .cooo.
+      ;ooooo:.           ;oooooooc.  :l.
+       .coooooc,..      coooooooooo.
+         .:ooooooolc:. .ooooooooooo'
+           .':loooooo;  ,oooooooooc
+               ..';::c'  .;loooo:'
+                             .
+
+Warm Regards - Mattias Vinberg - Ubuntu 24.04 - Kylin - UKUI - Windows 11 - Sweden - WSL2 - MicroSoft - 2026
+
+------------------------------------------------------
