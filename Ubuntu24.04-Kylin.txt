@@ -3,7 +3,7 @@ Ubuntu 24.04 - Kylin - UKUI - How to Install Kylin desktop via Ubuntu and Window
 Install Ubuntu 24.04 LTS via POWERSHELL: wsl --install Ubuntu-24.04
 
 How to install Kylin desktop via windows 11 and Unbunt 24.04 LTS - TEXT
-Comming SONE....
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu24.04-Kylin.txt
 
 How to install Kylin desktop via windows 11 and Unbunt 24.04 LTS - MOVIE
 https://www.youtube.com/watch?v=NKdHJ7X4k3Y
