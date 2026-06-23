@@ -56,6 +56,65 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Ubuntu 24.04 - Kylin - UKUI - How to Install Kylin desktop via Ubuntu and Windows 11 - WSL - x410 - Linux - 2026
+
+Install Ubuntu 24.04 LTS via POWERSHELL: wsl --install Ubuntu-24.04
+
+How to install Kylin desktop via windows 11 and Unbunt 24.04 LTS - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu24.04-Kylin.txt
+
+How to install Kylin desktop via windows 11 and Unbunt 24.04 LTS - MOVIE
+
+https://www.youtube.com/watch?v=NKdHJ7X4k3Y
+
+<img width="1920" height="1080" alt="Ubuntu24 04-Kylin" src="https://github.com/user-attachments/assets/aeb27de8-0591-4052-b8c8-1d79653ab94b" />
+
+About Ubuntu - https://ubuntu.com/desktop/wsl
+
+Ubuntu 24.04 LTS brings more of everything you love about
+Ubuntu Desktop. More features and customisation options, more
+performance and power efficiency and more ways to integrate
+with your existing enterprise management tools. Combined with
+our LTS commitment of five years of updates and security 
+patching, we’re confident that this latest version of the
+Linux Desktop delivers everything needed to empower developers
+and creators in 2022 and beyond. Ubuntu WSL gives you a full
+Ubuntu environment, deeply integrated with Windows, for Linux
+application development and execution. Optimised for
+cloud, web, data science, IoT and fun!
+
+About Kylin Desktop - https://distrowatch.com/table.php?distribution=ubuntukylin
+
+Ubuntu Kylin is a beautiful Linux operating system optimized
+for Chinese users. Since its creation in 2013, the Ubuntu Kylin
+open source operating system has released 20 
+versions, downloaded more than 32 million times, contributed
+millions of lines of code and over 7400 patches to the open source
+community, and has been accepted by international open source
+communities such as Linux, Debian, Ubuntu, OpenStack, and Ceph.
+For now, we have hundreds of thousands of active users worldwide.
+
+You cane Find More Stuff here About WSL and desktop for linux - Windows 11
+
+https://github.com/vinberg88/opensuse
+
+Read About WSL here - https://vinberg88.github.io
+
+Tools that i use for WSL2 and Ubuntu 24.04 LTS - 2026
+
+Use X410 - X Server for Windows 11 and it works well.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem Linux Distros.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+Regards - Mattias Vinberg - Ubuntu - Kylin - UKUI - Windows 11 - Sweden - WSL - MicroSoft - 2026
+
+---------------------------------------------
+
 EndeavourOS and KDE PLASMA 6.7.0 - How to install KDE 6 via EndeavourOS and Windows 11 - WSL - 2026
 
 UPDATED 2026-06-21 - For EndeavourOS and KDE PLASMA 6.7.0 - WSL - 2026 - TEST LATEST KDE 6 FOR ARCH LINUX.
