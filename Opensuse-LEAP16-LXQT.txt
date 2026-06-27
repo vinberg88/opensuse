@@ -1,0 +1,723 @@
+Opensuse LEAP 16 and LXQT desktop via WSL2 - How to install desktop LXQT via OpenSUSE 16 - 2026 - GWSL - Sweden - Linux - Windows 11
+
+THIS WILL BE A LONG VIDEO - VARNING =] - 2026 - openSUSE Leap 16.0 and LXQT Desktop
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility
+
+THIS WILL BE A LONG VIDEO - VARNING =] - 2026 - openSUSE Leap 16.0 and LXQT Desktop
+
+OpenSUSE Tumbleweed is god to but its to many 🔄 updates. Never ending story - OpenSUSE Tumbleweed
+
+            ====              
+           ======             
+         ==== ====+           OpenSUSE Leap 16.0 x86_64 for WSL2 and LXQT DE.
+       +====    +====         
+     +===+        ====        OPENSUSE LEAP 16 and ♫ LXQT Desktop
+    ====            ====      
+  +===               +====    MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+  ====               +====    
+   =====            ====      
+     +===+        =====       OS: openSUSE Leap 16.0 x86_64
+  ==+  =====    +===+  ===    Host: Windows Subsystem for Linux - openSUSE-Leap-16.0 (2.6.3.0)
+  ====   ==== =====  =====    Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+    ====  =======   ====      
+      ====  ===   ====        
+       ====+    ====          OpenSUSE LEAP 16 - SLOW UPDATES AND ALWAYS WORKING.
+         ==== =====           
+           ======             
+             ==               
+
+
+VIDEO via YOUTUBE - Here you can find video, how to install LXQT desktop via OPENSUSE LEAP 16.
+https://www.youtube.com/watch?v=LEJdAwdxBPc
+
+TEXT - How to install LXQT Desktop via OPENSUSE LEAP 16 - GITHUB TEXT. 
+Comming SONE..
+
+TOOLS that i USE - WSL2 - Windows 11 - Linux - OpenSUSE LEAP 16.0
+
+GWSL - Xserver for windows 11 - So you have a Console / Desktop TO USE in Windows 11.
+https://apps.microsoft.com/detail/9nl6kd1h33v3?hl=en-US&gl=US
+
+Raft WSL - Handel WSL image easy and Linux for WSL via This TOOL.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+WSL UI - This tool is free and works like Raft WSL - 2026 - A modern, lightweight manager
+for Windows Subsystem for Linux distributions. Easily manage your Windows
+Subsystem for Linux distributions with a clean, modern interface.
+Built with performance in mind using Tauri and React.
+
+https://wsl-ui.octasoft.co.uk
+
+https://apps.microsoft.com/detail/9p8548knj2m9?hl=sv-SE&gl=SE
+
+About OpenSUSE LEAP 16.0 - https://get.opensuse.org/leap/16.0
+
+A brand new way of building openSUSE and a new
+type of a hybrid Linux distribution. Leap uses
+source from SUSE Linux Enterprise (SLE), which
+gives Leap a level of stability unmatched by
+other Linux distributions, and combines that with
+community developments to give users, developers
+and sysadmins the best stable Linux experience
+available. OpenSUSE LEAP is not a Rolling releas.
+
+About LXQt - https://lxqt-project.org
+
+LXQt provides a lightweight, well-integrated LXQt desktop environment.
+In addition to LXQt itself it provides a small, well selected Collection
+of applications like the Falkon browser, which combines Chromium's
+rendering engine with a nice Qt experience. Other applications include
+the Trojita mail client, the qBittorrent client, the Yarock music player
+and a set of some more commonly used applications. As all applications
+use the same Qt5 toolkit and the Breeze theme known from KDE, the
+desktop provides a unified and well-integrated style and theming.
+In addition breeze-gtk is provided to allow the user to integrate
+GTK applications too. It will not get in your way. It will not
+hang or slow down your system. It is focused on being a Classic
+desktop with a modern look and feel. LXQt is available for
+all major Linux and BSD distributions so you may just try
+it out on your system or in a VM.
+
+Do you want more WSL stuff go here - Windows and Linux Desktops - 2026
+
+https://github.com/vinberg88/opensuse
+
+Read About WSL here - https://vinberg88.github.io
+
+------------------------
+
+Install OpenSuse LEAP 16 via this adress for Windows 11 - WSL2
+
+Open Ppwershell and type: wsl --install openSUSE-Leap-16.0
+
+List installed distributions via Powershell: wsl --list --verbose
+
+Check online available distros via Powershell: wsl --list --online
+
+About OpenSUSE LEAP 16 - SLOW UPDATES AND ALWAYS WORKING =]
+
+OpenSUSE Leap uses a stable-release model. Instead
+of constantly changing, it gets major updates just
+once a year, while day-to-day changes are limited to 
+essential security patches and bug fixes. This keeps
+the operating system highly reliable. OpenSuse
+Tumbelweed Always updates. Several times per day =)
+
+------------------------
+
+TIME TO START INSTALL OF OPENSUSE LEAP 16 and LXQT Desktop VIA WINDOWS 11 - WSL2 - LEAP 16 - 2026
+
+Install OpenSUSE LEAP 16 via Powershell: wsl --install openSUSE-Leap-16.0 --name OPENSUSE-LEAP-16
+
+Copy and paste =] OpenSUSE LEAP 16 - SLOW UPDATES AND ALWAYS WORKING =] NO STRESS LIKE TUMBELWEED.
+
+------------------------
+
+First thing you need to do is copy this file to C:\Users\yourusername
+
+1. Download this file from proton: https://drive.proton.me/urls/G602NV0DFG#Rn5D1Tny3TpQ
+
+1. Open explorer
+
+2. Copy file to C:\Users\yourusername
+
+3. Paste it under C:\Users\yourusername <-- username is not your username =]
+
+Its easy, use Explorer and copy and past - DONE - NO STRESS FOR WSL INSTALL - OPENSUSE LEAP 16
+
+------------------------
+
+Add systemd (if nano not works. Install it: sudo zypper in nano)
+
+sudo zypper install nano
+
+Type in terminal: sudo nano /etc/wsl.conf
+
+Copy to terminal and save:
+
+[boot]
+systemd=true
+
+------------------------
+
+UPDATE ALL AFTER INSTALL FOR OPENSUSE LEAP 16 - 2026
+
+Update OPENSUSE LEAP 16 via Bash: sudo zypper ref -b && sudo zypper dup
+
+Paste this so you are a good resident: sudo zypper patch --auto-agree-with-licenses
+
+------------------------
+
+REMOVE jeos-firstboot from OPENSUSE LEAP 16 - You can skip this =)
+
+sudo zypper ll
+
+# | Name           | Type    | Repository | Comment
+--+----------------+---------+------------+------------------------------
+1 | jeos-firstboot | package | (any)      | Conflicts with wsl-firstboot.
+
+sudo zypper removelock ID
+
+adolf@Fyren88:~> sudo zypper info jeos-firstboot
+
+Refreshing service 'openSUSE'.
+Loading repository data...
+Reading installed packages...
+
+Information for package jeos-firstboot:
+---------------------------------------
+Repository     : repo-oss (16.0)
+Name           : jeos-firstboot
+Version        : 1.5.8-160000.2.2
+Arch           : noarch
+Vendor         : SUSE LLC <https://www.suse.com/>
+Installed Size : 47.4 KiB
+Installed      : No
+Status         : not installed
+Source package : jeos-firstboot-1.5.8-160000.2.2.src
+Upstream URL   : https://github.com/openSUSE/jeos-firstboot
+Summary        : Simple text based JeOS first boot wizard
+Description    :
+    
+Simple text based JeOS first boot wizard that can be used instead
+of the line based one that is built into systemd.
+
+sudo zypper removelock 1
+
+Specified lock has been successfully removed.
+
+1 lock has been successfully removed.
+
+------------------------
+
+Install this programs - OPENSUSE LEAP 16 and LXQT Desktop
+
+sudo zypper install bash git npm wget curl dialog go dracut opi yast2 ninja-build bash meson ninja curl npm jet* cmake* opensuse*
+
+YOU WILL GET AN ERROR - IT WORKS ANY WAY - Installation has completed with error. Go to next step..
+
+------------------------
+
+Install Hyfetch and Fastfetch - OPENSUSE LEAP 16 and LXQT Desktop
+
+sudo zypper install fastfetch
+
+Type in terminal: opi pipx and press 1 and OK.
+
+pipx install hyfetch
+
+To test all type this in terminal for OPENSUSE LEAP 16: hyfetch
+
+------------------------
+
+
+            ====              
+           ======             
+         ==== ====+           OpenSUSE Leap 16.0 x86_64 for WSL2 and Windows 11.
+       +====    +====         
+     +===+        ====        OPENSUSE LEAP 16 and ♫ LXQT Desktop
+    ====            ====      
+  +===               +====    MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+  ====               +====    
+   =====            ====      
+     +===+        =====       OS: openSUSE Leap 16.0 x86_64 - WINDOWS 11 - WSL
+  ==+  =====    +===+  ===    Host: Windows Subsystem for Linux - openSUSE-Leap-16.0 (2.6.3.0)
+  ====   ==== =====  =====    Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+    ====  =======   ====      
+      ====  ===   ====        
+       ====+    ====          
+         ==== =====           Linux Desktop - LXQT Desktop for WSL2 - 2026
+           ======             
+             ==               
+                                                            
+
+------------------------
+
+Install this repos and press 2 or a in terminal - OPENSUSE LEAP 16 and ♫ LXQT Desktop
+
+sudo zypper addrepo -cfp 90 'https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_$releasever/Essentials/' packman-essentials
+
+sudo zypper dup --from packman-essentials --allow-vendor-change
+
+sudo zypper in ffmpeg libavcodec* gstreamer-plugins-*
+
+------------------------
+
+Install some codecs for Sounds and VIDEO. EXTRA Video drivers for OPENSUSE LEAP 16 and ♫ LXQT Desktop
+
+Paste in Terminal: opi codecs
+
+Paste in Terminal: opi gdm
+
+------------------------
+
+Enable snapd on openSUSE LEAP 16 and install Claude AI Desktop - NICE LOVE AI.
+
+sudo zypper addrepo --refresh https://download.opensuse.org/repositories/system:/snappy/openSUSE_Leap_15.6 snappy
+
+sudo zypper --gpg-auto-import-keys refresh
+
+sudo zypper dup --from snappy
+
+sudo zypper install snapd
+
+sudo systemctl enable --now snapd
+
+sudo systemctl enable --now snapd.apparmor
+
+Install claude-AI from SNAPD - TAKES SOME TIME TO INSTALL.
+
+sudo snap install core
+
+sudo snap install snapd
+
+sudo snap install test-snapd-daemon-refresh
+
+sudo snap install x11-utils-snap --edge
+
+sudo snap install gtk-theme-graphaite-nord
+
+After Installation Please Run.
+
+for i in $(snap connections | grep gtk-common-themes:gtk-3-themes | awk '{print $2}'); do sudo snap connect $i gtk-theme-graphaite-nord:gtk-3-themes; done
+
+sudo snap install actioneer
+
+sudo snap install claude-ai-desktop
+
+sudo snap connect claude-ai-desktop:audio-record
+
+sudo snap connect claude-ai-desktop:removable-media
+
+sudo snap install cursor-theme-catppuccin
+
+sudo snap install icon-theme-cat
+
+Run this: sudo systemctl daemon-reload
+
+EXTRA INSTALL App Center: sudo snap install snap-store
+
+Find more programs from snapd here: https://snapcraft.io/store
+
+------------------------
+
+GTK themes for OPENSUSE LEAP 16 VIA SNAPD.
+
+sudo snap install dg-adw-gtk3-theme
+sudo snap install adw-gtk3-theme
+sudo snap install numix-gtk-themes
+sudo snap install gtk-theme-vimix
+sudo snap install gtk-theme-fluent
+sudo snap install gtk-theme-yaru-mate
+sudo snap install gtk-theme-elementary
+sudo snap install gtk-theme-zorin
+sudo snap install gtk-theme-colloid
+sudo snap install gtk-theme-qogirbudgie
+sudo snap install gtk-theme-greybird
+
+------------------------
+
+Use the force for DNF to install from FEDORA OR REDHAT. THIS IS BETA FOR OPENSUSE LEAP 16 - 2026 - ♫ LXQT Desktop
+
+sudo zypper install dnf yum
+
+sudo dnf copr enable yselkowitz/lxqt-epel epel-10-x86_64
+
+sudo dnf install lxqt* --skip-broken
+
+------------------------
+
+Install some THEMES from GITHUB and other stuff for OPENSUSE LEAP 16
+
+git clone https://github.com/EliverLara/Nordic.git ~/.themes/Nordic
+
+git clone https://github.com/Fausto-Korpsvart/Tokyonight-GTK-Theme.git ~/.themes/Tokyonight
+
+git clone https://github.com/catppuccin/gtk.git ~/.themes/Catppuccin
+
+git clone https://github.com/dracula/gtk.git ~/.themes/Dracula
+
+sudo zypper in materia-gtk-theme gnome-themes-extras xcursor-themes ubuntu-themes
+
+sudo zypper install papirus-icon-theme
+
+sudo zypper install yast2-theme*
+
+sudo zypper install plasma6-sddm-theme-openSUSE
+
+sudo zypper install kde-theme-dracula
+ 
+sudo zypper install human-theme-gtk
+
+sudo zypper install gtk2-metatheme-dracula
+
+sudo zypper install gnome-shell-theme-dracula
+
+sudo zypper install faenza-icon-theme-darkest
+
+sudo zypper install faenza-icon-theme-darker
+
+sudo zypper install faenza-icon-theme-dark
+
+sudo zypper install cinnamon-theme-dracula
+
+sudo zypper install xfwm4-theme-dracula
+
+-----------------------------------
+
+EXTRA TO INSTALL FOR DESKTOP - OPENSUSE LEAP 16 - LXQT Desktop - THIS WILL TAKE TIME..
+
+sudo zypper install gtk* - PRESS 1 - You will install 2032 rpm programs for OPENSUSE LEAP 16 =)
+
+sudo zypper install xz*
+
+sudo zypper install tar*
+
+git clone https://github.com/Fausto-Korpsvart/Catppuccin-GTK-Theme.git
+
+cd Catppuccin-GTK-Theme
+
+cd themes
+
+cd release
+
+sudo ./packager.sh
+
+cd
+
+There will be a lot of installations now so it's worth the effort - Catppuccin-GTK-Theme
+
+------------------------
+
+OPENSUSE LEAP 16 AND LQXT DESKTOP FOR WSL2 - 2026 - OPENSUSE TUMBELWEED FROM GERMANY =]
+
+            ====                          ====                          ====                          ====
+           ======                        ======                        ======                        ======
+         ==== ====+                    ==== ====+                    ==== ====+                    ==== ====+
+       +====    +====                +====    +====                +====    +====                +====    +====
+     +===+        ====             +===+        ====             +===+        ====             +===+        ====
+    ====            ====          ====            ====          ====            ====          ====            ====
+  +===               +====      +===               +====      +===               +====      +===               +====
+  ====               +====      ====               +====      ====               +====      ====               +====
+   =====            ====         =====            ====         =====            ====         =====            ====
+     +===+        =====            +===+        =====            +===+        =====            +===+        =====
+  ==+  =====    +===+  ===      ==+  =====    +===+  ===      ==+  =====    +===+  ===      ==+  =====    +===+  ===
+  ====   ==== =====  =====      ====   ==== =====  =====      ====   ==== =====  =====      ====   ==== =====  =====
+    ====  =======   ====          ====  =======   ====          ====  =======   ====          ====  =======   ====
+      ====  ===   ====              ====  ===   ====              ====  ===   ====              ====  ===   ====
+       ====+    ====                 ====+    ====                 ====+    ====                 ====+    ====
+         ==== =====                    ==== =====                    ==== =====                    ==== =====
+           ======                        ======                        ======                        ======
+             ==                            ==                            ==                            ==
+
+
+EXTRA FILES TO INSTALL FOR OPENSUSE LEAP 16 - 2026 - ♫ LXQT Desktop.
+
+Install this: sudo zypper in -t pattern wsl_gui wsl_base wsl_systemd
+
+------------------------
+
+Time to install lxqt - install all one by one - OPENSUSE LEAP 16 - 2026 - ♫ LXQT Desktop
+
+sudo zypper ref && sudo zypper in -t pattern lxqt
+
+And next type this for OPENSUSE LEAP 16
+
+sudo zypper in lxqt*
+
+sudo zypper se lxqt
+
+sudo zypper in lxqt-about lxqt-config lxqt-globalkeys lxqt-notificationd lxqt-openssh-askpass lxqt-panel
+
+sudo zypper in lxqt-policykit lxqt-powermanagement lxqt-qtplugin lxqt-runner lxqt-session openbox pcmanfm-qt qterminal
+
+sudo zypper in pattern:lxqt pattern:x11 kf6-breeze-icons kf6-oxygen-icons libfm-qt5-14 liblxqt lxqt-about lxqt-config lxqt-globalkeys 
+ 
+sudo zypper in lxqt-notificationd lxqt-notificationd lxqt-openssh-askpass lxqt-panel lxqt-policykit lxqt-powermanagement lxqt-qt5plugin lxqt-qtplugin
+
+sudo zypper in lxqt-runner lxqt-session lxqt-sudo lxqt-themes pattern:multimedia MozillaFirefox NetworkManager NetworkManager-applet ark avahi claws-mail 
+
+sudo zypper in desktop-data-openSUSE featherpad google-droid-fonts libyui-qt-pkg16 lximage-qt lxqt-archiver obconf-qt openbox pavucontrol-qt pcmanfm-qt
+
+sudo zypper in picom picom-conf pipewire-pulseaudio pipewire* pulseaudio-utils qterminal samba screengrab sddm* kwin* simple-scan system-config-printer xdg-desktop-portal-lxqt 
+
+sudo zypper in xdg-user-dirs xdg-utils xorg-x11-essentials xscreensaver xorg* x-11*
+
+READ ABOUT LQXT DESKTOP FROM OPENSUSE PAGE - https://en.opensuse.org/Portal:LXQt
+
+Development and Testing
+
+If you want to help testing the packages for openSUSE, develop on
+upstream LXQt or are just keen on being cutting edge there is 
+the X11:LXQt:git devel project. If you enable this and install
+your LXQt components from there you will run the version of the
+packages as they are in current upstream git.
+
+This means you will have the newest features but you will also encounter bugs.
+
+You can either add the devel project or the even more cutting
+edge packages containing the latest git commits. This works for both
+Tumbleweed and openSUSE Leap from 15.3 onwards. 
+
+VARNING - THIS MY NOT WORK =]
+
+sudo zypper ar -f obs://X11:LXQt:git lxqt-git
+sudo zypper ref && zypper dup --from lxqt-git
+
+sudo zypper ar -f obs://X11:LXQt lxqt
+sudo zypper ref && zypper dup --from lxqt
+
+-----------------------------
+
+To determine the packages that are being installed using the
+pattern method run in terminal.
+
+sudo zypper info -t pattern lxqt
+
+Information for pattern lxqt:
+-----------------------------
+Repository      : repo-oss (16.0)
+Name            : lxqt
+Version         : 20240611-lp160.3.1
+Arch            : x86_64
+Vendor          : openSUSE
+Buddy Package   : patterns-lxqt-lxqt-20240611-lp160.3.1.x86_64
+Installed       : Yes
+Visible to User : Yes
+Summary         : LXQt Desktop Environment
+Description     : LXQt is a lightweight desktop environment based on Qt.
+
+
+------------------------
+
+
+         JJJJJJJJ
+      JJJJJJJJJJJJJJ                          OPENSUSE LEAP 16 - 2026 - ♫ LXQT Desktop
+    JJJJJJ   =JJJJJJJ
+   JJJJ      =JJJ JJJJ
+   JJJ       =JJJ   JJJ                       Media: Mattias Vinberg - OpenSUSE LEAP 16 - Sweden - 2026
+  JJJJ       =JJJ   JJJ
+  JJJJJJJJJJJJJJJ   JJJJ
+   JJJJJJJJJJJJJJ   JJJJ                      OS: openSUSE Leap 16.0 x86_64 - WINDOWS 11 - WSL
+   JJJJ             JJJJ                      Host: Windows Subsystem for Linux - openSUSE-Leap-16.0 (2.6.3.0)
+    JJJJJ=          JJJJ                      Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+      JJJJJJJJJJJJJJJJJJJJJJJJJJJJJ=          
+        =JJJJJJJJJJJJJJJJJJJJJJJJJJJJJ        
+                    JJJJ         =JJJJJJ      LINUX DESKTOP LXQT AND OPENSUSE LEAP 16 - lxqt - LXQT
+                    JJJJ            =JJJJ
+                    JJJJ   JJJJJJJJJJJJJJ
+                    JJJJ   JJJJJJJJJJJJJJJ
+                    JJJJ   JJJJ       JJJJ    Windows 11 - Latest Editionen from Microsoft.
+                     JJJ   JJJJ       JJJ     X server - X410 and WINDOWS 11 - 2026
+                     JJJJJ JJJJ      JJJJ
+                      =JJJJJJJJ   JJJJJJ
+                        JJJJJJJJJJJJJJ 
+                           JJJJJJJ=
+
+------------------------
+
+Things to install for OpenSUSE LEAP 16: sudo zypper in kwin6-x11 - PRESS 1 if asked from terminal.
+
+sudo zypper in kwin6-x11
+
+------------------------
+
+Extra install Chrome Browser via Bash - OPENSUSE LEAP 16 - 2026 - ♫ LXQT Desktop
+
+opi google-chrome
+
+------------------------
+
+Install YAST 2 for OpenSuse LEAP 16 - 2026
+
+sudo zypper in yast2
+
+opi yast - and press 1 to install yast 2
+
+Type this in Bash: sudo yast 
+
+And update all and install from Yast 2
+
+INSTALL lxqt from YAST 2 for OPENSUSE LEAP 16: lxqt - take all programs or rpms for lxqt.
+
+THIS WILL TAKE SOME TIME.
+
+------------------------
+
+Fix IP problem for GWSL. Cant find screen problem. Look for ip adress in windows terminal / PowerShell: ipconfig
+
+FIRST OPEN POWERSHELL AND TYPE: ipconfig 
+
+Last lines are IP-number for WSL.
+
+GO BACK TO OPENSUSE LEAP 16 Terminal AND COPY AND PASTE THIS IN TERMINAL.
+
+sudo zypper in systemd-resolved
+
+sudo systemctl unmask systemd-resolved.service
+
+sudo systemctl enable systemd-resolved.service
+
+sudo ls -l /etc/resolv.conf
+
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+
+sudo nano /etc/resolv.conf
+
+nameserver 172.23.144.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+
+sudo systemctl restart systemd-resolved
+
+sudo cat /etc/resolv.conf
+
+DONE - ALOT of problem FIXED FOR OPENSUSE LEAP 16 =]
+
+------------------------
+
+PAINT IMAGES - GIMP - OPENSUSE LEAP 16
+
+sudo zypper install gimp
+
+------------------------
+
+OFFICE OPENSUSE LEAP 16 - MUST HAVE THIS INSTALL - OPENSUSE LEAP 16 - 2026 - ♫ LXQT Desktop
+
+sudo zypper install libreoffice
+
+------------------------
+
+Listen to sounds from Blanket - OPENSUSE LEAP 16
+
+sudo zypper install blanket
+
+------------------------------------------------------
+
+Install CODE from MICROSOFT - Visual Studio Code - 2026 - Microsoft - OPENSUSE LEAP 16 - LXQT Desktop ♫
+
+wget https://www.knulla.org/scripts/code-1.95.3-1731513157.el8.x86_64.rpm
+
+sudo dnf install ./code-1.95.3-1731513157.el8.x86_64.rpm -y --allowerasing
+
+-----------------------------------
+
+They complain about visual studio code via WSL =] Of course I don't use 💿 CODE
+
+To use Code - OSS with the Windows Subsystem for Linux, please install Code
+- OSS in Windows and uninstall the Linux version in WSL. You can then use the `code`
+command in a WSL terminal just as you would in a normal command prompt.
+
+------------------------
+
+Install Spotify from SWEDEN - Spotify
+
+opi spotify-client
+
+Press 2 and install Spotify.
+
+------------------------
+
+Paste in terminal - Paste one by one. No stress - OPENSUSE LEAP 16 - 2026 - ♫ LXQT Desktop gay desktop.
+
+xdg-user-dirs-update
+
+sudo systemctl set-default multi-user.target
+
+sudo systemctl set-default graphical.target
+
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+------------------------
+
+Install Display Manager for OpenSuse LEAP 16 - 2026
+
+sudo zypper in gdm*
+
+sudo zypper in gnome*
+
+sudo systemctl enable --now --force gdm.service
+
+sudo systemctl enable gdm
+
+sudo systemctl set-default graphical.target
+
+------------------------
+
+Small script for OPENSUSE LEAP 16 to install.
+
+Type this in terminal and put your user there - sudo loginctl enable-linger adolf
+
+------------------------
+
+Install qt6 for OPENSUSE LEAP 16 - 2026
+
+sudo dnf install qt6*
+
+------------------------
+
+Build a small script for OPENSUSE LEAP 16 - 2026 - ♫ LXQT Desktop
+
+In terminal type: sudo nano ~/.bash_suse_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+------------------------
+
+Reboot Reboot Reboot OpenSuse LEAP 16 - OpenSuse LEAP 16 - Reboot Reboot Reboot
+
+------------------------
+
+START GWSL AND CONFIG FOR START OF DESKTOP lxqt and OPENSUSE LEAP 16 FOR WSL2. No stress =]
+
+START TERMINAL FROM GWSL FOR OPENSUSE LEAP 16 AND LXQT DESKTOP.
+
+------------------------
+
+Time to start lxqt desktop via OpenSuse LEAP 16 and GWSL - 2026
+
+
+FIRST START GWSL XSERVER THEN YOU START OpenSUSE LEAP 16 VIA TERMINAL / CONSOLE / BASH in GWSL - 2026
+
+
+Paste in terminal: . ~/.bash_suse_desktop
+
+Type in terminal: dbus-launch --exit-with-session startlxqt
+
+
+It takes a little time to start at the beginning so leave it for a minute if nothing happens - OPENSUSE LEAP 16 
+
+------------------------
+
+Regards Mattias Vinberg - OpenSUSE LEAP 16 - LQXT Desktop - GWSL - WSL2 - Windows 11 - Microsoft - 2026
+
+                                     ......       
+     .,cdxxxoc,.               .:kKMMMNWMMMNk:.    
+    cKMMN0OOOKWMMXo. A        ;0MWk:'      ':OMMk. 
+  ;WMK;'       'lKMMNM,     :NMK'             'OMW; 
+ cMW;             WMMMN   ,XMK'                 oMM. 
+.MMc             ''^*~l. xMN:                    KM0 
+'MM.                   .NMO                      oMM 
+.MM,                 .kMMl                       xMN
+ KM0               .kMM0' .dl>~,.               .WMd 
+ 'XM0.           ,OMMK'    OMMM7'              .XMK  
+   *WMO:.    .;xNMMk'       NNNMKl.          .xWMx   
+     ^ONMMNXMMMKx;          V  'xNMWKkxllox0NMWk' 
+         '''''                    ':dOOXXKOxl'  
+
+❤ Thank you for being a part of the OPENSUSE LEAP 16 and LXQT desktop for WSL2 ❤
+
+Leap 16.0 builds on its hybrid approach of combining source from SUSE Linux Enterprise
+(SLE) with community developments, delivering a level of stability unmatched by
+other Linux distributions. With a newly extended support period of 24 months, Leap
+gives users, developers, and sysadmins one of the best and most reliable Linux
+experiences available - 2026 - OPENSUSE LEAP 16
