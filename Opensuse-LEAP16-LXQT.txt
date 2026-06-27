@@ -34,7 +34,7 @@ VIDEO via YOUTUBE - Here you can find video, how to install LXQT desktop via OPE
 https://www.youtube.com/watch?v=LEJdAwdxBPc
 
 TEXT - How to install LXQT Desktop via OPENSUSE LEAP 16 - GITHUB TEXT. 
-Comming SONE..
+https://github.com/vinberg88/opensuse/blob/main/Opensuse-LEAP16-LXQT.txt
 
 TOOLS that i USE - WSL2 - Windows 11 - Linux - OpenSUSE LEAP 16.0
 
