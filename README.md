@@ -56,6 +56,81 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Opensuse LEAP 16 and LXQT desktop via WSL2 - How to install desktop LXQT via OpenSUSE 16 - 2026 - GWSL - Sweden - Linux - Windows 11
+
+THIS WILL BE A LONG VIDEO - VARNING =] - 2026 - openSUSE Leap 16.0 and LXQT Desktop
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility
+
+OpenSUSE Tumbleweed is god to but its to many 🔄 updates. Never ending story - OpenSUSE Tumbleweed
+
+VIDEO via YOUTUBE - Here you can find video, how to install LXQT desktop via OPENSUSE LEAP 16.
+
+https://www.youtube.com/watch?v=LEJdAwdxBPc
+
+TEXT - How to install LXQT Desktop via OPENSUSE LEAP 16 - GITHUB TEXT. 
+
+https://github.com/vinberg88/opensuse/blob/main/Opensuse-LEAP16-LXQT.txt
+
+TOOLS that i USE - WSL2 - Windows 11 - Linux - OpenSUSE LEAP 16.0
+
+GWSL - Xserver for windows 11 - So you have a Console / Desktop TO USE in Windows 11.
+
+https://apps.microsoft.com/detail/9nl6kd1h33v3?hl=en-US&gl=US
+
+Raft WSL - Handel WSL image easy and Linux for WSL via This TOOL.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+WSL UI - This tool is free and works like Raft WSL - 2026 - A modern, lightweight manager
+for Windows Subsystem for Linux distributions. Easily manage your Windows
+Subsystem for Linux distributions with a clean, modern interface.
+Built with performance in mind using Tauri and React.
+
+https://wsl-ui.octasoft.co.uk
+
+https://apps.microsoft.com/detail/9p8548knj2m9?hl=sv-SE&gl=SE
+
+<img width="1920" height="1080" alt="Opensuse-LEAP16-LXQT" src="https://github.com/user-attachments/assets/614ab654-7cf6-487f-acba-f11f85899b55" />
+
+About OpenSUSE LEAP 16.0 - https://get.opensuse.org/leap/16.0
+
+A brand new way of building openSUSE and a new
+type of a hybrid Linux distribution. Leap uses
+source from SUSE Linux Enterprise (SLE), which
+gives Leap a level of stability unmatched by
+other Linux distributions, and combines that with
+community developments to give users, developers
+and sysadmins the best stable Linux experience
+available. OpenSUSE LEAP is not a Rolling releas.
+
+About LXQt - https://lxqt-project.org
+
+LXQt provides a lightweight, well-integrated LXQt desktop environment.
+In addition to LXQt itself it provides a small, well selected Collection
+of applications like the Falkon browser, which combines Chromium's
+rendering engine with a nice Qt experience. Other applications include
+the Trojita mail client, the qBittorrent client, the Yarock music player
+and a set of some more commonly used applications. As all applications
+use the same Qt5 toolkit and the Breeze theme known from KDE, the
+desktop provides a unified and well-integrated style and theming.
+In addition breeze-gtk is provided to allow the user to integrate
+GTK applications too. It will not get in your way. It will not
+hang or slow down your system. It is focused on being a Classic
+desktop with a modern look and feel. LXQt is available for
+all major Linux and BSD distributions so you may just try
+it out on your system or in a VM.
+
+Do you want more WSL stuff go here - Windows and Linux Desktops - 2026
+
+https://github.com/vinberg88/opensuse - Read About WSL here - https://vinberg88.github.io
+
+Kind Regards Mattias Vinberg - OpenSUSE LEAP 16 - LQXT Desktop - GWSL - WSL2 - Windows 11 - Microsoft - 2026
+
+---------------------------------------------
+
 Ubuntu 24.04 - Kylin - UKUI - How to Install Kylin desktop via Ubuntu and Windows 11 - WSL - x410 - Linux - 2026
 
 Install Ubuntu 24.04 LTS via POWERSHELL: wsl --install Ubuntu-24.04
