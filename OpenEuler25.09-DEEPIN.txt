@@ -1,0 +1,334 @@
+OpenEuler and Deepin - Install DEEPIN Desktop via openEuler 25.09 - WSL - Windows 11 - LINUX - 2026
+
+
+How to install DEEPIN Desktop via openEuler 25.09 - WSL - TEXT
+Comming ZONE.....
+
+How to install DEEPIN Desktop via openEuler 25.09 - WSL - MOVIE
+Comming ZONE.....
+
+
+You can find openEuler 25.09 in Microsoft store
+https://apps.microsoft.com/detail/9P4TW6JFF295?hl=neutral&gl=SE&ocid=pdpshare
+
+TOOLS THAT I USE FOR WSL and WINDOWS 11 - 2026
+
+Raft WSL is a powerful tool for managing Windows Subsystem for Linux distributions.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+Use X410 - X Server for Windows 11 and it works well.
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+WSL UI - This tool is free and works like Raft WSL - 2026 - A modern, lightweight manager
+for Windows Subsystem for Linux distributions. Easily manage your Windows
+Subsystem for Linux distributions with a clean, modern interface.
+Built with performance in mind using Tauri and React.
+
+https://wsl-ui.octasoft.co.uk
+
+https://apps.microsoft.com/detail/9p8548knj2m9?hl=sv-SE&gl=SE
+
+
+                 `.cc.`                                    `.cc.`
+             ``.cccccccc..`                            ``.cccccccc..`
+          `.cccccccccccccccc.`                      `.cccccccccccccccc.`
+      ``.cccccccccccccccccccccc.``              ``.cccccccccccccccccccccc.``
+   `..cccccccccccccccccccccccccccc..`        `..cccccccccccccccccccccccccccc..`
+`.ccccccccccccccc/++/ccccccccccccccccc.`  `.ccccccccccccccc/++/ccccccccccccccccc.`
+.cccccccccccccccmNMMNdo+oso+ccccccccccc.  .cccccccccccccccmNMMNdo+oso+ccccccccccc.
+.cccccccccc/++odms+//+mMMMMm/:+syso/cccc  .cccccccccc/++odms+//+mMMMMm/:+syso/cccc
+.cccccccccyNNMMMs:::/::+o+/:cdMMMMMmcccc  .cccccccccyNNMMMs:::/::+o+/:cdMMMMMmcccc
+.ccccccc:+NmdyyhNNmNNNd:ccccc:oyyyo:cccc  .ccccccc:+NmdyyhNNmNNNd:ccccc:oyyyo:cccc
+.ccc:ohdmMs:cccc+mNMNmyccccccccccccccccc  .ccc:ohdmMs:cccc+mNMNmyccccccccccccccccc
+.cc/NMMMMMo////:c:///:cccccccccccccccccc  .cc/NMMMMMo////:c:///:cccccccccccccccccc
+.cc:syysyNMNNNMNyccccccccccccccccccccccc  .cc:syysyNMNNNMNyccccccccccccccccccccccc
+.cccccccc+MMMMMNyc:/+++/cccccccccccccccc  .cccccccc+MMMMMNyc:/+++/cccccccccccccccc
+.cccccccccohhhs/comMMMMNhccccccccccccccc  .cccccccccohhhs/comMMMMNhccccccccccccccc
+.ccccccccccccccc:MMMMMMMM/cccccccccccccc  .ccccccccccccccc:MMMMMMMM/cccccccccccccc
+.ccccccccccccccccsNNNNNd+cccccccccccccc.  .ccccccccccccccccsNNNNNd+cccccccccccccc.
+`..cccccccccccccccc/+/:cccccccccccccc..`  `..cccccccccccccccc/+/:cccccccccccccc..`
+   ``.cccccccccccccccccccccccccccc.``        ``.cccccccccccccccccccccccccccc.``
+       `.cccccccccccccccccccccc.`                `.cccccccccccccccccccccc.`
+          ``.cccccccccccccc.``                      ``.cccccccccccccc.``
+              `.cccccccc.`                              `.cccccccc.`
+                 `....`                                    `....`
+
+
+OS: openEuler 25.09 x86_64
+Host: Windows Subsystem for Linux - openEuler-25.09
+Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+Desktop: Deepin for WSL and Windows 11
+Origin: Huawei
+First release: 2019
+Base: RHEL/CentOS (RPM-based)
+Maintained by: OpenAtom Foundation
+
+MEDIA MATTIAS VINBERG - https://github.com/vinberg88 - SWEDEN 2026
+
+About openEuler 25.09 - https://www.openeuler.org/en
+
+OpenEuler is an open source project incubated and operated by the
+OpenAtom Foundation. EulerOS is a commercial Linux distribution developed
+by Huawei based on Red Hat Enterprise Linux. To provide an operating system
+for server and cloud environments. Its open-source community version
+is known as openEuler, of which source code was released by Huawei at
+Gitee on December 31, 2019. OpenEuler became an open-source project 
+operated by OpenAtom Foundation after Huawei donated the source code 
+of openEuler to the foundation on November.  
+
+About DEEPIN Desktop for openEuler 25.09 - https://www.deepin.org/en/dde
+
+Deepin is an elegant, easy to use and reliable desktop
+operating system released by Deepin Technology Co., Ltd.
+Featured applications are preinstalled in deepin. 
+It caters to a variety of recreational activities while
+also fulfilling your daily needs. With continually
+improved and perfected functions, we believe deepin
+will be loved and used by more and more users.
+
+Find More Stuff for WSL here: https://github.com/vinberg88/opensuse
+
+ABOUT WSL for WINDOWS via GITHUB - MY PAGE - https://vinberg88.github.io
+
+WSL, which stands for Windows Subsystem for Linux, is a compatibility
+layer created by Microsoft that permits users to operate a Linux environment
+directly on a Windows system without requiring a virtual machine or a
+dual-boot configuration. This feature allows developers and system administrators
+to access and use Linux command-line tools, utilities, and applications natively
+within the Windows operating system. WSL supports a variety of Linux
+distributions, offering smooth integration between Windows and Linux platforms.
+This integration significantly boosts productivity and streamlines workflows
+for users who frequently work across both operating systems, making it easier
+to manage tasks that involve both Windows and Linux environments.
+
+-----------------------------------
+
+Install fast mirrors or repos for openEuler 25.09
+
+Run this first
+
+sudo sed -i -e 's|repo.openeuler.org/openEuler-25.09|mirrors.xtom.de/openeuler/openEuler-25.09|g' -e 's|^metalink=|#metalink=|g' /etc/yum.repos.d/openEuler.repo
+
+sudo sed -i 's/plugins=1/plugins=0/g' /etc/yum.conf
+
+sudo yum clean all && sudo yum makecache
+
+-----------------------------------
+
+Install faster mirrors or repos for openEuler 25.09
+
+sudo dnf install nano
+
+sudo nano /etc/dnf/dnf.conf
+
+Add the following line: max_parallel_downloads=10 and fastestmirror=True
+
+Like That in Console.
+
+max_parallel_downloads=10
+fastestmirror=True
+
+-----------------------------------
+
+REBOOT openEuler 25.09 - REBOOT openEuler 25.09 - REBOOT openEuler 25.09
+
+-----------------------------------
+
+Install some programs for openEuler 25.09 and DEEPIN.
+
+sudo dnf check-update
+sudo dnf install wget git dnf-utils x11* dnf* yum-utils* dnf-plugins-core xorg* nano --allowerasing --skip-broken --nobest -y
+
+-----------------------------------
+
+Update All by paste this in Console - openEuler 25.09
+
+sudo dnf upgrade --refresh
+
+-----------------------------------
+
+Install some basic programs for DEEPIN Desktop and openEuler 25.09.
+
+sudo dnf install wget git bash sudo curl npm dracut net-tools dbus-x11 dbus* yum -y
+
+-----------------------------------
+
+Time to install DEEPIN Desktop for openEuler 25.09 - Will take some time… Maybe 5 min.
+
+sudo dnf install dde -y
+
+sudo dnf install dde* -y
+
+---------------------------------
+
+Install Fastfetch - Its a must =] Neofetch is Dead - openEuler 25.09
+
+wget https://github.com/fastfetch-cli/fastfetch/releases/download/2.54.0/fastfetch-linux-amd64.rpm
+sudo dnf install ./fastfetch-linux-amd64.rpm
+
+Test by typing fastfetch in terminal: fastfetch
+
+
+                 `.cc.`                     
+             ``.cccccccc..`                 
+          `.cccccccccccccccc.`              
+      ``.cccccccccccccccccccccc.``          
+   `..cccccccccccccccccccccccccccc..`       DEEPIN DESKTOP FOR WSL AND WINDOWS 11 - 2026
+`.ccccccccccccccc/++/ccccccccccccccccc.`    
+.cccccccccccccccmNMMNdo+oso+ccccccccccc.    
+.cccccccccc/++odms+//+mMMMMm/:+syso/cccc    
+.cccccccccyNNMMMs:::/::+o+/:cdMMMMMmcccc    OS: openEuler 25.09 x86_64
+.ccccccc:+NmdyyhNNmNNNd:ccccc:oyyyo:cccc    Host: Windows Subsystem for Linux - openEuler-25.09 (2.7.8.0)
+.ccc:ohdmMs:cccc+mNMNmyccccccccccccccccc    Kernel: Linux 6.18.33.1-microsoft-standard-WSL2
+.cc/NMMMMMo////:c:///:cccccccccccccccccc    
+.cc:syysyNMNNNMNyccccccccccccccccccccccc    
+.cccccccc+MMMMMNyc:/+++/cccccccccccccccc    
+.cccccccccohhhs/comMMMMNhccccccccccccccc    
+.ccccccccccccccc:MMMMMMMM/cccccccccccccc    MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+.ccccccccccccccccsNNNNNd+cccccccccccccc.    
+`..cccccccccccccccc/+/:cccccccccccccc..`    
+   ``.cccccccccccccccccccccccccccc.``       https://github.com/vinberg88
+       `.cccccccccccccccccccccc.`          
+          ``.cccccccccccccc.``
+              `.cccccccc.`
+                 `....`
+
+------------------------------------------------------
+
+Install Visual Studio Code - 2026 - Microsoft Engine for Code.
+
+wget https://www.knulla.org/scripts/code-1.95.3-1731513157.el8.x86_64.rpm
+sudo dnf install ./code-1.95.3-1731513157.el8.x86_64.rpm -y
+
+-----------------------------------------------------
+
+Sound DRIVERS and som other Tools.
+
+sudo dnf install pulse* pip* qt5* qt6* - total installd 4.6 GB in 01:36 so you have time to install it =]
+
+sudo dnf install gtk* so you have time to install this to - Total download size: 148 M Installed size: 973 M
+
+-----------------------------------------------------
+
+Install FLATPAK and install some program. 
+
+Copy and paste: sudo dnf install flatpak* -y
+
+Copy and paste: sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+Copy and paste: sudo flatpak install flathub com.rafaelmardojai.Blanket
+
+-------------------------------------------------------------
+
+Install Google-Chrome - paste all under this paragraph in terminal - openEuler 25.03
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install ./google-chrome-stable_current_*.rpm
+sudo yum update google-chrome-stable
+
+-----------------------------------
+
+Install Gimp so you can paint - openEuler 25.03
+
+sudo dnf install gimp
+
+-----------------------------------
+
+Best Office App =) Install now - openEuler 25.03
+
+sudo dnf install libreoffice
+
+------------------------------------------------------
+
+Fix IP problem for X410. Cant find screen. Look for ip adress in windows terminal / PowerShell
+
+OPEN POWERSHELL AND PASTE THIS: ipconfig
+
+Last lines are IP-numbers for WSL in POWERSHELL so x410 works.
+
+NOW GO BACK TO openEuler 25.09 Terminal and paste this.
+
+sudo dnf install systemd-resolved
+
+sudo systemctl unmask systemd-resolved.service
+sudo systemctl enable systemd-resolved.service
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.23.144.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed openEuler 25.09 =]
+
+-------------------------------------------------------------
+
+Copy and Paste in Terminal - openEuler 25.09
+
+sudo systemctl set-default graphical.target
+
+----------------------------------------------------------------
+
+openEuler 25.09 - Type in terminal: sudo nano ~/.bash_dde_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+----------------------------------------------------------------
+
+openEuler 25.09 - Reboot Linux - Reboot Linux - Reboot Linux - Reboot Linux - openEuler 25.09
+
+----------------------------------------------------------------
+
+Time to start DEEPIN Desktop and it will start via openEuler 25.09 - MAGIC =)
+
+
+NOTE - Start X410 for windows and later start OpenEuler 25.09 via terminal.
+
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Paste in terminal: . ~/.bash_dde_desktop
+
+Paste in terminal: startdde
+
+
+              " Just wait it will start - OpenEuler 25.09 "
+
+--------------------------------------------------------------
+
+
+           .MMM..:MMMMMMM             
+          MMMMMMMMMMMMMMMMMM          
+          MMMMMMMMMMMMMMMMMMMM.       
+         MMMMMMMMMMMMMMMMMMMMMM       
+        ,MMMMMMMMMMMMMMMMMMMMMM:      
+        MMMMMMMMMMMMMMMMMMMMMMMM        MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+  .MMMM'  MMMMMMMMMMMMMMMMMMMMMM      
+ MMMMMM    `MMMMMMMMMMMMMMMMMMMM.       https://github.com/vinberg88
+MMMMMMMM      MMMMMMMMMMMMMMMMMM . 
+MMMMMMMMM.       `MMMMMMMMMMMMM' MM.    OpenEuler 25.09 AND DEEPIN Desktop - 2026
+MMMMMMMMMMM.                     MMMM  
+`MMMMMMMMMMMMM.                 ,MMMMM.
+ `MMMMMMMMMMMMMMMMM.          ,MMMMMMMM.
+    MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM 
+      MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM: 
+         MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM  
+            `MMMMMMMMMMMMMMMMMMMMMMMM:  
+                ``MMMMMMMMMMMMMMMMM'  
+
+
+Copyright © 2025 openEuler. All rights reserved. 
+
+Regards Mattias Vinberg - openEuler 25.09 - DEEPIN - Linux - WSL - X410 - Windows 11 - Sweden - 2026
+
+----------------------------------------------------------------
