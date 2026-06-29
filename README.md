@@ -56,6 +56,74 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+OpenEuler and Deepin - Install DEEPIN Desktop via openEuler 25.09 - WSL - Windows 11 - LINUX - 2026
+
+How to install DEEPIN Desktop via openEuler 25.09 - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/OpenEuler25.09-DEEPIN.txt
+
+How to install DEEPIN Desktop via openEuler 25.09 - WSL - MOVIE
+
+https://www.youtube.com/watch?v=jE6GmF-O4-o
+
+You can find openEuler 25.09 in Microsoft store
+https://apps.microsoft.com/detail/9P4TW6JFF295?hl=neutral&gl=SE&ocid=pdpshare
+
+TOOLS THAT I USE FOR WSL and WINDOWS 11 - 2026
+
+Raft WSL is a powerful tool for managing Windows Subsystem for Linux distributions.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+Use X410 - X Server for Windows 11 and it works well.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+WSL UI - This tool is free and works like Raft WSL - 2026 - A modern, lightweight manager
+for Windows Subsystem for Linux distributions. Easily manage your Windows
+Subsystem for Linux distributions with a clean, modern interface.
+Built with performance in mind using Tauri and React.
+
+https://apps.microsoft.com/detail/9p8548knj2m9?hl=sv-SE&gl=SE
+
+<img width="1920" height="1080" alt="OpenEuler25 09-DEEPIN" src="https://github.com/user-attachments/assets/178c1a23-8217-4b00-9801-935b8a954b66" />
+
+MEDIA MATTIAS VINBERG - https://github.com/vinberg88 - SWEDEN 2026
+
+About openEuler 25.09 - https://www.openeuler.org/en
+
+OpenEuler is an open source project incubated and operated by the
+OpenAtom Foundation. EulerOS is a commercial Linux distribution developed
+by Huawei based on Red Hat Enterprise Linux. To provide an operating system
+for server and cloud environments. Its open-source community version
+is known as openEuler, of which source code was released by Huawei at
+Gitee on December 31, 2019. OpenEuler became an open-source project 
+operated by OpenAtom Foundation after Huawei donated the source code 
+of openEuler to the foundation on November.  
+
+About DEEPIN Desktop for openEuler 25.09 - https://www.deepin.org/en/dde
+
+Deepin is an elegant, easy to use and reliable desktop
+operating system released by Deepin Technology Co., Ltd.
+Featured applications are preinstalled in deepin. 
+It caters to a variety of recreational activities while
+also fulfilling your daily needs. With continually
+improved and perfected functions, we believe deepin
+will be loved and used by more and more users.
+
+Find More Stuff for WSL here: https://github.com/vinberg88/opensuse
+
+ABOUT WSL for WINDOWS via GITHUB - MY PAGE - https://vinberg88.github.io
+
+WSL, which stands for Windows Subsystem for Linux, is a compatibility
+layer created by Microsoft that permits users to operate a Linux environment
+directly on a Windows system without requiring a virtual machine or a
+dual-boot configuration.
+
+Regards Mattias Vinberg - openEuler 25.09 - DEEPIN - Linux - WSL - X410 - Windows 11 - Sweden - 2026
+
+---------------------------------------------
+
 Opensuse LEAP 16 and LXQT desktop via WSL2 - How to install desktop LXQT via OpenSUSE 16 - 2026 - GWSL - Sweden - Linux - Windows 11
 
 THIS WILL BE A LONG VIDEO - VARNING =] - 2026 - openSUSE Leap 16.0 and LXQT Desktop
