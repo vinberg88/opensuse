@@ -1,12 +1,10 @@
 OpenEuler and Deepin - Install DEEPIN Desktop via openEuler 25.09 - WSL - Windows 11 - LINUX - 2026
 
-
 How to install DEEPIN Desktop via openEuler 25.09 - WSL - TEXT
-Comming ZONE.....
+https://github.com/vinberg88/opensuse/blob/main/OpenEuler25.09-DEEPIN.txt
 
 How to install DEEPIN Desktop via openEuler 25.09 - WSL - MOVIE
-Comming ZONE.....
-
+https://www.youtube.com/watch?v=jE6GmF-O4-o
 
 You can find openEuler 25.09 in Microsoft store
 https://apps.microsoft.com/detail/9P4TW6JFF295?hl=neutral&gl=SE&ocid=pdpshare
