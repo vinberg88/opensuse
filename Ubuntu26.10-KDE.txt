@@ -5,7 +5,7 @@ NOTE - THIS IS BETA UBUNTU 26.10 FOR WSL2 - JUST FOR TESTING THE LATEST FROM UBU
 ❤️ Thank you for looking at this from ME and UBUNUT 26.10 and KDE 6 - https://github.com/vinberg88 ❤️ 
 
 How to install KDE 6 PLASMA via Ubuntu 26.10 STONKING - WSL - TEXT via GITHUB
-Comming Sone...
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu26.10-KDE.txt
 
 How to install KDE 6 PLASMA via Ubuntu 26.10 STONKING - WSL - MOVIE via YouTUBE
 https://www.youtube.com/watch?v=Y5NwOOtirv0
