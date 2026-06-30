@@ -56,6 +56,78 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Debian 14 and Cinnamon - How To Install Cinnamon DESKTOP via Windows 11 and DEBIAN 14 - WSL - X410 - 2026
+
+How to install Cinnamon DESKTOP on Debian 14 - GITHUB - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Debian14-Cinnamon-.txt
+
+How to install Cinnamon DESKTOP on Debian 14 - YouTube - Movie
+
+https://www.youtube.com/watch?v=JSivfOHi5Rs
+
+TOOLS THAT I USE FOR WSL AND DEBIAN 14 - 2026 - Cinnamon DESKTOP
+
+X410 - Xserver for windows 11 - So you have a Console / Desktop TO See in Windows 11.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL - Handel WSL image easy and Linux for WSL via This TOOL.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+WSL UI - This tool is free and works like Raft WSL - 2026
+A modern, lightweight manager for Windows Subsystem for
+Linux distributions. Easily manage your Windows
+Subsystem for Linux distributions with a clean,
+modern interface. Built with performance in mind using 
+Tauri and React. 
+
+https://apps.microsoft.com/detail/9p8548knj2m9?hl=sv-SE&gl=SE
+
+<img width="1920" height="1080" alt="Debian14-Cinnamon-" src="https://github.com/user-attachments/assets/3d1a010c-fc65-4742-a520-c9147edc1a21" />
+
+About Debian - https://www.debian.org - 2026 - DEBIAN 14 Forky
+
+Debian is a popular and freely available computer 
+operating system (OS) that uses a Unix-like 
+kernel typically Linux alongside other program 
+components, many of which come from GNU Project. 
+Debian can be downloaded over the internet 
+or, for a small charge, obtained on CD, DVD, Blu-ray
+disc or USB flash drive. As Open Source 
+software, Debian is developed by nearly 1,000 active
+programmers from around the world who collectively
+form Debian Project. he name Debian -- pronounced
+deb-EE-uhn -- is a portmanteau that blends the
+creator's first name, Ian, with that of his 
+wife, Debra.
+
+About Cinnamon Desktop for Debian 14. Read via Fedora and Ubuntu
+
+https://ubuntucinnamon.org - https://fedoraproject.org/spins/cinnamon
+
+Cinnamon is a Linux desktop that provides
+advanced innovative features and a traditional 
+user experience. The desktop layout is 
+similar to Gnome 2 with underlying technology
+forked from Gnome Shell. Cinnamon makes users
+feel at home with an easy-to-use and comfortable
+desktop experience.
+
+Modify your Cinnamon desktop Environment - https://cinnamon-spices.linuxmint.com
+
+Modify your Cinnamon desktop environment and extend its
+features with Cinnamon Spices. Cinnamon supports the
+following types of spices: Themes, applets, desklets, 
+actions and extensions.
+
+YOU CAN FIND ME HERE - https://github.com/vinberg88
+
+Warm Regards Mattias Vinberg - Debian 14 - Cinnamon - SwEden - Stockholm - Microsoft - WSL - Linux - 2026
+
+---------------------------------------------
+
 OpenEuler and Deepin - Install DEEPIN Desktop via openEuler 25.09 - WSL - Windows 11 - LINUX - 2026
 
 How to install DEEPIN Desktop via openEuler 25.09 - WSL - TEXT
