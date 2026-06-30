@@ -1,7 +1,7 @@
 Debian 14 and Cinnamon - How To Install Cinnamon DESKTOP via Windows 11 and DEBIAN 14 - WSL - X410 - 2026
 
 How to install Cinnamon DESKTOP on Debian 14 - GITHUB - TEXT
-WORKING on THAT NOW..
+https://github.com/vinberg88/opensuse/blob/main/Debian14-Cinnamon-.txt
 
 How to install Cinnamon DESKTOP on Debian 14 - YouTube - Movie
 https://www.youtube.com/watch?v=JSivfOHi5Rs
