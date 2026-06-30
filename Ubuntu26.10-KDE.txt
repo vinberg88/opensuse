@@ -1,0 +1,371 @@
+Ubuntu 26.10 and KDE 6 - Install KDE 6 via WSL and Ubuntu 26.10 - Windows 11 - Linux - X410 - 2026
+
+NOTE - THIS IS BETA UBUNTU 26.10 FOR WSL2 - JUST FOR TESTING THE LATEST FROM UBUNTU 26.10 and KDE DESKTOP 6.7
+
+❤️ Thank you for looking at this from ME and UBUNUT 26.10 and KDE 6 - https://github.com/vinberg88 ❤️ 
+
+How to install KDE 6 PLASMA via Ubuntu 26.10 STONKING - WSL - TEXT via GITHUB
+Comming Sone...
+
+How to install KDE 6 PLASMA via Ubuntu 26.10 STONKING - WSL - MOVIE via YouTUBE
+https://www.youtube.com/watch?v=Y5NwOOtirv0
+
+Download Ubuntu 26.10 STONKING here for WSL - Ubuntu 26.10 (Stonking Stingray) is currently in development, scheduled to be released in October 2026.
+
+https://cdimage.ubuntu.com/ubuntu-wsl/stonking/daily-live/current/ <-- this is changing day to day use proton link =]
+
+BACKUP FROM PROTON - UBUNTU 26.10 STONKING WSL Download: https://drive.proton.me/urls/HA90AH0YKR#kzeQwywILN8x
+
+Press Blue Icon and it will setup all for Ubuntu 26.10 Stonking.
+
+Tools that i use for WSL2 AND for Ubuntu 26.10 Stonking - 2026
+
+X410 - Xserver for windows 11 - So you have a Console / Desktop TO See in Windows11.
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL - Handel WSL image easy and Linux for WSL via This TOOL.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+WSL UI - This tool is free and works like Raft WSL - 2026 -
+A modern, lightweight manager for Windows Subsystem for
+Linux distributions. Easily manage your Windows Subsystem
+for Linux distributions with a clean, modern interface.
+Built with performance in mind using Tauri and React.
+https://apps.microsoft.com/detail/9p8548knj2m9?hl=sv-SE&gl=SE
+
+                             ....              
+              .',:clooo:  .:looooo:. 
+           .;looooooooc  .oooooooooo'
+        .;looooool:,''.  :ooooooooooc          WSL2: Canonical releases Ubuntu Stonking Stingray 26.10 
+       ;looool;.         'oooooooooo,
+      ;clool'             .cooooooc.  ,,       DESKTOP: KDE 6.7 PLASMA BETA and WINDOWS 11 
+         ...                ......  .:oo,
+  .;clol:,.                        .loooo'     Ubuntu 26.10 is in development, be released in October 2026.
+ :ooooooooo,                        'ooool     
+'ooooooooooo.                        loooo.    OS: Ubuntu Stonking Stingray (development branch) x86_64
+'ooooooooool                         coooo.    Host: Windows Subsystem for Linux - Ubuntu-26.10 (2.6.3.0)
+ ,loooooooc.                        .loooo.    Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+   .,;;;'.                          ;ooooc     
+       ...                         ,ooool.     https://github.com/vinberg88
+    .cooooc.              ..',,'.  .cooo.      
+      ;ooooo:.           ;oooooooc.  :l.       MEDIA: MATTIAS VINBERG - SWEDEN - STOCKHOLM - https://github.com/vinberg88
+       .coooooc,..      coooooooooo. 
+         .:ooooooolc:. .ooooooooooo'
+           .':loooooo;  ,oooooooooc 
+               ..';::c'  .;loooo:'
+
+
+About Ubuntu - https://ubuntu.com - https://ubuntu.com/wsl
+
+Ubuntu is one of the world's most popular open-source
+operating systems based on the Linux kernel. It was
+launched in 2004 by a company called Canonical. The
+main goal was to make Linux easy and accessible for
+everyday computer users. The name "Ubuntu" comes from
+an African philosophy that means "humanity toward others"
+or "I am because we are." Today, Ubuntu is used by
+millions of people globally. It powers old school laptops,
+modern desktop computers, and massive cloud servers that
+run websites like Netflix and Instagram. Canonical releases
+a new version of Ubuntu every six months—one in April and one
+in October. The version numbers match the year and month of
+release. For example, Ubuntu 24.04 came out in April 2024,
+and Ubuntu 26.10 arrives in October 2026.
+
+About KDE 6 Plasma - https://kde.org
+
+KDE Plasma is a modern, feature-rich desktop environment
+for Linux-based operating systems. Known for its sleek
+design, customizable interface, and extensive set of
+applications, it is also open source, devoid
+of ads, and makes protecting your privacy and
+personal data a priority. The KDE Plasma Launcher lets
+you quickly and easily launch applications, but it
+can do much more -- convenient tasks like bookmarking
+applications, searching for documents as you type, or
+navigating to common places help you get straight
+to the point. With a history of recently started programs
+and opened files, you can return to where you left off.
+It even remembers previously entered search terms so
+you don't have to. Your Plasma desktop is very flexible and
+can be configured just how you like it using the System Settings
+app. Easily manage hardware, software, and workspaces all in
+one place: Keyboard, Printer, Languages, Desktop Themes,
+Fonts, Networks. Kde 6 Plasma and its applications to
+a built-in dark theme.
+
+Want more stuff about WSL - Windows 11 - MICROSOFT - Linux - WSL2 - UBUNTU 26.10
+
+https://github.com/vinberg88/opensuse or look here https://vinberg88.github.io
+
+WSL stands for Windows Subsystem for Linux, a feature of Windows that
+allows users to run a Linux environment directly on their Windows
+machine without needing a separate virtual machine or dual-booting.
+
+YOU CAN FIND ME HERE - https://github.com/vinberg88
+
+-------------------------
+
+First thing you need to do is copy this file to C:\Users\user  <-- user is not your name =]
+
+Its easy use Explorer and copy and past.
+
+Download this file from PROTON: https://drive.proton.me/urls/G602NV0DFG#Rn5D1Tny3TpQ
+
+-------------------------------------------------------------
+
+NOW WE CAN START TO INSTALL UBUNTU 26.10 FOR WSL AND KDE 6 - 2026
+
+Download Ubuntu 26.10 STONKING here for WSL
+
+https://cdimage.ubuntu.com/ubuntu-wsl/daily-live/pending/ <-- this is changing day to day - use proton link =]
+
+BACKUP DOWNLOAD FRON PROTON - UBUNTU 26.10 - Download: https://drive.proton.me/urls/HA90AH0YKR#kzeQwywILN8x
+
+Press Blue Icon and it will setup all for Ubuntu 26.10 Stonking.
+
+-------------------------------------------------------------
+
+Ubuntu 26.10 via WSL after install - Ubuntu 26.10 STONKING
+
+sudo apt update && sudo apt upgrade -y
+
+--------------------------
+
+Install some Basic Programs for Ubuntu 26.10 and KDE 6.
+
+sudo apt install ibus bash git npm wget curl pipx pip dracut dbus systemd -y
+sudo apt install sddm* -y
+sudo apt install xorg* -y
+sudo apt install x11* -y
+sudo apt install daemonize -y
+
+----------------------------------------------
+
+Install this small program for Hyfetch and Ubuntu 26.10
+
+sudo apt install hyfetch fastfetch -y
+
+To test type this in terminal: hyfetch
+                                               
+                             ....              
+              .',:clooo:  .:looooo:.           
+           .;looooooooc  .oooooooooo'          Ubuntu 26.10 is currently in development, be released in October 2026.
+        .;looooool:,''.  :ooooooooooc          
+       ;looool;.         'oooooooooo,          https://github.com/vinberg88
+      ;clool'             .cooooooc.  ,,       
+         ...                ......  .:oo,      
+  .;clol:,.                        .loooo'     OS: Ubuntu Stonking Stingray (development branch) x86_64
+ :ooooooooo,                        'ooool     Host: Windows Subsystem for Linux - Ubuntu-26.10 (2.6.3.0)
+'ooooooooooo.                        loooo.    Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+'ooooooooool                         coooo.    
+ ,loooooooc.                        .loooo.    UBUNTU 26.10 AND KDE 6.7 - BETA TEST - BETA TEST - BETA TEST
+   .,;;;'.                          ;ooooc     
+       ...                         ,ooool.     MEDIA: MATTIAS VINBERG - SWEDEN - STOCKHOLM
+    .cooooc.              ..',,'.  .cooo.      
+      ;ooooo:.           ;oooooooc.  :l.       
+       .coooooc,..      coooooooooo.           
+         .:ooooooolc:. .ooooooooooo'           
+           .':loooooo;  ,oooooooooc            
+               ..';::c'  .;loooo:'             
+                             .                 
+
+----------------------------------
+
+Install Spotify FROM SWEDEN FOR UBUNTU 26.10
+
+curl -sS https://download.spotify.com/debian/pubkey_5384CE82BA52C83A.asc | sudo gpg --dearmor --yes -o /etc/apt/trusted.gpg.d/spotify.gpg
+echo "deb https://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+
+sudo apt-get update
+sudo apt-get install spotify-client
+
+--------------------------------------------
+
+Install Google Chrome Browser - Ubuntu 26.10 Stonking Stingray
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+----------------------------------
+
+Install Visual studio Code - Microsoft - Ubuntu 26.10 Stonking Stingray
+
+sudo apt-get install wget gpg
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" |sudo tee /etc/apt/sources.list.d/vscode.list > /dev/null
+rm -f packages.microsoft.gpg
+
+sudo apt install apt-transport-https apt -y
+sudo apt update
+sudo apt install code -y
+
+----------------------------------
+
+Install Gimp 3 and Libre Office for Ubuntu 26.10 Stonking Stingray
+
+sudo apt install gimp libreoffice -y
+
+----------------------------------
+
+Time to install KDE Plasma 6 for buntu 26.10 Stonking Stingray
+
+
+sudo apt install kde-standard -y
+
+or
+
+sudo apt install kde-full -y
+
+
+----------------------------------------------
+
+Fix IP problem for X410. Cant find screen problem. Look for ip adress in windows terminal / PowerShell: ipconfig
+
+FIRST OPEN POWERSHELL AND TYPE: ipconfig
+
+Last lines are IP-number for WSL.
+
+GO BACK TO Ubuntu 26.10 Terminal AND COPY AND PASTE THIS IN TERMINAL.
+
+sudo systemctl unmask systemd-resolved.service
+sudo systemctl enable systemd-resolved.service
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.23.144.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed =] Ubuntu 26.10 and KDE 6
+
+---------------------------------------------------------------
+
+Install claude-ai via SNAPD. Get some AI LOVE from claude =) 2026 - Ubuntu 26.10
+
+sudo snap install core
+
+sudo snap install claude-ai-desktop
+
+sudo snap connect claude-ai-desktop:audio-record
+
+sudo snap connect claude-ai-desktop:removable-media
+
+https://snapcraft.io/claude-ai-desktop
+
+Install SNAPD EXTRA for UBUNTU 26.10
+
+sudo snap install snap-store
+
+sudo snap install icon-theme-cat
+
+sudo snap install cursor-theme-catppuccin
+
+AM NOT A BIG LOVER OF SNAPD AND FLATPAK... LIKE DEB and RPM - BUILD PACKAGE
+FOR LINUX FROM SCRATCH VIA GITHUB OR LINUX FILE =]
+
+-------------------------------
+
+Install Blanket if you Want! - Listen to Sounds for UBUNTU 26.10 - KDE PLASMA DESKTOP 6.7
+
+sudo apt install blanket
+
+----------------------------------
+
+Paste in terminal - All - Ubuntu 26.10 Stonking
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+--------------------------------------------
+
+Ubuntu 26.10 Stonking AND kde 6 plasma small script =]
+
+Type this in terminal and put your user there: sudo loginctl enable-linger adolf
+
+--------------------------------------------
+
+MAKE THIS SMALL SCRIPT FOR Ubuntu 26.10 Stonking and KDE 6 PLASMA.
+
+Copy this and paste in terminal: sudo nano ~/.bash_ubuntu_desktop
+
+Then add this script to terminal
+
+export XDG_CURRENT_DESKTOP=ubuntu:GNOME
+export XDG_SESSION_DESKTOP=ubuntu
+export DESKTOP_SESSION=ubuntu
+export GNOME_SHELL_SESSION_MODE=ubuntu
+
+export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+export XDG_MENU_PREFIX=gnome-
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+------------------------------------------------------
+
+Final install this so we can start KDE 6 via Ubuntu 26.10 Stonking
+
+sudo apt install plasma-session-x11
+
+sudo apt install dbus-x11
+
+------------------------------------------------------
+
+Ubuntu 26.10 Stonking - Reboot… Reboot… Reboot… Reboot… - Ubuntu 26.10 Stonking
+
+------------------------------------------------------
+
+Now we can start KDE 6 for Ubuntu 26.10 StoneKING - BETA
+
+
+FIRST START X410 XSERVER THEN YOU START Ubuntu 26.10 VIA TERMINAL / CONSOLE / BASH
+
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Paste in terminal: . ~/.bash_ubuntu_desktop
+
+Type in terminal and start plasma: startplasma-x11
+
+
+Just wait when you start KDE 6 and UBUNTU 26.10 -  IT WILL WORK - Time is all we have - Ubuntu 26.10 STONKING =]
+
+------------------------------------------------------
+
+
+Kind Regards Mattias Vinberg - Sweden - KDE 6 - Ubuntu 26.10 - Linux - WSL2 - X410 - WINDOWS - 2026
+
+
+⣿⣿⣿⣿⣿⣿⣿⣿⠿⠛⠋⠉⠁⠀⠀⠀⠀⠈⠉⠙⠛⠿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⠿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠿⣿⣿⣿⣿⣿
+⣿⣿⣿⡟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣾⣿⣦⠀⠀⠀⠈⢻⣿⣿⣿
+⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⢠⣶⣶⣾⣷⣶⣆⠸⣿⣿⡟⠀⠀⠀⠀⠀⠹⣿⣿
+⣿⠃⠀⠀⠀⠀⠀⠀⣠⣾⣷⡈⠻⠿⠟⠻⠿⢿⣷⣤⣤⣄⠀⠀⠀⠀⠀⠀⠘⣿
+⡏⠀⠀⠀⠀⠀⠀⣴⣿⣿⠟⠁⠀⠀⠀⠀⠀⠀⠈⠻⣿⣿⣦⠀⠀⠀⠀⠀⠀⢹
+⠁⠀⠀⢀⣤⣤⡘⢿⣿⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣿⣿⡇⠀⠀⠀⠀⠀⠈
+⠀⠀⠀⣿⣿⣿⡇⢸⣿⡁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢈⣉⣉⡁⠀⠀⠀⠀⠀⠀     Ubuntu 26.10 STONKING - KDE 6 - Canonical LTD - 2026
+⡀⠀⠀⠈⠛⠛⢡⣾⣿⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣿⣿⡇⠀⠀⠀⠀⠀⢀
+⣇⠀⠀⠀⠀⠀⠀⠻⣿⣿⣦⡀⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿⠟⠀⠀⠀⠀⠀⠀⣸
+⣿⡄⠀⠀⠀⠀⠀⠀⠙⢿⡿⢁⣴⣶⣦⣴⣶⣾⡿⠛⠛⠋⠀⠀⠀⠀⠀⠀⢠⣿
+⣿⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠘⠿⠿⢿⡿⠿⠏⢰⣿⣿⣧⠀⠀⠀⠀⠀⣰⣿⣿    MEDIA: MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026 - https://github.com/vinberg88
+⣿⣿⣿⣧⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢿⣿⠟⠀⠀⠀⢀⣼⣿⣿⣿
+⣿⣿⣿⣿⣿⣶⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣶⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣶⣤⣄⣀⡀⠀⠀⠀⠀⢀⣀⣠⣤⣶⣿⣿⣿⣿⣿⣿⣿⣿
+
+
+© 2026 Canonical Ltd - Ubuntu and Canonical are registered trademarks of Canonical Ltd - Ubuntu 26.10
+(Stonking Stingray) is currently in development, scheduled to be released in October 2026 - BETA TEST.
+
+----------------------------------------------
