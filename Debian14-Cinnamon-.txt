@@ -1,0 +1,412 @@
+Debian 14 and Cinnamon - How To Install Cinnamon DESKTOP via Windows 11 and DEBIAN 14 - WSL - X410 - 2026
+
+How to install Cinnamon DESKTOP on Debian 14 - GITHUB - TEXT
+WORKING on THAT NOW..
+
+How to install Cinnamon DESKTOP on Debian 14 - YouTube - Movie
+https://www.youtube.com/watch?v=JSivfOHi5Rs
+
+TOOLS THAT I USE FOR WSL AND DEBIAN 14 - 2026 - Cinnamon DESKTOP
+
+X410 - Xserver for windows 11 - So you have a Console / Desktop TO See in Windows 11.
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL - Handel WSL image easy and Linux for WSL via This TOOL.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+WSL UI - This tool is free and works like Raft WSL - 2026
+A modern, lightweight manager for Windows Subsystem for
+Linux distributions. Easily manage your Windows
+Subsystem for Linux distributions with a clean,
+modern interface. Built with performance in mind using 
+Tauri and React. 
+https://apps.microsoft.com/detail/9p8548knj2m9?hl=sv-SE&gl=SE
+
+       _,met$$$$$gg.           
+    ,g$$$$$$$$$$$$$$$P.        
+  ,g$$P"        """Y$$.".     ❤️ THANK YOU FOR TESTING DEBIAN 14 and Cinnamon via Windows - WSL
+ ,$$P'              `$$$.      
+',$$P       ,ggs.     `$$b:   
+`d$$'     ,$P"'   .    $$$     DEBIAN 14 AND Cinnamon DESKTOP VIA WSL FOR WINDOWS 11 - 2026
+ $$P      d$'     ,    $$P     
+ $$:      $$.   -    ,d$$'     
+ $$;      Y$b._   _,d$P'       
+ Y$$.    `.`"Y$$$$P"'          OS: Debian 14 - GNU/Linux forky/sid (forky) x86_64
+ `$$b      "-.__               Host: Windows Subsystem for Linux - Debian14 (2.6.3.0)
+  `Y$$                         Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+   `Y$$.                       
+     `$$b.                     
+       `Y$$b.                  MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+          `"Y$b._              
+              `"""             https://github.com/vinberg88
+                               
+
+About Debian - https://www.debian.org - 2026 - DEBIAN 14 Forky
+
+Debian is a popular and freely available computer 
+operating system (OS) that uses a Unix-like 
+kernel typically Linux alongside other program 
+components, many of which come from GNU Project. 
+Debian can be downloaded over the internet 
+or, for a small charge, obtained on CD, DVD, Blu-ray
+disc or USB flash drive. As Open Source 
+software, Debian is developed by nearly 1,000 active
+programmers from around the world who collectively
+form Debian Project. he name Debian -- pronounced
+deb-EE-uhn -- is a portmanteau that blends the
+creator's first name, Ian, with that of his 
+wife, Debra.
+
+About Cinnamon Desktop for Debian 14. Read via Fedora and Ubuntu
+
+https://ubuntucinnamon.org - https://fedoraproject.org/spins/cinnamon
+
+Cinnamon is a Linux desktop that provides
+advanced innovative features and a traditional 
+user experience. The desktop layout is 
+similar to Gnome 2 with underlying technology
+forked from Gnome Shell. Cinnamon makes users
+feel at home with an easy-to-use and comfortable
+desktop experience.
+
+Modify your Cinnamon desktop Environment - https://cinnamon-spices.linuxmint.com
+
+Modify your Cinnamon desktop environment and extend its
+features with Cinnamon Spices. Cinnamon supports the
+following types of spices: Themes, applets, desklets, 
+actions and extensions.
+
+Want more stuff about WSL - Windows 11 - MICROSOFT - Linux - DESKTOPS - DEBIAN 14
+
+https://github.com/vinberg88/opensuse look here to https://vinberg88.github.io
+
+WSL stands for Windows Subsystem for Linux, a feature of Windows that
+allows users to run a Linux environment directly on their Windows
+machine without needing a separate virtual machine or dual-booting.
+
+-------------------------------------------------------------
+
+NOW WE CAN START TO INSTALL Debian 14 FOR WSL AND Cinnamon DESKTOP - 2026
+
+Open POWERSHELL TO INSTALL DEBIAN AND PASTE THIS in Terminal: wsl --install debian --name Debian14
+
+You can find Debian via Microsoft Store for WSL2
+https://apps.microsoft.com/detail/9msvkqc78pk6?hl=en-US&gl=US
+
+-------------------------------------------------------------
+
+Upgrade Debian 13 trixie to Debian 14 forky.
+
+Type in Terminal....
+
+sudo sed -i 's/trixie/forky/g' /etc/apt/sources.list.d/*.sources
+sudo apt update
+sudo apt full-upgrade -y
+
+-------------------------------
+
+Paste in terminal and install Cinnamon desktop via DEBIAN 14
+
+sudo apt install task-cinnamon-desktop
+
+sudo apt install cinnamon*
+
+sudo tasksel
+
+Look so cinnamon-desktop is installd - ✔ 
+
+---------------------------------------------------------------
+
+INSTALL HYFETCH SO WE CAN SEE THAT WE ARE ON DEBIAN 14
+
+sudo apt install fastfetch hyfetch
+
+Type in terminal: hyfetch
+
+And we are on Debian 14 - Forky
+
+                               
+       _,met$$$$$gg.           
+    ,g$$$$$$$$$$$$$$$P.        
+  ,g$$P"        """Y$$.".   
+ ,$$P'              `$$$.      
+',$$P       ,ggs.     `$$b:   
+`d$$'     ,$P"'   .    $$$     DEBIAN 14 AND Cinnamon DESKTOP VIA WSL FOR WINDOWS 11
+ $$P      d$'     ,    $$P     
+ $$:      $$.   -    ,d$$'     
+ $$;      Y$b._   _,d$P'       
+ Y$$.    `.`"Y$$$$P"'          OS: Debian 14 GNU/Linux forky/sid (forky) x86_64
+ `$$b      "-.__               Host: Windows Subsystem for Linux - Debian (2.7.8.0)
+  `Y$$                         Kernel: Linux 6.18.33.1-microsoft-standard-WSL2
+   `Y$$.                       
+     `$$b.                     
+       `Y$$b.                  MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+          `"Y$b._              
+              `"""             https://github.com/vinberg88
+                               
+
+-------------------------------
+
+Install programs for Debian 14 - We wil use GDM for handling graphics via Cinnamon DESKTOP
+
+sudo apt install ibus bash git npm wget curl pipx pip dracut dbus systemd -y
+
+sudo apt install gdm3* -y
+
+If asked under install use GDM3.
+
+sudo apt install x11* -y
+
+sudo apt install xorg* -y
+
+sudo apt install daemonize -y
+
+sudo systemctl set-default graphical
+
+sudo systemctl enable gdm.service
+
+---------------------------------------------------------------
+
+Install Audio Packages for Debian 14 and Cinnamon desktop
+
+sudo apt install -y \
+  pulseaudio \
+  pipewire \
+  pipewire-pulse \
+  alsa-utils
+
+---------------------------------------------------------------
+
+Install Themes and some extra stuff for Debian 14 and Cinnamon DESKTOP.
+
+sudo apt install arc-theme
+sudo apt install darkblood-gtk-theme
+sudo apt install darkcold-gtk-theme
+sudo apt install darkmint-gtk-theme
+sudo apt install greybird-gtk-theme
+sudo apt install blackbird-gtk-theme
+sudo apt install adwaita-icon-theme
+sudo apt install breeze-gtk-theme
+sudo apt install numix-gtk-theme
+sudo apt install yaru-theme-gtk
+
+sudo apt install adwaita-icon-theme
+sudo apt install deepin-icon-theme
+sudo apt install faba-icon-theme
+sudo apt install faenza-icon-theme
+sudo apt install gnome-brave-icon-theme
+sudo apt install numix-icon-theme
+sudo apt install yaru-theme-icon
+sudo apt install obsidian-icon-theme
+
+sudo apt install chameleon-cursor-theme
+sudo apt install crystalcursors
+sudo apt install bibata-cursor-theme
+sudo apt install oxygencursors
+sudo apt install bibata-cursor-theme
+sudo apt install dmz-cursor-theme
+sudo apt install oxygencursors
+
+sudo apt install gtk*
+sudo apt install gtk2*
+sudo apt install gtk3*
+sudo apt install gtk4*
+sudo apt install qt6* qt5*
+sudo apt install tar unzip gnome-shell*
+
+git clone https://github.com/Fausto-Korpsvart/Tokyonight-GTK-Theme.git
+cd Tokyonight-GTK-Theme
+cd themes
+sudo ./build.sh  
+sudo ./gtkrc.sh  
+sudo ./install.sh
+cd
+
+git clone https://github.com/Fausto-Korpsvart/Catppuccin-GTK-Theme.git
+cd Catppuccin-GTK-Theme
+cd themes
+sudo ./install.sh
+cd
+
+git clone https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme.git
+cd Gruvbox-GTK-Theme
+cd themes
+cd release
+sudo ./make-release.sh
+cd
+
+Works Perfect for Debian 14 and Cinnamon DESKTOP - ✔
+
+-------------------------------
+
+Install Google Chrome BROWSER for DEBIAN 14
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+-------------------------------
+
+Install Blanket for DEBIAN 14 - Listen to Sounds =]
+
+sudo apt install blanket -y
+
+-------------------------------
+
+Install GIMP for DEBIAN 14
+
+sudo apt install gimp -y
+
+-------------------------------
+
+Install Libreoffice for DEBIAN 14
+
+sudo apt install libreoffice -y
+
+-------------------------------
+
+Network for Debian 14 and Cinnamon desktop - 2026
+
+sudo apt install \
+openssh-client openssh-server \
+mosh net-tools nmap \
+wireguard openvpn
+sudo apt install liblinear-tools liblinear-dev ncat ndiff zenmap molly-guard -y
+
+---------------------------------------------------------------
+
+Install Visual studio Code - Microsoft - DEBIAN 14
+
+sudo apt-get install wget gpg
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" |sudo tee /etc/apt/sources.list.d/vscode.list > /dev/null
+rm -f packages.microsoft.gpg
+
+sudo apt install apt-transport-https apt -y
+sudo apt update
+sudo apt install code -y
+
+----------------------------------------------
+
+Fix IP problem for X410. Cant find screen problem. Look for ip adress in windows terminal / PowerShell: ipconfig
+
+OPEN POWERSHELL FROM MICROSOFT AND TYPE: ipconfig
+
+NOTE - Last lines are IP-numbers for WSL.
+
+GO BACK TO DEBIAN 14 Terminal AND COPY AND PASTE THIS IN TERMINAL.
+
+sudo apt install systemd-resolved -y
+
+sudo systemctl unmask systemd-resolved.service
+sudo systemctl enable systemd-resolved.service
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.23.144.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - Problem fixed for DEBIAN 14 and Cinnamon DESKTOP via WSL - 2026
+
+
+       _,met$$$$$gg.           
+    ,g$$$$$$$$$$$$$$$P.        https://github.com/vinberg88
+  ,g$$P"        """Y$$.".   
+ ,$$P'              `$$$.      
+',$$P       ,ggs.     `$$b:   
+`d$$'     ,$P"'   .    $$$     DEBIAN 14 AND Cinnamon DESKTOP VIA WSL FOR WINDOWS 11
+ $$P      d$'     ,    $$P     
+ $$:      $$.   -    ,d$$'     
+ $$;      Y$b._   _,d$P'       
+ Y$$.    `.`"Y$$$$P"'          OS: Debian 14 GNU/Linux forky/sid (forky) x86_64
+ `$$b      "-.__               Host: Windows Subsystem for Linux - Debian (2.7.8.0)
+  `Y$$                         Kernel: Linux 6.18.33.1-microsoft-standard-WSL2
+   `Y$$.                       
+     `$$b.                     
+       `Y$$b.                  MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+          `"Y$b._              
+              `"""            
+                               
+
+-------------------------------
+
+Paste In Terminal - All - DEBIAN 14
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-------------------------------
+
+Install this for DEBIAN 14 - Cinnamon DESKTOP - 2026
+
+Type this in terminal and put your user there: sudo loginctl enable-linger adolf
+
+-------------------------------
+
+LETS INSTALL A SMALL SCRIPT FOR DEBIAN 14 - Cinnamon DESKTOP - 2026
+
+Copy this and paste in terminal: sudo nano ~/.bash_debian_desktop
+
+Then add this script to terminal
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-------------------------------
+
+Debian 14 - Reboot Reboot Reboot - Debian 14 - Reboot Reboot Reboot - Debian 14
+
+-------------------------------
+
+Now we can start Cinnamon Desktop for Debian 14 and WSL - 2026
+
+
+FIRST START X410 XSERVER THEN YOU START Debian 14 VIA TERMINAL / CONSOLE / BASH
+
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Paste in terminal: . ~/.bash_debian_desktop
+
+Type in terminal and start desktop: cinnamon-session
+
+
+Wait when you start Cinnamon first time. It will work for DEBIAN 14 =]
+
+-------------------------------
+
+❤️ THANK YOU FOR TESTING DEBIAN 14 and Cinnamon DESKTOP via Windows - WSL - 2026
+
+       _,met$$$$$gg.           
+    ,g$$$$$$$$$$$$$$$P.        
+  ,g$$P"        """Y$$.".   
+ ,$$P'              `$$$.      
+',$$P       ,ggs.     `$$b:   
+`d$$'     ,$P"'   .    $$$     DEBIAN 14 AND KDE 6 DESKTOP VIA WSL FOR WINDOWS 11 - 2026
+ $$P      d$'     ,    $$P     
+ $$:      $$.   -    ,d$$'     
+ $$;      Y$b._   _,d$P'       
+ Y$$.    `.`"Y$$$$P"'          OS: Debian 14 - GNU/Linux forky/sid (forky) x86_64
+ `$$b      "-.__               Host: Windows Subsystem for Linux - Debian14 (2.6.3.0)
+  `Y$$                         Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+   `Y$$.                       
+     `$$b.                     
+       `Y$$b.                  
+          `"Y$b._              
+              `"""            
+                               
+Warm Regards Mattias Vinberg - Debian 14 - Cinnamon Desktop - SwEden - Stockholm - Microsoft - WSL - Linux - 2026
+
+The Debian trademark was first registered the 21st of December of 1999 - DEBIAN 14 - Cinnamon DESKTOP - WSL - LINUX.
+
+-------------------------------
