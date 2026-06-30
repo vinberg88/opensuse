@@ -56,6 +56,95 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Ubuntu 26.10 and KDE 6 - Install KDE 6 via WSL and Ubuntu 26.10 - Windows 11 - Linux - X410 - 2026
+
+How to install KDE 6 PLASMA via Ubuntu 26.10 STONKING - WSL - TEXT via GITHUB
+
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu26.10-KDE.txt
+
+How to install KDE 6 PLASMA via Ubuntu 26.10 STONKING - WSL - MOVIE via YouTUBE
+
+https://www.youtube.com/watch?v=Y5NwOOtirv0
+
+Download Ubuntu 26.10 STONKING here for WSL - Ubuntu 26.10 (Stonking Stingray) is currently in development, scheduled to be released in October 2026.
+
+https://cdimage.ubuntu.com/ubuntu-wsl/stonking/daily-live/current/ <-- this is changing day to day use proton link =]
+
+BACKUP FROM PROTON - UBUNTU 26.10 STONKING WSL Download: https://drive.proton.me/urls/HA90AH0YKR#kzeQwywILN8x
+
+Press Blue Icon and it will setup all for Ubuntu 26.10 Stonking.
+
+Tools that i use for WSL2 AND for Ubuntu 26.10 Stonking - 2026
+
+X410 - Xserver for windows 11 - So you have a Console / Desktop TO See in Windows11.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL - Handel WSL image easy and Linux for WSL via This TOOL.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+WSL UI - This tool is free and works like Raft WSL - 2026 -
+A modern, lightweight manager for Windows Subsystem for
+Linux distributions. Easily manage your Windows Subsystem
+for Linux distributions with a clean, modern interface.
+Built with performance in mind using Tauri and React.
+
+https://apps.microsoft.com/detail/9p8548knj2m9?hl=sv-SE&gl=SE
+
+<img width="1920" height="1080" alt="Ubuntu26 10-KDE" src="https://github.com/user-attachments/assets/fe4319e1-1d6c-4415-988f-c833ac48c551" />
+
+About Ubuntu - https://ubuntu.com - https://ubuntu.com/wsl
+
+Ubuntu is one of the world's most popular open-source
+operating systems based on the Linux kernel. It was
+launched in 2004 by a company called Canonical. The
+main goal was to make Linux easy and accessible for
+everyday computer users. The name "Ubuntu" comes from
+an African philosophy that means "humanity toward others"
+or "I am because we are." Today, Ubuntu is used by
+millions of people globally. It powers old school laptops,
+modern desktop computers, and massive cloud servers that
+run websites like Netflix and Instagram. Canonical releases
+a new version of Ubuntu every six months—one in April and one
+in October. The version numbers match the year and month of
+release. For example, Ubuntu 24.04 came out in April 2024,
+and Ubuntu 26.10 arrives in October 2026.
+
+About KDE 6 Plasma - https://kde.org
+
+KDE Plasma is a modern, feature-rich desktop environment
+for Linux-based operating systems. Known for its sleek
+design, customizable interface, and extensive set of
+applications, it is also open source, devoid
+of ads, and makes protecting your privacy and
+personal data a priority. The KDE Plasma Launcher lets
+you quickly and easily launch applications, but it
+can do much more -- convenient tasks like bookmarking
+applications, searching for documents as you type, or
+navigating to common places help you get straight
+to the point. With a history of recently started programs
+and opened files, you can return to where you left off.
+It even remembers previously entered search terms so
+you don't have to. Your Plasma desktop is very flexible and
+can be configured just how you like it using the System Settings
+app. Easily manage hardware, software, and workspaces all in
+one place: Keyboard, Printer, Languages, Desktop Themes,
+Fonts, Networks. Kde 6 Plasma and its applications to
+a built-in dark theme.
+
+Want more stuff about WSL - Windows 11 - MICROSOFT - Linux - WSL2 - UBUNTU 26.10
+
+https://github.com/vinberg88/opensuse or look here https://vinberg88.github.io
+
+WSL stands for Windows Subsystem for Linux, a feature of Windows that
+allows users to run a Linux environment directly on their Windows
+machine without needing a separate virtual machine or dual-booting.
+
+Kind Regards Mattias Vinberg - Sweden - KDE 6 - Ubuntu 26.10 - Linux - WSL2 - X410 - WINDOWS - 2026
+
+---------------------------------------------
+
 Debian 14 and Cinnamon - How To Install Cinnamon DESKTOP via Windows 11 and DEBIAN 14 - WSL - X410 - 2026
 
 How to install Cinnamon DESKTOP on Debian 14 - GITHUB - TEXT
