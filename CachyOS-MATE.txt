@@ -1,7 +1,7 @@
 CachyOS and MATE Desktop - How to install MATE via Windows 11 - WSL - CachyOS - X410 - Youtube - 2026
 
 How to install MATE DESKTOP via CachyOS Linux and Windows 11 - TEXT via GITHUB.
-Comming Sone.
+https://github.com/vinberg88/opensuse/blob/main/CachyOS-MATE.txt
 
 How to install MATE DESKTOP via CachyOS Linux and Windows 11 - MOVIE via YOUTUBE.
 https://www.youtube.com/watch?v=vcLceGZ_BGs
