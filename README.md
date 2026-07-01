@@ -56,6 +56,76 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+CachyOS and MATE Desktop - How to install MATE via Windows 11 - WSL - CachyOS - X410 - Youtube - 2026
+
+How to install MATE DESKTOP via CachyOS Linux and Windows 11 - TEXT via GITHUB.
+
+https://github.com/vinberg88/opensuse/blob/main/CachyOS-MATE.txt
+
+How to install MATE DESKTOP via CachyOS Linux and Windows 11 - MOVIE via YOUTUBE.
+
+https://www.youtube.com/watch?v=vcLceGZ_BGs
+
+TOOLS THAT I USE FOR WSL and WINDOWS 11 - 2026 - CachyOS LINUX AND MATE DESKTOP - ARCH LINUX
+
+Raft WSL is a powerful tool for managing Windows Subsystem for Linux distributions.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+Use X410 - X Server for Windows 11 and it works well.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+WSL UI - This tool is free and works like Raft WSL
+- 2026 - A modern, lightweight manager for Windows
+Subsystem for Linux distributions.
+
+https://apps.microsoft.com/detail/9p8548knj2m9?hl=sv-SE&gl=SE
+
+<img width="1920" height="1080" alt="CachyOS-MATE" src="https://github.com/user-attachments/assets/eb6c3fcf-e5b9-4af4-9dd5-f08ba0681263" />
+
+About MATE Desktop - https://ubuntu-mate.org - https://fedoraproject.org/spins/mate - 2026 - WSL2 - ARCH - CachyOS
+
+The traditional desktop is Mate. New to some, a classic to
+others. MATE is an intuitive attractive desktop using 
+traditional metaphors. The legacy of GNOME 2 continues to
+be modern, lightweight and fast. It provides an intuitive
+and attractive desktop environment using traditional 
+metaphors for Linux and other Unix-like operating systems.
+According to the MATE team's manifesto, they aim to keep a
+traditional desktop look and feel, maintain an open development
+model, have an open relationship with GNU/Linux 
+distributions, and serve as a good alternative for lower-end
+hardware. Mate Desktop is for All Linux USERS. 
+
+About CachyOS - https://cachyos.org - CachyOS Linux - 2026 - WSL2 - ARCH
+
+CachyOS is an independent, community-driven project.
+Your financial support directly contributes to our
+infrastructure, development, and the continuous
+improvement of the operating system. CachyOS ships
+every package optimized for your CPU - compiled 
+with x86-64-v3/v4 and Zen4 instructions, LTO,
+and PGO - on top of a custom kernel with the 
+tuned EEVDF scheduler. The result: a noticeably
+faster Arch Linux experience with the same 
+rolling-release flexibility you expect.
+
+Find More Stuff for WSL here. Diffrent desktops for WSL and Windows 11 - 2026
+
+https://github.com/vinberg88/opensuse -  MY PAGE - https://vinberg88.github.io
+
+WSL, which stands for Windows Subsystem for Linux, is a compatibility
+layer created by Microsoft that permits users to operate a Linux environment
+directly on a Windows system without requiring a virtual machine or a
+dual-boot configuration.
+
+Download CACHYOS from github via this link - https://github.com/dwalleck/cachyos-wsl
+
+Kind Regards Mattias Vinberg - Sweden - MATE DESKTOP - CACHYOS - WSL - X410 - WINDOWS - ARCH - 2026
+
+---------------------------------------------
+
 Ubuntu 26.10 and KDE 6 - Install KDE 6 via WSL and Ubuntu 26.10 - Windows 11 - Linux - X410 - 2026
 
 How to install KDE 6 PLASMA via Ubuntu 26.10 STONKING - WSL - TEXT via GITHUB
