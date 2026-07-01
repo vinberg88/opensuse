@@ -1,0 +1,426 @@
+CachyOS and MATE Desktop - How to install MATE via Windows 11 - WSL - CachyOS - X410 - Youtube - 2026
+
+How to install MATE DESKTOP via CachyOS Linux and Windows 11 - TEXT via GITHUB.
+Comming Sone.
+
+How to install MATE DESKTOP via CachyOS Linux and Windows 11 - MOVIE via YOUTUBE.
+https://www.youtube.com/watch?v=vcLceGZ_BGs
+
+TOOLS THAT I USE FOR WSL and WINDOWS 11 - 2026 - CachyOS LINUX AND MATE DESKTOP - ARCH LINUX
+
+Raft WSL is a powerful tool for managing Windows Subsystem for Linux distributions.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+Use X410 - X Server for Windows 11 and it works well.
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+WSL UI - This tool is free and works like Raft WSL
+- 2026 - A modern, lightweight manager for Windows
+Subsystem for Linux distributions.
+https://apps.microsoft.com/detail/9p8548knj2m9?hl=sv-SE&gl=SE
+
+
+           .-------------------------:                    
+          .+=========================.                    CachyOS on WSL - ARCH BASED DISTRO that WORKS - MATE DESKTOP - ARCH
+         :++===++==================-       :++-           
+        :*++====+++++=============-        .==:           MEDIA: MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+       -*+++=====+***++==========:                        
+      =*++++========------------:                         
+     =*+++++=====-                     ...                OS: CachyOS x86_64 - ARCH - MATE DESKTOP - Windows 11 PRO - 2026
+   .+*+++++=-===:                    .=+++=:              
+  :++++=====-==:                     -*****+              Host: Windows Subsystem for Linux - cachyos (2.7.8.0)
+ :++========-=.                      .=+**+.              
+.+==========-.                          .                 Kernel: Linux 6.18.33.1-microsoft-standard-WSL2
+ :+++++++====-                                .--==-.     
+  :++==========.                             :+++++++:    
+   .-===========.                            =*****+*+    CachyOS - MATE DESKTOP - 2026 - WINDOWS 11 - X410 - Linux - ARCH - SWEDEN
+    .-===========:                           .+*****+:    
+      -=======++++:::::::::::::::::::::::::-:  .---:      
+       :======++++====+++******************=.             Find ME HERE - https://github.com/vinberg88
+        :=====+++==========++++++++++++++*-               
+         .====++==============++++++++++*-                DOWNLOAD CachyOS here - https://github.com/dwalleck/cachyos-wsl
+          .===+==================+++++++:                 
+           .-=======================+++:                  The CachyOS name and logo are recognized trademarks - 2026
+             ..........................
+
+
+About MATE Desktop - https://ubuntu-mate.org - https://fedoraproject.org/spins/mate - 2026 - WSL2 - ARCH - CachyOS
+
+The traditional desktop is Mate. New to some, a classic to
+others. MATE is an intuitive attractive desktop using 
+traditional metaphors. The legacy of GNOME 2 continues to
+be modern, lightweight and fast. It provides an intuitive
+and attractive desktop environment using traditional 
+metaphors for Linux and other Unix-like operating systems.
+According to the MATE team's manifesto, they aim to keep a
+traditional desktop look and feel, maintain an open development
+model, have an open relationship with GNU/Linux 
+distributions, and serve as a good alternative for lower-end
+hardware. Mate Desktop is for All Linux USERS. 
+
+About CachyOS - https://cachyos.org - CachyOS Linux - 2026 - WSL2 - ARCH
+
+CachyOS is an independent, community-driven project.
+Your financial support directly contributes to our
+infrastructure, development, and the continuous
+improvement of the operating system. CachyOS ships
+every package optimized for your CPU - compiled 
+with x86-64-v3/v4 and Zen4 instructions, LTO,
+and PGO - on top of a custom kernel with the 
+tuned EEVDF scheduler. The result: a noticeably
+faster Arch Linux experience with the same 
+rolling-release flexibility you expect.
+
+Find More Stuff for WSL here. Diffrent desktops for WSL and Windows 11 - 2026
+
+https://github.com/vinberg88/opensuse -  MY PAGE - https://vinberg88.github.io
+
+WSL, which stands for Windows Subsystem for Linux, is a compatibility
+layer created by Microsoft that permits users to operate a Linux environment
+directly on a Windows system without requiring a virtual machine or a
+dual-boot configuration.
+
+------------------------------------------------------------
+
+TIME TO INSTALL MATE Desktop AND CACHYOS LINUX - 2026
+
+Download CACHYOS from github via this link - https://github.com/dwalleck/cachyos-wsl
+
+Press the blue ICON and you are running CACHYOS LINUX - USER SETUP AND PACMAN SETUP - ARCH BASED DISTRO - 2026
+
+------------------------------------------------------------
+
+Open this file via nano for CACHYOS and change text - MATE Desktop
+
+Paste in terminal: sudo nano /etc/pacman.conf
+
+# Misc options
+#UseSyslog
+Color
+ParallelDownloads = 20
+ILoveCandy
+#TotalDownload
+#CheckSpace
+VerbosePkgLists
+
+------------------------------------------------------------
+
+Paste this in terminal and update system - CACHYOS LINUX - 2026 - MATE Desktop
+
+sudo pacman -Syu
+
+------------------------------------------------------------
+
+INFO: Reboot is recommended due to the upgrade of core system package(s)
+
+PLEASE REBOOT CACHYOS - PLEASE REBOOT CACHYOS - PLEASE REBOOT CACHYOS
+
+------------------------------------------------------------
+
+INSTALL BUILD TOOLS FOR WALLPAPER AND SO ONE FOR CACHYOS - MAKE MATE DESKTOP RICH.
+
+yay -S gnome-shell
+
+yay -S tar unzip gtk pkg
+
+THIS WILL TAKE SOME TIME TO BUILD FOR ARCH LINUX.
+
+Made with 💖 by the - CACHYOS - ARCH - MATE DESKTOP
+Let’s build something great, together.
+
+--------------------------------------------
+
+INSTALL WALLPAPERS FOR CACHYOS LINUX AND MATE DESKTOP - 2026 - ✔
+
+git clone https://github.com/archcraft-os/archcraft-wallpapers.git
+cd archcraft-wallpapers
+./build.sh
+cd
+
+yay -S archlinux-wallpaper caja-wallpaper cosmic-wallpapers deepin-wallpapers elementary-wallpapers nwg-shell-wallpapers 
+
+yay -S cachyos/cachyos-wallpapers system76-wallpapers arch-logo-dark-wallpapers plasma-workspace-wallpapers
+
+------------------------------------------------------
+
+Install blanket - gimp - LibreOffice - Code - CACHYOS LINUX FOR WSL - MATE Desktop
+
+yay -S gimp blanket libreoffice code
+
+--------------------------
+
+Install Google Chrome BROWSER - WORKS PERFECT ON CACHYOS AND MATE Desktop.
+
+yay -S google-chrome thunderbird
+
+--------------------------
+
+Install hyfetch and fastfetch for CACHYOS and MATE Desktop
+
+yay -S hyfetch fastfetch
+
+To test hyfetch type hyfetch in terminal: hyfetch
+
+           .-------------------------:                    
+          .+=========================.                    Enjoy CachyOS on WSL! ARCH BASED REPO - MATE Desktop
+         :++===++==================-       :++-           
+        :*++====+++++=============-        .==:           MEDIA: MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+       -*+++=====+***++==========:                        
+      =*++++========------------:                         
+     =*+++++=====-                     ...                OS: CachyOS x86_64
+   .+*+++++=-===:                    .=+++=:              
+  :++++=====-==:                     -*****+              Host: Windows Subsystem for Linux - cachyos (2.7.8.0)
+ :++========-=.                      .=+**+.              
+.+==========-.                          .                 Kernel: Linux 6.18.33.1-microsoft-standard-WSL2
+ :+++++++====-                                .--==-.     
+  :++==========.                             :+++++++:    
+   .-===========.                            =*****+*+    CachyOS - MATE Desktop - 2026 - WINDOWS 11 - X410 - Linux - SWEDEN
+    .-===========:                           .+*****+:    
+      -=======++++:::::::::::::::::::::::::-:  .---:      
+       :======++++====+++******************=.             Find ME HERE - https://github.com/vinberg88
+        :=====+++==========++++++++++++++*-               
+         .====++==============++++++++++*-                DOWNLOAD CachyOS here - https://github.com/dwalleck/cachyos-wsl
+          .===+==================+++++++:                 
+           .-=======================+++:                  The CachyOS name and logo are recognized trademarks - 2026
+             ..........................
+
+-------------------------
+
+Installl this for CACHYOS and MATE desktop =] 
+
+sudo pacman -S xorg xorg-server xorg-xinit mesa xterm xorg-twm xorg-xrandr -y
+
+sudo pacman -S xorg-twm xterm xorg-xclock lightdm bluedevil libqtxdg -y
+
+sudo pacman -S xorg-xrandr xorg-xfontsel xorg-xlsfonts xorg-xkill xorg-xinput xorg-xwininfo -y
+
+sudo pacman -S lightdm-gtk-greeter -y
+
+yay -S kwin -y
+
+yay -S gnome-terminal -y
+
+yay -S qt6 qt5 -y
+
+------------------------------------------------------------
+
+MAKE lightDM work for CACHYOS - Copy and paste all in terminal.
+
+sudo systemctl enable lightdm
+sudo systemctl enable lightdm.service
+sudo systemctl set-default graphical
+
+------------------------------------------------------------
+
+Time to install MATE Desktop Environment in CACHYOS Linux - WSL - 2026
+
+sudo pacman -S mate mate-extra
+
+
+█▀▀ ▄▀█ █▀▀ █░█ █▄█ █▀█ █▀
+█▄▄ █▀█ █▄▄ █▀█ ░█░ █▄█ ▄█  MATE Desktop - Wsl - Windows 11 PRO - 2026
+
+█▀▀ ▄▀█ █▀▀ █░█ █▄█ █▀█ █▀
+█▄▄ █▀█ █▄▄ █▀█ ░█░ █▄█ ▄█  DOWNLOAD CachyOS - WSL - https://github.com/dwalleck/cachyos-wsl
+
+█▀▀ ▄▀█ █▀▀ █░█ █▄█ █▀█ █▀  Find ME HERE - https://github.com/vinberg88
+█▄▄ █▀█ █▄▄ █▀█ ░█░ █▄█ ▄█
+
+------------------------------------------------------------
+
+Paste in terminal - All - CACHYOS LINUX and MATE DESKTOP - 2026
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+------------------------------------------------------------
+
+COPY AND PASTE THIS TO TERMINAL FOR CACHYOS LINUX AND MATE DESKTOP.
+
+Type this in terminal and put your username there - sudo loginctl enable-linger adolf
+
+------------------------------------------------------
+
+Fix IP problem for X410. Cant find screen problem - CACHYOS AND MATE DESKTOP.
+
+OPEN POWERSHELL FROM MICROSOFT AND TYPE: ipconfig
+
+NOTE - Importent to look for ip. Last lines are IP-numbers for WSL in POWERSHELL so xserver works.
+
+NOW GO BACK TO CACHYOS Terminal and paste this.
+
+sudo systemctl unmask systemd-resolved.service
+sudo systemctl enable systemd-resolved.service
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.23.144.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed CACHYOS AND MATE DESKTOP =] 
+
+----------------------------------------------
+
+MAKE THIS SMALL SCRIPT FOR CACHYOS - MATE DESKTOP
+
+Type in terminal: sudo nano ~/.bash_arch_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+--------------------------------------------
+
+INSTALL SOME THEMES FOR MATE DESKTOP AND CACHYOS - 2026 - MAKE MATE RICH.
+
+git clone https://github.com/Fausto-Korpsvart/Tokyonight-GTK-Theme.git
+cd Tokyonight-GTK-Theme
+cd themes
+sudo ./build.sh  
+sudo ./gtkrc.sh  
+sudo ./install.sh
+cd
+
+git clone https://github.com/Fausto-Korpsvart/Catppuccin-GTK-Theme.git
+cd Catppuccin-GTK-Theme
+cd themes
+sudo ./install.sh
+cd release
+sudo ./packager.sh
+cd
+
+git clone https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme.git
+cd Gruvbox-GTK-Theme
+cd themes
+sudo ./build.sh  
+sudo ./gtkrc.sh  
+sudo ./install.sh
+cd release
+sudo ./make-release.sh
+cd
+
+git clone https://github.com/Fausto-Korpsvart/Material-GTK-Themes.git
+cd Material-GTK-Themes
+cd themes
+sudo ./build.sh  
+sudo ./gtkrc.sh  
+sudo ./install.sh
+cd release 
+sudo ./make-release.sh
+cd
+
+git clone https://github.com/Fausto-Korpsvart/Nightfox-GTK-Theme.git
+cd Nightfox-GTK-Theme
+cd themes
+sudo ./build.sh  
+sudo ./gtkrc.sh  
+sudo ./install.sh
+cd release 
+sudo ./make-release.sh
+cd
+
+------------------------------------------------------
+
+Install some cursor for CACHYOS and MATE DESKTOP - ARCH LINUX - 2026
+
+yay -S xcursor-comix xcursor-themes xcursor-vanilla-dmz xcursor-vanilla-dmz-aa catppuccin-cursors-latte
+
+yay -S adwaita-cursors breeze-cursors capitaine-cursors default-cursors vimix-cursors
+
+------------------------------------------------------
+
+INSTALL Tokyonight DARK ICONS for Cinnamon Desktop and CACHYOS
+
+DOWNLOAD LINK MAYBE NOT WORK - https://www.gnome-look.org/p/1681475
+
+---------------
+
+COPY AND PASTE FOR CACHYOS AND MATE DESKTOP - 2026 - WSL - LinuX 
+
+wget https://www.braknulla.se/Tokyonight-Dark-Icons.zip
+
+sudo mkdir -p ~/.local/share/Icons
+
+sudo unzip Tokyonight-Dark-Icons.zip -d ~/.local/share/icons/
+
+yay -S papirus-icon-theme mate-icon-theme sugar-artwork deepin-icon-theme budgie-desktop-view cosmic-icon-theme
+
+yay -S tela-circle-icon-theme-dracula materia-gtk-theme qogir-icon-theme pop-gtk-theme adapta-gtk-theme adw-gtk-theme deepin-gtk-theme
+
+yay -S mate-themes orchis-theme keycloak-archlinux-theme tela-circle-icon-theme kiconthemes kiconthemes5
+
+yay -S solarized-dark-themes kvantum vivid cachyos-themes-sddm papirus-icon-theme mint-themes 
+
+Works Perfect for CACHYOS LINUX and MATE Desktop - 2026 - ✔
+
+------------------------------------------------------
+
+INSTALL FONTS FOR CACHYOS LINUX AND MATE DESKTOP - 2026
+
+yay -S ttf-nerd-fonts-symbols-common ttf-nerd-fonts-symbols-mono ttf-nerd-fonts-symbols texlive-latexextra ttf-material-symbols-variable ttf-fira-mono ttf-fira-sans
+
+------------------------------------------------------
+
+Please Reboot CACHYOS LINUX - Please Reboot CACHYOS LINUX - Please Reboot CACHYOS LINUX - ✔
+
+------------------------------------------------------
+
+Now we can start MATE desktop for CACHYOS LINUX - 2026 - WSL - LINUX - ARCH ✔
+
+
+FIRST START X410 XSERVER THEN YOU START CACHYOS LINUX VIA TERMINAL / CONSOLE / BASH - MATE DESKTOP READY TO START.
+
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Paste in terminal: . ~/.bash_arch_desktop
+
+Type in terminal and start plasma: dbus-launch mate-session
+
+
+      Just wait when you start MATE desktop.. It will work well via CACHYOS -]
+
+------------------------------------------------------
+
+The CACHYOS Linux name and logo are recognized trademarks for CACHYOS Linux - 2026
+
+
+           .-------------------------:                    
+          .+=========================.                    Enjoy CachyOS on WSL! ARCH BASED REPO THAT WORKS - MATE DESKTOP 
+         :++===++==================-       :++-           
+        :*++====+++++=============-        .==:           MEDIA: MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+       -*+++=====+***++==========:                        
+      =*++++========------------:                         
+     =*+++++=====-                     ...                OS: CachyOS x86_64 - Microsoft Windows 11 - PRO - DEV - MATE DESKTOP
+   .+*+++++=-===:                    .=+++=:              
+  :++++=====-==:                     -*****+              Host: Windows Subsystem for Linux - cachyos (2.7.8.0)
+ :++========-=.                      .=+**+.              
+.+==========-.                          .                 Kernel: Linux 6.18.33.1-microsoft-standard-WSL2
+ :+++++++====-                                .--==-.     
+  :++==========.                             :+++++++:    
+   .-===========.                            =*****+*+    CachyOS - MATE DESKTOP - 2026 - WINDOWS 11 - X410 - Linux - SWEDEN
+    .-===========:                           .+*****+:    
+      -=======++++:::::::::::::::::::::::::-:  .---:      
+       :======++++====+++******************=.             Find ME HERE - https://github.com/vinberg88
+        :=====+++==========++++++++++++++*-               
+         .====++==============++++++++++*-                
+          .===+==================+++++++:                 
+           .-=======================+++:                  The CachyOS name and logo are recognized trademarks - 2026
+             ..........................
+
+Regards Mattias Vinberg - Sweden - MATE DESKTOP - CACHYOS - WSL - X410 - WINDOWS - 2026
+
+A custom Windows Subsystem for Linux (WSL) distribution based on CachyOS, an optimized Arch Linux distribution - MATE DESKTOP - 2026
+
+------------------------------------------------------------
