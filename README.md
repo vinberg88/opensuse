@@ -56,6 +56,64 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Ubuntu 26.04 and Cinnamon desktop - Install Cinnamon via WSL - Ubuntu - Windows 11 - Linux - X410 - 2026
+
+How to install Cinnamon desktop via Ubuntu 26.04 - Resolute Raccoon - WSL - TEXT
+
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu26.04-Cinnamon.txt
+
+ow to install Cinnamon desktop via Ubuntu 26.04 - Resolute Raccoon - WSL - MOVIE
+
+https://www.youtube.com/watch?v=hgdb2sG5brw
+
+BEST WAY TO INSTALL UBUNTU 26.04 is POWERSHELL: wsl --install Ubuntu-26.04 --name Ubuntu-26.04
+
+TOOLS THAT I USE FOR WSL and WINDOWS 11 - 2026 - UBUNTU AND Cinnamon DESKTOP - 2026
+
+Raft WSL is a powerful tool for managing Windows Subsystem for Linux distributions.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+Use X410 - X Server for Windows 11 and it works well.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+WSL UI - This tool is free and works like Raft WSL
+- 2026 - A modern, lightweight manager for Windows
+Subsystem for Linux distributions.
+
+https://apps.microsoft.com/detail/9p8548knj2m9?hl=sv-SE&gl=SE
+
+<img width="1920" height="1080" alt="Ubuntu26 04Cinnamon" src="https://github.com/user-attachments/assets/da37f06f-7fec-48e7-b0d4-4dd09164e190" />
+
+About Ubuntu 26.04 - Resolute Raccoon - https://ubuntu.com - https://ubuntu.com/desktop/wsl
+
+Ubuntu is an ancient African word meaning ‘humanity to others’.
+It is often described as reminding us that ‘I am what I am
+because of who we all are’. We bring the spirit of Ubuntu
+to the world of computers and software. The Ubuntu 
+distribution represents the best of what the world’s software
+community has shared with the world. Canonical is the
+publisher of Ubuntu. Members of the Canonical team lead
+aspects of Ubuntu such as the kernel, default desktop,
+foundations, security, OpenStack, and Kubernetes. 
+
+What is Cinnamon Desktop - https://wiki.archlinux.org/title/Cinnamon
+
+Cinnamon is a Linux desktop that provides advanced innovative
+features and a traditional user experience. The desktop layout
+is similar to Gnome 2 with underlying technology forked from
+Gnome Shell. Cinnamon makes users feel at home with an 
+easy-to-use and comfortable desktop experience.
+
+Find More Stuff for WSL here. Diffrent desktops for WSL and Windows 11 - 2026
+
+https://github.com/vinberg88/opensuse -  MY PAGE - https://vinberg88.github.io
+
+Best Regards Mattias Vinberg - Sweden - Cinnamon - Ubuntu 26.04 Resolute Raccoon - Linux - WSL - X410 - WINDOWS - 2026
+
+----------------------------------------------
+
 CachyOS and MATE Desktop - How to install MATE via Windows 11 - WSL - CachyOS - X410 - Youtube - 2026
 
 How to install MATE DESKTOP via CachyOS Linux and Windows 11 - TEXT via GITHUB.
