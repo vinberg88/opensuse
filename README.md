@@ -110,7 +110,7 @@ Find More Stuff for WSL here. Diffrent desktops for WSL and Windows 11 - 2026
 
 https://github.com/vinberg88/opensuse -  MY PAGE - https://vinberg88.github.io
 
-Best Regards Mattias Vinberg - Sweden - Cinnamon - Ubuntu 26.04 Resolute Raccoon - Linux - WSL - X410 - WINDOWS - 2026
+Regards Mattias Vinberg - Sweden - Cinnamon - Ubuntu 26.04 - Linux - WSL - X410 - WINDOWS - 2026
 
 ----------------------------------------------
 
