@@ -9,7 +9,7 @@ Best way to install ARCH is powershell: wsl --install archlinux --name Arch
 -----------------
 
 How to install KDE 6 PLASMA via ARCH and Windows 11 - TEXT via GITHUB.
-Comming Sone...
+https://github.com/vinberg88/opensuse/blob/main/Arch-KDE6-NEXT.txt
 
 How to install KDE 6 PLASMA via ARCH and Windows 11 - MOVIE via YOUTUBE.
 https://www.youtube.com/watch?v=CrIUpU7_-F8
