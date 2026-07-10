@@ -1,0 +1,642 @@
+ARCH and KDE 6 - How to install KDE 6 via ARCH - X410 - Windows 11 - WSLg - Linux - 2026
+
+♥ Updated - 2026/07/11 - FULL SOUND setup AND ALL WORKS VIA KDE 6 - WSLg - Latest KDE 6 AND ARCH that works via WSLg ♥
+
+Download ARCH from this page: https://github.com/yuk7/ArchWSL
+
+Best way to install ARCH is powershell: wsl --install archlinux --name Arch
+
+-----------------
+
+How to install KDE 6 PLASMA via ARCH and Windows 11 - TEXT via GITHUB.
+Comming Sone...
+
+How to install KDE 6 PLASMA via ARCH and Windows 11 - MOVIE via YOUTUBE.
+https://www.youtube.com/watch?v=CrIUpU7_-F8
+
+-----------------
+
+TOOLS THAT I USE FOR WSL and WINDOWS 11 - 2026 - ARCH LINUX AND KDE 6.
+
+Raft WSL is a powerful tool for managing Windows Subsystem for Linux distributions.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+Use X410 - X Server for Windows 11 and it works well.
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+WSL UI - This tool is free and works like Raft WSL
+- 2026 - A modern, lightweight manager for Windows
+Subsystem for Linux distributions.
+https://apps.microsoft.com/detail/9p8548knj2m9?hl=sv-SE&gl=SE
+
+
+                   -`                     
+                  .o+`                    
+                 `ooo/                    
+                `+oooo:                   
+               `+oooooo:                  MEDIA: MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+               -+oooooo+:                 
+             `/:-:++oooo+:                https://github.com/vinberg88 - Wayland setup 
+            `/++++/+++++++:               
+           `/++++++++++++++:              Host: Windows Subsystem for Linux - Arch (2.9.3.0)
+          `/+++ooooooooooooo/`            OS: Arch Linux x86_64
+         ./ooosssso++osssssso+`           Kernel: Linux 6.18.33.1-microsoft-standard-WSL2
+        .oossssso-````/ossssss+`          WM: WSLg - WSLg: 1.0.79 - Wayland
+       -osssssso.      :ssssssso.         
+      :osssssss/        osssso+++.        ARCH - KDE 6 - 2026 - WINDOWS 11 - X410 - Linux - SWEDEN
+     /ossssssss/        +ssssooo/-        
+   `/ossssso+/:-        -:/+osssso+-      
+  `+sso+:-`                 `.-/+oso:     The Arch Linux name and logo are recognized trademarks - 2026
+ `++:.                           `-/+/    
+ .`                                 `/    
+                                      
+
+About KDE plasma 6 - https://kde.org
+
+Plasma is a Desktop - Use Plasma to surf the
+web; keep in touch with colleagues, friends and family; manage your
+files, enjoy music and videos; and get creative and productive at work.
+Do it all in a beautiful environment that adapts to your needs, and
+with the safety, privacy-protection and peace of mind that the best
+Free Open Source Software has to offer.
+
+About Arch - https://archlinux.org
+
+Arch Linux, a lightweight and flexible Linux® distribution
+that tries to Keep It Simple. Arch Linux is an independently 
+developed, x86-64 general-purpose GNU/Linux distribution that strives
+to provide the latest stable versions of most software by following
+a rolling-release model. The default installation is a minimal
+base system, configured by the user to only add what is
+purposely required. Arch Linux uses a "rolling release"
+system which allows one-time installation and perpetual software
+upgrades. It is not generally necessary to reinstall or upgrade
+your Arch Linux system from one "version" to the next.
+By issuing one command, an Arch system is kept up-to-date
+and on the bleeding edge. 
+
+Find More Stuff for WSL here. Diffrent desktops for WSL and Windows 11 - ARCH - 2026
+
+https://github.com/vinberg88/opensuse or https://vinberg88.github.io
+
+WSL, which stands for Windows Subsystem for Linux, is 
+a compatibility layer created by Microsoft that permits
+users to operate a Linux Environment directly on a 
+Windows system without requiring a virtual machine
+or a dual-boot configuration.
+
+-------------------------
+
+Lets install ARCH and KDE 6 via POWERSHELL - WSL - 2026
+
+Install ARCH via POWERSHELL - EASY : wsl --install archlinux --name Arch
+
+-------------------------
+
+Paste this in terminal and update system - ARCH OS and KDE 6 - 2026
+
+cd
+
+pacman -Syu
+
+------------------------------------------------------------
+
+Install sudo and nano for ARCH LINUX
+
+pacman -S sudo nano
+
+------------------------------------------------------------
+
+SETUP USER FOR ARCH LINUX. CHANGE ADOLF TO YOUR USER.
+
+passwd
+useradd -m -g users -G wheel -s /bin/bash adolf
+passwd adolf
+usermod -aG wheel adolf
+
+------------------------------------------------------------
+
+Add this to visudo file in ARCH. CHANGE ADOLF TO YOUR USER.
+
+sudo EDITOR=nano visudo
+
+LIKE THIS....
+
+adolf ALL=(ALL:ALL) ALL
+root ALL=(ALL:ALL) ALL
+
+------------------------------------------------------------
+
+Now open this file and add user FOR ARCH LINUX.
+
+nano /etc/wsl.conf
+
+[user]
+default=adolf
+
+------------------------------------------------------------
+
+Open this file via nano for ARCH LINUX and change text.
+
+Paste in terminal: nano /etc/pacman.conf 
+
+# Misc options
+#UseSyslog
+Color
+ParallelDownloads = 20
+ILoveCandy
+#TotalDownload
+#CheckSpace
+VerbosePkgLists
+
+ADD THIS TO IN BOTTOM via TERMINAL.
+
+[multilib]
+Include = /etc/pacman.d/mirrorlist
+
+------------------------------------------------------------
+
+REBOOT ARCH - REBOOT ARCH - REBOOT ARCH - REBOOT ARCH
+
+------------------------------------------------------------
+
+LOGIN IN AS NORMAL USER AND UPADTE REPOS FOR ARCH.
+
+sudo pacman-key --init
+sudo pacman-key --populate archlinux
+sudo pacman -Syu
+sudo pacman -S wget curl git
+
+------------------------------------------------------------
+
+Changing the Locale in ARCH - KDE 6 - set your lang if you want =)
+
+sudo localectl set-locale LANG=en_US.UTF-8
+
+export LC_ALL=C.UTF-8
+
+sudo pacman -S glibc
+
+------------------------------------------------------------
+
+Install yay installer for ARCH Linux and KDE 6.
+
+sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+
+cd
+
+---------------------------------
+
+NEXT install PARU for Arch Linux - This take some time to install - ARCH 2026
+
+Finished making: paru 2.1.0-2 (Fri Jul 10 15:04:58 2026) - Finished in 3m 46s for arch to build PARU helper.
+
+sudo pacman -S --needed git base-devel devtools java-environment ruby btrfs-progs nvchecker python-gobject pyalpm python-packaging make devtools fakechroot fakeroot
+
+yay -S paru
+
+Or build from git. Faster =] ARCH LINUX - 10 sec faster.
+
+git clone https://aur.archlinux.org/paru.git
+cd paru
+cat PKGBUILD
+makepkg -si
+cd 
+
+How to use PARU fast =)
+
+Update your entire system (official repos and AUR): paru
+Install a package: paru -S package_name
+Search for a package: paru -Ss search_term
+Remove a package and its orphaned dependencies: paru -Rns package_name
+Clean up unused AUR build files and caches: paru -Sc
+
+------------------------------------------------------------
+
+Chaotic AUR for ARCH. Run this in terminal no stress - ARCH Linux and KDE 6 - Chaotic AUR repo from Shara fat Karim =]
+
+paru
+
+paru -S bat wget curl git
+
+wget -q -O chaotic-AUR-installer.bash https://raw.githubusercontent.com/SharafatKarim/chaotic-AUR-installer/main/install.bash && sudo bash chaotic-AUR-installer.bash && rm chaotic-AUR-installer.bash
+
+paru
+
+------------------------------------------------------------
+
+Install GIMP so we can PAINT stuff - ARCH Linux
+
+paru -S gimp npm pnpm cargo gvfs alsa-lib bash-completion
+
+------------------------------------------------------------
+
+Install sddm and other Tools for ARCH 
+
+PRESS YES IF ASKED IN TERMINAL OR Q ON KEYBORD AND PRESS ENTER.
+
+paru -S sddm sddm-sugar-candy-git wlogout wofi dunst polkit-gnome wlsunset swayidle networkmanager
+
+paru -S blueman-git brightnessctl swaylock-effects wofi-emoji wofi-calc wofi-wifi-menu-git playerctl grim slurp pipewire wireplumber xdg-desktop-portal-wlr
+
+------------------------------------------------------------
+
+Install this Tools in Console - ARCH and KDE 6 - 2026 - Remove nvidia_oc-bin if you are on other drivers =)
+
+paru -S xorg xorg-server mesa xterm xorg-twm xorg-xrandr xterm xorg-xclock bluedevil libqtxdg nvidia_oc-bin
+
+paru -S xorg-xinit xorg-xrandr xorg-xfontsel xorg-xlsfonts xorg-xkill xorg-xinput xorg-xwininfo dbus kwin
+
+------------------------------------------------------------
+
+Time To install KDE plasma 6 for ARCH Linux 2026 - WSLg EDITION WAYLAND =)
+
+paru -S astyle clazy cmake cppcheck heaptrack lldb-mi meson ninja dbus catppuccin-whiskers-bin
+
+paru -S plasma-meta kde-applications-meta kde-network-meta kdenetwork-filesharing
+
+------------------------------------------------------------
+
+Paste in terminal - all for ARCH and KDE 6 - SDDM SETUP and we will use sddm for x410 and KDE 6
+
+sudo systemctl enable sddm.service
+
+------------------------------------------------------------
+
+Install hyfetch and fastfetch for ARCH
+
+paru -S hyfetch fastfetch zlib python lua chafa
+
+To test hyfetch type hyfetch in terminal: hyfetch
+
+Or test fastfetch: fastfetch
+
+
+                   -`                     
+                  .o+`                    
+                 `ooo/                    
+                `+oooo:                   
+               `+oooooo:                  MEDIA: MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+               -+oooooo+:                 
+             `/:-:++oooo+:                https://github.com/vinberg88
+            `/++++/+++++++:               
+           `/++++++++++++++:              Host: Windows Subsystem for Linux - Arch (2.9.3.0)
+          `/+++ooooooooooooo/`            OS: Arch Linux x86_64
+         ./ooosssso++osssssso+`           Kernel: Linux 6.18.33.1-microsoft-standard-WSL2
+        .oossssso-````/ossssss+`          WM: WSLg - WSLg: 1.0.79 - Wayland
+       -osssssso.      :ssssssso.         
+      :osssssss/        osssso+++.        ARCH - KDE 6 - 2026 - WINDOWS 11 - X410 - Linux - SWEDEN
+     /ossssssss/        +ssssooo/-        
+   `/ossssso+/:-        -:/+osssso+-      
+  `+sso+:-`                 `.-/+oso:     The Arch Linux name and logo are recognized trademarks - 2026
+ `++:.                           `-/+/    
+ .`                                 `/    
+                                          
+
+------------------------------------------------------------
+
+Install Google Chrome BROWSER - WORKS PERFECT ON ARCH AND KDE 6
+
+paru -S google-chrome gnome-keyring
+
+------------------------------------------------------------
+
+ARCH is a sponsor for blanket - Listen to different sounds install blanket now.
+
+paru -S blanket evince aspell libvoikko nuspell texlive-bin
+
+------------------------------------------------------------
+
+Install LibreOffice - Office - ARCH FOR WSL2 and KDE 6
+
+paru -S libreoffice java-runtime pstoedit coin-or-mp rhino java-environment
+
+------------------------------------------------------------
+
+REBOOT - ARCH FOR WSL - REBOOT - ARCH FOR WSL - REBOOT - ARCH FOR WSL - 2026
+
+TAKE AN REBOOT ITS BETTER FOR ARCH LINUX - Kernel files - ARCH WILL LOAD FASTER =]
+
+A kernel file is the core component of an operating system's software
+that manages system resources and facilitates communication between 
+hardware and software. It is loaded into memory during the boot
+process and controls CPU, memory, device management, and file systems
+
+                   -`                     
+                  .o+`                    
+                 `ooo/                    
+                `+oooo:                   
+               `+oooooo:                  MEDIA: MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+               -+oooooo+:                 
+             `/:-:++oooo+:                https://github.com/vinberg88
+            `/++++/+++++++:               
+           `/++++++++++++++:              Host: Windows Subsystem for Linux - Arch (2.9.3.0)
+          `/+++ooooooooooooo/`            OS: Arch Linux x86_64
+         ./ooosssso++osssssso+`           Kernel: Linux 6.18.33.1-microsoft-standard-WSL2
+        .oossssso-````/ossssss+`          WM: WSLg - WSLg: 1.0.79 - Wayland
+       -osssssso.      :ssssssso.         
+      :osssssss/        osssso+++.        ARCH - KDE 6 - 2026 - WINDOWS 11 - X410 - Linux - SWEDEN
+     /ossssssss/        +ssssooo/-        
+   `/ossssso+/:-        -:/+osssso+-      
+  `+sso+:-`                 `.-/+oso:     The Arch Linux name and logo are recognized trademarks - 2026
+ `++:.                           `-/+/    
+ .`                                 `/    
+
+------------------------------------------------------------
+
+Install Visual Studio Code from MICROSOFT - ARCH LINUX and KDE 6 for WSLg - 2026
+
+paru -S code trash-cli accerciser accountsservice gcc distcc trash-cli zsh-completions
+
+------------------------------------------------------------
+
+Install some programs for ARCH - THIS WILL TAKE TIME SO JUST WAIT NO STRESS!
+
+paru -S qt5 qt6 gnome-shell pipewire alsa-utils pavucontrol deepin-terminal
+
+paru -S networkmanager-openvpn libdbus gtk2 gtk3 gtk4 gtk network kpackage cava qt6-websockets python-websockets gst-plugin-pipewire evolution-data-server  
+
+paru -S nemo gedit gnome-terminal tilix file-roller eog evince gparted htop nautilus dolphin power-profiles-daemon
+
+paru -S kdenlive blender simplenote menulibre gnome gtk-engine-murrine
+
+------------------------------------------------------------
+
+Paste in terminal - All - ARCH and KDE 6 PLASMA DESKTOP - 2026
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+------------------------------------------------------------
+
+COPY AND PASTE THIS TO TERMINAL FOR ARCH AND KDE 6
+
+Type this in terminal and put your username there - sudo loginctl enable-linger adolf
+
+------------------------------------------------------------
+
+REBOOT - ARCH FOR WSL - REBOOT - ARCH FOR WSL - REBOOT - ARCH FOR WSL - 2026
+
+------------------------------------------------------------
+
+                   -`                     
+                  .o+`                    
+                 `ooo/                    
+                `+oooo:                   
+               `+oooooo:                  MEDIA: MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+               -+oooooo+:                 
+             `/:-:++oooo+:                https://github.com/vinberg88
+            `/++++/+++++++:               
+           `/++++++++++++++:              Host: Windows Subsystem for Linux - Arch (2.7.8.0)
+          `/+++ooooooooooooo/`            OS: Arch Linux x86_64
+         ./ooosssso++osssssso+`           Kernel: Linux 6.18.33.1-microsoft-standard-WSL2
+        .oossssso-````/ossssss+`          
+       -osssssso.      :ssssssso.         
+      :osssssss/        osssso+++.        ARCH - KDE 6 - 2026 - WINDOWS 11 - X410 - Linux - SWEDEN
+     /ossssssss/        +ssssooo/-        
+   `/ossssso+/:-        -:/+osssso+-      
+  `+sso+:-`                 `.-/+oso:     The Arch Linux name and logo are recognized trademarks - 2026
+ `++:.                           `-/+/    
+ .`                                 `/    
+                                          
+
+PLEASE REBOOT ARCH BEFORA INSTALL MORE =)
+
+
+------------------------------------------------------
+
+Fix IP problem for X410. Cant find screen problem - ARCH AND KDE 6 PLASMA.
+
+OPEN POWERSHELL FROM MICROSOFT AND TYPE: ipconfig
+
+NOTE - Importent to look for ip. Last lines are IP-numbers for WSL in POWERSHELL so xserver works.
+
+NOW GO BACK TO ARCH LINUX Terminal and paste this.
+
+paru -S systemd-resolvconf systemd
+
+sudo systemctl unmask systemd-resolved.service
+sudo systemctl enable systemd-resolved.service
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.23.144.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed ARCH =] 
+
+----------------------------------------------
+
+INSTALL SOME THEMES FOR KDE 6 AND ARCH - 2026 
+
+When you start KDE 6 look at "octopi" Nice program for install programs for arch - 2026
+
+paru -S python-virtualenv optipng inkscape python-pip python3 python-pipx fakeroot
+
+paru -S ttf-roboto ttf-ubuntu-font-family cantarell-fonts git wget unzip tar sed plasma-workspace kpackage kconfig gtk4
+
+paru -S gnome-shell kwin gtk-engine-murrine nwg-look gtk-engines lxappearance qt5ct qt6ct glibc glib kvantum-qt5 aurorae arc-gotham-gtk-theme-git
+
+paru -S kdoctools-git octopi texlive-fontsrecommended texlive-fontutils texlive-latexextra texlive-plaingeneric python-sv-ttk
+
+----------------------------------------------
+
+NEXT INSTALL THIS PROGRAMS FOR ARCH - THIS TAKE SOME TIME TO INSTALL =)
+
+paru -S ttf-nerd-fonts-symbols-common ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-mono otf-codenewroman-nerd ttf-monoid-nerd ttf-monofur-nerd
+
+paru -S ttf-mplus-nerd nerd-fonts-inter nerdfix nerd-fonts-noto-sans-mono nerdfonts-installer-bin nerd-fonts nerdctl-full
+
+paru -S macsequoia-kde-theme ender-dots kde-gruvbox ttf-cascadia-code otf-monaspace-nerd ttf-cascadia-code-nerd
+
+------------------------------------------------------
+
+WSL/KDE-rice - For KDE 6 - Copy and Paste ALL in terminal - 🥷🌙
+
+paru -S rsync vicinae opencode xclip xsel
+
+rm -rf /tmp/Scratchy
+git clone --depth 1 https://gitlab.com/jomada/Scratchy.git /tmp/Scratchy
+
+mkdir -p \
+  ~/.local/share/aurorae/themes \
+  ~/.local/share/color-schemes \
+  ~/.local/share/konsole \
+  ~/.local/share/plasma/look-and-feel \
+  ~/.local/share/plasma/desktoptheme \
+  ~/.local/share/wallpapers
+
+rsync -a /tmp/Scratchy/aurorae/Scratchy ~/.local/share/aurorae/themes/
+cp -f /tmp/Scratchy/color-schemes/*.colors ~/.local/share/color-schemes/
+cp -f /tmp/Scratchy/konsole/*.colorscheme ~/.local/share/konsole/
+rsync -a /tmp/Scratchy/look-and-feel/Scratchy ~/.local/share/plasma/look-and-feel/
+rsync -a /tmp/Scratchy/plasma/Scratchy ~/.local/share/plasma/desktoptheme/
+rsync -a /tmp/Scratchy/wallpaper/* ~/.local/share/wallpapers/
+
+kbuildsycoca6 2>/dev/null || true
+
+🌙 We will wait on install of Scratchy themes for KDE 6. Do this from KDE gui via x410
+
+------------------------------------------------------
+
+INSTALL SOME THEMES FOR KDE 6 AND ARCH - 2026 🌙- LOGIN ROOT USER AND COPY AND PASTE.
+
+NOTE - LOGIN ROOT USER AND COPY AND PASTE IN TERMINAL - NOTE
+
+yay -S gnome-shell distrobox
+
+git clone https://github.com/EliverLara/Nordic.git ~/.themes/Nordic
+git clone https://github.com/Fausto-Korpsvart/Tokyonight-GTK-Theme.git ~/.themes/Tokyonight
+git clone https://github.com/catppuccin/gtk.git ~/.themes/Catppuccin
+git clone https://github.com/dracula/gtk.git ~/.themes/Dracula
+
+------------------------------------------------------------
+
+Install some cursor for ARCH and KDE 6 
+
+yay -S xcursor-comix xcursor-themes xcursor-vanilla-dmz xcursor-vanilla-dmz-aa 
+
+yay -S adwaita-cursors breeze-cursors capitaine-cursors default-cursors vimix-cursors
+
+------------------------------------------------------
+
+INSTALL Tokyonight DARK ICON for KDE 6 plasma - MY FAVORIT ICONS FOR ARCH - ✔
+
+DOWNLOAD LINK MAYBE NOT WORK - https://www.gnome-look.org/p/1681475
+
+COPY AND PASTE FOR ARCH AND KDE 6 - 2026 - WSL2 - LinuX
+
+wget https://www.braknulla.se/Tokyonight-Dark-Icons.zip
+sudo mkdir -p ~/.local/share/Icons
+sudo unzip Tokyonight-Dark-Icons.zip -d ~/.local/share/icons/
+
+Works Perfect for ARCH LINUX and MATE DESKTOP - 2026 - ✔
+
+------------------------------------------------------
+
+Paste this in console for sound - just so all will work for ARCH - ✔
+
+paru -S systemd wireplumber pipewire pulse
+
+sudo systemctl enable --global pipewire-pulse
+
+------------------------------------------------------
+
+Install sound so we have all for KDE 6 and ARCH Linux - 2026 - ✔
+
+sudo pacman -Syu --needed \
+  libpulse alsa-utils alsa-plugins \
+  plasma-pa pavucontrol sound-theme-freedesktop
+
+------------------------------------------------------
+
+Final install this so we can start KDE 6 via ARCH - ✔
+
+sudo pacman -S --needed plasma-x11-session kwin-x11
+
+--------------------------------------------
+
+Make this script for KDE 6 to start for ARCH.
+
+sudo nano ~/start-kde6.sh
+
+--------------------------------------------
+
+NOW COPY AND PASTE THIS TO TERMINAL =) TAKE ALL =) 
+
+#!/usr/bin/env bash
+
+# ----- X410 / X11 -----
+export DISPLAY=${DISPLAY:-$(awk '/nameserver/ {print $2; exit}' /etc/resolv.conf):0.0}
+export QT_QPA_PLATFORM=xcb
+export GDK_BACKEND=x11
+export SDL_VIDEODRIVER=x11
+export QT_X11_NO_MITSHM=1
+unset WAYLAND_DISPLAY
+
+# ----- Runtime dir för KDE -----
+export XDG_RUNTIME_DIR=${XDG_RUNTIME_DIR:-/tmp/runtime-$USER}
+mkdir -p "$XDG_RUNTIME_DIR"
+chmod 700 "$XDG_RUNTIME_DIR"
+
+# ----- Ljud via WSLg PulseAudio -----
+for s in \
+  /mnt/wslg/PulseServer \
+  /mnt/wslg/runtime-dir/pulse/native \
+  "/mnt/wslg/run/user/$(id -u)/pulse/native"
+do
+  if [ -S "$s" ]; then
+    export PULSE_SERVER="unix:$s"
+    break
+  fi
+done
+
+echo "DISPLAY=$DISPLAY"
+echo "PULSE_SERVER=$PULSE_SERVER"
+
+pactl info | sed -n '1,10p' || echo "PulseAudio hittades inte ännu."
+
+exec dbus-run-session startplasma-x11
+EOF
+
+--------------------------------------------
+
+Chmod script for KDE 6 and ARCH
+
+sudo chmod +x ~/start-kde6.sh
+
+--------------------------------------------
+
+Reboot Arch - Reboot Arch - Reboot Arch - Reboot Arch - Reboot Arch 
+
+--------------------------------------------
+
+Time to start KDE Plasma 6 via Arch LINUX - WORK WORK WORK....
+
+
+NOTE: FIRST Start X410 then you start ARCH from terminal and KDE 6.
+
+
+Copy and Paste in Console: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Copy and Paste in Console: ~/start-kde6.sh
+
+
+Just wait when you start KDE 6 and ARCH -  IT WILL WORK - Time is all we have - ARCH LINUX =]
+
+----------------------------------------------------------------
+
+Regards Mattias Vinberg - Arch - KDE 6 Plasma - SWEDEN - WSL - Microsoft - Linux - X410 - Stockholm - 2026
+
+
+                   -`                     
+                  .o+`                    
+                 `ooo/                    MEDIA - MATTIAS VINBERG - SWEDEN - STOCKHOLM
+                `+oooo:                   
+               `+oooooo:                  WM: WSLg - WSLg: 1.0.79 - Wayland
+               -+oooooo+:                 
+             `/:-:++oooo+:                https://github.com/vinberg88
+            `/++++/+++++++:               
+           `/++++++++++++++:              Host: Windows Subsystem for Linux - Arch-deepin (2.7.8.0)
+          `/+++ooooooooooooo/`            OS: Arch Linux x86_64
+         ./ooosssso++osssssso+`           Kernel: Linux 6.18.33.1-microsoft-standard-WSL2
+        .oossssso-````/ossssss+`          
+       -osssssso.      :ssssssso.         
+      :osssssss/        osssso+++.        ARCH - KDE 6 - 2026 - WINDOWS 11 - X410 - Linux - SWEDEN
+     /ossssssss/        +ssssooo/-        
+   `/ossssso+/:-        -:/+osssso+-      
+  `+sso+:-`                 `.-/+oso:     The Arch Linux name and logo are recognized trademarks - 2026
+ `++:.                           `-/+/    
+ .`                                 `/    
+                                          
+
+MEDIA: MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026 - https://github.com/vinberg88
+
+----------------------------------------------------------------
