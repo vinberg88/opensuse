@@ -56,6 +56,68 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+ARCH and KDE 6 - How to install KDE 6 via ARCH - X410 - Windows 11 - WSLg - Linux - 2026 - NEXT LEVEL =]
+
+♥ Updated - 2026/07/11 - FULL SOUND setup AND ALL WORKS VIA KDE 6 - WSLg - Latest KDE 6 AND ARCH that works via WSLg ♥
+
+Download ARCH from this page: https://github.com/yuk7/ArchWSL
+
+Best way to install ARCH is powershell: wsl --install archlinux --name Arch
+
+How to install KDE 6 PLASMA via ARCH and Windows 11 - TEXT via GITHUB.
+
+https://github.com/vinberg88/opensuse/blob/main/Arch-KDE6-NEXT.txt
+
+How to install KDE 6 PLASMA via ARCH and Windows 11 - MOVIE via YOUTUBE.
+
+https://www.youtube.com/watch?v=CrIUpU7_-F8
+
+<img width="1920" height="1080" alt="Arch-KDE6-NEXT" src="https://github.com/user-attachments/assets/273e2bb2-b6a5-4d20-bece-b1341ebfac9b" />
+
+TOOLS THAT I USE FOR WSL and WINDOWS 11 - 2026 - ARCH LINUX AND KDE 6.
+
+Raft WSL is a powerful tool for managing Windows Subsystem for Linux distributions.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+Use X410 - X Server for Windows 11 and it works well.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+WSL UI - This tool is free and works like Raft WSL
+- 2026 - A modern, lightweight manager for Windows
+Subsystem for Linux distributions.
+
+https://apps.microsoft.com/detail/9p8548knj2m9?hl=sv-SE&gl=SE
+
+About KDE plasma 6 - https://kde.org
+
+Plasma is a Desktop - Use Plasma to surf the
+web; keep in touch with colleagues, friends and family; manage your
+files, enjoy music and videos; and get creative and productive at work.
+Do it all in a beautiful environment that adapts to your needs, and
+with the safety, privacy-protection and peace of mind that the best
+Free Open Source Software has to offer.
+
+About Arch - https://archlinux.org
+
+Arch Linux, a lightweight and flexible Linux® distribution
+that tries to Keep It Simple. Arch Linux is an independently 
+developed, x86-64 general-purpose GNU/Linux distribution that strives
+to provide the latest stable versions of most software by following
+a rolling-release model. The default installation is a minimal
+base system, configured by the user to only add what is
+purposely required. Arch Linux uses a "rolling release"
+system which allows one-time installation and perpetual software
+upgrades. It is not generally necessary to reinstall or upgrade
+your Arch Linux system from one "version" to the next.
+By issuing one command, an Arch system is kept up-to-date
+and on the bleeding edge.
+
+Regards Mattias Vinberg - Arch - KDE 6 Plasma - wayland - WSL - Microsoft - Linux - X410 - Stockholm - 2026
+
+---------------------------------------------
+
 Ubuntu 26.04 and Cinnamon desktop - Install Cinnamon via WSL - Ubuntu - Windows 11 - Linux - X410 - 2026
 
 How to install Cinnamon desktop via Ubuntu 26.04 - Resolute Raccoon - WSL - TEXT
