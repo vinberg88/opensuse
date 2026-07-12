@@ -1,12 +1,10 @@
 Ubuntu 26.04 and Gnme 50 via WSL - Wayland - Windows 11 - Linux - wslg - Linux - 2026
 
-
 How to install Gnome via Ubuntu 26.04 - GNOME 50 - WSL - TEXT via GITHUB.
-Comming Sone...
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu26.04-GNOME.txt
 
 How to install Gnome via Ubuntu 26.04 - GNOME 50 - WSL - MOVIE VIA YouTube.
 https://www.youtube.com/watch?v=9BGAVdrgW9o
-
 
 Tools that i usa for UBUNTU 26.04 LTS and GNOME 50 - Wayland - WSLg - WSL - LINUX
 
