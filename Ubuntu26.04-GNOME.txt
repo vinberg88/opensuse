@@ -1,0 +1,372 @@
+Ubuntu 26.04 and Gnme 50 via WSL - Wayland - Windows 11 - Linux - wslg - Linux - 2026
+
+
+How to install Gnome via Ubuntu 26.04 - GNOME 50 - WSL - TEXT via GITHUB.
+Comming Sone...
+
+How to install Gnome via Ubuntu 26.04 - GNOME 50 - WSL - MOVIE VIA YouTube.
+https://www.youtube.com/watch?v=9BGAVdrgW9o
+
+
+Tools that i usa for UBUNTU 26.04 LTS and GNOME 50 - Wayland - WSLg - WSL - LINUX
+
+Handel WSL image easy and Linux for WSL via This TOOL - Raft WSL
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+WSL UI - Easily manage your Windows Subsystem for Linux
+distributions with a clean, modern interface.
+https://apps.microsoft.com/detail/9p8548knj2m9?hl=sv-SE&gl=SE
+
+
+                             ....              
+              .',:clooo:  .:looooo:. 
+           .;looooooooc  .oooooooooo'           Host Mattias Vinberg - Sweden - STOCKHOLM - 2026
+        .;looooool:,''.  :ooooooooooc
+       ;looool;.         'oooooooooo,           Ubuntu 26.04 LTS - GNOME 50 - Wayland - WSLg
+      ;clool'             .cooooooc.  ,,
+         ...                ......  .:oo,       WSL: Windows Subsystem for Linux - Ubuntu-26.04 LTS
+  .;clol:,.                        .loooo'
+ :ooooooooo,                        'ooool      Kernel: Linux 6.6.87.1-microsoft-standard-WSL2 - Canonical
+
+'ooooooooooo.                        loooo.     WSL: Windows Subsystem for Linux - Ubuntu 26.04
+
+'ooooooooool                         coooo.     Kernel: Linux 6.6.87.1-microsoft-standard-WSL2
+ ,loooooooc.                        .loooo.    
+   .,;;;'.                          ;ooooc      FIND ME HERE - https://github.com/vinberg88
+       ...                         ,ooool.     
+    .cooooc.              ..',,'.  .cooo.       Host Mattias Vinberg - Sweden - STOCKHOLM - 2025
+      ;ooooo:.           ;oooooooc.  :l.       
+       .coooooc,..      coooooooooo.            Desktop - Gnome 50 via Wayland and WSLg 
+         .:ooooooolc:. .ooooooooooo'           
+           .':loooooo;  ,oooooooooc            
+               ..';::c'  .;loooo:'              
+
+
+
+About Ubuntu 26.04 LTS - https://ubuntu.com
+
+Ubuntu is an ancient African word meaning ‘humanity to others’.
+It is often described as reminding us that ‘I am what I am
+because of who we all are’. We bring the spirit of Ubuntu
+to the world of computers and software. The Ubuntu 
+distribution represents the best of what the world’s software
+community has shared with the world. Canonical is the
+publisher of Ubuntu. Members of the Canonical team lead
+aspects of Ubuntu such as the kernel, default desktop,
+foundations, security, OpenStack, and Kubernetes....
+ 
+About GNOME 50 Desktop - https://www.gnome.org
+
+Every part of GNOME has been designed to make it simple and
+easy to use. The Activities Overview is a simple way to access
+all your basic tasks. A press of a button is all it takes
+to view your open windows, launch applications, or check
+if you have new messages. Having everything in one convenient
+place means you don’t have to learn your way around a maze of
+different technologies. GNOME provides a focused working
+environment that helps you get things done.
+
+ABOUT WSL - https://vinberg88.github.io - https://github.com/vinberg88/opensuse
+
+WSL stands for Windows Subsystem for Linux, a feature of Windows that
+allows users to run a Linux environment directly on their Windows
+machine without needing a separate virtual machine or dual-booting.
+
+------------------------------
+
+LETS START INSTALL OF Ubuntu 26.04 LTS so we can start to build GNOME 50 wayland.
+
+
+Install Ubuntu 26.04 via Powershell:  wsl --install Ubuntu-26.04 --name Ubuntu26.04
+
+------------------------------
+
+Update All after install - Ubuntu 26.04 LTS
+
+
+Type cd in Terminal so you are in begin off ubuntu terminal: cd
+
+sudo apt update && sudo apt upgrade -y
+
+--------------------------
+
+FIX DBUS PROBLEM SO UBUNTU 26.04 LTS IS 100 PROCENT FASTER.
+
+sudo apt install systemd-boot* systemd dbus-broker* dbus-daemon* systemd-resolved* systemd-u* systemd-ukify* systemd-hwe-hwdb* dbus-*
+
+sudo systemctl disable dbus-broker
+sudo systemctl enable dbus
+
+sudo mkdir -p /run/dbus
+sudo chown messagebus:messagebus /run/dbus
+
+--------------------------
+
+REBOOT Ubuntu 26.04 - REBOOT Ubuntu 26.04 - REBOOT Ubuntu 26.04 - REBOOT Ubuntu 26.04 
+
+--------------------------
+
+Install some Basic Programs for Ubuntu 26.04 and Gnome Desktop.
+
+sudo apt install ibus bash git npm wget curl pipx dracut dbus* -y
+sudo apt install gdm3* -y
+sudo apt install gdm* -y
+sudo apt install xorg* -y
+sudo apt install daemonize -y
+sudo systemctl set-default graphical
+
+----------------------------------------------
+
+Install this small program for Hyfetch - 2026 - UBUNTU 26.04
+
+sudo apt install hyfetch fastfetch -y
+
+To test type: hyfetch
+
+                             ....              
+              .',:clooo:  .:looooo:. 
+           .;looooooooc  .oooooooooo'          MEDIA Mattias Vinberg - Sweden - STOCKHOLM - 2026
+        .;looooool:,''.  :ooooooooooc
+       ;looool;.         'oooooooooo,          X server - Windows and Wayland - Ubuntu 26.04 LTS Resolute Raccoon
+      ;clool'             .cooooooc.  ,,
+         ...                ......  .:oo,      Find ME HERE - https://github.com/vinberg88
+  .;clol:,.                        .loooo'
+ :ooooooooo,                        'ooool     Kernel: Linux 6.18.33.1-microsoft-standard-WSL2 - Canonical
+'ooooooooooo.                        loooo.    
+'ooooooooool                         coooo.    Host: Windows Subsystem for Linux - Ubuntu-26.04 (2.7.8.0)
+ ,loooooooc.                        .loooo.    
+   .,;;;'.                          ;ooooc     OS: Ubuntu 26.04 LTS x86_64 and Microsoft Windows 11
+       ...                         ,ooool.     
+    .cooooc.              ..',,'.  .cooo.      WSL: Windows Subsystem for Linux - Ubuntu-26.04 (2.5.8.0)
+      ;ooooo:.           ;oooooooc.  :l.       
+       .coooooc,..      coooooooooo.           DESKTOP: GNOME for UBUNTU 26.04
+         .:ooooooolc:. .ooooooooooo'           
+           .':loooooo;  ,oooooooooc 
+               ..';::c'  .;loooo:'
+
+
+----------------------------------------------
+
+Paste in Terminal for Ubuntu 26.04 LTS and Gnome 50
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+----------------------------------
+
+Install Chrome Browser for Ubuntu 26.04 LTS and Gnome 50
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+----------------------------------
+
+Install blanket for Ubuntu 26.04 LTS - Improve focus and increase your productivity by listening to different sounds
+
+sudo apt install blanket*
+
+----------------------------------
+
+Install Visual studio Code - Microsoft - Ubuntu 26.04 LTS and Gnome 50
+
+sudo apt-get install wget gpg
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" |sudo tee /etc/apt/sources.list.d/vscode.list > /dev/null
+rm -f packages.microsoft.gpg
+
+sudo apt install apt-transport-https -y
+sudo apt update
+sudo apt install code -y
+
+----------------------------------
+
+Install this for Ubuntu 26.04. Will make stuff faster when you install from snapd - GNOME 50 and Ubuntu 26.04 LTS
+
+sudo apt install snapd*
+
+sudo snap install firefox
+sudo snap install thunderbird
+
+----------------------------------
+
+Install Gimp and Libreoffice for Ubuntu 26.04 LTS and GNOME 50
+
+sudo apt install gimp libreoffice
+
+----------------------------------
+
+Time to install Gnome 50 for Ubuntu 26.04 LTS
+
+sudo apt install gnome-tweaks gnome-extensions* -y
+sudo apt install ubuntu-desktop binfmt* -y
+sudo apt install gnome* -y
+
+
+THIS WILL TAKE SOME TIME TO INSTALL....
+
+----------------------------------
+
+                             ....              
+              .',:clooo:  .:looooo:. 
+           .;looooooooc  .oooooooooo'          MEDIA Mattias Vinberg - Sweden - STOCKHOLM - 2026
+        .;looooool:,''.  :ooooooooooc
+       ;looool;.         'oooooooooo,          X server - Windows and Wayland - Ubuntu 26.04 LTS Resolute Raccoon
+      ;clool'             .cooooooc.  ,,
+         ...                ......  .:oo,      Find ME HERE - https://github.com/vinberg88
+  .;clol:,.                        .loooo'
+ :ooooooooo,                        'ooool     Kernel: Linux 6.18.33.1-microsoft-standard-WSL2 - Canonical
+'ooooooooooo.                        loooo.    
+'ooooooooool                         coooo.    Host: Windows Subsystem for Linux - Ubuntu-26.04 (2.7.8.0)
+ ,loooooooc.                        .loooo.    
+   .,;;;'.                          ;ooooc     OS: Ubuntu 26.04 LTS x86_64 and Microsoft Windows 11
+       ...                         ,ooool.     
+    .cooooc.              ..',,'.  .cooo.      WSL: Windows Subsystem for Linux - Ubuntu-26.04 (2.5.8.0)
+      ;ooooo:.           ;oooooooc.  :l.       
+       .coooooc,..      coooooooooo.           DESKTOP: GNOME for UBUNTU 26.04
+         .:ooooooolc:. .ooooooooooo'           
+           .':loooooo;  ,oooooooooc 
+               ..';::c'  .;loooo:'
+
+
+----------------------------------
+
+Install Tokyonight for Ubuntu 26.04 LTS - GTK THEME - GNOME THEME.
+
+sudo dnf install gtk-murrine-engine sassc gnome-themes-extra -y
+git clone https://github.com/Fausto-Korpsvart/Tokyonight-GTK-Theme.git Tokyonight
+cd Tokyonight
+cd themes
+./install.sh
+cd
+
+THIS IS A NICE THEME FOR YOU and Ubuntu 26.04 LTS AND GNOME 50 - 2026
+
+----------------------------------
+
+INSTALL THIS SO Ubuntu 26.04 LTS and it WORKS WELL for GNOME 50 - TAKE SOME TIME =)
+
+sudo apt install egl* mesa* mutter* wayland*
+
+----------------------------------
+
+Fix IP problem for WSL. Cant find screen problems
+
+OPEN POWERSHELL AND PASTE THIS: ipconfig
+
+NOTE - Importent to look for ip. Last lines are IP-numbers for WSL in POWERSHELL so x410 works.
+
+NOW GO BACK TO UBUNTU 26.04 Terminal and paste this.
+
+sudo systemctl unmask systemd-resolved.service
+sudo systemctl enable systemd-resolved.service
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.23.144.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed for UBUNTU 26.04 AND GNOME DESKTOP.
+
+----------------------------------
+
+Download this script for UBUNTU 26.04 and GNOME 50
+
+wget https://www.xhamster.nu/scripts/install-gnome50-ubuntu2604.sh
+
+----------------------------------
+
+COPY AND PASTE THUS IN TERMINAL WE WILL START GNOME SONE.
+
+cd ~
+sudo chmod +x install-gnome50-ubuntu2604.sh
+./install-gnome50-ubuntu2604.sh
+source ~/.bashrc
+
+----------------------------------
+
+Next test script for UBUNTU 26.04 LTS AND GNOME.
+
+Paste in terminal: gnome50 doctor
+
+adolf@Fyren88:~$ gnome50 doctor
+GNOME 50 / WSLg doctor
+Distribution:          Ubuntu 26.04 LTS
+Kärna:                6.18.35.2-microsoft-standard-WSL2
+GNOME Shell:           GNOME Shell 50.1
+XDG_RUNTIME_DIR:       /run/user/1000
+WAYLAND_DISPLAY:       wayland-0
+Wayland-socket:        /run/user/1000/wayland-0
+DISPLAY:               :0
+PULSE_SERVER:          unix:/mnt/wslg/PulseServer
+
+Ljud
+Server String: unix:/mnt/wslg/PulseServer
+Library Protocol Version: 35
+Server Protocol Version: 35
+Is Local: yes
+Client Index: 0
+Tile Size: 65472
+User Name: wslg
+Host Name: Fyren88
+Server Name: pulseaudio
+Server Version: 17.0-25-gc3305
+Default Sample Specification: s16le 2ch 44100Hz
+Default Channel Map: front-left,front-right
+
+Grafik
+direct rendering: Yes
+OpenGL vendor string: Mesa
+OpenGL renderer string: llvmpipe (LLVM 21.1.8, 256 bits)
+OpenGL core profile version string: 4.5 (Core Profile) Mesa 26.0.3-1ubuntu1
+
+
+IY YOU SEE THIS ALWORKS FOR WAYLAND AND UBUNTU 26.04 AND GNOME 50
+
+----------------------------------
+
+
+Reboot UBUNTU 26.04 - Reboot UBUNTU 26.04 - Reboot UBUNTU 26.04
+
+
+----------------------------------
+
+Now we are ready to start Gnome 50 and UBUNTU 26.04
+
+
+Copy and paste in terminal: gnome50
+
+
+NOTE - Ff you need to run settnings use this from a terminal: env XDG_CURRENT_DESKTOP=GNOME gnome-control-center
+
+
+----------------------------------------------
+
+It take some time to start all first TIME so just wait =) GNOME and UBUNTU 26.04
+
+⣿⣿⣿⣿⣿⣿⣿⣿⠿⠛⠋⠉⠁⠀⠀⠀⠀⠈⠉⠙⠛⠿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⠿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠿⣿⣿⣿⣿⣿
+⣿⣿⣿⡟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣾⣿⣦⠀⠀⠀⠈⢻⣿⣿⣿
+⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⢠⣶⣶⣾⣷⣶⣆⠸⣿⣿⡟⠀⠀⠀⠀⠀⠹⣿⣿
+⣿⠃⠀⠀⠀⠀⠀⠀⣠⣾⣷⡈⠻⠿⠟⠻⠿⢿⣷⣤⣤⣄⠀⠀⠀⠀⠀⠀⠘⣿
+⡏⠀⠀⠀⠀⠀⠀⣴⣿⣿⠟⠁⠀⠀⠀⠀⠀⠀⠈⠻⣿⣿⣦⠀⠀⠀⠀⠀⠀⢹
+⠁⠀⠀⢀⣤⣤⡘⢿⣿⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣿⣿⡇⠀⠀⠀⠀⠀⠈
+⠀⠀⠀⣿⣿⣿⡇⢸⣿⡁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢈⣉⣉⡁⠀⠀⠀⠀⠀⠀ - GNOME 50 and UBUNTU 26.04 - WAYLAND - 2026
+⡀⠀⠀⠈⠛⠛⢡⣾⣿⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣿⣿⡇⠀⠀⠀⠀⠀⢀ 
+⣇⠀⠀⠀⠀⠀⠀⠻⣿⣿⣦⡀⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿⠟⠀⠀⠀⠀⠀⠀⣸
+⣿⡄⠀⠀⠀⠀⠀⠀⠙⢿⡿⢁⣴⣶⣦⣴⣶⣾⡿⠛⠛⠋⠀⠀⠀⠀⠀⠀⢠⣿
+⣿⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠘⠿⠿⢿⡿⠿⠏⢰⣿⣿⣧⠀⠀⠀⠀⠀⣰⣿⣿
+⣿⣿⣿⣧⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢿⣿⠟⠀⠀⠀⢀⣼⣿⣿⣿
+⣿⣿⣿⣿⣿⣶⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣶⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣶⣤⣄⣀⡀⠀⠀⠀⠀⢀⣀⣠⣤⣶⣿⣿⣿⣿⣿⣿⣿⣿
+
+Regards Mattias Vinberg - SwEden - GNOME - UBUNTU 26.04 - Linux - WSL - WAYLAND - WINDOWS 11 - 2026
+
+----------------------------------------------
