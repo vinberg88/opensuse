@@ -56,6 +56,57 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Ubuntu 26.04 and Gnme 50 via WSL - Wayland - Windows 11 - Linux - wslg - Linux - 2026
+
+How to install Gnome via Ubuntu 26.04 - GNOME 50 - WSL - TEXT via GITHUB.
+
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu26.04-GNOME.txt
+
+How to install Gnome via Ubuntu 26.04 - GNOME 50 - WSL - MOVIE VIA YouTube.
+
+https://www.youtube.com/watch?v=9BGAVdrgW9o
+
+Tools that i usa for UBUNTU 26.04 LTS and GNOME 50 - Wayland - WSLg - WSL - LINUX
+
+Handel WSL image easy and Linux for WSL via This TOOL - Raft WSL
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="Ubuntu26 04-GNOME" src="https://github.com/user-attachments/assets/58298304-4ffa-422d-98c3-14136cfdc3fa" />
+
+About Ubuntu 26.04 LTS - https://ubuntu.com
+
+Ubuntu is an ancient African word meaning ‘humanity to others’.
+It is often described as reminding us that ‘I am what I am
+because of who we all are’. We bring the spirit of Ubuntu
+to the world of computers and software. The Ubuntu 
+distribution represents the best of what the world’s software
+community has shared with the world. Canonical is the
+publisher of Ubuntu. Members of the Canonical team lead
+aspects of Ubuntu such as the kernel, default desktop,
+foundations, security, OpenStack, and Kubernetes....
+ 
+About GNOME 50 Desktop - https://www.gnome.org
+
+Every part of GNOME has been designed to make it simple and
+easy to use. The Activities Overview is a simple way to access
+all your basic tasks. A press of a button is all it takes
+to view your open windows, launch applications, or check
+if you have new messages. Having everything in one convenient
+place means you don’t have to learn your way around a maze of
+different technologies. GNOME provides a focused working
+environment that helps you get things done.
+
+ABOUT WSL - https://vinberg88.github.io - https://github.com/vinberg88/opensuse
+
+WSL stands for Windows Subsystem for Linux, a feature of Windows that
+allows users to run a Linux environment directly on their Windows
+machine without needing a separate virtual machine or dual-booting.
+
+Regards Mattias Vinberg - SwEden - GNOME - UBUNTU - Linux - WSL - WAYLAND - WINDOWS - 2026
+
+---------------------------------------------
+
 ARCH and KDE 6 - How to install KDE 6 via ARCH - X410 - Windows 11 - WSLg - Linux - 2026 - NEXT LEVEL =]
 
 ♥ Updated - 2026/07/11 - FULL SOUND setup AND ALL WORKS VIA KDE 6 - WSLg - Latest KDE 6 AND ARCH that works via WSLg ♥
