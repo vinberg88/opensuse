@@ -1,0 +1,531 @@
+ARCH and DEEPIN - WSL - How to install DEEPIN desktop via ARCH - Windows 11 - LINUX - GitHUB - YouTUBE - 2026
+
+How to install DEEPIN desktop via ARCH LINUX and Windows 11 - TEXT VIA GITHUB
+Comming ZONE...
+
+How to install DEEPIN desktop via ARCH LINUX and Windows 11 - MOVIE VIA YOUTUBE
+https://www.youtube.com/watch?v=j2Ou_4hARXI
+
+TOOLS THAT I USE FOR ARCH LINUX AND DEEPIN AND WSL - WINDOWS 11
+
+X410 - X Server for Windows 11. Find it in Micorsoft store. 
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Linux (WSL) distribution.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+
+                   -`                     Thank you! ❤️ for looking at ARCH and DEEPIN FOR WSL.
+                  .o+`             
+                 `ooo/                    
+                `+oooo:                   DEEPIN DESKTOP AND ARCH LINUX - 2026
+               `+oooooo:                  
+               -+oooooo+:                 Win Version: Windows 11 - Latests edition - 2026
+             `/:-:++oooo+:                
+            `/++++/+++++++:               OS: Arch Linux x86_64 via WSL - 2026
+           `/++++++++++++++:              Host: Windows Subsystem for Linux - archlinux (2.6.3.0)
+          `/+++ooooooooooooo/`            Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+         ./ooosssso++osssssso+`           
+        .oossssso-````/ossssss+`          FIND ME HERE - https://github.com/vinberg88
+       -osssssso.      :ssssssso.         
+      :osssssss/        osssso+++.        MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+     /ossssssss/        +ssssooo/-        
+   `/ossssso+/:-        -:/+osssso+-      
+  `+sso+:-`                 `.-/+oso:    
+ `++:.                           `-/+/    
+ .`                                 `/    
+   
+
+About Arch Linux - https://archlinux.org/about - 2026
+
+Arch Linux, a lightweight and flexible Linux® distribution
+that tries to Keep It Simple. Arch Linux is an independently 
+developed, x86-64 general-purpose GNU/Linux distribution that strives
+to provide the latest stable versions of most software by following
+a rolling-release model. The default installation is a minimal
+base system, configured by the user to only add what is
+purposely  required. Arch Linux uses a "rolling release" system which
+allows one-time installation and perpetual software upgrades.
+It is not generally necessary to reinstall or upgrade your Arch 
+Linux system from one "version" to the next. By issuing one 
+command, an Arch system is kept up-to-date and on the bleeding edge. 
+
+About DEEPIN FOR WSL - https://www.deepin.org - 2026
+
+Beautiful UI design, intimate human-computer interaction, and friendly
+community environment make you feel at home. Deepin is easy to
+install and can meet your work needs without additional system 
+configuration and software installation. You can configure deepin
+as you want, but it is not necessary - optimal settings and adjustments
+have been applied by default to meet the usage demands of most users.
+The desktop environment and multiple applications based on the 
+self-developed DTK not only have a beautiful UI, but also offer 
+the human-computer interaction in line with user habits. 
+You can get started with deepin in a few minutes.
+
+You can finde more Stuff here About WSL for Desktops via WSL - ARCH
+
+https://github.com/vinberg88/opensuse or https://vinberg88.github.io
+
+------------------------------------------------------
+
+LETS START INSTALL - ARCH LINUX AND DEEPIN DESKTOP FOR WSL2 - 2026
+
+Install arch via terminal from Powershell: wsl --install archlinux --name Arch-DEV
+
+CHANGE NAME ON ARCH IF YOU WANT --name ARCH-ADOLF-2026
+
+------------------------------------------------------
+
+Paste this in terminal and update system - ARCH OS 2026
+
+cd
+
+pacman -Syu
+
+------------------------------------------------------------
+
+Install sudo and nano for ARCH LINUX
+
+pacman -S sudo nano
+
+------------------------------------------------------------
+
+SETUP USER FOR ARCH LINUX. CHANGE ADOLF TO YOUR USER. We set password for root to.
+
+passwd
+useradd -m -g users -G wheel -s /bin/bash adolf
+passwd adolf
+
+------------------------------------------------------------
+
+Add this to visudo file in ARCH. CHANGE ADOLF TO YOUR USER.
+
+sudo EDITOR=nano visudo
+
+LIKE THIS....
+
+adolf ALL=(ALL:ALL) ALL
+root ALL=(ALL:ALL) ALL
+
+------------------------------------------------------------
+
+Now open this file via nano /etc/wsl.conf and add user for ARCH.
+
+nano /etc/wsl.conf
+
+[user]
+default=adolf
+
+------------------------------------------------------------
+
+Open this file via nano for ARCH LINUX and change text.
+
+Paste in terminal: nano /etc/pacman.conf 
+
+# Misc options
+#UseSyslog
+Color
+ParallelDownloads = 20
+ILoveCandy
+#TotalDownload
+#CheckSpace
+VerbosePkgLists
+
+NOTE: ADD THIS TO IN BOTTOM ON TERMINAL.
+
+[multilib]
+Include = /etc/pacman.d/mirrorlist
+
+------------------------------------------------------------
+
+REBOOT ARCH LINUX - REBOOT ARCH LINUX - REBOOT ARCH LINUX - REBOOT ARCH LINUX
+
+
+                   -`                     
+                  .o+`             
+                 `ooo/                    DEEPIN DESKTOP AND ARCH LINUX - 2026
+                `+oooo:                   
+               `+oooooo:                  FIND ME HERE - https://github.com/vinberg88
+               -+oooooo+:                 
+             `/:-:++oooo+:                
+            `/++++/+++++++:               OS: Arch Linux x86_64 via WSL - 2026
+           `/++++++++++++++:              Host: Windows Subsystem for Linux - archlinux (2.6.3.0)
+          `/+++ooooooooooooo/`            Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+         ./ooosssso++osssssso+`           
+        .oossssso-````/ossssss+`          DESKTOP WSL: WINDOWS 11 
+       -osssssso.      :ssssssso.         
+      :osssssss/        osssso+++.        MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+     /ossssssss/        +ssssooo/-        
+   `/ossssso+/:-        -:/+osssso+-      
+  `+sso+:-`                 `.-/+oso:    
+ `++:.                           `-/+/    
+ .`                                 `/    
+
+------------------------------------------------------------
+
+
+LOGIN IN AS NORMAL USER AND START SETUP FOR DEEPIN DESKTOP  - Update All via terminal for ARCH LINUX
+
+sudo pacman-key --init
+
+sudo pacman-key --populate archlinux
+
+sudo pacman -Syu
+
+------------------------------------------------------------
+
+Chaotic AUR for ARCH. Run this in terminal no stress - ARCH Linux and DEEEPIN DESKTOP - Chaotic AUR repo from Shara fat Karim =]
+
+sudo pacman -S bat wget curl git
+
+wget -q -O chaotic-AUR-installer.bash https://raw.githubusercontent.com/SharafatKarim/chaotic-AUR-installer/main/install.bash && sudo bash chaotic-AUR-installer.bash && rm chaotic-AUR-installer.bash
+
+sudo pacman -Syu
+
+------------------------------------------------------------
+
+SET LANG FOR ARCH AND DEEPIN DESKTOP - CHANGE TO YOUR LANG =]
+
+sudo localectl set-locale LANG=en_US.UTF-8
+
+sudo nano /etc/locale.gen   <-- look for en_US.UTF-8 UTF-8 in terminal
+
+sudo locale-gen
+
+DONE NICE WORK =}
+
+---------------------------------
+
+Install yay installer for ARCH Linux. Install programs via yay -S
+
+sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+
+DONT FORGETT TO CD OUT: cd
+
+--------------------------
+
+Install some programs for ARCH OS and DEEPIN DESKTOP.
+
+yay -S bash npm wget curl dialog go fakeroot dbus ibus networkmanager glxinfo systemd
+
+------------------------------------------------------------
+ 
+SETUP SOUND FOR ARCH LINUX AND DEEPIN.
+
+yay -S sws supercollider sc3-plugins jack2 mpv sox qjackctl pulseaudio-bluetooth wireplumber
+
+yay -S pulseaudio njconnect flac alsa-firmware alsa-plugins alsa-utils pipewire
+
+sudo pacman -S pipewire pipewire-alsa wireplumber
+
+echo "export PULSE_SERVER=tcp:\$(grep nameserver /etc/resolv.conf | awk '{print \$2}')" >> ~/.bashrc
+
+source ~/.bashrc
+
+------------------------------------------------------------
+
+Install DEEPIN Desktop for ARCH LINUX - Will TAKE SOME TIME.
+
+yay -S deepin deepin-extra deepin-desktop
+
+yay -S xorg xorg-server xorg-xinit mesa xterm xorg-twm xorg-xrandr
+
+yay -S xterm xorg-xclock bluedevil libqtxdg nemo nautilus dolphin
+
+yay -S xorg-xfontsel xorg-xlsfonts xorg-xkill xorg-xinput xorg-xwininfo 
+
+yay -S lightdm-gtk-greeter lightdm deepin-kwin
+
+sudo systemctl enable lightdm
+
+yay -S gnome-shell breeze-gtk
+
+-------------------------
+
+REBOOT ARCH - REBOOT ARCH - REBOOT ARCH - REBOOT ARCH
+
+
+                   -`                     
+                  .o+`             
+                 `ooo/                    DEEPIN DESKTOP AND ARCH LINUX - 2026
+                `+oooo:                   
+               `+oooooo:                  FIND ME HERE - https://github.com/vinberg88
+               -+oooooo+:                 
+             `/:-:++oooo+:                
+            `/++++/+++++++:               OS: Arch Linux x86_64 via WSL - 2026
+           `/++++++++++++++:              Host: Windows Subsystem for Linux - archlinux (2.6.3.0)
+          `/+++ooooooooooooo/`            Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+         ./ooosssso++osssssso+`           
+        .oossssso-````/ossssss+`          
+       -osssssso.      :ssssssso.         
+      :osssssss/        osssso+++.        MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+     /ossssssss/        +ssssooo/-        
+   `/ossssso+/:-        -:/+osssso+-      
+  `+sso+:-`                 `.-/+oso:    
+ `++:.                           `-/+/    
+ .`                                 `/    
+
+
+-------------------------
+
+Configure the display manager (LightDM) FOR ARCH LINUX AND DEEPIN.
+
+sudo nano /etc/lightdm/lightdm.conf
+
+ADD THIS TO TOP OF TERMINAL FOR ARCH AND DEEPIN.
+
+greeter-session=lightdm-deepin-greeter
+
+-------------------------
+
+
+Install Hyfetch to see where we are =] - ARCH OS
+
+yay -S hyfetch fastfetch
+
+Test by type thie in Bash after install: hyfetch
+
+
+                   -`                     
+                  .o+`             
+                 `ooo/                    
+                `+oooo:                   
+               `+oooooo:                  OS: Arch Linux x86_64
+               -+oooooo+:                 Host: Windows Subsystem for Linux - Arch-Linux-SWE (2.9.3.0)
+             `/:-:++oooo+:                Kernel: Linux 6.18.35.2-microsoft-standard-WSL2
+            `/++++/+++++++:               
+           `/++++++++++++++:              
+          `/+++ooooooooooooo/`            WM: WSLg 1.0.79 (Wayland)
+         ./ooosssso++osssssso+`           
+        .oossssso-````/ossssss+`          DEEPIN DESKTOP AND ARCH LINUX - WSL - WINDOWS 11
+       -osssssso.      :ssssssso.         
+      :osssssss/        osssso+++.        MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+     /ossssssss/        +ssssooo/-        
+   `/ossssso+/:-        -:/+osssso+-      DESKTOP FOR WSL: WINDOWS 11 
+  `+sso+:-`                 `.-/+oso:    
+ `++:.                           `-/+/    FIND ME HERE - https://github.com/vinberg88
+ .`                                 `/    
+
+----------------------------------------------------------------
+
+Install Google Chrome for ARCH LINUX
+
+yay -S google-chrome
+
+----------------------------------------------------------------
+
+Install Blanket - Listen to sounds - ARCH LINUX
+
+yay -S blanket
+
+---------------------------------------------------------
+
+Install Gimp so we can PAINT FOR ARCH LINUX
+
+yay -S gimp
+
+---------------------------------------------------------
+
+LibreOffice for ARCH LINUX . OFFICE for all needs.
+
+yay -S libreoffice
+
+---------------------------------------------------------
+
+Install Visual Studio Code from MICROSOFT - ARCH LINUX - 2026
+
+yay -S code
+
+---------------------------------------------------------
+
+Paste all in terminal - ARCH LINUX
+
+sudo systemctl set-default graphical.target
+
+------------------------------------------------------
+
+Fix IP problems for X410. Cant find screen problems.
+
+OPEN POWERSHELL FROM MICROSOFT AND TYPE: ipconfig
+
+NOTE - Importent to look for ip. Last lines are IP-numbers for WSL in POWERSHELL so x410 works.
+
+NOW GO BACK TO ARCH Terminal and paste this.
+
+yay -S systemd
+
+sudo systemctl unmask systemd-resolved.service
+sudo systemctl enable systemd-resolved.service
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.23.144.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed ARCH OS =]
+
+------------------------------------------------------
+
+
+                   -`                     
+                  .o+`             
+                 `ooo/                    DEEPIN DESKTOP AND ARCH LINUX - 2026
+                `+oooo:                   
+               `+oooooo:                  FIND ME HERE - https://github.com/vinberg88
+               -+oooooo+:                 
+             `/:-:++oooo+:                
+            `/++++/+++++++:               OS: Arch Linux x86_64 via WSL - 2026
+           `/++++++++++++++:              Host: Windows Subsystem for Linux - archlinux (2.6.3.0)
+          `/+++ooooooooooooo/`            Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+         ./ooosssso++osssssso+`           
+        .oossssso-````/ossssss+`          DESKTOP FOR WSL - WINDOWS 11
+       -osssssso.      :ssssssso.         
+      :osssssss/        osssso+++.        MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+     /ossssssss/        +ssssooo/-        
+   `/ossssso+/:-        -:/+osssso+-      
+  `+sso+:-`                 `.-/+oso:    
+ `++:.                           `-/+/    
+ .`                                 `/    
+
+
+----------------------------------------------
+
+       ARCH OS and DEEPIN desktop for WSL
+
+Type this in terminal and put your username there - sudo loginctl enable-linger adolf
+
+----------------------------------------------
+
+Make a small script for ARCH LINUX.
+
+Type in terminal: sudo nano ~/.bash_deepin_desktop
+
+Paste this in terminal and save:
+
+#!/usr/bin/env bash
+
+WINDOWS_HOST="$(awk '/^nameserver[[:space:]]/ {print $2; exit}' /etc/resolv.conf)"
+
+export DISPLAY="${WINDOWS_HOST}:0.0"
+export XDG_SESSION_TYPE="x11"
+export XDG_CURRENT_DESKTOP="DDE"
+export XDG_SESSION_DESKTOP="deepin"
+export DESKTOP_SESSION="deepin"
+export QT_QPA_PLATFORM="xcb"
+
+if [[ -S /mnt/wslg/PulseServer ]]; then
+    export PULSE_SERVER="unix:/mnt/wslg/PulseServer"
+fi
+
+----------------------------------------------------------------
+
+DOWNLOAD THIS SCRIPT FÖR ARCH AND DEEPIN - SO DEEPIN WILL START =]
+
+wget --https-only --timeout=30 --tries=3 -O /tmp/deepin-arch-v2.sh https://www.xhamster.nu/scripts/deepin-arch-v2.sh
+
+----------------------------------------------------------------
+
+Make a small script for ARCH OS and DEEPIN DESKTOP.
+
+COPY AND PASTE IN TERMINAL - ONE BY ONE - NO STRESS - ARCH LINUX
+
+
+sed -i 's/\r$//' /tmp/deepin-arch-v2.sh
+
+bash -n /tmp/deepin-arch-v2.sh && echo "Syntax OK"
+
+sudo mkdir -p ~/.local/bin
+
+sudo chown -R "$(id -un):$(id -gn)" ~/.local
+
+install -m 755 /tmp/deepin-arch-v2.sh ~/.local/bin/deepin-arch
+
+ls -l ~/.local/bin/deepin-arch
+
+grep -qxF 'export PATH="$HOME/.local/bin:$PATH"' ~/.bashrc || echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
+
+source ~/.bashrc
+
+command -v deepin-arch
+
+----------------------------------------------------------------
+
+TEST SCRIPT AND SEE THAT ALL WORKS ARCH.
+
+Copy and paste in terminal: deepin-arch doctor
+
+IF YOU SEE STUFF LIKE THIS ALL WORKS WELL FOR DEEPIN AND ARCH LINUX =]
+
+
+Deepin Arch / WSL-diagnos
+Version:                   2.0
+------------------------------------------------------------
+dde-session:               /usr/sbin/dde-session
+dde-desktop:               /usr/sbin/dde-desktop
+DISPLAY:                   :0
+XDG_RUNTIME_DIR:           /run/user/1000
+DBUS_SESSION_BUS_ADDRESS:  unix:path=/run/user/1000/bus
+PULSE_SERVER:              unix:/mnt/wslg/PulseServer
+XDG_SESSION_TYPE:          x11
+QT_QPA_PLATFORM:           xcb
+
+Session:                   inte aktiv
+Panel:                     inte aktiv
+Bakgrund:                  inte aktiv
+systemd user:              running
+
+
+----------------------------------------------------------------
+
+Reboot Linux - Reboot Linux - Reboot Linux - Reboot Linux - ARCH OS
+
+----------------------------------------------------------------
+
+Time to start DEEPIN desktop via ARCH. First start X410 then you start ARCH via terminal - Done =]
+
+
+Copt and paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Copt and paste in terminal: . ~/.bash_deepin_desktop
+
+FIRST TIME WHEN YOU START DEEPIN USE: deepin-arch repair
+
+Next TIME YOU start DEEPIN always use this line: deepin-arch
+
+
+If you get problem run: deepin-arch repair
+
+TAKE SOME TIME TO START DEEPIN DESKTOP - JUST WAIT FOR ARCH AND DEEPIN DESKTOP WILL WORK FINE FROM START.
+
+----------------------------------------------------------------
+
+                   -`                     
+                  .o+`             
+                 `ooo/                    
+                `+oooo:                   DEEPIN DESKTOP AND ARCH LINUX - 2026
+               `+oooooo:                  
+               -+oooooo+:                 Win Version: Windows 11 - Latests edition - 2026
+             `/:-:++oooo+:                
+            `/++++/+++++++:               OS: Arch Linux x86_64 via WSL - 2026
+           `/++++++++++++++:              Host: Windows Subsystem for Linux - archlinux (2.6.3.0)
+          `/+++ooooooooooooo/`            Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+         ./ooosssso++osssssso+`           
+        .oossssso-````/ossssss+`          FIND ME HERE - https://github.com/vinberg88
+       -osssssso.      :ssssssso.         
+      :osssssss/        osssso+++.        MEDIA MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+     /ossssssss/        +ssssooo/-        
+   `/ossssso+/:-        -:/+osssso+-      
+  `+sso+:-`                 `.-/+oso:    
+ `++:.                           `-/+/    
+ .`                                 `/    
+
+
+Regards Mattias Vinberg - ARCH - Linux - DEEPIN - WSL - SweDen - X410 - Windows 11 - 2026
+
+----------------------------------------------------------------
