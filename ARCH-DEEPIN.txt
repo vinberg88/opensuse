@@ -1,7 +1,7 @@
 ARCH and DEEPIN - WSL - How to install DEEPIN desktop via ARCH - Windows 11 - LINUX - GitHUB - YouTUBE - 2026
 
 How to install DEEPIN desktop via ARCH LINUX and Windows 11 - TEXT VIA GITHUB
-Comming ZONE...
+https://github.com/vinberg88/opensuse/blob/main/ARCH-DEEPIN.txt
 
 How to install DEEPIN desktop via ARCH LINUX and Windows 11 - MOVIE VIA YOUTUBE
 https://www.youtube.com/watch?v=j2Ou_4hARXI
