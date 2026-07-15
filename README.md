@@ -56,6 +56,63 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+ARCH and DEEPIN - WSL - How to install DEEPIN desktop via ARCH - Windows 11 - LINUX - GitHUB - YouTUBE - 2026
+
+How to install DEEPIN desktop via ARCH LINUX and Windows 11 - TEXT VIA GITHUB
+
+https://github.com/vinberg88/opensuse/blob/main/ARCH-DEEPIN.txt
+
+How to install DEEPIN desktop via ARCH LINUX and Windows 11 - MOVIE VIA YOUTUBE
+
+https://www.youtube.com/watch?v=j2Ou_4hARXI
+
+TOOLS THAT I USE FOR ARCH LINUX AND DEEPIN AND WSL - WINDOWS 11
+
+X410 - X Server for Windows 11. Find it in Micorsoft store. 
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Linux (WSL) distribution.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="ARCH-DEEPIN" src="https://github.com/user-attachments/assets/65fff190-b969-4a0f-a7c4-96478cfebfdf" />
+
+About Arch Linux - https://archlinux.org/about - 2026
+
+Arch Linux, a lightweight and flexible Linux® distribution
+that tries to Keep It Simple. Arch Linux is an independently 
+developed, x86-64 general-purpose GNU/Linux distribution that strives
+to provide the latest stable versions of most software by following
+a rolling-release model. The default installation is a minimal
+base system, configured by the user to only add what is
+purposely  required. Arch Linux uses a "rolling release" system which
+allows one-time installation and perpetual software upgrades.
+It is not generally necessary to reinstall or upgrade your Arch 
+Linux system from one "version" to the next. By issuing one 
+command, an Arch system is kept up-to-date and on the bleeding edge. 
+
+About DEEPIN FOR WSL - https://www.deepin.org - 2026
+
+Beautiful UI design, intimate human-computer interaction, and friendly
+community environment make you feel at home. Deepin is easy to
+install and can meet your work needs without additional system 
+configuration and software installation. You can configure deepin
+as you want, but it is not necessary - optimal settings and adjustments
+have been applied by default to meet the usage demands of most users.
+The desktop environment and multiple applications based on the 
+self-developed DTK not only have a beautiful UI, but also offer 
+the human-computer interaction in line with user habits. 
+You can get started with deepin in a few minutes.
+
+You can finde more Stuff here About WSL for Desktops via WSL - ARCH
+
+https://github.com/vinberg88/opensuse or https://vinberg88.github.io
+
+Regards Mattias Vinberg - ARCH - Linux - DEEPIN - WSL - SweDen - X410 - Windows 11 - 2026
+
+---------------------------------------------
+
 Ubuntu 26.04 and Gnme 50 via WSL - Wayland - Windows 11 - Linux - wslg - Linux - 2026
 
 How to install Gnome via Ubuntu 26.04 - GNOME 50 - WSL - TEXT via GITHUB.
