@@ -56,6 +56,50 @@ Have alot of time - This is just for fun! WSL is an excellent tool to learn Linu
 
 ---------------------------------------------
 
+Ubuntu 26.04 and UKUI - How to Install UKUI desktop via Ubuntu and Windows 11 - WSL - KYLIN - Linux - 2026
+
+How to install UKUI desktop via windows 11 and Ubuntu 26.04 LTS - TEXT VIA GITHUB.
+
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu26.04-UKUI.txt
+
+How to install UKUI desktop via windows 11 and Ubuntu 26.04 LTS - MOVIE VIA YOUTUBE
+
+https://www.youtube.com/watch?v=Ba4VELqagPM
+
+Tools that i use for WSL2 and Ubuntu 26.04 LTS and UKUI - 2026
+
+Use X410 - X Server for Windows 11 and it works well.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem Linux Distros.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="Ubuntu26 04-UKUI" src="https://github.com/user-attachments/assets/88acce40-b591-4324-ad43-11e0358be7d6" />
+
+About Ubuntu 26.04 - https://ubuntu.com
+
+Ubuntu 26.04 LTS brings more of everything you love about
+Ubuntu Desktop. More features and customisation options, more
+performance and power efficiency and more ways to integrate
+with your existing enterprise management tools. Combined with
+our LTS commitment of five years of updates and security 
+patching, we’re confident that this latest version of the
+Linux Desktop delivers everything needed to empower developers
+and creators in 2022 and beyond.
+
+About UKUI - https://github.com/ukui/ukui-desktop-environment - https://www.ukui.org
+
+UKUI is a desktop environment for Linux distributions and other 
+UNIX-like operating systems. It provides a simpler and more
+enjoyable experience for browsing, searching and managing 
+your computer.
+
+Warm Regards - Mattias Vinberg - Ubuntu 26.04 - Kylin - UKUI - Windows 11 - Sweden - WSL2 - 2026
+
+---------------------------------------------
+
 ARCH and DEEPIN - WSL - How to install DEEPIN desktop via ARCH - Windows 11 - LINUX - GitHUB - YouTUBE - 2026
 
 How to install DEEPIN desktop via ARCH LINUX and Windows 11 - TEXT VIA GITHUB
