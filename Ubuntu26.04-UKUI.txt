@@ -1,7 +1,7 @@
 Ubuntu 26.04 and UKUI - How to Install UKUI desktop via Ubuntu and Windows 11 - WSL - KYLIN - Linux - 2026
 
 How to install UKUI desktop via windows 11 and Ubuntu 26.04 LTS - TEXT VIA GITHUB.
-Comming SONE...
+https://github.com/vinberg88/opensuse/blob/main/Ubuntu26.04-UKUI.txt
 
 How to install UKUI desktop via windows 11 and Ubuntu 26.04 LTS - MOVIE VIA YOUTUBE
 https://www.youtube.com/watch?v=Ba4VELqagPM
