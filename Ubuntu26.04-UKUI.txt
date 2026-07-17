@@ -1,0 +1,360 @@
+Ubuntu 26.04 and UKUI - How to Install UKUI desktop via Ubuntu and Windows 11 - WSL - KYLIN - Linux - 2026
+
+How to install UKUI desktop via windows 11 and Ubuntu 26.04 LTS - TEXT VIA GITHUB.
+Comming SONE...
+
+How to install UKUI desktop via windows 11 and Ubuntu 26.04 LTS - MOVIE VIA YOUTUBE
+https://www.youtube.com/watch?v=Ba4VELqagPM
+
+                             ....             
+              .',:clooo:  .:looooo:.          
+           .;looooooooc  .oooooooooo'         Ubuntu 26.04 and Windows 11 for WSL2 - UKUI / Kylin - 2026
+        .;looooool:,''.  :ooooooooooc         
+       ;looool;.         'oooooooooo,         MEDIA: MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+      ;clool'             .cooooooc.  ,,      
+         ...                ......  .:oo,     FIND ME HERE - https://github.com/vinberg88
+  .;clol:,.                        .loooo'    
+ :ooooooooo,                        'ooool    OS: Ubuntu 26.04 LTS (Resolute Raccoon) x86_64
+'ooooooooooo.                        loooo.   
+'ooooooooool                         coooo.   Host: Windows Subsystem for Linux - Ubuntu-SE (2.9.3.0)
+ ,loooooooc.                        .loooo.
+   .,;;;'.                          ;ooooc    Kernel: Linux 6.18.35.2-microsoft-standard-WSL2
+       ...                         ,ooool.
+    .cooooc.              ..',,'.  .cooo.     DESKTOP: Windows 11 - UKUI desktop - 2026
+      ;ooooo:.           ;oooooooc.  :l.      
+       .coooooc,..      coooooooooo.
+         .:ooooooolc:. .ooooooooooo'
+           .':loooooo;  ,oooooooooc
+               ..';::c'  .;loooo:'
+                             .
+
+Tools that i use for WSL2 and Ubuntu 26.04 LTS and UKUI - 2026
+
+Use X410 - X Server for Windows 11 and it works well.
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem Linux Distros.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+About Ubuntu 26.04 - https://ubuntu.com
+
+Ubuntu 26.04 LTS brings more of everything you love about
+Ubuntu Desktop. More features and customisation options, more
+performance and power efficiency and more ways to integrate
+with your existing enterprise management tools. Combined with
+our LTS commitment of five years of updates and security 
+patching, we’re confident that this latest version of the
+Linux Desktop delivers everything needed to empower developers
+and creators in 2022 and beyond.
+
+About UKUI - https://github.com/ukui/ukui-desktop-environment - https://www.ukui.org
+
+UKUI is a desktop environment for Linux distributions and other 
+UNIX-like operating systems. It provides a simpler and more
+enjoyable experience for browsing, searching and managing 
+your computer.
+
+You cane Find More Stuff here About WSL and desktops for linux - Windows 11
+
+https://github.com/vinberg88/opensuse or https://vinberg88.github.io
+
+------------------------------
+
+LETS START INSTALL OF Ubuntu 26.04 LTS so we can build UKUI / KYLIN desktop.
+
+Install Ubuntu 26.04 via Powershell:  wsl --install Ubuntu-26.04 --name Ubuntu-KYLIN
+
+------------------------------
+
+Update all after install so we have latest drivers for Ubuntu 26.04 LTS
+
+sudo apt update && sudo apt upgrade -y
+
+--------------------------
+
+FIX DBUS PROBLEM SO UBUNTU 26.04 LTS IS 100 PROCENT FASTER.
+
+sudo apt install dbus* systemd-boot* systemd dbus-broker* dbus-daemon* systemd-resolved* systemd-u* systemd-ukify* systemd-hwe-hwdb* dbus-* 
+
+sudo systemctl disable dbus-broker
+sudo systemctl enable dbus
+
+sudo mkdir -p /run/dbus
+sudo chown messagebus:messagebus /run/dbus
+
+--------------------------
+
+REBOOT Ubuntu 26.04 - REBOOT Ubuntu 26.04 - REBOOT Ubuntu 26.04 - REBOOT Ubuntu 26.04 
+
+--------------------------
+
+Add repository universe to Ubuntu and KYLIN - UKUI desktop
+
+sudo add-apt-repository universe
+
+sudo apt update
+sudo apt upgrade -y
+
+--------------------------
+
+Install programs for Ubuntu 26.04 LTS
+
+sudo apt install bash git npm wget curl nano pipx -y
+
+sudo apt install lightdm*
+
+sudo apt install xorg* gtk*
+
+sudo apt install x11* kwin*
+
+sudo apt install daemonize ibus*
+
+SELECT Lightdm if asked under install via terminal - Ubuntu 26.04 - UKUI
+
+sudo apt install snapd* flatpak* -y
+
+sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+--------------------------------------------
+
+Install fastfetch for Ubuntu 26.04 LTS
+
+sudo apt install fastfetch
+
+Test by paste this line in Console: fastfetch
+
+                             ....                                         ....
+              .',:clooo:  .:looooo:.                       .',:clooo:  .:looooo:.
+           .;looooooooc  .oooooooooo'                   .;looooooooc  .oooooooooo'
+        .;looooool:,''.  :ooooooooooc                .;looooool:,''.  :ooooooooooc
+       ;looool;.         'oooooooooo,               ;looool;.         'oooooooooo,
+      ;clool'             .cooooooc.  ,,           ;clool'             .cooooooc.  ,,
+         ...                ......  .:oo,             ...                ......  .:oo,
+  .;clol:,.                        .loooo'     .;clol:,.                        .loooo'
+ :ooooooooo,                        'ooool    :ooooooooo,                        'ooool
+'ooooooooooo.                        loooo.  'ooooooooooo.                        loooo.
+'ooooooooool                         coooo.  'ooooooooool                         coooo.
+ ,loooooooc.                        .loooo.   ,loooooooc.                        .loooo.
+   .,;;;'.                          ;ooooc      .,;;;'.                          ;ooooc
+       ...                         ,ooool.          ...                         ,ooool.
+    .cooooc.              ..',,'.  .cooo.        .cooooc.              ..',,'.  .cooo.
+      ;ooooo:.           ;oooooooc.  :l.           ;ooooo:.           ;oooooooc.  :l.
+       .coooooc,..      coooooooooo.                .coooooc,..      coooooooooo.
+         .:ooooooolc:. .ooooooooooo'                  .:ooooooolc:. .ooooooooooo'
+           .':loooooo;  ,oooooooooc                     .':loooooo;  ,oooooooooc
+               ..';::c'  .;loooo:'                          ..';::c'  .;loooo:'
+                             .                                            .
+
+OS: Ubuntu 26.04 LTS (Resolute Raccoon) x86_64
+Host: Windows Subsystem for Linux - Ubuntu-SE (2.9.3.0)
+Kernel: Linux 6.18.35.2-microsoft-standard-WSL2
+
+wslg:            6942bb534b537302a7a22617261d9274db3cfa37
+DirectX-Headers: v1.608.0;oooooooc.  :l.
+FreeRDP:         c4030980b29322a9cb2190711a5fadeeeb8b6a33
+mesa:            23.1.0.ooooooooooo'
+pulseaudio:      c33051f2296af748ac5cd13e51abfac4d129e4c7
+weston:          a7e35fdab455dce5774b43b8aff682f748307e31
+
+Lets install some more program for Ubuntu 26.04.
+
+--------------------------------------------
+
+Install Chrome for Ubuntu 26.04 LTS AND UKUI.
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+--------------------------------------------
+
+Install Blanket for Ubuntu 26.04 LTS - SOUNDS WHEN YOU ARE CODING.
+
+sudo apt install blanket* -y
+
+--------------------------------------------
+
+Use this for install of UKUI desktop and Ubuntu 26.04 =)
+
+sudo apt install ukui-desktop-environment -y
+
+SELECT Lightdm if asked under install via terminal - Ubuntu 26.04 - UKUI
+
+sudo apt install ukui-desktop* peony* kylin* ffmpeg-doc vcdimager tracker ubuntukylin-wallpapers-cosmic libukui* -y
+
+--------------------------------------------
+
+Youker: A series of tools - Ubuntu 26.04 LTS AND UKUI - 2026
+
+Ubuntu Kylin has also a series of tools named as Youker.
+Typing in “Youker” in the Kylin start menu will bring up 
+the Kylin assistant. If you press the “Windows” key on
+the keyboard, you will get a response exactly like you
+would on Windows. It will fire up the Kylin start menu.
+ 
+sudo apt install youker*
+
+--------------------------------------------
+
+Time to install gimp so you can paint - Ubuntu 26.04 LTS AND UKUI desktop.
+
+sudo apt install gimp
+
+------------------------------------------------------
+
+Install LibreOffice for Ubuntu 26.04 LTS AND UKUI desktop.
+
+sudo apt install libreoffice
+
+------------------------------------------------------
+
+Fix IP problem X410. Cant find screen problems. Look ip adress in windows terminal / PowerShell as root : ipconfig
+
+OPEN MICROSOFT POWERSHELL AND TYPE: ipconfig
+
+NOTE - last lines are ip for WSL and Ubuntu 26.04 LTS and UKUI / KYLIN Desktop
+
+NOW GO BACK TO Ubuntu 26.04 LTS TERMINAL AND COPY AND PASTE.
+
+sudo apt install systemd-resolved
+
+sudo systemctl unmask systemd-resolved.service
+sudo systemctl enable systemd-resolved.service
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.23.144.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+cat /etc/resolv.conf
+
+DONE - alot of problem fixed for Ubuntu 26.04 LTS and UKUI.
+
+------------------------------------------------------
+
+Paste in terminal and klick enter - Ubuntu 26.04 LTS
+
+xdg-user-dirs-update
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+--------------------------------------------
+
+Create this small script for Ubuntu 26.04 LTS
+
+Type this in terminal and put your user there at the end - sudo loginctl enable-linger adolf
+
+--------------------------------------------
+
+Make small script for Ubuntu 26.04 LTS and UKUI desktop.
+
+Copy this and paste in terminal: sudo nano ~/.bash_ubuntu_desktop
+
+Then add this lines and save in terminal
+
+export XDG_CURRENT_DESKTOP=ubuntu:GNOME
+export XDG_SESSION_DESKTOP=ubuntu
+export DESKTOP_SESSION=ubuntu
+export GNOME_SHELL_SESSION_MODE=ubuntu
+
+export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+export XDG_MENU_PREFIX=gnome-
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+------------------------------------------------------
+
+Install this last Tools for Ubuntu 26.04 LTS
+
+sudo apt install ukui-panel* ukui-media* pulseaudio-utils sound-theme-freedesktop audio* marco* pciutils gnome-terminal
+
+------------------------------------------------------
+
+DOWNLOAD THIS SCRIPT FÖR Ubuntu 26.04 LTS AND UKUI - SO Desktop WILL START =]
+
+wget --https-only --timeout=30 --tries=3 -O /tmp/ubuntu-UKUI.sh https://www.xhamster.nu/swe/ubuntu-UKUI.sh
+
+----------------------------------------------------------------
+
+Now we must install scrip for UKUI / KYLIN desktop and Ubuntu 26.04 LTS
+
+Copy and paste in terminal - one by one =]
+
+
+sed -i 's/\r$//' /tmp/ubuntu-UKUI.sh
+
+bash -n /tmp/ubuntu-UKUI.sh && echo "Syntax OK"
+
+sudo mkdir -p ~/.local/bin
+
+sudo chown -R "$(id -un):$(id -gn)" ~/.local
+
+install -m 755 /tmp/ubuntu-UKUI.sh ~/.local/bin/ukui-x410
+
+ls -l ~/.local/bin/ukui-x410
+
+grep -qxF 'export PATH="$HOME/.local/bin:$PATH"' ~/.bashrc || echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
+
+source ~/.bashrc
+
+command -v ukui-x410
+
+NICE WORK - TIME FOR NEXT STEP FOR UKUI AND UBUNTU
+
+----------------------------------------------------------------
+
+REBOOT Ubuntu 26.04 - REBOOT Ubuntu 26.04 - REBOOT Ubuntu 26.04 - REBOOT Ubuntu 26.04 
+
+----------------------------------------------------------------
+
+TIME TO START DESKTOP UKUI / Kylin desktop VIA Ubuntu 26.04 LTS - WSL - 2026.
+
+
+NOTE - First start x410 then you start Ubuntu 26.04 LTS terminal - NOTE
+ 
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Paste in terminal: . ~/.bash_ubuntu_desktop
+
+Type in terminal and start UkUI: dbus-launch ukui-x410
+
+
+JUST WAIT IT TAKE SOME TIME TO START DESKTOP - UKUI Desktop - KYLIN - JUST WAIT...
+
+------------------------------------------------------
+
+Ubuntu and Canonical are registered trademarks. All other trademarks are property of respective owners. 
+
+                             ....             
+              .',:clooo:  .:looooo:.         OS: Ubuntu 26.04 LTS (Resolute Raccoon) x86_64
+           .;looooooooc  .oooooooooo'        
+        .;looooool:,''.  :ooooooooooc         
+       ;looool;.         'oooooooooo,         
+      ;clool'             .cooooooc.  ,,     FIND ME HERE - https://github.com/vinberg88
+         ...                ......  .:oo,    
+  .;clol:,.                        .loooo'    
+ :ooooooooo,                        'ooool   
+'ooooooooooo.                        loooo. 
+'ooooooooool                         coooo.  Ubuntu 26.04 LTS - KYLIN - UKUI - Windows 11 - WSL - 2026
+ ,loooooooc.                        .loooo.
+   .,;;;'.                          ;ooooc   
+       ...                         ,ooool.
+    .cooooc.              ..',,'.  .cooo.
+      ;ooooo:.           ;oooooooc.  :l.     MEDIA: MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+       .coooooc,..      coooooooooo.
+         .:ooooooolc:. .ooooooooooo'
+           .':loooooo;  ,oooooooooc
+               ..';::c'  .;loooo:'
+                             .
+
+Warm Regards - Mattias Vinberg - Ubuntu 26.04 - Kylin - UKUI - Windows 11 - Sweden - WSL2 - MicroSoft - 2026
+
+------------------------------------------------------
