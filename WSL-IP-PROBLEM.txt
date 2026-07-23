@@ -1,33 +1,51 @@
-How to CHANGE IP FOR WSL - after this is done take a snapshot. First thing to do after installation Linux... 
+WSL CANT FIND SCREEN FOR X410 OR OTHER XSERVER - SWEDEN - 2026
 
-VIDEO: https://www.youtube.com/watch?v=hLrXtOvnE8w
-
-FIX - $DISPLAY is not set or cannot connect to the X server
+FIX errors for Xservers like x410 or GWSL in LINUX when you start Desktop via Windows 11 / WSL for LINUX.
 
 FIRST THING TO DO
 
-Open windows terminal and enter: ipconfig /all
-Look after: Ethernet adapter vEthernet (WSL (Hyper-V firewall)):
-and you will se your ip for wsl - use it. IPv4 Address. . . . . . . . . . . : 182.18.122.9 (Preferred)  <-- DEMO
+Open POWERSHELL from Microsoft and enter: ipconfig
+
+Look after IP for wsl and you will see: Ethernet adapter vEthernet (WSL (Hyper-V firewall)):
+Copy ip for wsl - use it - something like this: IPv4 Address 182.18.122.9  <-- DEMO
+
+Copy that IP nummber and look down in this text file - copy IP there.
+
+After copy you can close POWERSHELL and Go back to ex debian/fedora/redhat/centos/ubuntu or what linux version you use.
 
 -------------------------------------------------
 
-Change nameserver and ip - BEST WAY
+Now Copy and paste in Linux Terminal
 
-Copy and paste in Terminal....
+NOTE if you see ann error you need to install systemd-resolved
+
+systemd-resolved are some for Redhat, Fedora, Ubuntu, Debian, Centos and so one.. Use google if you cant find it =)
+
+ex: sudo apt install systemd-resolved or sudo dnf install systemd-resolved
+
+-------------------------------------------------
+
+Copy and paste in terminal for LINUX. No stress.
+
+sudo systemctl unmask systemd-resolved.service
+sudo systemctl enable systemd-resolved.service
 
 sudo ls -l /etc/resolv.conf
 sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
-Sudo nano /etc/resolv.conf 
+sudo nano /etc/resolv.conf
 
-add your NS: nameserver for WSL - like this: nameserver 182.18.122.9
+nameserver 182.18.122.9 <-- put your ip here from powershell from microsoft
 
 sudo chattr +i /etc/resolv.conf
 sudo systemctl restart systemd-resolved
 cat /etc/resolv.conf
 
+Last line will lock file so windows and WSL2 not can change ip for WSL - Big problems fixed for WSL2 =]
+
 -------------------------------------------------
 
-Regards, Mattias Vinberg - SWEDEN - Stockholm - 2024 - WSL - GWSL - Linux
+VIDEO: https://www.youtube.com/watch?v=hLrXtOvnE8w
+
+Regards, Mattias Vinberg - SWEDEN - Stockholm - 2026 - WSL2 - Linux - Microsoft - WSLg - WINDOWS 11 
 
 -------------------------------------------------
