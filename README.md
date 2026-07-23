@@ -3,8 +3,6 @@
 
 TubeDesk - YOUTUBE PROGRAM - DOWNLOAD FROM MICROSFT STORE - My PROGRAM =)
 
-<br>
-
  <a href="https://apps.microsoft.com/detail/9NBB6K4WP0ZM" target="_blank">
   <img 
     src="https://get.microsoft.com/images/en-us%20dark.svg" 
