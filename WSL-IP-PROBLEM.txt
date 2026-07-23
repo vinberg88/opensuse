@@ -1,3 +1,6 @@
+
+
+
 WSL CANT FIND SCREEN FOR X410 OR OTHER XSERVER - SWEDEN - 2026
 
 FIX errors for Xservers like x410 or GWSL in LINUX when you start Desktop via Windows 11 / WSL for LINUX.
@@ -47,5 +50,7 @@ Last line will lock file so windows and WSL2 not can change ip for WSL - Big pro
 VIDEO: https://www.youtube.com/watch?v=hLrXtOvnE8w
 
 Regards, Mattias Vinberg - SWEDEN - Stockholm - 2026 - WSL2 - Linux - Microsoft - WSLg - WINDOWS 11 
+
+
 
 -------------------------------------------------
