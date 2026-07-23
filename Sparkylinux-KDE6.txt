@@ -1,0 +1,389 @@
+SPARKYLINUX and KDE 6 - Install KDE 6 via SPARKY 9 and WSL - Windows 11 - Debian - X410 - YouTUBE - 2026
+
+How to install KDE 6 PLASMA via SPARKY 9 - WSL - TEXT via GITHUB
+Comming sone...
+
+How to install KDE 6 PLASMA via SPARKY 9 - WSL - MOVIE via YouTUBE
+https://www.youtube.com/watch?v=EsxKlAI2v8M
+
+Download SPARKY FOR WSL: https://drive.proton.me/urls/DYRHJ4RZM0#HXbnGqE5NXtf
+
+Tools that i use for WSL AND for SPARKY - 2026
+
+X410 - Xserver for windows 11 - So you have a Desktop TO See in Windows 11.
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL - Handel WSL image easy and Linux for WSL for windows 11.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+WSL UI - This tool is free and works like Raft WSL.
+A modern manager WSL for inux distributions.
+https://apps.microsoft.com/detail/9p8548knj2m9?hl=sv-SE&gl=SE
+
+
+           .            `-:-`                   
+          .o`       .-///-`                     
+         `oo`    .:/++:.                        
+         os+`  -/+++:` ``.........```           
+        /ys+`./+++/-.-::::::----......``        Thank you for install KDE 6 via SPARKY 9 FOR WSL - Special Edition
+       `syyo`++o+--::::-::/+++/-``              
+       -yyy+.+o+`:/:-:sdmmmmmmmmdy+-`           Windows 11 - WSLg - We have sound - KDE 6 desktop for LINUX.
+::-`   :yyy/-oo.-+/`ymho++++++oyhdmdy/`         
+`/yy+-`.syyo`+o..o--h..osyhhddhs+//osyy/`       OS: SparkyLinux 9.0 Forky -  WSL x86_64
+  -ydhs+-oyy/.+o.-: ` `  :/::+ydhy+```-os-      Kernel: Linux 6.18.35.2-microsoft-standard-WSL2
+   .sdddy::syo--/:.     `.:dy+-ohhho    ./:     Host: Windows Subsystem for Linux - SparkyLinux-8.3 (2.9.3.0)
+     :yddds/:+oo+//:-`- /+ +hy+.shhy:     ``    
+      `:ydmmdysooooooo-.ss`/yss--oyyo           FIND ME HERE - https://github.com/vinberg88
+        `./ossyyyyo+:-/oo:.osso- .oys           
+       ``..-------::////.-oooo/   :so           Media Mattias Vinberg - Sweden - Stockholm - 2026
+    `...----::::::::--.`/oooo:    .o:           
+           ```````     ++o+:`     `:`           
+                     ./+/-`        `            
+                   `-:-.                        
+                   ``                           
+
+About SPARKYLINUX - 2026 - https://sparkylinux.org
+
+SparkyLinux is a GNU/Linux distribution based on the
+Debian GNU/Linux operating system. Sparky is a fast,
+lightweight and fully customizable operating system
+which offers several versions for different use. Sparky
+supports about 20 desktop environments and window
+managers giving you freedom of choice, having in mind
+that your computer is made for working, having fun,
+entertainment, keeping in touch with friends, and
+many, many other things. 
+
+About KDE 6 Plasma - https://kde.org
+
+KDE Plasma is a modern, feature-rich desktop environment
+for Linux-based operating systems. Known for its sleek
+design, customizable interface, and extensive set of
+applications, it is also open source, devoid
+of ads, and makes protecting your privacy and
+personal data a priority. The KDE Plasma Launcher lets
+you quickly and easily launch applications, but it
+can do much more -- convenient tasks like bookmarking
+applications, searching for documents as you type, or
+navigating to common places help you get straight
+to the point.
+
+Want more stuff about WSL - Windows 11 - MICROSOFT - Linux - WSL2 - SPARKYLINUX 9.0
+
+https://github.com/vinberg88/opensuse or look here https://vinberg88.github.io
+
+--------------------------------------------
+
+LETS START INSTALL OF SPARKYLINUX AND KDE 6 FOR WSL - Special Edition - 2026
+
+I have maked sparkylinx for WSL. ENJOY SPARKY - Maybe build
+an GITHUB paga later for SPARKY WSL.
+
+Download Sparkylinux: https://drive.proton.me/urls/DYRHJ4RZM0#HXbnGqE5NXtf
+
+Install Sparkylinux via Press the blue ICON. Will
+setup user and password for WSL and we are online.
+
+--------------------------------------------
+
+UPDATE SPARKYLINUX TO LATEST version - DEBIAN 14 - SPARKYLINUX 9.0
+
+
+1. Open this file in terminal.
+
+sudo nano /etc/apt/sources.list
+
+Replace trixie with forky in terminal.
+
+
+2. Open the Sparky repository file
+
+cd /etc/apt/sources.list.d
+
+ls 
+
+
+3. Look for sources file sparky.sources and open it.
+
+sudo nano sparky.sources
+
+Replace sisters with tiamat
+
+Last thing type type: cd
+
+
+--------------------------------------------
+
+Update SPARKYLINUX so we have latest drivers and files and version.
+
+sudo apt-get update
+sudo apt-get dist-upgrade
+
+--------------------------------------------
+
+FIX DBUS PROBLEM SO SPARKYLINUX / DEBIAN IS FASTER.
+
+sudo apt install dbus systemd-boot* systemd dbus-broker* dbus-daemon* systemd-resolved* systemd-u* systemd-ukify*
+
+sudo systemctl disable dbus-broker
+sudo systemctl enable dbus
+
+sudo mkdir -p /run/dbus
+sudo chown messagebus:messagebus /run/dbus
+
+--------------------------------------------
+
+REBOOT SPARKYLINUX - REBOOT SPARKYLINUX - REBOOT SPARKYLINUX
+
+--------------------------------------------
+
+Install some Basic Programs for SPARKYLINUX and KDE 6 - TAKE SOME TIME.
+
+sudo apt install ibus bash git npm wget curl pipx pip dracut -y
+
+sudo apt install sddm* -y
+
+sudo apt install xorg* -y
+
+sudo apt install x11* qt5* -y
+
+sudo apt install kwin* qt6* daemonize wayland* -y
+
+sudo apt install gtk* gtk2* gtk3* gtk4* -y
+
+--------------------------------------------
+
+Time to install Fastfetch - Like Neofetch.
+
+sudo apt install fastfetch*
+
+MAYBE ALREADY INSTALLD WHEN I PACKED SPARKYLINUX FOR WSL.
+
+Copy in terminal to test fastfetch: fastfetch
+
+
+           .            `-:-`                   
+          .o`       .-///-`                     
+         `oo`    .:/++:.                        
+         os+`  -/+++:` ``.........```           
+        /ys+`./+++/-.-::::::----......``        Thank you for install KDE 6 via SPARKYLINUX FOR WSL.
+       `syyo`++o+--::::-::/+++/-``              
+       -yyy+.+o+`:/:-:sdmmmmmmmmdy+-`           Windows 11 - WSLg - We have sound - KDE 6 desktop for LINUX.
+::-`   :yyy/-oo.-+/`ymho++++++oyhdmdy/`         
+`/yy+-`.syyo`+o..o--h..osyhhddhs+//osyy/`       OS: SparkyLinux 9.0 Forky -  WSL x86_64
+  -ydhs+-oyy/.+o.-: ` `  :/::+ydhy+```-os-      Kernel: Linux 6.18.35.2-microsoft-standard-WSL2
+   .sdddy::syo--/:.     `.:dy+-ohhho    ./:     Host: Windows Subsystem for Linux - SparkyLinux-8.3 (2.9.3.0)
+     :yddds/:+oo+//:-`- /+ +hy+.shhy:     ``    
+      `:ydmmdysooooooo-.ss`/yss--oyyo           FIND ME HERE - https://github.com/vinberg88
+        `./ossyyyyo+:-/oo:.osso- .oys           
+       ``..-------::////.-oooo/   :so           Media Mattias Vinberg - Sweden - Stockholm - 2026
+    `...----::::::::--.`/oooo:    .o:           
+           ```````     ++o+:`     `:`           
+                     ./+/-`        `            
+                   `-:-.                        
+                   ``                           
+
+You will see something like this and its good for Sparkylinux. We are on wayland - KDE 6 - Sparky
+
+Architecture: x86_64
+Built: 2026-06-25T17:27:16Z
+OS: Microsoft Azure Linux 3.0
+
+wslg:            6942bb534b537302a7a22617261d9274db3cfa37
+DirectX-Headers: v1.608.0
+FreeRDP:         c4030980b29322a9cb2190711a5fadeeeb8b6a33
+mesa:            23.1.0
+pulseaudio:      c33051f2296af748ac5cd13e51abfac4d129e4c7
+weston:          a7e35fdab455dce5774b43b8aff682f748307e31
+(Wayland)    
+
+--------------------------------------------
+
+Install Google Chrome Browser - SPARKYLINUX
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+----------------------------------
+
+Install Gimp so you can PAINT.
+
+sudo apt install gimp -y
+
+----------------------------------
+
+Libre Office for SPARKYLINUX.
+
+sudo apt install libreoffice -y
+
+----------------------------------
+
+Time to install KDE Plasma 6 for SPARKYLINUX
+
+sudo apt install kde-standard -y
+
+sudo apt install plasma* -y
+
+Take Plasma to for KDE 6 so we have working discovery and more - SparkyLinux
+
+----------------------------------------------
+
+Install Aptus for SPARKYLINUX. Small program that help you install stuff.
+
+sudo apt-get install sparky-aptus*
+
+Test Aptus for sparkylinux: sudo sparky-aptus-appcenter
+
+LOOK SO KDE 6 IS INSTALLD VIA Aptus =)
+
+--------------------------------------------
+
+Fix IP problem for X410. Cant find screen problem. Look for ip adress in windows terminal / PowerShell: ipconfig
+
+FIRST OPEN POWERSHELL AND TYPE: ipconfig 
+
+Last lines are IP-number for WSL.
+
+GO BACK TO SPARKYLINUX Terminal AND COPY AND PASTE THIS IN TERMINAL.
+
+sudo systemctl unmask systemd-resolved.service
+sudo systemctl enable systemd-resolved.service
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.23.144.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed =] SPARKYLINUX
+
+-------------------------------
+
+Install Blanket - Listen to Sounds via SPARKYLINUX - KDE PLASMA 6
+
+sudo apt install blanket*
+
+----------------------------------
+
+Paste in terminal - All - SPARKYLINUX
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+--------------------------------------------
+
+SPARKYLINUX AND kde 6 plasma small script =]
+
+Type this in terminal and put your user there: sudo loginctl enable-linger adolf
+
+--------------------------------------------
+
+Final install this so we can start KDE 6 via SPARKYLINUX
+
+sudo apt install dbus-x11
+
+sudo apt install wireplumber* pipewire*
+
+--------------------------------------------
+
+Make this script for KDE 6 to start for SPARKYLINUX.
+
+Copy and paste to terminal: sudo nano ~/start-kde6.sh
+
+NOW COPY AND PASTE THIS TO TERMINAL =) TAKE ALL - SPARKYLINUX START SCRIPT FOR KDE 6
+
+#!/usr/bin/env bash
+
+# ----- X410 / X11 -----
+export DISPLAY=${DISPLAY:-$(awk '/nameserver/ {print $2; exit}' /etc/resolv.conf):0.0}
+export QT_QPA_PLATFORM=xcb
+export GDK_BACKEND=x11
+export SDL_VIDEODRIVER=x11
+export QT_X11_NO_MITSHM=1
+unset WAYLAND_DISPLAY
+
+# ----- Runtime dir för KDE -----
+export XDG_RUNTIME_DIR=${XDG_RUNTIME_DIR:-/tmp/runtime-$USER}
+mkdir -p "$XDG_RUNTIME_DIR"
+chmod 700 "$XDG_RUNTIME_DIR"
+
+# ----- Ljud via WSLg PulseAudio -----
+for s in \
+  /mnt/wslg/PulseServer \
+  /mnt/wslg/runtime-dir/pulse/native \
+  "/mnt/wslg/run/user/$(id -u)/pulse/native"
+do
+  if [ -S "$s" ]; then
+    export PULSE_SERVER="unix:$s"
+    break
+  fi
+done
+
+echo "DISPLAY=$DISPLAY"
+echo "PULSE_SERVER=$PULSE_SERVER"
+
+pactl info | sed -n '1,10p' || echo "PulseAudio hittades inte ännu."
+
+exec dbus-run-session startplasma-x11
+EOF
+
+--------------------------------------------
+
+Now chmod script for KDE 6 and SPARKYLINUX
+
+sudo chmod +x ~/start-kde6.sh
+
+--------------------------------------------
+
+Reboot SPARKYLINUX - Reboot SPARKYLINUX - Reboot SPARKYLINUX - Reboot SPARKYLINUX 
+
+--------------------------------------------
+
+Time to start KDE 6 via SPARKYLINUX.
+
+
+NOTE: FIRST Start X410 then you start SPARKYLINUX from terminal.
+
+
+Copy and Paste in Console: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Copy and Paste in Console: ~/start-kde6.sh
+
+
+Just wait when you start KDE 6 and SPARKYLINUX - IT WILL WORK - Time is all we have - SPARKYLINUX =]
+
+------------------------------------------------------
+
+Regards Mattias Vinberg - SPARKY - KDE 6 - SWEDEN - WSL - Microsoft - X410 - DEBIAN - Stockholm - 2026
+
+
+           .            `-:-`                   
+          .o`       .-///-`                     
+         `oo`    .:/++:.                        
+         os+`  -/+++:` ``.........```           
+        /ys+`./+++/-.-::::::----......``        Thank you for install KDE 6 and SPARKYLINUX - WSL - ❤️
+       `syyo`++o+--::::-::/+++/-``              
+       -yyy+.+o+`:/:-:sdmmmmmmmmdy+-`           Windows 11 - WSLg - We have sound - KDE 6 for LINUX.
+::-`   :yyy/-oo.-+/`ymho++++++oyhdmdy/`         
+`/yy+-`.syyo`+o..o--h..osyhhddhs+//osyy/`       OS: SparkyLinux 9.0 Forky -  WSL x86_64
+  -ydhs+-oyy/.+o.-: ` `  :/::+ydhy+```-os-      Kernel: Linux 6.18.35.2-microsoft-standard-WSL2
+   .sdddy::syo--/:.     `.:dy+-ohhho    ./:     Host: Windows Subsystem for Linux - SparkyLinux-8.3 (2.9.3.0)
+     :yddds/:+oo+//:-`- /+ +hy+.shhy:     ``    
+      `:ydmmdysooooooo-.ss`/yss--oyyo           FIND ME HERE - https://github.com/vinberg88
+        `./ossyyyyo+:-/oo:.osso- .oys           
+       ``..-------::////.-oooo/   :so           Media Mattias Vinberg - Sweden - Stockholm - 2026
+    `...----::::::::--.`/oooo:    .o:           
+           ```````     ++o+:`     `:`           
+                     ./+/-`        `            
+                   `-:-.                        
+                   ``                           
+
+MEDIA: MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026 - https://github.com/vinberg88
+
+------------------------------------------------------
