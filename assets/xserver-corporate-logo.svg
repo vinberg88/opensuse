@@ -1,0 +1,31 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="xgrad" x1="88" y1="68" x2="272" y2="252" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7DD3FC"/>
+      <stop offset="1" stop-color="#60A5FA"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="360" rx="32" fill="url(#bg)"/>
+
+  <g>
+    <rect x="56" y="56" width="228" height="228" rx="44" fill="#0B1220" stroke="#334155" stroke-width="2"/>
+    <path d="M103 102H149L203 170L149 238H103L157 170L103 102Z" fill="url(#xgrad)"/>
+    <path d="M237 102H191L137 170L191 238H237L183 170L237 102Z" fill="#93C5FD" fill-opacity="0.95"/>
+    <circle cx="170" cy="170" r="10" fill="white" fill-opacity="0.96"/>
+  </g>
+
+  <g>
+    <text x="340" y="156" fill="white" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="76" font-weight="700" letter-spacing="0.5">XServer</text>
+    <text x="342" y="205" fill="#CBD5E1" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="28" font-weight="500">Professional X server for Windows, WSL and Linux GUI workflows</text>
+    <rect x="342" y="232" width="130" height="8" rx="4" fill="url(#accent)"/>
+  </g>
+</svg>
