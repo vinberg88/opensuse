@@ -10,7 +10,7 @@ FIRST THING TO DO
 Open POWERSHELL from Microsoft and enter: ipconfig
 
 Look after IP for wsl and you will see: Ethernet adapter vEthernet (WSL (Hyper-V firewall)):
-Copy ip for wsl - use it - something like this: IPv4 Address 182.18.122.9  <-- DEMO
+Copy ip for wsl - something like this: IPv4 Address 182.18.122.9  <-- DEMO
 
 Copy that IP nummber and look down in this text file - copy IP there.
 
