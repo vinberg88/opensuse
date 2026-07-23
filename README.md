@@ -32,9 +32,7 @@ want to use both Windows and Linux at the same time.
 
 Other Projects - Please visit =)
 
-https://github.com/vinberg88/nixos-mate-wsl
-
-https://github.com/vinberg88/wsl-kde6-nixos
+https://github.com/vinberg88/nixos-mate-wsl or https://github.com/vinberg88/wsl-kde6-nixos
 
 Movie: how to setup GWSL after install - https://www.youtube.com/watch?v=O5qgeTXArxQ
 
@@ -47,7 +45,7 @@ What you need for WSL.. Basic stuff for Windows 11/10
     Raft WSL - https://www.whitewaterfoundry.com/raft-wsl
     Free tool like Raft WSL - https://apps.microsoft.com/detail/9p8548knj2m9?hl=sv-SE&gl=SE
 
-Fix problem with Xserver so we can find display - https://github.com/vinberg88/opensuse/blob/main/WSL-IP-PROBLEM.txt
+Fix IP problem Xserver so we can find display - https://github.com/vinberg88/opensuse/blob/main/WSL-IP-PROBLEM.txt
 
     Have alot of time - This is just for fun! WSL is an excellent tool to learn Linux!
 
