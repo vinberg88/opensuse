@@ -1,7 +1,7 @@
 
-# TubeDesk - YOUTUBE PROGRAM FOR MUSIC AND VIDEOS - WINDOWS 11
+<meta name="google-site-verification" content="YTE6KNAH688qJUuSz1c7AYMcH7jA3K_T_vonABzvjx8" />
 
-DOWNLOAD FROM MICROSFT STORE =) My PROGRAM =)
+# TubeDesk - YOUTUBE PROGRAM - DOWNLOAD FROM MICROSFT STORE - My PROGRAM =)
 
 <br>
 
@@ -15,7 +15,10 @@ DOWNLOAD FROM MICROSFT STORE =) My PROGRAM =)
 
 <p>
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F1F51QTD56)
+Blanket for ANDROID 2026 - Listen to different sounds and Relax for ANDROID - My APP for blanket under work.
+TEST APP HERE. IT WILL BE BETTER BUT FOR NOW SO WE CAN START WORK ON BLANKET FOR ANDROID.
+
+<a href="https://play.google.com/apps/test/space.manus.blanket.android.t20260402202534/10000"><img width="200" alt="Download via PlayStore" src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"/></a>
 
 ![featured-image](https://github.com/user-attachments/assets/3ba4e833-0cc6-44aa-b1a0-1fb2559cf2de)
 
@@ -33,21 +36,16 @@ https://github.com/vinberg88/nixos-mate-wsl
 
 https://github.com/vinberg88/wsl-kde6-nixos
 
+Movie: how to setup GWSL after install - https://www.youtube.com/watch?v=O5qgeTXArxQ
+
 ----------------------------------------------
 
-What you need for WSL.. Basic stuff
+What you need for WSL.. Basic stuff for Windows 11/10
 
-Windows 11/10
-
-GWSL - https://apps.microsoft.com/detail/9nl6kd1h33v3?hl=en-US&gl=US
-
-OR
-
-X410 - https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
-
-Movie: how to setup GWSL after install: https://www.youtube.com/watch?v=O5qgeTXArxQ
-
-Raft WSL https://www.whitewaterfoundry.com/raft-wsl <-- change fast from ubuntu, debian or any distro you like.
+    GWSL - https://apps.microsoft.com/detail/9nl6kd1h33v3?hl=en-US&gl=US
+    X410 - https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+    Raft WSL - https://www.whitewaterfoundry.com/raft-wsl
+    Free tool like Raft WSL - https://apps.microsoft.com/detail/9p8548knj2m9?hl=sv-SE&gl=SE
 
 If you have problem with ip https://github.com/vinberg88/opensuse/blob/main/WSL-IP-PROBLEM.txt
 FIX - $DISPLAY is not set or cannot connect to the X server
