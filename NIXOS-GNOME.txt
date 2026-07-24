@@ -1,7 +1,7 @@
 NixOS and GNOME 50 - How To install GNOME via NixOS 26.05 and Windows 11 - wayland - WSL - Linux - 2026
 
 How to install GNOME via NIXOS 26.05 - WSL - TEXT VIA GITHUB.
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/NIXOS-GNOME.txt
 
 How to install GNOME via NIXOS - WSL - MOVIE VIA YOUTUBE.
 https://www.youtube.com/watch?v=HktAm2jggio
