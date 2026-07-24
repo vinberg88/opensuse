@@ -49,6 +49,52 @@ Fix IP problem Xserver so we can find display - https://github.com/vinberg88/ope
 
 ---------------------------------------------
 
+NixOS and GNOME 50 - How To install GNOME via NixOS 26.05 and Windows 11 - wayland - WSL - Linux - 2026
+
+How to install GNOME via NIXOS 26.05 - WSL - TEXT VIA GITHUB.
+
+https://github.com/vinberg88/opensuse/blob/main/NIXOS-GNOME.txt
+
+How to install GNOME via NIXOS - WSL - MOVIE VIA YOUTUBE.
+
+https://www.youtube.com/watch?v=HktAm2jggio
+
+Tool that i USE for WSL - Microsoft - Linux - Windows 11 - 2026 - NixOS 26.05
+
+Raft WSL is a powerful tool for managing Windows Subsystem for Linux.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="NIXOS-GNOME" src="https://github.com/user-attachments/assets/87783fe0-72b7-43fb-bd2b-ecbfbc72ab7e" />
+
+About NixOS 26.05 - https://nixos.org
+
+Nix is a tool that takes a unique approach to package
+management and system configuration. Learn how to make
+reproducible, declarative and reliable systems. NixOS 
+is a unique Linux distribution that stands out due
+to its innovative approach to package management and
+system configuration. 
+
+About GNOME - https://www.gnome.org
+
+Every part of GNOME has been designed to make it simple and
+easy to use. The Activities Overview is a simple way to
+access all your basic tasks. A press of a button is all
+it takes to view your open windows, launch applications, or
+check if you have new messages. Having everything in one
+convenient place means you don’t have to learn your
+way around a maze of different technologies.
+Every aspect of GNOME has been crafted to fit together as
+a harmonious whole, providing a consistent and integrated
+experience.
+
+Find more stuff for WSL and Windows - https://github.com/vinberg88
+
+Regards Mattias Vinberg - NixOS - GNOME 50 - wayland - SweDen - WSL - 2026
+
+---------------------------------------------
+
 SPARKYLINUX and KDE 6 - Install KDE 6 via SPARKY 9 and WSL - Windows 11 - Debian - X410 - YouTUBE - 2026
 
 How to install KDE 6 PLASMA via SPARKY 9 - WSL - TEXT via GITHUB
