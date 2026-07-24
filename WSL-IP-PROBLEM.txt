@@ -1,6 +1,3 @@
-
-
-
 WSL CANT FIND SCREEN FOR X410 OR OTHER XSERVER - SWEDEN - 2026
 
 FIX errors for Xservers like x410 or GWSL in LINUX when you start Desktop via Windows 11 / WSL for LINUX.
