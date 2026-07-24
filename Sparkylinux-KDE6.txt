@@ -6,7 +6,7 @@ Comming sone...
 How to install KDE 6 PLASMA via SPARKY 9 - WSL - MOVIE via YouTUBE
 https://www.youtube.com/watch?v=EsxKlAI2v8M
 
-Download SPARKY FOR WSL: https://drive.proton.me/urls/DYRHJ4RZM0#HXbnGqE5NXtf
+Download SPARKY: https://github.com/vinberg88/opensuse/releases/tag/SPARKYLINUX8.3
 
 Tools that i use for WSL AND for SPARKY - 2026
 
@@ -70,7 +70,7 @@ to the point.
 
 Want more stuff about WSL - Windows 11 - MICROSOFT - Linux - WSL2 - SPARKYLINUX 9.0
 
-https://github.com/vinberg88/opensuse or look here https://vinberg88.github.io
+https://github.com/vinberg88 or https://vinberg88.github.io
 
 --------------------------------------------
 
@@ -79,7 +79,7 @@ LETS START INSTALL OF SPARKYLINUX AND KDE 6 FOR WSL - Special Edition - 2026
 I have maked sparkylinx for WSL. ENJOY SPARKY - Maybe build
 an GITHUB paga later for SPARKY WSL.
 
-Download Sparkylinux: https://drive.proton.me/urls/DYRHJ4RZM0#HXbnGqE5NXtf
+Download Sparkylinux: https://github.com/vinberg88/opensuse/releases/tag/SPARKYLINUX8.3
 
 Install Sparkylinux via Press the blue ICON. Will
 setup user and password for WSL and we are online.
