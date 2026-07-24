@@ -18,7 +18,7 @@ TEST APP HERE. IT WILL BE BETTER BUT FOR NOW SO WE CAN START WORK ON BLANKET FOR
 
 <a href="https://play.google.com/apps/test/space.manus.blanket.android.t20260402202534/10000"><img width="200" alt="Download via PlayStore" src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"/></a>
 
-![featured-image](https://github.com/user-attachments/assets/3ba4e833-0cc6-44aa-b1a0-1fb2559cf2de)
+<p>
 
 How to install WSL GUI desktop on Opensuse - Arch - Ubuntu - Fedora - Debian and some more distros.... KDE - Plasma - Gnome via Windows 11!
 
