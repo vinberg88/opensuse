@@ -1,0 +1,312 @@
+NixOS and GNOME 50 - How To install GNOME via NixOS 26.05 and Windows 11 - wayland - WSL - Linux - 2026
+
+How to install GNOME via NIXOS 26.05 - WSL - TEXT VIA GITHUB.
+Comming Zone...
+
+How to install GNOME via NIXOS - WSL - MOVIE VIA YOUTUBE.
+https://www.youtube.com/watch?v=HktAm2jggio
+
+Tool that i USE for WSL - Microsoft - Linux - Windows 11 - 2026 - NixOS 26.05
+
+Raft WSL is a powerful tool for managing Windows Subsystem for Linux.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+
+          ▗▄▄▄       ▗▄▄▄▄    ▄▄▄▖
+          ▜███▙       ▜███▙  ▟███▛
+           ▜███▙       ▜███▙▟███▛ 
+            ▜███▙       ▜██████▛ 
+     ▟█████████████████▙ ▜████▛     ▟▙ 
+    ▟███████████████████▙ ▜███▙    ▟██▙ 
+           ▄▄▄▄▖           ▜███▙  ▟███▛
+          ▟███▛             ▜██▛ ▟███▛
+         ▟███▛               ▜▛ ▟███▛
+▟███████████▛                  ▟██████████▙
+▜██████████▛                  ▟███████████▛ 
+      ▟███▛ ▟▙               ▟███▛
+     ▟███▛ ▟██▙             ▟███▛
+    ▟███▛  ▜███▙           ▝▀▀▀▀
+    ▜██▛    ▜███▙ ▜██████████████████▛
+     ▜▛     ▟████▙ ▜████████████████▛
+           ▟██████▙       ▜███▙
+          ▟███▛▜███▙       ▜███▙
+         ▟███▛  ▜███▙       ▜███▙
+         ▝▀▀▀    ▀▀▀▀▘       ▀▀▀▘
+
+
+About NixOS 26.05 - https://nixos.org
+
+Nix is a tool that takes a unique approach to package
+management and system configuration. Learn how to make
+reproducible, declarative and reliable systems. NixOS 
+is a unique Linux distribution that stands out due
+to its innovative approach to package management and
+system configuration. 
+
+About GNOME - https://www.gnome.org
+
+Every part of GNOME has been designed to make it simple and
+easy to use. The Activities Overview is a simple way to
+access all your basic tasks. A press of a button is all
+it takes to view your open windows, launch applications, or
+check if you have new messages. Having everything in one
+convenient place means you don’t have to learn your
+way around a maze of different technologies.
+Every aspect of GNOME has been crafted to fit together as
+a harmonious whole, providing a consistent and integrated
+experience.
+
+Find more stuff for WSL and Windows - https://github.com/vinberg88
+
+--------------------------------------
+
+Find NixOS For WSL HERE: https://github.com/nix-community/NixOS-WSL
+
+Download and press blue icon and you are done - NIXOS
+
+--------------------------------------
+
+Update password for NIXOS user for wsl.
+
+cd
+
+sudo passwd nixos
+
+--------------------------------------
+
+Update all for GNOME AND NIXOS via terminal.
+
+sudo nix-channel --add https://nixos.org/channels/nixos-26.05 nixos
+sudo nix-channel --add https://github.com/nix-community/NixOS-WSL/archive/refs/heads/release-26.05.tar.gz nixos-wsl
+
+sudo nix-channel --update
+sudo nixos-rebuild switch
+
+--------------------------------------
+
+Control user for nixos 26.05 so we are one NIXOS via Console.
+
+whoami
+id
+
+You will see something like this and all works fine.
+
+nixos
+uid=1000(nixos) gid=100(users) groups=100(users),1(wheel)
+
+--------------------------------------
+
+Open file via nano in terminal.
+
+sudo nano /etc/nixos/configuration.nix
+
+Delete all in file via Terminal now Copy and paste all to terminal.
+
+--------------------------------------
+
+{ config, lib, pkgs, modulesPath, ... }:
+
+{
+  imports = [
+    <nixos-wsl/modules>
+  ];
+
+  wsl = {
+    enable = true;
+    defaultUser = "nixos";
+    startMenuLaunchers = true;
+    useWindowsDriver = true;
+  };
+
+  nix.settings.experimental-features = [
+    "nix-command"
+    "flakes"
+  ];
+
+  services.desktopManager.gnome.enable = true;
+  services.displayManager.gdm.enable = false;
+
+  programs.dconf.enable = true;
+  hardware.graphics.enable = true;
+
+  environment.systemPackages = with pkgs; [
+    gnome-tweaks
+    gnome-extension-manager
+    dconf-editor
+    pavucontrol
+    mesa-demos
+    vulkan-tools
+    wl-clipboard
+
+    (writeShellScriptBin "gnome-wsl" ''
+      set -euo pipefail
+
+      export XDG_SESSION_TYPE=wayland
+      export XDG_CURRENT_DESKTOP=GNOME
+      export XDG_SESSION_DESKTOP=gnome
+
+      export GDK_BACKEND=wayland,x11
+      export MOZ_ENABLE_WAYLAND=1
+
+      export WAYLAND_DISPLAY="''${WAYLAND_DISPLAY:-wayland-0}"
+      export DISPLAY="''${DISPLAY:-:0}"
+      export PULSE_SERVER="''${PULSE_SERVER:-unix:/mnt/wslg/PulseServer}"
+
+      runtime_dir="''${XDG_RUNTIME_DIR:-/run/user/$(id -u)}"
+      export XDG_RUNTIME_DIR="$runtime_dir"
+
+      echo "Startar GNOME på NixOS genom WSLg..."
+      echo "Wayland: $XDG_RUNTIME_DIR/$WAYLAND_DISPLAY"
+
+      if [ ! -S "$XDG_RUNTIME_DIR/$WAYLAND_DISPLAY" ]; then
+        echo "WSLg:s Wayland-socket hittades inte."
+        exit 1
+      fi
+
+      unset DBUS_SESSION_BUS_ADDRESS 2>/dev/null || true
+
+      exec ${dbus}/bin/dbus-run-session -- \
+        ${gnome-shell}/bin/gnome-shell \
+          --devkit \
+          --wayland \
+          --no-x11
+    '')
+  ];
+
+  system.stateVersion = "26.05";
+}
+
+--------------------------------------
+
+Build file for Nixos and GNOME 50
+
+sudo nixos-rebuild switch
+
+--------------------------------------
+
+Controll so all works for NIXOS and GNOME
+
+gnome-shell --version
+command -v gnome-wsl
+command -v nautilus
+command -v gnome-control-center
+
+
+You will se something like this
+
+GNOME Shell 50.2
+/run/current-system/sw/bin/gnome-wsl
+/run/current-system/sw/bin/nautilus
+/run/current-system/sw/bin/gnome-control-center
+
+--------------------------------------
+
+Install GIMP and BLANKET and Libreoffice.
+
+nix-env -iA nixos.gimp
+
+nix-env -iA nixos.blanket
+
+nix-env -iA nixos.libreoffice
+
+--------------------------------------
+
+Install Apps Menu for gnome 50 and NIXOS.
+
+nix-env -iA nixos.gnomeExtensions.apps
+
+--------------------------------------
+
+Copy and Paste start script for NIXOS and GNOME
+
+echo "DISPLAY=$DISPLAY"
+echo "WAYLAND_DISPLAY=$WAYLAND_DISPLAY"
+echo "XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR"
+echo "PULSE_SERVER=$PULSE_SERVER"
+
+ls -l "$XDG_RUNTIME_DIR/$WAYLAND_DISPLAY"
+
+--------------------------------------
+
+Install Hyfetch - Like Neofetch but more GAY =]
+
+nix-env -iA nixos.hyfetch
+nix-env -iA nixos.fastfetch
+
+Lets see where we are =]
+
+Type in Consol: hyfetch
+
+
+          ▗▄▄▄       ▗▄▄▄▄    ▄▄▄▖
+          ▜███▙       ▜███▙  ▟███▛
+           ▜███▙       ▜███▙▟███▛ 
+            ▜███▙       ▜██████▛ 
+     ▟█████████████████▙ ▜████▛     ▟▙ 
+    ▟███████████████████▙ ▜███▙    ▟██▙ 
+           ▄▄▄▄▖           ▜███▙  ▟███▛
+          ▟███▛             ▜██▛ ▟███▛
+         ▟███▛               ▜▛ ▟███▛
+▟███████████▛                  ▟██████████▙
+▜██████████▛                  ▟███████████▛ 
+      ▟███▛ ▟▙               ▟███▛
+     ▟███▛ ▟██▙             ▟███▛
+    ▟███▛  ▜███▙           ▝▀▀▀▀
+    ▜██▛    ▜███▙ ▜██████████████████▛
+     ▜▛     ▟████▙ ▜████████████████▛
+           ▟██████▙       ▜███▙
+          ▟███▛▜███▙       ▜███▙
+         ▟███▛  ▜███▙       ▜███▙
+         ▝▀▀▀    ▀▀▀▀▘       ▀▀▀▘
+
+
+OS: NixOS 26.05 (Yarara) x86_64
+Host: Windows Subsystem for Linux - NixOS (2.9.3.0)
+Kernel: Linux 6.18.35.2-microsoft-standard-WSL2
+
+--------------------------------------
+
+REBOOT NIXOS - REBOOT NIXOS - REBOOT NIXOS - REBOOT NIXOS
+
+--------------------------------------
+
+After that start GNOME desktop for NIXOS
+
+
+Copy and Paste to start GNOME in terminal: gnome-wsl
+
+
+NOTE: You must press ENTER in terminal when you see: discover_other_daemon: 1
+
+
+Just wait it take some time to start GNOME 50 via WSL.
+
+
+--------------------------------------
+
+Regards Mattias Vinberg - NixOS - GNOME 50 - SweDen - WSL - 2026
+
+          ▗▄▄▄       ▗▄▄▄▄    ▄▄▄▖
+          ▜███▙       ▜███▙  ▟███▛
+           ▜███▙       ▜███▙▟███▛ 
+            ▜███▙       ▜██████▛ 
+     ▟█████████████████▙ ▜████▛     ▟▙ 
+    ▟███████████████████▙ ▜███▙    ▟██▙ 
+           ▄▄▄▄▖           ▜███▙  ▟███▛
+          ▟███▛             ▜██▛ ▟███▛
+         ▟███▛               ▜▛ ▟███▛
+▟███████████▛                  ▟██████████▙
+▜██████████▛                  ▟███████████▛ 
+      ▟███▛ ▟▙               ▟███▛
+     ▟███▛ ▟██▙             ▟███▛
+    ▟███▛  ▜███▙           ▝▀▀▀▀
+    ▜██▛    ▜███▙ ▜██████████████████▛
+     ▜▛     ▟████▙ ▜████████████████▛
+           ▟██████▙       ▜███▙
+          ▟███▛▜███▙       ▜███▙
+         ▟███▛  ▜███▙       ▜███▙
+         ▝▀▀▀    ▀▀▀▀▘       ▀▀▀▘
+
+Read More about NIXOS - https://nix-community.github.io/NixOS-WSL/index.html
+
+------------------------------------
