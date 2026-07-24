@@ -1,7 +1,7 @@
 SPARKYLINUX and KDE 6 - Install KDE 6 via SPARKY 9 and WSL - Windows 11 - Debian - X410 - YouTUBE - 2026
 
 How to install KDE 6 PLASMA via SPARKY 9 - WSL - TEXT via GITHUB
-Comming sone...
+https://github.com/vinberg88/opensuse/blob/main/Sparkylinux-KDE6.txt
 
 How to install KDE 6 PLASMA via SPARKY 9 - WSL - MOVIE via YouTUBE
 https://www.youtube.com/watch?v=EsxKlAI2v8M
@@ -110,7 +110,6 @@ sudo nano sparky.sources
 Replace sisters with tiamat
 
 Last thing type type: cd
-
 
 --------------------------------------------
 
