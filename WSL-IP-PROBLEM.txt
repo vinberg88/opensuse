@@ -1,5 +1,3 @@
-<img width="1500" height="500" alt="1500x500" src="https://github.com/user-attachments/assets/57a6cdd6-5ec3-481e-8b0b-f9dd4cfc8dca" />
-
 WSL CANT FIND SCREEN FOR X410 OR OTHER XSERVER - SWEDEN - 2026
 
 FIX errors for Xservers like x410 or GWSL in LINUX when you start Desktop via Windows 11 / WSL for LINUX.
@@ -51,3 +49,5 @@ VIDEO: https://www.youtube.com/watch?v=hLrXtOvnE8w
 Regards, Mattias Vinberg - SWEDEN - Stockholm - 2026 - WSL2 - Linux - Microsoft - WSLg - WINDOWS 11 
 
 -------------------------------------------------
+
+<img width="1500" height="500" alt="1500x500" src="https://github.com/user-attachments/assets/57a6cdd6-5ec3-481e-8b0b-f9dd4cfc8dca" />
