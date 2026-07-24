@@ -49,6 +49,64 @@ Fix IP problem Xserver so we can find display - https://github.com/vinberg88/ope
 
 ---------------------------------------------
 
+SPARKYLINUX and KDE 6 - Install KDE 6 via SPARKY 9 and WSL - Windows 11 - Debian - X410 - YouTUBE - 2026
+
+How to install KDE 6 PLASMA via SPARKY 9 - WSL - TEXT via GITHUB
+
+https://github.com/vinberg88/opensuse/blob/main/Sparkylinux-KDE6.txt
+
+How to install KDE 6 PLASMA via SPARKY 9 - WSL - MOVIE via YouTUBE
+
+https://www.youtube.com/watch?v=EsxKlAI2v8M
+
+Download SPARKY: https://github.com/vinberg88/opensuse/releases/tag/SPARKYLINUX8.3
+
+Tools that i use for WSL AND for SPARKY - 2026
+
+X410 - Xserver for windows 11 - So you have a Desktop TO See in Windows 11.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL - Handel WSL image easy and Linux for WSL for windows 11.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="Sparkylinux-KDE6" src="https://github.com/user-attachments/assets/45516c20-8e44-4120-b375-156abcefa132" />
+
+About SPARKYLINUX - 2026 - https://sparkylinux.org
+
+SparkyLinux is a GNU/Linux distribution based on the
+Debian GNU/Linux operating system. Sparky is a fast,
+lightweight and fully customizable operating system
+which offers several versions for different use. Sparky
+supports about 20 desktop environments and window
+managers giving you freedom of choice, having in mind
+that your computer is made for working, having fun,
+entertainment, keeping in touch with friends, and
+many, many other things. 
+
+About KDE 6 Plasma - https://kde.org
+
+KDE Plasma is a modern, feature-rich desktop environment
+for Linux-based operating systems. Known for its sleek
+design, customizable interface, and extensive set of
+applications, it is also open source, devoid
+of ads, and makes protecting your privacy and
+personal data a priority. The KDE Plasma Launcher lets
+you quickly and easily launch applications, but it
+can do much more -- convenient tasks like bookmarking
+applications, searching for documents as you type, or
+navigating to common places help you get straight
+to the point.
+
+Want more stuff about WSL - Windows 11 - MICROSOFT - Linux - WSL2 - SPARKYLINUX 9.0
+
+https://github.com/vinberg88 or https://vinberg88.github.io
+
+Regards Mattias Vinberg - SPARKY - KDE 6 - SWEDEN - WSL - Microsoft - X410 - DEBIAN - Stockholm - 2026
+
+---------------------------------------------
+
 Ubuntu 26.04 and UKUI - How to Install UKUI desktop via Ubuntu and Windows 11 - WSL - KYLIN - Linux - 2026
 
 How to install UKUI desktop via windows 11 and Ubuntu 26.04 LTS - TEXT VIA GITHUB.
