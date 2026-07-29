@@ -49,6 +49,59 @@ Fix IP problem Xserver so we can find display - https://github.com/vinberg88/ope
 
 ---------------------------------------------
 
+OpenSUSE Slowroll and KDE 6 - How to install KDE 6 via OpenSUSE Slowroll - WSL - X410 - Windows 11 - Linux - 2026
+
+How to install KDE 6 via OpenSUSE Slowroll - WSL - TEXT via GITHUB.
+
+https://github.com/vinberg88/opensuse/blob/main/Opensuse-Slowroll-KDE6.txt
+
+How to install KDE 6 via OpenSUSE Slowroll - WSL - MOVIE via YOUtube.
+
+https://www.youtube.com/watch?v=eEL0QvJqkJc
+
+TOOLS THAT I USE FOR OpenSUSE Slowroll AND WSL - WINDOWS 11 - KDE 6 PLASMA - 2026
+
+X410 - X Server for Windows 11. Find it in Micorsoft store.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Linux (WSL) distribution.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="Opensuse-Slowroll-KDE6" src="https://github.com/user-attachments/assets/b55dd02d-9759-42d5-8692-d839b8497e48" />
+
+About OPENSUSE SLOWROLL - https://en.opensuse.org/Portal:Slowroll
+
+openSUSE Slowroll uses a modified version of openSUSE Tumbleweed
+to give a little more stability to users who don‘t want the 
+bleeding edge but also don’t want to wait 12 months for a
+minor release or 3 to 4 years for a major release like openSUSE
+Leap. With big updates once per month, and continuous bug fixes
+and security fixes as they come in, Slowroll finds a perfect
+balance for those who simply don’t want to be forced to choose!
+Currently, Slowroll is still in beta phase so please be mindful
+of any bugs, glitches or any graphics that may tie in to
+another version of openSUSE.  
+
+About KDE 6 FOR OPENSUSE SLOWROLL - https://kde.org
+
+Plasma is a Desktop for all. Use Plasma to surf the
+web; keep in touch with colleagues, friends and family;
+manage your files, enjoy music and videos; and get
+creative and productive at work. Do it all in a Beautiful
+environment that adapts to your needs, and with the safety,
+privacy-protection and peace of mind that the best
+Free Open Source Software has to offer. Plasma is made
+to stay out of the way as it helps you get things done.
+But under its light and intuitive surface, it's a powerhouse.
+
+More About WSL - https://vinberg88.github.io - https://github.com/vinberg88
+
+Regards Mattias Vinberg - OpenSUSE SLOWROLL - WSL - X410 - Windows 11 - Linux - KDE 6 - Microsoft - 2026
+
+---------------------------------------------
+
 NixOS and GNOME 50 - How To install GNOME via NixOS 26.05 and Windows 11 - wayland - WSL - Linux - 2026
 
 How to install GNOME via NIXOS 26.05 - WSL - TEXT VIA GITHUB.
