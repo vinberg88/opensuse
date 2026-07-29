@@ -1,7 +1,7 @@
 OpenSUSE Slowroll and KDE 6 - How to install KDE 6 via OpenSUSE Slowroll - WSL - X410 - Windows 11 - Linux - 2026
 
 How to install KDE 6 via OpenSUSE Slowroll - WSL - TEXT via GITHUB.
-COMMING SONE.
+https://github.com/vinberg88/opensuse/blob/main/Opensuse-Slowroll-KDE6.txt
 
 How to install KDE 6 via OpenSUSE Slowroll - WSL - MOVIE via YOUtube.
 https://www.youtube.com/watch?v=eEL0QvJqkJc
