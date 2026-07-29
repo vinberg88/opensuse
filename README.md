@@ -98,6 +98,8 @@ But under its light and intuitive surface, it's a powerhouse.
 
 More About WSL - https://vinberg88.github.io - https://github.com/vinberg88
 
+INSTALL OPENSUSE VIA POWERSHELL FROM MICROSOFT: wsl.exe --install openSUSE-Tumbleweed --name OpenSUSE-SLOWROLL
+
 Regards Mattias Vinberg - OpenSUSE SLOWROLL - WSL - X410 - Windows 11 - Linux - KDE 6 - Microsoft - 2026
 
 ---------------------------------------------
