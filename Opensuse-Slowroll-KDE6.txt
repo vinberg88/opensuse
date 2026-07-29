@@ -1,0 +1,467 @@
+OpenSUSE Slowroll and KDE 6 - How to install KDE 6 via OpenSUSE Slowroll - WSL - X410 - Windows 11 - Linux - 2026
+
+How to install KDE 6 via OpenSUSE Slowroll - WSL - TEXT via GITHUB.
+COMMING SONE.
+
+How to install KDE 6 via OpenSUSE Slowroll - WSL - MOVIE via YOUtube.
+https://www.youtube.com/watch?v=eEL0QvJqkJc
+
+TOOLS THAT I USE FOR OpenSUSE Slowroll AND WSL - WINDOWS 11 - KDE 6 PLASMA - 2026
+
+X410 - X Server for Windows 11. Find it in Micorsoft store. 
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Linux (WSL) distribution.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+FREE TOOL LIKE RAFT WSL - WSL UI - TAKE 2 SEC AND LOOK - FREE FOR WINDOWS.
+https://apps.microsoft.com/detail/9p8548knj2m9?hl=sv-SE&gl=SE
+
+
+             .;ldkO0000Okdl;.
+         .;d00xl:^''''''^:ok00d;.         Kernel: Linux 6.18.35.2-microsoft-standard-WSL2
+       .d00l'                'o00d.
+     .d0K^'  Okxoc;:,.          ^O0d.     THANKS FOR TESTING KDE 6 AND OPENSUSE SLOWROLL FOR WSL - 2026 ❤️
+    .OVVAK0kOKKKKKKKKKKOxo:,      lKO.     
+   ,0VVAKKKKKKKKKKKKK0P^,,,^dx:    ;00,   OS: openSUSE Tumbleweed-Slowroll x86_64  
+  .OVVAKKKKKKKKKKKKKk'.oOPPb.'0k.   cKO.  
+  :KVAKKKKKKKKKKKKKK: kKx..dd lKd   'OK:  OpenSUSE SLOWROLL - STOCKHOLM - SWEDEN - 2026    
+  lKlKKKKKKKKKOx0KKKd ^0KKKO' kKKc   lKl    
+  lKlKKKKKKKKKK;.;oOKx,..^..;kKKK0.  lKl 
+  :KAlKKKKKKKKK0o;...^cdxxOK0O/^^'  .0K:  OS: Windows 11 Pro Insider Preview (26H2) x86_64
+   kKAVKKKKKKKKKKKK0x;,,......,;od  lKP
+   '0KAVKKKKKKKKKKKKKKKKKK00KKOo^  c00'   DESKTOP: KDE - Microsoft - PLASMA KDE 6 FOR OPENsuse 
+    'kKAVOxddxkOO00000Okxoc;''   .dKV'
+      l0Ko.                    .c00l'
+       'l0Kk:.              .;xK0l'       FIND ME ON GITHUB: - https://github.com/vinberg88
+          'lkK0xc;:,,,,:;odO0kl'
+              '^:ldxkkkkxdl:^'            Host: Windows Subsystem for Linux - OpenSUSE-SLOWROLL (2.9.4.0)
+     
+
+About OPENSUSE SLOWROLL - https://en.opensuse.org/Portal:Slowroll
+
+openSUSE Slowroll uses a modified version of openSUSE Tumbleweed
+to give a little more stability to users who don‘t want the 
+bleeding edge but also don’t want to wait 12 months for a
+minor release or 3 to 4 years for a major release like openSUSE
+Leap. With big updates once per month, and continuous bug fixes
+and security fixes as they come in, Slowroll finds a perfect
+balance for those who simply don’t want to be forced to choose!
+Currently, Slowroll is still in beta phase so please be mindful
+of any bugs, glitches or any graphics that may tie in to
+another version of openSUSE.  
+
+About KDE 6 FOR OPENSUSE SLOWROLL - https://kde.org
+
+Plasma is a Desktop for all. Use Plasma to surf the
+web; keep in touch with colleagues, friends and family;
+manage your files, enjoy music and videos; and get
+creative and productive at work. Do it all in a Beautiful
+environment that adapts to your needs, and with the safety,
+privacy-protection and peace of mind that the best
+Free Open Source Software has to offer. Plasma is made
+to stay out of the way as it helps you get things done.
+But under its light and intuitive surface, it's a powerhouse.
+
+More About WSL - https://github.com/vinberg88/opensuse - https://github.com/vinberg88
+
+-----------------------------------------------------
+
+INSTALL OPENSUSE Tumbelweed - We will install OPENSUSE Slowroll LATER for WSL 2026 via update.
+
+INSTALL OPENSUSE VIA POWERSHELL FROM MICROSOFT: wsl.exe --install openSUSE-Tumbleweed --name OpenSUSE-SLOWROLL
+
+-----------------------------------------------------
+
+NOW OPEN TERMINAL AND UPDATE TO OpenSUSE SLOWROLL. TAKE SOME TIME TO SETUP.
+
+cd
+
+sudo zypper in opensuse-migration-tool
+
+sudo opensuse-migration-tool
+
+NOTE: YOU DONT NEED TO SETUP ALL STUFF IN TERMINAL - AFTER opensuse-migration-tool Press enter.
+
+-----------------------------------------------------
+
+Reboot OpenSUSE SLOWROLL - Migration process completed. A reboot is recommended - Reboot OpenSUSE SLOWROLL
+
+-----------------------------------------------------
+
+Update Opensuse SLOWROLL via terminal after install.
+
+
+Refresh your package lists: sudo zypper ref
+
+Run the update command: sudo zypper dup
+
+-----------------------------------------------------
+
+Install this programs - good for you and OpenSUSE SLOWROLL
+
+sudo zypper install bash git npm wget curl nano sudo dialog go dracut opi nano gnome-terminal
+
+-----------------------------------------------------
+
+Add extra Mirrors and install codecs - OpenSUSE SLOWROLL
+
+sudo zypper ar --refresh -p 70 http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Slowroll/Essentials/ adolf
+
+sudo zypper dup --from adolf --allow-vendor-change
+
+Copy and paste in terminal: opi codecs
+
+-----------------------------------------------------
+
+OPENSUSE SLOWROLL - OPENSUSE SLOWROLL - OPENSUSE SLOWROLL - OPENSUSE SLOWROLL
+
+Reboot is suggested to ensure that your system benefits from these updates.
+
+-----------------------------------------------------
+
+Install Fastfetch and Test from terminal - OpenSUSE Slowroll
+
+sudo zypper in fastfetch
+
+Type Fastfetch in terminal to test: fastfetch
+
+
+                _,......,_                    
+           _aaQQQQQQWQQQQQQQaa.               
+        ajQQQ??^'        '^??QQQw.            
+     ,aQQP^                    ?4QQa          THANKS FOR TESTING KDE 6 AND OPENSUSE FOR WSL - 2026 ❤️
+    wQQP                         ^4QQa        
+  ,QQP'          ,aaaaa.           ^$Q6,      
+ ,QQP         ajQQQWWWWQQQw.         4QQ      WM: KDE (Wayland)
+ QQP        aQQP?        ?$QQ.        4Q6     
+jQQ        jQQ'            ?WQr       'QQb    OS: openSUSE Tumbleweed-Slowroll x86_64
+QQf       ]QQ'              ]QQ        QQ6    
+QQf       ]QQ               ]QQ)       QQQ    Host: Windows Subsystem for Linux - OpenSUSE-SLOWROLL (2.9.4.0)
+QQ6       'QQ6              ]QQ        QQf    
+]QQ.       ^4QQaa          .QQP       ,QQ'    Kernel: Linux 6.18.35.2-microsoft-standard-WSL2
+ $QQ.        ^?QQQQf      _yQP       ,QQP     
+ ^WQQ6.                  aQQ?       _QQP    
+  ^4QQQ6a.            ajQQP'       aQQP       FIND ME ON GITHUB: - https://github.com/vinberg88
+    ?QQQQQWQaaaaaaajQWQP?        aQQP'        
+      ?QQQQP????????^'        saWQP?          
+        ^?QQQgaaa._    __aaaQQQP?'            MEDIA: Mattias Vinberg - Sweden - KDE 6 - Microsoft - OPENsuse
+            '^?QWQQQQQQQQ@??^'                
+
+
+Architecture: x86_64
+Built: 2026-06-25T17:27:16Z
+OS: Microsoft Azure Linux 3.0
+
+wslg:            6942bb534b537302a7a22617261d9274db3cfa37
+DirectX-Headers: v1.608.0
+FreeRDP:         c4030980b29322a9cb2190711a5fadeeeb8b6a33
+mesa:            23.1.0
+pulseaudio:      c33051f2296af748ac5cd13e51abfac4d129e4c7
+weston:          a7e35fdab455dce5774b43b8aff682f748307e31
+(Wayland)
+
+-----------------------------------------------------
+
+Install Google-Chrome - OpenSUSE Slowroll - KDE 6
+
+opi google-chrome
+
+-----------------------------------------------------
+
+Install GIMP so we can paint - OpenSUSE Slowroll
+
+sudo zypper in gimp
+
+-----------------------------------------------------
+
+Install LibreOffice for OpenSUSE Slowroll - Office for OpenSUSE - 2026
+
+sudo zypper in libreoffice
+
+-----------------------------------------------------
+
+Install this programs for WSL and OpenSUSE Slowroll
+
+sudo zypper in -t pattern wsl_gui wsl_base wsl_systemd
+
+-----------------------------------------------------
+
+Time to install kde Plasma Desktop via OpenSuse SLOWROLL.
+
+If asked for problems press 1 and 1 again and install KDE 6
+
+sudo zypper install -t pattern kde kde_plasma
+
+sudo zypper in xorg*
+
+-----------------------------------------------------
+
+Type sudo yast in terminal and update all for OpenSUSE Slowroll and KDE 6
+ 
+1. Copy and paste: sudo yast
+
+2. Update all via yast.
+
+3. Install Recommended packages via yast.							
+
+------------------------------------------------------
+
+Fix IP problem for X410. Cant find screen problem for KDE 6.
+
+OPEN POWERSHELL AND TYPE: ipconfig
+
+NOTE - Importent to look for ip. Last lines are IP-numbers for WSL and Xserver.
+
+SAVE IP ADRESS FOR LATER USE: 172.23.144.1
+
+GO BACK TO OpenSUSE Slowroll AND COPY AND PASTE THIS IN TERMINAL.
+
+sudo zypper in systemd-resolved
+
+sudo systemctl unmask systemd-resolved.service
+
+sudo systemctl enable systemd-resolved.service
+
+sudo ls -l /etc/resolv.conf
+
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+
+sudo nano /etc/resolv.conf
+
+nameserver 172.23.144.1 <-- put your ip-adress here and add nameserver via terminal.
+
+sudo chattr +i /etc/resolv.conf
+
+sudo systemctl restart systemd-resolved
+
+sudo cat /etc/resolv.conf
+
+
+DONE - Problems fixed for Xserver and OpenSUSE Slowroll - 2026
+
+------------------------------------------------------
+
+Paste in terminal for OpenSUSE Slowroll
+
+xdg-user-dirs-update
+
+sudo systemctl set-default multi-user.target
+
+sudo systemctl set-default graphical.target
+
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-----------------------------------------------------
+
+OpenSUSE Slowroll - In terminal type this to make a scirpt: sudo nano ~/.bash_opensuse_desktop
+
+Paste this in terminal and save:
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+------------------------------------------------------
+
+BLANKET - LAST THING TO INSTALL BUT YOU NEED THIS FOR OPENsuse SLOWROLL
+
+sudo zypper in blanket
+
+------------------------------------------------------
+
+NEXT WE WILL BUILD START SCRIPT FOR OPENSUSE SLOWROLL AND X410.
+
+sudo zypper install xdpyinfo dbus*
+
+mkdir -p ~/.local/bin ~/.local/state
+
+sudo nano ~/.local/bin/plasma-x410
+
+Copy and paste all to terminal
+
+......................................................
+
+#!/usr/bin/env bash
+
+set -o pipefail
+
+LOG_FILE="$HOME/.local/state/plasma-x410.log"
+mkdir -p "$(dirname "$LOG_FILE")"
+
+echo "==================================================" | tee "$LOG_FILE"
+echo " KDE Plasma 6 genom X410 – openSUSE Slowroll"      | tee -a "$LOG_FILE"
+echo "==================================================" | tee -a "$LOG_FILE"
+
+if ! command -v startplasma-x11 >/dev/null 2>&1; then
+    echo "Fel: startplasma-x11 saknas." | tee -a "$LOG_FILE"
+    exit 1
+fi
+
+if ! command -v xdpyinfo >/dev/null 2>&1; then
+    echo "Installera xdpyinfo:" | tee -a "$LOG_FILE"
+    echo "sudo zypper install xdpyinfo" | tee -a "$LOG_FILE"
+    exit 1
+fi
+
+GATEWAY_IP="$(ip route show default 2>/dev/null |
+    awk '/^default/ {print $3; exit}')"
+
+DNS_IP="$(awk '/^nameserver/ {print $2; exit}' /etc/resolv.conf)"
+
+CANDIDATES=()
+
+[ -n "${X410_DISPLAY:-}" ] && CANDIDATES+=("$X410_DISPLAY")
+[ -n "$GATEWAY_IP" ] && CANDIDATES+=("${GATEWAY_IP}:0.0")
+CANDIDATES+=("127.0.0.1:0.0")
+[ -n "$DNS_IP" ] && CANDIDATES+=("${DNS_IP}:0.0")
+
+SELECTED_DISPLAY=""
+
+echo "Söker efter X410..." | tee -a "$LOG_FILE"
+
+for TEST_DISPLAY in "${CANDIDATES[@]}"; do
+    echo "Testar DISPLAY=$TEST_DISPLAY" | tee -a "$LOG_FILE"
+
+    if timeout 3 xdpyinfo -display "$TEST_DISPLAY" \
+        >/dev/null 2>&1; then
+        SELECTED_DISPLAY="$TEST_DISPLAY"
+        break
+    fi
+done
+
+if [ -z "$SELECTED_DISPLAY" ]; then
+    echo | tee -a "$LOG_FILE"
+    echo "Kunde inte ansluta till X410." | tee -a "$LOG_FILE"
+    echo "Kontrollera följande:" | tee -a "$LOG_FILE"
+    echo "  1. X410 är startat i Desktop mode." | tee -a "$LOG_FILE"
+    echo "  2. Public Access är aktiverat i X410." | tee -a "$LOG_FILE"
+    echo "  3. X410 tillåts genom Windows-brandväggen." | tee -a "$LOG_FILE"
+    echo | tee -a "$LOG_FILE"
+    echo "Du kan även ange adressen manuellt:" | tee -a "$LOG_FILE"
+    echo "X410_DISPLAY=WINDOWS_IP:0.0 plasma-x410" | tee -a "$LOG_FILE"
+    exit 1
+fi
+
+export DISPLAY="$SELECTED_DISPLAY"
+
+unset WAYLAND_DISPLAY
+unset WAYLAND_SOCKET
+unset DBUS_SESSION_BUS_ADDRESS
+
+export XDG_SESSION_TYPE=x11
+export XDG_CURRENT_DESKTOP=KDE
+export XDG_SESSION_DESKTOP=plasma
+export DESKTOP_SESSION=plasma
+export KDE_FULL_SESSION=true
+
+export QT_QPA_PLATFORM=xcb
+export GDK_BACKEND=x11
+export SDL_VIDEODRIVER=x11
+export QT_X11_NO_MITSHM=1
+
+# Stabilare rendering genom X410/WSL2
+export LIBGL_ALWAYS_SOFTWARE=1
+
+# Ljud genom WSLg
+if [ -S /mnt/wslg/PulseServer ]; then
+    export PULSE_SERVER=unix:/mnt/wslg/PulseServer
+elif [ -S /mnt/wslg/runtime-dir/pulse/native ]; then
+    export PULSE_SERVER=unix:/mnt/wslg/runtime-dir/pulse/native
+fi
+
+export XDG_RUNTIME_DIR="/run/user/$(id -u)"
+
+if [ ! -d "$XDG_RUNTIME_DIR" ]; then
+    sudo mkdir -p "$XDG_RUNTIME_DIR"
+    sudo chown "$(id -u):$(id -g)" "$XDG_RUNTIME_DIR"
+    sudo chmod 700 "$XDG_RUNTIME_DIR"
+fi
+
+echo | tee -a "$LOG_FILE"
+echo "DISPLAY=$DISPLAY" | tee -a "$LOG_FILE"
+echo "XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR" | tee -a "$LOG_FILE"
+echo "PULSE_SERVER=${PULSE_SERVER:-inte hittad}" | tee -a "$LOG_FILE"
+echo "Startar Plasma..." | tee -a "$LOG_FILE"
+echo | tee -a "$LOG_FILE"
+
+dbus-run-session -- startplasma-x11 2>&1 | tee -a "$LOG_FILE"
+
+exit "${PIPESTATUS[0]}"
+
+------------------------------------------------------
+
+Now chmod start script for OPENSUSE SLOWROLL AND KDE 6
+
+sudo chmod +x ~/.local/bin/plasma-x410
+
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
+
+source ~/.bashrc
+
+------------------------------------------------------
+
+OpenSUSE Slowroll - Reboot - Reboot - Reboot - Reboot - Reboot - Reboot - Reboot - OpenSUSE Slowroll
+
+------------------------------------------------------
+
+Now we can start OpenSUSE Slowroll via KDE 6.
+
+
+NOTE: FIRST START X410 THEN YOU START OPENSUSE VIA TERMINAL.
+
+
+Copy and paste: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Paste in terminal: . ~/.bash_opensuse_desktop
+
+Type in terminal: plasma-x410
+
+
+Start KDE 6 via OpenSUSE Slowroll and it will take some time first start. Just wait.
+
+----------------------------------------------------------------------
+
+OpenSUSE Slowroll is still in beta phase - openSUSE. So stuff can stop working for SLOWROLL.
+ 
+
+             .;ldkO0000Okdl;.
+         .;d00xl:^''''''^:ok00d;.         Kernel: Linux 6.18.35.2-microsoft-standard-WSL2
+       .d00l'                'o00d.
+     .d0K^'  Okxoc;:,.          ^O0d.     THANKS FOR TESTING KDE 6 AND OPENSUSE FOR WSL - 2026 ❤️
+    .OVVAK0kOKKKKKKKKKKOxo:,      lKO.     
+   ,0VVAKKKKKKKKKKKKK0P^,,,^dx:    ;00,   OS: openSUSE Tumbleweed-Slowroll x86_64  
+  .OVVAKKKKKKKKKKKKKk'.oOPPb.'0k.   cKO.  
+  :KVAKKKKKKKKKKKKKK: kKx..dd lKd   'OK:  OpenSUSE SLOWROLL - STOCKHOLM - SWEDEN - 2026    
+  lKlKKKKKKKKKOx0KKKd ^0KKKO' kKKc   lKl    
+  lKlKKKKKKKKKK;.;oOKx,..^..;kKKK0.  lKl 
+  :KAlKKKKKKKKK0o;...^cdxxOK0O/^^'  .0K:  OS: Windows 11 Pro Insider Preview (26H2) x86_64
+   kKAVKKKKKKKKKKKK0x;,,......,;od  lKP
+   '0KAVKKKKKKKKKKKKKKKKKK00KKOo^  c00'   Sweden - KDE - Microsoft - Mattias Vinberg 
+    'kKAVOxddxkOO00000Okxoc;''   .dKV'
+      l0Ko.                    .c00l'
+       'l0Kk:.              .;xK0l'       FIND ME ON GITHUB: - https://github.com/vinberg88
+          'lkK0xc;:,,,,:;odO0kl'
+              '^:ldxkkkkxdl:^'            Host: Windows Subsystem for Linux - OpenSUSE-SLOWROLL (2.9.4.0)
+     
+
+wslg:            6942bb534b537302a7a22617261d9274db3cfa37
+DirectX-Headers: v1.608.0
+FreeRDP:         c4030980b29322a9cb2190711a5fadeeeb8b6a33
+mesa:            23.1.0
+pulseaudio:      c33051f2296af748ac5cd13e51abfac4d129e4c7
+weston:          a7e35fdab455dce5774b43b8aff682f748307e31
+(Wayland)
+
+openSUSE Slowroll uses a modified version of openSUSE Tumbleweed to
+give a little more stability to users who don‘t want the bleeding
+edge but also don’t want to wait 12 months for a minor release or
+3 to 4 years for a major release like openSUSE Leap. 
+
+----------------------------------------------------------------------
+
+Regards Mattias Vinberg - OpenSUSE SLOWROLL - WSL - X410 - Windows 11 - Linux - KDE 6 - Microsoft - 2026
+
+----------------------------------------------------------------------
