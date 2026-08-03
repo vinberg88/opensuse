@@ -1,0 +1,442 @@
+Manjaro and DEEPIN - WSL - Install DEEPIN DE via Manjaro - Windows 11 - WSL - X410 - Linux - 2026 - YouTUBE
+
+You Can Find Manjaro for WSL here: https://github.com/sileshn/ManjaroWSL2
+
+How to install DEEPIN desktop via Manjaro - WSL - TEXT via GITHUB
+Comming Sone...
+
+How to install DEEPIN desktop via Manjaro - WSL - MOVIE via YouTUBE
+https://www.youtube.com/watch?v=qejzG82sUzk
+
+TOOLS THAT I USE FOR MANJARO AND DEEPIN AND WSL - WINDOWS 11
+
+X410 - X Server for Windows 11. Find it in Micorsoft store. 
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Linux (WSL) distribution.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+██████████████████  ████████   Manjaro is ARCH based distro that work's on WSL2.
+██████████████████  ████████
+██████████████████  ████████   FIND ME HERE - https://github.com/vinberg88
+██████████████████  ████████   
+████████            ████████       MEDIA - MATTIAS VINBERG - STOCKHOLM - SWEDEN - 2026
+████████  ████████  ████████    
+████████  ████████  ████████    
+████████  ████████  ████████    Host: Windows Subsystem for Linux - Manjaro (2.5.10.0)
+████████  ████████  ████████    OS: Manjaro Linux x86_64
+████████  ████████  ████████    Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+████████  ████████  ████████    
+████████  ████████  ████████    LOOK VIA YOUTUBE: https://www.youtube.com/@mattiasvinberg 
+████████  ████████  ████████    
+████████  ████████  ████████    Manjaro and DEEPIN via WINDOWS 11 PRO WORKSTATION - 2026
+
+About Manjaro / Arch based distro - https://manjaro.org
+
+Manjaro is a user-friendly Linux distribution based on the 
+independently developed Arch operating system. Within the 
+Linux community, Arch itself is renowned for being an 
+exceptionally fast, powerful, and lightweight distribution
+that provides access to the very latest cutting-edge and
+bleeding-edge software. However, Arch is also aimed at more
+experienced or technically-minded users.
+
+About DEEPIN FOR WSL - https://www.deepin.org/index/en - 2026
+
+Beautiful UI design, intimate human-computer interaction, and
+community environment make you feel at home. Deepin is easy to
+install and can meet your work needs without additional system 
+configuration and software installation. You can configure deepin
+as you want, but it is not necessary - optimal settings and
+adjustments have been applied by default to meet the usage
+demands of most users. The desktop environment and multiple
+applications based on the self-developed DTK not only have 
+a beautiful UI, but also offer the human-computer interaction
+in line with user habits.
+
+More Stuff https://github.com/vinberg88 or https://vinberg88.github.io
+
+------------------------------------------------------
+
+TIME to Start install Manjaro and DEEPIN desktop. I use number 3 for install Manjaro
+
+1. Go to download folder and unzip now press exe fil in new folder for Manjaro
+or install it via RAFT WSL and select root file - rootfs.tar.gz
+
+Manjaro will setup up user and password in terminal.
+
+------------------------------------------------------
+
+2. Tested and work well via chocolatey to install MANJARO
+
+Open Powershell as ADMIN and put this in terminal: choco install wsl-manjaro
+
+Manjaro will setup up user and password in terminal.
+
+READ - https://community.chocolatey.org/packages/wsl-manjaro
+
+------------------------------------------------------
+
+3. Go to download directory and open powershell and type
+
+wsl --import Manjaro ./manjarolinux rootfs.tar.gz
+
+That have you import the image into WSL2. Manjaro will
+setup up user and password in terminal after start.
+
+---------------------------------
+
+Next make Manjaro faster for install programs.
+
+Paste in terminal: sudo nano /etc/pacman.conf 
+
+and change in file to
+
+# Misc options
+#UseSyslog
+Color
+ParallelDownloads = 20
+ILoveCandy
+#TotalDownload
+#CheckSpace
+VerbosePkgLists
+
+---------------------------------
+
+IF THIS STOP TO WORK - JUMP OVER INSTALLATION - DeLinuxCo
+
+Greetings all, DeLinuxCo has a new repo, hosted in Digital
+Ocean’s CDN which will make downloading updates dramatically
+faster. The current repo will continue to function for
+a few months so there should not be any disruptions, the
+two repos will be mirrored
+
+sudo sed -i -E 's|Server = https://repo.delinuxco.com/x86_64/|Server = https://delinuxco.nyc3.digitaloceanspaces.com/x86_64/|g' /etc/pacman.conf
+
+sudo pacman-key --recv-keys 5264C881A5E37495
+
+---------------------------------
+
+UPDATE MANJARO TO LATEST RELEASE and set REPOS for SWEDEN =)
+
+CHANGE SWEDEN TO YOUR LAND.
+
+sudo pacman-mirrors --country Sweden
+
+sudo pacman -Syu
+
+---------------------------------
+
+                  ##
+                 ####
+                ######
+               ########
+              ##########
+             ############
+            ##############
+           ################     Deepin and Manjaro for WSL - 2026
+          ##################
+         ####################
+        ######################
+       #########      #########
+      ##########      ##########
+     ###########      ###########
+    ##########          ##########
+   #######                  #######
+  ####                          ####
+ ###                              ###
+
+---------------------------------
+
+Install some programs for MANJARO and DEEPIN
+
+sudo pacman -S xorg xorg-server xorg-xinit mesa xterm xorg-twm xorg-xrandr xterm xorg-xclock gdm xorg-xkill xorg-xinput xorg-xwininfo
+
+yay -S bluedevil xorg-xlsfonts libqtxdg xorg-xfontsel dbus systemd dialog kwin
+
+sudo pacman -S gnome net-tools
+
+sudo pacman -Sy gnome-browser-connector gnome-tweaks
+
+sudo systemctl set-default graphical
+
+sudo systemctl enable gdm.service
+
+------------------------------------------------------------
+
+Now we can install latest DEEPIN for Manjaro.
+
+yay -S deepin-desktop deepin deepin-extra
+
+PRESS Y - deepin-kwin-6.0.8-9 and kwin-6.7.3-1 are in conflict. Remove kwin? [y/N] y
+
+yay -S hunspell systemd-ukify tar unzip gnome-shell qt6 qt5 kio-extras thunderbird nemo nautilus file dolphin thunar yazi theme menu
+
+---------------------------------------------------------
+
+Extra install - Chrome Browser for MAJARO and DEEPIN
+
+yay -S google-chrome
+
+---------------------------------------------------------
+
+Install fastfetch - Neofetch is Dead for MANJARO and DEEPIN desktop.
+
+yay -S fastfetch
+
+To test type hyfetch in bash / terminal / console: fastfetch
+
+
+██████████████████  ████████   WM: WSLg 1.0.79 (Wayland)
+██████████████████  ████████
+██████████████████  ████████   Find me here - https://github.com/vinberg88
+██████████████████  ████████   
+████████            ████████       MEDIA - MATTIAS VINBERG - STOCKHOLM - SWEDEN - 2026
+████████  ████████  ████████    
+████████  ████████  ████████    
+████████  ████████  ████████    Host: Windows Subsystem for Linux - Manjaro (2.5.10.0)
+████████  ████████  ████████    OS: Manjaro Linux x86_64
+████████  ████████  ████████    Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+████████  ████████  ████████    
+████████  ████████  ████████    LOOK VIA YOUTUBE: https://www.youtube.com/@mattiasvinberg
+████████  ████████  ████████    
+████████  ████████  ████████    Manjaro and DEEPIN desktop via WINDOWS 11 WORKSTATION.
+
+---------------------------------------------------------
+
+Install blanket - gimp - LibreOffice for DEEPIN desktop and MANJARO.
+
+yay -S gimp blanket libreoffice
+
+---------------------------------------------------------
+
+Open nano and paste this line for MANJARO in terminal.
+
+sudo nano /etc/lightdm/lightdm.conf
+
+[Seat:*]
+greeter-session=lightdm-deepin-greeter
+
+---------------------------------------------------------
+
+Paste all in terminal - MANJARO
+
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+------------------------------------------------------
+
+Fix IP problem for Xserver. Cant find screen.
+
+OPEN POWERSHELL AND TYPE: ipconfig
+
+NOTE - Importent to look for ip. Last lines in terminal are IP-numbers for WSL.
+
+SAVE IP FOR LATER USE LIKE THIS: 172.23.144.1
+
+NOW GO BACK TO MANJARO Terminal and copy and paste this.
+
+sudo systemctl unmask systemd-resolved.service
+sudo systemctl enable systemd-resolved.service
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.23.144.1 <-- put your ip adress here from powershell and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed MANJARO and DEEPiN DESKTOP =]
+
+----------------------------------------------
+
+MANJARO AND DEEPIN DESKTOP.
+
+Type this in terminal and put your user there - sudo loginctl enable-linger adolf
+
+------------------------------------------------------------
+
+WE ARE SONE DONE - DEEPIN DESKTOP AND MANJARO FOR WSL - NICE WORK - ✔
+
+             ............                 
+         .';;;;;.       .,;,.             
+      .,;;;;;;;.       ';;;;;;;.          
+    .;::::::::'     .,::;;,''''',.        
+   ,'.::::::::    .;;'.          ';       THANKS FOR TESTING MANJARO AND DEEPIN DESKTOP FOR WSL - 2026 ❤️
+  ;'  'cccccc,   ,' :: '..        .:      
+ ,,    :ccccc.  ;: .c, '' :.       ,;     MEDIA MATTIAS VINBERG - STOCKHOLM - SWEDEN
+.l.     cllll' ., .lc  :; .l'       l.    
+.c       :lllc  ;cl:  .l' .ll.      :'    FIND ME ON GITHUB: https://github.com/vinberg88
+.l        'looc. .   ,o:  'oo'      c,    
+.o.         .:ool::coc'  .ooo'      o.    LOOK VIA YOUTUBE: https://www.youtube.com/@mattiasvinberg
+ ::            .....   .;dddo      ;c     
+  l:...            .';lddddo.     ,o      Page About wsl: https://vinberg88.github.io
+   lxxxxxdoolllodxxxxxxxxxc      :l       
+    ,dxxxxxxxxxxxxxxxxxxl.     'o,        
+      ,dkkkkkkkkkkkkko;.    .;o;
+        .;okkkkkdl;.    .,cl:.            
+            .,:cccccccc:,.                
+
+------------------------------------------------------------
+
+SETUP SOUND FOR MANJARO AND DEEPIN - ✔
+
+yay -S sws supercollider sc3-plugins jack2 mpv sox qjackctl
+
+yay -S njconnect flac alsa-firmware alsa-plugins alsa-utils
+
+yay -S pipewire pipewire-alsa pipewire-pulse wireplumber gst-plugin-pipewire easyeffects calf lsp-plugins zam-plugins-lv2 mda.lv2 yelp
+
+echo "export PULSE_SERVER=tcp:\$(grep nameserver /etc/resolv.conf | awk '{print \$2}')" >> ~/.bashrc
+source ~/.bashrc
+
+sudo systemctl enable --global pipewire-pulse
+
+------------------------------------------------------
+
+Install this so we have all for Deepin and Manjaro - 2026 - ✔
+
+sudo pacman -S libpulse alsa-utils alsa-plugins pavucontrol
+
+------------------------------------------------------
+
+██████████████████  ████████   WM: WSLg 1.0.79 (Wayland)
+██████████████████  ████████
+██████████████████  ████████   Find me here - https://github.com/vinberg88
+██████████████████  ████████   
+████████            ████████       MEDIA - MATTIAS VINBERG - STOCKHOLM - SWEDEN - 2026
+████████  ████████  ████████    Page About wsl: https://vinberg88.github.io
+████████  ████████  ████████    
+████████  ████████  ████████    Host: Windows Subsystem for Linux - Manjaro (2.5.10.0)
+████████  ████████  ████████    OS: Manjaro Linux x86_64
+████████  ████████  ████████    Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+████████  ████████  ████████    
+████████  ████████  ████████    LOOK VIA YOUTUBE: https://www.youtube.com/@mattiasvinberg
+████████  ████████  ████████    
+████████  ████████  ████████    Manajro and DEEPIN desktop via WINDOWS 11 WORKSTATION.
+
+----------------------------------------------
+
+Make a small script for MANJARO OCH DEEPIN.
+
+Type in terminal: sudo nano ~/.bash_deepin_desktop
+
+Paste this in terminal and save:
+
+#!/usr/bin/env bash
+
+WINDOWS_HOST="$(awk '/^nameserver[[:space:]]/ {print $2; exit}' /etc/resolv.conf)"
+
+export DISPLAY="${WINDOWS_HOST}:0.0"
+export XDG_SESSION_TYPE="x11"
+export XDG_CURRENT_DESKTOP="DDE"
+export XDG_SESSION_DESKTOP="deepin"
+export DESKTOP_SESSION="deepin"
+export QT_QPA_PLATFORM="xcb"
+
+if [[ -S /mnt/wslg/PulseServer ]]; then
+    export PULSE_SERVER="unix:/mnt/wslg/PulseServer"
+fi
+
+----------------------------------------------------------------
+
+DOWNLOAD THIS SCRIPT FÖR ARCH AND DEEPIN - SO DEEPIN WILL START =] - ✔
+
+wget --https-only --timeout=30 --tries=3 -O /tmp/deepin-arch-v2.sh https://www.xhamster.nu/scripts/deepin-arch-v2.sh
+
+----------------------------------------------------------------
+
+Install script that we downloaded for MANJARO and DEEPIN DESKTOP.
+
+COPY AND PASTE IN TERMINAL - NO STRESS - PASTE ALL IN TERMINAL.
+
+sed -i 's/\r$//' /tmp/deepin-arch-v2.sh
+bash -n /tmp/deepin-arch-v2.sh && echo "Syntax OK"
+sudo mkdir -p ~/.local/bin
+sudo chown -R "$(id -un):$(id -gn)" ~/.local
+install -m 755 /tmp/deepin-arch-v2.sh ~/.local/bin/deepin-arch
+ls -l ~/.local/bin/deepin-arch
+grep -qxF 'export PATH="$HOME/.local/bin:$PATH"' ~/.bashrc || echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+command -v deepin-arch
+
+IF you see something like this all works fine - MANJARO and DEEPIN DESKTOP.
+
+/home/adolf/.local/bin/deepin-arch
+
+----------------------------------------------------------------
+
+TEST SCRIPT AND SEE THAT ALL WORKS FOR MANJARO.
+
+Copy and paste in terminal: deepin-arch doctor
+
+IF YOU SEE STUFF LIKE THIS ALL WORKS WELL FOR DEEPIN AND MANJARO FOR WSL.
+
+Deepin Arch / WSL-diagnos
+Version:                   2.0
+------------------------------------------------------------
+dde-session:               /usr/sbin/dde-session
+dde-desktop:               /usr/sbin/dde-desktop
+DISPLAY:                   :0
+XDG_RUNTIME_DIR:           /run/user/1000
+DBUS_SESSION_BUS_ADDRESS:  unix:path=/run/user/1000/bus
+PULSE_SERVER:              unix:/mnt/wslg/PulseServer
+XDG_SESSION_TYPE:          x11
+QT_QPA_PLATFORM:           xcb
+
+Session:                   inte aktiv
+Panel:                     inte aktiv
+Bakgrund:                  inte aktiv
+systemd user:              running
+
+------------------------------------------------------------
+
+REBOOT MANJARO - REBOOT MANJARO - REBOOT MANJARO - REBOOT MANJARO
+
+----------------------------------------------------------------
+
+Time to start DEEPIN desktop via MANJARO. 
+
+
+NOTE - First start X410 then you start MANJARO via terminal.
+
+
+Copt and paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Copt and paste in terminal: . ~/.bash_deepin_desktop
+
+FIRST TIME WHEN YOU START DEEPIN USE: deepin-arch repair
+
+
+Next TIME YOU start DEEPIN always use this line: deepin-arch
+
+If you get problem run: deepin-arch repair
+
+
+TAKE SOME TIME TO START DEEPIN DESKTOP - JUST WAIT FOR MANAJRO AND DEEPIN DESKTOP WILL WORK FINE FROM START.
+
+----------------------------------------------------------------
+
+The Manjaro project is backed by Manjaro GmbH & Co. KG, an open source driven company. 
+
+██████████████████  ████████   WM: WSLg 1.0.79 (Wayland)
+██████████████████  ████████
+██████████████████  ████████   Find me here - https://github.com/vinberg88
+██████████████████  ████████   
+████████            ████████       MEDIA - MATTIAS VINBERG - STOCKHOLM - SWEDEN - 2026
+████████  ████████  ████████    
+████████  ████████  ████████    
+████████  ████████  ████████    Host: Windows Subsystem for Linux - Manjaro (2.5.10.0)
+████████  ████████  ████████    OS: Manjaro Linux x86_64
+████████  ████████  ████████    Kernel: Linux 6.6.87.2-microsoft-standard-WSL2
+████████  ████████  ████████    
+████████  ████████  ████████    
+████████  ████████  ████████    
+████████  ████████  ████████    Manjaro and DEEPIN desktop via WINDOWS 11 WOARKSTATION.
+
+Regards Mattias Vinberg - Manjaro - DEEPIN - X410 - WSL - Linux - Windows 11 - SWEDEN - 2026
+
+------------------------------------------------------------
