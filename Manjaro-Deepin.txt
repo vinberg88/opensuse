@@ -3,7 +3,7 @@ Manjaro and DEEPIN - WSL - Install DEEPIN DE via Manjaro - Windows 11 - WSL - X4
 You Can Find Manjaro for WSL here: https://github.com/sileshn/ManjaroWSL2
 
 How to install DEEPIN desktop via Manjaro - WSL - TEXT via GITHUB
-Comming Sone...
+https://github.com/vinberg88/opensuse/blob/main/Manjaro-Deepin.txt
 
 How to install DEEPIN desktop via Manjaro - WSL - MOVIE via YouTUBE
 https://www.youtube.com/watch?v=qejzG82sUzk
