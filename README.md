@@ -49,6 +49,59 @@ Fix IP problem Xserver so we can find display - https://github.com/vinberg88/ope
 
 ---------------------------------------------
 
+Manjaro and DEEPIN - WSL - Install DEEPIN DE via Manjaro - Windows 11 - WSL - X410 - Linux - 2026 - YouTUBE
+
+You Can Find Manjaro for WSL here: https://github.com/sileshn/ManjaroWSL2
+
+How to install DEEPIN desktop via Manjaro - WSL - TEXT via GITHUB
+
+https://github.com/vinberg88/opensuse/blob/main/Manjaro-Deepin.txt
+
+How to install DEEPIN desktop via Manjaro - WSL - MOVIE via YouTUBE
+
+https://www.youtube.com/watch?v=qejzG82sUzk
+
+TOOLS THAT I USE FOR MANJARO AND DEEPIN AND WSL - WINDOWS 11
+
+X410 - X Server for Windows 11. Find it in Micorsoft store. 
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Linux (WSL) distribution.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="Manjaro-Deepin" src="https://github.com/user-attachments/assets/7ae459d5-248a-405e-91b7-a4356838b3c3" />
+
+About Manjaro / Arch based distro - https://manjaro.org
+
+Manjaro is a user-friendly Linux distribution based on the 
+independently developed Arch operating system. Within the 
+Linux community, Arch itself is renowned for being an 
+exceptionally fast, powerful, and lightweight distribution
+that provides access to the very latest cutting-edge and
+bleeding-edge software. However, Arch is also aimed at more
+experienced or technically-minded users.
+
+About DEEPIN FOR WSL - https://www.deepin.org/index/en - 2026
+
+Beautiful UI design, intimate human-computer interaction, and
+community environment make you feel at home. Deepin is easy to
+install and can meet your work needs without additional system 
+configuration and software installation. You can configure deepin
+as you want, but it is not necessary - optimal settings and
+adjustments have been applied by default to meet the usage
+demands of most users. The desktop environment and multiple
+applications based on the self-developed DTK not only have 
+a beautiful UI, but also offer the human-computer interaction
+in line with user habits.
+
+More Stuff https://github.com/vinberg88 or https://vinberg88.github.io
+
+Regards Mattias Vinberg - Manjaro - DEEPIN - X410 - WSL - Linux - Windows 11 - SWEDEN - 2026
+
+---------------------------------------------
+
 OpenSUSE Slowroll and KDE 6 - How to install KDE 6 via OpenSUSE Slowroll - WSL - X410 - Windows 11 - Linux - 2026
 
 How to install KDE 6 via OpenSUSE Slowroll - WSL - TEXT via GITHUB.
