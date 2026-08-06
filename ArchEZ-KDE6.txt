@@ -1,7 +1,7 @@
 ArchEZ and KDE 6 - How to install KDE 6 via ArchEZ - X410 - Windows 11 - WSLg - Linux - 2026
 
 How to install KDE 6 via ArchEZ and Windows 11 - TEXT via GITHUB.
-Comming SONE...
+https://github.com/vinberg88/opensuse/blob/main/ArchEZ-KDE6.txt
 
 How to install KDE 6 via ArchEZ and Windows 11 - MOVIE via YOUTUBE.
 https://www.youtube.com/watch?v=PtKCNVX4Ic4
