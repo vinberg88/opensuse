@@ -1,0 +1,553 @@
+ArchEZ and KDE 6 - How to install KDE 6 via ArchEZ - X410 - Windows 11 - WSLg - Linux - 2026
+
+How to install KDE 6 via ArchEZ and Windows 11 - TEXT via GITHUB.
+Comming SONE...
+
+How to install KDE 6 via ArchEZ and Windows 11 - MOVIE via YOUTUBE.
+https://www.youtube.com/watch?v=PtKCNVX4Ic4
+
+TOOLS THAT I USE FOR WSL2 and WINDOWS 11 - 2026 - WSLg - ArchEZ AND KDE 6 plasma.
+
+Raft WSL is a powerful tool for managing Windows Subsystem for Linux distributions.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+Use X410 - X Server for Windows 11 and it works well.
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+WSL UI - This tool is free and works like Raft WSL.
+https://apps.microsoft.com/detail/9p8548knj2m9?hl=sv-SE&gl=SE
+
+
+                   -`                     
+                  .o+`                    ArchEZ IS A NEW DISTRO FROM ARCH - 2026 - Arch-EZ
+                 `ooo/                    
+                `+oooo:                   
+               `+oooooo:                  MEDIA: MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+               -+oooooo+:                 
+             `/:-:++oooo+:                FIND me HERE - https://github.com/vinberg88 
+            `/++++/+++++++:               
+           `/++++++++++++++:              Host: Windows Subsystem for Linux - ArchEZ (2.9.4.0)
+          `/+++ooooooooooooo/`            OS: ArchEZ WSL Base x86_64
+         ./ooosssso++osssssso+`           Kernel: Linux 6.18.35.2-microsoft-standard-WSL2
+        .oossssso-````/ossssss+`          WM: WSL2 - WSLg - 1.0.79 - Wayland
+       -osssssso.      :ssssssso.         
+      :osssssss/        osssso+++.        ArchEZ - KDE 6 - 2026 - WINDOWS 11 - X410 - Linux - ARCH
+     /ossssssss/        +ssssooo/-        
+   `/ossssso+/:-        -:/+osssso+-      
+  `+sso+:-`                 `.-/+oso:     The ArchEZ Linux name and logo are recognized trademarks - 2026
+ `++:.                           `-/+/    
+ .`                                 `/    LOOK VIA YOUTUBE FOR MORE: https://www.youtube.com/@mattiasvinberg 
+                                      
+
+About KDE plasma 6 - https://kde.org
+
+Plasma is a Desktop - Use Plasma to surf the
+web; keep in touch with colleagues, friends and family; manage your
+files, enjoy music and videos; and get creative and productive at work.
+Do it all in a beautiful environment that adapts to your needs, and
+with the safety, privacy-protection and peace of mind that the best
+Free Open Source Software has to offer.
+
+Download ArchEZ - https://github.com/vinberg88/opensuse/releases/tag/ArchEZ
+
+ArchEZ is an Arch-based Linux distribution that aims to
+bring Arch to the masses. The developer's goal was to
+create an OS that is beginner-friendly, private,
+privacy-focused, game-supporting, and lightweight. 
+I would easily recommend ArchEZ to any user looking
+to take their first steps with Arch Linux, and with a
+few tweaks, I might even recommend it to those who
+are testing the waters of Linux. It wouldn't take
+much work to lift the distro above a lot of
+the competition.
+
+Diffrent desktops for WSL and Windows 11 - ArchEZ - KDE 6 - 2026
+
+https://github.com/vinberg88 or https://vinberg88.github.io
+
+-------------------------
+
+Lets start install ArchEZ via POWERSHELL - WSL - KDE - 2026 - ArchEZ is a new Arch Distro.
+
+Download ArchEZ via GITHUB: https://github.com/vinberg88/opensuse/releases/tag/ArchEZ
+
+When you Downloaded ArchEZ-WSL-Base-x86_64.wsl
+
+Just press the blue icon and you are almot done. ArchEZ WSL will ask for password and root password.
+
+When you see somthing like this in terminal just Reboot ArchEZ
+
+ArchEZ WSL is ready! Welcome adolf.
+Close the terminal and reboot ArchEZ-WSL.
+
+------------------------------------------------------
+
+Open this file via nano for ArchEZ and change text.
+
+Paste in terminal: sudo nano /etc/pacman.conf 
+
+# Misc options
+#UseSyslog
+Color
+ParallelDownloads = 25
+ILoveCandy
+#TotalDownload
+#CheckSpace
+VerbosePkgLists
+
+NOTE: Next - Look down in file and enable multilib via ArchEZ.
+
+#[multilib]
+#Include = /etc/pacman.d/mirrorlist
+
+JUST REMOVE # SO WILL MULTILIB WORK =)
+
+[multilib]
+Include = /etc/pacman.d/mirrorlist
+
+---------------------------------
+
+UPADTE REPOS FOR ArchEZ.
+
+sudo pacman -Syu
+
+---------------------------------
+
+Install yay installer for ArchEZ. Install programs via yay -S
+
+sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+
+DONT FORGETT TO CD OUT: cd
+
+---------------------------------
+
+NEXT install PARU for ArchEZ - This take some time to install - ARCH EZ 2026
+
+IT TAKE 3 - 4 min to build. JUST WAIT.
+
+Finished making Paru - Finished in 3m 20s for archEZ to build PARU helper.
+
+sudo pacman -S --needed git base-devel devtools java-environment ruby btrfs-progs nvchecker python-gobject pyalpm python-packaging make devtools fakechroot fakeroot
+
+yay -S paru
+
+How to use PARU =)
+
+Update your entire system (official repos and AUR): paru
+Install a package: paru -S package_name
+Search for a package: paru -Ss search_term
+Remove a package and its orphaned dependencies: paru -Rns package_name
+Clean up unused AUR build files and caches: paru -Sc
+
+------------------------------------------------------------
+
+Chaotic AUR for ArchEZ. Run this in terminal no stress - ARCH EZ and KDE 6 - Chaotic AUR repo from Shara fat Karim =]
+
+THIS IS NOT FOR ALL USER BUT.... DANGEROUS =)
+
+paru
+
+paru -S bat bash wget curl git
+
+wget -q -O chaotic-AUR-installer.bash https://raw.githubusercontent.com/SharafatKarim/chaotic-AUR-installer/main/install.bash && sudo bash chaotic-AUR-installer.bash && rm chaotic-AUR-installer.bash
+
+paru
+
+------------------------------------------------------------
+
+Install GIMP so we can PAINT stuff - ArchEZ
+
+paru -S gimp npm pnpm cargo gvfs alsa-lib bash-completion
+
+------------------------------------------------------------
+
+Install sddm and other Tools for ArchEZ
+
+PRESS YES IF ASKED IN TERMINAL OR Q ON KEYBORD AND PRESS ENTER.
+
+paru -S sddm wlogout wofi dunst polkit-gnome wlsunset swayidle networkmanager
+
+paru -S blueman brightnessctl swaylock-effects wofi-emoji wofi-calc playerctl grim slurp pipewire wireplumber xdg-desktop-portal-wlr
+
+------------------------------------------------------------
+
+Install this Tools in Console - ArchEZ and KDE 6 - 2026 - Remove nvidia_oc-bin if you are on other drivers =)
+
+paru -S xorg xorg-server mesa xterm xorg-twm xorg-xrandr xterm xorg-xclock bluedevil libqtxdg nvidia_oc-bin
+
+paru -S xorg-xinit xorg-xrandr xorg-xfontsel xorg-xlsfonts xorg-xkill xorg-xinput xorg-xwininfo dbus kwin
+
+------------------------------------------------------------
+
+Time To install KDE plasma 6 for ArchEZ - 2026 - WSLg EDITION WAYLAND =)
+
+paru -S astyle clazy cmake cppcheck heaptrack lldb-mi meson ninja dbus
+
+paru -S plasma-meta kde-applications-meta kde-network-meta kdenetwork-filesharing
+
+------------------------------------------------------------
+
+Paste in terminal for ArchEZ and KDE 6 - We will use sddm for x410 and KDE 6
+
+sudo systemctl enable sddm.service
+
+------------------------------------------------------------
+
+Install hyfetch and fastfetch for ARCH EZ
+
+paru -S hyfetch fastfetch zlib python lua chafa
+
+To test hyfetch type hyfetch in terminal: hyfetch
+
+Or test fastfetch: fastfetch
+
+
+                   -`                     
+                  .o+`                    ARCH-EZ IS A NEW DISTRO FROM ARCH - 2026
+                 `ooo/                    
+                `+oooo:                   
+               `+oooooo:                  MEDIA: MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+               -+oooooo+:                 
+             `/:-:++oooo+:                https://github.com/vinberg88
+            `/++++/+++++++:               
+           `/++++++++++++++:              Host: Windows Subsystem for Linux - ArchEZ-WSL (2.9.4.0)
+          `/+++ooooooooooooo/`            OS: ArchEZ WSL Base x86_64
+         ./ooosssso++osssssso+`           Kernel: Linux 6.18.35.2-microsoft-standard-WSL2
+        .oossssso-````/ossssss+`          WM: WSLg - WSLg: 1.0.79 - Wayland
+       -osssssso.      :ssssssso.         
+      :osssssss/        osssso+++.        ARCH-EZ - KDE 6 - 2026 - WINDOWS 11 - X410 - Linux - SWEDEN
+     /ossssssss/        +ssssooo/-        
+   `/ossssso+/:-        -:/+osssso+-      
+  `+sso+:-`                 `.-/+oso:     The ArchEZ Linux name and logo are recognized trademarks - 2026
+ `++:.                           `-/+/    
+ .`                                 `/    
+                                          See films here about WSL: https://www.youtube.com/@mattiasvinberg
+
+------------------------------------------------------------
+
+Install Google Chrome BROWSER - WORKS PERFECT ON ArchEZ AND KDE 6
+
+paru -S google-chrome gnome-keyring
+
+------------------------------------------------------------
+
+ARCH-EZ is a sponsor for blanket - Listen to different sounds install blanket now.
+
+paru -S blanket evince aspell libvoikko nuspell texlive-bin
+
+------------------------------------------------------------
+
+Install LibreOffice - Office - ARCH EZ FOR WSL2 and KDE 6
+
+paru -S libreoffice java-runtime pstoedit coin-or-mp rhino java-environment
+
+------------------------------------------------------------
+
+                   -`                     
+                  .o+`                    ArchEZ IS A NEW DISTRO FROM ARCH - 2026
+                 `ooo/                    
+                `+oooo:                   
+               `+oooooo:                  MEDIA: MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+               -+oooooo+:                 
+             `/:-:++oooo+:                Find ME here: https://github.com/vinberg88
+            `/++++/+++++++:               
+           `/++++++++++++++:              Host: Windows Subsystem for Linux - ArchEZ-WSL (2.9.4.0)
+          `/+++ooooooooooooo/`            OS: ArchEZ WSL Base x86_64
+         ./ooosssso++osssssso+`           Kernel: Linux 6.18.35.2-microsoft-standard-WSL2
+        .oossssso-````/ossssss+`          WM: WSLg - WSLg: 1.0.79 - Wayland
+       -osssssso.      :ssssssso.         
+      :osssssss/        osssso+++.        ARCH-EZ - KDE 6 - 2026 - WINDOWS 11 - X410 - Linux - SWEDEN
+     /ossssssss/        +ssssooo/-        
+   `/ossssso+/:-        -:/+osssso+-      
+  `+sso+:-`                 `.-/+oso:     The ArchEZ Linux name and logo are recognized trademarks - 2026
+ `++:.                           `-/+/    
+ .`                                 `/    
+                                          See films here about WSL: https://www.youtube.com/@mattiasvinberg
+
+------------------------------------------------------------
+
+Install Visual Studio Code from MICROSOFT - ArchEZ and KDE 6 for WSLg - 2026
+
+paru -S code trash-cli accerciser accountsservice gcc distcc trash-cli zsh-completions
+
+------------------------------------------------------------
+
+Install some programs for ArchEZ
+
+paru -S gnome-shell pipewire alsa-utils pavucontrol deepin-terminal
+
+paru -S networkmanager-openvpn libdbus network kpackage cava qt6-websockets python-websockets gst-plugin-pipewire
+
+paru -S nemo gedit gnome-terminal tilix file-roller eog evince gparted htop nautilus dolphin power-profiles-daemon
+
+paru -S kdenlive blender simplenote menulibre gnome
+
+------------------------------------------------------------
+
+Paste in terminal - All - ArchEZ and KDE 6 PLASMA DESKTOP - 2026
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+------------------------------------------------------------
+
+COPY AND PASTE THIS TO TERMINAL FOR ArchEZ AND KDE 6
+
+Type this in terminal and put your username there - sudo loginctl enable-linger adolf
+
+------------------------------------------------------------
+
+                   -`                     
+                  .o+`                    ArchEZ IS A NEW DISTRO FROM ARCH - 2026
+                 `ooo/                    
+                `+oooo:                   
+               `+oooooo:                  MEDIA: MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+               -+oooooo+:                 
+             `/:-:++oooo+:                FIND ME HERE: https://github.com/vinberg88
+            `/++++/+++++++:               
+           `/++++++++++++++:              Host: Windows Subsystem for Linux - ArchEZ-WSL (2.9.4.0)
+          `/+++ooooooooooooo/`            OS: ArchEZ WSL Base x86_64
+         ./ooosssso++osssssso+`           Kernel: Linux 6.18.35.2-microsoft-standard-WSL2
+        .oossssso-````/ossssss+`          WM: WSLg - WSLg: 1.0.79 - Wayland
+       -osssssso.      :ssssssso.         
+      :osssssss/        osssso+++.        ARCH-EZ - KDE 6 - 2026 - WINDOWS 11 - X410 - Linux - SWEDEN
+     /ossssssss/        +ssssooo/-        
+   `/ossssso+/:-        -:/+osssso+-      
+  `+sso+:-`                 `.-/+oso:     The ArchEZ Linux name and logo are recognized trademarks - 2026
+ `++:.                           `-/+/    
+ .`                                 `/    
+                                          See films here about WSL: https://www.youtube.com/@mattiasvinberg
+
+------------------------------------------------------
+
+Fix IP problem for X410. Cant find screen problem - ArchEZ AND KDE 6 PLASMA.
+
+OPEN POWERSHELL FROM MICROSOFT AND TYPE: ipconfig
+
+NOTE - Importent to look for ip. Last lines are IP-numbers for WSL in POWERSHELL so xserver works.
+
+NOW GO BACK TO ArchEZ Terminal and paste this.
+
+paru -S systemd-resolvconf systemd
+
+sudo systemctl unmask systemd-resolved.service
+sudo systemctl enable systemd-resolved.service
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.23.144.1 <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed ArchEZ =] 
+
+----------------------------------------------
+
+INSTALL SOME PROGRAMS FOR KDE 6 AND ARCH EZ - 2026 
+
+When you start KDE 6 look at "octopi" Nice program for install programs for arch - 2026
+
+paru -S python-virtualenv optipng inkscape python-pip python3 python-pipx fakeroot
+
+paru -S ttf-roboto ttf-ubuntu-font-family cantarell-fonts git wget unzip tar sed plasma-workspace kpackage kconfig
+
+paru -S gnome-shell kwin nwg-look lxappearance qt5ct qt6ct glibc kvantum-qt5 aurorae
+
+paru -S octopi texlive-fontsrecommended texlive-fontutils texlive-latexextra texlive-plaingeneric python-sv-ttk
+
+----------------------------------------------
+
+NEXT INSTALL THIS PROGRAMS FOR ARCHez - THIS TAKE SOME TIME TO INSTALL =)
+
+paru -S ttf-nerd-fonts-symbols-common ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-mono otf-codenewroman-nerd ttf-monoid-nerd ttf-monofur-nerd
+
+paru -S ttf-mplus-nerd nerd-fonts-inter nerdfix nerd-fonts-noto-sans-mono nerd-fonts
+
+paru -S kde-gruvbox ttf-cascadia-code otf-monaspace-nerd ttf-cascadia-code-nerd
+
+------------------------------------------------------
+
+WSL/KDE-rice - For KDE 6 - Copy and Paste ALL in terminal - 🥷🌙 - ArchEZ
+
+paru -S rsync vicinae opencode xclip xsel
+
+rm -rf /tmp/Scratchy
+git clone --depth 1 https://gitlab.com/jomada/Scratchy.git /tmp/Scratchy
+
+mkdir -p \
+  ~/.local/share/aurorae/themes \
+  ~/.local/share/color-schemes \
+  ~/.local/share/konsole \
+  ~/.local/share/plasma/look-and-feel \
+  ~/.local/share/plasma/desktoptheme \
+  ~/.local/share/wallpapers
+
+rsync -a /tmp/Scratchy/aurorae/Scratchy ~/.local/share/aurorae/themes/
+cp -f /tmp/Scratchy/color-schemes/*.colors ~/.local/share/color-schemes/
+cp -f /tmp/Scratchy/konsole/*.colorscheme ~/.local/share/konsole/
+rsync -a /tmp/Scratchy/look-and-feel/Scratchy ~/.local/share/plasma/look-and-feel/
+rsync -a /tmp/Scratchy/plasma/Scratchy ~/.local/share/plasma/desktoptheme/
+rsync -a /tmp/Scratchy/wallpaper/* ~/.local/share/wallpapers/
+
+kbuildsycoca6 2>/dev/null || true
+
+
+🌙 We will wait on activate of Scratchy themes for KDE 6 and archEZ. Do this from KDE gui via x410.
+
+------------------------------------------------------
+
+INSTALL SOME THEMES FOR KDE 6 AND ARCH-EZ - 2026 🌙- LOGIN ROOT USER AND COPY AND PASTE.
+
+yay -S gnome-shell distrobox
+
+git clone https://github.com/EliverLara/Nordic.git ~/.themes/Nordic
+git clone https://github.com/Fausto-Korpsvart/Tokyonight-GTK-Theme.git ~/.themes/Tokyonight
+git clone https://github.com/catppuccin/gtk.git ~/.themes/Catppuccin
+git clone https://github.com/dracula/gtk.git ~/.themes/Dracula
+
+------------------------------------------------------------
+
+Install some cursor for ArchEZ and KDE 6 
+
+yay -S xcursor-comix xcursor-themes xcursor-vanilla-dmz xcursor-vanilla-dmz-aa 
+
+yay -S adwaita-cursors breeze-cursors capitaine-cursors default-cursors vimix-cursors
+
+------------------------------------------------------
+
+INSTALL Tokyonight DARK ICON for KDE 6 plasma - MY FAVORIT ICONS FOR ArchEZ - ✔
+
+DOWNLOAD LINK MAYBE NOT WORK - https://www.gnome-look.org/p/1681475
+
+COPY AND PASTE FOR ArchEZ AND KDE 6 - 2026 - WSL2 - LinuX
+
+wget https://www.braknulla.se/Tokyonight-Dark-Icons.zip
+sudo mkdir -p ~/.local/share/Icons
+sudo unzip Tokyonight-Dark-Icons.zip -d ~/.local/share/icons/
+
+Works Perfect for ArchEZ and KDE DESKTOP - 2026 - ✔
+
+------------------------------------------------------
+
+Paste this in console for sound - just so all will work for ArchEZ - ✔
+
+paru -S systemd wireplumber pipewire pulse
+
+sudo systemctl enable --global pipewire-pulse
+
+------------------------------------------------------
+
+Install sound so we have all for KDE 6 and ArchEZ - 2026 - ✔
+
+sudo pacman -Syu --needed \
+  libpulse alsa-utils alsa-plugins \
+  plasma-pa pavucontrol sound-theme-freedesktop
+
+------------------------------------------------------
+
+Final install this so we can start KDE 6 via ArchEZ - ✔
+
+sudo pacman -S --needed plasma-x11-session kwin-x11
+
+--------------------------------------------
+
+Make this script for KDE 6 to start for ArchEZ.
+
+sudo nano ~/start-kde6.sh
+
+--------------------------------------------
+
+NOW COPY AND PASTE THIS TO TERMINAL =) TAKE ALL =) 
+
+#!/usr/bin/env bash
+
+# ----- X410 / X11 -----
+export DISPLAY=${DISPLAY:-$(awk '/nameserver/ {print $2; exit}' /etc/resolv.conf):0.0}
+export QT_QPA_PLATFORM=xcb
+export GDK_BACKEND=x11
+export SDL_VIDEODRIVER=x11
+export QT_X11_NO_MITSHM=1
+unset WAYLAND_DISPLAY
+
+# ----- Runtime dir för KDE -----
+export XDG_RUNTIME_DIR=${XDG_RUNTIME_DIR:-/tmp/runtime-$USER}
+mkdir -p "$XDG_RUNTIME_DIR"
+chmod 700 "$XDG_RUNTIME_DIR"
+
+# ----- Ljud via WSLg PulseAudio -----
+for s in \
+  /mnt/wslg/PulseServer \
+  /mnt/wslg/runtime-dir/pulse/native \
+  "/mnt/wslg/run/user/$(id -u)/pulse/native"
+do
+  if [ -S "$s" ]; then
+    export PULSE_SERVER="unix:$s"
+    break
+  fi
+done
+
+echo "DISPLAY=$DISPLAY"
+echo "PULSE_SERVER=$PULSE_SERVER"
+
+pactl info | sed -n '1,10p' || echo "PulseAudio hittades inte ännu."
+
+exec dbus-run-session startplasma-x11
+EOF
+
+--------------------------------------------
+
+Chmod script for KDE 6 and ARCH
+
+sudo chmod +x ~/start-kde6.sh
+
+--------------------------------------------
+
+Reboot ArchEZ - Reboot ArchEZ - Reboot ArchEZ - Reboot ArchEZ - Reboot ArchEZ
+
+--------------------------------------------
+
+Time to start KDE 6 via ArchEZ - WORK WORK WORK....
+
+
+NOTE: FIRST Start X410 then you start ARCH from terminal and KDE 6.
+
+
+Copy and Paste in Console: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Copy and Paste in Console: ~/start-kde6.sh
+
+
+Just wait when you start KDE 6 and ARCH -  IT WILL WORK - Time is all we have - ARCH LINUX =]
+
+----------------------------------------------------------------
+
+Regards Mattias Vinberg - ArchEZ - KDE 6 Plasma - SWEDEN - WSL - Microsoft - Linux - X410 - Stockholm - 2026
+
+
+                   -`                     
+                  .o+`                    ArchEZ IS A NEW DISTRO FROM ARCH - 2026
+                 `ooo/                    
+                `+oooo:                   
+               `+oooooo:                  MEDIA: MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026
+               -+oooooo+:                 
+             `/:-:++oooo+:                FIND ME HERE - https://github.com/vinberg88
+            `/++++/+++++++:               
+           `/++++++++++++++:              Host: Windows Subsystem for Linux - ArchEZ-WSL (2.9.4.0)
+          `/+++ooooooooooooo/`            OS: ArchEZ WSL Base x86_64
+         ./ooosssso++osssssso+`           Kernel: Linux 6.18.35.2-microsoft-standard-WSL2
+        .oossssso-````/ossssss+`          WM: WSLg - WSLg: 1.0.79 - Wayland
+       -osssssso.      :ssssssso.         
+      :osssssss/        osssso+++.        ARCH-EZ - KDE 6 - 2026 - WINDOWS 11 - X410 - Linux - SWEDEN
+     /ossssssss/        +ssssooo/-        
+   `/ossssso+/:-        -:/+osssso+-      
+  `+sso+:-`                 `.-/+oso:     The ArchEZ Linux name and logo are recognized trademarks - 2026
+ `++:.                           `-/+/    
+ .`                                 `/    
+                                          See films here about WSL: https://www.youtube.com/@mattiasvinberg
+                                          
+----------------------------------------------------------------
