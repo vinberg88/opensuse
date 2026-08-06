@@ -49,6 +49,58 @@ Fix IP problem Xserver so we can find display - https://github.com/vinberg88/ope
 
 ---------------------------------------------
 
+ArchEZ and KDE 6 - How to install KDE 6 via ArchEZ - X410 - Windows 11 - WSLg - Linux - 2026
+
+How to install KDE 6 via ArchEZ and Windows 11 - TEXT via GITHUB.
+
+https://github.com/vinberg88/opensuse/blob/main/ArchEZ-KDE6.txt
+
+How to install KDE 6 via ArchEZ and Windows 11 - MOVIE via YOUTUBE.
+
+https://www.youtube.com/watch?v=PtKCNVX4Ic4
+
+TOOLS THAT I USE FOR WSL2 and WINDOWS 11 - 2026 - WSLg - ArchEZ AND KDE 6 plasma.
+
+Raft WSL is a powerful tool for managing Windows Subsystem for Linux distributions.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+Use X410 - X Server for Windows 11 and it works well.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="ArchEZ-KDE6" src="https://github.com/user-attachments/assets/53f5b42f-518a-41a3-a900-d4ed5652d06e" />
+
+About KDE plasma 6 - https://kde.org
+
+Plasma is a Desktop - Use Plasma to surf the
+web; keep in touch with colleagues, friends and family; manage your
+files, enjoy music and videos; and get creative and productive at work.
+Do it all in a beautiful environment that adapts to your needs, and
+with the safety, privacy-protection and peace of mind that the best
+Free Open Source Software has to offer.
+
+Download ArchEZ - https://github.com/vinberg88/opensuse/releases/tag/ArchEZ
+
+ArchEZ is an Arch-based Linux distribution that aims to
+bring Arch to the masses. The developer's goal was to
+create an OS that is beginner-friendly, private,
+privacy-focused, game-supporting, and lightweight. 
+I would easily recommend ArchEZ to any user looking
+to take their first steps with Arch Linux, and with a
+few tweaks, I might even recommend it to those who
+are testing the waters of Linux. It wouldn't take
+much work to lift the distro above a lot of
+the competition.
+
+Diffrent desktops for WSL and Windows 11 - ArchEZ - KDE 6 - 2026
+
+https://github.com/vinberg88 or https://vinberg88.github.io
+
+Regards Mattias Vinberg - ArchEZ - KDE 6 - SWEDEN - WSL - Microsoft - Linux - X410 - 2026
+
+---------------------------------------------
+
 Manjaro and DEEPIN - WSL - Install DEEPIN DE via Manjaro - Windows 11 - WSL - X410 - Linux - 2026 - YouTUBE
 
 You Can Find Manjaro for WSL here: https://github.com/sileshn/ManjaroWSL2
