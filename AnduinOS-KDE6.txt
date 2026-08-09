@@ -1,7 +1,7 @@
 AnduinOS and KDE 6 - Install KDE 6 via WSL - AnduinOS - Windows 11 - Linux - X410 - 2026
 
 How to install KDE 6 via AnduinOS - WSL - TEXT via GITHUB
-Comming SONE...
+https://github.com/vinberg88/opensuse/blob/main/AnduinOS-KDE6.txt
 
 How to install KDE 6 via AnduinOS - WSL - MOVIE via YOUTUBE
 https://www.youtube.com/watch?v=e_OwkY68GFU
