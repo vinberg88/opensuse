@@ -49,6 +49,61 @@ Fix IP problem Xserver so we can find display - https://github.com/vinberg88/ope
 
 ---------------------------------------------
 
+AnduinOS and KDE 6 - Install KDE 6 via WSL - AnduinOS - Windows 11 - Linux - X410 - 2026
+
+How to install KDE 6 via AnduinOS - WSL - TEXT via GITHUB
+
+https://github.com/vinberg88/opensuse/blob/main/AnduinOS-KDE6.txt
+
+How to install KDE 6 via AnduinOS - WSL - MOVIE via YOUTUBE
+
+https://www.youtube.com/watch?v=e_OwkY68GFU
+
+TOOLS THAT I USE FOR AnduinOS AND WSL - WINDOWS 11
+
+X410 - X Server for Windows 11. Find it in Micorsoft store. 
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Linux (WSL) distribution.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+Downlonad AnduinOS via this link: https://drive.proton.me/urls/N57W0G6G5W#rczY06Cunn8i
+
+<img width="1920" height="1080" alt="AnduinOS-KDE6" src="https://github.com/user-attachments/assets/fa7f4fc1-8b03-4632-ad62-66bb31847ca6" />
+
+About AnduinOS - https://www.anduinos.com
+
+AnduinOS is a custom Ubuntu-based Linux distribution
+that offers a familiar and easy-to-use experience
+for anyone moving to Linux. AnduinOS is an open-
+source project. Following the GPL-v3 license, you
+can view the source code, modify it, and redistribute
+it. It's free and will always be free - AnduinOS
+
+Anduin Xue, the main developer behind AnduinOS.
+
+✅ Ubuntu 26.04 LTS & Kernel 7
+✅ 100% Native APT
+✅ Snap & Telemetry-free
+✅ Fluent-themed GNOME 50 and KDE 6
+
+About KDE 6 Plasma - https://kde.org
+
+KDE Plasma is a modern, feature-rich desktop environment
+for Linux-based operating systems. Known for its sleek
+design, customizable interface, and extensive set of
+applications, it is also open source, devoid
+of ads, and makes protecting your privacy and
+personal data a priority.
+
+WATCH MORE MOVIES HERE ABOUT WSL - https://www.youtube.com/@mattiasvinberg
+
+Regards Mattias Vinberg - AnduinOS - KDE 6 - WSL - WAYLAND - Windows 11 - Microsoft - Linux - 2026
+
+---------------------------------------------
+
 ArchEZ and KDE 6 - How to install KDE 6 via ArchEZ - X410 - Windows 11 - WSLg - Linux - 2026
 
 How to install KDE 6 via ArchEZ and Windows 11 - TEXT via GITHUB.
