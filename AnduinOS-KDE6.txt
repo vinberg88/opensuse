@@ -1,0 +1,346 @@
+AnduinOS and KDE 6 - Install KDE 6 via WSL - AnduinOS - Windows 11 - Linux - X410 - 2026
+
+How to install KDE 6 via AnduinOS - WSL - TEXT via GITHUB
+Comming SONE...
+
+How to install KDE 6 via AnduinOS - WSL - MOVIE via YOUTUBE
+https://www.youtube.com/watch?v=e_OwkY68GFU
+
+TOOLS THAT I USE FOR AnduinOS AND WSL - WINDOWS 11
+
+X410 - X Server for Windows 11. Find it in Micorsoft store. 
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Linux (WSL) distribution.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+
+                +++++++++++                      
+            +++++++++++++++++++++                
+        +++++++++++++++++++++++++++++++          THANKS FOR TESTING AnduinOS AND KDE 6 FOR WSL - 2026 ❤️
+=+++++++++++++++++++++++++++++++++++++++=   
++++++++++++++++++++++++++++++++++++++++++++++
+=++++++++++++++++++++++++++++++++++++++++++++    Kernel: Linux 6.18.33.2-microsoft-standard-WSL2
+    ==+++++++++++++++++++++++++++++++++==        
+        +++++++++++++++++++++++++++              Host: Windows Subsystem for Linux - anduinos (2.7.11.0)
+****          ++=+++++++++++=++          ****    
+**********         +++++++         **********    WM: WSLg 1.0.73.2 (Wayland)
+**************               **************      
+    ****************   ****************          
+            ***********************              OS: AnduinOS 2.0.1 x86_64
+******          *************          ******    
+***********          ***          ***********    FIND ME ON GITHUB: - https://github.com/vinberg88
+***************           ***************        
+        *************** ***************          MEDIA MATTIAS VINBERG - STOCKHOLM - SWEDEN
+            *********************                
+                ***********                      OS: Windows 11 Pro Insider Preview (26H2) x86_64
+
+
+About AnduinOS - https://www.anduinos.com
+
+AnduinOS is a custom Ubuntu-based Linux distribution
+that offers a familiar and easy-to-use experience
+for anyone moving to Linux. AnduinOS is an open-
+source project. Following the GPL-v3 license, you
+can view the source code, modify it, and redistribute
+it. It's free and will always be free - AnduinOS
+
+Anduin Xue, the main developer behind AnduinOS.
+
+✅ Ubuntu 26.04 LTS & Kernel 7
+✅ 100% Native APT
+✅ Snap & Telemetry-free
+✅ Fluent-themed GNOME 50 and KDE 6
+
+About KDE 6 Plasma - https://kde.org
+
+KDE Plasma is a modern, feature-rich desktop environment
+for Linux-based operating systems. Known for its sleek
+design, customizable interface, and extensive set of
+applications, it is also open source, devoid
+of ads, and makes protecting your privacy and
+personal data a priority.
+
+You can finde more Stuff here About WSL for Desktops - WSL
+
+https://github.com/vinberg88 or https://vinberg88.github.io
+
+WATCH MORE MOVIES HERE ABOUT WSL - https://www.youtube.com/@mattiasvinberg
+
+--------------------------
+
+Time to start install for AnduinOS and KDE 6 - Download this file and install it via RAFT WSL or other Tools =)
+
+Downlonad AnduinOS via this link: https://drive.proton.me/urls/N57W0G6G5W#rczY06Cunn8i
+
+ROOT FILE =) FASTER THAT WAY AND REPOS ARE ULTRA FAST VIA AnduinOS.
+
+--------------------------
+
+UPDATE ALL DIRECT FROM START OS WE CAN INSTALL BLANKET FOR AnduinOS
+
+apt update && apt upgrade -y
+
+apt install software-properties-common
+
+Open this file and to nano: nano /etc/apt/sources.list  
+
+deb http://archive.ubuntu.com/ubuntu/ jammy universe  
+deb-src http://archive.ubuntu.com/ubuntu/ jammy universe  
+
+Update all one more time...
+
+apt update && apt upgrade -y
+
+Now we can install blanket for AnduinOS
+
+wget http://archive.ubuntu.com/ubuntu/pool/universe/b/blanket/blanket_0.8.0-1_all.deb
+
+apt install ./blanket_0.8.0-1_all.deb
+
+--------------------------
+
+Install some basic programs for AnduinOS and KDE 6 - We need to do this for systemd.
+
+
+apt install git nano bash sudo dialog wget curl rsync systemd dbus* ibus
+
+--------------------------
+
+SETUP USER AND PASSWORD FOR AnduinOS and KDE 6 - USE SAME PASSWORD FOR ROOT AND USER.
+
+adduser adolf
+passwd
+
+--------------------------
+
+Add user to sudo Wheel - AnduinOS
+
+usermod -aG sudo adolf
+
+--------------------------
+
+Open Visudo and add this to visudo file. Change adolf to your user =) AnduinOS and KDE 6 FOR WSL
+
+sudo visudo
+
+adolf ALL=(ALL:ALL) ALL
+root ALL=(ALL:ALL) ALL
+
+--------------------------
+
+Now open this file via terminal and add username via AnduinOS for WSL
+
+nano /etc/wsl.conf
+
+next add this and change adolf to your username. Post systemd to =)
+
+[boot]
+systemd=true
+
+[user]
+default=adolf
+
+----------------------------------------------
+
+REBOOT AnduinOS - AnduinOS - REBOOT AnduinOS - REBOOT AnduinOS
+
+----------------------------------------------
+
+Install snpad for AnduinOS - JUST FOR FIREFOX.
+
+sudo apt install snapd
+
+sudo systemctl enable --now snapd.socket
+sudo ln -s /var/lib/snapd/snap /snap
+
+sudo snap install core
+
+sudo snap install snapd
+
+sudo snap install firefox
+
+----------------------------------------------
+
+Install all programs for KDE 6 and AnduinOS
+
+sudo apt install ibus bash npm wget curl pipx dracut -y
+sudo apt install sddm* -y
+sudo apt install xorg* -y
+sudo apt install daemonize -y
+sudo apt install kde-plasma-desktop -y
+
+sudo apt install plasma-desktop* -y
+sudo apt install x11* -y
+sudo apt install plasma-session-x11 kwin-x11 -y
+sudo systemctl set-default graphical
+
+SELECT SDDM IF ASKED UNDER INSTALL.
+
+----------------------------------------------
+
+Install this small program for fastfetch and AnduinOS - KDE 6
+
+sudo apt install fastfetch -y
+
+To test type: fastfetch
+
+                +++++++++++                      
+            +++++++++++++++++++++                
+        +++++++++++++++++++++++++++++++          THANKS FOR TESTING AnduinOS AND KDE 6 FOR WSL - 2026 ❤️
+=+++++++++++++++++++++++++++++++++++++++=   
++++++++++++++++++++++++++++++++++++++++++++++
+=++++++++++++++++++++++++++++++++++++++++++++    Kernel: Linux 6.18.33.2-microsoft-standard-WSL2
+    ==+++++++++++++++++++++++++++++++++==        
+        +++++++++++++++++++++++++++              Host: Windows Subsystem for Linux - anduinos (2.7.11.0)
+****          ++=+++++++++++=++          ****    
+**********         +++++++         **********    WM: WSLg 1.0.73.2 (Wayland)
+**************               **************      
+    ****************   ****************          
+            ***********************              OS: AnduinOS 2.0.1 x86_64
+******          *************          ******    
+***********          ***          ***********    FIND ME ON GITHUB: - https://github.com/vinberg88
+***************           ***************        
+        *************** ***************          MEDIA MATTIAS VINBERG - STOCKHOLM - SWEDEN
+            *********************                
+                ***********                      OS: Windows 11 Pro Insider Preview (26H2) x86_64
+
+
+----------------------------------
+
+Install Chrome Browser for AnduinOS and KDE 6
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+----------------------------------
+
+Install Visual studio Code - Microsoft - 2026 - AnduinOS
+
+sudo apt-get install wget gpg
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" |sudo tee /etc/apt/sources.list.d/vscode.list > /dev/null
+rm -f packages.microsoft.gpg
+
+sudo apt install apt-transport-https
+sudo apt update
+sudo apt install code
+
+----------------------------------
+
+Install Gimp and Libreoffice for AnduinOS
+
+sudo apt install gimp libreoffice -y
+
+----------------------------------
+
+Run this in terminal. Select Debian desktop Environment and KDE for AnduinOS
+
+sudo apt install tasksel
+sudo tasksel
+
+----------------------------------
+
+Fix IP problem for X410 or other Xservers. Cant find screen 0:0 - AnduinOS
+
+OPEN POWERSHELL AND TYPE: ipconfig
+
+YOU WILL SEE SOMETHING LIKE THIS - THAT IP IS WHAT WE WANT SAVE IT.
+
+Ethernet adapter vEthernet (WSL (Hyper-V firewall)):
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::c22d:775:81d4:984
+   IPv4 Address. . . . . . . . . . . : 192.168.144.1
+
+NOTE - Importent to look for ip. Last lines in terminal are IP-numbers for WSL via POWERSHELL.
+
+SAVE IP FOR LATER USE LIKE THIS FROM POWERSHELL: 192.168.144.1
+
+----------------------------------
+
+NOW GO BACK TO AnduinOS Terminal and paste this.
+
+NOTE - IF YOU SE SOME ERRORS ALL WORKS ANY WAY =)
+
+sudo apt install systemd-resolved
+
+sudo systemctl unmask systemd-resolved.service
+sudo systemctl enable systemd-resolved.service
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 192.168.144.1 <-- put your ip here from powershell and add nameserver like this.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+NOTE - IF YOU TYPE WRONG IP ADRESS ALL WILL STOP WORKING - NO STRESS.
+
+DONE - Lot of problem fixed FOR AnduinOS and KDE
+
+----------------------------------------------
+
+Paste in terminal - All - AnduinOS
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+----------------------------------------------
+
+Type this in terminal and put your username there: sudo loginctl enable-linger adolf
+
+--------------------------------------------
+
+REBOOT AnduinOS - AnduinOS - REBOOT AnduinOS - REBOOT AnduinOS
+
+----------------------------------------------
+
+FIRST START X410 XSERVER THEN YOU START AnduinOS VIA TERMINAL and start KDE 6
+
+Copy in Paste all in terminal for KDE 6 AND AnduinOS.
+
+export DISPLAY=$(awk '/^nameserver/ {print $2; exit}' /etc/resolv.conf):0.0
+export PULSE_SERVER=unix:/mnt/wslg/PulseServer
+
+dbus-run-session -- env \
+  XDG_SESSION_TYPE=x11 \
+  XDG_CURRENT_DESKTOP=KDE \
+  XDG_SESSION_DESKTOP=KDE \
+  KDE_FULL_SESSION=true \
+  QT_QPA_PLATFORM=xcb \
+  startplasma-x11
+
+Wait when you start KDE 6 first time. It will work for AnduinOS =]
+
+-------------------------------
+
+                +++++++++++                      
+            +++++++++++++++++++++                
+        +++++++++++++++++++++++++++++++          THANKS FOR TESTING AnduinOS AND KDE 6 FOR WSL - 2026 ❤️
+=+++++++++++++++++++++++++++++++++++++++=   
++++++++++++++++++++++++++++++++++++++++++++++
+=++++++++++++++++++++++++++++++++++++++++++++    Kernel: Linux 6.18.33.2-microsoft-standard-WSL2
+    ==+++++++++++++++++++++++++++++++++==        
+        +++++++++++++++++++++++++++              Host: Windows Subsystem for Linux - anduinos (2.7.11.0)
+****          ++=+++++++++++=++          ****    
+**********         +++++++         **********    WM: WSLg 1.0.73.2 (Wayland)
+**************               **************      
+    ****************   ****************          
+            ***********************              OS: AnduinOS 2.0.1 x86_64
+******          *************          ******    
+***********          ***          ***********    FIND ME ON GITHUB: - https://github.com/vinberg88
+***************           ***************        
+        *************** ***************          MEDIA MATTIAS VINBERG - STOCKHOLM - SWEDEN
+            *********************                
+                ***********                      OS: Windows 11 Pro Insider Preview (26H2) x86_64
+
+
+Regards Mattias Vinberg - AnduinOS - KDE 6 - WSL - WAYLAND - Windows 11 - Microsoft - Linux - 2026
+
+----------------------------------
