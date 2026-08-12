@@ -49,6 +49,59 @@ Fix IP problem Xserver so we can find display - https://github.com/vinberg88/ope
 
 ---------------------------------------------
 
+ALPINE LINUX and KDE 6 - EDGE - Install KDE via Alpine and Windows 11 - x410 - WSL - Linux - 2026
+
+Download ALPINE LINUX - EDGE - FROM HERE: https://github.com/mvaisakh/wsl-distro-tars
+Look GITHUB description have to install Alpine EDGE LINUX.
+
+How to install ALPINE LINUX and KDE 6  - WSL - TEXT via GITHUB
+
+https://github.com/vinberg88/opensuse/blob/main/Alpine-EDGE-KDE6.txt
+
+How to install ALPINE LINUX and KDE 6 - WSL - MOVIE via YouTUBE
+
+https://www.youtube.com/watch?v=Cw0_jZsab_M
+
+Tools that i use for ALPINE LINUX and WSL - EDGE - 2026
+
+X410 - Xserver for windows 11 - So you have a Desktop TO See in Windows 11.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL - Handel WSL image easy and Linux for WSL for windows 11.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="Alpine-EDGE-KDE6" src="https://github.com/user-attachments/assets/09ef0360-9a62-442a-9322-44c53c39883c" />
+
+About Alpine Linux EDGE - https://www.alpinelinux.org
+
+Alpine Linux is an independent, non-commercial, general purpose
+Linux distribution designed for power users who appreciate
+security, simplicity and resource efficiency. Alpine Linux 
+is a very simple distribution that will try to stay out of your
+way. It uses its own package manager called apk, the OpenRC
+init system, script driven set-ups and that’s it! This provides
+you with a simple, crystal-clear Linux environment without all
+the noise. You can then add on top of that just the packages
+you need for your project, so whether it’s building a home
+PVR, or an iSCSI storage controller, a wafer-thin mail server
+container, or a rock-solid embedded switch, nothing else will
+get in the way.
+
+About KDE 6 PLASMA - https://kde.org
+
+KDE Plasma is a modern, feature-rich desktop environment
+for Linux-based operating systems. Known for its sleek
+design, customizable interface, and extensive set of
+applications, it is also open source, devoid of 
+ads, and makes protecting your privacy and 
+personal data a priority. 
+
+Regards Mattias Vinberg - KDE - Alpine Linux - EDGE - WSL - X410 - Windows 11 - Linux - 2026 - SWEDEN
+
+---------------------------------------------
+
 AnduinOS and KDE 6 - Install KDE 6 via WSL - AnduinOS - Windows 11 - Linux - X410 - 2026
 
 How to install KDE 6 via AnduinOS - WSL - TEXT via GITHUB
