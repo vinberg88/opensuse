@@ -4,7 +4,7 @@ Download ALPINE LINUX - EDGE - FROM HERE: https://github.com/mvaisakh/wsl-distro
 Look GITHUB description have to install Alpine EDGE LINUX.
 
 How to install ALPINE LINUX and KDE 6  - WSL - TEXT via GITHUB
-COMMING SONE..
+https://github.com/vinberg88/opensuse/blob/main/Alpine-EDGE-KDE6.txt
 
 How to install ALPINE LINUX and KDE 6 - WSL - MOVIE via YouTUBE
 https://www.youtube.com/watch?v=Cw0_jZsab_M
