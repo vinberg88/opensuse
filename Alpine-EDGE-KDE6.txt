@@ -1,0 +1,469 @@
+ALPINE LINUX and KDE 6 - EDGE - Install KDE via Alpine and Windows 11 - x410 - WSL - Linux - 2026 -  YouTUBE
+
+Download ALPINE LINUX - EDGE - FROM HERE: https://github.com/mvaisakh/wsl-distro-tars
+Look GITHUB description have to install Alpine EDGE LINUX.
+
+How to install ALPINE LINUX and KDE 6  - WSL - TEXT via GITHUB
+COMMING SONE..
+
+How to install ALPINE LINUX and KDE 6 - WSL - MOVIE via YouTUBE
+https://www.youtube.com/watch?v=Cw0_jZsab_M
+
+Tools that i use for ALPINE LINUX and WSL - EDGE - 2026
+
+X410 - Xserver for windows 11 - So you have a Desktop TO See in Windows 11.
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL - Handel WSL image easy and Linux for WSL for windows 11.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+
+       .hddddddddddddddddddddddh.           Media Mattias Vinberg - Sweden - Stockholm - 2026
+      :dddddddddddddddddddddddddd:   
+     /dddddddddddddddddddddddddddd/   
+    +dddddddddddddddddddddddddddddd+        OS: Alpine Linux - EDGE - x86_64 - Windows 11 - Microsoft
+  `sdddddddddddddddddddddddddddddddds`      
+ `ydddddddddddd++hdddddddddddddddddddy`     Host: Windows Subsystem for Linux - Alpine (2.7.11.0)
+.hddddddddddd+`  `+ddddh:-sdddddddddddh.    
+hdddddddddd+`      `+y:    .sddddddddddh    Kernel: Linux 6.18.33.2-microsoft-standard-WSL2
+ddddddddh+`   `//`   `.`     -sddddddddd    
+ddddddh+`   `/hddh/`   `:s-    -sddddddd    WM: WSLg 1.0.73.2 (Wayland)
+ddddh+`   `/+/dddddh/`   `+s-    -sddddd    
+ddd+`   `/o` :dddddddh/`   `oy-    .yddd    Thank you for testing KDE 6 via ALPINE LINUX - WSL
+hdddyo+ohddyosdddddddddho+oydddy++ohdddh    
+.hddddddddddddddddddddddddddddddddddddh.    
+ `yddddddddddddddddddddddddddddddddddy`     
+  `sdddddddddddddddddddddddddddddddds`      FIND ME HERE - https://github.com/vinberg88
+    +dddddddddddddddddddddddddddddd+        
+     /dddddddddddddddddddddddddddd/         
+      :dddddddddddddddddddddddddd:          
+       .hddddddddddddddddddddddh.           
+
+
+About Alpine Linux EDGE - https://www.alpinelinux.org
+
+Alpine Linux is an independent, non-commercial, general purpose
+Linux distribution designed for power users who appreciate
+security, simplicity and resource efficiency. Alpine Linux 
+is a very simple distribution that will try to stay out of your
+way. It uses its own package manager called apk, the OpenRC
+init system, script driven set-ups and that’s it! This provides
+you with a simple, crystal-clear Linux environment without all
+the noise. You can then add on top of that just the packages
+you need for your project, so whether it’s building a home
+PVR, or an iSCSI storage controller, a wafer-thin mail server
+container, or a rock-solid embedded switch, nothing else will
+get in the way.
+
+About KDE 6 PLASMA - https://kde.org
+
+KDE Plasma is a modern, feature-rich desktop environment
+for Linux-based operating systems. Known for its sleek
+design, customizable interface, and extensive set of
+applications, it is also open source, devoid of 
+ads, and makes protecting your privacy and 
+personal data a priority. 
+
+Find more stuff here for WSL and Linux and Windows 11 - WSL 
+
+https://github.com/vinberg88/opensuse or https://github.com/vinberg88
+
+--------------------------------------------------
+
+TIME TO Install Alpine Linux via this adress and download EDGE - ALPINE HERE
+
+https://github.com/mvaisakh/wsl-distro-tars
+
+Download Alpine EDGE from GitHub: alpine.edge-......tar 
+
+WE WILL USER RAFT WSL TO INSTALL ALPINE LINUX FOR KDE 6
+
+OR USE OLD STYLE VIA POWERSHELL. GO TO DOWNLOAD DIR
+AND RUN THIS VIA POWERSHELL TO INSTALL ALPINE LINUX EDGE.
+
+wsl --import Alpine C:\wsl rootfs.tar.gz
+
+--------------------------------------------------
+
+After setup login as root, set password for root AND UPDATE ALPINE EDGE.
+
+passwd
+
+apk update
+
+apk upgrade
+
+--------------------------------------------------
+
+Install basic programs for ALPINE LINUX
+
+apk add bash curl git sudo nano python3 curl wget dialog rsync doas
+
+--------------------------------------------------
+
+Setup Alpine Edge - User - Password - Time and so one - ALPINE LINUX - EDGE - KDE PLASMA 6
+
+Run this script from terminal.
+
+
+wget https://www.xhamster.nu/scripts/alpine-edge-wsl-rich-2.1.1.sh
+
+chmod +x alpine-edge-wsl-rich-2.1.1.sh
+
+./alpine-edge-wsl-rich-2.1.1.sh
+
+--------------------------------------------------
+
+After scipt install to make Alpine Linux RICH - You will see something like this
+
+==========================================================
+             ALPINE EDGE WSL KLAR
+==========================================================
+
+Version      : 2.1.1
+Branch       : EDGE
+Alpine       : 3.25.0_alpha20260805
+Användare    : adolf
+Hostname     : vinberg
+Shell        : bash
+Admin        : doas + wheel
+Init/service : OpenRC
+Timezone     : Europe/Stockholm
+
+Repositories:
+  edge/main
+  edge/community
+  edge/testing (@testing)
+
+--------------------------------------------------
+
+RESTART ALPINE LINUX - RESTART ALPINE LINUX - RESTART ALPINE LINUX.
+
+--------------------------------------------------
+
+Login as normal user and run: alpine-wsl-doctor
+
+When you see this go one to install other programs =)
+
+==========================================================
+          Alpine EDGE WSL Doctor
+==========================================================
+
+Alpine:                3.25.0_alpha20260805
+Kernel:                6.18.33.2-microsoft-standard-WSL2
+Användare:            adolf
+PID 1:                 init(Alpine)
+Shell:                 /bin/bash
+DISPLAY:               :0
+WAYLAND_DISPLAY:       wayland-0
+PULSE_SERVER:          unix:/mnt/wslg/PulseServer
+XDG_RUNTIME_DIR:       /mnt/wslg/runtime-dir
+
+Repositories:
+https://dl-cdn.alpinelinux.org/alpine/edge/main
+https://dl-cdn.alpinelinux.org/alpine/edge/community
+@testing https://dl-cdn.alpinelinux.org/alpine/edge/testing
+
+--------------------------------------------------
+
+Install Blanket via Alpine LINUX - EDGE - LISTEN TO SOUNDS WHEN YOU WORK =)
+
+sudo apk add blanket
+
+--------------------------------------------------
+
+Install Gimp so you can PAINT Via Alpine Linux and KDE 6
+
+sudo apk add gimp
+
+--------------------------------------------------
+
+Install LibreOffice via Alpine LINUX - EDGE - YOU NEED THIS FOR WORK =)
+
+sudo apk add libreoffice
+
+--------------------------------------------------
+
+Install Chromium BROWSER FOR Alpine EDGE AND KDE 6.
+
+sudo apk add chromium
+
+--------------------------------------------------
+
+Install Fastfetch for Alpine LINUX EDGE AND KDE 6
+
+doas apk add fastfetch
+
+start over terminal to test: fastfetch
+
+       .hddddddddddddddddddddddh.           
+      :dddddddddddddddddddddddddd:   
+     /dddddddddddddddddddddddddddd/   
+    +dddddddddddddddddddddddddddddd+        OS: Alpine Linux - EDGE - x86_64 - Windows 11 - Microsoft
+  `sdddddddddddddddddddddddddddddddds`      
+ `ydddddddddddd++hdddddddddddddddddddy`     Host: Windows Subsystem for Linux - Alpine (2.7.11.0)
+.hddddddddddd+`  `+ddddh:-sdddddddddddh.    
+hdddddddddd+`      `+y:    .sddddddddddh    Kernel: Linux 6.18.33.2-microsoft-standard-WSL2
+ddddddddh+`   `//`   `.`     -sddddddddd    
+ddddddh+`   `/hddh/`   `:s-    -sddddddd    WM: WSLg 1.0.73.2 (Wayland)
+ddddh+`   `/+/dddddh/`   `+s-    -sddddd    
+ddd+`   `/o` :dddddddh/`   `oy-    .yddd    Thank you for testing KDE 6 via ALPINE LINUX - WSL
+hdddyo+ohddyosdddddddddho+oydddy++ohdddh    
+.hddddddddddddddddddddddddddddddddddddh.    
+ `yddddddddddddddddddddddddddddddddddy`     
+  `sdddddddddddddddddddddddddddddddds`      FIND ME HERE - https://github.com/vinberg88
+    +dddddddddddddddddddddddddddddd+        
+     /dddddddddddddddddddddddddddd/         
+      :dddddddddddddddddddddddddd:          
+       .hddddddddddddddddddddddh.           Media Mattias Vinberg - Sweden - Stockholm - 2026
+
+------------------------------------------------------
+
+INSTALL XORG FOR ALPINE LINUX =)
+
+sudo apk update
+
+sudo setup-xorg-base
+
+------------------------------------------------------
+
+TIME TO INSTALL KDE 6 FOR ALPINE LINUX EDGE.
+
+sudo apk add \
+  plasma-desktop \
+  plasma-workspace \
+  plasma-wayland-protocols \
+  plasma-setup \
+  konsole \
+  dolphin \
+  kscreen \
+  polkit
+
+sudo apk add polkit-kde-agent-1
+
+sudo apk add plasma-desktop-meta
+
+sudo apk add xorg-server xf86-input-libinput mesa-dri-gallium sddm ark bluedevil breeze breeze-gtk dbus discover font-noto gwenview kate kde-cli-tools kde-gtk-config
+
+sudo apk add kde-icons kdeplasma-addons kgamma kinfocenter kio-fuse kmenuedit konsole kscreen ksshaskpass kwallet-pam pinentry-qt pipewire-alsa pipewire-pulse acpid
+
+sudo apk add plasma-browser-integration plasma-desktop plasma-disks plasma-nm plasma-pa plasma-systemmonitor plasma-vault plasma-welcome plasma-workspace-wallpapers polkit-elogind
+
+sudo apk add polkit-kde-agent-1 powerdevil print-manager sddm-breeze sddm-kcm spectacle systemsettings udisks2 xdg-desktop-portal-kde xdg-user-dirs firefox ocean-sound-theme
+
+sudo setup-desktop plasma
+
+sudo apk add kde-applications
+
+------------------------------------------------------
+
+Add some fonts to Alpine LINUX - EDGE - KDE 6
+
+sudo apk add font-inconsolata font-dejavu font-noto font-noto-cjk font-awesome font-noto-extra font-liberation
+
+------------------------------------------------------
+
+Install plasma-workspace-x11 for ALPINE and KDE 6
+
+wget http://dl-cdn.alpinelinux.org/alpine/v3.21/community/x86_64/plasma-workspace-x11-6.2.4-r0.apk
+
+sudo apk add ./plasma-workspace-x11-6.2.4-r0.apk
+
+sudo apk add --upgrade plasma-workspace-x11
+
+------------------------------------------------------
+
+START SDDM FOR KDE 6 - ALPINE LINUX - 2026
+
+COPY AND PASTE THIS IN TERMINAL.
+
+sudo rc-update add sddm
+
+sudo rc-service sddm start
+
+------------------------------------------------------
+
+Copy and Paste all in terminal for Alpine and kde 6 - 2026
+
+
+export DISPLAY="$(awk '/^nameserver / {print $2; exit}' /etc/resolv.conf):0.0"
+
+UIDNUM="$(id -u)"
+GIDNUM="$(id -g)"
+
+sudo install -d \
+    -m 700 \
+    -o "$UIDNUM" \
+    -g "$GIDNUM" \
+    "/run/user/$UIDNUM"
+
+export XDG_RUNTIME_DIR="/run/user/$UIDNUM"
+
+unset WAYLAND_DISPLAY
+unset QT_QPA_PLATFORM
+unset GDK_BACKEND
+
+export XDG_SESSION_TYPE=wayland
+export XDG_CURRENT_DESKTOP=KDE
+export XDG_SESSION_DESKTOP=KDE
+export KDE_FULL_SESSION=true
+
+export PULSE_SERVER=unix:/mnt/wslg/PulseServer
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+------------------------------------------------------
+
+Setup and Chown some files via ALPINE AND KDE 6 - WSL - 2026
+
+sudo chown root:root /tmp
+sudo chmod 1777 /tmp
+
+sudo mkdir -p /tmp/.X11-unix
+sudo chown root:root /tmp/.X11-unix
+sudo chmod 1777 /tmp/.X11-unix
+
+------------------------------------------------------
+
+ADD QT6 TO ALPINE LINUX - EDGE - KDE 6
+
+sudo apk add qt6-qttools
+
+sudo ln -sf /usr/bin/qdbus6 /usr/local/bin/qdbus
+
+------------------------------------------------------
+
+       .hddddddddddddddddddddddh.           
+      :dddddddddddddddddddddddddd:   
+     /dddddddddddddddddddddddddddd/   
+    +dddddddddddddddddddddddddddddd+        OS: Alpine Linux - EDGE - x86_64 - Windows 11 - Microsoft
+  `sdddddddddddddddddddddddddddddddds`      
+ `ydddddddddddd++hdddddddddddddddddddy`     Host: Windows Subsystem for Linux - Alpine (2.7.11.0)
+.hddddddddddd+`  `+ddddh:-sdddddddddddh.    
+hdddddddddd+`      `+y:    .sddddddddddh    Kernel: Linux 6.18.33.2-microsoft-standard-WSL2
+ddddddddh+`   `//`   `.`     -sddddddddd    
+ddddddh+`   `/hddh/`   `:s-    -sddddddd    WM: WSLg 1.0.73.2 (Wayland)
+ddddh+`   `/+/dddddh/`   `+s-    -sddddd    
+ddd+`   `/o` :dddddddh/`   `oy-    .yddd    Thank you for testing KDE 6 via ALPINE LINUX - WSL
+hdddyo+ohddyosdddddddddho+oydddy++ohdddh    
+.hddddddddddddddddddddddddddddddddddddh.    
+ `yddddddddddddddddddddddddddddddddddy`     
+  `sdddddddddddddddddddddddddddddddds`      FIND ME HERE - https://github.com/vinberg88
+    +dddddddddddddddddddddddddddddd+        
+     /dddddddddddddddddddddddddddd/         
+      :dddddddddddddddddddddddddd:          
+       .hddddddddddddddddddddddh.           Media Mattias Vinberg - Sweden - Stockholm - 2026
+
+------------------------------------------------------
+
+Run test for ALPINE LINUX
+
+whoami
+cat /etc/alpine-release
+cat /etc/os-release
+
+WHEN YOU SEE SOMETHING LIKE THIS YOU ARE CLOSE TO START KDE 6 FOR ALPINE.
+
+adolf
+3.25.0_alpha20260805
+NAME="Alpine Linux"
+ID=alpine
+VERSION_ID=3.25.0_alpha20260805
+PRETTY_NAME="Alpine Linux edge"
+HOME_URL="https://alpinelinux.org/"
+BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"
+
+-------------------------------------
+
+Install this so KDE works. ALPINE LINUX - 2026
+
+sudo apk add xfwm4
+
+--------------------------------------------
+
+Fix IP problem for X410. Cant find screen problem - ALPINE LINUX AND KDE 6
+
+FIRST OPEN POWERSHELL AND TYPE: ipconfig 
+
+Last lines are IP-number for WSL.
+
+SAVE IP HERE: 172.30.16.1
+
+GO BACK TO ALPINE LINUX Terminal AND COPY AND PASTE THIS IN TERMINAL.
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.30.16.1  <-- put your ip here and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed for ALPINE LINUX AND KDE 6.
+
+DONT STRESS IF YOU PUT WRONG IP ALL WILL STOP WORKING.
+
+------------------------------------------------------
+
+ALPINE LINUX - TYPE THIS IN TERMINAL AND PUT YOUR USERNAMN THERE.
+
+sudo loginctl enable-linger adolf
+
+--------------------------------------------
+
+Install start script for KDE 6 - 2026 - ALPINE LINUX EDGE
+
+
+wget https://www.xhamster.nu/scripts/start-kde-x410.sh
+
+chmod +x start-kde-x410.sh
+
+--------------------------------------------
+
+REBOOT ALPINE LINUX EDGE - REBOOT ALPINE LINUX EDGE - REBOOT ALPINE LINUX EDGE
+
+--------------------------------------------
+
+Time to start KDE 6 via this lines - ALPINE LINUX EDGE
+
+
+NOTE - FIRST START X410 AND NEXT START ALPINE LINUX via TERMINAL.
+
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Paste in terminal: ./start-kde-x410.sh
+
+
+Just wait when you start KDE 6 via ALPINE LINUX - KDE 6 WILL WORK WELL UNDER WSL AND WINDOWS 11 -  ALPINE LINUX
+
+--------------------------------------------
+
+Alpine Linux is a security-oriented, lightweight Linux distribution based on musl libc and busybox.
+
+       .hddddddddddddddddddddddh.          
+      :dddddddddddddddddddddddddd:          Media Mattias Vinberg - Sweden - Stockholm - 2026
+     /dddddddddddddddddddddddddddd/   
+    +dddddddddddddddddddddddddddddd+        OS: Alpine Linux - EDGE - x86_64 - Windows 11 - Microsoft
+  `sdddddddddddddddddddddddddddddddds`      
+ `ydddddddddddd++hdddddddddddddddddddy`     Host: Windows Subsystem for Linux - Alpine (2.7.11.0)
+.hddddddddddd+`  `+ddddh:-sdddddddddddh.    
+hdddddddddd+`      `+y:    .sddddddddddh    Kernel: Linux 6.18.33.2-microsoft-standard-WSL2
+ddddddddh+`   `//`   `.`     -sddddddddd    
+ddddddh+`   `/hddh/`   `:s-    -sddddddd    WM: WSLg 1.0.73.2 (Wayland)
+ddddh+`   `/+/dddddh/`   `+s-    -sddddd    
+ddd+`   `/o` :dddddddh/`   `oy-    .yddd    Thank you for testing KDE 6 via ALPINE LINUX - WSL
+hdddyo+ohddyosdddddddddho+oydddy++ohdddh    
+.hddddddddddddddddddddddddddddddddddddh.    
+ `yddddddddddddddddddddddddddddddddddy`     
+  `sdddddddddddddddddddddddddddddddds`      FIND ME HERE - https://github.com/vinberg88
+    +dddddddddddddddddddddddddddddd+        
+     /dddddddddddddddddddddddddddd/  
+      :dddddddddddddddddddddddddd:          
+       .hddddddddddddddddddddddh.           
+
+--------------------------------------------
+
+Regards Mattias Vinberg - KDE - Alpine Linux - EDGE - WSL - X410 - Windows 11 - Linux - 2026 - SWEDEN
