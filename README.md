@@ -52,6 +52,7 @@ Fix IP problem Xserver so we can find display - https://github.com/vinberg88/ope
 ALPINE LINUX and KDE 6 - EDGE - Install KDE via Alpine and Windows 11 - x410 - WSL - Linux - 2026
 
 Download ALPINE LINUX - EDGE - FROM HERE: https://github.com/mvaisakh/wsl-distro-tars
+
 Look GITHUB description have to install Alpine EDGE LINUX.
 
 How to install ALPINE LINUX and KDE 6  - WSL - TEXT via GITHUB
