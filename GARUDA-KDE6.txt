@@ -9,7 +9,7 @@ Raft WSL is a powerful tool for managing Windows Subsystem for Linux (WSL)
 https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
 
 How to install KDE 6 - Dr460nized - via GARUDA Linux - WSL - TEXT via GITHUB.
-Comming Zone...
+https://github.com/vinberg88/opensuse/blob/main/GARUDA-KDE6.txt
 
 How to install KDE 6 - Dr460nized - via GARUDA Linux - WSL - Movie via YOUTUBE.
 https://www.youtube.com/watch?v=QJOnKd5r53I
