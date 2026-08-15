@@ -1,0 +1,221 @@
+GARUDA and KDE 6 - How to install KDE 6 via GARUDA - X410 - Windows 11 - WSL - Linux - YouTube - 2026
+
+Download GARUDA Linux for WSL here: https://github.com/vinberg88/opensuse/releases/tag/Garuda-linux
+
+Use X410 - Xserver for Windows 11 in this video and it works well. Find it in Micorsoft store. 
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem for Linux (WSL)
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+How to install KDE 6 - Dr460nized - via GARUDA Linux - WSL - TEXT via GITHUB.
+Comming Zone...
+
+How to install KDE 6 - Dr460nized - via GARUDA Linux - WSL - Movie via YOUTUBE.
+https://www.youtube.com/watch?v=QJOnKd5r53I
+
+
+                   .%;888:8898898:                
+                 x;XxXB%89b8:b8%b88:              
+              .8Xxd                8X:.           Garuda Linux WSL Base 0.1.4 + Dr460nized Plasma KDE 6 ✅
+            .8Xx;                    8x:.         
+          .tt8x          .d            x88;       OS: Garuda Linux WSL Base x86_64 - Dr460nized Version
+       .@8x8;          .db:              xx@;     
+     ,tSXX°          .bbbbbbbbbbbbbbbbbbbB8x@;    Host: Windows Subsystem for Linux - Garuda-WSL (2.7.11.0)
+   .SXxx            bBBBBBBBBBBBBBBBBBBBbSBX8;    
+ ,888S                                     pd!    Kernel: Linux 6.18.33.2-microsoft-standard-WSL2
+8X88/                                       q     
+8X88/                                             MEDIA MATTIAS VINBERG - STOCKHOLM - SWEDEN
+GBB.                                              
+ x%88        d888@8@X@X@X88X@@XX@@X@8@X.          FIND ME ON GITHUB: - https://github.com/vinberg88
+   dxXd    dB8b8b8B8B08bB88b998888b88x.           
+    dxx8o                      .@@;.              EMAIL ME: mattiasvinberg@duck.com
+      dx88                   .t@x.                
+        d:SS@8ba89aa67a853Sxxad.                  The Garuda Linux name and logo are recognized trademarks - 2026
+          .d988999889889899dd.                    
+                                                  
+
+About KDE plasma 6 - https://kde.org
+
+Plasma is a Desktop - Use Plasma to surf the
+web; keep in touch with colleagues, friends and family; manage your
+files, enjoy music and videos; and get creative and productive at work.
+Do it all in a beautiful environment that adapts to your needs, and
+with the safety, privacy-protection and peace of mind that the best
+Free Open Source Software has to offer.
+
+About GARUDA LINUX - ARCH BASED DISTRO THAT WORKS - https://garudalinux.org
+
+Garuda Linux is fairly new to the Linux world and is aiming
+to provide the greatest performance, offering all the modern
+and attractive features. Even though you can choose various
+desktop environments, it is clear that their flagship 
+desktop is a heavily customized KDE Plasma with a dark, 
+neon look. Cyberpunk… Paru is installd and ready to use from begin =)
+
+You will find more stuff for WSL - 2026 - WSL - GARUDA LINUX - KDE 6
+
+https://github.com/vinberg88/opensuse or https://vinberg88.github.io
+
+------------------------------------------------------------
+
+Time to start install of GARUDA Linux WSL version and KDE 6 Dr460nized.
+
+Download GARUDA for WSL here: https://github.com/vinberg88/opensuse/releases/tag/Garuda-linux
+
+Press the blue Icon and it will install Garuda for WSL - DONE =) 
+
+------------------------------------------------------------                                                  
+
+Info Tools to run after installation - GARUDA LINUX for WSL.
+
+garuda-wsl doctor
+
+garuda-wsl tools
+ 
+garuda-wsl info
+
+------------------------------------------------------------
+
+Update all for GARUDA LINUX
+
+sudo pacman -Syu
+
+sudo garuda-update
+
+------------------------------------------------------------
+
+Open this file via nano for GARUDA LINUX and change text.
+
+Paste in terminal: sudo nano /etc/pacman.conf 
+
+# Misc options
+#UseSyslog
+Color
+ParallelDownloads = 20
+ILoveCandy
+#TotalDownload
+#CheckSpace
+VerbosePkgLists
+
+------------------------------------------------------------
+
+Install some Tools for Garuda LINUX.
+
+sudo pacman -S firedragon
+
+------------------------------------------------------------
+
+Fix IP problem for X410. Cant find screen problem - GARUDA - 2026
+
+OPEN POWERSHELL FROM MICROSOFT AND TYPE: ipconfig
+
+NOTE - Importent to look for ip. Last lines are IP-numbers for WSL in POWERSHELL so x410 works.
+
+SAVE IP FROM POWERSHELL HERE: 172.30.16.1
+
+NOW GO BACK TO GARUDA Terminal and paste this.
+
+sudo systemctl unmask systemd-resolved.service
+sudo systemctl enable systemd-resolved.service
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.30.16.1 <-- put your ip here from Powershell and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed GARUDA OS =]
+
+------------------------------------------------------------
+
+Install GIMP so we can PAINT stuff - GARUDA Linux
+
+paru -S gimp npm pnpm cargo
+
+------------------------------------------------------------
+
+Install blanket - gimp - LibreOffice - Code - GARUDA
+
+paru -S blanket libreoffice code 
+
+------------------------------------------------------------
+
+Install Google Chrome BROWSER - WORKS PERFECT ON GARUDA AND KDE 6
+
+paru -S google-chrome gnome-keyring
+
+------------------------------------------------------------
+
+Install Blanket for Sound when you are hacking - GARUDA and KDE Dr460nized.
+
+paru -S blanket
+
+------------------------------------------------------------
+
+Install KDE 6 dr460nized version via this script for GARUDA Linux.
+
+
+Download script via Garuda linux
+
+wget https://www.xhamster.nu/scripts/install-garuda-dr460nized-wsl.sh
+
+Chmod script via Garuda Linux - fast installation.
+
+chmod +x install-garuda-dr460nized-wsl.sh
+
+Install script programs via Garuda Linux.
+
+./install-garuda-dr460nized-wsl.sh
+
+------------------------------------------------------------
+
+Now reboot GARUDA LINUX - Now reboot GARUDA LINUX - Now reboot GARUDA LINUX 
+
+--------------------------
+
+Time to start GARUDA Linux and KDE 6 Dr460nized ✅ =]
+
+
+NOTE: Start X410 xserver next you start GARUDA Linux.
+
+
+Controll after installation
+
+garuda-dr460nized-wsl doctor
+
+
+Put this in terminal to start GARUDA KDE 6: garuda-dr460nized-wsl start-x410
+
+--------------------------
+
+MEDIA: MATTIAS VINBERG - SWEDEN - STOCKHOLM - 2026 - https://github.com/vinberg88
+
+
+                   .%;888:8898898:                
+                 x;XxXB%89b8:b8%b88:              
+              .8Xxd                8X:.           Garuda Linux WSL Base 0.1.4 + Dr460nized Plasma 6 ✅
+            .8Xx;                    8x:.         
+          .tt8x          .d            x88;       OS: Garuda Linux WSL Base x86_64 - Dr460nized Version
+       .@8x8;          .db:              xx@;     
+     ,tSXX°          .bbbbbbbbbbbbbbbbbbbB8x@;    Host: Windows Subsystem for Linux - Garuda-WSL (2.7.11.0)
+   .SXxx            bBBBBBBBBBBBBBBBBBBBbSBX8;    
+ ,888S                                     pd!    Kernel: Linux 6.18.33.2-microsoft-standard-WSL2
+8X88/                                       q     
+8X88/                                             MEDIA MATTIAS VINBERG - STOCKHOLM - SWEDEN
+GBB.                                              
+ x%88        d888@8@X@X@X88X@@XX@@X@8@X.          FIND ME ON GITHUB: - https://github.com/vinberg88
+   dxXd    dB8b8b8B8B08bB88b998888b88x.           
+    dxx8o                      .@@;.              EMAIL ME: mattiasvinberg@duck.com
+      dx88                   .t@x.                
+        d:SS@8ba89aa67a853Sxxad.                  The Garuda Linux name and logo are recognized trademarks - 2026
+          .d988999889889899dd.                    
+                                                  
+
+Regards Mattias Vinberg - GARUDA Dr460nized - KDE 6  - SWEDEN - WSL - Microsoft - Linux - X410 - Stockholm - 2026
+
+--------------------------
