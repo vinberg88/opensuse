@@ -49,6 +49,52 @@ Fix IP problem Xserver so we can find display - https://github.com/vinberg88/ope
 
 ---------------------------------------------
 
+GARUDA and KDE 6 - How to install KDE 6 via GARUDA - X410 - Windows 11 - WSL - Linux - YouTube - 2026
+
+Download GARUDA Linux for WSL here: https://github.com/vinberg88/opensuse/releases/tag/Garuda-linux
+
+Use X410 - Xserver for Windows 11 in this video and it works well. Find it in Micorsoft store. 
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Windows Subsystem for Linux (WSL)
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+How to install KDE 6 - Dr460nized - via GARUDA Linux - WSL - TEXT via GITHUB.
+
+https://github.com/vinberg88/opensuse/blob/main/GARUDA-KDE6.txt
+
+How to install KDE 6 - Dr460nized - via GARUDA Linux - WSL - Movie via YOUTUBE.
+
+https://www.youtube.com/watch?v=QJOnKd5r53I
+
+<img width="1920" height="1080" alt="GARUDA-KDE6" src="https://github.com/user-attachments/assets/03bdd6e4-4bd0-4784-be47-a11d932f688f" />
+
+About KDE plasma 6 - https://kde.org
+
+Plasma is a Desktop - Use Plasma to surf the
+web; keep in touch with colleagues, friends and family; manage your
+files, enjoy music and videos; and get creative and productive at work.
+Do it all in a beautiful environment that adapts to your needs, and
+with the safety, privacy-protection and peace of mind that the best
+Free Open Source Software has to offer.
+
+About GARUDA LINUX - ARCH BASED DISTRO THAT WORKS - https://garudalinux.org
+
+Garuda Linux is fairly new to the Linux world and is aiming
+to provide the greatest performance, offering all the modern
+and attractive features. Even though you can choose various
+desktop environments, it is clear that their flagship 
+desktop is a heavily customized KDE Plasma with a dark, 
+neon look. Cyberpunk… Paru is installd and ready to use from begin =)
+
+You will find more stuff for WSL - 2026 - GARUDA LINUX - KDE 6 - https://vinberg88.github.io
+
+Regards Mattias Vinberg - GARUDA Dr460nized - KDE 6  - SWEDEN - WSL - Microsoft - X410 - Stockholm - 2026
+
+---------------------------------------------
+
 ALPINE LINUX and KDE 6 - EDGE - Install KDE via Alpine and Windows 11 - x410 - WSL - Linux - 2026
 
 Download ALPINE LINUX - EDGE - FROM HERE: https://github.com/mvaisakh/wsl-distro-tars
