@@ -1,0 +1,354 @@
+UKUI and Ubuntu 24.04 - Install Kylin via Ubuntu via Windows 11 - WSL - UKUI - Linux - 2026 -  YouTUBE
+
+📚INSTALL UBUNTU 24.04 VIA POWERSHELL: wsl --install -d Ubuntu-24.04 --name UBUNTU
+
+How to install UKUI / KYLIN via Ubuntu 24.04 - WSL - TEXT via GITHUB
+COMMING SONE..
+
+How to install UKUI / KYLIN via Ubuntu 24.04 - WSL - MOVIE via YouTUBE
+https://www.youtube.com/watch?v=5AjrrX8s80Q
+
+X410 - Xserver for windows 11 - So you have a Desktop TO See in Windows 11.
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL - Handel WSL image easy and Linux for WSL for windows 11.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+
+            .__=liiiiiii=__,               
+        ._=liiliii|i|i|iiilii=_.           OS: Ubuntu Kylin 24.04.4 LTS (Noble Numbat) x86_64
+      _=iiiii|ii|i|ii|i|inwwwzii=,         
+    .=liiii|ii|ii|wwww|i3QWWWWziii=,       Host: Windows Subsystem for Linux - Ubuntu-24.04 (2.7.11.0)
+   =lii|i|ii|i|QQQWWWWWm]QWWQD||iiii=      
+  =lii|iiivwQm>3WWWWWQWQQwwQwcii|i|ii=     Kernel: Linux 6.18.33.2-microsoft-standard-WSL2
+ =lii|ii|nQWWWQ|)i|i%i|]TQWWWWm|ii|i|i=   
+.li|i|i|mWWWQV|iiwmD|iiii|TWWWWm|i|iiii,   Windows 11 - WSLg - We have sound =)
+=iiiwww|$WQWk|iaWWWD|i|i|ii]QQWQk|ii|i|=   
+iiiQWWWQz$WW|ijQQWQmw|iiwWk|TTTTYi|i|iii   
+iiIQWQWWtyQQ|i|$WWWWWQWk||i|i|ii||i|ii|i   
+<|i|TTT|mQQWz|i3D]C|nD$W|iivWWWWk||ii|i>   Thank you for testing UKUI desktop via UBUNTU 24.04 - WSL
+-|ii|i|iWWWQw|Tt|i3T|T|i|nQWQWDk|ii|ii`    
+ <|i|iii|VWQWWQ|i|i|||iiwmWWQWD||ii|ii+    
+  <|ii|i|i]$W@tvQQQWQQQWWTTHT1|iii|i|>
+   <|i|ii|ii||vQWWWQWWW@vmWWWm|i|i|i>      FIND ME HERE - https://github.com/vinberg88
+    -<|i|ii|ii|i|TTTTTT|]QQWWWC|ii>`
+      -<|i|ii|i|ii|i|i|ii3TTTt|i>`         Media Mattias Vinberg - Sweden - Stockholm - 2026
+         ~<|ii|ii|iiiii|i|||i>~
+            -~~<|ii|i||i>~~`               OS: Windows 11 Pro for Workstations (25H2) x86_64
+
+
+About Ubuntu for WSL - 2026 - https://ubuntu.com
+
+Ubuntu 24.04 LTS brings more of everything you love about
+Ubuntu Desktop. More features and customisation options, more
+performance and power efficiency and more ways to integrate
+with your existing enterprise management tools. Combined with
+our LTS commitment of five years of updates and security 
+patching, we’re confident that this latest version of the
+Linux Desktop delivers everything needed to empower developers
+and creators in 2022 and beyond. Ubuntu WSL gives you a full
+Ubuntu environment, deeply integrated with Windows, for Linux
+application development and execution. Optimised for
+cloud, web, data science, IoT and fun!
+
+📚 About UKUI Desktop - https://ubuntukylin.com
+
+Ubuntu Kylin is a beautiful Linux operating system optimized
+for Chinese users. Since its creation in 2013, the Ubuntu Kylin
+open source operating system has released 20 
+versions, downloaded more than 32 million times, contributed
+millions of lines of code and over 7400 patches to the open source
+community, and has been accepted by international open source
+communities such as Linux, Debian, Ubuntu, OpenStack, and Ceph.
+For now, we have hundreds of thousands of active users worldwide.
+
+You cane Find More Stufff here About WSL - GWSL - Windows 11 - https://github.com/vinberg88 
+
+-------------------------------
+
+🗣️TIME TO START INSTALL FOR UBUNTU 24.04 AND UKUI - KYLKN DESKTOP
+
+📚INSTALL UBUNTU 24.04 VIA POWERSHELL: wsl --install -d Ubuntu-24.04 --name UBUNTU
+
+-------------------------------
+
+After install update all - Ubuntu 24.04 - UKUI - KYLIN
+
+sudo apt update
+sudo apt upgrade
+
+-------------------------------
+
+Install Chrome BROWSER FOR Ubuntu 24.04 and KYLIN desktop.
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+-------------------------------
+
+Install firefox for Ubuntu
+
+sudo apt install snapd*
+
+sudo snap install firefox
+
+sudo snap install thunderbird
+
+-------------------------------
+
+Install UKUI desktop for Ubuntu 24.04 - UKUI DESKTOP.
+
+sudo apt install ukui-desktop-environment
+
+sudo apt install ubuntukylin-desktop
+
+sudo apt install ukui* kylin*
+
+sudo apt install libukui*
+
+sudo apt install qt6* qt5* peony ffmpeg-doc vcdimager
+
+sudo apt install gtk* labwc xwayland bubblewrap dbus-user-session dbus-x11 xdg-desktop-portal xdg-desktop-portal-gtk
+
+--------------------------------------------
+
+Install programs Ubuntu Kylin 24.04
+
+sudo apt install bash git npm wget curl pipx dbus* systemd -y
+sudo apt install lightdm* -y
+sudo apt install daemonize* -y
+sudo apt install xorg* -y
+sudo apt install x11* -y
+sudo systemctl set-default graphical
+
+--------------------------------------------
+
+Install hyfetch and fastfetch - Ubuntu Kylin 24.04
+
+sudo apt install hyfetch
+
+wget https://github.com/fastfetch-cli/fastfetch/releases/download/2.67.0/fastfetch-linux-amd64.deb
+sudo apt install ./fastfetch-linux-amd64.deb
+
+Test by paste this line in Console: hyfetch
+
+OR
+
+Test by paste this line in Console: fastfetch
+
+
+            .__=liiiiiii=__,               
+        ._=liiliii|i|i|iiilii=_.           OS: Ubuntu Kylin 24.04.4 LTS (Noble Numbat) x86_64
+      _=iiiii|ii|i|ii|i|inwwwzii=,         
+    .=liiii|ii|ii|wwww|i3QWWWWziii=,       Host: Windows Subsystem for Linux - Ubuntu-24.04 (2.7.11.0)
+   =lii|i|ii|i|QQQWWWWWm]QWWQD||iiii=      
+  =lii|iiivwQm>3WWWWWQWQQwwQwcii|i|ii=     Kernel: Linux 6.18.33.2-microsoft-standard-WSL2
+ =lii|ii|nQWWWQ|)i|i%i|]TQWWWWm|ii|i|i=   
+.li|i|i|mWWWQV|iiwmD|iiii|TWWWWm|i|iiii,   Windows 11 - WSLg - We have sound =)
+=iiiwww|$WQWk|iaWWWD|i|i|ii]QQWQk|ii|i|=   
+iiiQWWWQz$WW|ijQQWQmw|iiwWk|TTTTYi|i|iii   
+iiIQWQWWtyQQ|i|$WWWWWQWk||i|i|ii||i|ii|i   
+<|i|TTT|mQQWz|i3D]C|nD$W|iivWWWWk||ii|i>   Thank you for testing UKUI desktop via UBUNTU 24.04 - WSL
+-|ii|i|iWWWQw|Tt|i3T|T|i|nQWQWDk|ii|ii`    
+ <|i|iii|VWQWWQ|i|i|||iiwmWWQWD||ii|ii+    
+  <|ii|i|i]$W@tvQQQWQQQWWTTHT1|iii|i|>
+   <|i|ii|ii||vQWWWQWWW@vmWWWm|i|i|i>      FIND ME HERE - https://github.com/vinberg88
+    -<|i|ii|ii|i|TTTTTT|]QQWWWC|ii>`
+      -<|i|ii|i|ii|i|i|ii3TTTt|i>`         Media Mattias Vinberg - Sweden - Stockholm - 2026
+         ~<|ii|ii|iiiii|i|||i>~
+            -~~<|ii|i||i>~~`               OS: Windows 11 Pro for Workstations (25H2) x86_64
+
+
+--------------------------------------------
+
+Install Blanket via UBUNTU 24.04 NOBEL - LISTEN TO SOUNDS WHEN YOU WORK =)
+
+wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+
+--------------------------------------------
+
+Install ffmpeg, MPV and other stuff for MEDIA for UBUNTU 24.04
+
+sudo apt install celluloid -y
+sudo apt install yt-dlp -y
+sudo apt install mpv-mpris -y
+sudo apt install mpv -y
+sudo apt install ffmpeg -y
+
+--------------------------------------------
+
+Install Gimp so you can PAINT for UBUNTU 24.04 and UKUI / KYLIN DESKTOP
+
+sudo apt install gimp -y
+
+--------------------------------------------
+
+UBUNTU 24.04 - Libre Office for UKUI / KYLIN DESKTOP
+
+sudo apt install libreoffice -y
+
+--------------------------------------------
+
+Install some MORE programs for Ubuntu Kylin 24.04 and UKUI dekstop - 2026
+
+sudo apt install hunspell systemd-container systemd-homed wayland* mutter* policykit-1 gnome-screensaver gnome-power-manager xwayland* dbus-x11* 
+
+sudo apt install kwin*
+
+--------------------------------------------
+
+Paste in Terminal and Press enter - UKUI - 2026 - Ubuntu Kylin 24.04
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+--------------------------------------------
+
+Ubuntu Kylin 24.04 - TYPE THIS IN TERMINAL AND PUT YOUR USERNAMN THERE.
+
+sudo loginctl enable-linger adolf
+
+--------------------------------------------
+
+MAKE THIS SMALL SCRIPT FOR Ubuntu 24.04
+
+In terminal type: sudo nano ~/.bash_Debian_desktop
+
+Paste this small script in terminal and save and quit nano.
+
+export XDG_CURRENT_DESKTOP=ubuntu:GNOME
+export XDG_SESSION_DESKTOP=ubuntu
+export DESKTOP_SESSION=ubuntu
+export GNOME_SHELL_SESSION_MODE=ubuntu
+
+export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+export XDG_MENU_PREFIX=gnome-
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+--------------------------------------------
+
+Fix IP problem for X410. Cant find screen problem - Ubuntu 24.04 and UKUI
+
+FIRST OPEN POWERSHELL AND TYPE: ipconfig 
+
+Last lines are IP-number for WSL.
+
+SAVE IP HERE: 172.30.16.1
+
+GO BACK TO Ubuntu 24.04 Terminal AND COPY AND PASTE THIS IN TERMINAL.
+
+sudo systemctl unmask systemd-resolved.service
+sudo systemctl enable systemd-resolved.service
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.30.16.1 <-- put your ip here from POWERSHELL and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed for Ubuntu Kylin 24.04 and UKUI desktop.
+
+DONT STRESS IF YOU PUT WRONG IP ALL WILL STOP WORKING.
+
+------------------------------------------------------
+
+Install this last Tools for Ubuntu 24.04 AND UKUI desktop.
+
+sudo apt install ukui-panel* ukui-media* pulseaudio-utils sound-theme-freedesktop audio* marco* pciutils gnome-terminal
+
+------------------------------------------------------
+
+Install this small script for UBUNTU 24.04
+
+git clone https://github.com/DamionGans/ubuntu-wsl2-systemd-script.git
+cd ubuntu-wsl2-systemd-script/
+bash ubuntu-wsl2-systemd-script.sh
+
+------------------------------------------------------
+
+DOWNLOAD THIS SCRIPT FÖR Ubuntu 24.04 AND UKUI - SO Desktop WILL START =]
+
+wget --https-only --timeout=30 --tries=3 -O /tmp/ubuntu-UKUI.sh https://www.xhamster.nu/swe/ubuntu-UKUI.sh
+
+--------------------------------------------
+
+Now we must install scrip for UKUI / KYLIN desktop and Ubuntu 24.04 LTS
+
+Copy and paste in terminal - one by one =]
+
+
+sed -i 's/\r$//' /tmp/ubuntu-UKUI.sh
+bash -n /tmp/ubuntu-UKUI.sh && echo "Syntax OK"
+sudo mkdir -p ~/.local/bin
+sudo chown -R "$(id -un):$(id -gn)" ~/.local
+install -m 755 /tmp/ubuntu-UKUI.sh ~/.local/bin/ukui-x410
+ls -l ~/.local/bin/ukui-x410
+grep -qxF 'export PATH="$HOME/.local/bin:$PATH"' ~/.bashrc || echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+command -v ukui-x410
+
+
+NICE WORK - TIME FOR NEXT STEP FOR UKUI AND UBUNTU 24.04
+
+--------------------------------------------
+
+REBOOT Ubuntu Kylin 24.04 - REBOOT UBUNTU 24.04 - REBOOT Ubuntu Kylin 24.04
+
+--------------------------------------------
+
+Time to start UKUI Desktop via this lines - UBUNTU 24.04
+
+NOTE - FIRST START X410 AND NEXT START UBUNTU 24.04 TERMINAL.
+
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Paste in terminal: . ~/.bash_Debian_desktop
+
+Type in terminal and start UkUI: dbus-launch ukui-x410
+
+
+Just wait when you start UKUI desktop via UBUNTU 24.04 - UKUI - KYLIN WILL WORK WELL UNDER WSL AND WINDOWS 11 - Ubuntu Kylin
+
+--------------------------------------------
+
+© 2026 Canonical Ltd - Ubuntu and Canonical are registered trademarks of Canonical Ltd.
+
+
+            .__=liiiiiii=__,               
+        ._=liiliii|i|i|iiilii=_.           OS: Ubuntu Kylin 24.04.4 LTS (Noble Numbat) x86_64
+      _=iiiii|ii|i|ii|i|inwwwzii=,         
+    .=liiii|ii|ii|wwww|i3QWWWWziii=,       Host: Windows Subsystem for Linux - Ubuntu-24.04 (2.7.11.0)
+   =lii|i|ii|i|QQQWWWWWm]QWWQD||iiii=      
+  =lii|iiivwQm>3WWWWWQWQQwwQwcii|i|ii=     Kernel: Linux 6.18.33.2-microsoft-standard-WSL2
+ =lii|ii|nQWWWQ|)i|i%i|]TQWWWWm|ii|i|i=   
+.li|i|i|mWWWQV|iiwmD|iiii|TWWWWm|i|iiii,   Windows 11 - WSLg - We have sound =)
+=iiiwww|$WQWk|iaWWWD|i|i|ii]QQWQk|ii|i|=   
+iiiQWWWQz$WW|ijQQWQmw|iiwWk|TTTTYi|i|iii   
+iiIQWQWWtyQQ|i|$WWWWWQWk||i|i|ii||i|ii|i   
+<|i|TTT|mQQWz|i3D]C|nD$W|iivWWWWk||ii|i>   Thank you for testing UKUI desktop via UBUNTU 24.04 - WSL
+-|ii|i|iWWWQw|Tt|i3T|T|i|nQWQWDk|ii|ii`    
+ <|i|iii|VWQWWQ|i|i|||iiwmWWQWD||ii|ii+    
+  <|ii|i|i]$W@tvQQQWQQQWWTTHT1|iii|i|>
+   <|i|ii|ii||vQWWWQWWW@vmWWWm|i|i|i>      FIND ME HERE - https://github.com/vinberg88
+    -<|i|ii|ii|i|TTTTTT|]QQWWWC|ii>`
+      -<|i|ii|i|ii|i|i|ii3TTTt|i>`         Media Mattias Vinberg - Sweden - Stockholm - 2026
+         ~<|ii|ii|iiiii|i|||i>~
+            -~~<|ii|i||i>~~`               Windows 11 Pro Insider Preview (26H2) x86_64
+
+
+Regards Mattias Vinberg - UKUI - KYLIN - UBUNTU - WSL - X410 - Windows 11 - Linux - 2026 - SWEDEN
+
+--------------------------------------------
