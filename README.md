@@ -49,6 +49,59 @@ Fix IP problem Xserver so we can find display - https://github.com/vinberg88/ope
 
 ---------------------------------------------
 
+UKUI and Ubuntu 24.04 - Install Kylin via Ubuntu via Windows 11 - WSL - UKUI - Linux - 2026 -  YouTUBE
+
+📚INSTALL UBUNTU 24.04 VIA POWERSHELL: wsl --install -d Ubuntu-24.04 --name UBUNTU
+
+How to install UKUI / KYLIN via Ubuntu 24.04 - WSL - TEXT via GITHUB
+
+https://github.com/vinberg88/opensuse/blob/main/UBUNTU24.04-UKUI.txt
+
+How to install UKUI / KYLIN via Ubuntu 24.04 - WSL - MOVIE via YouTUBE
+
+https://www.youtube.com/watch?v=5AjrrX8s80Q
+
+X410 - Xserver for windows 11 - So you have a Desktop TO See in Windows 11.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL - Handel WSL image easy and Linux for WSL for windows 11.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="UBUNTU24 04-UKUI" src="https://github.com/user-attachments/assets/193d76fc-1602-4cc8-9e7e-7c3c0bed20e4" />
+
+About Ubuntu for WSL - 2026 - https://ubuntu.com
+
+Ubuntu 24.04 LTS brings more of everything you love about
+Ubuntu Desktop. More features and customisation options, more
+performance and power efficiency and more ways to integrate
+with your existing enterprise management tools. Combined with
+our LTS commitment of five years of updates and security 
+patching, we’re confident that this latest version of the
+Linux Desktop delivers everything needed to empower developers
+and creators in 2022 and beyond. Ubuntu WSL gives you a full
+Ubuntu environment, deeply integrated with Windows, for Linux
+application development and execution. Optimised for
+cloud, web, data science, IoT and fun!
+
+📚 About UKUI Desktop - https://ubuntukylin.com
+
+Ubuntu Kylin is a beautiful Linux operating system optimized
+for Chinese users. Since its creation in 2013, the Ubuntu Kylin
+open source operating system has released 20 
+versions, downloaded more than 32 million times, contributed
+millions of lines of code and over 7400 patches to the open source
+community, and has been accepted by international open source
+communities such as Linux, Debian, Ubuntu, OpenStack, and Ceph.
+For now, we have hundreds of thousands of active users worldwide.
+
+You cane Find More Stufff here About WSL - GWSL - Windows 11 - https://github.com/vinberg88 
+
+Regards Mattias Vinberg - UKUI - KYLIN - UBUNTU 24.04 - WSL - X410 - Windows 11 - Linux - 2026 - SWEDEN
+
+---------------------------------------------
+
 GARUDA and KDE 6 - How to install KDE 6 via GARUDA - X410 - Windows 11 - WSL - Linux - YouTube - 2026
 
 Download GARUDA Linux for WSL here: https://github.com/vinberg88/opensuse/releases/tag/Garuda-linux
