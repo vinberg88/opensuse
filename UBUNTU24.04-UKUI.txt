@@ -3,7 +3,7 @@ UKUI and Ubuntu 24.04 - Install Kylin via Ubuntu via Windows 11 - WSL - UKUI - L
 📚INSTALL UBUNTU 24.04 VIA POWERSHELL: wsl --install -d Ubuntu-24.04 --name UBUNTU
 
 How to install UKUI / KYLIN via Ubuntu 24.04 - WSL - TEXT via GITHUB
-COMMING SONE..
+https://github.com/vinberg88/opensuse/blob/main/UBUNTU24.04-UKUI.txt
 
 How to install UKUI / KYLIN via Ubuntu 24.04 - WSL - MOVIE via YouTUBE
 https://www.youtube.com/watch?v=5AjrrX8s80Q
