@@ -5,7 +5,7 @@ Download ZorinOS - https://github.com/vinberg88/opensuse/releases/tag/ZorinOS
 Press the blue Icon after download and you are alomost done =]
 
 How to install BUDGIE via ZORIN OS 18.1 - WSL - TEXT VIA GITHUB
-Comming Sone..
+https://github.com/vinberg88/opensuse/blob/main/ZORINOS-BUDGIE.txt
 
 How to install BUDGIE via ZORIN OS 18.1 - WSL - MOVIE VIA YOUTUBE
 https://www.youtube.com/watch?v=MJvHGeqLFCw
