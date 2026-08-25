@@ -49,6 +49,63 @@ Fix IP problem Xserver so we can find display - https://github.com/vinberg88/ope
 
 ---------------------------------------------
 
+ZORIN OS and BUDGIE - How to install BUDGIE DESKTOP via ZORIN OS 18 - WSL - Windows 11 - 2026
+
+Download ZorinOS - https://github.com/vinberg88/opensuse/releases/tag/ZorinOS
+
+Press the blue Icon after download and you are alomost done =]
+
+How to install BUDGIE via ZORIN OS 18.1 - WSL - TEXT VIA GITHUB
+
+https://github.com/vinberg88/opensuse/blob/main/ZORINOS-BUDGIE.txt
+
+How to install BUDGIE via ZORIN OS 18.1 - WSL - MOVIE VIA YOUTUBE
+
+https://www.youtube.com/watch?v=MJvHGeqLFCw
+
+<img width="1920" height="1080" alt="ZORINOS-BUDGIE" src="https://github.com/user-attachments/assets/87b8143a-cebc-4eae-a75a-a751efa169ec" />
+
+TOOLS that i USE FOR WSL and ZORIN OS 18
+
+X410 - Xserver for windows 11 - So you have a Console / Desktop TO See for BUDIGE.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Handel WSL image easy and Linux for WSL via This TOOL - Raft WSL
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+                          
+About Zorin OS 18 - 2026 - https://zorin.com/os
+
+Zorin OS is the alternative to Windows and macOS designed
+to make your computer faster, more powerful, secure,
+and privacy-respecting. All while staying familiar
+and simple to use. Zorin OS is designed to be easy,
+so you don't need to learn anything to get started.
+The Zorin Appearance app lets you change the desktop
+layout to feel like the environment you're familiar
+with, whether it's Windows, macOS, or Linux.
+
+ABOUT BUDGIE DESKTOP - 2026 - https://buddiesofbudgie.org
+
+Budgie Menu shows you all your installed applications,
+neatly organized into categories to improve discoverability,
+and with lightning fast application searching! No more
+diving into sub-menus to find the app you need. Make 
+Budgie Your Own With our Budgie Desktop Settings 
+application, you can make Budgie feel like home.
+Whether you want a dock or multiple panels, you can do
+it with just a few clicks. Budgie is available on a wide
+variety of operating systems, from Arch Linux to Ubuntu,
+and everything in between. Try it out today on the flavor
+of Linux of your choosing.
+
+WANT MORE STUFF FOR WSL - LINUX - https://github.com/vinberg88
+
+Regards Mattias Vinberg - BUDGIE - ZorinOS 18 - WSL - X410 - Windows 11 - Linux - 2026 - SWEDEN
+
+---------------------------------------------
+
 UKUI and Ubuntu 24.04 - Install Kylin via Ubuntu via Windows 11 - WSL - UKUI - Linux - 2026 -  YouTUBE
 
 📚INSTALL UBUNTU 24.04 VIA POWERSHELL: wsl --install -d Ubuntu-24.04 --name UBUNTU
