@@ -1,7 +1,7 @@
 TUXEDO and KDE 6 for WSL - How to install KDE 6 via WSL - Linux - Windows 11 - YouTUBE - 2026
 
 How to install KDE 6 via TUXEDO - WSL - TEXT via GitHUB 🔊
-Comming Sone...
+https://github.com/vinberg88/opensuse/blob/main/TUXEDO-OS-KDE6.txt
 
 How to install KDE 6 via TUXEDO - WSL - MOVIE via YouTUBE 📼
 https://www.youtube.com/watch?v=k-THYZFwlLk
