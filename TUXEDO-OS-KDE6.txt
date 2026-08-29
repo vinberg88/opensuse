@@ -1,0 +1,340 @@
+TUXEDO and KDE 6 for WSL - How to install KDE 6 via WSL - Linux - Windows 11 - YouTUBE - 2026
+
+How to install KDE 6 via TUXEDO - WSL - TEXT via GitHUB 🔊
+Comming Sone...
+
+How to install KDE 6 via TUXEDO - WSL - MOVIE via YouTUBE 📼
+https://www.youtube.com/watch?v=k-THYZFwlLk
+
+💹 Download TUXEDO - WSL - https://github.com/vinberg88/opensuse/releases/tag/TUXEDO
+
+TOOLS THAT I USE FOR TUXEDO AND WSL - WINDOWS 11 - KDE 6
+
+X410 - X Server for Windows 11. Find it in Micorsoft store - 🌙
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Linux (WSL) distribution - 🌈
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+
+ #############################+           THANKS FOR TESTING TUXEDO AND KDE 6 FOR WSL - 2026 ❤️
+.%#######################%@@@+            
+            .           :#@%-             OS: Windows 11 Pro for Workstations (25H2) x86_64
+           .#@%%%-     =@@#.              
+             *@%@@=   +@@+                Host: Windows Subsystem for Linux - TUXEDO-OS-WSL (2.9.9.0)
+              =@@%@+.#@%-                 
+               -@@%@@@#:                  Kernel: Linux 6.18.40.1-microsoft-standard-WSL2
+                .#@%%@-                   
+                :#@@%@@=                  OS: TUXEDO OS WSL Base x86_64
+               =@@+=@@%@+                 
+             .#@@=  -@@%@#                FIND ME ON GITHUB: - https://github.com/vinberg88
+            -%@#:    :%@%@%:              
+           *@@+       .#%%%%-             MEDIA MATTIAS VINBERG - STOCKHOLM - SWEDEN - 2026
+         :%@%-              .             
+        +@@@%#%%%%%%%%%%%%%%%%%%%%%%%.    EMAIL - mattiasvinberg@duck.com
+       +######################*******     
+
+
+ABOUT TUXEDO - https://www.tuxedocomputers.com/en/TUXEDO-OS_1.tuxedo - 🙉
+
+Tailor made OS for your TUXEDO via WSL. TUXEDO OS (often
+just called TUXEDO Linux) is a specialized Linux 
+distribution developed by TUXEDO Computers, a German 
+hardware manufacturer that builds laptops and desktop PCs
+specifically designed to run Linux out of the box. 
+One of the biggest selling points for Linux enthusiasts
+is that TUXEDO OS completely removes Canonical's Snap
+package manager. Instead, it relies on traditional .deb
+packages and Flatpaks. This generally results in
+faster application load times and a more traditional
+open-source software management experience.   
+
+About KDE 6 for TUXEDO - WSL - https://kde.org - 🍄
+
+KDE is the next generation desktop for Linux. 
+Use KDE software to surf the web, keep in touch
+with colleagues, friends and family, manage your
+files, enjoy music and videos; and get creative and
+productive at work. The KDE community develops
+and maintains more than 200 applications which
+run on any Linux desktop, and often other platforms
+too. The Plasma Launcher lets you quickly and easily
+launch applications, but it can do much more -- convenient
+tasks like bookmarking applications, searching for documents
+as you type, or navigating to common places help you get
+straight to the point. Try TUXEDO =)
+
+Want more stuff for WSL - WINDOWS 11 - Linux - TUXEDO - 2026
+
+https://github.com/vinberg88/opensuse or https://github.com/vinberg88 🥟
+
+============================================
+
+Now lets start install for TUXEDO And KDE 6
+
+💹 Download TUXEDO from here and press the BLUE Icon and you are done.
+
+https://github.com/vinberg88/opensuse/releases/tag/TUXEDO
+
+It will setup password and user for TUXEDO - Lang and Time for WSL - Easy Setup.
+
+============================================
+
+REBOOT TUXEDO - REBOOT TUXEDO - REBOOT TUXEDO - REBOOT TUXEDO 🎈
+
+============================================
+
+🤪 Run this after reboot for TUXEDO in terminal : tuxedo-wsl doctor
+
+You will see something like this - TUXEDO OS WSL Base 0.2.5
+
+If you see some errors dont worry - it works any way 🔰 
+
+============================================
+
+Distribution:          TUXEDO OS WSL Base
+Version:               24.04.4 LTS
+Kernel:                6.18.40.1-microsoft-standard-WSL2
+WSL:                   ja
+WSLg:                  ja
+Windows interop:       OK
+PID 1:                 systemd
+systemd:               running
+User systemd:          running
+Användare:             tuxedo (uid 1000)
+Locale:                en_US.UTF-8
+DNS:                   OK
+TUXEDO repository:     OK
+Repo policy:           stable
+dpkg:                  OK
+Desktop:               KDE Plasma (plasmashell 6.6.5)
+Plasma Wayland:        /usr/bin/startplasma-wayland
+Plasma X11:            /usr/bin/startplasma-x11
+WSLg GPU bridge:       OK
+Failed units:          0
+User failed units:     0
+
+Status: READY
+
+============================================
+
+Run this Before reboot =) Some programs for KDE and TUXEDO.
+
+sudo apt update
+sudo apt upgrade
+
+sudo apt install -y libxcb-cursor0 systemd-resolved git bash wget curl npm dialog rsync dbus* chroot* xorg* x11*
+
+sudo apt install systemd-t* systemd-u* systemd-o* systemd-h* systemd-j* systemd-z* systemd-b*
+
+sudo apt install network-manager* system-* base* modemmanager* libpam-systemd* networkd-dispatcher netwox*
+
+============================================
+
+Install FLATPAK so that is done for TUXEDO and KDE 6 - Tuxedo is free from SNAPD.
+
+sudo apt install flatpak*
+
+sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+Run this to test FLATPAK: sudo flatpak install flathub re.sonny.Eloquent
+
+
+Whant more programs from Flatpak look here: https://flathub.org
+
+============================================
+
+Install snapd on TUXEDO and KDE 6 just for TUXUDO dont like SNAPD.
+
+
+sudo rm -f /etc/apt/preferences.d/10-tuxedo-snap
+
+sudo apt update
+
+sudo apt install snapd*
+
+
+Install some small programs for TUXEDO and KDE 6
+
+
+sudo snap install snapd
+
+sudo snap install core
+
+sudo snap install network-manager
+
+sudo snap install snap-store
+
+sudo snap install copilot-cli
+
+
+Read about copolitet GitHub Copilot CLI https://github.com/github/copilot-cli
+
+Want more prograns for snapd read here https://snapcraft.io
+
+============================================
+
+REBOOT TUXEDO - REBOOT TUXEDO - REBOOT TUXEDO - REBOOT TUXEDO 🎈
+
+============================================
+
+Now run this and we will install full KDE 6 desktop for TUXEDO and WSL - 2026
+
+Copy and paste in terminal: tuxedo-wsl desktop
+
+Press 1 when asked and it will install full desktop - KDE 6 ⚅ 
+
+============================================
+
+REBOOT TUXEDO - REBOOT TUXEDO - REBOOT TUXEDO - REBOOT TUXEDO 🎈
+
+============================================
+
+Install fastfetch so we can see that all works under WSL and TUXEDO 🥃
+
+wget https://github.com/fastfetch-cli/fastfetch/releases/download/2.67.1/fastfetch-linux-amd64.deb
+sudo apt install ./fastfetch-linux-amd64.deb
+
+To test fastfetch paste this in consloe: fastfetch
+
+
+ #############################+           THANKS FOR TESTING TUXEDO AND KDE 6 FOR WSL - 2026 ❤️
+.%#######################%@@@+            
+            .           :#@%-             OS: Windows 11 Pro for Workstations (25H2) x86_64
+           .#@%%%-     =@@#.              
+             *@%@@=   +@@+                Host: Windows Subsystem for Linux - TUXEDO-OS-WSL (2.9.9.0)
+              =@@%@+.#@%-                 
+               -@@%@@@#:                  Kernel: Linux 6.18.40.1-microsoft-standard-WSL2
+                .#@%%@-                   
+                :#@@%@@=                  OS: TUXEDO OS WSL Base x86_64
+               =@@+=@@%@+                 
+             .#@@=  -@@%@#                FIND ME ON GITHUB: - https://github.com/vinberg88
+            -%@#:    :%@%@%:              
+           *@@+       .#%%%%-             MEDIA MATTIAS VINBERG - STOCKHOLM - SWEDEN - 2026
+         :%@%-              .             
+        +@@@%#%%%%%%%%%%%%%%%%%%%%%%%.    MAIL - mattiasvinberg@duck.com
+       +######################*******     
+                                          
+============================================
+
+Install Chrome browser for TUXEDO OS - WORKS WELL ON LINUX.
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+============================================
+
+Blanket - Listen to diffrent sounds when you work. Best program for Linux.
+
+wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.7.0-1~daily~202404100636~d1fde60~ubuntu24.04.1_all.deb
+sudo apt install ./blanket_0.7.0-1~daily~202404100636~d1fde60~ubuntu24.04.1_all.deb -y
+
+============================================
+
+Install Visual Studio Code so you can work from Microsoft and LINUX - WSL - 2026
+
+
+echo "code code/add-microsoft-repo boolean true" | sudo debconf-set-selections
+
+sudo apt install wget gpg &&
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | sudo gpg --dearmor -o /usr/share/keyrings/microsoft.gpg
+
+sudo nano /etc/apt/sources.list.d/vscode.sources
+
+Types: deb
+URIs: https://packages.microsoft.com/repos/code
+Suites: stable
+Components: main
+Architectures: amd64,arm64,armhf
+Signed-By: /usr/share/keyrings/microsoft.gpg
+
+sudo apt update &&
+sudo apt install code -y 
+
+============================================
+
+Fix IP problem for Xserver - Cant find screen - TUXEDO AND KDE 6
+
+OPEN POWERSHELL AND TYPE: ipconfig
+
+NOTE - Importent to look for ip. Last lines in terminal are IP-numbers for WSL via POWERSHELL.
+
+
+SAVE IP FOR LATER USE LIKE THIS FROM POWERSHELL: 172.30.16.1
+
+
+NOW GO BACK TO TUXEDO Terminal and paste this.
+
+sudo systemctl unmask systemd-resolved.service
+sudo systemctl enable systemd-resolved.service
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.30.16.1  <-- put your ip here from powershell and add nameserver like this.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+IF YOU TYPE WRONG IP ADRESS ALL WILL STOP WORKING - NO STRESS.
+
+DONE - Lot of problem fixed FOR TUXEDO and KDE 6 DESKTOP =]
+
+============================================
+
+Install Gimp so you can paint like a PRO for TUXEDO and KDE 6
+
+sudo apt install gimp gimp-data-extras* -y
+
+============================================
+
+Install LIBREOFFICE so you have a nice OFFICE for TUXEDO AND KDE 6 FOR WSL.
+
+sudo apt install libreoffice -y
+
+============================================
+
+REBOOT TUXEDO - REBOOT TUXEDO - REBOOT TUXEDO - REBOOT TUXEDO 🎈
+
+============================================
+
+You are done and now we can start KDE 6 and TUXEDO for WSL - 2026 - 😲
+
+
+NOTE - lets start X410 and next start TUXEDO for WSL - 2026
+
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Last line to copy and paste in terminal: tuxedo-wsl start x410
+
+
+Just wait 30 sec when you start KDE. It take some time to start KDE 6 for TUXEDO OS
+
+============================================
+
+TEST TUXEDO FROM GERMANY - NICE DIST TO START LERNING LINUX - 2026
+
+ #############################+           THANKS FOR TESTING TUXEDO AND KDE 6 FOR WSL - 2026 ❤️
+.%#######################%@@@+            
+            .           :#@%-             OS: Windows 11 Pro for Workstations (25H2) x86_64
+           .#@%%%-     =@@#.              
+             *@%@@=   +@@+                Host: Windows Subsystem for Linux - TUXEDO-OS-WSL (2.9.9.0)
+              =@@%@+.#@%-                 
+               -@@%@@@#:                  Kernel: Linux 6.18.40.1-microsoft-standard-WSL2
+                .#@%%@-                   
+                :#@@%@@=                  OS: TUXEDO OS WSL Base x86_64
+               =@@+=@@%@+                 
+             .#@@=  -@@%@#                FIND ME ON GITHUB: - https://github.com/vinberg88
+            -%@#:    :%@%@%:              
+           *@@+       .#%%%%-             MEDIA MATTIAS VINBERG - STOCKHOLM - SWEDEN - 2026
+         :%@%-              .             
+        +@@@%#%%%%%%%%%%%%%%%%%%%%%%%.    MAIL - mattiasvinberg@duck.com
+       +######################*******     
+                                          
+============================================
+
+Regards Mattias Vinberg - TUXEDO - KDE 6 - LINUX - WSL - MICROSOFT - X410 - STOCKHOLM - Sweden 💷
+
+============================================
