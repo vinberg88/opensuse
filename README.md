@@ -49,6 +49,65 @@ Fix IP problem Xserver so we can find display - https://github.com/vinberg88/ope
 
 ---------------------------------------------
 
+TUXEDO and KDE 6 for WSL - How to install KDE 6 via WSL - Linux - Windows 11 - YouTUBE - 2026
+
+How to install KDE 6 via TUXEDO - WSL - TEXT via GitHUB 🔊
+
+https://github.com/vinberg88/opensuse/blob/main/TUXEDO-OS-KDE6.txt
+
+How to install KDE 6 via TUXEDO - WSL - MOVIE via YouTUBE 📼
+
+https://www.youtube.com/watch?v=k-THYZFwlLk
+
+💹 Download TUXEDO - WSL - https://github.com/vinberg88/opensuse/releases/tag/TUXEDO
+
+TOOLS THAT I USE FOR TUXEDO AND WSL - WINDOWS 11 - KDE 6
+
+X410 - X Server for Windows 11. Find it in Micorsoft store - 🌙
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL is a powerful tool for managing Linux (WSL) distribution - 🌈
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="TUXEDO-OS-KDE6" src="https://github.com/user-attachments/assets/3e30a9b4-bf7a-461a-aee9-c7d7e3c70f3a" />
+
+ABOUT TUXEDO - https://www.tuxedocomputers.com/en/TUXEDO-OS_1.tuxedo - 🙉
+
+Tailor made OS for your TUXEDO via WSL. TUXEDO OS (often
+just called TUXEDO Linux) is a specialized Linux 
+distribution developed by TUXEDO Computers, a German 
+hardware manufacturer that builds laptops and desktop PCs
+specifically designed to run Linux out of the box. 
+One of the biggest selling points for Linux enthusiasts
+is that TUXEDO OS completely removes Canonical's Snap
+package manager. Instead, it relies on traditional .deb
+packages and Flatpaks. This generally results in
+faster application load times and a more traditional
+open-source software management experience.   
+
+About KDE 6 for TUXEDO - WSL - https://kde.org - 🍄
+
+KDE is the next generation desktop for Linux. 
+Use KDE software to surf the web, keep in touch
+with colleagues, friends and family, manage your
+files, enjoy music and videos; and get creative and
+productive at work. The KDE community develops
+and maintains more than 200 applications which
+run on any Linux desktop, and often other platforms
+too. The Plasma Launcher lets you quickly and easily
+launch applications, but it can do much more -- convenient
+tasks like bookmarking applications, searching for documents
+as you type, or navigating to common places help you get
+straight to the point. Try TUXEDO =)
+
+Want more stuff for WSL - WINDOWS 11 - https://github.com/vinberg88 🥟
+
+Regards Mattias Vinberg - TUXEDO - KDE 6 - LINUX - WSL - MICROSOFT - X410 - STOCKHOLM - Sweden 💷
+
+---------------------------------------------
+
 ZORIN OS and BUDGIE - How to install BUDGIE DESKTOP via ZORIN OS 18 - WSL - Windows 11 - 2026
 
 Download ZorinOS - https://github.com/vinberg88/opensuse/releases/tag/ZorinOS
