@@ -1,0 +1,364 @@
+POP OS 24.04 and BUDGIE - How to install BUDGIE desktop via pop_os - Windows 11 - WSL - X410 - Linux - YouTube - 2026
+
+Download POP_OS 24.04 LTS HERE - WSL image: https://github.com/vinberg88/pop-os-wsl
+
+How to install Budgie Desktop via Windows 11 / POPOS 24.04 and WSL - TEXT VIA GITHUB
+Comming SONE... 
+
+How to install Budgie Desktop via Windows 11 / POP-OS 24.04 and WSL - MOVIE VIA YOUTUBE
+https://www.youtube.com/watch?v=SUH-tY8Bfog
+
+TOOLS that i USE for WSL and POP_OS 24.04 LTS - BUDGIE DESKTOP - LINUX - MICROSOFT 
+
+X410 - Xserver for windows 11 - So you have a Desktop TO See in Windows 11.
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL - Handel WSL image easy and Linux for WSL for windows 11.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+             /////////////                 Thank you for install BUDGIE and POP_OS 24.04 LTS - WSL - ❤️
+         /////////////////////
+      ///////*767////////////////          OS: Pop!_OS trixie/sid (noble) on Windows x86_64
+    //////7676767676*//////////////
+   /////76767//7676767//////////////       Host: Windows Subsystem for Linux - Pop_OS_24.04 (2.9.9.0)
+  /////767676///*76767///////////////
+ ///////767676///76767.///7676*///////     Kernel: Linux 6.18.40.1-microsoft-standard-WSL2
+/////////767676//76767///767676////////
+//////////76767676767////76767/////////    FIND ME HERE - https://github.com/vinberg88
+///////////76767676//////7676//////////
+////////////,7676,///////767///////////    EMAIL: mattiasvinberg@duck.com
+/////////////*7676///////76////////////
+///////////////7676////////////////////    OS: Windows 11 Pro for Workstations (25H2) x86_64
+ ///////////////7676///767////////////
+  //////////////////////'////////////      Windows 11 - WSLg - We have sound =)
+   //////.7676767676767676767,//////
+    /////767676767676767676767/////        Download POP_OS 24.04 LTS - WSL image: https://github.com/vinberg88/pop-os-wsl
+      ///////////////////////////          
+         /////////////////////             Liunx Desktop - BUDGIE - POP_OS 24.04 LTS
+             /////////////                 
+
+About POP_OS 24.04 LTS - https://system76.com - 2026
+
+INTRO VIDEO ABOUT POP_OS 24.04 LTS: https://www.youtube.com/watch?v=IyXzjnd6q3g
+
+Unleash your potential on a Linux operating system made to be
+productive and personal. Pop!_OS is designed to remove obstacles
+from your plate. Updates are fast and flexible to your
+schedule, apps and windows respond quickly to your
+actions, and multi-monitor use feels intuitive and smooth.
+Pop!_OS enables the working environments you need to stay focused 
+and thrive — from navigational features to visual elements.
+Empower teams with vastly different preferences and technical 
+experience across the same systems. PopOS is build on UBUNTU.
+
+ABOUT BUDGIE DESKTOP - 2026 - https://buddiesofbudgie.org
+
+Budgie Menu shows you all your installed applications,
+neatly organized into categories to improve discoverability,
+and with lightning fast application searching! No more
+diving into sub-menus to find the app you need. Make Budgie Your Own
+With our Budgie Desktop Settings application, you can make
+Budgie feel like home. Whether you want a dock or multiple
+panels, you can do it with just a few clicks. Budgie is
+available on a wide variety of operating systems, from Arch
+Linux to Ubuntu, and everything in between. Try it out today
+on the flavor of Linux of your choosing.
+
+Want more about WSL and other desktops: https://github.com/vinberg88
+
+--------------------------------------------
+
+TIME TO START INSTALL OF POP_OS 24.04 LTS AND BUDIGE DESKTOP FOR WSL - 2026
+
+--------------------------------------------
+
+Download POP_OS 24.04 LTS from GitHUB: https://github.com/vinberg88/pop-os-wsl
+
+Press on the Blue Icon that we downloded from GitHUB. That will setup all. User and Password.
+
+AFTER INSTALL RUN THIS IN TERMINAL: pop-wsl doctor
+
+YOU WILL SEE SOMETHING LIKE THIS - GO TO NEXT STEP.
+
+--------------------------------------------
+   
+       Pop!_OS 24.04 WSL Base 0.1.1
+
+--------------------------------------------
+Distribution:          Pop!_OS 24.04 LTS
+Kernel:                6.18.40.1-microsoft-standard-WSL2
+WSL:                   yes
+WSLg:                  yes
+Windows interop:       OK
+PID 1:                 systemd
+systemd:               running
+User systemd:          running
+User D-Bus:            OK
+Failed units:          0
+User:                  adolf
+UID:                   1000
+Locale:                en_US.UTF-8
+Timezone:              Europe/Stockholm
+DNS:                   OK
+Root filesystem:       ext4
+Pop!_OS repositories:  OK
+Desktop:               not installed
+
+Status:                READY
+
+--------------------------------------------
+
+After install UPDATE POP OS 24.04 LTS - 2026
+
+sudo apt update
+sudo apt upgrade -y
+
+--------------------------------------------
+
+FIX DBUS PROBLEM SO Pop_OS 24.04 LTS IS FASTER.
+
+sudo apt install dbus systemd-boot* systemd dbus-broker* dbus-daemon* systemd-resolved* systemd-u* systemd-ukify* dialog rsync
+
+sudo systemctl disable dbus-broker
+sudo systemctl enable dbus
+sudo mkdir -p /run/dbus
+sudo chown messagebus:messagebus /run/dbus
+
+--------------------------------------------
+
+REBOOT POPOS 24.04 LTS - REBOOT POP OS 24.04 LTS - POP_OS 24.04 LTS - REBOOT POP OS 24.04 LTS
+
+--------------------------------------------
+
+Install some programs and setup GDM for BUDGIE - POP_OS 24.04
+
+sudo apt install dbus* bash git npm wget curl pipx dracut systemd pipewire* software-properties-common* -y
+sudo service dbus start
+sudo apt install gdm3* -y
+sudo apt install gdm* -y
+sudo apt install xorg* x11* -y
+sudo systemctl set-default graphical
+
+--------------------------------------------
+
+Time to install Hyfetch - Like Neofetch - POP-OS 24.04 LTS
+
+sudo apt install hyfetch* 
+
+To test Type: hyfetch
+
+
+             /////////////                 Thank you for install BUDGIE and POP_OS 24.04 LTS - WSL - ❤️
+         /////////////////////
+      ///////*767////////////////          OS: Pop!_OS trixie/sid (noble) on Windows x86_64
+    //////7676767676*//////////////
+   /////76767//7676767//////////////       Host: Windows Subsystem for Linux - Pop_OS_24.04 (2.9.9.0)
+  /////767676///*76767///////////////
+ ///////767676///76767.///7676*///////     Kernel: Linux 6.18.40.1-microsoft-standard-WSL2
+/////////767676//76767///767676////////
+//////////76767676767////76767/////////    FIND ME HERE - https://github.com/vinberg88
+///////////76767676//////7676//////////
+////////////,7676,///////767///////////    EMAIL: mattiasvinberg@duck.com
+/////////////*7676///////76////////////
+///////////////7676////////////////////    OS: Windows 11 Pro for Workstations (25H2) x86_64
+ ///////////////7676///767////////////
+  //////////////////////'////////////      Windows 11 - WSLg - We have sound =)
+   //////.7676767676767676767,//////
+    /////767676767676767676767/////        Download POP_OS 24.04 LTS - WSL image: https://github.com/vinberg88/pop-os-wsl
+      ///////////////////////////          
+         /////////////////////             Liunx Desktop - BUDGIE - POP_OS 24.04 LTS
+             /////////////                 
+
+--------------------------------------------
+
+Install Google Chrome Browser - Perfech for Linux - POP OS 24.04
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+--------------------------------------------
+
+Save time by install firefox now via snapd - POP_OS 24.04
+
+sudo apt install snapd*
+
+sudo snap install core
+sudo snap install firefox
+
+--------------------------------------------
+
+Next install BUDGIE Desktop for POP-OS 24.04 - WSL - BUDGIE latest.
+
+sudo apt install budgie-desktop* -y
+sudo apt install budgie* -y
+sudo snap install ubuntu-budgie-welcome --classic
+sudo apt install plank -y
+sudo apt install ubuntu-budgie-themes* -y
+sudo apt install gnome-terminal -y
+
+Install Synapatic and search budige - install all that you can install.
+
+sudo apt install synaptic*
+
+sudo synaptic
+
+NOTE: Select GDM3 if prompted in Console.
+
+------------------------------------------------------
+
+Install Gimp for POP-OS 24.04 and Budgie Desktop
+
+sudo apt install gimp gimp-data-extras -y
+
+--------------------------------------------
+
+Install Blanket if you Want! - Listen to Sounds when you HACK - POP OS 24.04 LTS
+
+sudo add-apt-repository ppa:apandada1/blanket
+
+sudo apt update
+
+sudo apt install blanket
+
+--------------------------------------------
+
+POP_OS 24.04 LTS - Libre Office for BUDIGE DESKTOP
+
+sudo apt install libreoffice -y
+
+--------------------------------------------
+
+             /////////////                 Thank you for install BUDGIE and POP_OS 24.04 LTS - WSL - ❤️
+         /////////////////////
+      ///////*767////////////////          OS: Pop!_OS trixie/sid (noble) on Windows x86_64
+    //////7676767676*//////////////
+   /////76767//7676767//////////////       Host: Windows Subsystem for Linux - Pop_OS_24.04 (2.9.9.0)
+  /////767676///*76767///////////////
+ ///////767676///76767.///7676*///////     Kernel: Linux 6.18.40.1-microsoft-standard-WSL2
+/////////767676//76767///767676////////
+//////////76767676767////76767/////////    FIND ME HERE - https://github.com/vinberg88
+///////////76767676//////7676//////////
+////////////,7676,///////767///////////    EMAIL: mattiasvinberg@duck.com
+/////////////*7676///////76////////////
+///////////////7676////////////////////    OS: Windows 11 Pro for Workstations (25H2) x86_64
+ ///////////////7676///767////////////
+  //////////////////////'////////////      Windows 11 - WSLg - We have sound =)
+   //////.7676767676767676767,//////
+    /////767676767676767676767/////        Download POP_OS 24.04 LTS - WSL image: https://github.com/vinberg88/pop-os-wsl
+      ///////////////////////////          
+         /////////////////////             Liunx Desktop - BUDGIE - POP_OS 24.04 LTS
+             /////////////                 
+
+--------------------------------------------
+
+Fix IP problem for X410. Cant find screen problem. Look for ip adress in windows terminal / PowerShell: ipconfig
+
+FIRST OPEN POWERSHELL AND TYPE: ipconfig
+
+Last lines are IP-number for WSL.
+
+SAVE IP HERE FOR WSL FROM POWERSHELL: 172.30.16.1
+
+GO BACK TO POP OS 24.04 LTS Terminal AND COPY AND PASTE THIS IN TERMINAL.
+
+sudo systemctl unmask systemd-resolved.service
+sudo systemctl enable systemd-resolved.service
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.30.16.1 <-- put your ip here from powershell and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed for POP OS 24.04 LTS and BUDGIE desktop.
+
+------------------------------------------------------
+
+Paste in Terminal and Press enter - BUDGIE - POP-OS 24.04 LTS - 2025
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+------------------------------------------------------
+
+Type this in terminal and put your username there for Linux: sudo loginctl enable-linger adolf
+
+-------------------------------------------------------------
+
+In terminal type: sudo nano ~/.bash_Ubuntu_desktop
+
+Paste this small script in terminal and save and quit nano.
+
+GNOME_SHELL_SESSION_MODE=Budgie:GNOME
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+-------------------------------------------
+
+Paste all and INSTALL =] - POP_OS 24.04 LTS - BUDGIE DE
+
+sudo apt install daemonize*
+
+git clone https://github.com/DamionGans/ubuntu-wsl2-systemd-script.git
+cd ubuntu-wsl2-systemd-script/
+bash ubuntu-wsl2-systemd-script.sh 
+
+--------------------------------------------
+
+REBOOT POPOS 24.04 LTS - REBOOT POP OS 24.04 LTS - POP_OS 24.04 LTS - REBOOT POP OS 24.04 LTS
+
+--------------------------------------------
+
+Start BUDGIE Desktop via this lines - POP OS 24.04 LTS - BUDGIE DESKTOP
+
+
+NOTE: FIRST START x410 THEN YOU START POP OS 24.04 LTS terminal.
+
+
+Copy and Paste: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Copy and Paste: . ~/.bash_Ubuntu_desktop
+
+Copy and Paste: xhost +
+
+Start Budgie Desktop: budgie-desktop 
+
+
+--------------------------------------------
+
+             /////////////                 Thank you for install BUDGIE and POP_OS 24.04 LTS - WSL - ❤️
+         /////////////////////
+      ///////*767////////////////          OS: Pop!_OS trixie/sid (noble) on Windows x86_64
+    //////7676767676*//////////////
+   /////76767//7676767//////////////       Host: Windows Subsystem for Linux - Pop_OS_24.04 (2.9.9.0)
+  /////767676///*76767///////////////
+ ///////767676///76767.///7676*///////     Kernel: Linux 6.18.40.1-microsoft-standard-WSL2
+/////////767676//76767///767676////////
+//////////76767676767////76767/////////    FIND ME HERE - https://github.com/vinberg88
+///////////76767676//////7676//////////
+////////////,7676,///////767///////////    EMAIL: mattiasvinberg@duck.com
+/////////////*7676///////76////////////
+///////////////7676////////////////////    OS: Windows 11 Pro for Workstations (25H2) x86_64
+ ///////////////7676///767////////////
+  //////////////////////'////////////      Windows 11 - WSLg - We have sound =)
+   //////.7676767676767676767,//////
+    /////767676767676767676767/////        Download POP_OS 24.04 LTS - WSL image: https://github.com/vinberg88/pop-os-wsl
+      ///////////////////////////          
+         /////////////////////             Liunx Desktop - BUDGIE - POP_OS 24.04 LTS
+             /////////////                 
+
+--------------------------------------------
+
+Regards Mattias Vinberg - BUDGIE DESKTOP - POP_OS 24.04 LTS - WSL - X410 - Windows 11 - Linux - 2026 - SWEDEN
+
+--------------------------------------------
