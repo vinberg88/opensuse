@@ -49,6 +49,63 @@ Fix IP problem Xserver so we can find display - https://github.com/vinberg88/ope
 
 ---------------------------------------------
 
+POP OS 24.04 and BUDGIE - How to install BUDGIE desktop via pop_os - Windows 11 - WSL - X410 - Linux - YouTube - 2026
+
+Download POP_OS 24.04 LTS HERE - WSL image: https://github.com/vinberg88/pop-os-wsl
+
+How to install Budgie Desktop via Windows 11 / POPOS 24.04 and WSL - TEXT VIA GITHUB
+
+https://github.com/vinberg88/opensuse/blob/main/POP-OS-BUDGIE.txt 
+
+How to install Budgie Desktop via Windows 11 / POP-OS 24.04 and WSL - MOVIE VIA YOUTUBE
+
+https://www.youtube.com/watch?v=SUH-tY8Bfog
+
+TOOLS that i USE for WSL and POP_OS 24.04 LTS - BUDGIE DESKTOP - LINUX - MICROSOFT 
+
+X410 - Xserver for windows 11 - So you have a Desktop TO See in Windows 11.
+
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL - Handel WSL image easy and Linux for WSL for windows 11.
+
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+<img width="1920" height="1080" alt="POP-OS-BUDGIE" src="https://github.com/user-attachments/assets/b632a554-c929-49c2-92c6-f03e486c4133" />
+
+About POP_OS 24.04 LTS - https://system76.com - 2026
+
+INTRO VIDEO ABOUT POP_OS 24.04 LTS: https://www.youtube.com/watch?v=IyXzjnd6q3g
+
+Unleash your potential on a Linux operating system made to be
+productive and personal. Pop!_OS is designed to remove obstacles
+from your plate. Updates are fast and flexible to your
+schedule, apps and windows respond quickly to your
+actions, and multi-monitor use feels intuitive and smooth.
+Pop!_OS enables the working environments you need to stay focused 
+and thrive — from navigational features to visual elements.
+Empower teams with vastly different preferences and technical 
+experience across the same systems. PopOS is build on UBUNTU.
+
+ABOUT BUDGIE DESKTOP - 2026 - https://buddiesofbudgie.org
+
+Budgie Menu shows you all your installed applications,
+neatly organized into categories to improve discoverability,
+and with lightning fast application searching! No more
+diving into sub-menus to find the app you need. Make Budgie Your Own
+With our Budgie Desktop Settings application, you can make
+Budgie feel like home. Whether you want a dock or multiple
+panels, you can do it with just a few clicks. Budgie is
+available on a wide variety of operating systems, from Arch
+Linux to Ubuntu, and everything in between. Try it out today
+on the flavor of Linux of your choosing.
+
+Want more about WSL and other desktops: https://github.com/vinberg88
+
+Regards Mattias Vinberg - BUDGIE DESKTOP - POP_OS 24.04 LTS - WSL - Windows 11 - 2026 - SWEDEN
+
+--------------------------------------------
+
 TUXEDO and KDE 6 for WSL - How to install KDE 6 via WSL - Linux - Windows 11 - YouTUBE - 2026
 
 How to install KDE 6 via TUXEDO - WSL - TEXT via GitHUB 🔊
