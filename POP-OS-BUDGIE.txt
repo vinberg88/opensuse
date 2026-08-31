@@ -3,7 +3,7 @@ POP OS 24.04 and BUDGIE - How to install BUDGIE desktop via pop_os - Windows 11 
 Download POP_OS 24.04 LTS HERE - WSL image: https://github.com/vinberg88/pop-os-wsl
 
 How to install Budgie Desktop via Windows 11 / POPOS 24.04 and WSL - TEXT VIA GITHUB
-Comming SONE... 
+https://github.com/vinberg88/opensuse/blob/main/POP-OS-BUDGIE.txt
 
 How to install Budgie Desktop via Windows 11 / POP-OS 24.04 and WSL - MOVIE VIA YOUTUBE
 https://www.youtube.com/watch?v=SUH-tY8Bfog
