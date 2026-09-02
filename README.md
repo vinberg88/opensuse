@@ -1,12 +1,8 @@
----
+NEWS
 
 Rebulding WSL project so all Linux distros will have there own repo
 
 Starting to user: POP_OS 24.04: https://github.com/vinberg88/pop-os-wsl
-
----
-
-Starting here - POP.OS 24.04 LTS: https://github.com/vinberg88/pop-os-wsl 
 
 <meta name="google-site-verification" content="YTE6KNAH688qJUuSz1c7AYMcH7jA3K_T_vonABzvjx8" />
 
