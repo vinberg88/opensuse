@@ -1,3 +1,6 @@
+I am rebuilding all so there will be a new repo for distros - It's getting messy now.
+
+Starting here - POP.OS 24.04 LTS: https://github.com/vinberg88/pop-os-wsl 
 
 <meta name="google-site-verification" content="YTE6KNAH688qJUuSz1c7AYMcH7jA3K_T_vonABzvjx8" />
 
