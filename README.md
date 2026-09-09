@@ -1,10 +1,16 @@
 NEWS
 
-Rebulding WSL project so all Linux distros will have there own repo for GitHUB
+---
 
-POP_OS 24.04: https://github.com/vinberg88/pop-os-wsl
+Rebulding WSL project so all Linux distros will have there own repo from GitHUB
 
-ParrotOS - Latest edition: https://github.com/vinberg88/ParrotOS
+POP! OS 24.04 LTS: https://github.com/vinberg88/pop-os-wsl
+
+ParrotOS for WSL - Latest edition: https://github.com/vinberg88/ParrotOS
+
+CachyOS for WSL - Arch distro that works: https://github.com/vinberg88/cachyos
+
+---
 
 <meta name="google-site-verification" content="YTE6KNAH688qJUuSz1c7AYMcH7jA3K_T_vonABzvjx8" />
 
