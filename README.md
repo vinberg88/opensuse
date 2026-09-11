@@ -2,15 +2,25 @@ NEWS
 
 ---
 
-Rebulding WSL project so all Linux distros will have there own repo via GitHUB and desktop is installd - EASY SETUP.
+NEWS: Will build so all WSL image have there own WSL page. This will take some time =)
 
-POP!_OS 24.04 LTS for WSL: https://github.com/vinberg88/pop-os-wsl
+Rebulding WSL projects so all Linux distros will have there own repo via GitHUB - EASY SETUP AND USE.
+
+Debian 13 and Debian 14 for WSL - https://github.com/vinberg88/debian
+
+POP!_OS 24.04 LTS for WSL - https://github.com/vinberg88/pop-os-wsl
 
 ParrotOS for WSL - https://github.com/vinberg88/ParrotOS
 
 CachyOS for WSL - https://github.com/vinberg88/cachyos
 
 Manjaro for WSL - https://github.com/vinberg88/manjaro
+
+Ubuntu for WSL - https://github.com/vinberg88/ubuntu
+
+Watch Movies from YouTUBE - WSL - https://www.youtube.com/@mattiasvinberg
+
+Information about WSL - https://vinberg88.github.io
 
 ---
 
