@@ -22,7 +22,7 @@ Ubuntu for WSL - https://github.com/vinberg88/ubuntu
 
 Watch Movies from YouTUBE - WSL - https://www.youtube.com/@mattiasvinberg
 
-Information about WSL - https://vinberg88.github.io
+Information about WSL and other stuff - https://github.com/vinberg88
 
 ---
 
