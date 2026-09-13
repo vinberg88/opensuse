@@ -6,6 +6,8 @@ NEWS: Will build so all WSL image have there own WSL page. This will take some t
 
 Rebulding WSL projects so all Linux distros will have there own repo via GitHUB - EASY SETUP AND USE.
 
+ALmalinux 10 for WSL - https://github.com/vinberg88/almalinux
+
 Debian 13 and Debian 14 for WSL - https://github.com/vinberg88/debian
 
 POP!_OS 24.04 LTS for WSL - https://github.com/vinberg88/pop-os-wsl
